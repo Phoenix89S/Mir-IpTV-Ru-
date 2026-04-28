@@ -1,12 +1,12 @@
 import requests
 import re
 from collections import defaultdict
+from datetime import datetime
 
 # Множество источников плейлистов
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
     # Добавьте сюда другие источники, если есть
-    # "https://example.com/playlist.m3u",
 ]
 
 # Структура групп с орбитами
@@ -20,11 +20,9 @@ CHANNEL_GROUPS = {
         "4.6": "НТВ HD",
     },
     # Добавьте сюда другие группы по аналогии
-    # "Первый канал": {
-    #     "1.1": "Первый канал",
-    #     "1.2": "Первый канал HD",
-    # },
 }
+
+OUTPUT_FILE = "Test_Channels_Mir_2026.m3u8"
 
 def get_links_from_m3u(url):
     """Получить каналы из m3u файла"""
@@ -48,6 +46,8 @@ def find_group_and_orbit(channel_name, channel_groups):
     return "Прочее", None, channel_name
 
 def main():
+    print(f"🚀 Начало обновления плейлиста: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
     all_channels = defaultdict(lambda: defaultdict(list))  # group -> orbit -> [(name, link)]
     seen_links = set()  # Для отслеживания дубликатов
 
@@ -55,26 +55,27 @@ def main():
     for url in GITHUB_PLAYLISTS:
         print(f"📥 Загружаю из: {url}")
         items = get_links_from_m3u(url)
+        print(f"   ✅ Найдено {len(items)} каналов из этого источника")
+        
         for name, link in items:
             name = name.strip()
             link = link.strip()
             
             # Пропускаем дубли (если ссылка уже есть)
             if link in seen_links:
-                print(f"⏭️  Пропуск дубля: {name}")
                 continue
             
             seen_links.add(link)
             group, orbit, keyword = find_group_and_orbit(name, CHANNEL_GROUPS)
             all_channels[group][orbit].append((name, link))
 
-    # Формируем итоговый плейлист
-    with open("playlist.m3u8", "w", encoding="utf-8") as f:
+    # Формируем итоговый плейлист в файл
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
         # Сортируем группы по приоритету (числовому коду первой орбиты)
         sorted_groups = sorted(all_channels.items(), 
-                               key=lambda x: (float(list(x[1].keys())[0].split('.')[0]), x[0]))
+                               key=lambda x: (float(list(x[1].keys())[0].split('.')[0]) if list(x[1].keys()) and list(x[1].keys())[0][0].isdigit() else float('inf'), x[0]))
         
         for group_idx, (group_name, orbits) in enumerate(sorted_groups, 1):
             print(f"\n📺 Группа {group_idx}: {group_name}")
@@ -98,6 +99,8 @@ def main():
     total_channels = sum(len(channels) for orbits in all_channels.values() 
                         for channels in orbits.values())
     print(f"\n✅ Готово! Всего уникальных каналов: {total_channels}")
+    print(f"📁 Файл сохранён: {OUTPUT_FILE}")
+    print(f"⏰ Обновление завершено: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 if __name__ == "__main__":
     main()
