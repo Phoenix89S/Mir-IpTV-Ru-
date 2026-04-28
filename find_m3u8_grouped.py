@@ -5,11 +5,13 @@ from datetime import datetime
 
 # Источники плейлистов
 GITHUB_PLAYLISTS = [
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u", # Новый источник
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
     "http://rafail1982.uz/playlists/LIST2.m3u",
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
+    "http://rafail1982.uz/playlists/DIMONOVICH.m3u",  # Новый источник добавлен
 ]
+
 
 # Группы для сортировки
 CHANNEL_GROUPS = {
