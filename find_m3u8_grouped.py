@@ -6,7 +6,7 @@ from datetime import datetime
 # Множество источников плейлистов
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
-http://rafail1982.uz/playlists/LIST2.m3u
+"http://rafail1982.uz/playlists/LIST2.m3u",
 
     # Добавьте сюда другие источники, если есть
 ]
