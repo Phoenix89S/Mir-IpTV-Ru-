@@ -9,13 +9,35 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
     "http://rafail1982.uz/playlists/LIST2.m3u",
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
-    "http://rafail1982.uz/playlists/DIMONOVICH.m3u",  # Новый источник добавлен
+    "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
+    "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
 ]
 
 
 # Группы для сортировки
 CHANNEL_GROUPS = {
-    "НТВ": {
+    " Кнопка 3 РТРС:  Матч": {
+        "3.0": "Матч",
+        "3.1": "Матч SD",
+        "3.2": "Матч HD",
+        "3.3.1": "Матч +0",
+        "3.3.2": "Матч +1",
+        "3.3.3": "Матч +2",
+        "3.3.4": "Матч +3",
+        "3.3.5": "Матч +4",
+        "3.3.6": "Матч +5",
+        "3.3.7": "Матч +6",
+        "3.3.8": "Матч +7",
+        "3.3.9": "Матч +8",
+        "3.4.1": "Матч Футбол 1",
+        "3.4.2": "Матч Футбол 2",
+        "3.4.3": "Матч Футбол 3",
+        "3.5": "Матч Страна",
+        "3.6": "Матч Планета",
+        "3.7": "Матч Игра",
+        "3.8": "Матч Боец",
+    },
+    " Кнопка 4 РТРС:  НТВ": {
         "4.1": "НТВ",
         "4.2": "НТВ Мир",
         "4.3": "НТВ Стиль",
@@ -120,7 +142,7 @@ def main():
 
             for orbit, channels_list in sorted_orbits:
                 for ch_idx, (meta, link, name) in enumerate(channels_list, 1):
-                    
+
                     display_name = name
                     if orbit != "999":
                         full_orbit = f"{orbit}.{ch_idx}" if len(channels_list) > 1 else orbit
