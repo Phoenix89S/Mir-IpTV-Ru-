@@ -17,6 +17,8 @@ http://sc.id-tv.kz/1KanalEvraziya.m3u8
 https://streaming.thestream.cyou/live/210.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 1.0.9 ПЕРВЫЙ КАНАЛ
 http://31.131.141.195:8000/play/1010/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 1.0.10 Первый канал (1080p)
+http://31.148.48.15/Pervii_kanal_HD/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.0.1 Россия 1 +1
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.0.2 Россия 1 +2
@@ -47,6 +49,10 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/1080p.m3u8
 http://31.131.141.195:8000/play/1020/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.0.15 Россия 1 HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.0.16 Россия 1 (+6) (576p)
+http://31.148.48.15/Rossiya_1/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.0.17 Россия 1 HD (Архангельск) (1080p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.1.1 Россия 24 (576p) [Not 24/7]
 https://uiptv.do.am/1ufc/000000006/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.1.2 РОССИЯ 24
@@ -59,6 +65,8 @@ http://31.131.141.195:8000/play/1070/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.1.6 Россия 24 HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/720p.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.1.7 Россия 24 (Хабаровск) (1080p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/habarovsk/russia24-sd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.2.1 Россия Культура (Архив)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.2.2 Россия Культура +7 (Архив)
@@ -85,12 +93,16 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/track_102_1f3a2163/chunklist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.4.1 Восток 24
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.4.2 Восток 24 (Владивосток) (1080p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.5.1 Запад 24 (Калининград)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.6.1 Кавказ 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.7.1 Сибирь 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.7.2 Сибирь 24 (Красноярск) (1080p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.9.1 Урал 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.4.1 Planeta RTR
@@ -139,10 +151,20 @@ https://cdn.ntv.ru/th_pravo/playlist.m3u8
 https://cdn.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.22 НТВ Стиль
 http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.23 НТВ (+4) (576p)
+http://31.148.48.15/NTV/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.24 НТВ Мир
+https://streaming.thestream.cyou/live/213.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.25 НТВ Стиль (576p)
+https://cdn.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.26 НТВ Хит (576p)
+https://cdn.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.2.1 Неизвестная Россия HD
 http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.2.2 Неизвестная Россия
 https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.2.3 Неизвестная Россия (1080p)
+https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.8.1 НТВ HD
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=axRffiS5liMxVxTYAWBEzQ&e=1752089014&scheme=https
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.8.2 НТВ HD
@@ -183,6 +205,8 @@ http://31.131.141.195:8000/play/1090/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 9.0.5 Точка Отрыва
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 9.0.6 ОТР (576p)
+http://31.148.48.15/OTR/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 10.0.1 ТВЦ
 http://31.131.141.195:8000/play/1100/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 10.1.1 ТВ Центр
@@ -195,6 +219,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 10.1.5 ТВ Центр
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 10.1.6 ТВ Центр International (720p)
+https://cdn4.skygo.mn/live/disk1/TV_center/HLSv3-FTA/TV_center.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.1 Рен ТВ
 http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.2 Рен ТВ (Архив)
@@ -211,10 +237,14 @@ http://31.131.141.195:8000/play/2010/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.8 Рен ТВ Int
 http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.9 РЕН ТВ International (720p)
+https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 12.0.1 Спас
 http://77.232.131.211/Spas/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 12.0.2 Спас
 http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 12.0.3 Спас (450p) [Geo-blocked]
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.1 СТС Kids
 http://31.148.48.15/STS_Kids_HD/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.2 Русский бестселлер
@@ -241,6 +271,12 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_7/variant.m3u8
 http://158.101.222.193:88/georgia_play.php?id=ctctv
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.13 СТС Love
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.14 Русский Бестселлер (576p)
+http://31.148.48.15/Russkiy_Bestseller/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.15 СТС (+4) (576p)
+http://31.148.48.15/STS/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.16 СТС International (720p)
+https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.1 Домашний (Архив)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.2 Домашний +7 (Архив)
@@ -265,6 +301,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
 http://178.217.72.66:8080/Pyatnitsa/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.7 Пятница! Int.
 http://158.101.222.193:88/georgia_play.php?id=friday
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.8 Пятница! International (576p)
+https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.1 Звезда (1080p) [Not 24/7]
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.2 Звезда
@@ -277,6 +315,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.6 Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.7 Звезда (1080p)
+https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.8 Звезда Плюс (1080p)
+http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.1 Конный Мир
 https://cdn-01.bonus-tv.ru/kmir/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.2 Мир (1080p) [Not 24/7]
@@ -323,6 +365,8 @@ http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
 http://31.131.141.195:8000/play/a003/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.23 В мире животных
 https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.24 Мир (+4) (576p)
+http://31.148.48.15/Mir/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.1 ТНТ HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2XjsQAt9HCL3dZVuLUNKyA&e=1752089014&scheme=https
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.2 ТНТ4 HD
@@ -351,6 +395,12 @@ https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=M9H6z-O74nqbdC30HqutIw&e=2070623480&scheme=https
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.14 ТНТ4
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.15 ТНТ4 (576p)
+http://31.148.48.15/TNT4/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.16 ТНТ (+4) (576p)
+http://31.148.48.15/TNT/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.17 ТНТ International (480p)
+https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 21.1.1 Абакан 24
 https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 21.1.2 РТС - Абакан
@@ -379,8 +429,14 @@ https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_CHEL/variant.m3u8
 http://5.183.155.8:88/stream.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.0.11 ЮТВ Чебоксары
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.0.12 Сити Эдем Классическая Музыка [Not 24/7]
+https://cityeden.catcast.tv/content/47400/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.0.13 Че! (576p)
+http://31.148.48.15/Che/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.5.1 Перец Int.
 http://158.101.222.193:88/georgia_play.php?id=perec
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.7.1 Перец International (576p)
+https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.1 Солнце (576p)
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.2 Солнце
@@ -403,6 +459,8 @@ http://178.217.72.66:8080/2x2/index.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.5 2x2
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.0.1 RU.TV (576p)
+http://31.148.48.15/RU_TV/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.1.1 RU TV HD
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.2.1 Астрахань.Ru TV (480p)
@@ -437,6 +495,12 @@ https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.13 Санкт-Петербург
 https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.14 Россия-РТР
+https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.15 Россия-РТР
+https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.16 Смотрим Честный Детектив (1080p)
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 #EXTINF:-1 group-title="Общие",360° (1080p)
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
 #EXTINF:-1 group-title="Общие",360° (720p)
@@ -1987,3 +2051,821 @@ https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
 #EXTINF:-1 group-title="Общие",Ямал-Регион
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
+#EXTINF:-1 group-title="Общие",3ABN Kids Network
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",4 Fun Kids (576i) [[Not 24/7]]
+https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
+#EXTINF:-1 group-title="Общие",9Go! (720p) [Geo-blocked]
+https://9now-livestreams.akamaized.net/hls/live/2008312/go-syd/master.m3u8
+#EXTINF:-1 group-title="Общие",13 Kids (1080p)
+https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
+#EXTINF:-1 group-title="Общие",ABC Entertains (720p)
+https://c.mjh.nz/abc-me.m3u8
+#EXTINF:-1 group-title="Общие",ABC Kids
+https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 group-title="Общие",ADO TV (720p)
+https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Afarin Baxcha (1080p)
+https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Afarin TV (720p) [Not 24/7]
+https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Aghapy Kids (1080p)
+https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Amou Yazid TV (576p)
+http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Ani (576p)
+http://31.148.48.15/Ani/index.m3u8
+#EXTINF:-1 group-title="Общие",ARB Gunes
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-gunes.m3u8
+#EXTINF:-1 group-title="Общие",Atfal & Mawaheb TV (1080p)
+https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Avatar
+https://jmp2.uk/plu-600adbdf8c554e00072125c9.m3u8
+#EXTINF:-1 group-title="Общие",Avatar
+https://jmp2.uk/plu-656df599c0fc8800089c75ab.m3u8
+#EXTINF:-1 group-title="Общие",Baby Shark TV
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Baby Shark TV (1080p)
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Babyfirst
+https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
+#EXTINF:-1 group-title="Общие",BabyTV Turkiye (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/babytv/index.m3u8
+#EXTINF:-1 group-title="Общие",Balapan TV (1080p)
+https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Bang Bang (480p)
+https://digitalb-live.morescreens.com/DAL_1_004/playlist.m3u8?application_id=backoffice1&application_installation_id=1&authority_instance_id=spectar-prd-digitalb&detected_delivery_method=hls&id=DAL_1_004&playlist_template=nginx&profile_id=1&ps=6ca6054c4d6f9fafd6e3202ad620d4cc30ee45fdbbf1526cab3fdcac143b283d2f7251b3babf442b3a4fb90820abcc0cfaab2bff9a76799adc92b09fa0151f25&subscriber_id=1&token=142cda7d50870275a9ca7988ff001b32ab30709b&uuid=backoffice1&vh=7edb2a069c1d9e1872251cc87e99c568dfd18769f97905bd1dcaf519b259c970f880a1c43b6a7392ac496426adb0e55a2f6dbb06981536af9c1c987416282783&video_id=16377
+#EXTINF:-1 group-title="Общие",Banijay Mr Bean Animé (1080p)
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
+#EXTINF:-1 group-title="Общие",BBC Four/CBeebies (1080p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8
+#EXTINF:-1 group-title="Общие",BBC Kids (720p)
+https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
+#EXTINF:-1 group-title="Общие",BBC Three/CBBC (1080p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8
+#EXTINF:-1 group-title="Общие",BeJoy.kids (1080p)
+https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Biznet Kids (1080p)
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
+#EXTINF:-1 group-title="Общие",Bolajon (576p)
+https://stream8.cinerama.uz/1007/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Brat TV (1080p)
+https://brat-samsung-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Bravo! Kids TV (1080p)
+https://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8
+#EXTINF:-1 group-title="Общие",BRTV Kaku Childrens Channel
+http://49.113.179.174:4022/udp/238.125.2.216:5140
+#EXTINF:-1 group-title="Общие",Camp Spoopy (576p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
+#EXTINF:-1 group-title="Общие",Canal J HD (720p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8
+#EXTINF:-1 group-title="Общие",Carousel (1080p)
+http://31.148.48.15/Karusel_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Cartoon Classics (1080p)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8?ads.vf=yqk-v2F2pNi
+#EXTINF:-1 group-title="Общие",CBBC HD (1080p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_mse_v0_hevc.mpd
+#EXTINF:-1 group-title="Общие",CBeebies Asia (720p)
+https://cdn10jtedge.indihometv.com/atm/DASH/cbeebies/manifest.mpd
+#EXTINF:-1 group-title="Общие",CBeebies HD (1080p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_mse_v0_hevc.mpd
+#EXTINF:-1 group-title="Общие",Chinola TV (480p)
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+#EXTINF:-1 group-title="Общие",Chithiram (576p)
+https://cdn-6.pishow.tv/live/1243/master.m3u8
+#EXTINF:-1 group-title="Общие",Christian Youth Channel (CYC) (1080p)
+http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Clan Internacional Americas (1080p) [Geo-blocked]
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
+#EXTINF:-1 group-title="Общие",Clan TVE (1080p) [Geo-blocked]
+https://ztnr.rtve.es/ztnr/5466990.m3u8
+#EXTINF:-1 group-title="Общие",ČT:D/ČT art (1080p)
+http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Cufo
+https://digitalb-live.morescreens.com/DAL_1_005/playlist.m3u8?application_id=backoffice1&application_installation_id=1&authority_instance_id=spectar-prd-digitalb&detected_delivery_method=hls&id=DAL_1_005&playlist_template=nginx&profile_id=1&ps=94d0066599d8f74d1c090e93ac4617b6491d3629d2e2d770870fcef1f7effa25b204aa53b3821da5e9e65bee8e94331bcae2cb344d0739ca3a938b4ef2051cc8&subscriber_id=1&token=142cda7d50870275a9ca7988ff001b32ab30709b&uuid=backoffice1&vh=7ab82e63aae8510c6b37ea16da502e54e441a5a1a88bce0c8ed63da99bce948d86253d64ae00424dda8b9c8b6e2cd0f6cd79d8b0a56e10759210cdf4f6761d11&video_id=12498
+#EXTINF:-1 group-title="Общие",Dios Te Ve Kids (720p)
+https://s.emisoras.tv:8081/diostevekids/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Channel (576p)
+http://84.54.128.52:9090/play/3006/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Channel (576p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8
+#EXTINF:-1 group-title="Общие",Disney Channel (576p)
+http://103.182.170.32:8888/play/a04g
+#EXTINF:-1 group-title="Общие",Disney Channel (1080p)
+http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Channel East (720p) [Not 24/7]
+https://tvpass.org/live/DisneyChannelEast/hd
+#EXTINF:-1 group-title="Общие",Disney Channel Japan (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
+#EXTINF:-1 group-title="Общие",Disney Channel Latin America (1080p)
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32.playlist.m3u8
+#EXTINF:-1 group-title="Общие",Disney International HD (1080p)
+http://116.90.120.151:8000/play/a0hp/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Jr. (1080p)
+http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Jr. (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney Jr. Latin America South
+http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 group-title="Общие",Disney Junior (576p)
+https://bbb.exoadash.com/TVD1561/index.mpd
+#EXTINF:-1 group-title="Общие",Disney Junior (1080i)
+http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+#EXTINF:-1 group-title="Общие",Disney XD East (720p) [Not 24/7]
+https://tvpass.org/live/DisneyXDEast/hd
+#EXTINF:-1 group-title="Общие",DR Ramasjang (720p) [Geo-blocked]
+https://drlive03hls.akamaized.net/hls/live/2014190/drlive03/master.m3u8
+#EXTINF:-1 group-title="Общие",ducktv (720p)
+https://jmp2.uk/stvp-ESBC4700001GR
+#EXTINF:-1 group-title="Общие",EBS kids (400p) [Not 24/7]
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="Общие",ETV2 (720p)
+https://sb.err.ee/live/etv2.m3u8
+#EXTINF:-1 group-title="Общие",Eureka (1080p) [Geo-blocked]
+https://mdstrm.com/live-stream-playlist/6952e02d19eabace52e2885f.m3u8
+#EXTINF:-1 group-title="Общие",Extrema Kids TV [Not 24/7]
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Forever Kids
+https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
+#EXTINF:-1 group-title="Общие",France 4 HD (720p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd
+#EXTINF:-1 group-title="Общие",Garfield and Friends
+https://jmp2.uk/plu-60faf9ddfcc1f200070a5932.m3u8
+#EXTINF:-1 group-title="Общие",GEM Junior
+https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202
+#EXTINF:-1 group-title="Общие",GEM Kids
+https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202
+#EXTINF:-1 group-title="Общие",Gloob (576p)
+http://45.235.0.78/Gloob/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Gloob Web [Not 24/7]
+https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
+#EXTINF:-1 group-title="Общие",Gulli (720p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/gulli/browser-dash/gulli.mpd
+#EXTINF:-1 group-title="Общие",HappyKids (1080p)
+https://dil9xdvretp0f.cloudfront.net/index.m3u8
+#EXTINF:-1 group-title="Общие",Hungama TV (576p)
+https://mini.allinonereborn.fun/tata.php?id=11647
+#EXTINF:-1 group-title="Общие",Iunior TV (1080p)
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
+#EXTINF:-1 group-title="Общие",Japanim TV (1080p)
+https://foxkidstv.be:3369/stream/play.m3u8
+#EXTINF:-1 group-title="Общие",JiaJia Cartoon
+http://49.113.179.174:4022/udp/238.125.0.158:5140
+#EXTINF:-1 group-title="Общие",Jiangxi Children's Channel
+https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
+#EXTINF:-1 group-title="Общие",Kartoon Channel (1080p)
+https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Ketchup TV (720p)
+https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8
+#EXTINF:-1 group-title="Общие",Kidoodle.TV (1080p)
+https://amg07653-apmc-amg07653c9-samsung-us-8740.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Kids Pang TV (1080p)
+https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Kids Station (544p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+#EXTINF:-1 group-title="Общие",Kids TV
+http://origin5.mediacdn.ru/live/kidstv/index.m3u8
+#EXTINF:-1 group-title="Общие",Kids Zone (720p)
+http://103.250.28.74:8000/play/a04m/index.m3u8
+#EXTINF:-1 group-title="Общие",KidsFlix (1080p) [Not 24/7]
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+#EXTINF:-1 group-title="Общие",KidZone Max (1080p) [Geo-blocked]
+https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
+#EXTINF:-1 group-title="Общие",KiKA (1080p) [Not 24/7]
+https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+#EXTINF:-1 group-title="Общие",KiKA HD (720p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8
+#EXTINF:-1 group-title="Общие",Knowledge Network (720p) [Geo-blocked]
+https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8
+#EXTINF:-1 group-title="Общие",Koogi TV (1080p)
+https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Kuriakos Kids (1080p)
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",LEGO Kids TV
+https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8
+#EXTINF:-1 group-title="Общие",Little Stars Universe
+https://jmp2.uk/plu-51c75f7bb6f26ba1cd00002f.m3u8
+#EXTINF:-1 group-title="Общие",Logos TV Kids (720p) [Not 24/7]
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+#EXTINF:-1 group-title="Общие",M2 Petofi (720 p)
+http://46.149.191.217:9005/play/a016
+#EXTINF:-1 group-title="Общие",M-Net Kids (720p)
+http://ares.mnet.mk/hls/mnet-kids.m3u8
+#EXTINF:-1 group-title="Общие",MBC 3 USA (1080p) [Geo-blocked]
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
+#EXTINF:-1 group-title="Общие",MCN6 Music Channel (1080p) [Not 24/7]
+https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
+#EXTINF:-1 group-title="Общие",Memorias TV Toons (480p) [Geo-blocked]
+https://video.xtrematv.com:3812/live/memoriastoonslive.m3u8
+#EXTINF:-1 group-title="Общие",Minika Cocuk (480p)
+https://tgn.bozztv.com/dvrfl05/gin-minikacocuk/index.m3u8
+#EXTINF:-1 group-title="Общие",Minika Go (480p)
+https://tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8
+#EXTINF:-1 group-title="Общие",Minimax (360p)
+https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Minimax (576p) (576p)
+http://88.212.15.19/live/test_minimax/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Moonbug Kids (1080p)
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mr Bean Live Action (1080p)
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mr Bean Live Action (1080p)
+https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mr. Bean Animated (1080p)
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mr. Bean Anime Italy (1080p)
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mr. Bean Anime Spain (1080p)
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Multimania (Latvia) (576p)
+https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
+#EXTINF:-1 group-title="Общие",My Kidz (720p)
+https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
+#EXTINF:-1 group-title="Общие",NCM Educational & Kids Channel
+https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
+#EXTINF:-1 group-title="Общие",Nick Germany (1080p) [Geo-blocked]
+https://0d26a00dfbb1.airspace-cdn.cbsivideo.com/nick1999/master/nick1999.m3u8
+#EXTINF:-1 group-title="Общие",Nick HD+ (1080p)
+http://103.72.101.252:8080/live/1226.m3u8
+#EXTINF:-1 group-title="Общие",Nick Jr. (576p)
+http://103.72.101.252:8080/live/544.m3u8
+#EXTINF:-1 group-title="Общие",Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]
+https://viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon (576p)
+http://195.64.140.147:10121/121
+#EXTINF:-1 group-title="Общие",Nickelodeon (1080p)
+http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon (576p)
+http://103.72.101.252:8080/live/545.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon (720p)
+http://95.70.222.188:1234/stream/tivibucocuk/nickelodeon/stream.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon (1080p)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon Asia Indonesia (1080p)
+https://cdn10jtedge.indihometv.com/atm/DASH/nickelodeon/manifest.mpd
+#EXTINF:-1 group-title="Общие",Nickelodeon Clássico (720p)
+https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon en español
+https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon Global (576p)
+http://46.149.191.217:9011/play/a018
+#EXTINF:-1 group-title="Общие",Nickelodeon Junior (1080p)
+http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon Pluto TV (720p)
+https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
+#EXTINF:-1 group-title="Общие",Nickelodeon Teen (720p)
+https://jmp2.uk/plu-5f0d668b872e4400073acc68.m3u8
+#EXTINF:-1 group-title="Общие",NickOnline (720p)
+https://x1co.com.br/hls/stream.m3u8
+#EXTINF:-1 group-title="Общие",NickOnline Spongebob (720p) [Not 24/7]
+https://lowa8026-cmyk.github.io/Brazil/NickOnlineSpongebob.m3u8
+#EXTINF:-1 group-title="Общие",NickToons Brasil (480p)
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Ninja Kidz (720p)
+https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
+#EXTINF:-1 group-title="Общие",NRK Super (1080i) [Geo-blocked]
+https://nrk-live-no.akamaized.net/nrksuper/muxed.m3u8
+#EXTINF:-1 group-title="Общие",O Reino Infantil
+https://jmp2.uk/plu-5f5c216df68f920007888315.m3u8
+#EXTINF:-1 group-title="Общие",Omid
+https://ncdn.telewebion.ir/omid/live/playlist.m3u8
+#EXTINF:-1 group-title="Общие",ORF Kids (720p)
+https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd
+#EXTINF:-1 group-title="Общие",Pakapaka (1080p)
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-36_400.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids (720p)
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids Alaska (1080p)
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids Eastern/Central (720p)
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids Hawaii (720p)
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids Mountain (1080p)
+https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
+#EXTINF:-1 group-title="Общие",PBS Kids Pacific (1080p)
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 group-title="Общие",PBS Retro (1080p) [Geo-blocked]
+https://amg02333-pbs-amg02333c6-firetv-us-4236.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Общие",Persiana Teen
+https://kphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Общие",Pingviin (576p)
+https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8
+#EXTINF:-1 group-title="Общие",Pluto TV Junior
+https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
+#EXTINF:-1 group-title="Общие",Pluto TV Kids
+https://jmp2.uk/plu-5ad8d54be738977e2c310940.m3u8
+#EXTINF:-1 group-title="Общие",Pluto TV Retro Toons
+https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
+#EXTINF:-1 group-title="Общие",pocket.watch Game On (1080p)
+https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8
+#EXTINF:-1 group-title="Общие",Pokémon
+https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8
+#EXTINF:-1 group-title="Общие",Pokémon
+https://jmp2.uk/plu-6675c7868768aa0008d7f1c7.m3u8
+#EXTINF:-1 group-title="Общие",Pooya & Nahal
+https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Pooya TV Plus
+https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Pop Up (1080p) [Geo-blocked]
+https://amg01753-amg01753c9-samsung-gb-8005.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeuk-popup-samsunggb/playlist.m3u8
+#EXTINF:-1 group-title="Общие",QTV-6
+http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+#EXTINF:-1 group-title="Общие",Rai Yoyo (1080p)
+http://78.130.250.2:8023/play/a04d/index.m3u8
+#EXTINF:-1 group-title="Общие",RiC (1080p)
+https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Roya Kids
+https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Roya Kids Originals (1080p)
+https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Ryan and Friends (1080p)
+https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Sabrina The Teenage Witch
+https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8
+#EXTINF:-1 group-title="Общие",Sat 7 Kids (1080p)
+https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+#EXTINF:-1 group-title="Общие",SKWAD (1080p)
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71
+#EXTINF:-1 group-title="Общие",Smile TV (360p) [Geo-blocked]
+https://s1.cystream.net/live/smile/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Sonic (576p)
+http://103.229.254.25:7001/play/a0dl/index.m3u8
+#EXTINF:-1 group-title="Общие",Sony Yay! (1080p) [Geo-blocked]
+https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8
+#EXTINF:-1 group-title="Общие",Spacetoon Arabic (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
+#EXTINF:-1 group-title="Общие",SpongeBob Schwammkopf (720p)
+https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
+#EXTINF:-1 group-title="Общие",Super Simple Songs (1080p)
+https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",SX3 (1080p) [Geo-blocked]
+https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
+#EXTINF:-1 group-title="Общие",Taha TV (576p)
+https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8
+#EXTINF:-1 group-title="Общие",Teletubbies (720p)
+https://dv8lsrd8fecw9.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="Общие",The LEGO Channel (1080p)
+https://dltiqboxjw21d.cloudfront.net/index.m3u8
+#EXTINF:-1 group-title="Общие",Tiguerito TV (720p) [Not 24/7]
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Tiny Pop (1080p)
+https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Tiny Pop +1 (576p)
+http://92.114.85.72:8000/play/a08p
+#EXTINF:-1 group-title="Общие",TNT Kids (288p)
+https://restreamer1.tnt.ba/hls/tntkids.m3u8
+#EXTINF:-1 group-title="Общие",Tom And Jerry (720p)
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Toon Goggles Junior (720p)
+https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
+#EXTINF:-1 group-title="Общие",ToonGoggles (720p)
+https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Toonmax TV
+http://49.113.179.174:4022/udp/238.125.4.28:5140
+#EXTINF:-1 group-title="Общие",Totally Turtles (720p)
+https://jmp2.uk/plu-5d6792bd6be2998ad0ccce30.m3u8
+#EXTINF:-1 group-title="Общие",Totally Turtles
+https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8
+#EXTINF:-1 group-title="Общие",TRT Çocuk (720p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Общие",TRT Diyanet Çocuk (720p)
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Общие",Turma da Mônica (720p)
+https://jmp2.uk/plu-5f997e44949bc70007a6941e.m3u8
+#EXTINF:-1 group-title="Общие",TV2 Kids (576p)
+http://146.59.85.40:89/tv2kids/index.m3u8
+#EXTINF:-1 group-title="Общие",TV Arbëria 3 Fëmijë (720p)
+https://ssh101.bozztv.com/ssh101/rtvarberia3/playlist.m3u8
+#EXTINF:-1 group-title="Общие",TV Bahoriston (1080p)
+https://live.teleradiocom.tj/3/3m.m3u8
+#EXTINF:-1 group-title="Общие",TVCARiB Kids & Teens (720p) [Not 24/7]
+https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
+#EXTINF:-1 group-title="Общие",TVOKids
+https://bcovlive-a.akamaihd.net/rf86f817779524249abf842af6d16f55f/us-east-1/15364602001/playlist.m3u8
+#EXTINF:-1 group-title="Общие",TVS Hi Tops (720p)
+https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
+#EXTINF:-1 group-title="Общие",TVS Pinball Network (480p)
+https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
+#EXTINF:-1 group-title="Общие",Unique TV (576p)
+https://mumt05.tangotv.in/UNIQUETV/index.m3u8
+#EXTINF:-1 group-title="Общие",VTV (1080p)
+http://103.66.62.83:8000/play/a00c/index.m3u8
+#EXTINF:-1 group-title="Общие",Watch it KID! (480i)
+https://stream-us-east-1.getpublica.com/cl/260415d7g24jv4hnf3ahfafgog/318x234_424101_3_f.m3u8?i=513_2256
+#EXTINF:-1 group-title="Общие",WJLP-DT2 (360p)
+https://e3.thetvapp.to/hls/metv-toons/index.m3u8
+#EXTINF:-1 group-title="Общие",Xtrema Cartoons
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+#EXTINF:-1 group-title="Общие",YAAAS! (720p) [Geo-blocked]
+https://d3knqoaufvjug3.cloudfront.net/yas.m3u8
+#EXTINF:-1 group-title="Общие",ZB Cartoon (1080p)
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Общие",Zoo Moo (Australia) (1080p)
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Мама (576p)
+http://31.148.48.15/Mama/index.m3u8
+#EXTINF:-1 group-title="Общие",Мульт (1080p)
+http://31.148.48.15/Mult_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Мульт и Музыка (576p)
+http://31.148.48.15/Multimuzika/index.m3u8
+#EXTINF:-1 group-title="Общие",Мультиландия (576p)
+http://31.148.48.15/Multilandiya/index.m3u8
+#EXTINF:-1 group-title="Общие",Пингвин (720p)
+https://sirius.greenhosting.ru/PingvinRu/video.m3u8
+#EXTINF:-1 group-title="Общие",Радость моя (576p)
+https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Тамыр (Уфа) (576p)
+https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
+#EXTINF:-1 group-title="Общие",УТРК Баластан (480p) [Not 24/7]
+https://st2.mediabay.tv/KG_KTRK-Balastan/index.m3u8
+#EXTINF:-1 group-title="Общие",ЭлТР Билим Илим (480p) [Not 24/7]
+http://gohoski.fvds.ru:3000/mediabay/611/index.m3u8
+#EXTINF:-1 group-title="Общие",优漫卡通 (576p)
+http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+#EXTINF:-1 group-title="Общие",山东少儿 (406p) [Geo-blocked]
+http://livealone302.iqilu.com/iqilu/sepd.m3u8
+#EXTINF:-1 group-title="Общие",金鹰卡通 (576p)
+http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
+#EXTINF:-1 group-title="Общие",7TV (576p)
+http://31.148.48.15/7TV/index.m3u8
+#EXTINF:-1 group-title="Общие",12 канал (1080p)
+https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
+#EXTINF:-1 group-title="Общие",15+ Music (1080p)
+https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
+#EXTINF:-1 group-title="Общие",100% News (576p)
+http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+#EXTINF:-1 group-title="Общие",312 ТВ (406p)
+http://176.126.166.43:1935/live/312musik/playlist.m3u8
+#EXTINF:-1 group-title="Общие",365 Дней (576p)
+http://31.148.48.15/365_dney/index.m3u8
+#EXTINF:-1 group-title="Общие",.sci-fi (576p)
+http://31.148.48.15/SONY_SCI_FI/index.m3u8
+#EXTINF:-1 group-title="Общие",alpha Cinema (1080p)
+https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 group-title="Общие",alpha Funny (1080p)
+https://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
+#EXTINF:-1 group-title="Общие",alpha Moretime (1080p)
+https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
+#EXTINF:-1 group-title="Общие",Amedia 1 (576p)
+http://31.148.48.15/A1/index.m3u8
+#EXTINF:-1 group-title="Общие",Amedia 2 (576p)
+http://31.148.48.15/A2/index.m3u8
+#EXTINF:-1 group-title="Общие",Amedia Hit (720p)
+http://31.148.48.15/Amedia_HIT_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Amedia Premium (720p)
+http://31.148.48.15/Amedia_Premium_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Angel TV Russian (720p)
+https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
+#EXTINF:-1 group-title="Общие",ARTN TV (1080p) [Not 24/7]
+https://streamer1.connectto.com/ARTN_mobile/index.m3u8
+#EXTINF:-1 group-title="Общие",ATR (720p)
+https://atr-live.cdn-01.cosmonova.net.ua/hls/atr_ua_hi/index.m3u8
+#EXTINF:-1 group-title="Общие",Bălţi TV (1080p) [Geo-blocked]
+http://77.89.199.174:8000/play/1024/index.m3u8
+#EXTINF:-1 group-title="Общие",Bollywood HD Russia (576p)
+https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
+#EXTINF:-1 group-title="Общие",BRIDGE (576p)
+http://31.148.48.15/Bridge_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",BRIDGE Classic (576p)
+http://31.148.48.15/Bridge_TV_Classic/index.m3u8
+#EXTINF:-1 group-title="Общие",BRIDGE Deluxe (1080p)
+http://31.148.48.15/Bridge_TV_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",BRIDGE Hits (576p)
+http://31.148.48.15/Bridge_TV_Dance/index.m3u8
+#EXTINF:-1 group-title="Общие",CGTN Русский (1080p)
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Channel 9 (540p) [Not 24/7]
+http://50.7.231.221:8081/185/index.m3u8?wmsAuthSign=okad
+#EXTINF:-1 group-title="Общие",Current Time TV (1080p)
+https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc015/currenttimehdraw/currenttimehdraw.m3u8
+#EXTINF:-1 group-title="Общие",Dasturxon TV (576p)
+https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",DW Russian (1080p)
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
+#EXTINF:-1 group-title="Общие",ETV+ (720p)
+https://sb.err.ee/live/etvpluss.m3u8
+#EXTINF:-1 group-title="Общие",Europa Plus TV (1080p)
+http://31.148.48.15/Europa_Plus_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",FoodTime (1080p)
+http://31.148.48.15/Eda_Premium_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Freedom (FREEДOM) (UATV) (720p)
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
+#EXTINF:-1 group-title="Общие",HDL (720p)
+http://31.148.48.15/HD_Life/index.m3u8
+#EXTINF:-1 group-title="Общие",Hollywood HD (1080p)
+http://31.148.48.15/MGM_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",KHL (720p)
+http://31.148.48.15/KHL_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",KHL Prime (720p)
+http://31.148.48.15/KHL_TV_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Leomax 24 (1080p)
+https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Love Nature (1080p)
+https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Luxe TV (1080p)
+http://103.154.3.101:5001/live/1736.m3u8
+#EXTINF:-1 group-title="Общие",Makon TV (576i)
+https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Общие",Maná Tserkov' Onlayn (1080p) [Not 24/7]
+https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Mańǵystaý (540p) [Not 24/7]
+https://stream.kaztrk.kz/regional/mangystautv/index.m3u8
+#EXTINF:-1 group-title="Общие",Match! Strana (720p)
+http://31.148.48.15/Match_Strana/index.m3u8
+#EXTINF:-1 group-title="Общие",MMA TV.com (1080p)
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Moldova 1 (1080p)
+https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8
+#EXTINF:-1 group-title="Общие",Moldova 2 (1080p)
+https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c0427015/master.m3u8
+#EXTINF:-1 group-title="Общие",Movify Kino (576p)
+https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
+#EXTINF:-1 group-title="Общие",MuzzOne
+https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8
+#EXTINF:-1 group-title="Общие",MyZen TV (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+#EXTINF:-1 group-title="Общие",N4 (360p) [Not 24/7]
+https://web.sats.gstv.tech/cpl11/da8df281-1165-440a-8c86-959f71b695b6/N4web.m3u8
+#EXTINF:-1 group-title="Общие",Next TV (1080p) [Not 24/7]
+http://gohoski.fvds.ru:3000/mediabay/601/playlist.m3u8
+#EXTINF:-1 group-title="Общие",NSC+ (720p)
+https://live.15plusmg.ru/memfs/5a03fc7a-8417-4874-b56f-91b8aeba1210.m3u8
+#EXTINF:-1 group-title="Общие",O'zbekiston (576p)
+https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Planeta-RTR
+https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
+#EXTINF:-1 group-title="Общие",RT Documentary Russian (1080p)
+https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
+#EXTINF:-1 group-title="Общие",RTG TV (720p)
+http://31.148.48.15/RTG_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Sevimli TV (1080p)
+https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Silk Way
+https://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8
+#EXTINF:-1 group-title="Общие",STS Love (576i)
+https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8
+#EXTINF:-1 group-title="Общие",TBN Baltia (1080p)
+http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
+#EXTINF:-1 group-title="Общие",Terra HD (720p)
+http://31.148.48.15/Terra_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",TMB TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8
+#EXTINF:-1 group-title="Общие",Travel+Adventure (1080p)
+http://31.148.48.15/Travel_Adventure_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Türkmenistan (406p) [Not 24/7]
+https://alpha.tv.online.tm/hls/ch007.m3u8
+#EXTINF:-1 group-title="Общие",TV15 (1080p) [Not 24/7]
+http://gohoski.fvds.ru:3000/mediabay/655/playlist.m3u8
+#EXTINF:-1 group-title="Общие",TV BRICS Russian (1080p)
+https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
+#EXTINF:-1 group-title="Общие",TV Maná Russkiy (1080p)
+https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",TV XXI (1080p)
+http://31.148.48.15/TV_XXI/index.m3u8
+#EXTINF:-1 group-title="Общие",TV-Nord (1080p)
+https://6065d3147e895.streamlock.net:4444/npcl/live/playlist.m3u8
+#EXTINF:-1 group-title="Общие",UzReport TV (1080p)
+https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Viasat Kino (576p)
+http://89.254.128.5:22280/viasat_kino/index.m3u8
+#EXTINF:-1 group-title="Общие",Viasat Kino Action (576p)
+http://89.254.128.5:22280/viasat_kino_action/index.m3u8
+#EXTINF:-1 group-title="Общие",viju TV1000 Русское
+http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8
+#EXTINF:-1 group-title="Общие",VITAL Drive
+https://autopilot.catcast.tv/content/37909/index.m3u8
+#EXTINF:-1 group-title="Общие",Zo'r TV (576p)
+https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Общие",АБАЗА-ТВ (1080p)
+https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
+#EXTINF:-1 group-title="Общие",Авто Плюс (576p)
+http://31.148.48.15/Avto_Plus/index.m3u8
+#EXTINF:-1 group-title="Общие",Беларусь 2 (1080p)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Беларусь 3 (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Беларусь 5 (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Беларусь 5 Интернет (1080p) [Not 24/7]
+https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",БелРос (576p)
+https://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Бокс ТВ (720p)
+http://31.148.48.15/Boks_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",БСТ (Башкирское спутниковое телевидение) (576p)
+https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Вести ФМ
+https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
+#EXTINF:-1 group-title="Общие",Детское кино International [Not 24/7]
+https://autopilot.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 group-title="Общие",Дождь (1080p) [Geo-blocked]
+https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Доктор (1080p)
+http://31.148.48.15/Doktor/index.m3u8
+#EXTINF:-1 group-title="Общие",Дом Кино
+https://streaming.thestream.cyou/live/44.m3u8
+#EXTINF:-1 group-title="Общие",Дом Кино Премиум HD (1080p)
+http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Дон 24 (1080p)
+https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Дума ТВ (1080p) [Not 24/7]
+https://dumatv.iptv2022.com/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Еврокино (576p)
+http://31.148.48.15/Evrokino/index.m3u8
+#EXTINF:-1 group-title="Общие",Жара TV (576p)
+http://31.148.48.15/Zhara/index.m3u8
+#EXTINF:-1 group-title="Общие",Живая Планета (576p)
+http://31.148.48.15/Zhivaya_Planeta/index.m3u8
+#EXTINF:-1 group-title="Общие",ЖИВИ! (1080p)
+http://31.148.48.15/Zhivi/index.m3u8
+#EXTINF:-1 group-title="Общие",За!ТВ
+https://streaming.televizor-24-tochka.ru/live/25.m3u8
+#EXTINF:-1 group-title="Общие",Здоровое ТВ (576p)
+http://31.148.48.15/Zdorovoe_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Зоо ТВ (576p)
+http://31.148.48.15/Zoo_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Иллюзион+ (576p)
+http://31.148.48.15/Illusion_plus/index.m3u8
+#EXTINF:-1 group-title="Общие",Индия (576p)
+http://31.148.48.15/Zee_TV_Russia/index.m3u8
+#EXTINF:-1 group-title="Общие",История (576p)
+http://31.148.48.15/Istoriya/index.m3u8
+#EXTINF:-1 group-title="Общие",КВН ТВ (576p)
+http://31.148.48.15/KVN_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Кинеко (1080p)
+http://31.148.48.15/Kineko_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",КИНО ТВ (720p)
+http://31.148.48.15/Kino_TV_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Кинопоказ (576p)
+http://31.148.48.15/Kinopokaz/index.m3u8
+#EXTINF:-1 group-title="Общие",КИНОСАТ (576p)
+http://31.148.48.15/Kineko/index.m3u8
+#EXTINF:-1 group-title="Общие",КРИК-ТВ (Екатеринбург) (1080p)
+http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
+#EXTINF:-1 group-title="Общие",КТК (1080p) [Not 24/7]
+https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Кто есть Кто (576p)
+http://31.148.48.15/Kto_est_kto/index.m3u8
+#EXTINF:-1 group-title="Общие",Курай (Уфа) (576p)
+https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Кухня ТВ (576p)
+http://31.148.48.15/Kuhnya_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Магнат ТВ (1080p)
+https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
+#EXTINF:-1 group-title="Общие",МАТЧ! Арена (720p)
+http://31.148.48.15/Match_Arena_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",МАТЧ! Боец (576p)
+http://31.148.48.15/Match_Boec/index.m3u8
+#EXTINF:-1 group-title="Общие",МАТЧ! Игра (720p)
+http://31.148.48.15/Match_Igra_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Матч! Планета (720p)
+https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8
+#EXTINF:-1 group-title="Общие",Моя Планета (720p)
+http://31.148.48.15/Moya_Planeta_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",МТРК (576p) [Not 24/7]
+https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Муз ТВ (450p) [Geo-blocked]
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTINF:-1 group-title="Общие",Музыка Live (576p)
+http://31.148.48.15/La-Minor_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Музыка Кино International [Not 24/7]
+https://kino-1.catcast.tv/content/37739/index.m3u8
+#EXTINF:-1 group-title="Общие",Музыка Первого (1080p)
+http://31.148.48.15/Muzika_Pervogo/index.m3u8
+#EXTINF:-1 group-title="Общие",НАУКА (1080p)
+http://31.148.48.15/Nauka_2.0/index.m3u8
+#EXTINF:-1 group-title="Общие",Новый Русский (720p)
+https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
+#EXTINF:-1 group-title="Общие",Ностальгия (576p)
+http://31.148.48.15/Nostalgiya/index.m3u8
+#EXTINF:-1 group-title="Общие",о2тв (720p)
+http://31.148.48.15/O2_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Общественное Независимое Телевидение (576p)
+http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1 group-title="Общие",ОНТ (576p) [Not 24/7]
+https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Осетия Ирыстон (1080p)
+https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Ош Пирим (1080p) [Not 24/7]
+http://gohoski.fvds.ru:3000/mediabay/697/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Первый городской (Одесса) (1080p) [Not 24/7]
+http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Первый Музыкальный Канал HD (1080p)
+http://rtmp.one.by:1300
+#EXTINF:-1 group-title="Общие",Первый Музыкальный Канал Россия HD (1080p)
+http://rtmp.one.by:2300
+#EXTINF:-1 group-title="Общие",Первый Республиканский
+https://streaming.televizor-24-tochka.ru/live/27.m3u8
+#EXTINF:-1 group-title="Общие",Победа 720p (576p)
+https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
+#EXTINF:-1 group-title="Общие",Поехали! (1080p)
+http://31.148.48.15/Poehali/index.m3u8
+#EXTINF:-1 group-title="Общие",Продвижение (576p)
+https://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Просвещение (540p) [Geo-blocked]
+https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Родное Кино (576p)
+http://31.148.48.15/Rodnoe_kino/index.m3u8
+#EXTINF:-1 group-title="Общие",Русский Детектив (576p)
+http://31.148.48.15/Russkiy_Detektiv/index.m3u8
+#EXTINF:-1 group-title="Общие",Русский Иллюзион (576p)
+http://31.148.48.15/Russkiy_illusion/index.m3u8
+#EXTINF:-1 group-title="Общие",Русский Экстрим (576p)
+http://31.148.48.15/Russkiy_Ekstrim/index.m3u8
+#EXTINF:-1 group-title="Общие",Санкт-Петербург (576p)
+http://31.148.48.15/Sankt_Peterburg/index.m3u8
+#EXTINF:-1 group-title="Общие",Сапфир (720p)
+http://31.148.48.15/Sapfir_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Сарафан (576p)
+http://31.148.48.15/Sarafan/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем Meditation Music [Not 24/7]
+https://cityeden.catcast.tv/content/47410/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем Play Христианский Музыкальный [Not 24/7]
+https://cityeden.catcast.tv/content/34100/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем АвтоГид [Not 24/7]
+https://cityeden.catcast.tv/content/47515/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем Бирма Play [Not 24/7]
+https://cityeden.catcast.tv/content/34364/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноАзия [Not 24/7]
+https://cityeden.catcast.tv/content/34393/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноАрт [Not 24/7]
+https://cityeden.catcast.tv/content/38398/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноДетектив [Not 24/7]
+https://cityeden.catcast.tv/content/41327/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноДок [Not 24/7]
+https://cityeden.catcast.tv/content/38354/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноДрама [Not 24/7]
+https://cityeden.catcast.tv/content/45269/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноКлассика [Not 24/7]
+https://cityeden.catcast.tv/content/34185/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноКомедия [Not 24/7]
+https://cityeden.catcast.tv/content/41331/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноМистика [Not 24/7]
+https://cityeden.catcast.tv/content/40783/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноСемья [Not 24/7]
+https://v2.catcast.tv/content/38128/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноФантастика [Not 24/7]
+https://cityeden.catcast.tv/content/45268/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем КиноЭкшен [Not 24/7]
+https://cityeden.catcast.tv/content/41333/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем МедЗдрав [Not 24/7]
+https://cityeden.catcast.tv/content/47519/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем Рецепты Гурмана [Not 24/7]
+https://cityeden.catcast.tv/content/47516/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем Сиртаки ТВ [Not 24/7]
+https://cityeden.catcast.tv/content/46421/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем ТВ Христианский [Not 24/7]
+https://cityeden.catcast.tv/content/34246/index.m3u8
+#EXTINF:-1 group-title="Общие",Сити Эдем ТелеНовелла [Not 24/7]
+https://cityeden.catcast.tv/content/46209/index.m3u8
+#EXTINF:-1 group-title="Общие",Соловьёв LIVE (576p)
+http://31.148.48.15/EuroNews/index.m3u8
+#EXTINF:-1 group-title="Общие",СТАРТ Триумф
+https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
+#EXTINF:-1 group-title="Общие",СТБ (720p)
+https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Суббота! (576p)
+http://31.148.48.15/Super/index.m3u8
+#EXTINF:-1 group-title="Общие",Таврия
+https://streaming.televizor-24-tochka.ru/live/24.m3u8
+#EXTINF:-1 group-title="Общие",Театр (576p)
+http://31.148.48.15/Sochi_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Телеканал Краснодар (1080p)
+https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Телекафе (720p)
+https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
+#EXTINF:-1 group-title="Общие",Телепутешествия (576p)
+http://31.148.48.15/Teleputeshestviya/index.m3u8
+#EXTINF:-1 group-title="Общие",ТНВ-Планета (Казань) (576p)
+https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Тонус (576p)
+http://31.148.48.15/Zdorovie/index.m3u8
+#EXTINF:-1 group-title="Общие",Точка ТВ (576p)
+http://31.148.48.15/Tochka_TV/index.m3u8
+#EXTINF:-1 group-title="Общие",Уникум (576p)
+http://31.148.48.15/Detskiy/index.m3u8
+#EXTINF:-1 group-title="Общие",УТРК (480p) [Not 24/7]
+https://st2.mediabay.tv/KG_KTRK-UTRK/index.m3u8
+#EXTINF:-1 group-title="Общие",УТРК Ала-Тоо 24 (480p) [Not 24/7]
+https://st2.mediabay.tv/KG_KTRK-Ala-too/playlist.m3u8
+#EXTINF:-1 group-title="Общие",УТРК Музыка (480p) [Not 24/7]
+https://st2.mediabay.tv/KG_KTRK-Muzika/index.m3u8
+#EXTINF:-1 group-title="Общие",УТРК Спорт (480p) [Not 24/7]
+https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
+#EXTINF:-1 group-title="Общие",Феникс плюс Кино (576p)
+http://31.148.48.15/Feniks_plus_kino/index.m3u8
+#EXTINF:-1 group-title="Общие",Футбол (720p)
+http://31.148.48.15/Futbol_HD/index.m3u8
+#EXTINF:-1 group-title="Общие",Хочу всё знать (576p)
+https://void.greenhosting.ru/HochuVjeZnat_Mpeg4/index.m3u8
+#EXTINF:-1 group-title="Общие",Шаян ТВ (Татарстан) (1080p)
+https://shayan.bonus-tv.ru/cdn/shayan/playlist.m3u8
+#EXTINF:-1 group-title="Общие",ЭлТР (480p) [Not 24/7]
+http://gohoski.fvds.ru:3000/mediabay/162/index.m3u8
+#EXTINF:-1 group-title="Общие",Ю (720p)
+https://cdn-01.bonus-tv.ru/u/playlist.m3u8
+#EXTINF:-1 group-title="Общие",Югра (1080p)
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
