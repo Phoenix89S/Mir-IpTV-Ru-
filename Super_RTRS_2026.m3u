@@ -73,10 +73,28 @@ http://31.131.141.195:8000/play/1060/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.2.7 Россия К HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.1.1 Арктика 24 (Архангельск)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.2.1 Башкортостан 24 HD
+http://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.2.2 Башкортостан 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.3.1 Волгоград 24 (1080p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.3.2 Волгоград 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/track_102_1f3a2163/chunklist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.4.1 Восток 24
+http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.5.1 Запад 24 (Калининград)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.6.1 Кавказ 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.7.1 Сибирь 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.3.9.1 Урал 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 2.4.1 Planeta RTR
+https://streaming.goodstream.cyou/live/211.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.1 НТВ +1
 https://cdn.ntv.ru/ntv1/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.2 НТВ
@@ -121,6 +139,10 @@ https://cdn.ntv.ru/th_pravo/playlist.m3u8
 https://cdn.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.1.22 НТВ Стиль
 http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.2.1 Неизвестная Россия HD
+http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.2.2 Неизвестная Россия
+https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.8.1 НТВ HD
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=axRffiS5liMxVxTYAWBEzQ&e=1752089014&scheme=https
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 4.8.2 НТВ HD
@@ -141,6 +163,16 @@ http://178.134.1.158:8081/5channel/index.m3u8
 http://31.131.141.195:8000/play/1050/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 5.0.6 Пятый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 8.0.1 Карусель (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 8.0.2 Карусель +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 8.0.3 Карусель
+https://streaming.goodstream.cyou/live/232.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 8.0.4 Карусель Int.
+http://87.246.54.249:8085/Karusel/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 8.0.5 Карусель
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 9.0.1 ОТР
 http://178.217.72.66:8080/OTR/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 9.0.2 ОТР (Архив)
@@ -163,60 +195,168 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 10.1.5 ТВ Центр
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.1 Русский бестселлер
-http://178.217.72.66:8080/russkiy_bestseller/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.2 СТС
-http://94.230.128.107:8080/CTC/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.3 СТС (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.4 СТС +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.5 СТС HD
-http://87.246.54.249:8085/CTC/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.6 СТС Int.
-http://178.134.1.158:8081/CTC/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.7 СТС Love
-http://tv.streams.baikal-telecom.net:8080/CTC_LOVE/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.8 СТС Love (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.9 СТС Love +7 (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_7/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.10 СТС Int.
-http://158.101.222.193:88/georgia_play.php?id=ctctv
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.11 СТС Love
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.4.1 СТС Kids
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.1 Рен ТВ
+http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.2 Рен ТВ (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.3 Рен ТВ +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.4 Рен ТВ HD
+http://178.217.72.66:8080/REN_TV/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.5 Рен ТВ Int.
+http://85.117.61.97:8000/play/a01t/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.6 Рен ТВ
+http://31.131.141.195:8000/play/2010/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.7 Рен ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 11.0.8 Рен ТВ Int
+http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 12.0.1 Спас
+http://77.232.131.211/Spas/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 12.0.2 Спас
+http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.1 СТС Kids
 http://31.148.48.15/STS_Kids_HD/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.4.2 СТС Kids
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.2 Русский бестселлер
+http://178.217.72.66:8080/russkiy_bestseller/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.3 СТС Kids
 http://195.26.83.96:7006/play/a00z/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.1 ТНТ4 HD
-https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=kUSdOuI4XghLic68Vvw1ig&e=1752089015&scheme=https
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.2 ТНТ
-http://176.118.197.101/THT/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.3 ТНТ4
-http://176.118.197.101/TNT4/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.4 ТНТ
-http://62.89.220.15/streams/media/tnt-4_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.5 ТНТ4
-http://62.89.220.15/streams/media/tnt4_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.6 ТНТ
-http://31.131.141.195:8000/play/2090/index.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.7 ТНТ
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.8 ТНТ4
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.9 ТНТ4 Int.
-https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.10 ТНТ Music HD
-https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.11 ТНТ4
-https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.1.1 ТНТ HD
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.4 СТС
+http://94.230.128.107:8080/CTC/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.5 СТС (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.6 СТС +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.7 СТС HD
+http://87.246.54.249:8085/CTC/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.8 СТС Int.
+http://178.134.1.158:8081/CTC/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.9 СТС Love
+http://tv.streams.baikal-telecom.net:8080/CTC_LOVE/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.10 СТС Love (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.11 СТС Love +7 (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.12 СТС Int.
+http://158.101.222.193:88/georgia_play.php?id=ctctv
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 13.0.13 СТС Love
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.1 Домашний (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.2 Домашний +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.3 Домашний HD
+http://178.217.72.66:8080/Domashniy/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.4 Домашний Int.
+http://85.117.61.97:8000/play/a01i/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 14.0.5 Домашний Int.
+https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.1 Пятница! (576p)
+https://vod.tuva.ru/friday/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.2 Пятница HD
+https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=VHKCmxw_k14wdYn4PGAASg&e=1752089016&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.3 Пятница!
+https://streaming.televizor-24-tochka.ru/live/19-req_offset_28000000-req_window_0-1k_v5.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.4 Пятница! (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.5 Пятница! +7 (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.6 Пятница! HD
+http://178.217.72.66:8080/Pyatnitsa/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 16.0.7 Пятница! Int.
+http://158.101.222.193:88/georgia_play.php?id=friday
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.1 Звезда (1080p) [Not 24/7]
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.2 Звезда
+http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_sdhigh.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.3 Звезда (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.4 Звезда +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.5 Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 17.0.6 Звезда HD
+http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.1 Конный Мир
+https://cdn-01.bonus-tv.ru/kmir/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.2 Мир (1080p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.3 Мир 24 (1080p)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.4 Мир +2 (540p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.5 Мир +4 (540p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.6 Мир +7 (540p)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.7 Мир Белагорья (720p) [Geo-blocked]
+http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.8 Мир Белогорья (720p) [Geo-blocked]
+http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.9 Открытый мир. Здоровье (576p)
+https://v4.proofix.ru/0mir/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.10 Мир сериала
+http://31.148.48.15/Mir_Seriala/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.11 Мир
+http://185.46.16.239:8000/Mir
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.12 Мир (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.13 Мир +7 (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.14 Мир сериала HD
+http://178.217.72.66:8080/Mir_Seriala/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.15 Детский мир
+http://195.26.83.96:7007/play/14/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.16 Детский мир HD
+http://178.217.72.66:8080/Detskiy_Mir/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.17 Открытый мир
+http://v4.proofix.ru/0mir/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.18 Мир Сериала
+http://62.89.220.15/streams/media/mir-seriala_720x576/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.19 Конный Мир
+https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.20 В мире животных HD
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=HD_Anim_Fam
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.21 Радио Мир
+http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.22 Мир
+http://31.131.141.195:8000/play/a003/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 18.0.23 В мире животных
+https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.1 ТНТ HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2XjsQAt9HCL3dZVuLUNKyA&e=1752089014&scheme=https
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.1.2 ТНТ HD
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.2 ТНТ4 HD
+https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=kUSdOuI4XghLic68Vvw1ig&e=1752089015&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.3 ТНТ
+http://176.118.197.101/THT/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.4 ТНТ4
+http://176.118.197.101/TNT4/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.5 ТНТ
+http://62.89.220.15/streams/media/tnt-4_720x576/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.6 ТНТ4
+http://62.89.220.15/streams/media/tnt4_720x576/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.7 ТНТ
+http://31.131.141.195:8000/play/2090/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.8 ТНТ
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.9 ТНТ HD
 http://95.66.188.74/TNT_HD/mono.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.1.3 ТНТ HD
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.10 ТНТ4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.11 ТНТ4 Int.
+https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.12 ТНТ Music HD
+https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.13 ТНТ HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=M9H6z-O74nqbdC30HqutIw&e=2070623480&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 19.0.14 ТНТ4
+https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 21.1.1 Абакан 24
+https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 21.1.2 РТС - Абакан
+http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 21.1.3 ТВ-7 Абакан
+https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.0.1 Приключения
 http://178.217.72.66:8080/priklucheniyahd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 22.0.2 Приключения HD
@@ -247,14 +387,30 @@ http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 http://a0925677.xsph.ru/hls/CH_SOLNCE.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.3 Солнце (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.4 Солнце +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.5 Солнце
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.4 Солнце
 http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.6 Солнце
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.0.5 Солнце
 https://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 23.1.1 Солнце +7 (Архив)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.1 2x2 (576i)
+https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?s=tenr-yHXUv1wibfka78s2A&e=2068731801&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.2 2x2
+https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?s=iIUTJZFGBwmEEfl5CxZM7A&e=1752089018&scheme=https
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.3 2x2
+http://178.217.72.66:8080/2x2/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.4 2x2 (Архив)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 24.1.5 2x2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.1.1 RU TV HD
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.2.1 Астрахань.Ru TV (480p)
+https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.2.2 RU TV
+https://hls-03-video.webcaramba.com/rutv/live_480/index.m3u8
+#EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 25.2.3 RU TV
+http://5.188.159.128:8070/rutv/index.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.1 360° HD
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс",Кнопка 28.0.2 Лен ТВ 24
@@ -323,8 +479,6 @@ http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Астрахань.Ru Sport (720p)
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Астрахань.Ru TV (480p)
-https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Белгород 24 (1080p)
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
 #EXTINF:-1 group-title="Общие",Большая Азия (720p)
@@ -337,22 +491,16 @@ https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/play
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Волга (HD)
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Волгоград 24 (1080p)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Общие",Губерния (Самара) (576p)
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Енисей (1080p) [Not 24/7]
 https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Звезда (1080p) [Not 24/7]
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Известия (1080p)
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 #EXTINF:-1 group-title="Общие",К16 (Саров) (406p) [Not 24/7]
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 #EXTINF:-1 group-title="Общие",КИНОТВ
 https://vod.tuva.ru/kinotv/index.m3u8
-#EXTINF:-1 group-title="Общие",Конный Мир
-https://cdn-01.bonus-tv.ru/kmir/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Красная линия (480p)
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1 group-title="Общие",Красная линия (288p)
@@ -375,20 +523,6 @@ https://mow-9-ll.facecast.io:8443/hls_re/c631505e4fd6d14665c0.m3u8
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 #EXTINF:-1 group-title="Общие",Миллет (720p)
 https://live1.1tvcrimea.ru/milletlive.m3u8
-#EXTINF:-1 group-title="Общие",Мир (1080p) [Not 24/7]
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир 24 (1080p)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир +2 (540p) [Not 24/7]
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир +4 (540p) [Not 24/7]
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир +7 (540p)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир Белагорья (720p) [Geo-blocked]
-http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
-#EXTINF:-1 group-title="Общие",Мир Белогорья (720p) [Geo-blocked]
-http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
 #EXTINF:-1 group-title="Общие",МосОбрТВ (720p)
 http://retc.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1 group-title="Общие",МосОбрТВ (720p)
@@ -423,16 +557,12 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 #EXTINF:-1 group-title="Общие",ОСН
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Открытый мир. Здоровье (576p)
-https://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 group-title="Общие",Патриот (576i)
 http://catchup.videoline.ru/asvtv/index.m3u8
 #EXTINF:-1 group-title="Общие",Первый Крымский (720p)
 https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 #EXTINF:-1 group-title="Общие",Прима (1080p)
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
-#EXTINF:-1 group-title="Общие",Пятница! (576p)
-https://vod.tuva.ru/friday/index.m3u8
 #EXTINF:-1 group-title="Общие",Радио Говорит Москва (Веб-камера) (720p)
 https://video.govoritmoskva.ru/rufm/index.m3u8
 #EXTINF:-1 group-title="Общие",Радио Хит (Орск) (720p)
@@ -513,8 +643,6 @@ https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?s=eq
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Drive (576i)
 https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие",2x2 (576i)
-https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?s=tenr-yHXUv1wibfka78s2A&e=2068731801&scheme=https
 #EXTINF:-1 group-title="Общие",Ryzhiy (576i)
 https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Doctor (576i)
@@ -595,8 +723,6 @@ http://22fdd620.kazaktelekom.com/iptv/8KSD5KFDXA6H88/31613/index.m3u8
 http://178.124.179.122:8088/Sci-Fi/index.m3u8
 #EXTINF:-1 group-title="Общие",Кино 1 International
 http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Мир сериала
-http://31.148.48.15/Mir_Seriala/index.m3u8
 #EXTINF:-1 group-title="Общие",Amedia 2
 http://158.101.222.193:88/georgia_play.php?id=amedia2
 #EXTINF:-1 group-title="Общие",Amedia Premium
@@ -619,12 +745,8 @@ https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=ad
 https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=eUTfOIILG-2Rg9Ds38nUtQ&e=1752089016&scheme=https
 #EXTINF:-1 group-title="Общие",Тайна
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=zohX1BIthYY0hq4vu2kqdA&e=1752089016&scheme=https
-#EXTINF:-1 group-title="Общие",Пятница HD
-https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=VHKCmxw_k14wdYn4PGAASg&e=1752089016&scheme=https
 #EXTINF:-1 group-title="Общие",ТВ3 HD
 https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=BJi55OEif7jjxasBAlYj1g&e=1752089017&scheme=https
-#EXTINF:-1 group-title="Общие",2x2
-https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?s=iIUTJZFGBwmEEfl5CxZM7A&e=1752089018&scheme=https
 #EXTINF:-1 group-title="Общие",ОСН
 http://osnmedia.servicecdn.ru/streams/17603_88089/1080n/index.m3u8
 #EXTINF:-1 group-title="Общие",ТРК Круг
@@ -681,32 +803,6 @@ http://31.148.48.15/Mult/tracks-v1a1/mono.m3u8?token=default
 http://31.148.48.15/Ani/tracks-v1a1/mono.m3u8?token=default?token=test
 #EXTINF:-1 group-title="Общие",Ссылка на плейлист устарела
 https://loganettv.vercel.app/all.m3u
-#EXTINF:-1 group-title="Общие",Planeta RTR
-https://streaming.goodstream.cyou/live/211.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ
-http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Общие",Рен ТВ (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ HD
-http://178.217.72.66:8080/REN_TV/index.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ Int.
-http://85.117.61.97:8000/play/a01t/index.m3u8
-#EXTINF:-1 group-title="Общие",Звезда
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Общие",Звезда (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
-#EXTINF:-1 group-title="Общие",Звезда +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
-#EXTINF:-1 group-title="Общие",Звезда HD
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="Общие",Мир
-http://185.46.16.239:8000/Mir
-#EXTINF:-1 group-title="Общие",Мир (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
-#EXTINF:-1 group-title="Общие",Мир +7 (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
 #EXTINF:-1 group-title="Общие",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
 #EXTINF:-1 group-title="Общие",БСТ
@@ -815,8 +911,6 @@ http://178.217.72.66:8080/komediynoe/index.m3u8
 http://178.217.72.66:8080/Komediya/index.m3u8
 #EXTINF:-1 group-title="Общие",Любимое кино
 http://77.235.1.19:8000/play/a08h/index.m3u8
-#EXTINF:-1 group-title="Общие",Мир сериала HD
-http://178.217.72.66:8080/Mir_Seriala/index.m3u8
 #EXTINF:-1 group-title="Общие",Мосфильм. Золотая коллекция
 http://178.217.72.66:8080/mosfilm/index.m3u8
 #EXTINF:-1 group-title="Общие",Мужское кино
@@ -1033,22 +1127,10 @@ http://77.235.1.19:8000/play/a05c/index.m3u8
 http://77.235.1.19:8000/play/a05n/index.m3u8
 #EXTINF:-1 group-title="Общие",В гостях у сказки
 http://178.217.72.66:8080/Black/index.m3u8
-#EXTINF:-1 group-title="Общие",Детский мир
-http://195.26.83.96:7007/play/14/index.m3u8
-#EXTINF:-1 group-title="Общие",Детский мир HD
-http://178.217.72.66:8080/Detskiy_Mir/index.m3u8
 #EXTINF:-1 group-title="Общие",Детское кино Int.
 https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Общие",Капитан Фантастика HD
 http://178.163.117.7:4022/udp/234.0.0.152:2000
-#EXTINF:-1 group-title="Общие",Карусель (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
-#EXTINF:-1 group-title="Общие",Карусель +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
-#EXTINF:-1 group-title="Общие",Карусель
-https://streaming.goodstream.cyou/live/232.m3u8
-#EXTINF:-1 group-title="Общие",Карусель Int.
-http://87.246.54.249:8085/Karusel/index.m3u8
 #EXTINF:-1 group-title="Общие",Мама
 http://stv.mediacdn.ru/live/cdn/mama/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Мамонтенок
@@ -1117,10 +1199,6 @@ http://45.159.74.22/Boomerang/mono.m3u8
 http://158.160.149.81:8080/8709/index.m3u8
 #EXTINF:-1 group-title="Общие",TiJi
 http://178.217.72.66:8080/TiJi/index.m3u8
-#EXTINF:-1 group-title="Общие",2x2
-http://178.217.72.66:8080/2x2/index.m3u8
-#EXTINF:-1 group-title="Общие",2x2 (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 group-title="Общие",Анекдот ТВ
 http://77.235.1.19:8000/play/a05b/index.m3u8
 #EXTINF:-1 group-title="Общие",Вопросы и ответы
@@ -1131,14 +1209,6 @@ http://178.217.72.66:8080/Vremya/index.m3u8
 http://77.235.1.19:8000/play/a05h/index.m3u8
 #EXTINF:-1 group-title="Общие",Глазами туриста HD
 http://178.217.72.66:8080/glazamiturista/index.m3u8
-#EXTINF:-1 group-title="Общие",Домашний (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-#EXTINF:-1 group-title="Общие",Домашний +7 (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
-#EXTINF:-1 group-title="Общие",Домашний HD
-http://178.217.72.66:8080/Domashniy/index.m3u8
-#EXTINF:-1 group-title="Общие",Домашний Int.
-http://85.117.61.97:8000/play/a01i/index.m3u8
 #EXTINF:-1 group-title="Общие",Зал суда
 http://77.235.1.19:8000/play/a07m/index.m3u8
 #EXTINF:-1 group-title="Общие",Калейдоскоп ТВ
@@ -1153,22 +1223,10 @@ http://77.235.1.19:8000/play/a01i/index.m3u8
 http://77.235.1.19:8000/play/a01j/index.m3u8
 #EXTINF:-1 group-title="Общие",Ностальгия
 http://178.124.152.238:8088/nostalgia
-#EXTINF:-1 group-title="Общие",Открытый мир
-http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 group-title="Общие",Поехали!
 http://178.217.72.66:8080/Poehali/index.m3u8
 #EXTINF:-1 group-title="Общие",Продвижение
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
-#EXTINF:-1 group-title="Общие",Пятница!
-https://streaming.televizor-24-tochka.ru/live/19-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 group-title="Общие",Пятница! (Архив)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
-#EXTINF:-1 group-title="Общие",Пятница! +7 (Архив)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
-#EXTINF:-1 group-title="Общие",Пятница! HD
-http://178.217.72.66:8080/Pyatnitsa/index.m3u8
-#EXTINF:-1 group-title="Общие",Пятница! Int.
-http://158.101.222.193:88/georgia_play.php?id=friday
 #EXTINF:-1 group-title="Общие",Родной канал
 https://n1.slavmir.tv/live/slavmir/chunklist.m3u8
 #EXTINF:-1 group-title="Общие",Сарафан
@@ -1213,8 +1271,6 @@ http://80.77.52.3/streams/media/tv-25_720x576/index.m3u8
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:-1 group-title="Общие",Travel+Adventure HD
 http://77.232.131.211/TravelAdventureHD/index.m3u8
-#EXTINF:-1 group-title="Общие",Спас
-http://77.232.131.211/Spas/index.m3u8
 #EXTINF:-1 group-title="Общие",O2TV
 http://77.232.131.211/O2TV/index.m3u8
 #EXTINF:-1 group-title="Общие",Камин
@@ -1255,8 +1311,6 @@ http://62.89.220.15/streams/media/nashe-novoe-kino_720x576/index.m3u8
 http://62.89.220.15/streams/media/rodnoe-kino_720x576/index.m3u8
 #EXTINF:-1 group-title="Общие",Победа
 http://62.89.220.15/streams/media/pobeda_720x576/index.m3u8
-#EXTINF:-1 group-title="Общие",Мир Сериала
-http://62.89.220.15/streams/media/mir-seriala_720x576/index.m3u8
 #EXTINF:-1 group-title="Общие",Русский Роман
 http://62.89.220.15/streams/media/russkiy-roman_720x576/index.m3u8
 #EXTINF:-1 group-title="Общие",История
@@ -1279,8 +1333,6 @@ http://hls127.freeott.top:8080/Clarity4K_Uzhasi/mono.m3u8
 http://hls127.freeott.top:8080/Clarity4K_Anime/mono.m3u8
 #EXTINF:-1 group-title="Общие",Clarity4K Asia
 http://hls127.freeott.top:8080/Clarity4K_Asia/mono.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ
-http://31.131.141.195:8000/play/2010/index.m3u8
 #EXTINF:-1 group-title="Общие",Доктор Достоевский
 https://fl1001.bozztv.com/ushba3/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Star Media
@@ -1345,22 +1397,14 @@ https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Время
 https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
-#EXTINF:-1 group-title="Общие",Звезда HD
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Общие",Конгресс ТВ
 http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTINF:-1 group-title="Общие",Красная линия
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие",Неизвестная Россия HD
-http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",ОНТ HD
 https://edge53.dc.beltelecom.by/ont/_definst_/ont/chunklist_w741300442.m3u8
 #EXTINF:-1 group-title="Общие",ПРНК HD
 https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-#EXTINF:-1 group-title="Общие",Рен ТВ Int
-http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 group-title="Общие",CTV.BY HD
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Общие",ТВ3
@@ -1389,16 +1433,12 @@ http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/tracks-v1a1/mono.m3u8?hls_proxy_h
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Союз HD
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Спас
-http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Общие",Ani
 http://stv.mediacdn.ru/live/cdn/ani/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Общие",RADIOKIDS.FM
 http://cqw2lystveu.a.trbcdn.net/livemaster/7ak8t_live-hv25n82a0l8.smil/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Детское кино Int.
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
-#EXTINF:-1 group-title="Общие",Карусель
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 #EXTINF:-1 group-title="Общие",Мама
 http://stv.mediacdn.ru/live/cdn/mama/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Общие",Мульт HD
@@ -1407,16 +1447,12 @@ http://stv.mediacdn.ru/live/cdn/mult/tracks-v1a1/mono.ts.m3u8
 http://stv.mediacdn.ru/live/cdn/multimuzika/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Общие",Пингвин
 http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие",2x2
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 group-title="Общие",7 TV
 http://v4.proofix.ru:80/7tv-live/index.m3u8
 #EXTINF:-1 group-title="Общие",E HD
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Беларусь 2 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
-#EXTINF:-1 group-title="Общие",Домашний Int.
-https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:-1 group-title="Общие",СТРК HD
 http://sochinskayatrk.ru/hdtv/hls/CTPK_HD/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Теледом HD
@@ -1433,8 +1469,6 @@ http://178.212.71.253:8000/play/142/index.m3u8
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Trace Urban HD
 http://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="Общие",RU TV
-https://hls-03-video.webcaramba.com/rutv/live_480/index.m3u8
 #EXTINF:-1 group-title="Общие",Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 group-title="Общие",МузТВ HD
@@ -1501,8 +1535,6 @@ http://45.11.139.43:8555/extsport/index.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Беларусь 5 Интернет HD
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Конный Мир
-https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Матч!
 http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Окко.Спорт 2
@@ -1525,8 +1557,6 @@ http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Arsenal_HD
 #EXTINF:-1 group-title="Общие",Беларусь 3 HD
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
-#EXTINF:-1 group-title="Общие",В мире животных HD
-http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=HD_Anim_Fam
 #EXTINF:-1 group-title="Общие",ЕГЭ ТВ
 http://tv.streams.baikal-telecom.net:8080/RT_DOC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",История
@@ -1557,16 +1587,8 @@ http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Telepyt
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Tonus
 #EXTINF:-1 group-title="Общие",Усадьба
 http://95.66.188.74/Usadba/index.m3u8
-#EXTINF:-1 group-title="Общие",Арктика 24 (Архангельск)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
-#EXTINF:-1 group-title="Общие",Башкортостан 24 HD
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
 #EXTINF:-1 group-title="Общие",Вектор 24 HD
 http://136723.edgevideo.ru/streams/136723_657205/720n/index.m3u8
-#EXTINF:-1 group-title="Общие",Волгоград 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/track_102_1f3a2163/chunklist.m3u8
-#EXTINF:-1 group-title="Общие",Восток 24
-http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
 #EXTINF:-1 group-title="Общие",Дон 24 (Ростов-на-Дону)
 https://donmedia.bonus-tv.ru/cdn/donmedia/playlist_sdmid.m3u8
 #EXTINF:-1 group-title="Общие",Липецкое время HD
@@ -1641,8 +1663,6 @@ http://nashe1.hostingradio.ru:80/nashe-256
 http://dfm.hostingradio.ru/dfm128.mp3
 #EXTINF:-1 group-title="Общие",Радио Маяк
 http://icecast.vgtrk.cdnvideo.ru/mayakfm
-#EXTINF:-1 group-title="Общие",Радио Мир
-http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
 #EXTINF:-1 group-title="Общие",Радио на семи холмах
 http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
 #EXTINF:-1 group-title="Общие",Радио Шансон
@@ -1657,8 +1677,6 @@ http://rusradio.hostingradio.ru/rusradio96.aacp
 http://hitfm.hostingradio.ru/hitfm128.mp3
 #EXTINF:-1 group-title="Общие",Юмор FM
 https://pub0301.101.ru:8443/stream/air/mp3/256/102
-#EXTINF:-1 group-title="Общие",Мир
-http://31.131.141.195:8000/play/a003/index.m3u8
 #EXTINF:-1 group-title="Общие",Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
 #EXTINF:-1 group-title="Общие",Беларусь 24 HD
@@ -1723,8 +1741,6 @@ https://stream.teotv.ru/live/site360/playlist.m3u8
 https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Bridge Русский хит
 http://193.25.8.59:8000/rusong
-#EXTINF:-1 group-title="Общие",RU TV
-http://5.188.159.128:8070/rutv/index.m3u8
 #EXTINF:-1 group-title="Общие",Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 #EXTINF:-1 group-title="Общие",Жар Птица
@@ -1779,12 +1795,8 @@ https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
 https://a3569457567-s70378.cdn.ngenix.net/rtg_hd/1/index.m3u8
 #EXTINF:-1 group-title="Общие",Ugra Travel
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
-#EXTINF:-1 group-title="Общие",В мире животных
-https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
-#EXTINF:-1 group-title="Общие",Неизвестная Россия
-https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 group-title="Общие",Техно 24
 https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие",АВТО 24
@@ -1817,8 +1829,6 @@ https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant
 https://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8
 #EXTINF:-1 group-title="Общие",12 Канал (Омск)
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Общие",Абакан 24
-https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
 #EXTINF:-1 group-title="Общие",Аист
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
 #EXTINF:-1 group-title="Общие",Алмазный край
@@ -1829,8 +1839,6 @@ https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
 #EXTINF:-1 group-title="Общие",Барс
 https://bl.rutube.ru/livestream/f79ff24ad16cf5f5eb52994647596d13/index.m3u8?s=ZrXipYUZHniVrAVSwMJWhQ&e=2070623501&scheme=https
-#EXTINF:-1 group-title="Общие",Башкортостан 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
 #EXTINF:-1 group-title="Общие",Беларусь 4 Гомель
 http://46.56.85.151:8080/0.m3u8
 #EXTINF:-1 group-title="Общие",Брянская губерния HD
@@ -1923,8 +1931,6 @@ https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 group-title="Общие",РТК Забайкалье
 http://stream.zrtk.ru/zrtk.m3u8
-#EXTINF:-1 group-title="Общие",РТС - Абакан
-http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
 #EXTINF:-1 group-title="Общие",Регион 29
 http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
 #EXTINF:-1 group-title="Общие",Регион 67
@@ -1943,12 +1949,8 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_SAMOTLOR/variant.m3u8
 http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
 #EXTINF:-1 group-title="Общие",Саратов 24
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
-#EXTINF:-1 group-title="Общие",Сибирь 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
 #EXTINF:-1 group-title="Общие",ТВ-21+
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
-#EXTINF:-1 group-title="Общие",ТВ-7 Абакан
-https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 group-title="Общие",Татарстан 24
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8
 #EXTINF:-1 group-title="Общие",Тверской проспект
@@ -1971,8 +1973,6 @@ https://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
 #EXTINF:-1 group-title="Общие",Урал 1
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8
-#EXTINF:-1 group-title="Общие",Урал 24
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
 #EXTINF:-1 group-title="Общие",Учалы ТВ
 http://s45177.cdn.ngenix.net/hls/CH_R02_UCHALYTV/variant.m3u8
 #EXTINF:-1 group-title="Общие",Чаваш ЕН
