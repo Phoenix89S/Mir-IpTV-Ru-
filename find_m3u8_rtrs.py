@@ -150,9 +150,17 @@ def main():
             link = link.strip()
             if link in seen_links or is_garbage(meta, link): continue
 
-            group, orbit, name = find_group_and_orbit(meta, link)
-            seen_links.add(link)
-            all_channels[group][orbit].append((meta.strip(), link, name))
+                        # Проверяем, живая ли ссылка, прежде чем брать её со склада (!!!!!!)
+            print(f"🔎 Проверка: {meta.rsplit(',', 1)[-1].strip()[:30]}...", end="\r")
+            
+            if is_live(link):
+                group, orbit, name = find_destination(meta, link)
+                seen.add(link)
+                final_list[group][orbit].append((name, link))
+            else:
+                # Если ссылка мертвая, просто идем к следующей
+                continue
+
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
