@@ -46,81 +46,35 @@ CHANNEL_GROUPS = {
     },
 }
 
-OUTPUT_FILE = "Test_Channels_Mir_2026.m3u8"
-STABLE_OUTPUT_FILE = "Mir_iptv_stable.m3u"
+# Имена выходных файлов
+OUTPUT_FILE_1 = "Test_Channels_Mir_2026.m3u8"
+OUTPUT_FILE_2 = "Mir_iptv_stable.m3u"
 
 def get_links_from_m3u(url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-    }
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     try:
         print(f"   ⏳ Загружаю {url}...")
         resp = requests.get(url, headers=headers, timeout=30)
         resp.encoding = 'utf-8'
         content = resp.text
-
-        # Универсальный парсинг: ищем #EXTINF и следующую за ним ссылку
         pattern = re.compile(r'#EXTINF:(.*)(?:\n#.*)*\n(https?://\S+)', re.IGNORECASE)
-        items = pattern.findall(content)
-
-        return items
+        return pattern.findall(content)
     except Exception as e:
         print(f"   ⚠️ Ошибка: {e}")
         return []
 
 def extract_channel_name(meta):
-    """Извлекаем название канала из метаданных"""
     if ',' in meta:
         return meta.rsplit(',', 1)[-1].strip()
     return meta
 
 def find_group_and_orbit(full_meta, channel_groups):
-    """Ищем совпадение по названию канала"""
     channel_name = extract_channel_name(full_meta)
-
     for group_name, orbits in channel_groups.items():
         for orbit, keyword in orbits.items():
             if keyword.lower() in channel_name.lower():
                 return group_name, orbit, channel_name
-
     return "Прочее", "999", channel_name
-
-def save_playlist(filename, all_channels):
-    """Функция для записи плейлиста в файл"""
-    print(f"📝 Запись в файл: {filename}")
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        count = 0
-
-        # Сортировка групп
-        sorted_groups = sorted(all_channels.items(), 
-                              key=lambda x: min(float(o.split('.')[0]) for o in x[1].keys() if o != "999") 
-                                              if any(o != "999" for o in x[1].keys()) else 999)
-
-        for group_idx, (group_name, orbits) in enumerate(sorted_groups, 1):
-            # Сортировка по номеру орбиты
-            sorted_orbits = sorted(orbits.items(), 
-                                  key=lambda x: tuple(map(int, x[0].split('.'))) if x[0] != "999" else (999,))
-
-            for orbit, channels_list in sorted_orbits:
-                for ch_idx, (meta, link, name) in enumerate(channels_list, 1):
-                    display_name = name
-                    if orbit != "999":
-                        # Добавляем номер орбиты (например, 3.1)
-                        full_orbit = f"{orbit}.{ch_idx}" if len(channels_list) > 1 else orbit
-                        display_name = f"{full_orbit} {name}"
-
-                        if ',' in meta:
-                            meta_parts = meta.rsplit(',', 1)
-                            final_meta = f"{meta_parts[0]},{display_name}"
-                        else:
-                            final_meta = f"-1 group-title=\"{group_name}\",{display_name}"
-                    else:
-                        final_meta = meta
-
-                    f.write(f'#EXTINF:{final_meta}\n{link}\n')
-                    count += 1
-    return count
 
 def main():
     print(f"🚀 Старт: {datetime.now().strftime('%H:%M:%S')}")
@@ -130,42 +84,61 @@ def main():
     seen_links = set()
     total_found = 0
 
-    # Сбор данных со всех источников
+    # 1. Сбор данных
     for url in GITHUB_PLAYLISTS:
-        print(f"📥 Источник: {url}")
         items = get_links_from_m3u(url)
-
-        if not items:
-            continue
-
-        print(f"   ✅ Найдено {len(items)} каналов")
         total_found += len(items)
-
         for meta, link in items:
-            meta = meta.strip()
             link = link.strip()
-
-            # Пропускаем дубликаты ссылок
             if link in seen_links:
                 continue
             seen_links.add(link)
-
-            group, orbit, name = find_group_and_orbit(meta, CHANNEL_GROUPS)
-            all_channels[group][orbit].append((meta, link, name))
+            group, orbit, name = find_group_and_orbit(meta.strip(), CHANNEL_GROUPS)
+            all_channels[group][orbit].append((meta.strip(), link, name))
 
     print(f"\n{'='*60}")
-    print(f"📊 Статистика:")
-    print(f"   Всего найдено ссылок: {total_found}")
-    print(f"   Уникальных ссылок: {len(seen_links)}")
+    print(f"📊 Статистика: Уникальных {len(seen_links)} из {total_found}")
     print(f"{'='*60}\n")
 
-    # Сохраняем два плейлиста
-    c1 = save_playlist(OUTPUT_FILE, all_channels)
-    c2 = save_playlist(STABLE_OUTPUT_FILE, all_channels)
+    # 2. Подготовка контента для записи (одинаковая для обоих файлов)
+    playlist_content = ["#EXTM3U\n"]
+    count = 0
 
-    print(f"\n✨ Готово!")
-    print(f"✅ Файл 1 создан: {OUTPUT_FILE} ({c1} каналов)")
-    print(f"✅ Файл 2 создан: {STABLE_OUTPUT_FILE} ({c2} каналов)")
+    # Сортировка групп по номеру кнопки
+    sorted_groups = sorted(all_channels.items(), 
+                          key=lambda x: min(float(o.split('.')[0]) for o in x[1].keys() if o != "999") 
+                                          if any(o != "999" for o in x[1].keys()) else 999)
+
+    for group_name, orbits in sorted_groups:
+        # Сортировка внутри группы (орбиты)
+        sorted_orbits = sorted(orbits.items(), 
+                              key=lambda x: tuple(map(int, x[0].split('.'))) if x[0] != "999" else (999,))
+
+        for orbit, channels_list in sorted_orbits:
+            for ch_idx, (meta, link, name) in enumerate(channels_list, 1):
+                display_name = name
+                if orbit != "999":
+                    # Формируем красивое название с номером (например, 3.1 Матч)
+                    full_orbit = f"{orbit}.{ch_idx}" if len(channels_list) > 1 else orbit
+                    display_name = f"{full_orbit} {name}"
+
+                    if ',' in meta:
+                        final_meta = f"{meta.rsplit(',', 1)[0]},{display_name}"
+                    else:
+                        final_meta = f"-1 group-title=\"{group_name}\",{display_name}"
+                else:
+                    final_meta = meta
+
+                playlist_content.append(f'#EXTINF:{final_meta}\n{link}\n')
+                count += 1
+
+    # 3. Запись в два файла одновременно
+    for filename in [OUTPUT_FILE_1, OUTPUT_FILE_2]:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.writelines(playlist_content)
+        print(f"✅ Файл создан: {filename}")
+
+    print(f"\n✨ Готово! Всего каналов: {count}")
     print(f"⏰ Завершено: {datetime.now().strftime('%H:%M:%S')}")
 
 if __name__ == "__main__":
