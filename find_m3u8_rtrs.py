@@ -31,17 +31,14 @@ GITHUB_PLAYLISTS = [
 # Функция проверки потока (!!!!!!)
 def is_live(url):
     try:
-        # Проверяем заголовки (HEAD) — это быстро
         response = requests.head(url, timeout=3, allow_redirects=True)
         return response.status_code == 200
     except:
         try:
-            # Если сервер капризный, пробуем короткий GET (только начало файла)
             response = requests.get(url, timeout=3, stream=True)
             return response.status_code == 200
         except:
             return False
-
 
 # Имя выходного файла
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
@@ -49,7 +46,7 @@ OUTPUT_FILE = "Super_RTRS_2026.m3u"
 MAIN_GROUP_NAME = "Эфирные ТВ плюс"
 OTHER_GROUP_NAME = "Общие"
 
-# Список запрещенного мусора (Blacklist) - ЖЁСТКИЙ РЕГЛАМЕНТ (!!!!!!)
+# Список запрещенного мусора (Blacklist) (!!!!!!)
 BLACKLIST = [
     "T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", 
     "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"
@@ -98,49 +95,36 @@ CHANNEL_GROUPS = {
 }
 
 def get_links_from_m3u(url):
-    headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        resp = requests.get(url, headers=headers, timeout=30)
+        resp = requests.get(url, timeout=30)
         resp.encoding = 'utf-8'
         return re.findall(r'#EXTINF:(.*)(?:\n#.*)*\n(https?://\S+)', resp.text, re.IGNORECASE)
-    except:
-        return []
+    except: return []
 
 def extract_channel_name(meta):
     return meta.rsplit(',', 1)[-1].strip() if ',' in meta else meta
-
-def is_garbage(meta, link):
-    combined = (meta + link).upper()
-    return any(trash in combined for trash in BLACKLIST)
 
 def find_group_and_orbit(full_meta, link):
     name = extract_channel_name(full_meta)
     n_up = name.upper()
     link_up = link.upper()
-
-    # Сначала проверяем мусор Смотрим на 28 кнопку (!!!!!!)
     smotrim_trash = ["100%", "КИНО", "СЕРИАЛ", "ДЕТСКОЕ", "КЛАССИКА", "ФАКТЫ", "МУЖСКОЕ"]
+    
     if "SMOTRIM" in n_up or "SMOTRIM" in link_up:
         is_main = any(x in n_up for x in ["РОССИЯ 1", "РОССИЯ 24", "РОССИЯ К", "ВЕСТИ ФМ", "КАВКАЗ 24", "ЗАПАД 24", "PLANETA"])
         if not is_main or any(trash in n_up for trash in smotrim_trash):
             return MAIN_GROUP_NAME, "28.0", name
 
-    # Проверка основной сетки (!!!!!!)
     for g_id, orbits in CHANNEL_GROUPS.items():
         if "28" in g_id: continue
-        sorted_keys = sorted(orbits.keys(), key=lambda k: len(orbits[k]), reverse=True)
-        for orbit in sorted_keys:
-            keyw = orbits[orbit].upper()
-            if keyw in n_up:
-                if "РОССИЯ 24" in n_up and keyw == "РОССИЯ 1": continue
-                if keyw == "ОТР" and ("СМОТРИМ" in n_up or "100%" in n_up): continue
+        for orbit, keyw in orbits.items():
+            if keyw.upper() in n_up:
+                if "РОССИЯ 24" in n_up and keyw.upper() == "РОССИЯ 1": continue
                 return MAIN_GROUP_NAME, orbit, name
-
-    # Если не попал в кнопки - летит в Общие (!!!!!!)
     return OTHER_GROUP_NAME, "999", name
 
 def main():
-    print(f"🚀 Парсинг: {datetime.now().strftime('%H:%M:%S')}")
+    print(f"🚀 Запуск: {datetime.now().strftime('%H:%M:%S')}")
     all_channels = defaultdict(lambda: defaultdict(list))
     seen_links = set()
 
@@ -148,48 +132,33 @@ def main():
         items = get_links_from_m3u(url)
         for meta, link in items:
             link = link.strip()
-            if link in seen_links or is_garbage(meta, link): continue
-
-                                # ОСТАВЛЯЕМ ТОЛЬКО ЭТОТ ОДИН ЦИКЛ (!!!!!!)
-        for meta, link in items:
-            link = link.strip()
-            
-            # 1. Фильтр повторов и мусора
-            if link in seen or any(b in (meta + link).upper() for b in BLACKLIST): 
+            # Фильтр мусора и повторов
+            if link in seen_links or any(b in (meta + link).upper() for b in BLACKLIST): 
                 continue
-            
-            # 2. Печатаем название для контроля
-            print(f"🔎 Проверка: {meta.rsplit(',', 1)[-1].strip()[:30]}...", end="\r")
-            
-            # 3. ПРОВЕРКА (is_live)
-            if is_live(link):
-                # 4. Если живой — распределяем по кнопкам/складу
-                group, orbit, name = find_destination(meta, link)
-                seen.add(link)
-                final_list[group][orbit].append((name, link))
-            # Если мертвый — Python сам перейдет к следующей итерации (continue не обязателен тут)
 
+            print(f"🔎 Проверка: {extract_channel_name(meta)[:30]}...", end="\r")
+
+            # ПРОВЕРКА (is_live) (!!!!!!)
+            if is_live(link):
+                group, orbit, name = find_group_and_orbit(meta, link)
+                seen_links.add(link)
+                all_channels[group][orbit].append((name, link))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         count = 0
-
-        # Сначала пишем группу "Эфирные ТВ плюс" по порядку кнопок (!!!!!!)
         rtrs_orbits = all_channels[MAIN_GROUP_NAME]
         sorted_orbits = sorted(rtrs_orbits.items(), key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])])
 
         for orbit, ch_list in sorted_orbits:
-            for idx, (meta, link, name) in enumerate(ch_list, 1):
-                final_name = f"Кнопка {orbit}.{idx} {name}"
-                f.write(f'#EXTINF:-1 group-title="{MAIN_GROUP_NAME}",{final_name}\n{link}\n')
+            for idx, (name, link) in enumerate(ch_list, 1):
+                f.write(f'#EXTINF:-1 group-title="{MAIN_GROUP_NAME}",Кнопка {orbit}.{idx} {name}\n{link}\n')
                 count += 1
-
-        # Затем пишем группу "Общие" (!!!!!!)
-        for idx, (meta, link, name) in enumerate(all_channels[OTHER_GROUP_NAME]["999"], 1):
+        for name, link in all_channels[OTHER_GROUP_NAME]["999"]:
             f.write(f'#EXTINF:-1 group-title="{OTHER_GROUP_NAME}",{name}\n{link}\n')
             count += 1
 
-    print(f"✨ Готово! Всего каналов: {count}. Кнопки в '{MAIN_GROUP_NAME}', остальное в '{OTHER_GROUP_NAME}'.")
+    print(f"\n✨ Готово! Всего живых каналов: {count}. (!!!!!!)")
 
 if __name__ == "__main__":
     main()
