@@ -24,16 +24,34 @@ CHANNEL_GROUPS = {
         "1.4": "Первый +6", "1.5": "Первый +8", "1.6": "Первый +9", "1.7": "Первый СНГ",
     },
     "Кнопка 2 РТРС: Россия / ВГТРК": {
-        "2.0": "Россия 1", "2.1": "Россия HD", "2.2": "Россия 24", "2.3": "Россия К",
-        "2.4": "Культура", "2.5": "РТР-Планета", "2.6": "ГТРК", "2.7": "Россия +",
+        # Сектор 2.0: Россия 1
+        "2.0": "Россия 1", 
+        "2.0.1": "Россия 1 (Калининград)", 
+        "2.0.2": "Россия 1 (Ростов-на-Дону)", 
+        "2.0.3": "Россия 1 (Санкт-Петербург)", 
+        "2.0.4": "Россия 1 (Ярославль)",
+        # Сектор 2.1: Россия 24
+        "2.1": "Россия 24", 
+        "2.1.0.2": "Россия 24 (Калининград)", 
+        "2.1.0.3": "Россия 24 (Ростов-на-Дону)",
+        "2.1.0.4": "Россия 24 (Санкт-Петербург)",
+        # Сектор 2.2: Культура
+        "2.2": "Россия К", "2.2.1": "Культура",
+        # Сектор 2.3: Региональные 24
+        "2.3.1": "Арктика 24", "2.3.2": "Башкортостан 24", "2.3.3": "Волгоград 24",
+        "2.3.4": "Восток 24", "2.3.5": "Запад 24", "2.3.7": "Сибирь 24", "2.3.9": "Урал 24",
+        # Сектор 2.4: Планета
+        "2.4": "Planeta RTR", "2.4.4": "Россия РТР",
+        # Сектор 2.5: Радио
+        "2.5": "Вести FM", "2.5.1": "Вести ФМ"
     },
     "Кнопка 3 РТРС: Матч!": {
         "3.0": "Матч ТВ", "3.1": "Матч HD", "3.2": "Матч Арена", "3.3": "Матч Игра",
         "3.4": "Матч Боец", "3.5": "Матч Страна", "3.6": "Матч Планета", "3.7": "Матч Футбол",
     },
     "Кнопка 4 РТРС: НТВ": {
-        "4.1": "НТВ", "4.2": "НТВ Мир", "4.3": "НТВ Стиль", "4.4": "НТВ Право",
-        "4.5": "НТВ Хит", "4.6": "НТВ Сериал", "4.7": "НТВ HD",
+        "4.1": "НТВ", "4.2": "Неизвестная Россия", "4.3": "НТВ Мир", "4.4": "НТВ Стиль", 
+        "4.5": "НТВ Право", "4.6": "НТВ Хит", "4.7": "НТВ Сериал", "4.8": "НТВ HD",
     },
     "Кнопка 5 РТРС: Пятый канал": {"5.0": "Пятый канал", "5.1": "5 канал"},
     "Кнопка 6 РТРС: Россия К": {"6.0": "Россия К", "6.1": "Культура"},
@@ -63,7 +81,6 @@ CHANNEL_GROUPS = {
 def get_links_from_m3u(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        print(f"   📥 Чтение {url}...")
         resp = requests.get(url, headers=headers, timeout=30)
         resp.encoding = 'utf-8'
         return re.findall(r'#EXTINF:(.*)(?:\n#.*)*\n(https?://\S+)', resp.text, re.IGNORECASE)
@@ -77,7 +94,11 @@ def find_group_and_orbit(full_meta, channel_groups):
     name = extract_channel_name(full_meta)
     n_up = name.upper()
     for g_name, orbits in channel_groups.items():
-        for orbit, keyw in orbits.items():
+        # Сортируем ключи по длине (сначала длинные), чтобы "Россия 1 (Калининград)" 
+        # не упала в просто "Россия 1"
+        sorted_keys = sorted(orbits.keys(), key=len, reverse=True)
+        for orbit in sorted_keys:
+            keyw = orbits[orbit]
             if keyw.upper() in n_up:
                 return g_name, orbit, name
     return "Прочее", "999", name
@@ -99,22 +120,27 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         count = 0
-        
-        # Сортировка по номеру кнопки
+
+        # Сортировка основных групп по номеру в названии
         sorted_groups = sorted(all_channels.items(), 
                               key=lambda x: int(re.search(r'\d+', x[0]).group()) if re.search(r'\d+', x[0]) else 999)
 
         for group_name, orbits in sorted_groups:
+            # Сортировка орбитальных кодов (2.0, 2.0.1, 2.1 и т.д.)
             sorted_orbits = sorted(orbits.items(), 
-                                  key=lambda x: tuple(map(int, re.findall(r'\d+', x[0]))) if x[0] != "999" else (999,))
+                                  key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])] if x[0] != "999" else [999])
+            
             for orbit, ch_list in sorted_orbits:
                 for idx, (meta, link, name) in enumerate(ch_list, 1):
+                    # Если найдено несколько ссылок на один код, добавляем индекс через точку
                     final_name = f"Кнопка {orbit}.{idx} {name}" if orbit != "999" else name
+                    
                     if ',' in meta:
                         m_parts = meta.rsplit(',', 1)
-                        f_meta = f"{m_parts[0]},{final_name}"
+                        f_meta = f"{m_parts[0].strip()},{final_name}"
                     else:
                         f_meta = f"-1 group-title=\"{group_name}\",{final_name}"
+                    
                     f.write(f'#EXTINF:{f_meta}\n{link}\n')
                     count += 1
 
