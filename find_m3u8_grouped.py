@@ -11,6 +11,7 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
     "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
 ]
 
 
