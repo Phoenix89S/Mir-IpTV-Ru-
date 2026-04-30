@@ -14,75 +14,39 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
 ]
 
-# Имя выходного файла
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
-# Единая группа для всех кнопок
 MAIN_GROUP_NAME = "Эфирные ТВ плюс"
+OTHER_GROUP_NAME = "Общие"
 
-# Список запрещенного мусора (Blacklist) - ЖЁСТКИЙ РЕГЛАМЕНТ
+# ЖЁСТКИЙ РЕГЛАМЕНТ ЧИСТКИ (!!!!!!)
 BLACKLIST = [
     "T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", 
     "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"
 ]
 
-# Структура групп по кнопкам РТРС (с учётом всех дополнений)
+# Твоя структура кнопок (!!!!!!)
 CHANNEL_GROUPS = {
-    "Кнопка 1 РТРС: Первый канал": {
-        "1.0": "Первый канал", "1.1": "Первый HD", "1.2": "Первый +2", "1.3": "Первый +4",
-        "1.4": "Первый +6", "1.5": "Первый +8", "1.6": "Первый +9", "1.7": "Первый СНГ",
+    "Кнопка 1": {"1.0": "Первый канал", "1.1": "Первый HD", "1.2": "Первый +2", "1.3": "Первый +4"},
+    "Кнопка 2": {
+        "2.0": "Россия 1", "2.0.1": "Россия 1 (Калининград)", "2.1": "Россия 24", 
+        "2.2": "Россия К", "2.3.6": "Кавказ 24", "2.3.5": "Запад 24", "2.5": "Вести FM"
     },
-    "Кнопка 2 РТРС: Россия / ВГТРК": {
-        "2.0": "Россия 1", 
-        "2.0.1": "Россия 1 (Калининград)", 
-        "2.0.2": "Россия 1 (Ростов-на-Дону)", 
-        "2.0.3": "Россия 1 (Санкт-Петербург)", 
-        "2.0.4": "Россия 1 (Ярославль)",
-        "2.1": "Россия 24", 
-        "2.1.0.2": "Россия 24 (Калининград)", 
-        "2.1.0.3": "Россия 24 (Ростов-на-Дону)", 
-        "2.1.0.4": "Россия 24 (Санкт-Петербург)",
-        "2.2": "Россия К", "2.2.1": "Культура",
-        "2.3.1": "Арктика 24", "2.3.2": "Башкортостан 24", "2.3.3": "Волгоград 24",
-        "2.3.4": "Восток 24", "2.3.5": "Запад 24", "2.3.6": "Кавказ 24", "2.3.7": "Сибирь 24", "2.3.9": "Урал 24",
-        "2.4": "Planeta RTR", "2.4.4": "Россия РТР",
-        "2.5": "Вести FM", "2.5.1": "Вести ФМ"
-    },
-    "Кнопка 3 РТРС: Матч!": {
-        "3.0": "Матч ТВ", "3.1": "Матч HD", "3.2": "Матч Арена", "3.3": "Матч Игра",
-        "3.4": "Матч Боец", "3.5": "Матч Страна", "3.6": "Матч Планета", "3.7": "Матч Футбол",
-    },
-    "Кнопка 4 РТРС: НТВ": {
-        "4.1": "НТВ", "4.2": "Неизвестная Россия", "4.3": "НТВ Мир", "4.4": "НТВ Стиль", 
-        "4.5": "НТВ Право", "4.6": "НТВ Хит", "4.7": "НТВ Сериал", "4.8": "НТВ HD",
-    },
-    "Кнопка 5 РТРС: Пятый канал": {"5.0": "Пятый канал", "5.1": "5 канал"},
-    "Кнопка 6 РТРС: Россия К": {"6.0": "Россия К", "6.1": "Культура"},
-    "Кнопка 7 РТРС: Россия 24": {"7.0": "Россия 24"},
-    "Кнопка 8 РТРС: Карусель": {"8.0": "Карусель"},
-    "Кнопка 9 РТРС: ОТР": {"9.0": "ОТР"},
-    "Кнопка 10 РТРС: ТВ Центр": {"10.0": "ТВЦ", "10.1": "ТВ Центр"},
-    "Кнопка 11 РТРС: РЕН ТВ": {"11.0": "РЕН ТВ"},
-    "Кнопка 12 РТРС: Спас": {"12.0": "Спас"},
-    "Кнопка 13 РТРС: СТС": {
-        "13.0": "СТС", "13.1": "СТС HD", "13.2": "СТС +", "13.3": "СТС Love", 
-        "13.4": "СТС Kids", "13.5": "СТС International"
-    },
-    "Кнопка 14 РТРС: Домашний": {"14.0": "Домашний"},
-    "Кнопка 15 РТРС: ТВ-3": {"15.0": "ТВ-3", "15.1": "ТВ3"},
-    "Кнопка 16 РТРС: Пятница": {"16.0": "Пятница"},
-    "Кнопка 17 РТРС: Звезда": {"17.0": "Звезда"},
-    "Кнопка 18 РТРС: Мир": {"18.0": "Мир"},
-    "Кнопка 19 РТРС: ТНТ": {"19.0": "ТНТ", "19.1": "ТНТ HD", "19.2": "ТНТ4"},
-    "Кнопка 20 РТРС: Муз-ТВ": {"20.0": "Муз-ТВ", "20.1": "Муз ТВ"},
-    "Кнопка 21: Региональные (РТС)": {"21.0": "РТС", "21.1": "Абакан", "21.2": "Тивиком"},
+    "Кнопка 3": {"3.0": "Матч ТВ", "3.1": "Матч HD"},
+    "Кнопка 4": {"4.1": "НТВ", "4.8": "НТВ HD"},
+    "Кнопка 5": {"5.0": "Пятый канал"},
+    "Кнопка 9": {"9.0": "ОТР"},
+    "Кнопка 10": {"10.0": "ТВЦ", "10.1": "ТВ Центр"},
+    "Кнопка 13": {"13.0": "СТС", "13.4": "СТС Kids"},
+    "Кнопка 19": {"19.0": "ТНТ", "19.1": "ТНТ HD"},
+    "Кнопка 20": {"20.0": "Муз-ТВ"},
     "Кнопка 22": {
-        "22.0": "Че", "22.1": "Че +", "22.2": "Че International", 
-        "22.5": "Перец", "22.6": "Перец +", "22.7": "Перец International"
+        "22.0": "Че", "22.2": "Че International", 
+        "22.5": "Перец", "22.7": "Перец International"
     },
-    "Кнопка 23": {"23.0": "Солнце", "23.1": "Солнце +"},
-    "Кнопка 24": {"24.0": "2х2", "24.1": "2x2"},
-    "Кнопка 25": {"25.0": "RU.TV", "25.1": "RU TV HD", "25.2": "RU TV"},
-    "Кнопка 28: Пакет Смотрим": {"28.0": "SMOTRIM"}
+    "Кнопка 23": {"23.0": "Солнце"},
+    "Кнопка 24": {"24.0": "2х2"},
+    "Кнопка 25": {"25.0": "RU.TV", "25.1": "RU TV HD"},
+    "Кнопка 28": {"28.0": "SMOTRIM"}
 }
 
 def get_links_from_m3u(url):
@@ -98,7 +62,6 @@ def extract_channel_name(meta):
     return meta.rsplit(',', 1)[-1].strip() if ',' in meta else meta
 
 def is_garbage(meta, link):
-    """Проверка на мусорные ссылки и названия (Nexo, Telegram и т.д.)"""
     combined = (meta + link).upper()
     return any(trash in combined for trash in BLACKLIST)
 
@@ -107,38 +70,30 @@ def find_group_and_orbit(full_meta, link):
     n_up = name.upper()
     link_up = link.upper()
 
-    # ЖЁСТКИЙ РЕГЛАМЕНТ: Сначала фильтруем развлекательный мусор "Смотрим" на 28 кнопку
+    # Фильтр "Смотрим" на 28 кнопку (!!!!!!)
     smotrim_trash = ["100%", "КИНО", "СЕРИАЛ", "ДЕТСКОЕ", "КЛАССИКА", "ФАКТЫ", "МУЖСКОЕ"]
     if "SMOTRIM" in n_up or "SMOTRIM" in link_up:
-        # Список неприкосновенных эфирных каналов ВГТРК
-        is_main = any(x in n_up for x in ["РОССИЯ 1", "РОССИЯ 24", "РОССИЯ К", "ВЕСТИ ФМ", "КАВКАЗ 24", "ЗАПАД 24", "PLANETA"])
+        is_main = any(x in n_up for x in ["РОССИЯ 1", "РОССИЯ 24", "РОССИЯ К", "ВЕСТИ ФМ", "КАВКАЗ 24"])
         if not is_main or any(trash in n_up for trash in smotrim_trash):
-            return "Кнопка 28: Пакет Смотрим", "28.0", name
+            return MAIN_GROUP_NAME, "28.0", name
 
-    # 1. Проверяем основную сетку (кроме 28 кнопки)
-    for g_name, orbits in CHANNEL_GROUPS.items():
-        if "Кнопка 28" in g_name: continue
-        # Сортируем ключи по длине ключевого слова (сначала HD и полные фразы)
+    # Проверка РТРС сетки (!!!!!!)
+    for g_id, orbits in CHANNEL_GROUPS.items():
+        if "28" in g_id: continue
         sorted_keys = sorted(orbits.keys(), key=lambda k: len(orbits[k]), reverse=True)
         for orbit in sorted_keys:
-            keyw = orbits[orbit]
-            if keyw.upper() in n_up:
-                # Специальный фильтр для ОТР, чтобы не путал с мусором
-                if keyw.upper() == "ОТР" and ("СМОТРИМ" in n_up or "100%" in n_up):
-                    continue
-                # Защита от пересечения Россия 1 и Россия 24
-                if "РОССИЯ 24" in n_up and keyw.upper() == "РОССИЯ 1":
-                    continue
-                return g_name, orbit, name
+            keyw = orbits[orbit].upper()
+            if keyw in n_up:
+                # Фильтры-исключения
+                if "РОССИЯ 24" in n_up and keyw == "РОССИЯ 1": continue
+                if keyw == "ОТР" and ("СМОТРИМ" in n_up or "100%" in n_up): continue
+                return MAIN_GROUP_NAME, orbit, name
 
-    # 2. Если не в сетке, но это "Смотрим" или "ВГТРК" в ссылке — на 28 кнопку
-    if "SMOTRIM" in n_up or "SMOTRIM" in link_up or "VGTRK" in link_up:
-        return "Кнопка 28: Пакет Смотрим", "28.0", name
-
-    return "Прочее", "999", name
+    # Если не кнопка — значит в Общие (!!!!!!)
+    return OTHER_GROUP_NAME, "999", name
 
 def main():
-    print(f"🚀 Скрипт: find_m3u8_rtrs.py | Старт: {datetime.now().strftime('%H:%M:%S')}")
+    print(f"🚀 Старт: {datetime.now().strftime('%H:%M:%S')}")
     all_channels = defaultdict(lambda: defaultdict(list))
     seen_links = set()
 
@@ -146,53 +101,33 @@ def main():
         items = get_links_from_m3u(url)
         for meta, link in items:
             link = link.strip()
-
-            # Фильтр дублей и тотальный бан мусора
-            if link in seen_links or is_garbage(meta, link):
-                continue
-
-            group, orbit, name = find_group_and_orbit(meta, link)
+            if link in seen_links or is_garbage(meta, link): continue
             
-            # В плейлист попадают только те, что привязаны к кнопкам РТРС
-            if group != "Прочее":
-                seen_links.add(link)
-                all_channels[group][orbit].append((meta.strip(), link, name))
+            group, orbit, name = find_group_and_orbit(meta, link)
+            seen_links.add(link)
+            all_channels[group][orbit].append((meta.strip(), link, name))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        count = 0
+        
+        # 1. Сначала Эфирные кнопки (!!!!!!)
+        rtrs_data = all_channels[MAIN_GROUP_NAME]
+        sorted_orbits = sorted(rtrs_data.items(), key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])])
+        
+        count_rtrs = 0
+        for orbit, ch_list in sorted_orbits:
+            for idx, (meta, link, name) in enumerate(ch_list, 1):
+                final_name = f"Кнопка {orbit}.{idx} {name}"
+                f.write(f'#EXTINF:-1 group-title="{MAIN_GROUP_NAME}",{final_name}\n{link}\n')
+                count_rtrs += 1
 
-        # Сортировка основных групп по номеру кнопки
-        sorted_groups = sorted(all_channels.items(), 
-                              key=lambda x: int(re.search(r'\d+', x[0]).group()) if re.search(r'\d+', x[0]) else 999)
+        # 2. Потом всё остальное в Общие (!!!!!!)
+        count_common = 0
+        for idx, (meta, link, name) in enumerate(all_channels[OTHER_GROUP_NAME]["999"], 1):
+            f.write(f'#EXTINF:-1 group-title="{OTHER_GROUP_NAME}",{name}\n{link}\n')
+            count_common += 1
 
-        for group_name, orbits in sorted_groups:
-            # Сортировка орбитальных кодов (1.0, 2.0.1, 28.0 и т.д.)
-            sorted_orbits = sorted(orbits.items(), 
-                                  key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])] if x[0] != "999" else [999])
-
-            for orbit, ch_list in sorted_orbits:
-                for idx, (meta, link, name) in enumerate(ch_list, 1):
-                    # Название: Кнопка [Орбита].[Порядковый номер] [Имя]
-                    final_name = f"Кнопка {orbit}.{idx} {name}"
-
-                    # Формируем метаданные с ПРИНУДИТЕЛЬНОЙ группой "Эфирные ТВ плюс"
-                    if ',' in meta:
-                        m_parts = meta.rsplit(',', 1)
-                        clean_meta = m_parts[0].strip()
-                        # Жёстко заменяем оригинальный group-title на наш
-                        if 'group-title=' in clean_meta:
-                            clean_meta = re.sub(r'group-title="[^"]*"', f'group-title="{MAIN_GROUP_NAME}"', clean_meta)
-                        else:
-                            clean_meta += f' group-title="{MAIN_GROUP_NAME}"'
-                        f_meta = f"{clean_meta},{final_name}"
-                    else:
-                        f_meta = f"-1 group-title=\"{MAIN_GROUP_NAME}\",{final_name}"
-
-                    f.write(f'#EXTINF:{f_meta}\n{link}\n')
-                    count += 1
-
-    print(f"✨ Готово! Файл {OUTPUT_FILE} создан. Собрано каналов: {count} в группу '{MAIN_GROUP_NAME}'")
+    print(f"✨ Готово! РТРС: {count_rtrs}, Общие: {count_common}. Всего: {count_rtrs + count_common}")
 
 if __name__ == "__main__":
     main()
