@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-# Источники плейлистов (Дополнено строго в конец списка) (!!!!!!)
+# Источники плейлистов (Ничего не режем!) (!!!!!!)
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
@@ -28,7 +28,10 @@ GITHUB_PLAYLISTS = [
     "https://live.iptv-free.com/iptv/languages/rus.m3u"
 ]
 
-# Функция проверки потока (!!!!!!)
+# ИСТОЧНИКИ EPG (!!!!!!)
+EPG_SOURCES = "https://epg.one/epg.xml.gz,https://iptvx.one/EPG"
+
+# Функция проверки потока
 def is_live(url):
     try:
         response = requests.head(url, timeout=3, allow_redirects=True)
@@ -37,22 +40,13 @@ def is_live(url):
         try:
             response = requests.get(url, timeout=3, stream=True)
             return response.status_code == 200
-        except:
-            return False
+        except: return False
 
-# Имя выходного файла
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
-# Группы
 MAIN_GROUP_NAME = "Эфирные ТВ плюс"
 OTHER_GROUP_NAME = "Общие"
+BLACKLIST = ["T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"]
 
-# Список запрещенного мусора (Blacklist) (!!!!!!)
-BLACKLIST = [
-    "T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", 
-    "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"
-]
-
-# Структура групп по кнопкам РТРС (!!!!!!)
 CHANNEL_GROUPS = {
     "Кнопка 1": {
         "1.0": "Первый канал", "1.1": "Первый HD", "1.2": "Первый +2", "1.3": "Первый +4",
@@ -104,6 +98,10 @@ def get_links_from_m3u(url):
 def extract_channel_name(meta):
     return meta.rsplit(',', 1)[-1].strip() if ',' in meta else meta
 
+def extract_tvg_id(meta):
+    match = re.search(r'tvg-id="([^"]+)"', meta, re.IGNORECASE)
+    return match.group(1) if match else ""
+
 def find_group_and_orbit(full_meta, link):
     name = extract_channel_name(full_meta)
     n_up = name.upper()
@@ -124,7 +122,7 @@ def find_group_and_orbit(full_meta, link):
     return OTHER_GROUP_NAME, "999", name
 
 def main():
-    print(f"🚀 Запуск: {datetime.now().strftime('%H:%M:%S')}")
+    print(f"🚀 Запуск сборки с EPG: {datetime.now().strftime('%H:%M:%S')}")
     all_channels = defaultdict(lambda: defaultdict(list))
     seen_links = set()
 
@@ -132,33 +130,34 @@ def main():
         items = get_links_from_m3u(url)
         for meta, link in items:
             link = link.strip()
-            # Фильтр мусора и повторов
             if link in seen_links or any(b in (meta + link).upper() for b in BLACKLIST): 
                 continue
 
-            print(f"🔎 Проверка: {extract_channel_name(meta)[:30]}...", end="\r")
-
-            # ПРОВЕРКА (is_live) (!!!!!!)
             if is_live(link):
                 group, orbit, name = find_group_and_orbit(meta, link)
+                tvg_id = extract_tvg_id(meta)
                 seen_links.add(link)
-                all_channels[group][orbit].append((name, link))
+                all_channels[group][orbit].append({
+                    'name': name, 
+                    'link': link, 
+                    'tvg_id': tvg_id if tvg_id else name
+                })
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        f.write(f'#EXTM3U x-tvg-url="{EPG_SOURCES}"\n') # ПРОПИСАЛИ ЕПГ (!!!!!!)
         count = 0
         rtrs_orbits = all_channels[MAIN_GROUP_NAME]
         sorted_orbits = sorted(rtrs_orbits.items(), key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])])
 
         for orbit, ch_list in sorted_orbits:
-            for idx, (name, link) in enumerate(ch_list, 1):
-                f.write(f'#EXTINF:-1 group-title="{MAIN_GROUP_NAME}",Кнопка {orbit}.{idx} {name}\n{link}\n')
+            for idx, ch in enumerate(ch_list, 1):
+                f.write(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["tvg_id"]}" group-title="{MAIN_GROUP_NAME}",Кнопка {orbit}.{idx} {ch["name"]}\n{ch["link"]}\n')
                 count += 1
-        for name, link in all_channels[OTHER_GROUP_NAME]["999"]:
-            f.write(f'#EXTINF:-1 group-title="{OTHER_GROUP_NAME}",{name}\n{link}\n')
+        for ch in all_channels[OTHER_GROUP_NAME]["999"]:
+            f.write(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["tvg_id"]}" group-title="{OTHER_GROUP_NAME}",{ch["name"]}\n{ch["link"]}\n')
             count += 1
 
-    print(f"\n✨ Готово! Всего живых каналов: {count}. (!!!!!!)")
+    print(f"\n✨ Готово! Плейлист с EPG готов. Всего каналов: {count}. (!!!!!!)")
 
 if __name__ == "__main__":
     main()
