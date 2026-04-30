@@ -150,16 +150,24 @@ def main():
             link = link.strip()
             if link in seen_links or is_garbage(meta, link): continue
 
-                        # Проверяем, живая ли ссылка, прежде чем брать её со склада (!!!!!!)
+                                # ОСТАВЛЯЕМ ТОЛЬКО ЭТОТ ОДИН ЦИКЛ (!!!!!!)
+        for meta, link in items:
+            link = link.strip()
+            
+            # 1. Фильтр повторов и мусора
+            if link in seen or any(b in (meta + link).upper() for b in BLACKLIST): 
+                continue
+            
+            # 2. Печатаем название для контроля
             print(f"🔎 Проверка: {meta.rsplit(',', 1)[-1].strip()[:30]}...", end="\r")
             
+            # 3. ПРОВЕРКА (is_live)
             if is_live(link):
+                # 4. Если живой — распределяем по кнопкам/складу
                 group, orbit, name = find_destination(meta, link)
                 seen.add(link)
                 final_list[group][orbit].append((name, link))
-            else:
-                # Если ссылка мертвая, просто идем к следующей
-                continue
+            # Если мертвый — Python сам перейдет к следующей итерации (continue не обязателен тут)
 
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
