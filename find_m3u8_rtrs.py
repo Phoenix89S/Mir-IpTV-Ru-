@@ -28,6 +28,21 @@ GITHUB_PLAYLISTS = [
     "https://live.iptv-free.com/iptv/languages/rus.m3u"
 ]
 
+# Функция проверки потока (!!!!!!)
+def is_live(url):
+    try:
+        # Проверяем заголовки (HEAD) — это быстро
+        response = requests.head(url, timeout=3, allow_redirects=True)
+        return response.status_code == 200
+    except:
+        try:
+            # Если сервер капризный, пробуем короткий GET (только начало файла)
+            response = requests.get(url, timeout=3, stream=True)
+            return response.status_code == 200
+        except:
+            return False
+
+
 # Имя выходного файла
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
 # Группы
