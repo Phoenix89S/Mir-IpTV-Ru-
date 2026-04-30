@@ -16,6 +16,14 @@ GITHUB_PLAYLISTS = [
 
 # Имя выходного файла
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
+# Единая группа для всех кнопок
+MAIN_GROUP_NAME = "Эфирные ТВ плюс"
+
+# Список запрещенного мусора (Blacklist)
+BLACKLIST = [
+    "T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", 
+    "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT"
+]
 
 # Структура групп по кнопкам РТРС
 CHANNEL_GROUPS = {
@@ -33,7 +41,7 @@ CHANNEL_GROUPS = {
         # Сектор 2.1: Россия 24
         "2.1": "Россия 24", 
         "2.1.0.2": "Россия 24 (Калининград)", 
-        "2.1.0.3": "Россия 24 (Ростов-на-Дону)",
+        "2.1.0.3": "Россия 24 (Ростов-на-Дону)", 
         "2.1.0.4": "Россия 24 (Санкт-Петербург)",
         # Сектор 2.2: Культура
         "2.2": "Россия К", "2.2.1": "Культура",
@@ -76,6 +84,7 @@ CHANNEL_GROUPS = {
     "Кнопка 22: Развлекательные": {
         "22.1": "2х2", "22.2": "Солнце", "22.3": "Ю ", "22.4": "Перец", "22.5": "Че", "22.6": "RU.TV"
     },
+    "Кнопка 28: Пакет Смотрим": {"28.0": "SMOTRIM"}
 }
 
 def get_links_from_m3u(url):
@@ -90,17 +99,32 @@ def get_links_from_m3u(url):
 def extract_channel_name(meta):
     return meta.rsplit(',', 1)[-1].strip() if ',' in meta else meta
 
-def find_group_and_orbit(full_meta, channel_groups):
+def is_garbage(meta, link):
+    """Проверка на мусорные ссылки и названия (Nexo, Telegram и т.д.)"""
+    combined = (meta + link).upper()
+    return any(trash in combined for trash in BLACKLIST)
+
+def find_group_and_orbit(full_meta, link):
     name = extract_channel_name(full_meta)
     n_up = name.upper()
-    for g_name, orbits in channel_groups.items():
-        # Сортируем ключи по длине (сначала длинные), чтобы "Россия 1 (Калининград)" 
-        # не упала в просто "Россия 1"
+    link_up = link.upper()
+    
+    # 1. Проверяем основную сетку (кроме 28 кнопки)
+    for g_name, orbits in CHANNEL_GROUPS.items():
+        if "Кнопка 28" in g_name: continue
         sorted_keys = sorted(orbits.keys(), key=len, reverse=True)
         for orbit in sorted_keys:
             keyw = orbits[orbit]
             if keyw.upper() in n_up:
+                # Защита от пересечения Россия 1 и Россия 24
+                if "РОССИЯ 24" in n_up and keyw.upper() == "РОССИЯ 1":
+                    continue
                 return g_name, orbit, name
+                
+    # 2. Если не в сетке, но это "Смотрим" — отправляем на 28 кнопку
+    if "SMOTRIM" in n_up or "SMOTRIM" in link_up or "VGTRK" in link_up:
+        return "Кнопка 28: Пакет Смотрим", "28.0", name
+        
     return "Прочее", "999", name
 
 def main():
@@ -112,39 +136,50 @@ def main():
         items = get_links_from_m3u(url)
         for meta, link in items:
             link = link.strip()
-            if link in seen_links: continue
+            
+            # Фильтр дублей и тотальный бан мусора
+            if link in seen_links or is_garbage(meta, link):
+                continue
+                
             seen_links.add(link)
-            group, orbit, name = find_group_and_orbit(meta, CHANNEL_GROUPS)
+            group, orbit, name = find_group_and_orbit(meta, link)
             all_channels[group][orbit].append((meta.strip(), link, name))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         count = 0
 
-        # Сортировка основных групп по номеру в названии
+        # Сортировка основных групп по номеру кнопки
         sorted_groups = sorted(all_channels.items(), 
                               key=lambda x: int(re.search(r'\d+', x[0]).group()) if re.search(r'\d+', x[0]) else 999)
 
         for group_name, orbits in sorted_groups:
-            # Сортировка орбитальных кодов (2.0, 2.0.1, 2.1 и т.д.)
+            # Сортировка орбитальных кодов (1.0, 2.0.1, 28.0 и т.д.)
             sorted_orbits = sorted(orbits.items(), 
                                   key=lambda x: [int(d) for d in re.findall(r'\d+', x[0])] if x[0] != "999" else [999])
-            
+
             for orbit, ch_list in sorted_orbits:
                 for idx, (meta, link, name) in enumerate(ch_list, 1):
-                    # Если найдено несколько ссылок на один код, добавляем индекс через точку
+                    # Название: Кнопка [Орбита].[Порядковый номер] [Имя]
                     final_name = f"Кнопка {orbit}.{idx} {name}" if orbit != "999" else name
-                    
+
+                    # Формируем метаданные с принудительной группой "Эфирные ТВ плюс"
                     if ',' in meta:
                         m_parts = meta.rsplit(',', 1)
-                        f_meta = f"{m_parts[0].strip()},{final_name}"
+                        clean_meta = m_parts[0].strip()
+                        # Заменяем оригинальный group-title на наш
+                        if 'group-title=' in clean_meta:
+                            clean_meta = re.sub(r'group-title="[^"]*"', f'group-title="{MAIN_GROUP_NAME}"', clean_meta)
+                        else:
+                            clean_meta += f' group-title="{MAIN_GROUP_NAME}"'
+                        f_meta = f"{clean_meta},{final_name}"
                     else:
-                        f_meta = f"-1 group-title=\"{group_name}\",{final_name}"
-                    
+                        f_meta = f"-1 group-title=\"{MAIN_GROUP_NAME}\",{final_name}"
+
                     f.write(f'#EXTINF:{f_meta}\n{link}\n')
                     count += 1
 
-    print(f"✨ Готово! Файл {OUTPUT_FILE} создан. Собрано каналов: {count}")
+    print(f"✨ Готово! Файл {OUTPUT_FILE} создан. Собрано каналов: {count} в группу '{MAIN_GROUP_NAME}'")
 
 if __name__ == "__main__":
     main()
