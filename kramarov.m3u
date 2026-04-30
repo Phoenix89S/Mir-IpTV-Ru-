@@ -1,0 +1,248 @@
+#EXTM3U
+# ---------------- ГРУППА: ОБЩИЕ (A1 UDP) ----------------
+#EXTINF:-1 tvg-id="voka_belarus1" tvg-logo="https://voka.tv/logos/ch1.png" group-title="Общие",Беларусь 1
+http://192.168.1.1:1234/udp/232.0.3.1:1234
+#EXTINF:-1 tvg-id="voka_belarus2" tvg-logo="https://voka.tv/logos/ch2.png" group-title="Общие",Беларусь 2
+http://192.168.1.1:1234/udp/232.0.3.2:1234
+#EXTINF:-1 tvg-id="voka_ont" tvg-logo="https://voka.tv/logos/ont.png" group-title="Общие",ОНТ
+http://192.168.1.1:1234/udp/232.0.3.3:1234
+#EXTINF:-1 tvg-id="voka_stv" tvg-logo="https://voka.tv/logos/stv.png" group-title="Общие",СТВ
+http://192.168.1.1:1234/udp/232.0.3.4:1234
+#EXTINF:-1 tvg-id="voka_russia_rtr" tvg-logo="https://voka.tv/logos/rtr.png" group-title="Общие",РТР-Беларусь
+http://192.168.1.1:1234/udp/232.0.3.5:1234
+#EXTINF:-1 tvg-id="voka_ntv_belarus" tvg-logo="https://voka.tv/logos/ntv.png" group-title="Общие",НТВ-Беларусь
+http://192.168.1.1:1234/udp/232.0.3.6:1234
+#EXTINF:-1 tvg-id="voka_mir" tvg-logo="https://voka.tv/logos/mir.png" group-title="Общие",Мир
+http://192.168.1.1:1234/udp/232.0.3.7:1234
+#EXTINF:-1 tvg-id="voka_belarus3" tvg-logo="https://voka.tv/logos/ch3.png" group-title="Общие",Беларусь 3
+http://192.168.1.1:1234/udp/232.0.3.8:1234
+#EXTINF:-1 tvg-id="voka_belarus5" tvg-logo="https://voka.tv/logos/ch5.png" group-title="Общие",Беларусь 5
+http://192.168.1.1:1234/udp/232.0.3.9:1234
+#EXTINF:-1 tvg-id="voka_vtv" tvg-logo="https://voka.tv/logos/vtv.png" group-title="Общие",ВТВ
+http://192.168.1.1:1234/udp/232.0.3.10:1234
+#EXTINF:-1 tvg-id="voka_8ch" tvg-logo="https://voka.tv/logos/8ch.png" group-title="Общие",8 канал
+http://192.168.1.1:1234/udp/232.0.3.11:1234
+#EXTINF:-1 tvg-id="voka_mir24" tvg-logo="https://voka.tv/logos/mir24.png" group-title="Общие",Мир 24
+http://192.168.1.1:1234/udp/232.0.3.12:1234
+
+# ---------------- ГРУППА: РАЗВЛЕКАТЕЛЬНЫЕ ----------------
+#EXTINF:-1 tvg-id="voka_tnt_international" tvg-logo="https://voka.tv/logos/tnt.png" group-title="Развлекательные",ТНТ International
+http://192.168.1.1:1234/udp/232.0.3.13:1234
+#EXTINF:-1 tvg-id="voka_2x2" tvg-logo="https://voka.tv/logos/2x2.png" group-title="Развлекательные",2x2
+http://192.168.1.1:1234/udp/232.0.3.14:1234
+#EXTINF:-1 tvg-id="voka_perec" tvg-logo="https://voka.tv/logos/perec.png" group-title="Развлекательные",Перец I
+http://192.168.1.1:1234/udp/232.0.3.83:1234
+#EXTINF:-1 tvg-id="voka_tv3_belarus" tvg-logo="https://voka.tv/logos/tv3.png" group-title="Развлекательные",ТВ-3
+http://192.168.1.1:1234/udp/232.0.3.84:1234
+#EXTINF:-1 tvg-id="voka_v_mire_zhivotnykh" tvg-logo="https://voka.tv/logos/animalworld.png" group-title="Развлекательные",В мире животных
+http://192.168.1.1:1234/udp/232.0.3.85:1234
+#EXTINF:-1 tvg-id="voka_big_planet" tvg-logo="https://voka.tv/logos/bigplanet.png" group-title="Развлекательные",Большая планета
+http://192.168.1.1:1234/udp/232.0.3.86:1234
+#EXTINF:-1 tvg-id="voka_zoo_tv" tvg-logo="https://voka.tv/logos/zootv.png" group-title="Развлекательные",Зоо ТВ
+http://192.168.1.1:1234/udp/232.0.3.87:1234
+#EXTINF:-1 tvg-id="voka_ocean_tv" tvg-logo="https://voka.tv/logos/ocean.png" group-title="Развлекательные",Океан ТВ
+http://192.168.1.1:1234/udp/232.0.3.88:1234
+#EXTINF:-1 tvg-id="voka_ohota_rybalka" tvg-logo="https://voka.tv/logos/hunt.png" group-title="Развлекательные",Охота и рыбалка
+http://192.168.1.1:1234/udp/232.0.3.89:1234
+#EXTINF:-1 tvg-id="voka_psikhologiya21" tvg-logo="https://voka.tv/logos/psy.png" group-title="Развлекательные",Психология 21
+http://192.168.1.1:1234/udp/232.0.3.90:1234
+#EXTINF:-1 tvg-id="voka_retro" tvg-logo="https://voka.tv/logos/retro.png" group-title="Развлекательные",Ретро
+http://192.168.1.1:1234/udp/232.0.3.91:1234
+#EXTINF:-1 tvg-id="voka_usadba" tvg-logo="https://voka.tv/logos/usadba.png" group-title="Развлекательные",Усадьба
+http://192.168.1.1:1234/udp/232.0.3.92:1234
+#EXTINF:-1 tvg-id="voka_zdorovoe_tv" tvg-logo="https://voka.tv/logos/zdorovoetv.png" group-title="Развлекательные",Здоровое ТВ
+http://192.168.1.1:1234/udp/232.0.3.93:1234
+#EXTINF:-1 tvg-id="voka_draiv" tvg-logo="https://voka.tv/logos/drive.png" group-title="Развлекательные",Драйв
+http://192.168.1.1:1234/udp/232.0.3.94:1234
+#EXTINF:-1 tvg-id="voka_domashnie_zhivotnye" tvg-logo="https://voka.tv/logos/dom-zhiv.png" group-title="Развлекательные",Домашние животные
+http://192.168.1.1:1234/udp/232.0.3.95:1234
+#EXTINF:-1 tvg-id="voka_voprosy_otvety" tvg-logo="https://voka.tv/logos/vo.png" group-title="Развлекательные",Вопросы и ответы
+http://192.168.1.1:1234/udp/232.0.3.96:1234
+
+# ---------------- ГРУППА: МУЗЫКА ----------------
+#EXTINF:-1 tvg-id="voka_europa_plus" tvg-logo="https://voka.tv/logos/europaplus.png" group-title="Музыка",Европа Плюс ТВ
+http://192.168.1.1:1234/udp/232.0.3.15:1234
+#EXTINF:-1 tvg-id="voka_shanson" tvg-logo="https://voka.tv/logos/shanson.png" group-title="Музыка",Шансон ТВ
+http://192.168.1.1:1234/udp/232.0.3.16:1234
+#EXTINF:-1 tvg-id="voka_bridge_tv" tvg-logo="https://voka.tv/logos/bridgetv.png" group-title="Музыка",Bridge TV
+http://192.168.1.1:1234/udp/232.0.3.17:1234
+#EXTINF:-1 tvg-id="voka_ru_tv" tvg-logo="https://voka.tv/logos/rutv.png" group-title="Музыка",RU.TV
+http://192.168.1.1:1234/udp/232.0.3.18:1234
+#EXTINF:-1 tvg-id="voka_mtv" tvg-logo="https://voka.tv/logos/mtv.png" group-title="Музыка",MTV 00s
+http://192.168.1.1:1234/udp/232.0.3.19:1234
+#EXTINF:-1 tvg-id="voka_zhara" tvg-logo="https://voka.tv/logos/zhara.png" group-title="Музыка",Жара ТВ
+http://192.168.1.1:1234/udp/232.0.3.20:1234
+#EXTINF:-1 tvg-id="voka_mezzofv" tvg-logo="https://voka.tv/logos/mezzo.png" group-title="Музыка",Mezzo
+http://192.168.1.1:1234/udp/232.0.3.81:1234
+#EXTINF:-1 tvg-id="voka_bridge_classic" tvg-logo="https://voka.tv/logos/bridgeclassic.png" group-title="Музыка",Bridge TV Classic
+http://192.168.1.1:1234/udp/232.0.3.97:1234
+#EXTINF:-1 tvg-id="voka_bridge_hits" tvg-logo="https://voka.tv/logos/bridgehits.png" group-title="Музыка",Bridge TV Hits
+http://192.168.1.1:1234/udp/232.0.3.98:1234
+#EXTINF:-1 tvg-id="voka_tly_music" tvg-logo="https://voka.tv/logos/tly.png" group-title="Музыка",ТЛУ Music
+http://192.168.1.1:1234/udp/232.0.3.99:1234
+#EXTINF:-1 tvg-id="voka_muz_tv" tvg-logo="https://voka.tv/logos/muztv.png" group-title="Музыка",Муз-ТВ
+http://192.168.1.1:1234/udp/232.0.3.100:1234
+
+# ---------------- ГРУППА: КИНО ----------------
+#EXTINF:-1 tvg-id="voka_set" tvg-logo="https://voka.tv/logos/set.png" group-title="Кино",Sony Channel
+http://192.168.1.1:1234/udp/232.0.3.25:1234
+#EXTINF:-1 tvg-id="voka_sony_sci_fi" tvg-logo="https://voka.tv/logos/sonyscifi.png" group-title="Кино",Sony Sci-Fi
+http://192.168.1.1:1234/udp/232.0.3.26:1234
+#EXTINF:-1 tvg-id="voka_sony_turbo" tvg-logo="https://voka.tv/logos/sonyturbo.png" group-title="Кино",Sony Turbo
+http://192.168.1.1:1234/udp/232.0.3.27:1234
+#EXTINF:-1 tvg-id="voka_fox" tvg-logo="https://voka.tv/logos/fox.png" group-title="Кино",FOX
+http://192.168.1.1:1234/udp/232.0.3.28:1234
+#EXTINF:-1 tvg-id="voka_fox_life" tvg-logo="https://voka.tv/logos/foxlife.png" group-title="Кино",FOX Life
+http://192.168.1.1:1234/udp/232.0.3.29:1234
+#EXTINF:-1 tvg-id="voka_tv1000" tvg-logo="https://voka.tv/logos/tv1000.png" group-title="Кино",TV1000
+http://192.168.1.1:1234/udp/232.0.3.30:1234
+#EXTINF:-1 tvg-id="voka_tv1000_action" tvg-logo="https://voka.tv/logos/tv1000action.png" group-title="Кино",TV1000 Action
+http://192.168.1.1:1234/udp/232.0.3.31:1234
+#EXTINF:-1 tvg-id="voka_tv1000_rus" tvg-logo="https://voka.tv/logos/tv1000russian.png" group-title="Кино",TV1000 Русское кино
+http://192.168.1.1:1234/udp/232.0.3.32:1234
+#EXTINF:-1 tvg-id="voka_tv21" tvg-logo="https://voka.tv/logos/tv21.png" group-title="Кино",TV21
+http://192.168.1.1:1234/udp/232.0.3.40:1234
+#EXTINF:-1 tvg-id="voka_bollywood" tvg-logo="https://voka.tv/logos/bollywood.png" group-title="Кино",Bollywood HD
+http://192.168.1.1:1234/udp/232.0.3.41:1234
+#EXTINF:-1 tvg-id="voka_nastoyashee_strashnoe" tvg-logo="https://voka.tv/logos/nst.png" group-title="Кино",НСТ
+http://192.168.1.1:1234/udp/232.0.3.42:1234
+#EXTINF:-1 tvg-id="voka_kinokomediya" tvg-logo="https://voka.tv/logos/kinokomediya.png" group-title="Кино",Кинокомедия
+http://192.168.1.1:1234/udp/232.0.3.110:1234
+#EXTINF:-1 tvg-id="voka_rodnoe_kino" tvg-logo="https://voka.tv/logos/rodnoe.png" group-title="Кино",Родное кино
+http://192.168.1.1:1234/udp/232.0.3.111:1234
+#EXTINF:-1 tvg-id="voka_nashe_novoe_kino" tvg-logo="https://voka.tv/logos/nnk.png" group-title="Кино",Наше новое кино
+http://192.168.1.1:1234/udp/232.0.3.112:1234
+#EXTINF:-1 tvg-id="voka_vostoka" tvg-logo="https://voka.tv/logos/vostok.png" group-title="Кино",В гостях у сказки
+http://192.168.1.1:1234/udp/232.0.3.113:1234
+#EXTINF:-1 tvg-id="voka_indiyskoe" tvg-logo="https://voka.tv/logos/indee.png" group-title="Кино",Индийское кино
+http://192.168.1.1:1234/udp/232.0.3.114:1234
+#EXTINF:-1 tvg-id="voka_kinoserija" tvg-logo="https://voka.tv/logos/kinoseriya.png" group-title="Кино",Киносерия
+http://192.168.1.1:1234/udp/232.0.3.115:1234
+#EXTINF:-1 tvg-id="voka_muzhskoe_kino" tvg-logo="https://voka.tv/logos/mens.png" group-title="Кино",Мужское кино
+http://192.168.1.1:1234/udp/232.0.3.116:1234
+#EXTINF:-1 tvg-id="voka_kino_mix" tvg-logo="https://voka.tv/logos/kinomix.png" group-title="Кино",Киномикс
+http://192.168.1.1:1234/udp/232.0.3.117:1234
+#EXTINF:-1 tvg-id="voka_kinosvidanie" tvg-logo="https://voka.tv/logos/date.png" group-title="Кино",Киносвидание
+http://192.168.1.1:1234/udp/232.0.3.118:1234
+#EXTINF:-1 tvg-id="voka_filmzone" tvg-logo="https://voka.tv/logos/filmzone.png" group-title="Кино",Filmzone
+http://192.168.1.1:1234/udp/232.0.3.119:1234
+#EXTINF:-1 tvg-id="voka_filmzone_plus" tvg-logo="https://voka.tv/logos/filmzonep.png" group-title="Кино",Filmzone+
+http://192.168.1.1:1234/udp/232.0.3.120:1234
+#EXTINF:-1 tvg-id="voka_bolt" tvg-logo="https://voka.tv/logos/bolt.png" group-title="Кино",Болт
+http://192.168.1.1:1234/udp/232.0.3.121:1234
+#EXTINF:-1 tvg-id="voka_star_cinema" tvg-logo="https://voka.tv/logos/starcinema.png" group-title="Кино",Star Cinema
+http://192.168.1.1:1234/udp/232.0.3.122:1234
+#EXTINF:-1 tvg-id="voka_star_family" tvg-logo="https://voka.tv/logos/starfamily.png" group-title="Кино",Star Family
+http://192.168.1.1:1234/udp/232.0.3.123:1234
+#EXTINF:-1 tvg-id="voka_epic_drama" tvg-logo="https://voka.tv/logos/epicdrama.png" group-title="Кино",Epic Drama
+http://192.168.1.1:1234/udp/232.0.3.124:1234
+#EXTINF:-1 tvg-id="voka_shok_kino" tvg-logo="https://voka.tv/logos/shokkino.png" group-title="Кино",Кинокомедия HD
+http://192.168.1.1:1234/udp/232.0.3.125:1234
+#EXTINF:-1 tvg-id="voka_paramount_comedy" tvg-logo="https://voka.tv/logos/p-com.png" group-title="Кино",Paramount Comedy
+http://192.168.1.1:1234/udp/232.0.3.126:1234
+#EXTINF:-1 tvg-id="voka_dom_kino" tvg-logo="https://voka.tv/logos/domkino.png" group-title="Кино",Дом кино
+http://192.168.1.1:1234/udp/232.0.3.127:1234
+#EXTINF:-1 tvg-id="voka_dom_kino_premium" tvg-logo="https://voka.tv/logos/domkinop.png" group-title="Кино",Дом кино Премиум
+http://192.168.1.1:1234/udp/232.0.3.128:1234
+#EXTINF:-1 tvg-id="voka_pobeda" tvg-logo="https://voka.tv/logos/pobeda.png" group-title="Кино",Победа
+http://192.168.1.1:1234/udp/232.0.3.129:1234
+
+# ---------------- ГРУППА: ПОЗНАВАТЕЛЬНЫЕ ----------------
+#EXTINF:-1 tvg-id="voka_viasat_explore" tvg-logo="https://voka.tv/logos/explore.png" group-title="Познавательные",Viasat Explore
+http://192.168.1.1:1234/udp/232.0.3.33:1234
+#EXTINF:-1 tvg-id="voka_viasat_history" tvg-logo="https://voka.tv/logos/history.png" group-title="Познавательные",Viasat History
+http://192.168.1.1:1234/udp/232.0.3.34:1234
+#EXTINF:-1 tvg-id="voka_viasat_nature" tvg-logo="https://voka.tv/logos/nature.png" group-title="Познавательные",Viasat Nature
+http://192.168.1.1:1234/udp/232.0.3.35:1234
+#EXTINF:-1 tvg-id="voka_travel_adventure" tvg-logo="https://voka.tv/logos/travel.png" group-title="Познавательные",Travel+Adventure
+http://192.168.1.1:1234/udp/232.0.3.39:1234
+#EXTINF:-1 tvg-id="voka_discovery" tvg-logo="https://voka.tv/logos/discovery.png" group-title="Познавательные",Discovery Channel
+http://192.168.1.1:1234/udp/232.0.3.60:1234
+#EXTINF:-1 tvg-id="voka_animal_planet" tvg-logo="https://voka.tv/logos/animalplanet.png" group-title="Познавательные",Animal Planet
+http://192.168.1.1:1234/udp/232.0.3.61:1234
+#EXTINF:-1 tvg-id="voka_nat_geo" tvg-logo="https://voka.tv/logos/natgeo.png" group-title="Познавательные",National Geographic
+http://192.168.1.1:1234/udp/232.0.3.62:1234
+#EXTINF:-1 tvg-id="voka_nat_geo_wild" tvg-logo="https://voka.tv/logos/natgeowild.png" group-title="Познавательные",Nat Geo Wild
+http://192.168.1.1:1234/udp/232.0.3.63:1234
+#EXTINF:-1 tvg-id="voka_id" tvg-logo="https://voka.tv/logos/id.png" group-title="Познавательные",Investigation Discovery
+http://192.168.1.1:1234/udp/232.0.3.130:1234
+#EXTINF:-1 tvg-id="voka_tlc" tvg-logo="https://voka.tv/logos/tlc.png" group-title="Познавательные",TLC
+http://192.168.1.1:1234/udp/232.0.3.131:1234
+#EXTINF:-1 tvg-id="voka_history" tvg-logo="https://voka.tv/logos/historyhd.png" group-title="Познавательные",History
+http://192.168.1.1:1234/udp/232.0.3.132:1234
+#EXTINF:-1 tvg-id="voka_da_vinci_learning" tvg-logo="https://voka.tv/logos/dvl.png" group-title="Познавательные",Da Vinci Learning
+http://192.168.1.1:1234/udp/232.0.3.133:1234
+#EXTINF:-1 tvg-id="voka_viasat_history_explore" tvg-logo="https://voka.tv/logos/vhe.png" group-title="Познавательные",Viasat History/Explore HD
+http://192.168.1.1:1234/udp/232.0.3.134:1234
+#EXTINF:-1 tvg-id="voka_nauka" tvg-logo="https://voka.tv/logos/nauka.png" group-title="Познавательные",Наука
+http://192.168.1.1:1234/udp/232.0.3.135:1234
+#EXTINF:-1 tvg-id="voka_moya_planeta" tvg-logo="https://voka.tv/logos/planeta.png" group-title="Познавательные",Моя планета
+http://192.168.1.1:1234/udp/232.0.3.136:1234
+#EXTINF:-1 tvg-id="voka_zhivaya_planeta" tvg-logo="https://voka.tv/logos/zhp.png" group-title="Познавательные",Живая планета
+http://192.168.1.1:1234/udp/232.0.3.137:1234
+#EXTINF:-1 tvg-id="voka_tekhno_24" tvg-logo="https://voka.tv/logos/t24.png" group-title="Познавательные",Техно 24
+http://192.168.1.1:1234/udp/232.0.3.138:1234
+#EXTINF:-1 tvg-id="voka_doktor" tvg-logo="https://voka.tv/logos/doctor.png" group-title="Познавательные",Доктор
+http://192.168.1.1:1234/udp/232.0.3.139:1234
+#EXTINF:-1 tvg-id="voka_poznanie" tvg-logo="https://voka.tv/logos/poznanie.png" group-title="Познавательные",Познание
+http://192.168.1.1:1234/udp/232.0.3.140:1234
+#EXTINF:-1 tvg-id="voka_galaktika" tvg-logo="https://voka.tv/logos/galaktika.png" group-title="Познавательные",Галактика
+http://192.168.1.1:1234/udp/232.0.3.141:1234
+
+# ---------------- ГРУППА: ДЕТСКИЕ ----------------
+#EXTINF:-1 tvg-id="voka_da_vinci" tvg-logo="https://voka.tv/logos/davinci.png" group-title="Детские",Da Vinci
+http://192.168.1.1:1234/udp/232.0.3.36:1234
+#EXTINF:-1 tvg-id="voka_nickelodeon" tvg-logo="https://voka.tv/logos/nickelodeon.png" group-title="Детские",Nickelodeon
+http://192.168.1.1:1234/udp/232.0.3.50:1234
+#EXTINF:-1 tvg-id="voka_nick_jr" tvg-logo="https://voka.tv/logos/nickjr.png" group-title="Детские",Nick Jr.
+http://192.168.1.1:1234/udp/232.0.3.51:1234
+#EXTINF:-1 tvg-id="voka_mult" tvg-logo="https://voka.tv/logos/mult.png" group-title="Детские",Мульт
+http://192.168.1.1:1234/udp/232.0.3.52:1234
+#EXTINF:-1 tvg-id="voka_karusel" tvg-logo="https://voka.tv/logos/karusel.png" group-title="Детские",Карусель
+http://192.168.1.1:1234/udp/232.0.3.53:1234
+#EXTINF:-1 tvg-id="voka_tiji" tvg-logo="https://voka.tv/logos/tiji.png" group-title="Детские",TiJi
+http://192.168.1.1:1234/udp/232.0.3.54:1234
+#EXTINF:-1 tvg-id="voka_gulli" tvg-logo="https://voka.tv/logos/gulli.png" group-title="Детские",Gulli Girl
+http://192.168.1.1:1234/udp/232.0.3.55:1234
+#EXTINF:-1 tvg-id="voka_cartoon_network" tvg-logo="https://voka.tv/logos/cn.png" group-title="Детские",Cartoon Network
+http://192.168.1.1:1234/udp/232.0.3.56:1234
+#EXTINF:-1 tvg-id="voka_boeing" tvg-logo="https://voka.tv/logos/boeing.png" group-title="Детские",Bomerang
+http://192.168.1.1:1234/udp/232.0.3.142:1234
+#EXTINF:-1 tvg-id="voka_jim_jam" tvg-logo="https://voka.tv/logos/jimjam.png" group-title="Детские",Jim Jam
+http://192.168.1.1:1234/udp/232.0.3.143:1234
+#EXTINF:-1 tvg-id="voka_duck_tv" tvg-logo="https://voka.tv/logos/ducktv.png" group-title="Детские",Duck TV
+http://192.168.1.1:1234/udp/232.0.3.144:1234
+#EXTINF:-1 tvg-id="voka_smile_tv" tvg-logo="https://voka.tv/logos/smile.png" group-title="Детские",Улыбка ребенка
+http://192.168.1.1:1234/udp/232.0.3.145:1234
+#EXTINF:-1 tvg-id="voka_ani" tvg-logo="https://voka.tv/logos/ani.png" group-title="Детские",Ани
+http://192.168.1.1:1234/udp/232.0.3.146:1234
+#EXTINF:-1 tvg-id="voka_multilandija" tvg-logo="https://voka.tv/logos/multiland.png" group-title="Детские",Мультиландия
+http://192.168.1.1:1234/udp/232.0.3.147:1234
+
+# ---------------- ГРУППА: СПОРТ ----------------
+#EXTINF:-1 tvg-id="voka_viasat_sport" tvg-logo="https://voka.tv/logos/viasatsport.png" group-title="Спорт",Viasat Sport
+http://192.168.1.1:1234/udp/232.0.3.37:1234
+#EXTINF:-1 tvg-id="voka_eurosport1" tvg-logo="https://voka.tv/logos/eurosport1.png" group-title="Спорт",Eurosport 1
+http://192.168.1.1:1234/udp/232.0.3.70:1234
+#EXTINF:-1 tvg-id="voka_eurosport2" tvg-logo="https://voka.tv/logos/eurosport2.png" group-title="Спорт",Eurosport 2
+http://192.168.1.1:1234/udp/232.0.3.71:1234
+#EXTINF:-1 tvg-id="voka_setanta_sports" tvg-logo="https://voka.tv/logos/setanta.png" group-title="Спорт",Setanta Sports
+http://192.168.1.1:1234/udp/232.0.3.72:1234
+#EXTINF:-1 tvg-id="voka_setanta_sports_plus" tvg-logo="https://voka.tv/logos/setantap.png" group-title="Спорт",Setanta Sports+
+http://192.168.1.1:1234/udp/232.0.3.148:1234
+#EXTINF:-1 tvg-id="voka_m-1_global" tvg-logo="https://voka.tv/logos/m1.png" group-title="Спорт",M-1 Global
+http://192.168.1.1:1234/udp/232.0.3.149:1234
+#EXTINF:-1 tvg-id="voka_viasat_sport_hd" tvg-logo="https://voka.tv/logos/vshd.png" group-title="Спорт",Viasat Sport HD
+http://192.168.1.1:1234/udp/232.0.3.150:1234
+
+# ---------------- ГРУППА: ХОББИ И ДРУГИЕ ----------------
+#EXTINF:-1 tvg-id="voka_zhivi" tvg-logo="https://voka.tv/logos/zhivi.png" group-title="Хобби",Живи!
+http://192.168.1.1:1234/udp/232.0.3.22:1234
+#EXTINF:-1 tvg-id="voka_eda" tvg-logo="https://voka.tv/logos/eda.png" group-title="Хобби",Еда
+http://192.168.1.1:1234/udp/232.0.3.151:1234
+#EXTINF:-1 tvg-id="voka_telekafe" tvg-logo="https://voka.tv/logos/t-cafe.png" group-title="Хобби",Телекафе
+http://192.168.1.1:1234/udp/232.0.3.152:1234
+#EXTINF:-1 tvg-id="voka_bobjor" tvg-logo="https://voka.tv/logos/bobior.png" group-title="Хобби",Бобер
+http://192.168.1.1:1234/udp/232.0.3.153:1234
+#EXTINF:-1 tvg-id="voka_o_vsekh_kino" tvg-logo="https://voka.tv/logos/allkino.png" group-title="Общие",О!
+http://192.168.1.1:1234/udp/232.0.3.154:1234
