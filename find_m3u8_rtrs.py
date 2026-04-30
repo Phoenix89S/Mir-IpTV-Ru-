@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-# Источники плейлистов
+# Источники плейлистов (Дополнено строго в конец списка) (!!!!!!)
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
@@ -12,6 +12,20 @@ GITHUB_PLAYLISTS = [
     "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
+    "https://tva.org.ua/ip/sam/poznavatelni.m3u",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+    "https://tva.org.ua/free-full.html#google_vignette",
+    "https://dtv.plus/rabochiy-iptv-pleylist-tv-kanaly/",
+    "https://live.iptv-free.com/iptv/categories/kids.m3u",
+    "https://live.iptv-free.com/iptv/languages/rus.m3u",
+    "https://github.com/smolnp/IPTV-1/blob/master/playlists%2Fplaylist_ukraine.m3u8",
+    "https://smolnp.github.io/IPTVru//IPTVstable.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8",
+    "https://tva.org.ua/ip/sam/poznavatelni.m3u",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+    "https://live.iptv-free.com/iptv/categories/kids.m3u",
+    "https://live.iptv-free.com/iptv/languages/rus.m3u"
 ]
 
 # Имя выходного файла
