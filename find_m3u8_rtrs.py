@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-# Источники плейлистов (Ничего не режем!) (!!!!!!)
+# Источники плейлистов (Дополнено строго в конец списка) (!!!!!!)
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
@@ -25,8 +25,11 @@ GITHUB_PLAYLISTS = [
     "https://tva.org.ua/ip/sam/poznavatelni.m3u",
     "https://tva.org.ua/ip/sam/avto-full.m3u",
     "https://live.iptv-free.com/iptv/categories/kids.m3u",
-    "https://live.iptv-free.com/iptv/languages/rus.m3u"
+    "https://live.iptv-free.com/iptv/languages/rus.m3u",
+    "http://rafail1982.uz/playlists/TELEKARTA.m3u",
+    "http://rafail1982.uz/playlists/TELECIFRA.m3u"
 ]
+
 
 # ИСТОЧНИКИ EPG (!!!!!!)
 EPG_SOURCES = "https://epg.one/epg.xml.gz,https://iptvx.one/EPG"
