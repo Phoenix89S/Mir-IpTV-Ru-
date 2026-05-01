@@ -26,17 +26,47 @@ EPG_SOURCES = "https://epg.one/epg.xml.gz,https://iptvx.one/EPG"
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
 MAIN_GROUP_NAME = "Эфирные ТВ плюс"
 OTHER_GROUP_NAME = "Общие"
-# Полный черный список (!!!)
-BLACKLIST = ["T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", "ПОДПИШИСЬ", "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"]
 
+# Чёрный список
+BLACKLIST = [
+    "T.ME/", "TELEGRAM", "JOINCHAT", "NEXO", "ПОДПИШИСЬ",
+    "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"
+]
+
+# ---------------------------------------------------------
+# 🔥 CHANNEL_GROUPS — полностью ручной, как ты просил
+# ---------------------------------------------------------
 CHANNEL_GROUPS = {
     "Кнопка 1": {"1.0": "Первый канал", "1.1": "Первый HD", "1.2": "Первый +2", "1.3": "Первый +4", "1.4": "Первый +6", "1.5": "Первый +8", "1.6": "Первый +9", "1.7": "Первый СНГ"},
-    "Кнопка 2": {"2.0": "Россия 1", "2.0.1": "Россия 1 (Калининград)", "2.1": "Россия 24", "2.2": "Россия К", "2.2.1": "Культура", "2.4": "Planeta RTR", "2.5": "Вести FM"},
+
+    "Кнопка 2": {
+        "2.0": "Россия 1", "2.0.1": "Россия 1 (Калининград)", "2.0.2": "Россия 1 (Ростов-на-Дону)", "2.0.3": "Россия 1 (Санкт-Петербург)", "2.0.4": "Россия 1 (Ярославль)",
+        "2.1": "Россия 24", "2.1.0.1": "Россия 24", "2.1.0.2": "Россия 24 (Калининград)", "2.1.0.3": "Россия 24 (Ростов-на-Дону)", "2.1.0.4": "Россия 24 (Санкт-Петербург)", "2.1.0.5": "Россия 24 (Ярославль)",
+        "2.2": "Россия К HD", "2.2.0.1": "Россия К HD", "2.2.1": "Россия К", "2.2.2": "Культура", "2.2.3": "Культура HD",
+        "2.3.1": "Арктика 24 HD", "2.3.1.1": "Арктика 24", "2.3.2": "Башкортостан 24 HD", "2.3.3": "Волгоград 24 HD",
+        "2.3.4": "Восток 24 HD", "2.3.4.1": "Восток 24", "2.3.5": "Запад 24 HD", "2.3.5.1": "Запад 24 SD",
+        "2.3.6": "ЛенТВ24 HD", "2.3.7": "Сибирь 24 HD (Крск)", "2.3.8": "Сибирь 24 HD (Нск)",
+        "2.3.9": "Урал 24 HD", "2.3.9.1": "Урал 24", "2.3.10": "Якутия 24",
+        "2.4.1": "Planeta RTR", "2.4.2": "Planeta RTR", "2.4.3": "Planeta RTR EU",
+        "2.4.4": "Россия РТР", "2.4.5": "Россия РТР", "2.4.6": "Россия 24 International",
+        "2.5": "Вести FM", "2.5.1": "Вести ФМ (Смотрим)"
+    },
+
     "Кнопка 3": {"3.0": "Матч ТВ", "3.1": "Матч HD"},
     "Кнопка 4": {"4.1": "НТВ", "4.2": "Неизвестная Россия", "4.8": "НТВ HD"},
     "Кнопка 5": {"5.0": "Пятый канал"},
-    "Кнопка 6": {"6.0": "Россия К", "6.1": "Культура"},
-    "Кнопка 7": {"7.0": "Россия 24"},
+
+    "Кнопка 6": {
+        "6.0": "Россия К", "6.1": "Россия К HD", "6.2": "Культура", "6.3": "Культура HD",
+        "6.4": "Россия К +2", "6.5": "Россия К +4", "6.6": "Россия К +7",
+        "6.7": "Культура +2", "6.8": "Культура +4", "6.9": "Культура +7"
+    },
+
+    "Кнопка 7": {
+        "7.0": "Россия 24", "7.1": "Россия 24 HD", "7.2": "Россия 24 +2",
+        "7.3": "Россия 24 +4", "7.4": "Россия 24 +7", "7.5": "Россия 24 International"
+    },
+
     "Кнопка 8": {"8.0": "Карусель", "8.1": "Карусель +2", "8.2": "Карусель +4", "8.3": "Карусель +7", "8.4": "Carousel International"},
     "Кнопка 9": {"9.0": "ОТР"},
     "Кнопка 10": {"10.0": "ТВЦ", "10.1": "ТВ Центр", "10.2": "ТВЦ +2", "10.3": "ТВЦ +4", "10.4": "ТВЦ +7", "10.5": "ТВ Центр International"},
@@ -58,29 +88,45 @@ CHANNEL_GROUPS = {
     "Кнопка 28": {"28.0": "SMOTRIM"}
 }
 
+# ---------------------------------------------------------
+# ✔ Проверка потока (без HEAD, без зависаний)
+# ---------------------------------------------------------
 def is_live(url):
-    """Быстрая проверка доступности потока"""
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
-        r = requests.head(url, headers=headers, timeout=1, allow_redirects=True)
-        if r.status_code == 200: return True
-    except: pass
-    try:
-        r = requests.get(url, headers=headers, timeout=1, stream=True)
-        return r.status_code == 200
-    except: return False
+        r = requests.get(url, headers=headers, timeout=2, stream=True)
+        return r.status_code in (200, 206)
+    except:
+        return False
 
+# ---------------------------------------------------------
+# ✔ Надёжный парсер M3U
+# ---------------------------------------------------------
 def get_links_from_m3u(url):
-    """Надежный парсинг из рабочего варианта"""
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         resp = requests.get(url, headers=headers, timeout=20)
         resp.encoding = 'utf-8'
-        # Паттерн, который точно работает
-        pattern = re.compile(r'#EXTINF:(.*)(?:\n#.*)*\n(https?://\S+)', re.IGNORECASE)
-        return pattern.findall(resp.text)
-    except: return []
+        text = resp.text.replace('\r', '')
 
+        lines = text.split('\n')
+        result = []
+        meta = None
+
+        for line in lines:
+            if line.startswith("#EXTINF"):
+                meta = line
+            elif meta and line.startswith("http"):
+                result.append((meta, line.strip()))
+                meta = None
+
+        return result
+    except:
+        return []
+
+# ---------------------------------------------------------
+# ✔ Основная программа
+# ---------------------------------------------------------
 def main():
     print(f"🚀 Старт: {datetime.now().strftime('%H:%M:%S')}")
     all_channels = defaultdict(lambda: defaultdict(list))
@@ -89,53 +135,63 @@ def main():
     for url in GITHUB_PLAYLISTS:
         print(f"📥 Обработка: {url}")
         items = get_links_from_m3u(url)
-        
+
         for meta, link in items:
             link = link.strip()
-            meta = meta.strip()
-
-            # Проверка дублей и черного списка (!!!)
             if link in seen_links or any(b in (meta + link).upper() for b in BLACKLIST):
                 continue
 
             if is_live(link):
-                name = meta.rsplit(',', 1)[-1].strip() if ',' in meta else meta
+                name = meta.rsplit(',', 1)[-1].strip()
                 tvg_id = ""
                 match_id = re.search(r'tvg-id="([^"]+)"', meta, re.IGNORECASE)
-                if match_id: tvg_id = match_id.group(1)
+                if match_id:
+                    tvg_id = match_id.group(1)
 
                 found = False
                 for g_label, orbits in CHANNEL_GROUPS.items():
                     for orbit, keyw in orbits.items():
                         if keyw.upper() in name.upper():
-                            # Защита от смешивания Россия 1 и 24
-                            if "РОССИЯ 24" in name.upper() and keyw.upper() == "РОССИЯ 1": continue
-                            
+
+                            # Защита от смешивания Россия 1 ↔ Россия 24
+                            if "РОССИЯ 24" in name.upper() and keyw.upper() == "РОССИЯ 1":
+                                continue
+
                             all_channels[MAIN_GROUP_NAME][orbit].append({
-                                'name': name, 'link': link, 'tvg_id': tvg_id if tvg_id else name
+                                'name': name,
+                                'link': link,
+                                'tvg_id': tvg_id if tvg_id else name
                             })
                             found = True
                             break
-                    if found: break
-                
+                    if found:
+                        break
+
                 if not found:
                     all_channels[OTHER_GROUP_NAME]["999"].append({
-                        'name': name, 'link': link, 'tvg_id': tvg_id if tvg_id else name
+                        'name': name,
+                        'link': link,
+                        'tvg_id': tvg_id if tvg_id else name
                     })
+
                 seen_links.add(link)
 
-    # Запись в файл
+    # ---------------------------------------------------------
+    # ✔ Правильная сортировка орбит
+    # ---------------------------------------------------------
+    def orbit_key(x):
+        return tuple(int(n) for n in x.split('.'))
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f'#EXTM3U x-tvg-url="{EPG_SOURCES}"\n')
-        
-        # Сортировка орбит
+
         rtrs_data = all_channels[MAIN_GROUP_NAME]
-        sorted_orbits = sorted(rtrs_data.keys(), key=lambda x: [int(d) for d in re.findall(r'\d+', x)])
+        sorted_orbits = sorted(rtrs_data.keys(), key=orbit_key)
 
         for orbit in sorted_orbits:
             for idx, ch in enumerate(rtrs_data[orbit], 1):
                 f.write(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{MAIN_GROUP_NAME}",Кнопка {orbit}.{idx} {ch["name"]}\n{ch["link"]}\n')
-        
+
         for ch in all_channels[OTHER_GROUP_NAME]["999"]:
             f.write(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{OTHER_GROUP_NAME}",{ch["name"]}\n{ch["link"]}\n')
 
