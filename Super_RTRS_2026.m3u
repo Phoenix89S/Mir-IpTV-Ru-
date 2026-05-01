@@ -451,6 +451,8 @@ http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="LDPRTV.ru@SD" tvg-name="LDPRTV.ru@SD" group-title="Общие",ЛДПР ТВ (480p)
 http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
+#EXTINF:-1 tvg-id="MaturTV.ru@SD" tvg-name="MaturTV.ru@SD" group-title="Общие",Матур ТВ (1080p)
+https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 #EXTINF:-1 tvg-id="MTVVolgograd.ru@SD" tvg-name="MTVVolgograd.ru@SD" group-title="Общие",МТВ (Волгоград) (720p) [Not 24/7]
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru@SD" tvg-name="MuzSoyuz.ru@SD" group-title="Общие",Муз союз (576p)
@@ -613,8 +615,6 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="aiva" tvg-name="aiva" group-title="Общие",AIVA
 https://stream-msk-11.ott.tricolor.tv/dtv/id935_MSKSG-PVR-1--AIVA_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1MjQ5MzM2MywiaHdpZCI6IjM0YmQxMDNmZGFiNDliZTFiMWY2NjljNWU0ZjE3YzA1YTBjNzFkMTk3ZDAwY2U2OWM1MDA1YWI1ZjlhOGM3N2IiLCJsYXN0X3JlcV9kYXRlIjoxNzUxODg4NTYzLCJzZXNzaW9uX2lkIjoiMWZkYTk2MTk2YTg1ZWIzZGNmOGQ0ZTQwZTAwMGUxNjciLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.X5Tot_pBMjpV11rAD10aqBLkm168F46YX69qAQENQoI
-#EXTINF:-1 tvg-id="no_epg_music" tvg-name="no_epg_music" group-title="Общие",K Pop
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="4fun" tvg-name="4fun" group-title="Общие",4fun.TV
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1 tvg-id="classic-music" tvg-name="classic-music" group-title="Общие",Classic Music HD
@@ -671,12 +671,12 @@ http://195.26.83.96:7006/play/a00y/index.m3u8
 http://31.148.48.15/Russkiy_Roman_HD/index.m3u8
 #EXTINF:-1 tvg-id="Сити Эдем — Киноазия" tvg-name="Сити Эдем — Киноазия" group-title="Общие",Сити Эдем — Киноазия
 https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
-#EXTINF:-1 tvg-id="Сити Эдем — Кинодок" tvg-name="Сити Эдем — Кинодок" group-title="Общие",Сити Эдем — Кинодок
-https://autopilot.catcast.tv/content/38354/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="Сити Эдем — Киноклассика" tvg-name="Сити Эдем — Киноклассика" group-title="Общие",Сити Эдем — Киноклассика
 https://autopilot.catcast.tv/content/34185/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="40783" tvg-name="40783" group-title="Общие",Сити Эдем — Киномистика
 https://autopilot.catcast.tv/content/40783/index.m3u8?password=promolive
+#EXTINF:-1 tvg-id="Сити Эдем — Киносемья" tvg-name="Сити Эдем — Киносемья" group-title="Общие",Сити Эдем — Киносемья
+https://autopilot.catcast.tv/content/38128/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="41333" tvg-name="41333" group-title="Общие",Сити Эдем — Киноэкшен
 https://autopilot.catcast.tv/content/41333/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="Феникс Плюс Кино" tvg-name="Феникс Плюс Кино" group-title="Общие",Феникс Плюс Кино
@@ -777,8 +777,6 @@ https://tv.city.bg/play/tshls/citytv/2.m3u8
 http://eu.live.skyfolk.mk/live.m3u8
 #EXTINF:-1 tvg-id="Banovina TV" tvg-name="Banovina TV" group-title="Общие",Banovina TV
 http://video.radio-banovina.hr:1935/live/myStream/chunklist_w1164976177.m3u8
-#EXTINF:-1 tvg-id="AFN Music" tvg-name="AFN Music" group-title="Общие",AFN Music
-https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
 #EXTINF:-1 tvg-id="7X MUSIC" tvg-name="7X MUSIC" group-title="Общие",7X MUSIC
 https://stream.e2is.in/hls/7xMusic.m3u8
 #EXTINF:-1 tvg-id="Fresh HD AM" tvg-name="Fresh HD AM" group-title="Общие",Fresh HD AM
@@ -1079,8 +1077,6 @@ http://193.25.8.59:8000/drive
 http://185.57.68.33/40/index.m3u8
 #EXTINF:-1 tvg-id="muzhskoy" tvg-name="muzhskoy" group-title="Общие",Мужской
 http://158.101.222.193:88/georgia_play.php?id=muzhskoy
-#EXTINF:-1 tvg-id="nasha-tema" tvg-name="nasha-tema" group-title="Общие",Наша Тема
-http://live-3.otcnet.ru/nashatema/index.m3u8
 #EXTINF:-1 tvg-id="oxota-i-rybalka" tvg-name="oxota-i-rybalka" group-title="Общие",Охота и рыбалка
 https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" tvg-name="oxotnik-i-rybolov" group-title="Общие",Охотник и рыболов
@@ -1463,8 +1459,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-name="ToonGoggles.us@SD" group-title="Общие",ToonGoggles (720p)
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRTCocuk.tr@SD" group-title="Общие",TRT Çocuk (720p)
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-name="TRTDiyanetCocuk.tr@SD" group-title="Общие",TRT Diyanet Çocuk (720p)
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVBahoriston.tj@SD" tvg-name="TVBahoriston.tj@SD" group-title="Общие",TV Bahoriston (1080p)
@@ -1527,8 +1521,6 @@ http://31.148.48.15/A2/index.m3u8
 http://31.148.48.15/Amedia_HIT_HD/index.m3u8
 #EXTINF:-1 tvg-id="AmediaPremium.ru@SD" tvg-name="AmediaPremium.ru@SD" group-title="Общие",Amedia Premium (720p)
 http://31.148.48.15/Amedia_Premium_HD/index.m3u8
-#EXTINF:-1 tvg-id="AngelTV.in@Russian" tvg-name="AngelTV.in@Russian" group-title="Общие",Angel TV Russian (720p)
-https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTNTV.us@SD" tvg-name="ARTNTV.us@SD" group-title="Общие",ARTN TV (1080p) [Not 24/7]
 https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-name="BollywoodHD.ro@Russia" group-title="Общие",Bollywood HD Russia (576p)
@@ -1623,8 +1615,6 @@ https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 tvg-id="AutoPlus.ru@SD" tvg-name="AutoPlus.ru@SD" group-title="Общие",Авто Плюс (576p)
 http://31.148.48.15/Avto_Plus/index.m3u8
-#EXTINF:-1 tvg-id="Belarus2.by@SD" tvg-name="Belarus2.by@SD" group-title="Общие",Беларусь 2 (1080p)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-name="Belarus5.by@SD" group-title="Общие",Беларусь 5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@Internet" tvg-name="Belarus5.by@Internet" group-title="Общие",Беларусь 5 Интернет (1080p) [Not 24/7]
