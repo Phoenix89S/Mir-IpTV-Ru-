@@ -109,45 +109,43 @@ http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/rewind-7150.m3u8
 http://4.59.210.197:8815/udp/127.0.0.1:6003
 #EXTINF:-1 tvg-id="НТВ-Беларусь" tvg-name="НТВ-Беларусь" group-title="Эфирные ТВ плюс",Кнопка 4.1.7 НТВ-Беларусь
 http://194.158.222.36:6107
-#EXTINF:-1 tvg-id="ntv-mir" tvg-name="ntv-mir" group-title="Эфирные ТВ плюс",Кнопка 4.1.8 НТВ-Мир
-https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-id="ntv-xit" tvg-name="ntv-xit" group-title="Эфирные ТВ плюс",Кнопка 4.1.9 НТВ-Хит
+#EXTINF:-1 tvg-id="ntv-xit" tvg-name="ntv-xit" group-title="Эфирные ТВ плюс",Кнопка 4.1.8 НТВ-Хит
 http://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.10 НТВ-Сериал
+#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.9 НТВ-Сериал
 http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="НТВ-Право" tvg-name="НТВ-Право" group-title="Эфирные ТВ плюс",Кнопка 4.1.11 НТВ-Право
+#EXTINF:-1 tvg-id="НТВ-Право" tvg-name="НТВ-Право" group-title="Эфирные ТВ плюс",Кнопка 4.1.10 НТВ-Право
 http://cdn.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="НТВ-Стиль" tvg-name="НТВ-Стиль" group-title="Эфирные ТВ плюс",Кнопка 4.1.12 НТВ-Стиль
+#EXTINF:-1 tvg-id="НТВ-Стиль" tvg-name="НТВ-Стиль" group-title="Эфирные ТВ плюс",Кнопка 4.1.11 НТВ-Стиль
 http://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="НТВ" tvg-name="НТВ" group-title="Эфирные ТВ плюс",Кнопка 4.1.13 НТВ
+#EXTINF:-1 tvg-id="НТВ" tvg-name="НТВ" group-title="Эфирные ТВ плюс",Кнопка 4.1.12 НТВ
 http://176.118.197.101/NTV/index.m3u8
-#EXTINF:-1 tvg-id="НТВ" tvg-name="НТВ" group-title="Эфирные ТВ плюс",Кнопка 4.1.14 НТВ
+#EXTINF:-1 tvg-id="НТВ" tvg-name="НТВ" group-title="Эфирные ТВ плюс",Кнопка 4.1.13 НТВ
 http://31.131.141.195:8000/play/1040/index.m3u8
-#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.15 НТВ
+#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.14 НТВ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
-#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.16 НТВ HD
+#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.15 НТВ HD
 http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.17 НТВ Сериал
+#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.16 НТВ Сериал
 http://cdn2.ntv.ru/th_serial/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-xit" tvg-name="ntv-xit" group-title="Эфирные ТВ плюс",Кнопка 4.1.18 НТВ Хит
+#EXTINF:-1 tvg-id="ntv-xit" tvg-name="ntv-xit" group-title="Эфирные ТВ плюс",Кнопка 4.1.17 НТВ Хит
 http://cdn2.ntv.ru/th_hit/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-style" tvg-name="ntv-style" group-title="Эфирные ТВ плюс",Кнопка 4.1.19 НТВ Стиль
+#EXTINF:-1 tvg-id="ntv-style" tvg-name="ntv-style" group-title="Эфирные ТВ плюс",Кнопка 4.1.18 НТВ Стиль
 http://cdn2.ntv.ru/th_style/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.20 НТВ HD
+#EXTINF:-1 tvg-id="ntv" tvg-name="ntv" group-title="Эфирные ТВ плюс",Кнопка 4.1.19 НТВ HD
 https://cdn.ntv.ru/ntv0/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-pravo" tvg-name="ntv-pravo" group-title="Эфирные ТВ плюс",Кнопка 4.1.21 НТВ Право
+#EXTINF:-1 tvg-id="ntv-pravo" tvg-name="ntv-pravo" group-title="Эфирные ТВ плюс",Кнопка 4.1.20 НТВ Право
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.22 НТВ Сериал
+#EXTINF:-1 tvg-id="ntv-serial" tvg-name="ntv-serial" group-title="Эфирные ТВ плюс",Кнопка 4.1.21 НТВ Сериал
 https://cdn.ntv.ru/th_serial/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv-style" tvg-name="ntv-style" group-title="Эфирные ТВ плюс",Кнопка 4.1.23 НТВ Стиль
+#EXTINF:-1 tvg-id="ntv-style" tvg-name="ntv-style" group-title="Эфирные ТВ плюс",Кнопка 4.1.22 НТВ Стиль
 http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@SD" tvg-name="NTV.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.24 НТВ (+4) (576p)
+#EXTINF:-1 tvg-id="NTV.ru@SD" tvg-name="NTV.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.23 НТВ (+4) (576p)
 http://31.148.48.15/NTV/index.m3u8
-#EXTINF:-1 tvg-id="NTVMir.ru@SD" tvg-name="NTVMir.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.25 НТВ Мир
+#EXTINF:-1 tvg-id="NTVMir.ru@SD" tvg-name="NTVMir.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.24 НТВ Мир
 https://streaming.thestream.cyou/live/213.m3u8
-#EXTINF:-1 tvg-id="NTVStyle.ru@SD" tvg-name="NTVStyle.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.26 НТВ Стиль (576p)
+#EXTINF:-1 tvg-id="NTVStyle.ru@SD" tvg-name="NTVStyle.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.25 НТВ Стиль (576p)
 https://cdn.ntv.ru/th_style/playlist.m3u8
-#EXTINF:-1 tvg-id="NTVHit.ru@SD" tvg-name="NTVHit.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.27 НТВ Хит (576p)
+#EXTINF:-1 tvg-id="NTVHit.ru@SD" tvg-name="NTVHit.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 4.1.26 НТВ Хит (576p)
 https://cdn.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-name="neizvestnaya-rosia" group-title="Эфирные ТВ плюс",Кнопка 4.2.1 Неизвестная Россия HD
 http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8
@@ -205,9 +203,11 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-id="RENTVInternational.ru@SD" tvg-name="RENTVInternational.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 11.0.6 РЕН ТВ International (720p)
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
-#EXTINF:-1 tvg-id="spas" tvg-name="spas" group-title="Эфирные ТВ плюс",Кнопка 12.0.1 Спас
+#EXTINF:-1 tvg-id="Спас" tvg-name="Спас" group-title="Эфирные ТВ плюс",Кнопка 12.0.1 Спас
+http://77.232.131.211/Spas/index.m3u8
+#EXTINF:-1 tvg-id="spas" tvg-name="spas" group-title="Эфирные ТВ плюс",Кнопка 12.0.2 Спас
 http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Spas.ru@SD" tvg-name="Spas.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 12.0.2 Спас (450p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Spas.ru@SD" tvg-name="Spas.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 12.0.3 Спас (450p) [Geo-blocked]
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 #EXTINF:-1 tvg-id="162" tvg-name="162" group-title="Эфирные ТВ плюс",Кнопка 13.0.1 СТС Kids
 http://31.148.48.15/STS_Kids_HD/index.m3u8
@@ -409,8 +409,6 @@ http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UniverTV.ru@SD" tvg-name="UniverTV.ru@SD" group-title="Общие",Univer TV (1080p)
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VIVARussia.ru@SD" tvg-name="VIVARussia.ru@SD" group-title="Общие",VIVA Russia (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="AISTTV.ru@SD" tvg-name="AISTTV.ru@SD" group-title="Общие",Аист ТВ (1080p)
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Astrahan24.ru@SD" tvg-name="Astrahan24.ru@SD" group-title="Общие",Астрахань 24 (720p)
@@ -615,6 +613,8 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="aiva" tvg-name="aiva" group-title="Общие",AIVA
 https://stream-msk-11.ott.tricolor.tv/dtv/id935_MSKSG-PVR-1--AIVA_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1MjQ5MzM2MywiaHdpZCI6IjM0YmQxMDNmZGFiNDliZTFiMWY2NjljNWU0ZjE3YzA1YTBjNzFkMTk3ZDAwY2U2OWM1MDA1YWI1ZjlhOGM3N2IiLCJsYXN0X3JlcV9kYXRlIjoxNzUxODg4NTYzLCJzZXNzaW9uX2lkIjoiMWZkYTk2MTk2YTg1ZWIzZGNmOGQ0ZTQwZTAwMGUxNjciLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.X5Tot_pBMjpV11rAD10aqBLkm168F46YX69qAQENQoI
+#EXTINF:-1 tvg-id="no_epg_music" tvg-name="no_epg_music" group-title="Общие",K Pop
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="4fun" tvg-name="4fun" group-title="Общие",4fun.TV
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1 tvg-id="classic-music" tvg-name="classic-music" group-title="Общие",Classic Music HD
@@ -671,6 +671,8 @@ http://195.26.83.96:7006/play/a00y/index.m3u8
 http://31.148.48.15/Russkiy_Roman_HD/index.m3u8
 #EXTINF:-1 tvg-id="Сити Эдем — Киноазия" tvg-name="Сити Эдем — Киноазия" group-title="Общие",Сити Эдем — Киноазия
 https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
+#EXTINF:-1 tvg-id="Сити Эдем — Кинодок" tvg-name="Сити Эдем — Кинодок" group-title="Общие",Сити Эдем — Кинодок
+https://autopilot.catcast.tv/content/38354/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="Сити Эдем — Киноклассика" tvg-name="Сити Эдем — Киноклассика" group-title="Общие",Сити Эдем — Киноклассика
 https://autopilot.catcast.tv/content/34185/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="40783" tvg-name="40783" group-title="Общие",Сити Эдем — Киномистика
@@ -679,6 +681,10 @@ https://autopilot.catcast.tv/content/40783/index.m3u8?password=promolive
 https://autopilot.catcast.tv/content/38128/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="41333" tvg-name="41333" group-title="Общие",Сити Эдем — Киноэкшен
 https://autopilot.catcast.tv/content/41333/index.m3u8?password=promolive
+#EXTINF:-1 tvg-id="46209" tvg-name="46209" group-title="Общие",Сити Эдем — Теленовелла
+https://autopilot.catcast.tv/content/46209/index.m3u8?password=promolive
+#EXTINF:-1 tvg-id="34246" tvg-name="34246" group-title="Общие",Сити Эдем — Христианский
+https://autopilot.catcast.tv/content/34246/index.m3u8?password=promolive
 #EXTINF:-1 tvg-id="Феникс Плюс Кино" tvg-name="Феникс Плюс Кино" group-title="Общие",Феникс Плюс Кино
 http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
 #EXTINF:-1 tvg-id="Amedia 1" tvg-name="Amedia 1" group-title="Общие",Amedia 1
@@ -1065,8 +1071,6 @@ http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="avto24" tvg-name="avto24" group-title="Общие",АВТО 24
 https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-name="dialogi-o-rybalke" group-title="Общие",Диалоги о рыбалке
-http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
 #EXTINF:-1 tvg-id="doktor" tvg-name="doktor" group-title="Общие",Доктор
 http://45.11.139.43:8555/doctor/index.m3u8
 #EXTINF:-1 tvg-id="domashnie-zhivotnye" tvg-name="domashnie-zhivotnye" group-title="Общие",Домашние Животные
@@ -1181,8 +1185,6 @@ https://bl.rutube.ru/livestream/59e0373a9aa587e06aeaf9009f86ded1/index.m3u8?s=Rq
 https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-oblastnoy-orel" tvg-name="pervy-oblastnoy-orel" group-title="Общие",Первый областной (Орел)
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-pskovsky" tvg-name="pervy-pskovsky" group-title="Общие",Первый Псковский
-http://live-3.otcnet.ru/pskov/index.m3u8
 #EXTINF:-1 tvg-id="pervy-rostovsky" tvg-name="pervy-rostovsky" group-title="Общие",Первый Ростовский
 https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="pervy-yaroslavsky" tvg-name="pervy-yaroslavsky" group-title="Общие",Первый Ярославский
@@ -1259,8 +1261,6 @@ https://c.mjh.nz/abc-kids.m3u8
 https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
 #EXTINF:-1 tvg-id="AfarinBaxcha.iq@SD" tvg-name="AfarinBaxcha.iq@SD" group-title="Общие",Afarin Baxcha (1080p)
 https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="AfarinTV.iq@SD" tvg-name="AfarinTV.iq@SD" group-title="Общие",Afarin TV (720p) [Not 24/7]
-https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AghapyKids.us@SD" tvg-name="AghapyKids.us@SD" group-title="Общие",Aghapy Kids (1080p)
 https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
 #EXTINF:-1 tvg-id="AmouYazidTV.dz@SD" tvg-name="AmouYazidTV.dz@SD" group-title="Общие",Amou Yazid TV (576p)
@@ -1609,12 +1609,16 @@ https://6065d3147e895.streamlock.net:4444/npcl/live/playlist.m3u8
 https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" tvg-name="vijuTV1000russkoe.ru@SD" group-title="Общие",viju TV1000 Русское
 http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8
+#EXTINF:-1 tvg-id="VIVARussia.ru@SD" tvg-name="VIVARussia.ru@SD" group-title="Общие",VIVA Russia (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="ZorTV.uz@SD" tvg-name="ZorTV.uz@SD" group-title="Общие",Zo'r TV (576p)
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AbazaTV.ru@SD" tvg-name="AbazaTV.ru@SD" group-title="Общие",АБАЗА-ТВ (1080p)
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 tvg-id="AutoPlus.ru@SD" tvg-name="AutoPlus.ru@SD" group-title="Общие",Авто Плюс (576p)
 http://31.148.48.15/Avto_Plus/index.m3u8
+#EXTINF:-1 tvg-id="Belarus2.by@SD" tvg-name="Belarus2.by@SD" group-title="Общие",Беларусь 2 (1080p)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-name="Belarus5.by@SD" group-title="Общие",Беларусь 5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@Internet" tvg-name="Belarus5.by@Internet" group-title="Общие",Беларусь 5 Интернет (1080p) [Not 24/7]
@@ -1755,3 +1759,7 @@ http://31.148.48.15/Feniks_plus_kino/index.m3u8
 http://31.148.48.15/Futbol_HD/index.m3u8
 #EXTINF:-1 tvg-id="UgraTV.ru@SD" tvg-name="UgraTV.ru@SD" group-title="Общие",Югра (1080p)
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+#EXTINF:-1 tvg-id="pervy-pskovsky" tvg-name="pervy-pskovsky" group-title="Общие",Первый Псковский
+http://live-3.otcnet.ru/pskov/index.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRTCocuk.tr@SD" group-title="Общие",TRT Çocuk (720p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
