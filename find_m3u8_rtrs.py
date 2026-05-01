@@ -18,14 +18,6 @@ GITHUB_PLAYLISTS = [
     "https://dtv.plus/rabochiy-iptv-pleylist-tv-kanaly/",
     "https://live.iptv-free.com/iptv/categories/kids.m3u",
     "https://live.iptv-free.com/iptv/languages/rus.m3u",
-    "https://github.com/smolnp/IPTV-1/blob/master/playlists%2Fplaylist_ukraine.m3u8",
-    "https://smolnp.github.io/IPTVru//IPTVstable.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8",
-    "https://tva.org.ua/ip/sam/poznavatelni.m3u",
-    "https://tva.org.ua/ip/sam/avto-full.m3u",
-    "https://live.iptv-free.com/iptv/categories/kids.m3u",
-    "https://live.iptv-free.com/iptv/languages/rus.m3u",
     "http://rafail1982.uz/playlists/TELEKARTA.m3u",
     "http://rafail1982.uz/playlists/TELECIFRA.m3u"
 ]
