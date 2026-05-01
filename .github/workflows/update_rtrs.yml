@@ -1,16 +1,16 @@
-Name: Update RTRS IPTV Playlist
+name: Update RTRS IPTV Playlist
 
 on:
   schedule:
-    # Оставляем твоё умное расписание (3, 4 и 5 утра), чтобы не частить
-    - cron: '0 0 2-31 * *'
-    - cron: '0 1 1 * *'
-    - cron: '0 2 2-31/2 * *'
+    - cron: '0 0 * * *'      # каждый день в 03:00 по МСК (00:00 UTC)
+    - cron: '0 2 */2 * *'    # раз в 2 дня в 05:00 по МСК (02:00 UTC)
+    - cron: '0 1 1 * *'      # 1 числа каждого месяца в 04:00 по МСК (01:00 UTC)
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -23,14 +23,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run scripts
+      - name: Run script
         run: |
-          python find_m3u8_rtrs.py
+          echo "Запуск Python-скрипта..."
+          python find_m3u8_rtrs.py || echo "Python script failed"
 
-      - name: Commit and Push
+      - name: Commit and Push results
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Добавляем плейлист
           git add Super_RTRS_2026.m3u
-          git commit -m "Update RTRS playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-          git push
+
+          # Добавляем все логи
+          git add rtrs_log_*.txt
+
+          git status
+
+          git commit -m "Update RTRS playlist + logs $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push || echo "Nothing to push"
