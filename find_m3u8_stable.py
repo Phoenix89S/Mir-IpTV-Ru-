@@ -3,15 +3,45 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-# Источники плейлистов
 GITHUB_PLAYLISTS = [
+    # --- iptv-org основные ---
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
+
+    # --- iptv-org расширенные RU ---
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_15plusmg.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_bonustv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_catcast.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_mylifeisgood.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_ntv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_rt.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_smotrim.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_televizor24.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvbricks.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvteleport.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_zabava.m3u",
+
+    # --- Rafail1982 ---
     "http://rafail1982.uz/playlists/LIST2.m3u",
-    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
     "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
+    "http://rafail1982.uz/playlists/TELEKARTA.m3u",
+    "http://rafail1982.uz/playlists/TELECIFRA.m3u",
+
+    # --- Твои проекты ---
+    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
+    "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
+
+    # --- Дополнительные источники ---
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
+
+    # --- tva.org.ua (M3U) ---
+    "https://tva.org.ua/ip/sam/poznavatelni.m3u",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+
+    # --- live.iptv-free.com ---
+    "https://live.iptv-free.com/iptv/categories/kids.m3u",
+    "https://live.iptv-free.com/iptv/languages/rus.m3u"
 ]
 
 # Группы для сортировки
