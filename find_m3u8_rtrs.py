@@ -1,3 +1,7 @@
+# ==============================
+#   ИМПОРТЫ
+# ==============================
+
 import requests
 import re
 import time
@@ -5,14 +9,15 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # ==============================
-#   РЕЖИМЫ ОБНОВЛЕНИЯ
+#   РЕЖИМЫ ОБНОВЛЕНИЯ (ТРИ РЕЖИМА)
 # ==============================
 
 # Возможные режимы:
 # "daily"   — раз в день в 03:00 МСК
 # "every2"  — раз в два дня в 04:00 МСК
 # "monthly" — 1-го числа в 05:00 МСК
-UPDATE_MODE = "daily"   # ← твой режим по умолчанию
+
+UPDATE_MODE = "daily"   # ← по умолчанию, но можно менять
 
 # Время запуска (МСК)
 DAILY_HOUR = 3
@@ -34,6 +39,10 @@ MONTHLY_MINUTE = 0
 # ❗ 4. Новые живые ссылки обновляют старые
 # ❗ 5. Если канал пропал — помечаем [OLD], но НЕ удаляем
 # ❗ 6. MANUAL — неприкасаемый
+# ❗ 7. Источники НЕ могут удалять рабочие ссылки
+# ❗ 8. Источники НЕ могут обнулять каналы
+# ❗ 9. Источники НЕ могут заменять MANUAL
+# ❗ 10. Источники НЕ могут создавать пустые каналы
 
 MANUAL_TAG = "[MANUAL]"
 OLD_TAG = "[OLD]"
@@ -79,7 +88,7 @@ def fix_wink(url: str) -> str:
     return url
 
 # ==============================
-#   ПРОВЕРКА ЖИВОСТИ
+#   ПРОВЕРКА ЖИВОСТИ ССЫЛКИ
 # ==============================
 
 def is_live(url: str) -> bool:
@@ -587,3 +596,187 @@ def build_playlist(merged_channels):
 def save_playlist(text):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(text)
+
+# ==============================
+#   РАСПИСАНИЕ ОБНОВЛЕНИЙ
+#   daily / every2 / monthly
+# ==============================
+
+# ВАЖНО:
+#  - Одновременно активен ТОЛЬКО ОДИН режим (UPDATE_MODE)
+#  - Остальные расписания не трогают запуск
+#  - Никаких автозапусков каждые 3 минуты
+#  - В режиме "every2" проверяются ВСЕ источники, включая новые
+
+MSK_OFFSET = 3  # Москва = UTC+3 (для простоты фиксируем)
+
+def now_msk() -> datetime:
+    return datetime.utcnow() + timedelta(hours=MSK_OFFSET)
+
+
+def today_msk() -> datetime:
+    n = now_msk()
+    return datetime(year=n.year, month=n.month, day=n.day)
+
+
+def first_day_next_month_msk() -> datetime:
+    n = now_msk()
+    year = n.year
+    month = n.month + 1
+    if month == 13:
+        month = 1
+        year += 1
+    return datetime(year=year, month=month, day=1)
+
+
+def next_daily_run() -> datetime:
+    base = today_msk().replace(hour=DAILY_HOUR, minute=DAILY_MINUTE, second=0, microsecond=0)
+    if now_msk() >= base:
+        base += timedelta(days=1)
+    return base
+
+
+def next_every2_run(last_run: datetime | None) -> datetime:
+    if last_run is None:
+        base_day = today_msk()
+    else:
+        base_day = datetime(year=last_run.year, month=last_run.month, day=last_run.day) + timedelta(days=2)
+    return base_day.replace(hour=EVERY2_HOUR, minute=EVERY2_MINUTE, second=0, microsecond=0)
+
+
+def next_monthly_run() -> datetime:
+    n = now_msk()
+    # если сегодня уже 1-е и время прошло — следующий месяц
+    candidate = datetime(year=n.year, month=n.month, day=1,
+                         hour=MONTHLY_HOUR, minute=MONTHLY_MINUTE, second=0, microsecond=0)
+    if n >= candidate:
+        candidate = first_day_next_month_msk().replace(
+            hour=MONTHLY_HOUR, minute=MONTHLY_MINUTE, second=0, microsecond=0
+        )
+    return candidate
+
+
+def calc_next_run(update_mode: str, last_run: datetime | None) -> datetime:
+    """
+    Возвращает дату/время следующего запуска в МСК
+    """
+    if update_mode == "daily":
+        return next_daily_run()
+    elif update_mode == "every2":
+        return next_every2_run(last_run)
+    elif update_mode == "monthly":
+        return next_monthly_run()
+    else:
+        # fallback — раз в день
+        return next_daily_run()
+
+
+def should_run_now(update_mode: str, last_run: datetime | None) -> bool:
+    """
+    Проверка, пора ли запускать обновление.
+    Никаких 3-минутных циклов: проверяем раз в минуту/реже.
+    """
+    n = now_msk()
+    next_run = calc_next_run(update_mode, last_run)
+    return n >= next_run
+
+
+# ==============================
+#   ЦИКЛ ОЖИДАНИЯ ЗАПУСКА
+# ==============================
+
+def wait_for_schedule(update_mode: str, last_run: datetime | None) -> datetime:
+    """
+    Блокирующий цикл ожидания следующего запуска.
+    Возвращает фактическое время запуска (МСК).
+    """
+    while True:
+        if should_run_now(update_mode, last_run):
+            return now_msk()
+        # Никаких 3 минут — спим 60 секунд, этого достаточно
+        time.sleep(60)
+
+# ==============================
+#   ГЛАВНЫЙ РАННЕР ОБНОВЛЕНИЯ
+# ==============================
+
+def run_update():
+    print("=== Запуск обновления плейлиста ===")
+
+    # 1. Загружаем старый плейлист
+    print("Загрузка старого плейлиста...")
+    old_channels = load_old_playlist()
+    print(f"Старых каналов загружено: {len(old_channels)}")
+
+    # 2. Загружаем новые источники
+    print("Загрузка новых источников...")
+    new_channels = {}
+
+    for src in GITHUB_PLAYLISTS:
+        print(f" → источник: {src}")
+        parsed = parse_m3u(src)
+        print(f"   найдено каналов: {len(parsed)}")
+
+        for meta, url in parsed:
+            name = meta.split(",", 1)[-1].strip()
+            if name not in new_channels:
+                new_channels[name] = {
+                    "meta": meta,
+                    "url": url,
+                }
+
+    print(f"Всего новых каналов собрано: {len(new_channels)}")
+
+    # 3. Объединяем старые и новые каналы
+    print("Объединение каналов (самовосстановление)...")
+    merged = merge_channels(old_channels, new_channels)
+    print(f"Итоговых каналов после merge: {len(merged)}")
+
+    # 4. Формируем итоговый плейлист
+    print("Формирование итогового плейлиста...")
+    playlist_text = build_playlist(merged)
+
+    # 5. Сохраняем файл
+    print("Сохранение файла...")
+    save_playlist(playlist_text)
+
+    print("=== Обновление завершено успешно ===")
+
+    # Возвращаем время запуска (МСК)
+    return now_msk()
+
+# ==============================
+#   ЧАСТЬ 6 — ФИНАЛЬНЫЙ ЦИКЛ
+#   РАБОТА ПО РАСПИСАНИЮ
+# ==============================
+
+def main():
+    print("=== Super_RTRS_2026 — старт ===")
+    print(f"Режим обновления: {UPDATE_MODE}")
+    last_run = None
+
+    while True:
+        # ждём следующего окна запуска по расписанию
+        print("Ожидание следующего запуска по расписанию...")
+        start_time = wait_for_schedule(UPDATE_MODE, last_run)
+        print(f"Время запуска (МСК): {start_time}")
+
+        try:
+            # один полный цикл обновления
+            last_run = run_update()
+            print(f"Последний успешный запуск (МСК): {last_run}")
+        except Exception as e:
+            # падать нельзя — просто логируем и ждём следующего окна
+            print("ОШИБКА ВО ВРЕМЯ ОБНОВЛЕНИЯ:", e)
+            # last_run не обновляем, чтобы расписание считало от предыдущего
+
+        # небольшая пауза, чтобы не дергать сразу же после запуска
+        time.sleep(30)
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
