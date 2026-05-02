@@ -353,6 +353,75 @@ http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1 tvg-id="solnce-pl7" tvg-name="solnce-pl7" group-title="Эфирные ТВ плюс",Кнопка 23.0.3 Солнце +7 (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="mir" group-title="Общественные", Мир
+http://31.131.141.195:8000/play/a003/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="astrakhan-sport" group-title="Спортивные", Астрахань Спорт
+http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="teotv" group-title="Развлекательные (Местные)", Teo ТВ
+https://stream.teotv.ru/live/site360/playlist.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="bridge-tv-ruxit" group-title="Музыкальные", Bridge Русский хит
+http://193.25.8.59:8000/rusong
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="sreda" group-title="Развлекательные (Местные)", Среда (Каспийск)
+https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="amedia1" group-title="Кино и сериалы", Amedia 1
+https://a3569457567-s70378.cdn.ngenix.net/amedia_1/2/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="illuzion-plus" group-title="Кино и сериалы", Иллюзион+
+http://176.118.197.101/Illuzion/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="lubimoe-kino" group-title="Кино и сериалы", Любимое Кино
+http://176.118.197.101/LubimoeKino/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="star-cinema" group-title="Кино и сериалы (Российские)", Star Cinema
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4158
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы (Российские)", Viju TV1000 русское
+http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="tnt" group-title="Развлекательные", TNT HD
+https://bl.rutube.ru/livestream/546602986e6a424d74d59487dddb3f04/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="tnt4" group-title="Развлекательные", TNT4
+http://217.114.191.150/TNT4/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="subbota" group-title="Развлекательные", Суббота (старый источник)
+http://217.114.191.150/Subbota/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="telekafe" group-title="Развлекательные", Телекафе (старый источник)
+https://a3569457567-s70378.cdn.ngenix.net/telekafe/2/index.m3u8
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="sarafan" group-title="Развлекательные", Сарафан (старый источник)
+http://93.84.115.174:10181/sarafan
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="smotrim-100-prazdnik" group-title="Развлекательные", Смотрим 100% Праздник (старый источник)
+https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
+
+# РУЧНАЯ ПРАВКА
+#EXTINF:-1 [MANUAL] tvg-id="tiji" group-title="Детские", TiJi (старый источник)
+http://158.160.149.81:8080/269/index.m3u8
+
 #EXTINF:-1 tvg-id="solnce" tvg-name="solnce" group-title="Эфирные ТВ плюс",Кнопка 23.0.4 Солнце
 https://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD" tvg-name="2x2.ru@SD" group-title="Эфирные ТВ плюс",Кнопка 24.1.1 2x2 (576i)
