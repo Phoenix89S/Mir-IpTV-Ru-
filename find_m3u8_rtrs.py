@@ -33,8 +33,12 @@ BLACKLIST = [
     "ЗЕРКАЛО", "РЕЗЕРВ", "CHAT", "INFO", "ПОСМОТРИ!!!"
 ]
 
+# Метки ручной защиты
+MANUAL_TAG = "[MANUAL]"
+MANUAL_COMMENT = "# РУЧНАЯ ПРАВКА"
+
 # ---------------------------------------------------------
-# 🔥 CHANNEL_GROUPS — полностью ручной
+# 🔥 CHANNEL_GROUPS — полностью твой расширенный словарь
 # ---------------------------------------------------------
 CHANNEL_GROUPS = {
     "Кнопка 1": {
@@ -94,7 +98,6 @@ CHANNEL_GROUPS = {
         "2.5.1": "Вести ФМ (Смотрим)"
     },
 
-    # Расширенная Кнопка 3 (C1A)
     "Кнопка 3": {
         "3.0": "Матч ТВ",
         "3.0.1": "Матч Планета",
@@ -117,21 +120,21 @@ CHANNEL_GROUPS = {
     },
 
     "Кнопка 5": {
-    "5.0": "Пятый канал",
-    "5.0.1": "Пятый канал +2",
-    "5.0.2": "Пятый канал +4",
-    "5.0.3": "Пятый канал +7",
+        "5.0": "Пятый канал",
+        "5.0.1": "Пятый канал +2",
+        "5.0.2": "Пятый канал +4",
+        "5.0.3": "Пятый канал +7",
 
-    "5.1": "Пятый канал HD",
-    "5.1.1": "Пятый канал HD +2",
-    "5.1.2": "Пятый канал HD +4",
-    "5.1.3": "Пятый канал HD +7",
+        "5.1": "Пятый канал HD",
+        "5.1.1": "Пятый канал HD +2",
+        "5.1.2": "Пятый канал HD +4",
+        "5.1.3": "Пятый канал HD +7",
 
-    "5.2": "Пятый канал International",
-    "5.2.1": "Пятый канал International +2",
-    "5.2.2": "Пятый канал International +4",
-    "5.2.3": "Пятый канал International +7"
-},
+        "5.2": "Пятый канал International",
+        "5.2.1": "Пятый канал International +2",
+        "5.2.2": "Пятый канал International +4",
+        "5.2.3": "Пятый канал International +7"
+    },
 
     "Кнопка 6": {
         "6.0": "Россия К",
@@ -164,11 +167,12 @@ CHANNEL_GROUPS = {
     },
 
     "Кнопка 9": {
-    "9.0": "ОТР",
-    "9.0.1": "ОТР +2",
-    "9.0.2": "ОТР +4",
-    "9.0.3": "ОТР +7"
-},
+        "9.0": "ОТР",
+        "9.0.1": "ОТР +2",
+        "9.0.2": "ОТР +4",
+        "9.0.3": "ОТР +7"
+    },
+
     "Кнопка 10": {
         "10.0": "ТВЦ",
         "10.1": "ТВ Центр",
@@ -177,6 +181,7 @@ CHANNEL_GROUPS = {
         "10.4": "ТВЦ +7",
         "10.5": "ТВ Центр International"
     },
+
     "Кнопка 11": {
         "11.0": "РЕН ТВ",
         "11.1": "РЕН ТВ HD",
@@ -185,7 +190,11 @@ CHANNEL_GROUPS = {
         "11.4": "РЕН ТВ +7",
         "11.5": "REN TV International"
     },
-    "Кнопка 12": {"12.0": "Спас"},
+
+    "Кнопка 12": {
+        "12.0": "Спас"
+    },
+
     "Кнопка 13": {
         "13.0": "СТС",
         "13.1": "СТС HD",
@@ -196,6 +205,7 @@ CHANNEL_GROUPS = {
         "13.6": "СТС Love",
         "13.7": "СТС International"
     },
+
     "Кнопка 14": {
         "14.0": "Домашний",
         "14.1": "Домашний HD",
@@ -204,6 +214,7 @@ CHANNEL_GROUPS = {
         "14.4": "Домашний +7",
         "14.5": "Домашний International"
     },
+
     "Кнопка 15": {
         "15.0": "ТВ-3",
         "15.1": "ТВ-3 HD",
@@ -212,6 +223,7 @@ CHANNEL_GROUPS = {
         "15.4": "ТВ-3 +7",
         "15.5": "ТВ-3 International"
     },
+
     "Кнопка 16": {
         "16.0": "Пятница",
         "16.1": "Пятница HD",
@@ -219,12 +231,14 @@ CHANNEL_GROUPS = {
         "16.3": "Пятница +4",
         "16.4": "Пятница International"
     },
+
     "Кнопка 17": {
         "17.0": "Звезда",
         "17.1": "Звезда HD",
         "17.2": "Звезда Плюс",
         "17.3": "Звезда Плюс HD"
     },
+
     "Кнопка 18": {
         "18.0": "Мир",
         "18.1": "Мир HD",
@@ -232,6 +246,7 @@ CHANNEL_GROUPS = {
         "18.3": "Мир +4",
         "18.4": "Мир 24"
     },
+
     "Кнопка 19": {
         "19.0": "ТНТ",
         "19.1": "ТНТ HD",
@@ -241,14 +256,18 @@ CHANNEL_GROUPS = {
         "19.5": "ТНТ4 HD",
         "19.6": "ТНТ International"
     },
-    "Кнопка 20": {"20.0": "Муз-ТВ"},
-    "Кнопка 21": {
-    "21.0": "Каскад SD",
-    "21.1": "Каскад HD",
 
-    "21.2": "Запад 24 HD",
-    "21.2.1": "Запад 24 SD"
-},
+    "Кнопка 20": {
+        "20.0": "Муз-ТВ"
+    },
+
+    "Кнопка 21": {
+        "21.0": "Каскад SD",
+        "21.1": "Каскад HD",
+        "21.2": "Запад 24 HD",
+        "21.2.1": "Запад 24 SD"
+    },
+
     "Кнопка 22": {
         "22.0": "Че",
         "22.1": "Че +2",
@@ -256,21 +275,29 @@ CHANNEL_GROUPS = {
         "22.5": "Перец",
         "22.6": "Перец International"
     },
+
     "Кнопка 23": {
         "23.0": "Солнце",
         "23.1": "Солнце +2",
         "23.2": "Солнце +4"
     },
+
     "Кнопка 24": {
         "24.0": "2х2",
         "24.1": "2x2 +2"
     },
-    "Кнопка 25": {"25.0": "RU.TV"},
-    "Кнопка 28": {"28.0": "SMOTRIM"}
+
+    "Кнопка 25": {
+        "25.0": "RU.TV"
+    },
+
+    "Кнопка 28": {
+        "28.0": "SMOTRIM"
+    }
 }
 
 # ---------------------------------------------------------
-# ✔ Проверка потока (без HEAD, без зависаний)
+# Проверка потока
 # ---------------------------------------------------------
 def is_live(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -280,8 +307,9 @@ def is_live(url):
     except:
         return False
 
+
 # ---------------------------------------------------------
-# ✔ Надёжный парсер M3U
+# Парсер M3U
 # ---------------------------------------------------------
 def get_links_from_m3u(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -305,11 +333,53 @@ def get_links_from_m3u(url):
     except:
         return []
 
+
 # ---------------------------------------------------------
-# ✔ Основная программа
+# Загрузка старого плейлиста (самовосстановление + ручная правка)
+# ---------------------------------------------------------
+def load_existing_playlist(path):
+    existing = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.read().splitlines()
+
+        last_meta = None
+        manual_mode = False
+
+        for line in lines:
+
+            # Если встретили комментарий — следующий канал ручной
+            if line.strip() == MANUAL_COMMENT:
+                manual_mode = True
+                continue
+
+            if line.startswith("#EXTINF"):
+                last_meta = line
+
+            elif last_meta and line.startswith("http"):
+                name = last_meta.rsplit(",", 1)[-1].strip()
+
+                existing[name] = {
+                    "meta": last_meta,
+                    "link": line.strip(),
+                    "manual": manual_mode or (MANUAL_TAG in last_meta)
+                }
+
+                last_meta = None
+                manual_mode = False
+
+    except:
+        pass
+
+    return existing
+
+# ---------------------------------------------------------
+# Основная программа
 # ---------------------------------------------------------
 def main():
     print(f"🚀 Старт: {datetime.now().strftime('%H:%M:%S')}")
+
+    existing = load_existing_playlist(OUTPUT_FILE)
     all_channels = defaultdict(lambda: defaultdict(list))
     seen_links = set()
 
@@ -319,53 +389,111 @@ def main():
 
         for meta, link in items:
             link = link.strip()
+
+            # Пропуск дублей и мусора
             if link in seen_links or any(b in (meta + link).upper() for b in BLACKLIST):
                 continue
 
-            if is_live(link):
-                name = meta.rsplit(',', 1)[-1].strip()
-                tvg_id = ""
-                match_id = re.search(r'tvg-id="([^"]+)"', meta, re.IGNORECASE)
-                if match_id:
-                    tvg_id = match_id.group(1)
+            # Имя канала
+            name = meta.rsplit(',', 1)[-1].strip()
 
-                found = False
-                for g_label, orbits in CHANNEL_GROUPS.items():
-                    for orbit, keyw in orbits.items():
-                        if keyw.upper() in name.upper():
+            # tvg-id
+            tvg_id = ""
+            match_id = re.search(r'tvg-id="([^"]+)"', meta, re.IGNORECASE)
+            if match_id:
+                tvg_id = match_id.group(1)
 
-                            # Защита от смешивания Россия 1 ↔ Россия 24
-                            if "РОССИЯ 24" in name.upper() and keyw.upper() == "РОССИЯ 1":
-                                continue
+            # ---------------------------------------------------------
+            # 🔥 Защита: ручная правка (комментарий или [MANUAL])
+            # ---------------------------------------------------------
+            if name in existing and existing[name].get("manual"):
+                all_channels[OTHER_GROUP_NAME]["999"].append({
+                    'name': name,
+                    'link': existing[name]["link"],
+                    'tvg_id': tvg_id if tvg_id else name
+                })
+                continue
 
-                            all_channels[MAIN_GROUP_NAME][orbit].append({
-                                'name': name,
-                                'link': link,
-                                'tvg_id': tvg_id if tvg_id else name
-                            })
-                            found = True
-                            break
-                    if found:
+            if MANUAL_TAG in meta:
+                clean_name = name.replace(MANUAL_TAG, "").strip()
+                all_channels[OTHER_GROUP_NAME]["999"].append({
+                    'name': clean_name,
+                    'link': link,
+                    'tvg_id': tvg_id if tvg_id else clean_name
+                })
+                continue
+
+            # ---------------------------------------------------------
+            # Проверка потока
+            # ---------------------------------------------------------
+            if not is_live(link):
+                continue
+
+            # ---------------------------------------------------------
+            # Поиск по CHANNEL_GROUPS
+            # ---------------------------------------------------------
+            found = False
+
+            for g_label, orbits in CHANNEL_GROUPS.items():
+                for orbit, keyw in orbits.items():
+
+                    # Совпадение по ключевому слову
+                    if keyw.upper() in name.upper():
+
+                        # Исключение: Россия 24 не должна попадать в кнопку Россия 1
+                        if "РОССИЯ 24" in name.upper() and keyw.upper() == "РОССИЯ 1":
+                            continue
+
+                        all_channels[MAIN_GROUP_NAME][orbit].append({
+                            'name': name,
+                            'link': link,
+                            'tvg_id': tvg_id if tvg_id else name
+                        })
+
+                        found = True
                         break
 
-                if not found:
+                if found:
+                    break
+
+            # ---------------------------------------------------------
+            # 🔥 Самовосстановление: если канал не найден в источниках
+            # ---------------------------------------------------------
+            if not found:
+
+                # Если канал был в старом плейлисте — восстановить
+                if name in existing:
+                    old = existing[name]
                     all_channels[OTHER_GROUP_NAME]["999"].append({
                         'name': name,
-                        'link': link,
+                        'link': old["link"],
                         'tvg_id': tvg_id if tvg_id else name
                     })
+                    continue
 
-                seen_links.add(link)
+                # Новый канал — в Общие
+                all_channels[OTHER_GROUP_NAME]["999"].append({
+                    'name': name,
+                    'link': link,
+                    'tvg_id': tvg_id if tvg_id else name
+                })
 
-    # ---------------------------------------------------------
-    # ✔ Правильная сортировка орбит
+            seen_links.add(link)
+
+
+# ---------------------------------------------------------
+    # Сортировка орбит (1.0, 1.1, 2.0.1 и т.д.)
     # ---------------------------------------------------------
     def orbit_key(x):
         return tuple(int(n) for n in x.split('.'))
 
+    # ---------------------------------------------------------
+    # Запись итогового плейлиста
+    # ---------------------------------------------------------
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f'#EXTM3U x-tvg-url="{EPG_SOURCES}"\n')
 
+        # --- Эфирные ТВ плюс ---
         rtrs_data = all_channels[MAIN_GROUP_NAME]
         sorted_orbits = sorted(rtrs_data.keys(), key=orbit_key)
 
@@ -373,16 +501,26 @@ def main():
             for idx, ch in enumerate(rtrs_data[orbit], 1):
                 f.write(
                     f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{MAIN_GROUP_NAME}",'
-                    f'Кнопка {orbit}.{idx} {ch["name"]}\n{ch["link"]}\n'
+                    f'Кнопка {orbit}.{idx} {ch["name"]}\n'
+                    f'{ch["link"]}\n'
                 )
 
+        # --- Общие ---
         for ch in all_channels[OTHER_GROUP_NAME]["999"]:
             f.write(
                 f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{OTHER_GROUP_NAME}",'
-                f'{ch["name"]}\n{ch["link"]}\n'
+                f'{ch["name"]}\n'
+                f'{ch["link"]}\n'
             )
 
     print(f"✨ Готово! Файл {OUTPUT_FILE} создан.")
 
+
+# ---------------------------------------------------------
+# Запуск
+# ---------------------------------------------------------
 if __name__ == "__main__":
     main()
+
+
+
