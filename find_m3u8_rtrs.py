@@ -3,6 +3,11 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
+# Специальные заголовки для Wink/CDN
+WINK_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"
+WINK_REF = "https://wink.ru/"
+WINK_IP = "95.24.0.1"  # РФ, МТС
+
 # Источники плейлистов
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
@@ -305,12 +310,35 @@ CHANNEL_GROUPS = {
 }
 
 # ---------------------------------------------------------
+# Фикс Wink/НТВ/Забава: UA + Referer + X-Forwarded-For
+# ---------------------------------------------------------
+def fix_wink_link(url: str) -> str:
+    base = url.split("|", 1)[0]
+    if any(x in base for x in ["wink", "cdn.ntv.ru", "zabava-htlive", "th_", "ntv.ru"]):
+        parts = []
+
+        if "User-Agent=" not in url:
+            parts.append(f"User-Agent={WINK_UA}")
+        if "Referer=" not in url:
+            parts.append(f"Referer={WINK_REF}")
+        if "X-Forwarded-For=" not in url:
+            parts.append(f"X-Forwarded-For={WINK_IP}")
+
+        if "|" in url:
+            return url + "&" + "&".join(parts)
+        else:
+            return url + "|" + "&".join(parts)
+
+    return url
+
+# ---------------------------------------------------------
 # Проверка потока
 # ---------------------------------------------------------
 def is_live(url):
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    base = url.split("|", 1)[0]
+    headers = {'User-Agent': WINK_UA}
     try:
-        r = requests.get(url, headers=headers, timeout=2, stream=True)
+        r = requests.get(base, headers=headers, timeout=2, stream=True)
         return r.status_code in (200, 206)
     except:
         return False
@@ -432,6 +460,11 @@ def main():
                 continue
 
             # ---------------------------------------------------------
+            # Фикс Wink/НТВ/Забава
+            # ---------------------------------------------------------
+            link = fix_wink_link(link)
+
+            # ---------------------------------------------------------
             # Проверка потока
             # ---------------------------------------------------------
             if not is_live(link):
@@ -465,6 +498,31 @@ def main():
                     break
 
             # ---------------------------------------------------------
+            # Дополнительное дублирование на кнопки 6 и 7
+            # ---------------------------------------------------------
+            upper_name = name.upper()
+
+            # Россия К / Культура → кнопка 6 (SD/HD/+)
+            if any(x in upper_name for x in ["РОССИЯ К", "КУЛЬТУРА"]):
+                for orbit, keyw in CHANNEL_GROUPS.get("Кнопка 6", {}).items():
+                    if keyw.upper() in upper_name:
+                        all_channels[MAIN_GROUP_NAME][orbit].append({
+                            'name': name,
+                            'link': link,
+                            'tvg_id': tvg_id if tvg_id else name
+                        })
+
+            # Россия 24 → кнопка 7 (SD/HD/+)
+            if "РОССИЯ 24" in upper_name:
+                for orbit, keyw in CHANNEL_GROUPS.get("Кнопка 7", {}).items():
+                    if keyw.upper() in upper_name:
+                        all_channels[MAIN_GROUP_NAME][orbit].append({
+                            'name': name,
+                            'link': link,
+                            'tvg_id': tvg_id if tvg_id else name
+                        })
+
+            # ---------------------------------------------------------
             # 🔥 Самовосстановление: если канал не найден в источниках
             # ---------------------------------------------------------
             if not found:
@@ -477,6 +535,7 @@ def main():
                         'link': old["link"],
                         'tvg_id': tvg_id if tvg_id else name
                     })
+                    seen_links.add(link)
                     continue
 
                 # Новый канал — в Общие
@@ -489,7 +548,7 @@ def main():
             seen_links.add(link)
 
 
-# ---------------------------------------------------------
+    # ---------------------------------------------------------
     # Сортировка орбит (1.0, 1.1, 2.0.1 и т.д.)
     # ---------------------------------------------------------
     def orbit_key(x):
@@ -529,6 +588,3 @@ def main():
 # ---------------------------------------------------------
 if __name__ == "__main__":
     main()
-
-
-
