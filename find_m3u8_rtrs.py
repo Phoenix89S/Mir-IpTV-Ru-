@@ -3,13 +3,12 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-# Специальные заголовки для Wink/CDN
-WINK_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0"
+# Специальные заголовки для Wink/CDN (правильный ru-RU)
+WINK_RU = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0"
 WINK_REF = "https://wink.ru/"
 WINK_IP = "95.24.0.1"  # РФ, МТС
 
 # Источники плейлистов
-
 GITHUB_PLAYLISTS = [
     # --- iptv-org основные ---
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
@@ -326,20 +325,36 @@ CHANNEL_GROUPS = {
 }
 
 # ---------------------------------------------------------
-# Фикс Wink/НТВ/Забава: UA + Referer + X-Forwarded-For
+# Фикс Wink/НТВ/Забава: RU + Referer + X-Forwarded-For (исправленный ru-RU)
 # ---------------------------------------------------------
 def fix_wink_link(url: str) -> str:
-    base = url.split("|", 1)[0]
-    if any(x in base for x in ["wink", "cdn.ntv.ru", "zabava-htlive", "th_", "ntv.ru"]):
+    base = url.split("|", 1)[0].lower()
+
+    # Полный охват всех Wink/NTV/Zabava CDN
+    if any(x in base for x in [
+        "wink",
+        "cdn.ntv.ru",
+        "zabava",
+        "zabava-htlive",
+        "zabava-htlive.cdn",
+        "th_",
+        "ntv.ru"
+    ]):
         parts = []
 
-        if "User-Agent=" not in url:
-            parts.append(f"User-Agent={WINK_UA}")
-        if "Referer=" not in url:
+        # Добавляем ru-RU RU
+        if "user-agent=" not in url.lower():
+            parts.append(f"User-Agent={WINK_RU}")
+
+        # Добавляем Referer
+        if "referer=" not in url.lower():
             parts.append(f"Referer={WINK_REF}")
-        if "X-Forwarded-For=" not in url:
+
+        # Добавляем X-Forwarded-For
+        if "x-forwarded-for=" not in url.lower():
             parts.append(f"X-Forwarded-For={WINK_IP}")
 
+        # Если уже есть параметры через |
         if "|" in url:
             return url + "&" + "&".join(parts)
         else:
@@ -347,12 +362,13 @@ def fix_wink_link(url: str) -> str:
 
     return url
 
+
 # ---------------------------------------------------------
 # Проверка потока
 # ---------------------------------------------------------
 def is_live(url):
     base = url.split("|", 1)[0]
-    headers = {'User-Agent': WINK_UA}
+    headers = {'User-Agent': WINK_RU}
     try:
         r = requests.get(base, headers=headers, timeout=2, stream=True)
         return r.status_code in (200, 206)
@@ -425,6 +441,7 @@ def load_existing_playlist(path):
 
     return existing
 
+
 # ---------------------------------------------------------
 # Основная программа
 # ---------------------------------------------------------
@@ -464,6 +481,7 @@ def main():
                     'link': existing[name]["link"],
                     'tvg_id': tvg_id if tvg_id else name
                 })
+                seen_links.add(existing[name]["link"])
                 continue
 
             if MANUAL_TAG in meta:
@@ -473,6 +491,7 @@ def main():
                     'link': link,
                     'tvg_id': tvg_id if tvg_id else clean_name
                 })
+                seen_links.add(link)
                 continue
 
             # ---------------------------------------------------------
@@ -518,7 +537,7 @@ def main():
             # ---------------------------------------------------------
             upper_name = name.upper()
 
-            # Россия К / Культура → кнопка 6 (SD/HD/+)
+            # Россия К / Культура → кнопка 6
             if any(x in upper_name for x in ["РОССИЯ К", "КУЛЬТУРА"]):
                 for orbit, keyw in CHANNEL_GROUPS.get("Кнопка 6", {}).items():
                     if keyw.upper() in upper_name:
@@ -528,7 +547,7 @@ def main():
                             'tvg_id': tvg_id if tvg_id else name
                         })
 
-            # Россия 24 → кнопка 7 (SD/HD/+)
+            # Россия 24 → кнопка 7
             if "РОССИЯ 24" in upper_name:
                 for orbit, keyw in CHANNEL_GROUPS.get("Кнопка 7", {}).items():
                     if keyw.upper() in upper_name:
@@ -539,7 +558,7 @@ def main():
                         })
 
             # ---------------------------------------------------------
-            # 🔥 Самовосстановление: если канал не найден в источниках
+            # 🔥 Самовосстановление
             # ---------------------------------------------------------
             if not found:
 
@@ -551,7 +570,7 @@ def main():
                         'link': old["link"],
                         'tvg_id': tvg_id if tvg_id else name
                     })
-                    seen_links.add(link)
+                    seen_links.add(old["link"])
                     continue
 
                 # Новый канал — в Общие
@@ -563,7 +582,6 @@ def main():
 
             seen_links.add(link)
 
-
     # ---------------------------------------------------------
     # Сортировка орбит (1.0, 1.1, 2.0.1 и т.д.)
     # ---------------------------------------------------------
@@ -571,8 +589,10 @@ def main():
         return tuple(int(n) for n in x.split('.'))
 
     # ---------------------------------------------------------
-    # Запись итогового плейлиста
+    # Запись итогового плейлиста (мультипотоки с индексами)
     # ---------------------------------------------------------
+    from collections import defaultdict as _dd
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f'#EXTM3U x-tvg-url="{EPG_SOURCES}"\n')
 
@@ -580,19 +600,41 @@ def main():
         rtrs_data = all_channels[MAIN_GROUP_NAME]
         sorted_orbits = sorted(rtrs_data.keys(), key=orbit_key)
 
+        name_counters_main = _dd(int)
+
         for orbit in sorted_orbits:
-            for idx, ch in enumerate(rtrs_data[orbit], 1):
+            for ch in rtrs_data[orbit]:
+                base_name = ch["name"]
+                name_counters_main[(orbit, base_name)] += 1
+                idx_local = name_counters_main[(orbit, base_name)]
+
+                if idx_local == 1:
+                    display_name = base_name
+                else:
+                    display_name = f'{base_name} ({idx_local})'
+
                 f.write(
                     f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{MAIN_GROUP_NAME}",'
-                    f'Кнопка {orbit}.{idx} {ch["name"]}\n'
+                    f'Кнопка {orbit} {display_name}\n'
                     f'{ch["link"]}\n'
                 )
 
         # --- Общие ---
+        name_counters_other = _dd(int)
+
         for ch in all_channels[OTHER_GROUP_NAME]["999"]:
+            base_name = ch["name"]
+            name_counters_other[base_name] += 1
+            idx_local = name_counters_other[base_name]
+
+            if idx_local == 1:
+                display_name = base_name
+            else:
+                display_name = f'{base_name} ({idx_local})'
+
             f.write(
                 f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" group-title="{OTHER_GROUP_NAME}",'
-                f'{ch["name"]}\n'
+                f'{display_name}\n'
                 f'{ch["link"]}\n'
             )
 
