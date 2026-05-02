@@ -144,7 +144,14 @@ CHANNEL_GROUPS = {
     "Кнопка 4": {
         "4.1": "НТВ",
         "4.2": "Неизвестная Россия",
-        "4.8": "НТВ HD"
+        "4.8": "НТВ HD",
+        "4.9": "НТВ Стиль",
+        "4.10": "НТВ Мир",
+        "4.11": "НТВ Беларусь",
+        "4.12": "НТВ Америка",
+        "4.13": "НТВ Сериал",
+        "4.14": "НТВ Хит",
+        "4.15": "НТВ Право"
     },
 
     "Кнопка 5": {
@@ -319,10 +326,75 @@ CHANNEL_GROUPS = {
         "25.0": "RU.TV"
     },
 
+    "Кнопка 26": {
+        "26.0": "Viju Premium",
+        "26.0.1": "Viju Premium HD",
+
+        "26.1": "Viju Hits",
+        "26.1.1": "Viju Hits HD",
+
+        "26.2": "Viju Family",
+        "26.2.1": "Viju Family HD",
+
+        "26.3": "Viju Comedy",
+        "26.3.1": "Viju Comedy HD",
+
+        "26.4": "Viju World",
+        "26.4.1": "Viju World HD",
+
+        "26.5": "TV1000",
+        "26.5.1": "TV1000 HD",
+
+        "26.6": "TV1000 Русское кино",
+        "26.6.1": "TV1000 Русское кино HD",
+
+        "26.7": "TV1000 Action",
+        "26.7.1": "TV1000 Action HD",
+
+        "26.8": "Viasat Explore",
+        "26.8.1": "Viasat Explore HD",
+
+        "26.9": "Viasat History",
+        "26.9.1": "Viasat History HD",
+
+        "26.10": "Viasat Nature",
+        "26.10.1": "Viasat Nature HD",
+
+        "26.11": "Viasat Ultra",
+        "26.11.1": "Viasat Ultra HD",
+
+        "26.12": "Epic Drama",
+        "26.12.1": "Epic Drama HD"
+    },
+
     "Кнопка 28": {
         "28.0": "SMOTRIM"
     }
 }
+
+# ---------------------------------------------------------
+# Нормализация имён для работы словаря (чтобы он не игнорился)
+# ---------------------------------------------------------
+def normalize_name(name: str) -> str:
+    n = name.upper()
+
+    # Убираем HD/SD/FHD/UHD/4K
+    n = re.sub(r'\bHD\b', '', n)
+    n = re.sub(r'\bSD\b', '', n)
+    n = re.sub(r'\bFHD\b', '', n)
+    n = re.sub(r'\bUHD\b', '', n)
+    n = re.sub(r'\b4K\b', '', n)
+
+    # Убираем +2/+4/+7/+8/+9 и т.п.
+    n = re.sub(r'\+\d+', '', n)
+
+    # Убираем содержимое в скобках: (1080p), (FHD), (Test) и т.д.
+    n = re.sub(r'\([^)]*\)', '', n)
+
+    # Убираем лишние пробелы
+    n = re.sub(r'\s+', ' ', n)
+
+    return n.strip()
 
 # ---------------------------------------------------------
 # Фикс Wink/НТВ/Забава: RU + Referer + X-Forwarded-For (исправленный ru-RU)
@@ -510,14 +582,15 @@ def main():
             # ---------------------------------------------------------
             found = False
 
+            norm_name = normalize_name(name)
+
             for g_label, orbits in CHANNEL_GROUPS.items():
                 for orbit, keyw in orbits.items():
-
-                    # Совпадение по ключевому слову
-                    if keyw.upper() in name.upper():
+                    # Совпадение по нормализованному ключевому слову
+                    if normalize_name(keyw) in norm_name:
 
                         # Исключение: Россия 24 не должна попадать в кнопку Россия 1
-                        if "РОССИЯ 24" in name.upper() and keyw.upper() == "РОССИЯ 1":
+                        if "РОССИЯ 24" in norm_name and normalize_name(keyw) == "РОССИЯ 1":
                             continue
 
                         all_channels[MAIN_GROUP_NAME][orbit].append({
