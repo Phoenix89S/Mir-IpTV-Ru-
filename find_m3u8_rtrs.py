@@ -7,19 +7,27 @@ from datetime import datetime
 GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
+
     "http://rafail1982.uz/playlists/LIST2.m3u",
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
     "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
+
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
+
     "https://tva.org.ua/ip/sam/poznavatelni.m3u",
     "https://tva.org.ua/ip/sam/avto-full.m3u",
     "https://tva.org.ua/free-full.html",
+
     "https://dtv.plus/rabochiy-iptv-pleylist-tv-kanaly/",
     "https://live.iptv-free.com/iptv/categories/kids.m3u",
     "https://live.iptv-free.com/iptv/languages/rus.m3u",
+
     "http://rafail1982.uz/playlists/TELEKARTA.m3u",
-    "http://rafail1982.uz/playlists/TELECIFRA.m3u"
+    "http://rafail1982.uz/playlists/TELECIFRA.m3u",
+
+    # 🔥 ТВОЙ НОВЫЙ ИСТОЧНИК (RAW)
+    "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u"
 ]
 
 EPG_SOURCES = "https://epg.one/epg.xml.gz,https://iptvx.one/EPG"
