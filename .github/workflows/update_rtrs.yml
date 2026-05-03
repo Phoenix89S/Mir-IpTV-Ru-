@@ -23,7 +23,7 @@ jobs:
         run: pip install requests aiohttp
 
       - name: Download sources
-        run: python main.py --stage download
+        run: python find_m3u8_rtrs.py --stage download
 
 
   filter_sources:
@@ -41,7 +41,7 @@ jobs:
         run: pip install requests
 
       - name: Smart filter
-        run: python main.py --stage filter
+        run: python find_m3u8_rtrs.py --stage filter
 
 
   check_streams:
@@ -59,7 +59,7 @@ jobs:
         run: pip install aiohttp
 
       - name: Turbo check streams
-        run: python main.py --stage check
+        run: python find_m3u8_rtrs.py --stage check
 
 
   build_playlist:
@@ -74,7 +74,7 @@ jobs:
           python-version: "3.10"
 
       - name: Build playlist
-        run: python main.py --stage build
+        run: python find_m3u8_rtrs.py --stage build
 
 
   commit_push:
