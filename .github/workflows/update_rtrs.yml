@@ -3,39 +3,42 @@ name: Update RTRS IPTV Playlist
 on:
   workflow_dispatch:
 
+  # ================================
+  # АВТОМАТИЧЕСКИЕ ЗАПУСКИ ПО ТВОЕМУ ГРАФИКУ
+  # ================================
   schedule:
-    # Ежедневно, кроме 1-го числа — 03:00 МСК (00:00 UTC)
-    - cron: '0 0 2-31 * *'
-
-    # 1-го числа — 04:00 МСК (01:00 UTC)
-    - cron: '0 1 1 * *'
-
-    # Каждые 2 дня — 05:00 МСК (02:00 UTC)
-    - cron: '0 2 2-31/2 * *'
+    - cron: '0 0 2-31 * *'     # DAILY — каждый день, кроме 1-го числа (03:00 МСК)
+    - cron: '0 1 1 * *'        # MONTHLY — 1-го числа (04:00 МСК)
+    - cron: '0 2 2-31/2 * *'   # EVERY2 — каждые 2 дня (05:00 МСК)
 
 jobs:
 
-  # ============================
+  # ================================
   # 1) СКАЧИВАНИЕ ИСТОЧНИКОВ
-  # ============================
+  # ================================
   download_sources:
     runs-on: ubuntu-latest
     steps:
 
+      # --- Клонируем репозиторий ---
       - name: Checkout
         uses: actions/checkout@v4
 
+      # --- Устанавливаем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
+      # --- Устанавливаем зависимости ---
       - name: Install dependencies
         run: pip install requests aiohttp
 
+      # --- Запускаем stage=download ---
       - name: Download sources
         run: python find_m3u8_rtrs.py --stage download
 
+      # --- Сохраняем сырые источники как артефакт ---
       - name: Upload raw sources
         uses: actions/upload-artifact@v4
         with:
@@ -43,33 +46,39 @@ jobs:
           path: sources_raw.m3u
 
 
-  # ============================
+  # ================================
   # 2) ФИЛЬТРАЦИЯ ИСТОЧНИКОВ
-  # ============================
+  # ================================
   filter_sources:
     runs-on: ubuntu-latest
     needs: download_sources
     steps:
 
+      # --- Клонируем репозиторий ---
       - name: Checkout
         uses: actions/checkout@v4
 
+      # --- Устанавливаем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
+      # --- Устанавливаем зависимости ---
       - name: Install dependencies
         run: pip install requests aiohttp
 
+      # --- Загружаем сырые источники ---
       - name: Download raw sources
         uses: actions/download-artifact@v4
         with:
           name: raw_sources
 
+      # --- Запускаем stage=filter ---
       - name: Smart filter
         run: python find_m3u8_rtrs.py --stage filter
 
+      # --- Сохраняем отфильтрованные источники ---
       - name: Upload filtered sources
         uses: actions/upload-artifact@v4
         with:
@@ -77,33 +86,39 @@ jobs:
           path: sources_clean.m3u
 
 
-  # ============================
+  # ================================
   # 3) ПРОВЕРКА ПОТОКОВ
-  # ============================
+  # ================================
   check_streams:
     runs-on: ubuntu-latest
     needs: filter_sources
     steps:
 
+      # --- Клонируем репозиторий ---
       - name: Checkout
         uses: actions/checkout@v4
 
+      # --- Устанавливаем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
+      # --- Устанавливаем зависимости ---
       - name: Install dependencies
         run: pip install requests aiohttp
 
+      # --- Загружаем отфильтрованные источники ---
       - name: Download clean sources
         uses: actions/download-artifact@v4
         with:
           name: clean_sources
 
+      # --- Запускаем stage=check ---
       - name: Check streams
         run: python find_m3u8_rtrs.py --stage check
 
+      # --- Сохраняем проверенные источники ---
       - name: Upload checked sources
         uses: actions/upload-artifact@v4
         with:
@@ -111,33 +126,39 @@ jobs:
           path: sources_checked.m3u
 
 
-  # ============================
+  # ================================
   # 4) СБОРКА ФИНАЛЬНОГО ПЛЕЙЛИСТА
-  # ============================
+  # ================================
   build_playlist:
     runs-on: ubuntu-latest
     needs: check_streams
     steps:
 
+      # --- Клонируем репозиторий ---
       - name: Checkout
         uses: actions/checkout@v4
 
+      # --- Устанавливаем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
+      # --- Устанавливаем зависимости ---
       - name: Install dependencies
         run: pip install requests aiohttp
 
+      # --- Загружаем проверенные источники ---
       - name: Download checked sources
         uses: actions/download-artifact@v4
         with:
           name: checked_sources
 
+      # --- Запускаем stage=build ---
       - name: Build final playlist
         run: python find_m3u8_rtrs.py --stage build
 
+      # --- Сохраняем итоговый плейлист ---
       - name: Upload final playlist
         uses: actions/upload-artifact@v4
         with:
@@ -145,27 +166,31 @@ jobs:
           path: Super_RTRS_2026.m3u
 
 
-  # ============================
+  # ================================
   # 5) КОММИТ И PUSH (ТОЛЬКО ЕСЛИ ЕСТЬ ИЗМЕНЕНИЯ)
-  # ============================
+  # ================================
   commit_push:
     runs-on: ubuntu-latest
     needs: build_playlist
     steps:
 
+      # --- Клонируем репозиторий с правами на push ---
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # --- Загружаем итоговый плейлист ---
       - name: Download final playlist
         uses: actions/download-artifact@v4
         with:
           name: final_playlist
 
+      # --- Копируем файл из папки артефакта в корень репозитория ---
       - name: Move playlist
-        run: cp Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
+        run: cp final_playlist/Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
 
+      # --- Проверяем, есть ли изменения ---
       - name: Check for changes
         run: |
           git add Super_RTRS_2026.m3u
@@ -174,11 +199,13 @@ jobs:
             exit 0
           fi
 
+      # --- Коммитим изменения ---
       - name: Commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git commit -m "Auto-update playlist (manual/auto unified)"
 
+      # --- Отправляем изменения в репозиторий ---
       - name: Push
         run: git push
