@@ -3,6 +3,16 @@ name: Update RTRS IPTV Playlist
 on:
   workflow_dispatch:
 
+  schedule:
+    # Ежедневно, кроме 1-го числа — 03:00 МСК (00:00 UTC)
+    - cron: '0 0 2-31 * *'
+
+    # 1-го числа — 04:00 МСК (01:00 UTC)
+    - cron: '0 1 1 * *'
+
+    # Каждые 2 дня — 05:00 МСК (02:00 UTC)
+    - cron: '0 2 2-31/2 * *'
+
 jobs:
 
   # ============================
@@ -12,25 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      # --- Клонируем репозиторий ---
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Устанавливаем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # --- Устанавливаем зависимости ---
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Запускаем stage=download ---
       - name: Download sources
         run: python find_m3u8_rtrs.py --stage download
 
-      # --- Загружаем артефакт для следующего job ---
       - name: Upload raw sources
         uses: actions/upload-artifact@v4
         with:
@@ -57,17 +62,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Загружаем артефакт из предыдущего job ---
       - name: Download raw sources
         uses: actions/download-artifact@v4
         with:
           name: raw_sources
 
-      # --- Запускаем stage=filter ---
       - name: Smart filter
         run: python find_m3u8_rtrs.py --stage filter
 
-      # --- Загружаем результат фильтра ---
       - name: Upload filtered sources
         uses: actions/upload-artifact@v4
         with:
@@ -94,17 +96,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Загружаем отфильтрованные источники ---
       - name: Download clean sources
         uses: actions/download-artifact@v4
         with:
           name: clean_sources
 
-      # --- Запускаем stage=check ---
       - name: Check streams
         run: python find_m3u8_rtrs.py --stage check
 
-      # --- Загружаем проверенные ссылки ---
       - name: Upload checked sources
         uses: actions/upload-artifact@v4
         with:
@@ -131,17 +130,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Загружаем проверенные ссылки ---
       - name: Download checked sources
         uses: actions/download-artifact@v4
         with:
           name: checked_sources
 
-      # --- Запускаем stage=build (использует твой merge + build_playlist) ---
       - name: Build final playlist
         run: python find_m3u8_rtrs.py --stage build
 
-      # --- Загружаем итоговый плейлист как артефакт ---
       - name: Upload final playlist
         uses: actions/upload-artifact@v4
         with:
@@ -150,7 +146,7 @@ jobs:
 
 
   # ============================
-  # 5) КОММИТ И PUSH
+  # 5) КОММИТ И PUSH (ТОЛЬКО ЕСЛИ ЕСТЬ ИЗМЕНЕНИЯ)
   # ============================
   commit_push:
     runs-on: ubuntu-latest
@@ -162,24 +158,27 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- Загружаем итоговый плейлист ---
       - name: Download final playlist
         uses: actions/download-artifact@v4
         with:
           name: final_playlist
 
-      # --- Копируем в репозиторий ---
-     # - name: Move playlist
-      #  run: mv Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
+      - name: Move playlist
+        run: cp Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
 
-      # --- Коммитим ---
-      - name: Commit changes
+      - name: Check for changes
+        run: |
+          git add Super_RTRS_2026.m3u
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+
+      - name: Commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add Super_RTRS_2026.m3u
-          git commit -m "Auto-update playlist" || echo "No changes"
+          git commit -m "Auto-update playlist (manual/auto unified)"
 
-      # --- Push ---
-      - name: Push changes
+      - name: Push
         run: git push
