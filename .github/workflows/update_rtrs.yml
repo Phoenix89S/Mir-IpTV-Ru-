@@ -2,91 +2,184 @@ name: Update RTRS IPTV Playlist
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *"
-    - cron: "0 5 */2 * *"
-    - cron: "0 4 1 * *"
 
 jobs:
 
+  # ============================
+  # 1) СКАЧИВАНИЕ ИСТОЧНИКОВ
+  # ============================
   download_sources:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+
+      # --- Клонируем репозиторий ---
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # --- Устанавливаем Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      # --- Устанавливаем зависимости ---
+      - name: Install dependencies
+        run: pip install requests aiohttp
+
+      # --- Запускаем stage=download ---
+      - name: Download sources
+        run: python find_m3u8_rtrs.py --stage download
+
+      # --- Загружаем артефакт для следующего job ---
+      - name: Upload raw sources
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw_sources
+          path: sources_raw.m3u
+
+
+  # ============================
+  # 2) ФИЛЬТРАЦИЯ ИСТОЧНИКОВ
+  # ============================
+  filter_sources:
+    runs-on: ubuntu-latest
+    needs: download_sources
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      - name: Download sources
-        run: python find_m3u8_rtrs.py --stage download
-
-
-  filter_sources:
-    runs-on: ubuntu-latest
-    needs: download_sources
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      # --- Загружаем артефакт из предыдущего job ---
+      - name: Download raw sources
+        uses: actions/download-artifact@v4
         with:
-          python-version: "3.10"
+          name: raw_sources
 
-      - name: Install dependencies
-        run: pip install requests
-
+      # --- Запускаем stage=filter ---
       - name: Smart filter
         run: python find_m3u8_rtrs.py --stage filter
 
+      # --- Загружаем результат фильтра ---
+      - name: Upload filtered sources
+        uses: actions/upload-artifact@v4
+        with:
+          name: clean_sources
+          path: sources_clean.m3u
 
+
+  # ============================
+  # 3) ПРОВЕРКА ПОТОКОВ
+  # ============================
   check_streams:
     runs-on: ubuntu-latest
     needs: filter_sources
     steps:
-      - uses: actions/checkout@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install aiohttp
+        run: pip install requests aiohttp
 
-      - name: Turbo check streams
+      # --- Загружаем отфильтрованные источники ---
+      - name: Download clean sources
+        uses: actions/download-artifact@v4
+        with:
+          name: clean_sources
+
+      # --- Запускаем stage=check ---
+      - name: Check streams
         run: python find_m3u8_rtrs.py --stage check
 
+      # --- Загружаем проверенные ссылки ---
+      - name: Upload checked sources
+        uses: actions/upload-artifact@v4
+        with:
+          name: checked_sources
+          path: sources_checked.m3u
 
+
+  # ============================
+  # 4) СБОРКА ФИНАЛЬНОГО ПЛЕЙЛИСТА
+  # ============================
   build_playlist:
     runs-on: ubuntu-latest
     needs: check_streams
     steps:
-      - uses: actions/checkout@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      - name: Build playlist
+      - name: Install dependencies
+        run: pip install requests aiohttp
+
+      # --- Загружаем проверенные ссылки ---
+      - name: Download checked sources
+        uses: actions/download-artifact@v4
+        with:
+          name: checked_sources
+
+      # --- Запускаем stage=build (использует твой merge + build_playlist) ---
+      - name: Build final playlist
         run: python find_m3u8_rtrs.py --stage build
 
+      # --- Загружаем итоговый плейлист как артефакт ---
+      - name: Upload final playlist
+        uses: actions/upload-artifact@v4
+        with:
+          name: final_playlist
+          path: Super_RTRS_2026.m3u
 
+
+  # ============================
+  # 5) КОММИТ И PUSH
+  # ============================
   commit_push:
     runs-on: ubuntu-latest
     needs: build_playlist
     steps:
-      - uses: actions/checkout@v4
 
-      - name: Commit and Push results
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Загружаем итоговый плейлист ---
+      - name: Download final playlist
+        uses: actions/download-artifact@v4
+        with:
+          name: final_playlist
+
+      # --- Копируем в репозиторий ---
+      - name: Move playlist
+        run: mv Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
+
+      # --- Коммитим ---
+      - name: Commit changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add Super_RTRS_2026.m3u
           git commit -m "Auto-update playlist" || echo "No changes"
-          git push
+
+      # --- Push ---
+      - name: Push changes
+        run: git push
