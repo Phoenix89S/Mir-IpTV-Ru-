@@ -1,12 +1,38 @@
-# ==============================
-#   ИМПОРТЫ
-# ==============================
+# ================================
+# ИМПОРТЫ
+# ================================
 
 import requests
 import re
 import time
 from datetime import datetime, timedelta
 from collections import defaultdict
+
+# ================================
+# ОБРАБОТКА РЕЖИМОВ ЗАПУСКА (STAGE)
+# ================================
+
+import sys
+
+stage = None
+if "--stage" in sys.argv:
+    stage = sys.argv[sys.argv.index("--stage") + 1]
+
+if stage == "download":
+    # код скачивания источников
+    exit()
+
+if stage == "filter":
+    # умный фильтр
+    exit()
+
+if stage == "check":
+    # turbo-проверка потоков
+    exit()
+
+if stage == "build":
+    # сборка финального плейлиста
+    exit()
 
 # ==============================
 #   РЕЖИМЫ ОБНОВЛЕНИЯ (ТРИ РЕЖИМА)
