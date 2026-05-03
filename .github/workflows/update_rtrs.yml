@@ -169,8 +169,8 @@ jobs:
           name: final_playlist
 
       # --- Копируем в репозиторий ---
-      - name: Move playlist
-        run: mv Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
+     # - name: Move playlist
+      #  run: mv Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
 
       # --- Коммитим ---
       - name: Commit changes
