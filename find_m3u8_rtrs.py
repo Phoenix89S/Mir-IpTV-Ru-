@@ -80,9 +80,12 @@ GITHUB_PLAYLISTS = [
     "http://rafail1982.uz/playlists/TELECIFRA.m3u",
 
     # --- Твои проекты ---
-    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
-    "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
+"https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
+"https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
 
+# --- Дополнительные  твои источники ---
+"https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/test_channels.m3u",
+"https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/kramarov.m3u",
     # --- Дополнительные источники ---
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
