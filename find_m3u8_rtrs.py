@@ -1,51 +1,29 @@
 # ================================
 # ИМПОРТЫ
 # ================================
-
+# Базовые библиотеки:
+#  - requests  — HTTP-запросы к плейлистам и потокам
+#  - re        — регулярные выражения (нормализация имён)
+#  - time      — паузы, ожидание расписания
+#  - datetime  — работа с датой/временем (МСК)
+#  - defaultdict — удобная группировка каналов по кнопкам
 import requests
 import re
 import time
 from datetime import datetime, timedelta
 from collections import defaultdict
-
-# ================================
-# ОБРАБОТКА РЕЖИМОВ ЗАПУСКА (STAGE)
-# ================================
-
-import sys
-
-stage = None
-if "--stage" in sys.argv:
-    stage = sys.argv[sys.argv.index("--stage") + 1]
-
-if stage == "download":
-    # код скачивания источников
-    exit()
-
-if stage == "filter":
-    # умный фильтр
-    exit()
-
-if stage == "check":
-    # turbo-проверка потоков
-    exit()
-
-if stage == "build":
-    # сборка финального плейлиста
-    exit()
+import sys  # для разбора аргументов командной строки (--stage)
 
 # ==============================
 #   РЕЖИМЫ ОБНОВЛЕНИЯ (ТРИ РЕЖИМА)
 # ==============================
-
-# Возможные режимы:
-# "daily"   — раз в день в 03:00 МСК
-# "every2"  — раз в два дня в 04:00 МСК
-# "monthly" — 1-го числа в 05:00 МСК
-
+# Здесь задаётся, как часто должен работать основной цикл main():
+#  - daily   — раз в день в 03:00 МСК
+#  - every2  — раз в два дня в 04:00 МСК
+#  - monthly — 1-го числа в 05:00 МСК
 UPDATE_MODE = "daily"   # ← по умолчанию, но можно менять
 
-# Время запуска (МСК)
+# Время запуска (МСК) для каждого режима
 DAILY_HOUR = 3
 DAILY_MINUTE = 0
 
@@ -58,7 +36,7 @@ MONTHLY_MINUTE = 0
 # ==============================
 #   ГЛАВНЫЕ ПРАВИЛА ЗАЩИТЫ ССЫЛОК
 # ==============================
-
+# Эти правила реализованы в merge_channels() и логике обработки:
 # ❗ 1. Старая ссылка НИКОГДА не удаляется
 # ❗ 2. Пустые EXTINF из источников игнорируются
 # ❗ 3. Новые мёртвые ссылки игнорируются
@@ -76,7 +54,7 @@ OLD_TAG = "[OLD]"
 # ==============================
 #   ИСТОЧНИКИ
 # ==============================
-
+# Список всех плейлистов, которые парсятся и объединяются.
 GITHUB_PLAYLISTS = [
     # --- iptv-org основные ---
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
@@ -124,17 +102,21 @@ GITHUB_PLAYLISTS = [
     "https://live.iptv-free.com/iptv/languages/rus.m3u"
 ]
 
+# Имя итогового файла, который и есть твой главный плейлист
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
 
 # ==============================
 #   WINK FIX
 # ==============================
-
+# Специальная обработка ссылок Wink/Zabava/NTV, чтобы добавлять нужные заголовки.
 WINK_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0"
 WINK_REF = "https://wink.ru/"
 WINK_IP = "95.24.0.1"
 
 def fix_wink(url: str) -> str:
+    """
+    Если ссылка относится к Wink/Забава/NTV — добавляем User-Agent, Referer, X-Forwarded-For.
+    """
     base = url.split("|", 1)[0].lower()
     if any(x in base for x in ["wink", "zabava", "cdn.ntv.ru", "ntv.ru"]):
         parts = []
@@ -152,8 +134,13 @@ def fix_wink(url: str) -> str:
 # ==============================
 #   ПРОВЕРКА ЖИВОСТИ ССЫЛКИ
 # ==============================
-
 def is_live(url: str) -> bool:
+    """
+    Быстрая проверка, жив ли поток:
+    - режем параметры после '|'
+    - шлём HEAD/GET с User-Agent
+    - считаем живым, если код 200 или 206
+    """
     try:
         base = url.split("|", 1)[0]
         r = requests.get(base, headers={"User-Agent": WINK_UA}, timeout=2, stream=True)
@@ -164,8 +151,11 @@ def is_live(url: str) -> bool:
 # ==============================
 #   ПАРСЕР M3U
 # ==============================
-
 def parse_m3u(url: str):
+    """
+    Скачивает M3U по URL и возвращает список (meta, url),
+    где meta — строка #EXTINF, а url — ссылка на поток.
+    """
     try:
         r = requests.get(url, timeout=20)
         r.encoding = "utf-8"
@@ -185,8 +175,11 @@ def parse_m3u(url: str):
 # ==============================
 #   ЗАГРУЗКА СТАРОГО ПЛЕЙЛИСТА
 # ==============================
-
 def load_old_playlist():
+    """
+    Читает старый итоговый плейлист OUTPUT_FILE и возвращает словарь:
+    name -> {meta, url, manual}
+    """
     old = {}
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
@@ -205,6 +198,7 @@ def load_old_playlist():
                 }
                 meta = None
     except:
+        # Если файла нет — просто возвращаем пустой словарь
         pass
 
     return old
@@ -213,7 +207,7 @@ def load_old_playlist():
 #   CHANNEL_GROUPS (СЛОВАРЬ КНОПОК)
 #   ВСТАВЛЕН 1:1, БЕЗ ЕДИНОЙ ПРАВКИ
 # ==============================
-
+# Здесь твоя полная схема кнопок и каналов.
 CHANNEL_GROUPS = {
     "Кнопка 1": {
         "1.0": "Первый канал",
@@ -521,8 +515,12 @@ CHANNEL_GROUPS = {
 # ==============================
 #   НОРМАЛИЗАЦИЯ ИМЁН
 # ==============================
-
 def normalize_name(name: str) -> str:
+    """
+    Нормализует имя канала:
+    - обрезает пробелы по краям
+    - схлопывает повторяющиеся пробелы
+    """
     name = name.strip()
     name = re.sub(r"\s+", " ", name)
     return name
@@ -530,8 +528,11 @@ def normalize_name(name: str) -> str:
 # ==============================
 #   ОПРЕДЕЛЕНИЕ КНОПКИ ПО ИМЕНИ
 # ==============================
-
 def detect_group(name: str) -> str:
+    """
+    По имени канала определяет, к какой "Кнопке" он относится.
+    Если не найдено — отправляем в группу "Общие".
+    """
     for button, mapping in CHANNEL_GROUPS.items():
         for _, channel_name in mapping.items():
             if channel_name.lower() in name.lower():
@@ -541,8 +542,15 @@ def detect_group(name: str) -> str:
 # ==============================
 #   САМОВОССТАНОВЛЕНИЕ / ЗАЩИТА ССЫЛОК
 # ==============================
-
 def merge_channels(old_channels, new_channels):
+    """
+    Объединяет старые и новые каналы по правилам защиты:
+    - старые каналы сохраняются
+    - новые мёртвые игнорируются
+    - новые живые обновляют старые
+    - MANUAL не трогаем
+    - пропавшие помечаем OLD
+    """
     merged = {}
 
     # 1. Переносим все старые каналы
@@ -576,6 +584,7 @@ def merge_channels(old_channels, new_channels):
         # Канал уже есть
         old = merged[norm]
 
+        # MANUAL — неприкасаемый
         if old["manual"]:
             continue
 
@@ -585,6 +594,7 @@ def merge_channels(old_channels, new_channels):
         if not is_live(data["url"]):
             continue
 
+        # Обновляем ссылку и мету
         merged[norm]["meta"] = data["meta"]
         merged[norm]["url"] = fix_wink(data["url"])
 
@@ -598,8 +608,14 @@ def merge_channels(old_channels, new_channels):
 # ==============================
 #   ФОРМИРОВАНИЕ ИТОГОВОГО ПЛЕЙЛИСТА
 # ==============================
-
 def build_playlist(merged_channels):
+    """
+    Формирует итоговый текст плейлиста:
+    - #EXTM3U
+    - блоки по кнопкам
+    - сортировка внутри кнопки по твоей нумерации (1.0, 1.1, 1.2…)
+    - проставление [OLD] и [MANUAL]
+    """
     output = ["#EXTM3U"]
 
     # Группировка по кнопкам
@@ -624,11 +640,10 @@ def build_playlist(merged_channels):
         # Сортировка внутри кнопки по твоей нумерации (1.0, 1.1, 1.2…)
         def channel_sort_key(item):
             name, data = item
-            # ищем ключ в словаре кнопки
             mapping = CHANNEL_GROUPS.get(button, {})
             for key, cname in mapping.items():
                 if cname.lower() == name.lower():
-                    # ключ вида "3.0.7" → превращаем в список чисел [3,0,7]
+                    # ключ вида "3.0.7" → [3, 0, 7]
                     return [int(x) for x in key.split(".")]
             return [9999]
 
@@ -650,12 +665,13 @@ def build_playlist(merged_channels):
 
     return "\n".join(output)
 
-
 # ==============================
 #   ЗАПИСЬ ФАЙЛА
 # ==============================
-
 def save_playlist(text):
+    """
+    Записывает итоговый текст плейлиста в OUTPUT_FILE.
+    """
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(text)
 
@@ -663,23 +679,15 @@ def save_playlist(text):
 #   РАСПИСАНИЕ ОБНОВЛЕНИЙ
 #   daily / every2 / monthly
 # ==============================
-
-# ВАЖНО:
-#  - Одновременно активен ТОЛЬКО ОДИН режим (UPDATE_MODE)
-#  - Остальные расписания не трогают запуск
-#  - Никаких автозапусков каждые 3 минуты
-#  - В режиме "every2" проверяются ВСЕ источники, включая новые
-
+# Здесь логика, которая считает, когда запускать следующий цикл обновления.
 MSK_OFFSET = 3  # Москва = UTC+3 (для простоты фиксируем)
 
 def now_msk() -> datetime:
     return datetime.utcnow() + timedelta(hours=MSK_OFFSET)
 
-
 def today_msk() -> datetime:
     n = now_msk()
     return datetime(year=n.year, month=n.month, day=n.day)
-
 
 def first_day_next_month_msk() -> datetime:
     n = now_msk()
@@ -690,13 +698,11 @@ def first_day_next_month_msk() -> datetime:
         year += 1
     return datetime(year=year, month=month, day=1)
 
-
 def next_daily_run() -> datetime:
     base = today_msk().replace(hour=DAILY_HOUR, minute=DAILY_MINUTE, second=0, microsecond=0)
     if now_msk() >= base:
         base += timedelta(days=1)
     return base
-
 
 def next_every2_run(last_run: datetime | None) -> datetime:
     if last_run is None:
@@ -705,10 +711,8 @@ def next_every2_run(last_run: datetime | None) -> datetime:
         base_day = datetime(year=last_run.year, month=last_run.month, day=last_run.day) + timedelta(days=2)
     return base_day.replace(hour=EVERY2_HOUR, minute=EVERY2_MINUTE, second=0, microsecond=0)
 
-
 def next_monthly_run() -> datetime:
     n = now_msk()
-    # если сегодня уже 1-е и время прошло — следующий месяц
     candidate = datetime(year=n.year, month=n.month, day=1,
                          hour=MONTHLY_HOUR, minute=MONTHLY_MINUTE, second=0, microsecond=0)
     if n >= candidate:
@@ -717,10 +721,9 @@ def next_monthly_run() -> datetime:
         )
     return candidate
 
-
 def calc_next_run(update_mode: str, last_run: datetime | None) -> datetime:
     """
-    Возвращает дату/время следующего запуска в МСК
+    Возвращает дату/время следующего запуска в МСК.
     """
     if update_mode == "daily":
         return next_daily_run()
@@ -732,7 +735,6 @@ def calc_next_run(update_mode: str, last_run: datetime | None) -> datetime:
         # fallback — раз в день
         return next_daily_run()
 
-
 def should_run_now(update_mode: str, last_run: datetime | None) -> bool:
     """
     Проверка, пора ли запускать обновление.
@@ -742,11 +744,9 @@ def should_run_now(update_mode: str, last_run: datetime | None) -> bool:
     next_run = calc_next_run(update_mode, last_run)
     return n >= next_run
 
-
 # ==============================
 #   ЦИКЛ ОЖИДАНИЯ ЗАПУСКА
 # ==============================
-
 def wait_for_schedule(update_mode: str, last_run: datetime | None) -> datetime:
     """
     Блокирующий цикл ожидания следующего запуска.
@@ -755,14 +755,21 @@ def wait_for_schedule(update_mode: str, last_run: datetime | None) -> datetime:
     while True:
         if should_run_now(update_mode, last_run):
             return now_msk()
-        # Никаких 3 минут — спим 60 секунд, этого достаточно
+        # Спим 60 секунд — этого достаточно, чтобы не дёргать CPU
         time.sleep(60)
 
 # ==============================
 #   ГЛАВНЫЙ РАННЕР ОБНОВЛЕНИЯ
 # ==============================
-
 def run_update():
+    """
+    Один полный цикл обновления:
+    - загрузка старого плейлиста
+    - загрузка всех источников
+    - merge старых и новых каналов
+    - формирование итогового плейлиста
+    - сохранение в OUTPUT_FILE
+    """
     print("=== Запуск обновления плейлиста ===")
 
     # 1. Загружаем старый плейлист
@@ -807,12 +814,31 @@ def run_update():
     # Возвращаем время запуска (МСК)
     return now_msk()
 
+# ================================
+# ОБРАБОТКА РЕЖИМОВ ЗАПУСКА (STAGE)
+# ================================
+# ВАЖНО:
+#  - здесь мы только читаем аргумент --stage
+#  - сами действия по стадиям выполняем НИЖЕ, после определения всех функций
+stage = None
+if "--stage" in sys.argv:
+    try:
+        stage = sys.argv[sys.argv.index("--stage") + 1]
+    except Exception:
+        stage = None
+
 # ==============================
 #   ЧАСТЬ 6 — ФИНАЛЬНЫЙ ЦИКЛ
 #   РАБОТА ПО РАСПИСАНИЮ
 # ==============================
-
 def main():
+    """
+    Основной режим работы:
+    - крутится в бесконечном цикле
+    - ждёт расписание
+    - запускает run_update()
+    - никогда не падает, только логирует ошибки
+    """
     print("=== Super_RTRS_2026 — старт ===")
     print(f"Режим обновления: {UPDATE_MODE}")
     last_run = None
@@ -835,10 +861,146 @@ def main():
         # небольшая пауза, чтобы не дергать сразу же после запуска
         time.sleep(30)
 
+# ================================
+# РЕАЛИЗАЦИЯ STAGE-РЕЖИМОВ
+# ================================
+# Здесь уже можно безопасно использовать все функции выше:
+#  - GITHUB_PLAYLISTS
+#  - run_update()
+#  - и т.д.
+if stage == "download":
+    # --------------------------------
+    # ЭТАП 1 — СКАЧИВАНИЕ ИСТОЧНИКОВ
+    # --------------------------------
+    print("STAGE: download — скачивание источников")
 
+    # Скачиваем все плейлисты из GITHUB_PLAYLISTS в один сырой файл
+    for url in GITHUB_PLAYLISTS:
+        try:
+            print(f"Скачивание: {url}")
+            r = requests.get(url, timeout=10)
+            with open("sources_raw.m3u", "a", encoding="utf-8") as f:
+                f.write(r.text + "\n")
+        except Exception as e:
+            print(f"Ошибка скачивания {url}: {e}")
+
+    # После завершения — выходим, основной main() не запускаем
+    exit()
+
+if stage == "filter":
+    # --------------------------------
+    # ЭТАП 2 — УМНЫЙ ФИЛЬТР
+    # --------------------------------
+    print("STAGE: filter — умный фильтр")
+
+    clean_lines = []
+    try:
+        with open("sources_raw.m3u", "r", encoding="utf-8") as f:
+            for line in f:
+                # Отбрасываем HTML-мусор
+                if "<html" in line.lower():
+                    continue
+                # Отбрасываем пустые строки
+                if line.strip() == "":
+                    continue
+                clean_lines.append(line)
+    except FileNotFoundError:
+        print("Файл sources_raw.m3u не найден. Сначала нужно выполнить stage=download.")
+        exit(1)
+
+    with open("sources_clean.m3u", "w", encoding="utf-8") as f:
+        f.writelines(clean_lines)
+
+    print("Фильтрация завершена, результат в sources_clean.m3u")
+    exit()
+
+if stage == "check":
+    # --------------------------------
+    # ЭТАП 3 — ПРОВЕРКА ПОТОКОВ
+    # --------------------------------
+    print("STAGE: check — turbo-проверка потоков")
+
+    import aiohttp
+    import asyncio
+
+    async def check_url(session, url):
+        """
+        Асинхронная проверка одного URL:
+        - пытаемся открыть поток
+        - считаем живым, если статус 200
+        """
+        try:
+            async with session.get(url, timeout=5) as r:
+                return url, r.status == 200
+        except:
+            return url, False
+
+    async def main_stage_check():
+        """
+        Читает sources_clean.m3u, проверяет все http-ссылки,
+        и записывает только живые в sources_checked.m3u.
+        """
+        urls = []
+        try:
+            with open("sources_clean.m3u", "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("http"):
+                        urls.append(line.strip())
+        except FileNotFoundError:
+            print("Файл sources_clean.m3u не найден. Сначала нужно выполнить stage=filter.")
+            return
+
+        print(f"Всего ссылок для проверки: {len(urls)}")
+
+        results = {}
+        async with aiohttp.ClientSession() as session:
+            tasks = [check_url(session, u) for u in urls]
+            for coro in asyncio.as_completed(tasks):
+                url, ok = await coro
+                results[url] = ok
+                print(f"[{'OK' if ok else 'BAD'}] {url}")
+
+        alive = [u for u, ok in results.items() if ok]
+        print(f"Живых ссылок: {len(alive)}")
+
+        with open("sources_checked.m3u", "w", encoding="utf-8") as f:
+            for url in alive:
+                f.write(url + "\n")
+
+        print("Результат проверки в sources_checked.m3u")
+
+    asyncio.run(main_stage_check())
+    exit()
+
+if stage == "build":
+    # --------------------------------
+    # ЭТАП 4 — СБОРКА ФИНАЛЬНОГО ПЛЕЙЛИСТА
+    # --------------------------------
+    print("STAGE: build — сборка финального плейлиста через основной движок")
+
+    # Вариант A: используем твой настоящий движок:
+    # - run_update() сам:
+    #   * загрузит старый плейлист
+    #   * загрузит все источники
+    #   * сделает merge
+    #   * соберёт Super_RTRS_2026.m3u
+    #
+    # Файлы sources_raw/clean/checked здесь не обязательны —
+    # они могут использоваться как вспомогательные, но
+    # финальный плейлист всегда собирается по твоим правилам.
+    try:
+        run_update()
+        print(f"Финальный плейлист собран: {OUTPUT_FILE}")
+        exit(0)
+    except Exception as e:
+        print("Ошибка во время сборки плейлиста в stage=build:", e)
+        exit(1)
+
+# ==============================
+#   ТОЧКА ВХОДА
+# ==============================
 if __name__ == "__main__":
-    main()
-
-
-
-
+    # Если указан stage — мы уже всё сделали выше и вышли через exit().
+    # Если stage не указан — запускаем обычный режим по расписанию.
+    if stage is None:
+        main()
