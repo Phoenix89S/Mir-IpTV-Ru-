@@ -8,11 +8,8 @@ on:
   # ================================
   schedule:
     - cron: '0 0 2-31 * *'     # DAILY — каждый день, кроме 1-го числа (03:00 МСК)
-                               # Запускается в 00:00 UTC, что соответствует 03:00 по МСК.
     - cron: '0 1 1 * *'        # MONTHLY — 1-го числа (04:00 МСК)
-                               # Раз в месяц, для «генеральной» пересборки.
     - cron: '0 2 2-31/2 * *'   # EVERY2 — каждые 2 дня (05:00 МСК)
-                               # Дополнительный режим, чтобы не отставать от изменений.
 
 jobs:
 
@@ -20,43 +17,28 @@ jobs:
   # 1) СКАЧИВАНИЕ ИСТОЧНИКОВ
   # ================================
   download_sources:
-    runs-on: ubuntu-latest     # Стандартный Linux-раннер GitHub
+    runs-on: ubuntu-latest
     steps:
 
-      # --- Клонируем репозиторий (получаем код, скрипты, структуру проекта) ---
-      # Этот шаг подтягивает содержимое текущего репозитория в рабочую директорию раннера.
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Устанавливаем нужную версию Python для скрипта find_m3u8_rtrs.py ---
-      # Важно фиксировать версию, чтобы поведение не менялось со временем.
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # --- Ставим зависимости для работы с HTTP и асинхронными запросами ---
-      # requests — синхронные HTTP-запросы
-      # aiohttp — асинхронные HTTP-запросы, если скрипт использует asyncio
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Стадия download: собираем сырые источники (все найденные URL/потоки) ---
-      # Скрипт find_m3u8_rtrs.py в режиме --stage download:
-      #   - ищет доступные m3u8/потоки
-      #   - формирует первичный список каналов/URL
-      #   - сохраняет результат в sources_raw.m3u
       - name: Download sources
         run: python find_m3u8_rtrs.py --stage download
 
-      # --- Сохраняем сырые источники как артефакт raw_sources (sources_raw.m3u) ---
-      # Артефакт — это файл, который можно передать в другие jobs.
-      # Здесь мы фиксируем результат стадии download для следующего этапа.
       - name: Upload raw sources
         uses: actions/upload-artifact@v4
         with:
-          name: raw_sources       # Имя артефакта
-          path: sources_raw.m3u   # Файл, который сохраняем
+          name: raw_sources
+          path: sources_raw.m3u
 
 
   # ================================
@@ -64,48 +46,33 @@ jobs:
   # ================================
   filter_sources:
     runs-on: ubuntu-latest
-    needs: download_sources     # Ждём завершения job download_sources
+    needs: download_sources
     steps:
 
-      # --- Снова клонируем репозиторий (чистая рабочая копия для этой job) ---
-      # Каждая job запускается в отдельном окружении, поэтому нужен новый checkout.
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Поднимаем Python той же версии, что и на предыдущем этапе ---
-      # Это важно для консистентности поведения скрипта.
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # --- Ставим зависимости (requests, aiohttp) ---
-      # Повторяем установку, т.к. окружение у каждой job своё.
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Забираем артефакт с сырыми источниками (sources_raw.m3u) ---
-      # Здесь мы подтягиваем результат стадии download.
       - name: Download raw sources
         uses: actions/download-artifact@v4
         with:
-          name: raw_sources       # Имя артефакта, сохранённого ранее
+          name: raw_sources
 
-      # --- Стадия filter: вычищаем мусор, фейки, битые URL, лишние EXTINF ---
-      # Скрипт в режиме --stage filter:
-      #   - фильтрует источники по заданным критериям
-      #   - убирает дубли, невалидные ссылки, лишние записи
-      #   - формирует более чистый список в sources_clean.m3u
       - name: Smart filter
         run: python find_m3u8_rtrs.py --stage filter
 
-      # --- Сохраняем очищенный список источников как clean_sources (sources_clean.m3u) ---
-      # Этот артефакт пойдёт на следующую стадию проверки потоков.
       - name: Upload filtered sources
         uses: actions/upload-artifact@v4
         with:
-          name: clean_sources       # Имя артефакта
-          path: sources_clean.m3u   # Файл с отфильтрованными источниками
+          name: clean_sources
+          path: sources_clean.m3u
 
 
   # ================================
@@ -113,49 +80,33 @@ jobs:
   # ================================
   check_streams:
     runs-on: ubuntu-latest
-    needs: filter_sources       # Ждём завершения фильтрации
+    needs: filter_sources
     steps:
 
-      # --- Клонируем репозиторий для этой стадии ---
-      # Снова получаем код и скрипты в новое окружение.
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Настраиваем Python ---
-      # Та же версия, чтобы не было сюрпризов.
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # --- Ставим зависимости для проверки потоков ---
-      # Нужны те же библиотеки, что и раньше.
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Загружаем очищенные источники (sources_clean.m3u) ---
-      # Берём результат стадии filter.
       - name: Download clean sources
         uses: actions/download-artifact@v4
         with:
           name: clean_sources
 
-      # --- Стадия check: проверяем, что потоки реально отвечают, отбрасываем мёртвые ---
-      # Скрипт в режиме --stage check:
-      #   - проходит по каждому источнику
-      #   - проверяет доступность/ответ сервера
-      #   - исключает неработающие потоки
-      #   - формирует sources_checked.m3u
       - name: Check streams
         run: python find_m3u8_rtrs.py --stage check
 
-      # --- Сохраняем проверенный список источников как checked_sources (sources_checked.m3u) ---
-      # Это уже «живые» потоки, которые можно использовать для финального плейлиста.
       - name: Upload checked sources
         uses: actions/upload-artifact@v4
         with:
-          name: checked_sources       # Имя артефакта
-          path: sources_checked.m3u   # Файл с проверенными источниками
+          name: checked_sources
+          path: sources_checked.m3u
 
 
   # ================================
@@ -163,91 +114,85 @@ jobs:
   # ================================
   build_playlist:
     runs-on: ubuntu-latest
-    needs: check_streams        # Ждём завершения проверки потоков
+    needs: check_streams
     steps:
 
-      # --- Клонируем репозиторий для финальной сборки ---
-      # Ещё одно чистое окружение для финального этапа.
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Настраиваем Python ---
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # --- Ставим зависимости (на случай, если логика build их использует) ---
-      # Даже если build в основном работает с файлами, зависимости не помешают.
       - name: Install dependencies
         run: pip install requests aiohttp
 
-      # --- Загружаем проверенные источники (sources_checked.m3u) ---
-      # Это входные данные для финальной сборки плейлиста.
       - name: Download checked sources
         uses: actions/download-artifact@v4
         with:
           name: checked_sources
 
-      # --- Стадия build: собираем финальный плейлист Super_RTRS_2026.m3u ---
-      # Скрипт в режиме --stage build:
-      #   - формирует итоговый m3u-плейлист
-      #   - применяет нужный формат, группы, названия каналов и т.п.
       - name: Build final playlist
         run: python find_m3u8_rtrs.py --stage build
 
-      # --- Сохраняем итоговый плейлист как артефакт final_playlist ---
-      # Этот файл потом заберёт job commit_push и положит в репозиторий.
       - name: Upload final playlist
         uses: actions/upload-artifact@v4
         with:
-          name: final_playlist        # Имя артефакта
-          path: Super_RTRS_2026.m3u   # Итоговый плейлист
+          name: final_playlist
+          path: Super_RTRS_2026.m3u
 
 
   # ================================
-  # 5) КОММИТ И PUSH (ТОЛЬКО ЕСЛИ ЕСТЬ ИЗМЕНЕНИЯ)
+  # 5) КОММИТ И PUSH (С ПОЛНОЙ ЛОГИКОЙ ПАПОК OLD И ARTEFACT_SUPER)
   # ================================
   commit_push:
     runs-on: ubuntu-latest
-    needs: build_playlist       # Ждём завершения сборки плейлиста
+    needs: build_playlist
     steps:
 
-      # --- Клонируем репозиторий с правами на push (через GITHUB_TOKEN) ---
-      # Здесь важно указать token, чтобы git push был разрешён.
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- Загружаем артефакт с финальным плейлистом (final_playlist) ---
-      # Забираем Super_RTRS_2026.m3u, сохранённый на предыдущем этапе.
+      # --- Создаём базовые папки, если отсутствуют ---
+      - name: Prepare folders
+        run: |
+          mkdir -p Old
+          mkdir -p Artefact_super
+
+      # --- Нумерация артефактов ---
+      - name: Calculate next artefact number
+        id: artefact_num
+        run: |
+          count=$(ls Artefact_super/artefact_* 2>/dev/null | wc -l)
+          next=$((count + 1))
+          echo "next=$next" >> $GITHUB_OUTPUT
+          mkdir -p Artefact_super/artefact_${next}
+
+      # --- Скачиваем артефакт в новую подпапку ---
       - name: Download final playlist
         uses: actions/download-artifact@v4
         with:
           name: final_playlist
+          path: Artefact_super/artefact_${{ steps.artefact_num.outputs.next }}
 
-      # --- Диагностика: выводим рекурсивно структуру файлов, чтобы увидеть, где лежит плейлист ---
-      # ls -R . покажет:
-      #   - какие папки созданы
-      #   - где именно находится Super_RTRS_2026.m3u внутри final_playlist
-      #   - есть ли вложенные директории, переименования, расширения и т.п.
-      # Этот шаг нужен, чтобы один раз точно определить путь для Move playlist.
-      - name: Debug artifact structure
-        run: ls -R .
+      # --- Архивируем старую версию плейлиста ---
+      - name: Archive old playlist
+        run: |
+          if [ -f Super_RTRS_2026.m3u ]; then
+            count_old=$(ls Old/Super_RTRS_2026_old_*.m3u 2>/dev/null | wc -l)
+            next_old=$((count_old + 1))
+            mv Super_RTRS_2026.m3u Old/Super_RTRS_2026_old_${next_old}.m3u
+          fi
 
-      # --- Пытаемся скопировать плейлист из папки артефакта в корень репозитория ---
-      # Сейчас путь предполагаемый: final_playlist/Super_RTRS_2026.m3u
-      # Если шаг падает с "No such file or directory" — значит, реальный путь другой.
-      # После анализа вывода Debug artifact structure этот путь нужно будет скорректировать.
-      - name: Move playlist
-        run: cp final_playlist/Super_RTRS_2026.m3u ./Super_RTRS_2026.m3u
+      # --- Копируем новый плейлист в корень ---
+      - name: Move new playlist to root
+        run: |
+          cp Artefact_super/artefact_${{ steps.artefact_num.outputs.next }}/Super_RTRS_2026.m3u .
 
-      # --- Проверяем, есть ли реальные изменения в файле плейлиста ---
-      # Логика:
-      #   1) git add Super_RTRS_2026.m3u — добавляем файл в индекс.
-      #   2) git diff --cached --quiet — проверяем, есть ли изменения относительно HEAD.
-      #   3) Если изменений нет — выходим с кодом 0 и не делаем коммит.
+      # --- Проверяем изменения ---
       - name: Check for changes
         run: |
           git add Super_RTRS_2026.m3u
@@ -256,15 +201,13 @@ jobs:
             exit 0
           fi
 
-      # --- Настраиваем git-автора и создаём коммит с обновлённым плейлистом ---
-      # user.email и user.name нужны, чтобы git не ругался при коммите.
+      # --- Коммит ---
       - name: Commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit -m "Auto-update playlist (manual/auto unified)"
+          git commit -m "Auto-update playlist (artefact + old version archive)"
 
-      # --- Отправляем изменения в удалённый репозиторий ---
-      # Если до этого шага не было ошибок — плейлист обновлён и закоммичен.
+      # --- Push ---
       - name: Push
         run: git push
