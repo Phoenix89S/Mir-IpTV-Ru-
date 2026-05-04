@@ -178,6 +178,19 @@ jobs:
           name: final_playlist
           path: Artefact_super/artefact_${{ steps.artefact_num.outputs.next }}
 
+      # --- DEBUG: выводим структуру артефакта и список старых версий ---
+      - name: Debug artifact and OLD structure
+        run: |
+          echo "=== DEBUG: структура артефакта ==="
+          ls -R Artefact_super/artefact_${{ steps.artefact_num.outputs.next }}
+          echo ""
+          echo "=== DEBUG: содержимое OLD (старые версии плейлиста) ==="
+          ls -R Old || echo "Папка Old пуста или отсутствует"
+          echo ""
+          echo "=== DEBUG: количество старых версий ==="
+          ls Old/Super_RTRS_2026_old_*.m3u 2>/dev/null | wc -l
+          echo "======================================="
+
       # --- Архивируем старую версию плейлиста ---
       - name: Archive old playlist
         run: |
