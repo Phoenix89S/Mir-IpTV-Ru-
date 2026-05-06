@@ -4849,3 +4849,7 @@ https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
 https://vodcdn.bamboo-cloud.com/livehls/68ef86320630444b1f796875/master.m3u8
 #EXTINF:-1 tvg-id="ChinolaTV.do@SD" tvg-logo="https://i.imgur.com/ybud4dI.png" group-title="Kids",Chinola TV (480p)
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+#EXTINF:-1 tvg-logo="https://zeno.fm/_ipx/_/https://images.zeno.fm/RibijRS0TougR3GVk-Liw7Ecg65PddTGQSEYyxt55X4/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvMDYzYjYwYzYtM2VhMS00YWFhLTg5NTEtNjFlNDgzZDI3NDZiL2ltYWdlLz91PTE3MDE2OTU2NjMwMDA.webp" group-title="📻O'zbekiston Radiokanallari📻",Yangi Radio FM (UZ)
+https://stream.zeno.fm/f2aawo8h0qguv
+#EXTINF:-1 tvg-logo="https://topradio.mobi/screen/1696360304-radio-bassted-tashkent-uzbekistan.jpg" group-title="📻O'zbekiston Radiokanallari📻", BassTeD FM (UZ)
+https://stream.zeno.fm/h6dbebwv0nhvv
