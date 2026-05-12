@@ -83,13 +83,14 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
     "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
 
-    # --- Дополнительные  твои источники ---
+    # --- Дополнительные твои источники ---
     "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/test_channels.m3u",
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/kramarov.m3u",
 
     # --- Дополнительные источники ---
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",   # ← ДОБАВЛЕН
 
     # --- Новые добавленные ---
     "https://raw.githubusercontent.com/MaximKiselev/iptv/refs/heads/main/playlist.m3u",
