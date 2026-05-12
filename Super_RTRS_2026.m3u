@@ -3713,7 +3713,7 @@ https://cdn-6.pishow.tv/live/1243/master.m3u8
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Kids;Public",Clan Internacional Americas (1080p) [Geo-blocked]
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
-#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Kids;Public",Clan TVE (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Kids;Public" [OLD],Clan TVE (1080p) [Geo-blocked]
 https://ztnr.rtve.es/ztnr/5466990.m3u8
 #EXTINF:-1 tvg-id="CTDecko.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/960px-%C4%8CT-D_logo.svg.png" group-title="Kids",ČT:D/ČT art (1080p)
 http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
@@ -4973,3 +4973,43 @@ http://tmptv.sunduk.tv/CH49/index.m3u8
 http://tmptv.sunduk.tv/CH57/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews Russian (576p)
 http://tmptv.sunduk.tv/CH31/index.m3u8
+#EXTINF:-1 tvg-id="Rossiya1Vainah.ru@SD",Rossiya 1 Vainah (576i)
+https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
+#EXTINF:-1 group-title="Спортивные",SETANTA SPORT 1 HD
+http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спортивные",SETANTA SPORT 2 HD
+http://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Setanta Sports 1 HD.png" group-title="Спортивные",Setanta Sports 1 HD
+http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Setanta Sports 2 HD.png" group-title="Спортивные",Setanta Sports 2 HD
+http://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Познавательные",Дикий HD
+https://vod.splay.uz/live_splay/original/Dikiy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/O'zbekiston 1 UZ.png" group-title="Узбекские",O'zbekiston 1 UZ
+https://vod.splay.uz/live_splay/original/Uzbekiston/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Yoshlar UZ.png" group-title="Узбекские",Yoshlar UZ
+https://vod.splay.uz/live_splay/original/YoshlarHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/O'zbekiston Tarixi HD UZ.png" group-title="Узбекские",O'zbekiston Tarixi HD UZ
+https://vod.splay.uz/live_splay/original/Uzbekiston-TarixiHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Kinoteatr.png" group-title="Узбекские",Kinoteatr UZ
+https://vod.splay.uz/live_splay/original/Kinoteatr_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Navo.png" group-title="Узбекские",Navo UZ
+https://vod.splay.uz/live_splay/original/Navo/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/uzb.png" group-title="Узбекские",TTV Musiqa
+https://vod.splay.uz/live_splay/original/TTV_Musiqa/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Mahalla UZ.png" group-title="Узбекские",Mahalla UZ
+https://vod.splay.uz/live_splay/original/Mahalla/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Bolajon.png" group-title="Узбекские",Bolajon UZ
+https://vod.splay.uz/live_splay/original/Bolajon/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/uzb.png" group-title="Узбекские",Futbol TV
+https://vod.splay.uz/live_splay/original/FutbolTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные",Animal Planet HD
+https://vod.splay.uz/live_splay/original/Animal_Planet/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="dikiy" tvg-logo="https://iptvx.one/picons/dikiy.png" group-title="Хобби и увлечения",ДИКИЙ охота и рыбалка
+https://vod.splay.uz/live_splay/original/Dikiy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="BabyTV.uk@Spain" tvg-logo="https://i.imgur.com/4BDJ5FT.png" group-title="Kids",Baby TV Spain (1080p)
+http://45.95.78.232:8001/udp/239.106.86.1:5000
+#EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Kids;Public",Clan (1080p)
+http://45.95.78.232:8001/udp/239.106.80.3:5000
+#EXTINF:-1 tvg-id="Rossiya1Vainah.ru@SD" tvg-logo="https://i.imgur.com/GnbNG0r.png" http-referrer="https://gtrkvainah.ru/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition std-2)" group-title="General",Rossiya 1 Vainah (576i)
+https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
