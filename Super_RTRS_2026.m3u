@@ -659,7 +659,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="rossiya-1-pl6" tvg-logo="https://iptvx.one/picons/rossiya_1_hd.png" group-title="Эфирные ТВ плюс",2.9 Россия 1 (+6) HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="rossiya-1-pl7" tvg-logo="https://iptvx.one/picons/rossiya_1_hd.png" group-title="Эфирные ТВ плюс" [OLD],2.10 Россия 1 (+7) HD
+#EXTINF:-1 tvg-id="rossiya-1-pl7" tvg-logo="https://iptvx.one/picons/rossiya_1_hd.png" group-title="Эфирные ТВ плюс",2.10 Россия 1 (+7) HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="rossiya-1-pl8" tvg-logo="https://iptvx.one/picons/rossiya_1_hd.png" group-title="Эфирные ТВ плюс",2.11 Россия 1 (+8) HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
@@ -965,7 +965,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8|User-Agent=Moz
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8?version=2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="karusel-international" tvg-logo="https://iptvx.one/picons/karusel_international.png" group-title="Эфирные ТВ плюс",51.9 Карусель International
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
-#EXTINF:-1 tvg-id="karusel-int" tvg-name="Карусель Int." tvg-logo="https://iptvx.one/picons/karusel.png" group-title="Детские расширенные" [OLD],17. Карусель Int.
+#EXTINF:-1 tvg-id="karusel-int" tvg-name="Карусель Int." tvg-logo="https://iptvx.one/picons/karusel.png" group-title="Детские расширенные",17. Карусель Int.
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="CarouselInternational.ru@SD" tvg-logo="https://i.imgur.com/DnlngRZ.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML [OLD], like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Эфирные детские плюс" [OLD],1.4 Карусель International (720p)
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
@@ -976,6 +976,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8|User-Agent=Mo
 #EXTINF:-1 ,Карусель (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 ,Карусель International
+https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
+#EXTINF:-1 tvg-id="CarouselInternational.ru@SD" tvg-logo="https://i.imgur.com/DnlngRZ.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Эфирные детские плюс",1.4 Карусель International (720p)
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 
 # ===== Кнопка 9 =====
@@ -1147,7 +1149,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8|User-Agent=Mozilla
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
 #EXTINF:-1 tvg-id="sts-7" tvg-name="СТС (+7)" tvg-logo="https://picon.su/img/channels/logos/ctc.png" group-title="Эфирные ТВ плюс",13.4 СТС +7 (Восток)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="STS.ru@SD" tvg-logo="https://iptvx.one/picons/sts_hd.png" group-title="Эфирные ТВ плюс" tvg-shift="0" [OLD],36.0 СТС (Резерв)
+#EXTINF:-1 tvg-id="STS.ru@SD" tvg-logo="https://iptvx.one/picons/sts_hd.png" group-title="Эфирные ТВ плюс" tvg-shift="0",36.0 СТС (Резерв)
 https://streaming.televizor-24-tochka.ru/live/296.m3u8
 #EXTINF:-1 tvg-id="STSkids.ru" tvg-logo="https://i.imgur.com/o9kLpAL.png" group-title="Эфирные ТВ плюс" tvg-shift="-1",36.6 СТС Kids (-1 ч)
 http://31.148.48.15/STS_Kids_HD/index.m3u8
@@ -1177,7 +1179,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8|User-Agent=Mo
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="sts-international" tvg-logo="https://iptvx.one/picons/sts-international.png" group-title="Эфирные ТВ плюс",36.17 СТС International
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_STS_INTERNATIONAL/variant.m3u8
-#EXTINF:-1 tvg-id="sts-international" tvg-logo="https://iptvx.one/picons/sts_international.png" group-title="Эфирные ТВ плюс" [OLD],51.7 СТС International
+#EXTINF:-1 tvg-id="sts-international" tvg-logo="https://iptvx.one/picons/sts_international.png" group-title="Эфирные ТВ плюс",51.7 СТС International
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 #EXTINF:-1 tvg-id="russkij-bestseller" tvg-name="Русский бестселлер" tvg-logo="https://i.imgur.com/w0ZE9QJ.png" group-title="Эфирные ТВ плюс",63.6 Русский бестселлер (Direct)
 http://31.148.48.15/Russkiy_Bestseller/index.m3u8
@@ -1221,9 +1223,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8|User-Agent=
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it99.org/img/14.png" group-title="Эфирные ТВ плюс",37.1 Домашний HD
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
-#EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://iptvx.one/picons/domashny-int.png" group-title="Эфирные ТВ плюс" [OLD],37.3 Домашний International
+#EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://iptvx.one/picons/domashny-int.png" group-title="Эфирные ТВ плюс",37.3 Домашний International
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
-#EXTINF:-1 tvg-id="domashniy-int" tvg-logo="https://iptvx.one/picons/domashniy-international.png" group-title="Эфирные ТВ плюс" [OLD],51.8 Домашний International
+#EXTINF:-1 tvg-id="domashniy-int" tvg-logo="https://iptvx.one/picons/domashniy-international.png" group-title="Эфирные ТВ плюс",51.8 Домашний International
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://iptvx.one/picons/domashny-int.png" group-title="Развлекательные",Домашний Int.
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
@@ -1283,7 +1285,7 @@ https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_FRIDAY_URAL/variant.m3
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные ТВ плюс" tvg-logo="https://karnei4.github.io/convert/logo-z/04fbc8829fa8cb451a8af03ad716ada4.png" tvg-id="Пятница! (+7)",39.1.4 Пятница! (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="friday-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Эфирные ТВ плюс" [OLD],51.1 Пятница! International
+#EXTINF:-1 tvg-id="friday-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Эфирные ТВ плюс",51.1 Пятница! International
 https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 tvg-id="friday" tvg-logo="https://iptvx.one/picons/friday.png" group-title="Эфирные ТВ плюс",73.2 Пятница!
 https://vod.tuva.ru/friday/index.m3u8
@@ -1459,7 +1461,7 @@ https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_TNT_INT/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_TNT4_INT_HD/variant.m3u8
 #EXTINF:-1 tvg-id="tnt4-international" group-title="Эфирные ТВ плюс",42.6 ТНТ4 International (SD)
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_TNT4_INT/variant.m3u8
-#EXTINF:-1 tvg-id="tnt4-int" tvg-logo="https://iptvx.one/picons/tnt4_int.png" group-title="Эфирные ТВ плюс" [OLD],51.11 ТНТ4 International
+#EXTINF:-1 tvg-id="tnt4-int" tvg-logo="https://iptvx.one/picons/tnt4_int.png" group-title="Эфирные ТВ плюс",51.11 ТНТ4 International
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:-1 ,ТНТ (+2)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -1533,7 +1535,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8|User-Agent=Mozill
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="PeretzInternational.ru@SD" tvg-logo="https://i.imgur.com/On6ggLe.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Перец International (576p)
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
-#EXTINF:-1 tvg-id="che-int" tvg-logo="https://i.imgur.com/On6ggLe.png" group-title="Эфирные ТВ плюс" [OLD],51.0 Перец International
+#EXTINF:-1 tvg-id="che-int" tvg-logo="https://i.imgur.com/On6ggLe.png" group-title="Эфирные ТВ плюс",51.0 Перец International
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:-1 group-title="Эфирные ТВ плюс" tvg-id="che",67.7 Че! (Москва)
 https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
@@ -4259,7 +4261,7 @@ https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_IZVEST_KEMR/variant.m3u8
 https://s20441.cdn.ngenix.net/hls/CH_R49_MGTK/variant.m3u8
 #EXTINF:-1 tvg-id="premier" group-title="Эфирные ТВ плюс",42.2 PREMIER
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PREMIER/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Эфирные ТВ плюс" [OLD],42.7 TNT4 International+4
+#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Эфирные ТВ плюс",42.7 TNT4 International+4
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:-1 tvg-id="u-tv" tvg-logo="https://iptvx.one/picons/u.png" group-title="Эфирные ТВ плюс",43.3 Ю МСК (Резерв)
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
@@ -4333,7 +4335,7 @@ https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
 https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 #EXTINF:-1 tvg-id="eda-tv" tvg-name="Еда" tvg-logo="https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/icons/eda.png" group-title="Эфирные ТВ плюс",48.0 Еда
 https://tinyurl.com/aleks-u-romki-2/6009/index.m3u8
-#EXTINF:-1 tvg-id="viva-russia" tvg-logo="https://iptvx.one/picons/viva_russia.png" group-title="Эфирные ТВ плюс" [OLD],49.0 VIVA Russia HD
+#EXTINF:-1 tvg-id="viva-russia" tvg-logo="https://iptvx.one/picons/viva_russia.png" group-title="Эфирные ТВ плюс",49.0 VIVA Russia HD
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="Detskoekino.ru@International" [OLD],51.11 Детское кино International [Not 24/7]
 https://autopilot.catcast.tv/content/38720/index.m3u8
@@ -4349,7 +4351,7 @@ https://kino-1.catcast.tv/content/37742/index.m3u8
 https://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 tvg-id="Dozhd" tvg-name="Дождь" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tvrain.svg/512px-Tvrain.svg.png" group-title="Эфирные ТВ плюс",52.0 Дождь (1080p)
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
-#EXTINF:-1 tvg-id="Viva_Russia" tvg-name="VIVA Russia" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="Эфирные ТВ плюс" [OLD],53.0 Viva Russia (1080p)
+#EXTINF:-1 tvg-id="Viva_Russia" tvg-name="VIVA Russia" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="Эфирные ТВ плюс",53.0 Viva Russia (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="K16" tvg-name="К16 (Саров)" tvg-logo="https://i.imgur.com/7tNDKHe.png" group-title="Эфирные ТВ плюс",54.0 К16 (Саров)
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
@@ -4687,7 +4689,7 @@ https://listen10.myradio24.com/pionerfm
 https://hls-01-radiorecord.hostingradio.ru/record-gop/playlist.m3u8
 #EXTINF:-1 group-title="РАДИО" tvg-id="primuz-fm",109. PriMuzFM
 https://listen2.myradio24.com/8118
-#EXTINF:-1 group-title="РАДИО" tvg-id="dance-one" [OLD],110. Dance One
+#EXTINF:-1 group-title="РАДИО" tvg-id="dance-one",110. Dance One
 https://strm112.1.fm/dance_mobile_mp3?aw_0_req.gdpr=true&listenerid=1743001209878_0.01621769389726002&awparams=companionAds%3Atrue
 #EXTINF:-1 group-title="РАДИО" tvg-id="trance-hits",111. Trance Hits
 https://radiorecord.hostingradio.ru/trancehits96.aacp
@@ -4699,13 +4701,13 @@ https://pub0201.101.ru/stream/trust/mp3/128/266
 https://hls-01-regions.emgsound.ru/12_msk/playlist.m3u8
 #EXTINF:-1 group-title="РАДИО" tvg-id="vanya",116. Радио Ваня
 https://icecast-radiovanya.cdnvideo.ru/radiovanya?60f0
-#EXTINF:-1 group-title="РАДИО" tvg-id="00s-hip-hop" [OLD],117. 00s Hip Hop
+#EXTINF:-1 group-title="РАДИО" tvg-id="00s-hip-hop",117. 00s Hip Hop
 https://strm112.1.fm/club_mobile_mp3?aw_0_req.gdpr=true&listenerid=29ec89dd3733046f617da18c90d61457&awparams=companionAds%3Atrue
 #EXTINF:-1 group-title="РАДИО" tvg-id="urban-ep",118. Urban - Европа Плюс
 https://epdop.hostingradio.ru:8033/ep-urban128.mp3
 #EXTINF:-1 group-title="РАДИО" tvg-id="rap-hits",119. Rap Hits
 https://radiorecord.hostingradio.ru/rap96.aacp
-#EXTINF:-1 group-title="РАДИО" tvg-id="psytrance" [OLD],120. BOM Psytrance
+#EXTINF:-1 group-title="РАДИО" tvg-id="psytrance",120. BOM Psytrance
 https://strm112.1.fm/psytrance_mobile_mp3?aw_0_req.gdpr=true&listenerid=29ec89dd3733046f617da18c90d61457&awparams=companionAds%3Atrue
 #EXTINF:-1 group-title="РАДИО" tvg-id="radio-13",122. Радио 13
 http://play.radio13.ru/96
@@ -4719,7 +4721,7 @@ https://icecast-radonezh.cdnvideo.ru/rad128
 https://inra3.pravradio.ru/stream.mp3
 #EXTINF:-1 group-title="РАДИО" tvg-id="skazka-fm",128. СКАЗКА FM
 http://skazka.amgradio.ru/Skazka
-#EXTINF:-1 group-title="РАДИО" tvg-id="kids-fm" [OLD],129. KIDS
+#EXTINF:-1 group-title="РАДИО" tvg-id="kids-fm",129. KIDS
 https://strm112.1.fm/kidsfm_mobile_mp3?aw_0_req.gdpr=true&listenerid=29ec89dd3733046f617da18c90d61457&awparams=companionAds%3Atrue
 #EXTINF:-1 tvg-id="mult" tvg-logo="https://iptvx.one/picons/mult.png" group-title="Мульт (Проверка)",Мульт (Проверка SD)
 http://31.148.48.15/Mult/index.m3u8
@@ -4837,13 +4839,13 @@ https://server.zillarbarta.com/zbcatun/video.m3u8
 https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
 #EXTINF:-1 tvg-id="DiosTeVeKids.hn@SD" tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="Эфирные детские плюс",6.3 Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Эфирные детские плюс" [OLD],6.4 Disney Channel Latin America (1080p)
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Эфирные детские плюс",6.4 Disney Channel Latin America (1080p)
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32.playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Эфирные детские плюс",6.5 Disney Jr. Latin America South
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg" group-title="Эфирные детские плюс",6.7 Extrema Kids TV [Not 24/7]
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
-#EXTINF:-1 tvg-id="MemoriasTVToons.co@SD" tvg-logo="https://i.imgur.com/2fiiNCz.png" group-title="Эфирные детские плюс" [OLD],6.8 Memorias TV Toons (480p) [Geo-blocked]
+#EXTINF:-1 tvg-id="MemoriasTVToons.co@SD" tvg-logo="https://i.imgur.com/2fiiNCz.png" group-title="Эфирные детские плюс",6.8 Memorias TV Toons (480p) [Geo-blocked]
 https://video.xtrematv.com:3812/live/memoriastoonslive.m3u8
 #EXTINF:-1 tvg-id="Pakapaka.ar@SD" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="Эфирные детские плюс" [OLD],6.9 Pakapaka (1080p)
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-36_400.m3u8
@@ -4971,9 +4973,9 @@ http://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
 http://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 #EXTINF:-1 group-title="Кино", Сити Эдем — Киносемья
 https://autopilot.catcast.tv/content/38128/index.m3u8?password=promolive
-#EXTINF:-1 tvg-id="zapad24" tvg-logo="https://epg.one/logo/zapad24.png" group-title="Эфирные ТВ плюс" [OLD],21. Запад 24 (Калининград)
+#EXTINF:-1 tvg-id="zapad24" tvg-logo="https://epg.one/logo/zapad24.png" group-title="Эфирные ТВ плюс",21. Запад 24 (Калининград)
 http://dmitry-tv.ddns.net/hls/smotrim/region/CH_3APAD24_KLGR.m3u8
-#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@SouthHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Эфирные детские плюс" [OLD],6.6 Disney Jr. Latin America South HD (1080p)
+#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@SouthHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Эфирные детские плюс",6.6 Disney Jr. Latin America South HD (1080p)
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8
 #EXTINF:-1 tvg-id="gubernia-samara" tvg-logo="https://i.imgur.com/IlL57Rm.png" group-title="Региональные",Губерния (Самара)
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
@@ -4987,7 +4989,7 @@ https://streamer.filmowo.xyz/memfs/a9e785bf-54f7-4a9d-be03-1ad6ace02cd3.m3u8
 https://api-tv.ipnet.ua/api/v1/manifest/1312714970.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@SD" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="Sports",Беларусь 5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Эфирные детские плюс" [OLD],8.5 Kids TV
+#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Эфирные детские плюс",8.5 Kids TV
 http://origin5.mediacdn.ru/live/kidstv/index.m3u8
 #EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Animation;Kids",Sony Yay! (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8
@@ -5597,3 +5599,5 @@ http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_HABAROVSK/variant.m3u8
 http://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/tracks-v2a1/mono.m3u8
 #EXTINF:-1 ,Ю (Санкт-Петербург)
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8
+#EXTINF:-1 ,Военное кино
+http://cdn.kubteltv.workers.dev/?ID=444
