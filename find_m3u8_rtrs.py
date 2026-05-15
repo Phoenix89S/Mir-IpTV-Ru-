@@ -407,12 +407,347 @@ def build_playlist(merged_channels):
 
     return "\n".join(output)
 
+# ==============================
+#   ЗАПИСЬ ФАЙЛА
+# ==============================
+def save_playlist(text):
+    """
+    Записывает итоговый текст плейлиста в OUTPUT_FILE.
+    """
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(text)
 
+# ==============================
+#   РАСПИСАНИЕ ОБНОВЛЕНИЙ
+#   daily / every2 / monthly
+# ==============================
+# Здесь логика, которая считает, когда запускать следующий цикл обновления.
+MSK_OFFSET = 3  # Москва = UTC+3 (для простоты фиксируем)
 
+def now_msk() -> datetime:
+    return datetime.utcnow() + timedelta(hours=MSK_OFFSET)
 
+def today_msk() -> datetime:
+    n = now_msk()
+    return datetime(year=n.year, month=n.month, day=n.day)
 
+def first_day_next_month_msk() -> datetime:
+    n = now_msk()
+    year = n.year
+    month = n.month + 1
+    if month == 13:
+        month = 1
+        year += 1
+    return datetime(year=year, month=month, day=1)
 
+def next_daily_run() -> datetime:
+    base = today_msk().replace(hour=DAILY_HOUR, minute=DAILY_MINUTE, second=0, microsecond=0)
+    if now_msk() >= base:
+        base += timedelta(days=1)
+    return base
 
+def next_every2_run(last_run: datetime | None) -> datetime:
+    if last_run is None:
+        base_day = today_msk()
+    else:
+        base_day = datetime(year=last_run.year, month=last_run.month, day=last_run.day) + timedelta(days=2)
+    return base_day.replace(hour=EVERY2_HOUR, minute=EVERY2_MINUTE, second=0, microsecond=0)
+
+def next_monthly_run() -> datetime:
+    n = now_msk()
+    candidate = datetime(year=n.year, month=n.month, day=1,
+                         hour=MONTHLY_HOUR, minute=MONTHLY_MINUTE, second=0, microsecond=0)
+    if n >= candidate:
+        candidate = first_day_next_month_msk().replace(
+            hour=MONTHLY_HOUR, minute=MONTHLY_MINUTE, second=0, microsecond=0
+        )
+    return candidate
+
+def calc_next_run(update_mode: str, last_run: datetime | None) -> datetime:
+    """
+    Возвращает дату/время следующего запуска в МСК.
+    """
+    if update_mode == "daily":
+        return next_daily_run()
+    elif update_mode == "every2":
+        return next_every2_run(last_run)
+    elif update_mode == "monthly":
+        return next_monthly_run()
+    else:
+        # fallback — раз в день
+        return next_daily_run()
+
+def should_run_now(update_mode: str, last_run: datetime | None) -> bool:
+    """
+    Проверка, пора ли запускать обновление.
+    Никаких 3-минутных циклов: проверяем раз в минуту/реже.
+    """
+    n = now_msk()
+    next_run = calc_next_run(update_mode, last_run)
+    return n >= next_run
+
+# ==============================
+#   ЦИКЛ ОЖИДАНИЯ ЗАПУСКА
+# ==============================
+def wait_for_schedule(update_mode: str, last_run: datetime | None) -> datetime:
+    """
+    Блокирующий цикл ожидания следующего запуска.
+    Возвращает фактическое время запуска (МСК).
+    """
+    while True:
+        if should_run_now(update_mode, last_run):
+            return now_msk()
+        # Спим 60 секунд — этого достаточно, чтобы не дёргать CPU
+        time.sleep(60)
+
+# ==============================
+#   ГЛАВНЫЙ РАННЕР ОБНОВЛЕНИЯ
+# ==============================
+def run_update():
+    """
+    Один полный цикл обновления:
+    - загрузка старого плейлиста
+    - загрузка всех источников
+    - merge старых и новых каналов
+    - формирование итогового плейлиста
+    - сохранение в OUTPUT_FILE
+    """
+    print("=== Запуск обновления плейлиста ===")
+
+    # 1. Загружаем старый плейлист
+    print("Загрузка старого плейлиста...")
+    old_channels = load_old_playlist()
+    print(f"Старых каналов загружено: {len(old_channels)}")
+
+    # 2. Загружаем новые источники
+    print("Загрузка новых источников...")
+    new_channels = {}
+
+    for src in GITHUB_PLAYLISTS:
+        print(f" → источник: {src}")
+        parsed = parse_m3u(src)
+        print(f"   найдено каналов: {len(parsed)}")
+
+        for meta, url in parsed:
+            name = meta.split(",", 1)[-1].strip()
+            if name not in new_channels:
+                new_channels[name] = {
+                    "meta": meta,
+                    "url": url,
+                }
+
+    print(f"Всего новых каналов собрано: {len(new_channels)}")
+
+    # 3. Объединяем старые и новые каналы
+    print("Объединение каналов (самовосстановление)...")
+    merged = merge_channels(old_channels, new_channels)
+    print(f"Итоговых каналов после merge: {len(merged)}")
+
+    # 4. Формируем итоговый плейлист
+    print("Формирование итогового плейлиста...")
+    playlist_text = build_playlist(merged)
+
+    # 5. Сохраняем файл
+    print("Сохранение файла...")
+    save_playlist(playlist_text)
+
+    print("=== Обновление завершено успешно ===")
+
+    # Возвращаем время запуска (МСК)
+    return now_msk()
+
+# ================================
+# ОБРАБОТКА РЕЖИМОВ ЗАПУСКА (STAGE)
+# ================================
+# ВАЖНО:
+#  - здесь мы только читаем аргумент --stage
+#  - сами действия по стадиям выполняем НИЖЕ, после определения всех функций
+stage = None
+if "--stage" in sys.argv:
+    try:
+        stage = sys.argv[sys.argv.index("--stage") + 1]
+    except Exception:
+        stage = None
+
+# ==============================
+#   ЧАСТЬ 6 — ФИНАЛЬНЫЙ ЦИКЛ
+#   РАБОТА ПО РАСПИСАНИЮ
+# ==============================
+def main():
+    """
+    Основной режим работы:
+    - крутится в бесконечном цикле
+    - ждёт расписание
+    - запускает run_update()
+    - никогда не падает, только логирует ошибки
+    """
+    print("=== Super_RTRS_2026 — старт ===")
+    print(f"Режим обновления: {UPDATE_MODE}")
+    last_run = None
+
+    while True:
+        # ждём следующего окна запуска по расписанию
+        print("Ожидание следующего запуска по расписанию...")
+        start_time = wait_for_schedule(UPDATE_MODE, last_run)
+        print(f"Время запуска (МСК): {start_time}")
+
+        try:
+            # один полный цикл обновления
+            last_run = run_update()
+            print(f"Последний успешный запуск (МСК): {last_run}")
+        except Exception as e:
+            # падать нельзя — просто логируем и ждём следующего окна
+            print("ОШИБКА ВО ВРЕМЯ ОБНОВЛЕНИЯ:", e)
+            # last_run не обновляем, чтобы расписание считало от предыдущего
+
+        # небольшая пауза, чтобы не дергать сразу же после запуска
+        time.sleep(30)
+
+# ================================
+# РЕАЛИЗАЦИЯ STAGE-РЕЖИМОВ
+# ================================
+# Здесь уже можно безопасно использовать все функции выше:
+#  - GITHUB_PLAYLISTS
+#  - run_update()
+#  - и т.д.
+if stage == "download":
+
+    # --------------------------------
+    # ЭТАП 1 — СКАЧИВАНИЕ ИСТОЧНИКОВ
+    # --------------------------------
+    print("STAGE: download — скачивание источников")
+
+    # Скачиваем все плейлисты из GITHUB_PLAYLISTS в один сырой файл
+    for url in GITHUB_PLAYLISTS:
+        try:
+            print(f"Скачивание: {url}")
+            r = requests.get(url, timeout=10)
+            with open("sources_raw.m3u", "a", encoding="utf-8") as f:
+                f.write(r.text + "\n")
+        except Exception as e:
+            print(f"Ошибка скачивания {url}: {e}")
+
+    # После завершения — выходим, основной main() не запускаем
+    exit()
+
+if stage == "filter":
+    # --------------------------------
+    # ЭТАП 2 — УМНЫЙ ФИЛЬТР
+    # --------------------------------
+    print("STAGE: filter — умный фильтр")
+
+    clean_lines = []
+    try:
+        with open("sources_raw.m3u", "r", encoding="utf-8") as f:
+            for line in f:
+                # Отбрасываем HTML-мусор
+                if "<html" in line.lower():
+                    continue
+                # Отбрасываем пустые строки
+                if line.strip() == "":
+                    continue
+                clean_lines.append(line)
+    except FileNotFoundError:
+        print("Файл sources_raw.m3u не найден. Сначала нужно выполнить stage=download.")
+        exit(1)
+
+    with open("sources_clean.m3u", "w", encoding="utf-8") as f:
+        f.writelines(clean_lines)
+
+    print("Фильтрация завершена, результат в sources_clean.m3u")
+    exit()
+
+if stage == "check":
+    # --------------------------------
+    # ЭТАП 3 — ПРОВЕРКА ПОТОКОВ
+    # --------------------------------
+    print("STAGE: check — turbo-проверка потоков")
+
+    import aiohttp
+    import asyncio
+
+    async def check_url(session, url):
+        """
+        Асинхронная проверка одного URL:
+        - пытаемся открыть поток
+        - считаем живым, если статус 200
+        """
+        try:
+            async with session.get(url, timeout=5) as r:
+                return url, r.status == 200
+        except:
+            return url, False
+
+    async def main_stage_check():
+        """
+        Читает sources_clean.m3u, проверяет все http-ссылки,
+        и записывает только живые в sources_checked.m3u.
+        """
+        urls = []
+        try:
+            with open("sources_clean.m3u", "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("http"):
+                        urls.append(line.strip())
+        except FileNotFoundError:
+            print("Файл sources_clean.m3u не найден. Сначала нужно выполнить stage=filter.")
+            return
+
+        print(f"Всего ссылок для проверки: {len(urls)}")
+
+        results = {}
+        async with aiohttp.ClientSession() as session:
+            tasks = [check_url(session, u) for u in urls]
+            for coro in asyncio.as_completed(tasks):
+                url, ok = await coro
+                results[url] = ok
+                print(f"[{'OK' if ok else 'BAD'}] {url}")
+
+        alive = [u for u, ok in results.items() if ok]
+        print(f"Живых ссылок: {len(alive)}")
+
+        with open("sources_checked.m3u", "w", encoding="utf-8") as f:
+            for url in alive:
+                f.write(url + "\n")
+
+        print("Результат проверки в sources_checked.m3u")
+
+    asyncio.run(main_stage_check())
+    exit()
+
+if stage == "build":
+
+    # --------------------------------
+    # ЭТАП 4 — СБОРКА ФИНАЛЬНОГО ПЛЕЙЛИСТА
+    # --------------------------------
+    print("STAGE: build — сборка финального плейлиста через основной движок")
+
+    # Вариант A: используем твой настоящий движок:
+    # - run_update() сам:
+    #   * загрузит старый плейлист
+    #   * загрузит все источники
+    #   * сделает merge
+    #   * соберёт Super_RTRS_2026.m3u
+    #
+    # Файлы sources_raw/clean/checked здесь не обязательны —
+    # они могут использоваться как вспомогательные, но
+    # финальный плейлист всегда собирается по твоим правилам.
+    try:
+        run_update()
+        print(f"Финальный плейлист собран: {OUTPUT_FILE}")
+        exit(0)
+    except Exception as e:
+        print("Ошибка во время сборки плейлиста в stage=build:", e)
+        exit(1)
+
+# ==============================
+#   ТОЧКА ВХОДА
+# ==============================
+if __name__ == "__main__":
+    # Если указан stage — мы уже всё сделали выше и вышли через exit().
+    # Если stage не указан — запускаем обычный режим по расписанию.
+    if stage is None:
+        main()
 
 
 
