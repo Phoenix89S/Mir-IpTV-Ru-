@@ -1,8 +1,272 @@
+# ================================
+# ИМПОРТЫ
+# ================================
+# Базовые библиотеки:
+#  - requests  — HTTP-запросы к плейлистам и потокам
+#  - re        — регулярные выражения (нормализация имён)
+#  - time      — паузы, ожидание расписания
+#  - datetime  — работа с датой/временем (МСК)
+#  - defaultdict — удобная группировка каналов по кнопкам
+import requests
+import re
+import time
+from datetime import datetime, timedelta
+from collections import defaultdict
+import sys  # для разбора аргументов командной строки (--stage)
+
+# ==============================
+#   РЕЖИМЫ ОБНОВЛЕНИЯ (ТРИ РЕЖИМА)
+# ==============================
+# Здесь задаётся, как часто должен работать основной цикл main():
+#  - daily   — раз в день в 03:00 МСК
+#  - every2  — раз в два дня в 04:00 МСК
+#  - monthly — 1-го числа в 05:00 МСК
+UPDATE_MODE = "daily"   # ← по умолчанию, но можно менять
+
+# Время запуска (МСК) для каждого режима
+DAILY_HOUR = 3
+DAILY_MINUTE = 0
+
+EVERY2_HOUR = 4
+EVERY2_MINUTE = 0
+
+MONTHLY_HOUR = 5
+MONTHLY_MINUTE = 0
+
+# ==============================
+#   ГЛАВНЫЕ ПРАВИЛА ЗАЩИТЫ ССЫЛОК
+# ==============================
+# Эти правила реализованы в merge_channels() и логике обработки:
+# ❗ 1. Старая ссылка НИКОГДА не удаляется
+# ❗ 2. Пустые EXTINF из источников игнорируются
+# ❗ 3. Новые мёртвые ссылки игнорируются
+# ❗ 4. Новые живые ссылки обновляют старые
+# ❗ 5. Если канал пропал — помечаем [OLD], но НЕ удаляем
+# ❗ 6. MANUAL — неприкасаемый
+# ❗ 7. Источники НЕ могут удалять рабочие ссылки
+# ❗ 8. Источники НЕ могут обнулять каналы
+# ❗ 9. Источники НЕ могут заменять MANUAL
+# ❗ 10. Источники НЕ могут создавать пустые каналы
+
+MANUAL_TAG = "[MANUAL]"
+OLD_TAG = "[OLD]"
+
+# ==============================
+#   ИСТОЧНИКИ
+# ==============================
+# Список всех плейлистов, которые парсятся и объединяются.
+GITHUB_PLAYLISTS = [
+    # --- iptv-org основные ---
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u",
+
+    # --- iptv-org расширенные RU ---
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_15plusmg.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_bonustv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_catcast.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_mylifeisgood.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_ntv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_rt.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_smotrim.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_televizor24.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvbricks.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvteleport.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_zabava.m3u",
+
+    # --- Rafail1982 ---
+    "http://rafail1982.uz/playlists/LIST2.m3u",
+    "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
+    "http://rafail1982.uz/playlists/TELEKARTA.m3u",
+    "http://rafail1982.uz/playlists/TELECIFRA.m3u",
+
+    # --- Твои проекты ---
+    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
+    "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
+
+    # --- Дополнительные твои источники ---
+    "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/test_channels.m3u",
+    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/kramarov.m3u",
+
+    # --- Дополнительные источники ---
+    "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
+    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",   # ← ДОБАВЛЕН
+
+    # --- Новые добавленные ---
+    "https://raw.githubusercontent.com/MaximKiselev/iptv/refs/heads/main/playlist.m3u",
+    "https://github.com/smolnp/IPTV-1/blob/master/playlists%2Fplaylist_ukraine.m3u8",
+    "https://smolnp.github.io/IPTVru//IPTVstable.m3u8",
+    "https://telekarta-tv.ru/wp-content/uploads/strah.m3u",
+
+    # --- TVA ---
+    "https://tva.org.ua/ip/sam/poznavatelni.m3u",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+
+    # --- IPTV-free ---
+    "https://live.iptv-free.com/iptv/categories/kids.m3u",
+    "https://live.iptv-free.com/iptv/languages/rus.m3u"
+]
+
+# Имя итогового файла, который и есть твой главный плейлист
+OUTPUT_FILE = "Super_RTRS_2026.m3u"
+
+# ==============================
+#   WINK FIX
+# ==============================
+# Специальная обработка ссылок Wink/Zabava/NTV, чтобы добавлять нужные заголовки.
+WINK_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0"
+WINK_REF = "https://wink.ru/"
+WINK_IP = "95.24.0.1"
+
+def fix_wink(url: str) -> str:
+    """
+    Если ссылка относится к Wink/Забава/NTV — добавляем User-Agent, Referer, X-Forwarded-For.
+    """
+    base = url.split("|", 1)[0].lower()
+    if any(x in base for x in ["wink", "zabava", "cdn.ntv.ru", "ntv.ru"]):
+        parts = []
+        if "user-agent=" not in url.lower():
+            parts.append(f"User-Agent={WINK_UA}")
+        if "referer=" not in url.lower():
+            parts.append(f"Referer={WINK_REF}")
+        if "x-forwarded-for=" not in url.lower():
+            parts.append(f"X-Forwarded-For={WINK_IP}")
+        if "|" in url:
+            return url + "&" + "&".join(parts)
+        return url + "|" + "&".join(parts)
+    return url
+
+# ==============================
+#   ПРОВЕРКА ЖИВОСТИ ССЫЛКИ
+# ==============================
+def is_live(url: str) -> bool:
+    """
+    Быстрая проверка, жив ли поток:
+    - режем параметры после '|'
+    - шлём HEAD/GET с User-Agent
+    - считаем живым, если код 200 или 206
+    """
+    try:
+        base = url.split("|", 1)[0]
+        r = requests.get(base, headers={"User-Agent": WINK_UA}, timeout=2, stream=True)
+        return r.status_code in (200, 206)
+    except:
+        return False
+
+# ==============================
+#   ПАРСЕР M3U
+# ==============================
+def parse_m3u(url: str):
+    """
+    Скачивает M3U по URL и возвращает список (meta, url),
+    где meta — строка #EXTINF, а url — ссылка на поток.
+    """
+    try:
+        r = requests.get(url, timeout=20)
+        r.encoding = "utf-8"
+        lines = r.text.replace("\r", "").split("\n")
+        result = []
+        meta = None
+        for line in lines:
+            if line.startswith("#EXTINF"):
+                meta = line
+            elif meta and line.startswith("http"):
+                result.append((meta, line.strip()))
+                meta = None
+        return result
+    except:
+        return []
+
+# ==============================
+#   ЗАГРУЗКА СТАРОГО ПЛЕЙЛИСТА
+# ==============================
+def load_old_playlist():
+    """
+    Читает старый итоговый плейлист OUTPUT_FILE и возвращает словарь:
+    name -> {meta, url, manual}
+    """
+    old = {}
+    try:
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            lines = f.read().splitlines()
+
+        meta = None
+        for line in lines:
+            if line.startswith("#EXTINF"):
+                meta = line
+            elif meta and line.startswith("http"):
+                name = meta.split(",", 1)[-1].strip()
+                old[name] = {
+                    "meta": meta,
+                    "url": line.strip(),
+                    "manual": MANUAL_TAG in meta,
+                }
+                meta = None
+    except:
+        # Если файла нет — просто возвращаем пустой словарь
+        pass
+
+    return old
+
+# ==============================
+#   CHANNEL_GROUPS (СЛОВАРЬ КНОПОК)
+#   ВСТАВЛЕН 1:1, БЕЗ ЕДИНОЙ ПРАВКИ
+# ==============================
+# Здесь твоя полная схема кнопок и каналов.
+CHANNEL_GROUPS = {
+    "Кнопка 1": {
+        "1.0": "Первый канал",
+        "1.1": "Первый HD",
+        "1.2": "Первый +2",
+        "1.3": "Первый +4",
+        "1.4": "Первый +6",
+        "1.5": "Первый +8",
+        "1.6": "Первый +9",
+        "1.7": "Первый СНГ"
+    },
+
+    "Кнопка 2": {
+        "2.0": "Россия 1",
+        "2.0.1": "Россия 1 (Калининград)",
+        "2.0.2": "Россия 1 (Ростов-на-Дону)",
+        "2.0.3": "Россия 1 (Санкт-Петербург)",
+        "2.0.4": "Россия 1 (Ярославль)",
+
+        "2.1": "Россия 24",
+        "2.1.0.1": "Россия 24",
+        "2.1.0.2": "Россия 24 (Калининград)",
+        "2.1.0.3": "Россия 24 (Ростов-на-Дону)",
+        "2.1.0.4": "Россия 24 (Санкт-Петербург)",
+        "2.1.0.5": "Россия 24 (Ярославль)",
+
+        "2.2": "Россия К HD",
+        "2.2.0.1": "Россия К HD",
+        "2.2.1": "Россия К",
+        "2.2.2": "Культура",
+        "2.2.3": "Культура HD",
+
+        "2.3.1": "Арктика 24 HD",
+        "2.3.1.1": "Арктика 24",
+        "2.3.2": "Башкортостан 24 HD",
+        "2.3.3": "Волгоград 24 HD",
+        "2.3.4": "Восток 24 HD",
+        "2.3.4.1": "Восток 24",
+        "2.3.5": "Запад 24 HD",
+        "2.3.5.1": "Запад 24 SD",
+        "2.3.6": "ЛенТВ24 HD",
+        "2.3.7": "Сибирь 24 HD (Крск)",
+        "2.3.8": "Сибирь 24 HD (Нск)",
+        "2.3.9": "Урал 24 HD",
+        "2.3.9.1": "Урал 24",
+        "2.3.10": "Якутия 24",
+
+        "2.4.1": "Planeta RTR",
         "2.4.2": "Planeta RTR",
         "2.4.3": "Planeta RTR EU",
         "2.4.4": "Россия РТР",
         "2.4.5": "Россия РТР",
         "2.4.6": "Россия 24 International",
+       
 
         "2.5": "Вести FM",
         "2.5.1": "Вести ФМ (Смотрим)"
