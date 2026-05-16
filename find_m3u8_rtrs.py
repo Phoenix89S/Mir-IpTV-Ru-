@@ -177,6 +177,9 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvteleport.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_zabava.m3u",
 
+    # --- Mega Playlist (фильтруемый источник) ---
+    "https://raw.githubusercontent.com/IPTVRU2026/IPTVMIR/main/IPTV_MEGA_PLAYLIST.m3u",
+
     # --- Rafail1982 ---
     "http://rafail1982.uz/playlists/LIST2.m3u",
     "http://rafail1982.uz/playlists/DIMONOVICH.m3u",
@@ -194,7 +197,7 @@ GITHUB_PLAYLISTS = [
     # --- Дополнительные источники ---
     "https://raw.githubusercontent.com/Zet2009/MOJE1/gh-pages/IPTVmir.m3u8",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",   # ← ДОБАВЛЕН
+    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",
 
     # --- Новые добавленные ---
     "https://raw.githubusercontent.com/MaximKiselev/iptv/refs/heads/main/playlist.m3u",
