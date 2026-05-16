@@ -919,7 +919,6 @@ def run_update():
 new_channels = filter_mega_unwanted(new_channels)
 print(f"После фильтра Mega осталось каналов: {len(new_channels)}")
 
-
     # 3. Объединяем старые и новые каналы
     print("Объединение каналов (самовосстановление)...")
     merged = merge_channels(old_channels, new_channels)
