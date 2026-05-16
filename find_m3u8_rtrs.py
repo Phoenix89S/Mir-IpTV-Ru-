@@ -51,6 +51,110 @@ MONTHLY_MINUTE = 0
 MANUAL_TAG = "[MANUAL]"
 OLD_TAG = "[OLD]"
 
+# ================================
+# ФИЛЬТР MEGA PLAYLIST + АНТИ-ВОЗВРАТ
+# ================================
+
+# Точный URL Mega Playlist
+MEGA_SOURCE_URL = "https://raw.githubusercontent.com/IPTVRU2026/IPTVMIR/main/IPTV_MEGA_PLAYLIST.m3u"
+
+# Жёсткий BAN-LIST (точные совпадения)
+BANNED_EXACT = {
+    "aggregator - axenov / эротика",
+    "q",
+    "centoxcento hd",
+    "exxxxotica",
+    "hustler tv",
+    "penthouse",
+    "penthouse gold hd",
+    "porn classic",
+    "private.com",
+    "private sd",
+    "кино 18+",
+}
+
+# BAN-LIST (частичные совпадения)
+BANNED_PARTIAL = [
+    "adult iptv",
+    "big ass",
+    "big dick",
+    "big tits",
+    "blonde",
+    "blowjob",
+    "compilation",
+    "cuckold",
+    "fetish",
+    "hardcore",
+    "interracial",
+    "latina",
+    "lesbian",
+    "live cams",
+    "milf",
+    "pornstar",
+    "pov",
+    "rough",
+    "russian",
+    "teen",
+    "threesome",
+    "эротика",
+]
+
+# Азартные каналы
+GAMBLING_MARKERS = [
+    "bet",
+    "1xbet",
+    "poker",
+    "casino",
+    "ставки",
+    "казино",
+    "gambling",
+    "fortune",
+    "win tv",
+]
+
+# Анти-возврат (вечный бан)
+BANNED_HISTORY = set()
+
+def add_to_banned_history(name):
+    BANNED_HISTORY.add(name.lower().strip())
+
+def is_banned_forever(name):
+    return name.lower().strip() in BANNED_HISTORY
+
+
+# Главный фильтр Mega Playlist
+def filter_mega_unwanted(channels):
+    result = []
+    for name, data in channels.items():
+        norm = name.lower().strip()
+
+        # Анти-возврат
+        if is_banned_forever(norm):
+            continue
+
+        # Фильтруем только Mega Playlist
+        if data.get("source_url") == MEGA_SOURCE_URL:
+
+            # Точное совпадение
+            if norm in BANNED_EXACT:
+                add_to_banned_history(norm)
+                continue
+
+            # Частичное совпадение
+            if any(x in norm for x in BANNED_PARTIAL):
+                add_to_banned_history(norm)
+                continue
+
+            # Азартные каналы
+            if any(x in norm for x in GAMBLING_MARKERS):
+                add_to_banned_history(norm)
+                continue
+
+        result.append((name, data))
+
+    # Преобразуем обратно в dict
+    return {name: data for name, data in result}
+
 # ==============================
 #   ИСТОЧНИКИ
 # ==============================
