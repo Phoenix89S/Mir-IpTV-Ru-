@@ -104,7 +104,13 @@ GITHUB_PLAYLISTS = [
 
     # --- IPTV-free ---
     "https://live.iptv-free.com/iptv/categories/kids.m3u",
-    "https://live.iptv-free.com/iptv/languages/rus.m3u"
+    "https://live.iptv-free.com/iptv/languages/rus.m3u",
+
+    # --- Новые добавленные (дополнение) ---
+    "https://raw.githubusercontent.com/Sash8585705/IPTV-Dacha/main/playlist.m3u8",
+    "https://raw.githubusercontent.com/boxer180/DPR_RU_IPTV/main/TV.m3u",
+    "https://raw.githubusercontent.com/anarabbasov2010-dotcom/iptv-playlist/main/ru_az.m3u",
+    "https://raw.githubusercontent.com/maklarijanos-hue/playlist/main/RU-IPTV-LIST-07-01-2026.m3u"
 ]
 
 # Имя итогового файла, который и есть твой главный плейлист
