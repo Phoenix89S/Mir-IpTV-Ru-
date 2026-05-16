@@ -722,11 +722,6 @@ def merge_channels(old_channels, new_channels):
         if name not in new_channels:
             merged[name]["old"] = True
 
-# === ФИЛЬТР MEGA PLAYLIST + АНТИ-ВОЗВРАТ ===
-new_channels = filter_mega_unwanted(new_channels)
-print(f"После фильтра Mega осталось каналов: {len(new_channels)}")
-
-
     return merged
 
 # ==============================
@@ -919,6 +914,11 @@ def run_update():
                 }
 
     print(f"Всего новых каналов собрано: {len(new_channels)}")
+
+# === ФИЛЬТР MEGA PLAYLIST + АНТИ-ВОЗВРАТ ===
+new_channels = filter_mega_unwanted(new_channels)
+print(f"После фильтра Mega осталось каналов: {len(new_channels)}")
+
 
     # 3. Объединяем старые и новые каналы
     print("Объединение каналов (самовосстановление)...")
