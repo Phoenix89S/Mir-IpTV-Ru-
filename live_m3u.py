@@ -465,9 +465,141 @@ def normalize_name(name: str) -> str:
     return name.strip()
 
 
+# === ПОИСК В РТРС 1–37 ===
+
+def detect_rtrs(name: str):
+    n = normalize_name(name)
+    for num, variants in RTRS_CHANNELS.items():
+        for v in variants:
+            if normalize_name(v) in n:
+                return num
+    return None
 
 
+# === ПОИСК В МАТЧ-СЕМЕЙСТВЕ (3.X) ===
 
+def detect_match_family(name: str):
+    n = normalize_name(name)
+    for title, button in MATCH_FAMILY.items():
+        if normalize_name(title) in n:
+            return button
+    return None
+
+
+# === ПОИСК В НТВ-СЕМЕЙСТВЕ (4.X) ===
+
+def detect_ntv_family(name: str):
+    n = normalize_name(name)
+    for title, button in NTV_FAMILY.items():
+        if normalize_name(title) in n:
+            return button
+    return None
+
+
+# === ПОИСК В ПОЛНОМ ПАКЕТЕ RED MEDIA 47 (38.X) ===
+
+def detect_rtrs_plus(name: str):
+    n = normalize_name(name)
+    for button, title in PHOENIX_RTRS_PLUS.items():
+        if normalize_name(title) in n:
+            return button
+    return None
+
+
+# === ПОИСК В RED MEDIA (базовый список) ===
+
+def detect_red_media(name: str):
+    n = normalize_name(name)
+    for group, channels in RED_MEDIA.items():
+        for ch in channels:
+            if normalize_name(ch) in n:
+                return group
+    return None
+
+
+# === ПОИСК В BRIDGE MEDIA ===
+
+def detect_bridge_media(name: str):
+    n = normalize_name(name)
+    for group, channels in BRIDGE_MEDIA.items():
+        for ch in channels:
+            if normalize_name(ch) in n:
+                return group
+    return None
+
+# === FUZZY-MATCHING (мягкое сравнение названий) ===
+
+def fuzzy_match(a: str, b: str) -> bool:
+    a = normalize_name(a)
+    b = normalize_name(b)
+
+    if a == b:
+        return True
+
+    # частичное совпадение
+    if a in b or b in a:
+        return True
+
+    # расстояние Левенштейна (до 2 ошибок)
+    if abs(len(a) - len(b)) <= 2:
+        from difflib import SequenceMatcher
+        ratio = SequenceMatcher(None, a, b).ratio()
+        if ratio >= 0.75:
+            return True
+
+    return False
+
+
+# === FALLBACK «РАЗБИРАЕМСЯ» ===
+
+def detect_unknown(name: str):
+    """
+    Если канал не попал ни в одну категорию — отправляем в 'unknown'
+    """
+    return "unknown"
+
+
+# === ОПРЕДЕЛЕНИЕ КНОПКИ КАНАЛА (главная функция) ===
+
+def detect_button(name: str):
+    """
+    Возвращает:
+    - номер кнопки (1–999)
+    - категорию ('rtrs', 'match', 'ntv', 'rtrs_plus', 'red', 'bridge', 'unknown')
+    """
+
+    # 1) РТРС 1–37
+    rtrs = detect_rtrs(name)
+    if rtrs:
+        return rtrs, "rtrs"
+
+    # 2) Матч‑семейство (3.x)
+    match_btn = detect_match_family(name)
+    if match_btn:
+        return match_btn, "match"
+
+    # 3) НТВ‑семейство (4.x)
+    ntv_btn = detect_ntv_family(name)
+    if ntv_btn:
+        return ntv_btn, "ntv"
+
+    # 4) Полный пакет RED MEDIA 47 (38.x)
+    rtrs_plus = detect_rtrs_plus(name)
+    if rtrs_plus:
+        return rtrs_plus, "rtrs_plus"
+
+    # 5) RED MEDIA (базовый список)
+    red = detect_red_media(name)
+    if red:
+        return 100, "red"   # 100 — условная кнопка группы
+
+    # 6) BRIDGE MEDIA
+    bridge = detect_bridge_media(name)
+    if bridge:
+        return 101, "bridge"
+
+    # 7) Fallback — неизвестный канал
+    return 999, detect_unknown(name)
 
 
 
