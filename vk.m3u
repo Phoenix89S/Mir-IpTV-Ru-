@@ -115,11 +115,390 @@ http://162.19.246.113/History/index.m3u8
 #EXTINF:-1,Marvel HD
 http://144.76.101.216/Marvel/index.m3u8
 
+#EXTINF:-1 ,Quadro 4K
+https://185.78.112.47:8077/Quadro4K/index.m3u8
+#EXTINF:-1 ,BCU Ultra 4K
+https://185.78.112.47:8077/BCU_Ultra_4K/index.m3u8
+#EXTINF:-1 ,Romance HD
+https://185.78.112.47:8077/romance_hd/index.m3u8
+#EXTINF:-1 ,viju TV1000 HD
+https://185.78.112.47:8077/viju_tv1000_hd/index.m3u8
+#EXTINF:-1 ,viju TV1000 Action HD
+https://185.78.112.47:8077/viju_tv1000_action_hd/index.m3u8
+#EXTINF:-1 ,viju TV1000 Русское HD
+https://185.78.112.47:8077/viju_tv1000_rus_hd/index.m3u8
+#EXTINF:-1 ,.red HD
+https://185.78.112.47:8077/red_hd/index.m3u8
+#EXTINF:-1 ,.black HD
+https://185.78.112.47:8077/black_hd/index.m3u8
+#EXTINF:-1 ,Cinema HD
+https://185.78.112.47:8077/cinema_hd/index.m3u8
+#EXTINF:-1,KinoLiving HD
+https://185.78.112.47:8077/kinoliving_hd/index.m3u8
+#EXTINF:-1 ,Shot TV
+https://185.78.112.47:8077/shot_tv/index.m3u8
+#EXTINF:-1,Наш кинопоказ HD
+https://185.78.112.47:8077/nash_kinopokaz_hd/index.m3u8
+#EXTINF:-1,Кинопремьера HD
+https://185.78.112.47:8077/premiera/index.m3u8
+#EXTINF:-1,Kinosat
+https://185.78.112.47:8077/kinosat/index.m3u8
+#EXTINF:-1,Start Air
+https://185.78.112.47:8077/start_air/index.m3u8
+#EXTINF:-1,Start World
+https://185.78.112.47:8077/start_world/index.m3u8
+#EXTINF:-1 ,FAN HD
+https://185.78.112.47:8077/fan/index.m3u8
+#EXTINF:-1 ,Русская Комедия HD
+https://185.78.112.47:8077/comedy/index.m3u8
+#EXTINF:-1,Kinojam 1 HD
+https://185.78.112.47:8077/kinojam1/index.m3u8
+#EXTINF:-1,Kinojam 2 HD
+https://185.78.112.47:8077/kinojam2/index.m3u8
+#EXTINF:-1 ,Патриот
+https://185.78.112.47:8077/patriot/index.m3u8
+#EXTINF:-1,SD/REX
+https://185.78.112.47:8077/rus-extrim/index.m3u8
+#EXTINF:-1,SD/REX HD
+https://185.78.112.47:8077/rus-extrim-hd/index.m3u8
+#EXTINF:-1,Кинокомедия HD
+https://185.78.112.47:8077/komediya/index.m3u8
+#EXTINF:-1 ,Мир сериала
+https://185.78.112.47:8077/MirSeriala/index.m3u8
+#EXTINF:-1,Amedia 1
+https://185.78.112.47:8077/amedia/index.m3u8
+#EXTINF:-1,Amedia Premium HD
+https://185.78.112.47:8077/amedia_premium_hd/index.m3u8
+#EXTINF:-1,Amedia Hit HD
+https://185.78.112.47:8077/amedia_hit_hd/index.m3u8
+#EXTINF:-1,Кинеко
+https://185.78.112.47:8077/fox/index.m3u8
+#EXTINF:-1,Кинеко HD
+https://185.78.112.47:8077/fox_hd/index.m3u8
+#EXTINF:-1,Сапфир
+https://185.78.112.47:8077/fox-life/index.m3u8
+#EXTINF:-1,Сапфир HD
+https://185.78.112.47:8077/fox_life_hd/index.m3u8
+#EXTINF:-1,Дом Кино
+https://185.78.112.47:8077/dom_kino/index.m3u8
+#EXTINF:-1,Кинопремьера HD
+https://185.78.112.47:8077/premiera/index.m3u8
+#EXTINF:-1,Кинохит
+https://185.78.112.47:8077/kinohit/index.m3u8
+#EXTINF:-1,Кинокомедия
+https://185.78.112.47:8077/komediya/index.m3u8
+#EXTINF:-1,Мужское кино HD
+https://185.78.112.47:8077/muzhskoe-kino_hd/index.m3u8
+#EXTINF:-1,Киносерия
+https://185.78.112.47:8077/mnogo-tv/index.m3u8
+#EXTINF:-1,Наше новое кино
+https://185.78.112.47:8077/nashe-novoe-kino/index.m3u8
+#EXTINF:-1,Родное Кино
+https://185.78.112.47:8077/nashe-kino/index.m3u8
+#EXTINF:-1,Кино ТВ
+https://185.78.112.47:8077/kino-tv/index.m3u8
+#EXTINF:-1,Кино ТВ HD
+https://185.78.112.47:8077/kino_tv_hd/index.m3u8
+#EXTINF:-1,Иллюзион +
+https://185.78.112.47:8077/illusion_plus_hd/index.m3u8
+#EXTINF:-1,Русский Иллюзион
+https://185.78.112.47:8077/RusskiyIllusion/index.m3u8
+#EXTINF:-1,РУССКИЙ БЕСТСЕЛЛЕР
+https://185.78.112.47:8077/rus-bestseller/index.m3u8
+#EXTINF:-1,РУССКИЙ ДЕТЕКТИВ
+https://185.78.112.47:8077/rus-detective/index.m3u8
+#EXTINF:-1,Русский роман HD
+https://185.78.112.47:8077/russki_roman_hd/index.m3u8
 
+#EXTINF:-1 ,Индия ТВ
+https://185.78.112.47:8077/zee-tv/index.m3u8
+#EXTINF:-1,ИНДИЙСКОЕ КИНО
+https://185.78.112.47:8077/indiya/index.m3u8
+#EXTINF:-1,Bollywood HD
+https://185.78.112.47:8077/BollywoodHD/index.m3u8
+#EXTINF:-1,Dorama
+https://185.78.112.47:8077/Dorama/index.m3u8
+#EXTINF:-1,КИНОСЕМЬЯ HD
+https://185.78.112.47:8077/kinosemya/index.m3u8
+#EXTINF:-1,КИНОПОКАЗ
+https://185.78.112.47:8077/kinopokaz/index.m3u8
+#EXTINF:-1,КИНОМИКС HD
+https://185.78.112.47:8077/kinomix/index.m3u8
+#EXTINF:-1,КИНОУЖАС
+https://185.78.112.47:8077/kinoujas/index.m3u8
+#EXTINF:-1,НСТ
+https://185.78.112.47:8077/nstv/index.m3u8
+#EXTINF:-1,ТЕХНО 24
+https://185.78.112.47:8077/t24/index.m3u8
+#EXTINF:-1,СУББОТА
+https://185.78.112.47:8077/super/index.m3u8
+#EXTINF:-1,КИНОСВИДАНИЕ
+https://185.78.112.47:8077/kinosvidanie/index.m3u8
+#EXTINF:-1,ПОБЕДА HD
+https://185.78.112.47:8077/pobeda_hd/index.m3u8
+#EXTINF:-1,МОСФИЛЬМ
+https://185.78.112.47:8077/mosfilm/index.m3u8
+#EXTINF:-1,НТВ ХИТ
+https://185.78.112.47:8077/ntv_hit/index.m3u8
+#EXTINF:-1,НТВ СЕРИАЛ
+https://185.78.112.47:8077/ntv_serial/index.m3u8
+#EXTINF:-1,Океан ТВ
+https://185.78.112.47:8077/OceanTV/index.m3u8
+#EXTINF:-1 ,Кухня ТВ
+https://185.78.112.47:8077/kuhnya/index.m3u8
+#EXTINF:-1 ,Авто Плюс
+https://185.78.112.47:8077/avto_plus/index.m3u8
+#EXTINF:-1,Центральное Телевидение
+https://185.78.112.47:8077/ctv/index.m3u8
+#EXTINF:-1,ЗВЕЗДА ПЛЮС HD
+https://185.78.112.47:8077/zvezda_plus_hd/index.m3u8
+#EXTINF:-1,НАША ТЕМА HD
+https://185.78.112.47:8077/nasha_tema_hd/index.m3u8
+#EXTINF:-1,ЖИВАЯ ПЛАНЕТА
+https://185.78.112.47:8077/zhivaya-planeta/index.m3u8
+#EXTINF:-1,ЗОО ТВ
+https://185.78.112.47:8077/zoo_tv/index.m3u8
+#EXTINF:-1,Кто есть кто
+https://185.78.112.47:8077/kto-est-kto/index.m3u8
+#EXTINF:-1,РАТНИК HD
+https://185.78.112.47:8077/ratnik_hd/index.m3u8
+#EXTINF:-1,ГЛАЗАМИ ТУРИСТА HD
+https://185.78.112.47:8077/glazami_turista_hd/index.m3u8
+#EXTINF:-1 ,Еда HD
+https://185.78.112.47:8077/eda_hd/index.m3u8
+#EXTINF:-1,365_ДНЕЙ
+https://185.78.112.47:8077/365_dnej/index.m3u8
+#EXTINF:-1 ,Quadro 4K
+https://185.78.112.47:8077/Quadro4K/index.m3u8
+#EXTINF:-1,Мир вокруг
+https://185.78.112.47:8077/MirVokrugHD/index.m3u8
+#EXTINF:-1 ,Зоопарк
+https://185.78.112.47:8077/Zoopark/index.m3u8
+#EXTINF:-1,360° Подмосковье HD
+https://185.78.112.47:8077/360tv_hd/index.m3u8
+#EXTINF:-1,История
+https://185.78.112.47:8077/istoriya/index.m3u8
+#EXTINF:-1,History Россия HD
+https://185.78.112.47:8077/History-HD/index.m3u8
+#EXTINF:-1 ,Моя планета
+https://185.78.112.47:8077/moya_planeta/index.m3u8
+#EXTINF:-1,Планета HD
+https://185.78.112.47:8077/planeta_hd/index.m3u8
+#EXTINF:-1,Animal Planet HD
+https://185.78.112.47:8077/AnimalPlanetRussiaHD/index.m3u8
+#EXTINF:-1,Discovery Россия HD
+https://185.78.112.47:8077/DiscoveryChannelHD/index.m3u8
+#EXTINF:-1,Nat Geo Wild HD
+https://185.78.112.47:8077/natgeo_wild_hd/index.m3u8
+#EXTINF:-1,National Geographic (Россия)
+https://185.78.112.47:8077/natgeo/index.m3u8
+#EXTINF:-1,National Geographic HD
+https://185.78.112.47:8077/natgeo_hd/index.m3u8
+#EXTINF:-1,Viasat History HD
+https://185.78.112.47:8077/ViasatHistoryHD/index.m3u8
+#EXTINF:-1,Travel Channel HD
+https://185.78.112.47:8077/TravelChannelHD/index.m3u8
+#EXTINF:-1,Телепутешествия HD
+https://185.78.112.47:8077/teletravel_hd/index.m3u8
+#EXTINF:-1,Еда HD
+https://185.78.112.47:8077/eda_hd/index.m3u8
+#EXTINF:-1,Усадьба
+https://185.78.112.47:8077/Usadba/index.m3u8
+#EXTINF:-1,Охотник и рыболов HD
+https://185.78.112.47:8077/ohot_i_rybolov_hd/index.m3u8
+#EXTINF:-1,Дикий
+https://185.78.112.47:8077/Dikiy/index.m3u8
+#EXTINF:-1 ,Дикая охота
+https://185.78.112.47:8077/DikayaOxotaHD/index.m3u8
+#EXTINF:-1,ОХОТНИК
+https://185.78.112.47:8077/ohotnik/index.m3u8
+#EXTINF:-1,Просвещение
+https://185.78.112.47:8077/prosveshenie/index.m3u8
+#EXTINF:-1,Оружие
+https://185.78.112.47:8077/oruzhie/index.m3u8
+#EXTINF:-1,NANO TV
+https://185.78.112.47:8077/nano-tv/index.m3u8
+#EXTINF:-1,RTG
+https://185.78.112.47:8077/rtg/index.m3u8
+#EXTINF:-1,RTG HD
+https://185.78.112.47:8077/rtg_hd/index.m3u8
+#EXTINF:-1 ,7tv
+https://185.78.112.47:8077/7tv/index.m3u8
+#EXTINF:-1 ,RT D HD
+https://185.78.112.47:8077/rtdoc_hd/index.m3u8
+#EXTINF:-1 ,RT HD
+https://185.78.112.47:8077/rt_hd/index.m3u8
+#EXTINF:-1 ,teledom HD
+https://185.78.112.47:8077/teledom_hd/index.m3u8
+#EXTINF:-1 ,Театр HD
+https://185.78.112.47:8077/strk_hd/index.m3u8
+#EXTINF:-1 ,Большая Азия
+https://185.78.112.47:8077/world-fashion/index.m3u8
+#EXTINF:-1,Luxury
+https://185.78.112.47:8077/luxury/index.m3u8
+#EXTINF:-1 ,topshop
+https://185.78.112.47:8077/topshop/index.m3u8
+#EXTINF:-1 ,НТВ Право
+https://185.78.112.47:8077/ntv_pravo/index.m3u8
+#EXTINF:-1 ,НТВ Стиль
+https://185.78.112.47:8077/ntv_stil/index.m3u8
+#EXTINF:-1,КРЫМ 24
+https://185.78.112.47:8077/crimea24/index.m3u8
+#EXTINF:-1 ,Москва 24
+https://185.78.112.47:8077/moskva_24/index.m3u8
+#EXTINF:-1 ,Москва Доверие
+https://185.78.112.47:8077/russia-today/index.m3u8
+#EXTINF:-1 ,Москва Доверие
+https://185.78.112.47:8077/moskva_doverie/index.m3u8
 
-
-
-
+#EXTINF:-1,ЖИВИ
+https://185.78.112.47:8077/jivi/index.m3u8
+#EXTINF:-1,КАЛЕЙДОСКОП
+https://185.78.112.47:8077/kaleydoskop/index.m3u8
+#EXTINF:-1,ЛЕН ТВ 24 HD
+https://185.78.112.47:8077/lot/index.m3u8
+#EXTINF:-1,Life78
+https://185.78.112.47:8077/life78/index.m3u8
+#EXTINF:-1,ИЗВЕСТИЯ HD
+https://185.78.112.47:8077/izvestiya/index.m3u8
+#EXTINF:-1,ТОНУС
+https://185.78.112.47:8077/tonus/index.m3u8
+#EXTINF:-1,ЛДПР
+https://185.78.112.47:8077/ldpr/index.m3u8
+#EXTINF:-1,ПЕС И КОТ
+https://185.78.112.47:8077/pes_i_ko/index.m3u8
+#EXTINF:-1,8 КАНАЛ
+https://185.78.112.47:8077/8kanal/index.m3u8
+#EXTINF:-1,ДОКТОР HD
+https://185.78.112.47:8077/doctor/index.m3u8
+#EXTINF:-1,ТОЧКА ТВ
+https://185.78.112.47:8077/tochka/index.m3u8
+#EXTINF:-1,fashion_one_hd HD
+https://185.78.112.47:8077/fashion_one_hd/index.m3u8
+#EXTINF:-1 ,Беларусь 24
+https://185.78.112.47:8077/belarus_24/index.m3u8
+#EXTINF:-1 ,raz-tv
+https://185.78.112.47:8077/raz-tv/index.m3u8
+#EXTINF:-1,Сарафан
+https://185.78.112.47:8077/sarafan/index.m3u8
+#EXTINF:-1,КВН ТВ
+https://185.78.112.47:8077/kvn_tv/index.m3u8
+#EXTINF:-1 ,tnt-4
+https://185.78.112.47:8077/tnt-4/index.m3u8
+#EXTINF:-1,Ностальгия
+https://185.78.112.47:8077/nostalgia/index.m3u8
+#EXTINF:-1 ,1HD.ru
+https://185.78.112.47:8077/1hd/index.m3u8
+#EXTINF:-1 ,Ля-минор
+https://185.78.112.47:8077/la-minor/index.m3u8
+#EXTINF:-1 ,RU TV
+https://185.78.112.47:8077/ru-tv/index.m3u8
+#EXTINF:-1 ,RUSONG TV
+https://185.78.112.47:8077/rusong/index.m3u8
+#EXTINF:-1 ,Bridge Classic
+https://185.78.112.47:8077/topsong/video.m3u8
+#EXTINF:-1 ,Bridge Deluxe HD
+https://185.78.112.47:8077/bridge_hd/video.m3u8
+#EXTINF:-1,BRIDGE HITS
+https://185.78.112.47:8077/dange/index.m3u8
+#EXTINF:-1,BRIDGE РУССКИЙ ХИТ
+https://185.78.112.47:8077/rusong/index.m3u8
+#EXTINF:-1 ,Bridge Русский Хит
+https://185.78.112.47:8077/rusong/video.m3u8
+#EXTINF:-1 ,Bridge
+https://185.78.112.47:8077/bridge-tv/video.m3u8
+#EXTINF:-1 ,Ля-минор
+https://185.78.112.47:8077/la-minor/index.m3u8
+#EXTINF:-1 ,Music Box Gold
+https://185.78.112.47:8077/music_box_gold/index.m3u8
+#EXTINF:-1 ,ЖАРА
+https://185.78.112.47:8077/jara/index.m3u8
+#EXTINF:-1 ,МузТВ
+https://185.78.112.47:8077/muz_tv/index.m3u8
+#EXTINF:-1,ТНТ МУЗЫКА
+https://185.78.112.47:8077/tnt_music/index.m3u8
+#EXTINF:-1,АЙВА HD
+https://185.78.112.47:8077/aiva_hd/index.m3u8
+#EXTINF:-1,ЕВРОПА ПЛЮС
+https://185.78.112.47:8077/europa-plus-tv/index.m3u8
+#EXTINF:-1,RUSSIAN MUSIC BOX
+https://185.78.112.47:8077/music-box-ru/index.m3u8
+#EXTINF:-1,Уникум
+https://185.78.112.47:8077/detskiy/index.m3u8
+#EXTINF:-1 ,Супергерои
+https://185.78.112.47:8077/malish/index.m3u8
+#EXTINF:-1,2х2
+https://185.78.112.47:8077/2x2/index.m3u8
+#EXTINF:-1,Мульт
+https://185.78.112.47:8077/mult/index.m3u8
+#EXTINF:-1,Мультимания
+https://185.78.112.47:8077/multimania/index.m3u8
+#EXTINF:-1,Карусель
+https://185.78.112.47:8077/karusel/index.m3u8
+#EXTINF:-1,Тлум HD
+https://185.78.112.47:8077/thlum_hd/index.m3u8
+#EXTINF:-1,Солнце
+https://185.78.112.47:8077/disney/index.m3u8
+#EXTINF:-1,Nickelodeon (Россия)
+https://185.78.112.47:8077/nickelodeon/index.m3u8
+#EXTINF:-1,TiJi (Россия)
+https://185.78.112.47:8077/TiJi/index.m3u8
+#EXTINF:-1,JimJam
+https://185.78.112.47:8077/JimJam/index.m3u8
+#EXTINF:-1,МАМА
+https://185.78.112.47:8077/mama/index.m3u8
+#EXTINF:-1,Радость моя
+https://185.78.112.47:8077/radost-moya/index.m3u8
+#EXTINF:-1 ,О!
+https://185.78.112.47:8077/o_/index.m3u8
+#EXTINF:-1,РЫЖИЙ
+https://185.78.112.47:8077/ryzhiy/index.m3u8
+#EXTINF:-1,СТС love
+https://185.78.112.47:8077/sts-love/index.m3u8
+#EXTINF:-1,СТС kids HD
+https://185.78.112.47:8077/sts_kids/index.m3u8
+#EXTINF:-1,ANI
+https://185.78.112.47:8077/ani/index.m3u8
+#EXTINF:-1 ,Первый канал HD
+https://185.78.112.47:8077/ort_hd/index.m3u8
+#EXTINF:-1 ,Россия 1 HD
+https://185.78.112.47:8077/rossia_hd/index.m3u8
+#EXTINF:-1 ,ТНТ
+https://185.78.112.47:8077/tnt/index.m3u8
+#EXTINF:-1 ,ТНТ HD
+https://185.78.112.47:8077/tnt_hd/index.m3u8
+#EXTINF:-1 ,СТС
+https://185.78.112.47:8077/sts_hd/index.m3u8
+#EXTINF:-1 ,Пятница
+https://185.78.112.47:8077/Pyatnica/index.m3u8
+#EXTINF:-1 ,Домашний
+https://185.78.112.47:8077/domashniy/index.m3u8
+#EXTINF:-1 ,Звезда
+https://185.78.112.47:8077/zvezda/index.m3u8
+#EXTINF:-1 ,МИР ТВ
+https://185.78.112.47:8077/mir/index.m3u8
+#EXTINF:-1 ,Мир HD
+https://185.78.112.47:8077/mir_hd/index.m3u8
+#EXTINF:-1 ,ОТР
+https://185.78.112.47:8077/otr/index.m3u8
+#EXTINF:-1,ТВ3 Россия
+https://185.78.112.47:8077/tv3/index.m3u8
+#EXTINF:-1,ЧЕ
+https://185.78.112.47:8077/che/index.m3u8
+#EXTINF:-1,Ю
+https://185.78.112.47:8077/utv/index.m3u8
+#EXTINF:-1,РБК ТВ
+https://185.78.112.47:8077/rbc/index.m3u8
+#EXTINF:-1,Спас
+https://185.78.112.47:8077/spas/index.m3u8
+#EXTINF:-1,Союз
+https://185.78.112.47:8077/soyuz/index.m3u8
+#EXTINF:-1,СТАРТ HD
+https://185.78.112.47:8077/start_hd/index.m3u8
+#EXTINF:-1 ,Матч ТВ
+https://185.78.112.47:8077/match/index.m3u8
+#EXTINF:-1 ,Матч ТВ HD
+https://185.78.112.47:8077/match_hd/index.m3u8
 
 
 
