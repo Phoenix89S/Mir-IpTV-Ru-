@@ -754,15 +754,12 @@ def merge_channels(old_channels, new_channels):
             continue
 
         # Обновляем ссылку и мету
-        merged[norm]["meta"] = data["meta"]
-        merged[norm]["url"] = fix_wink(data["url"])
+merged[norm]["meta"] = data["meta"]
+url = fix_wink(data["url"])
 
-       # Обновляем ссылку и мету Германия.
-       merged[norm]["meta"] = data["meta"]
-       merged[norm]["url"] = fix_germany(
-            fix_wink(data["url"]),
-            data.get("source_url", "")
-        )
+# Дополнительная обработка для немецких источников
+url = fix_germany_user_agent(url, data.get("source_url", ""))
+merged[norm]["url"] = url
 
     # 3. Помечаем пропавшие каналы
     for name in merged:
