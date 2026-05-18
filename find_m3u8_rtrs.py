@@ -218,7 +218,33 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/boxer180/DPR_RU_IPTV/main/TV.m3u",
     "https://raw.githubusercontent.com/anarabbasov2010-dotcom/iptv-playlist/main/ru_az.m3u",
     "https://raw.githubusercontent.com/maklarijanos-hue/playlist/main/RU-IPTV-LIST-07-01-2026.m3u"
+
+# --- Germany (DE) ---
+    "https://iptv-org.github.io/iptv/countries/de.m3u",
+    "https://iptv-org.github.io/iptv/subdivisions/de-by.m3u",  # Bayern
+    "https://iptv-org.github.io/iptv/subdivisions/de-be.m3u",  # Berlin
+    "https://iptv-org.github.io/iptv/subdivisions/de-bb.m3u",  # Brandenburg
+    "https://iptv-org.github.io/iptv/subdivisions/de-hh.m3u",  # Hamburg
+    "https://iptv-org.github.io/iptv/subdivisions/de-mv.m3u",  # Mecklenburg-Vorpommern
+    "https://iptv-org.github.io/iptv/subdivisions/de-ni.m3u",  # Niedersachsen
+    "https://iptv-org.github.io/iptv/cities/demun.m3u",        # Münster
+    "https://iptv-org.github.io/iptv/subdivisions/de-nw.m3u",  # Nordrhein-Westfalen
+    "https://iptv-org.github.io/iptv/cities/deaah.m3u",        # Aachen
+    "https://iptv-org.github.io/iptv/cities/debfe.m3u",        # Bielefeld
+    "https://iptv-org.github.io/iptv/cities/debon.m3u",        # Bonn
+    "https://iptv-org.github.io/iptv/cities/dedtm.m3u",        # Dortmund
+    "https://iptv-org.github.io/iptv/cities/dedui.m3u",        # Duisburg
+    "https://iptv-org.github.io/iptv/cities/dedus.m3u",        # Düsseldorf
+    "https://iptv-org.github.io/iptv/cities/deess.m3u",        # Essen
+    "https://iptv-org.github.io/iptv/cities/decgn.m3u",        # Köln
+    "https://iptv-org.github.io/iptv/cities/desge.m3u",        # Siegen
+    "https://iptv-org.github.io/iptv/cities/dewup.m3u",        # Wuppertal
+    "https://iptv-org.github.io/iptv/subdivisions/de-sn.m3u",  # Sachsen
+    "https://iptv-org.github.io/iptv/subdivisions/de-st.m3u",  # Sachsen-Anhalt
+    "https://iptv-org.github.io/iptv/subdivisions/de-sh.m3u",  # Schleswig-Holstein
+    "https://iptv-org.github.io/iptv/subdivisions/de-th.m3u",  # Thüringen
 ]
+
 
 # Имя итогового файла, который и есть твой главный плейлист
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
