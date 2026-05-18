@@ -12,8 +12,8 @@ http://162.19.246.113/ArenaPremium1HD/index.m3u8
 #EXTINF:-1 tvg-id="hd" tvg-logo="" group-title="РТРС Плюс",Кнопка 3.2 Матч Арена HD
 http://162.19.246.113/ArenaPremium2HD/index.m3u8
 #EXTINF:-1 tvg-id="hd" tvg-logo="" group-title="РТРС Плюс",Кнопка 3.2 Матч Арена HD
-http://162.19.246.113/ArenaPremium5HD/index.m3u8
-#EXTINF:-1 tvg-id="hd" tvg-logo="" group-title="РТРС Плюс",Кнопка 3.2 Матч Арена HD
 http://162.19.246.113/ArenaPremium3HD/index.m3u8
 #EXTINF:-1 tvg-id="eurosport" tvg-logo="" group-title="РТРС Плюс",Кнопка 36 Eurosport
 http://162.19.246.113/Eurosport2HD/index.m3u8
+#EXTINF:-1 tvg-id="hd" tvg-logo="" group-title="РТРС Плюс",Кнопка 3.2 Матч Арена HD
+http://162.19.246.113/ArenaPremium5HD/index.m3u8
