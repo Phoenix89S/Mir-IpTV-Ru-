@@ -245,7 +245,6 @@ GITHUB_PLAYLISTS = [
     "https://iptv-org.github.io/iptv/subdivisions/de-th.m3u",  # Thüringen
 ]
 
-
 # Имя итогового файла, который и есть твой главный плейлист
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
 
