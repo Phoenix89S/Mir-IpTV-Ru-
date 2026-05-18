@@ -1064,6 +1064,7 @@ def run_update():
                 new_channels[name] = {
                     "meta": meta,
                     "url": url,
+                    "source_url": src,  # ← добавляем source_url для фильтра чтобы запускались последовательно.
                 }
 
     print(f"Всего новых каналов собрано: {len(new_channels)}")
