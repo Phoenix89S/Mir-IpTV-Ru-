@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-# live_m3u.py
+# live_m3u.py — версия с автоподключением vk.m3u
 
 import requests
 import argparse
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
@@ -12,7 +13,6 @@ THREADS = 20
 
 def is_stream_alive(url: str) -> bool:
     try:
-        # Сначала HEAD
         r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
         if r.status_code < 400:
             ct = r.headers.get("Content-Type", "").lower()
@@ -20,7 +20,6 @@ def is_stream_alive(url: str) -> bool:
                 return False
             return True
 
-        # Если HEAD не зашёл — пробуем GET
         r = requests.get(url, timeout=TIMEOUT, stream=True)
         if r.status_code < 400:
             ct = r.headers.get("Content-Type", "").lower()
@@ -63,14 +62,6 @@ def load_m3u_from_source(source: str) -> str:
 
 
 def save_m3u(path: str, entries):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for info, url in entries:
-            f.write(info + "\n")
-            f.write(url + "\n")
-
-
-def save_m3u8(path: str, entries):
     with open(path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for info, url in entries:
@@ -130,22 +121,38 @@ def main():
     parser.add_argument("-r", "--report", default="report.txt", help="TXT отчёт")
     args = parser.parse_args()
 
+    all_entries = []
+
+    # === 1. Основной источник ===
     text = load_m3u_from_source(args.source)
     entries = parse_m3u(text)
-
     print(f"Найдено каналов: {len(entries)}")
-    if not entries:
+    all_entries.extend(entries)
+
+    # === 2. Автоматическое подключение vk.m3u ===
+    if os.path.exists("vk.m3u"):
+        print("\n=== Найден vk.m3u — добавляю в проверку ===")
+        vk_text = load_m3u_from_source("vk.m3u")
+        vk_entries = parse_m3u(vk_text)
+        print(f"VK каналов: {len(vk_entries)}")
+        all_entries.extend(vk_entries)
+    else:
+        print("\nvk.m3u не найден — пропускаю")
+
+    print(f"\nВсего каналов к проверке: {len(all_entries)}")
+
+    if not all_entries:
         print("Каналов не найдено.")
         return
 
-    alive, dead = check_entries(entries)
+    alive, dead = check_entries(all_entries)
 
     print("\n=== РЕЗУЛЬТАТ ===")
     print(f"Живых:   {len(alive)}")
     print(f"Мёртвых: {len(dead)}")
 
     save_m3u(args.output, alive)
-    save_m3u8(args.output8, alive)
+    save_m3u(args.output8, alive)
     save_report(args.report, alive, dead)
 
     print("\nСоздано:")
