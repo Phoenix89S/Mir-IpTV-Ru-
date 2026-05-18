@@ -310,8 +310,11 @@ def main():
         description="🎬 Проверка M3U-плейлиста на живость ссылок"
     )
     parser.add_argument("source", help="Путь к M3U-файлу или URL")
-    parser.add_argument("--output", default="alive.m3u", help="Файл живых каналов (M3U)")
-    parser.add_argument("--output8", default="alive.m3u8", help="Файл живых каналов (M3U8)")
+
+    # ВОТ ЭТО — ГЛАВНОЕ ИСПРАВЛЕНИЕ
+    parser.add_argument("-o", "--output", default="alive.m3u", help="Файл живых каналов (M3U)")
+    parser.add_argument("-8", "--output8", default="alive.m3u8", help="Файл живых каналов (M3U8)")
+
     parser.add_argument("-r", "--report", default="report.txt", help="TXT отчёт")
     args = parser.parse_args()
 
