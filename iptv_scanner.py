@@ -26,17 +26,104 @@ PLAYLIST_NAME = "Test_Donor_2026.m3u"
 # ============================
 
 CDN_PATTERNS = [
+
+    # 1. NGENIX (главный CDN РФ)
     {
         "cdn": "ngenix",
         "pattern": "https://a3569457567-s70378.cdn.ngenix.net/hls/{id}/index.m3u8",
-        "range": [1000, 1200]
+        "range": [1, 50000]
     },
+
+    # 2. CDNvideo (региональные каналы РФ)
     {
         "cdn": "cdnvideo",
         "pattern": "https://edge01.cdnvideo.ru/channel/{id}/index.m3u8",
-        "range": [1, 200]
+        "range": [1, 20000]
+    },
+
+    # 3. Peers.TV CDN
+    {
+        "cdn": "peers",
+        "pattern": "https://edge01.peers.tv/stream/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 4. Wink / Ростелеком CDN
+    {
+        "cdn": "wink",
+        "pattern": "https://cdn-01.winkcdn.net/live/{id}/index.m3u8",
+        "range": [1, 20000]
+    },
+
+    # 5. Smotreshka
+    {
+        "cdn": "smotreshka",
+        "pattern": "https://edge01.smotreshka.tv/hls/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 6. LimeHD
+    {
+        "cdn": "limehd",
+        "pattern": "https://edge01.limehd.tv/hls/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 7. Kartina.TV (зеркала)
+    {
+        "cdn": "kartina",
+        "pattern": "https://edge01.kartina.tv/hls/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 8. dtv.plus
+    {
+        "cdn": "dtvplus",
+        "pattern": "https://dtv.plus/hls/{id}/index.m3u8",
+        "range": [1, 20000]
+    },
+
+    # 9. tva.org.ua (украинский CDN)
+    {
+        "cdn": "tva",
+        "pattern": "https://tva.org.ua/hls/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 10. Cinerama / Uzbek CDN
+    {
+        "cdn": "cinerama",
+        "pattern": "https://cinerama.uz/hls/{id}/index.m3u8",
+        "range": [1, 15000]
+    },
+
+    # 11. OTT-CDN
+    {
+        "cdn": "ottcdn",
+        "pattern": "https://edge01.ott-cdn.com/hls/{id}/index.m3u8",
+        "range": [1, 20000]
+    },
+
+    # 12. IPTV-Playout
+    {
+        "cdn": "playout",
+        "pattern": "https://edge01.iptv-playout.com/hls/{id}/index.m3u8",
+        "range": [1, 20000]
+    },
+
+    # 13. thestream.cyou
+    {
+        "cdn": "thestream",
+        "pattern": "https://streaming.thestream.cyou/hls/{id}/index.m3u8",
+        "range": [1, 20000]
+    },
+
+    # 14. Rutube (зеркала)
+    {
+        "cdn": "rutube",
+        "pattern": "https://rutube.ru/hls/{id}/index.m3u8",
+        "range": [1, 20000]
     }
-    # сюда добавишь свои CDN
 ]
 
 
