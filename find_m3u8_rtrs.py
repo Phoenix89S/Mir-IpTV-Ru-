@@ -761,8 +761,8 @@ def merge_channels(old_channels, new_channels):
         url = fix_germany_user_agent(url, data.get("source_url", ""))
         merged[norm]["url"] = url
 
-        # 3. Помечаем пропавшие каналы
-        for name in merged:
+    # 3. Помечаем пропавшие каналы
+    for name in merged:
         if name not in new_channels:
             merged[name]["old"] = True
 
