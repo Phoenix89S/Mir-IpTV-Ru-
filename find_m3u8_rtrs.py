@@ -1073,6 +1073,10 @@ def run_update():
     new_channels = filter_mega_unwanted(new_channels)
     print(f"После фильтра Mega осталось каналов: {len(new_channels)}")
 
+    # === ФИЛЬТР VK PLAYLIST + АНТИ-ВОЗВРАТ ===
+    new_channels = filter_vk_unwanted(new_channels)
+    print(f"После фильтра VK осталось каналов: {len(new_channels)}")
+
     # 3. Объединение старые и новые каналы
     print("Объединение каналов (самовосстановление)...")
     merged = merge_channels(old_channels, new_channels)
