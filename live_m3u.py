@@ -601,9 +601,112 @@ def detect_button(name: str):
     # 7) Fallback — неизвестный канал
     return 999, detect_unknown(name)
 
+# === ГЕНЕРАЦИЯ EXTINF C1 ===
+
+def build_extinf(name: str, button, group: str):
+    """
+    Создаёт строку EXTINF с кнопкой и группой.
+    Пример:
+    #EXTINF:-1 tvg-id="" tvg-name="Матч ТВ" group-title="3",C1 3 Матч ТВ
+    """
+    return f'#EXTINF:-1 tvg-id="" tvg-name="{name}" group-title="{group}",C1 {button} {name}'
 
 
+# === ПОЛНАЯ ОБРАБОТКА КАНАЛА (главная функция Phoenix Edition) ===
 
+def process_channel(info: str, url: str):
+    """
+    Возвращает структуру:
+    {
+        "name": имя канала,
+        "button": номер кнопки,
+        "category": категория,
+        "extinf": строка EXTINF,
+        "url": ссылка
+    }
+    """
+
+    # 1. Извлекаем имя канала из EXTINF
+    #    Пример: #EXTINF:-1, Матч ТВ
+    name = info.split(",", 1)[-1].strip()
+
+    # 2. Определяем кнопку и категорию
+    button, category = detect_button(name)
+
+    # 3. Генерируем EXTINF C1
+    extinf = build_extinf(name, button, category)
+
+    # 4. Возвращаем структуру
+    return {
+        "name": name,
+        "button": button,
+        "category": category,
+        "extinf": extinf,
+        "url": url
+    }
+
+# === ОБРАБОТКА ВСЕГО ПЛЕЙЛИСТА (PHOENIX EDITION) ===
+
+def process_playlist(entries):
+    """
+    На вход:
+        entries = [(info, url), (info, url), ...]
+
+    На выход:
+        {
+            "rtrs": [...],
+            "match": [...],
+            "ntv": [...],
+            "rtrs_plus": [...],
+            "red": [...],
+            "bridge": [...],
+            "unknown": [...],
+            "all": [...]
+        }
+    """
+
+    result = {
+        "rtrs": [],
+        "match": [],
+        "ntv": [],
+        "rtrs_plus": [],
+        "red": [],
+        "bridge": [],
+        "unknown": [],
+        "all": []
+    }
+
+    for info, url in entries:
+        ch = process_channel(info, url)
+
+        # Добавляем в общий список
+        result["all"].append(ch)
+
+        # Распределяем по категориям
+        cat = ch["category"]
+
+        if cat == "rtrs":
+            result["rtrs"].append(ch)
+
+        elif cat == "match":
+            result["match"].append(ch)
+
+        elif cat == "ntv":
+            result["ntv"].append(ch)
+
+        elif cat == "rtrs_plus":
+            result["rtrs_plus"].append(ch)
+
+        elif cat == "red":
+            result["red"].append(ch)
+
+        elif cat == "bridge":
+            result["bridge"].append(ch)
+
+        elif cat == "unknown":
+            result["unknown"].append(ch)
+
+    return result
 
 
 
