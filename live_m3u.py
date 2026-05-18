@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-# live_m3u.py — версия с adult-фильтром, РТРС, RED Media, Bridge Media и отчётами
+# live_m3u.py — версия с adult-фильтром, РТРС, RED Media, Bridge Media, отчётами
+# и Phoenix Edition:
+# - РТРС Плюс (единая группа)
+# - Кнопки X.X внутри названия
+# - Матч-семейство: 3, 3.1, 3.2, 3.3...
+# - Нормализация названий (с HD)
+# - EXTINF формат C1
+# - Без символов "|"
 
 import requests
 import argparse
@@ -134,11 +141,9 @@ def detect_rtrs_button(info: str, url: str):
         t = title.lower()
         if t in text:
             return btn, title
-    # по ключам (транслит/англ)
     for title, keys in RTRS_KEYWORDS.items():
         for k in keys:
             if k in text:
-                # найти кнопку по названию
                 for btn, t in RTRS_BUTTONS.items():
                     if t == title:
                         return btn, title
@@ -260,7 +265,6 @@ RTRS_PLUS_BUTTONS = generate_rtrs_plus_buttons()
 def detect_rtrs_plus(info: str, url: str):
     text = (info + " " + url).lower()
 
-    # RED Media
     for title, keys in RED_MEDIA_KEYWORDS.items():
         for k in keys:
             if k in text:
@@ -268,7 +272,6 @@ def detect_rtrs_plus(info: str, url: str):
                 if btn:
                     return btn, title, "RED Media"
 
-    # Bridge Media
     for title, keys in BRIDGE_MEDIA_KEYWORDS.items():
         for k in keys:
             if k in text:
@@ -277,7 +280,6 @@ def detect_rtrs_plus(info: str, url: str):
                     return btn, title, "Bridge Media"
 
     return None, None, None
-
 
 # === HTTP HELPERS ===
 
@@ -405,7 +407,6 @@ def parse_m3u(text: str):
 
     return entries
 
-
 # === LOAD/SAVE ===
 
 def load_m3u_from_source(source: str) -> str:
@@ -509,7 +510,6 @@ def check_entries(entries):
 
     return alive, dead
 
-
 # === MAIN ===
 
 def main():
@@ -566,10 +566,123 @@ def main():
 
     alive, dead = check_entries(all_entries)
 
-    save_m3u(args.output, alive)
-    save_m3u(args.output8, alive)
-    save_report(args.report, alive, dead, adult_entries, rtrs_detected, rtrs_plus_detected)
+# === PHOENIX EDITION — Матч-семейство ===
+
+    MATCH_MAIN = ["match", "matchtv", "match_tv", "матч"]
+    MATCH_SUB = {
+        "игра": ["igra", "match-igra", "match_igra"],
+        "страна": ["strana", "matchstrana"],
+        "арена": ["arena", "matcharena"],
+        "планета": ["planeta", "matchplaneta"],
+        "премьер": ["premier", "matchpremier"],
+        "футбол 1": ["football1", "futbol1"],
+        "футбол 2": ["football2", "futbol2"],
+        "футбол 3": ["football3", "futbol3"]
+    }
+
+    def normalize_match_name(info, url):
+        t = (info + " " + url).lower()
+
+        # основной Матч ТВ
+        if any(x in t for x in MATCH_MAIN):
+            return "Матч ТВ"
+
+        # подканалы
+        for name, keys in MATCH_SUB.items():
+            if any(k in t for k in keys):
+                if "hd" in t:
+                    return f"Матч {name.capitalize()} HD"
+                return f"Матч {name.capitalize()}"
+
+        return None
+
+    # === PHOENIX EDITION — кнопки X.X ===
+
+    match_counter = 1
+    match_map = {}
+
+    def assign_button(info, url):
+        nonlocal match_counter
+
+        # Матч ТВ
+        name = normalize_match_name(info, url)
+        if name:
+            if name == "Матч ТВ":
+                return "3", name
+
+            # подканалы Матч
+            if name not in match_map:
+                match_map[name] = f"3.{match_counter}"
+                match_counter += 1
+            return match_map[name], name
+
+        # РТРС 1–37
+        for btn, title in RTRS_BUTTONS.items():
+            if title.lower() in (info + url).lower():
+                return str(btn), title
+
+        # RED + Bridge (РТРС Плюс)
+        for title, btn in RTRS_PLUS_BUTTONS.items():
+            if title.lower() in (info + url).lower():
+                return str(btn), title
+
+        return None, None
+
+    # === СОХРАНЕНИЕ ПЛЕЙЛИСТА (EXTINF C1, кнопка внутри названия) ===
+
+    def save_alive_playlist(path, alive):
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+
+            for info, url in alive:
+                btn, name = assign_button(info, url)
+                if not btn or not name:
+                    continue
+
+                tvg_id = re.sub(r"[^a-zA-Z0-9]+", "", name.lower())
+                logo = ""
+
+                # EXTINF формат Phoenix Edition (C1)
+                f.write(
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" '
+                    f'group-title="РТРС Плюс",Кнопка {btn} {name}\n'
+                )
+                f.write(url + "\n")
+
+    # === СОХРАНЕНИЕ ОТЧЁТА (Phoenix Edition) ===
+
+    def save_phoenix_report(path, alive, dead):
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("ОТЧЁТ ПРОВЕРКИ (Phoenix Edition)\n\n")
+
+            for info, url in alive:
+                btn, name = assign_button(info, url)
+                if btn and name:
+                    f.write(f'Группа: "РТРС Плюс" Кнопка {btn} {name} {url}\n')
+
+            f.write("\nМёртвые:\n")
+            for info, url in dead:
+                f.write(f"DEAD {url}\n")
+
+# === СОХРАНЕНИЕ РЕЗУЛЬТАТОВ (Phoenix Edition) ===
+
+    # Сохраняем живые каналы в формате Phoenix Edition
+    save_alive_playlist(args.output, alive)
+    save_alive_playlist(args.output8, alive)
+
+    # Сохраняем отчёт в формате Phoenix Edition
+    save_phoenix_report(args.report, alive, dead)
 
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
