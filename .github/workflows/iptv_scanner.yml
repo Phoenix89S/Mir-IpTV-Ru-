@@ -1,0 +1,40 @@
+name: IPTV Scanner
+
+on:
+  workflow_dispatch:        # ручной запуск
+  schedule:
+    - cron: "0 3 * * *"     # каждый день в 03:00 по UTC
+
+jobs:
+  scan-iptv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run iptv_scanner.py
+        run: |
+          python iptv_scanner.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add iptv_db.json iptv_db.csv iptv_db.sqlite Test_Donor_2026.m3u
+            git commit -m "Auto-update IPTV DB and Test_Donor_2026"
+            git push
+          else
+            echo "No changes — nothing to commit."
+          fi
