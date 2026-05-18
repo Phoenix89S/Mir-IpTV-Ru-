@@ -190,6 +190,9 @@ GITHUB_PLAYLISTS = [
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/code",
     "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/Viju2test.m3u",
 
+    # --- Источник из ВК (копировано из групп) ---
+    "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/vk.m3u",
+
     # --- Дополнительные твои источники ---
     "https://raw.githubusercontent.com/Phoenix89S/Iptv_Ru2026/main/test_channels.m3u",
     "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/kramarov.m3u",
