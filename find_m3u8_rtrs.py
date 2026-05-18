@@ -155,6 +155,112 @@ def filter_mega_unwanted(channels):
     # Преобразуем обратно в dict
     return {name: data for name, data in result}
 
+# ================================
+# ФИЛЬТР VK PLAYLIST + АНТИ-ВОЗВРАТ
+# ================================
+
+# Точный URL VK Playlist
+VK_SOURCE_URL = "https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/vk.m3u"
+
+# Жёсткий BAN-LIST (точные совпадения)
+BANNED_EXACT_VK = {
+    "aggregator - axenov / эротика",
+    "q",
+    "centoxcento hd",
+    "exxxxotica",
+    "hustler tv",
+    "penthouse",
+    "penthouse gold hd",
+    "porn classic",
+    "private.com",
+    "private sd",
+    "кино 18+",
+    "xxx",
+}
+
+# BAN-LIST (частичные совпадения)
+BANNED_PARTIAL_VK = [
+    "adult iptv",
+    "big ass",
+    "big dick",
+    "big tits",
+    "blonde",
+    "blowjob",
+    "compilation",
+    "cuckold",
+    "fetish",
+    "hardcore",
+    "interracial",
+    "latina",
+    "lesbian",
+    "live cams",
+    "milf",
+    "pornstar",
+    "pov",
+    "rough",
+    "russian",
+    "teen",
+    "threesome",
+    "эротика",
+    "xxx",
+]
+
+# Азартные каналы
+GAMBLING_MARKERS_VK = [
+    "bet",
+    "1xbet",
+    "poker",
+    "casino",
+    "ставки",
+    "казино",
+    "gambling",
+    "fortune",
+    "win tv",
+]
+
+# Анти-возврат (вечный бан) для VK
+BANNED_HISTORY_VK = set()
+
+def add_to_banned_history_vk(name):
+    BANNED_HISTORY_VK.add(name.lower().strip())
+
+def is_banned_forever_vk(name):
+    return name.lower().strip() in BANNED_HISTORY_VK
+
+
+# Главный фильтр VK Playlist
+def filter_vk_unwanted(channels):
+    result = []
+    for name, data in channels.items():
+        norm = name.lower().strip()
+
+        # Анти-возврат
+        if is_banned_forever_vk(norm):
+            continue
+
+        # Фильтруем только VK Playlist
+        if data.get("source_url") == VK_SOURCE_URL:
+
+            # Точное совпадение
+            if norm in BANNED_EXACT_VK:
+                add_to_banned_history_vk(norm)
+                continue
+
+            # Частичное совпадение
+            if any(x in norm for x in BANNED_PARTIAL_VK):
+                add_to_banned_history_vk(norm)
+                continue
+
+            # Азартные каналы
+            if any(x in norm for x in GAMBLING_MARKERS_VK):
+                add_to_banned_history_vk(norm)
+                continue
+
+        result.append((name, data))
+
+    # Преобразуем обратно в dict
+    return {name: data for name, data in result}
+
 # ==============================
 #   ИСТОЧНИКИ
 # ==============================
