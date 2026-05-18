@@ -281,7 +281,36 @@ def save_report(path: str, alive, dead):
     except Exception as e:
         print(f"❌ [SAVE ERROR] {path} — {type(e).__name__}: {e}")
 
+# === CHECKER (ПОЛНЫЙ, 1:1, КАК ТЫ ДАЛ) ===
 
+def check_entries(entries):
+    alive = []
+    dead = []
+
+    def worker(item):
+        info, url = item
+        try:
+            ok = is_stream_alive(url)
+            return info, url, ok
+        except Exception as e:
+            print(f"[WORKER ERROR] {url} — {type(e).__name__}")
+            return info, url, False
+
+    with ThreadPoolExecutor(max_workers=THREADS) as ex:
+        futures = {ex.submit(worker, e): e for e in entries}
+        for fut in as_completed(futures):
+            try:
+                info, url, ok = fut.result()
+                status = "✅ OK" if ok else "❌ DEAD"
+                print(f"[{status}] {url}")
+                if ok:
+                    alive.append((info, url))
+                else:
+                    dead.append((info, url))
+            except Exception as e:
+                print(f"[FUTURE ERROR] {type(e).__name__}")
+
+    return alive, dead
 
 
 
