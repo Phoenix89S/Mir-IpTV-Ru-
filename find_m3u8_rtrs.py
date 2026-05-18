@@ -274,6 +274,21 @@ def fix_wink(url: str) -> str:
         return url + "|" + "&".join(parts)
     return url
 
+# ================================
+# GERMANY USER-AGENT FIX
+# ================================
+def fix_germany_user_agent(url: str, source_url: str) -> str:
+    """
+    Добавляет немецкий User-Agent (Котбус) для всех DE-источников.
+    Работает по source_url, чтобы не трогать другие страны.
+    """
+    # Все немецкие источники iptv-org содержат /de в пути
+    if "/de" in source_url:
+        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0; de-DE) Gecko/20100101 Firefox/117.0"
+        return f"{url}|User-Agent={ua}"
+
+    return url
+
 # ==============================
 #   ПРОВЕРКА ЖИВОСТИ ССЫЛКИ
 # ==============================
