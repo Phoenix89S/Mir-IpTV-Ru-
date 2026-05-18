@@ -29,7 +29,137 @@ http://5.188.159.128:8070/ntvmir_TV/index.m3u8
 http://5.188.159.128:8070/rutv/index.m3u8
 #EXTINF:-1,UDAR
 http://5.188.159.128:8070/udar/index.m3u8
-Оценили 8 человек
+
+#EXTINF:-1 ,TV1000 Русское кино
+https://158.101.222.193:88/georgia_play.php?id=tv1000rukino
+#EXTINF:-1 ,24 техно
+https://158.101.222.193:88/georgia_play.php?id=24techno
+#EXTINF:-1 ,Amedia 1
+https://158.101.222.193:88/georgia_play.php?id=amedia
+#EXTINF:-1 ,Amedia 2
+https://158.101.222.193:88/georgia_play.php?id=amedia2
+#EXTINF:-1 ,Amedia Hit
+https://158.101.222.193:88/georgia_play.php?id=amediahit
+#EXTINF:-1 ,Amedia Premium
+https://158.101.222.193:88/georgia_play.php?id=amediapremium
+#EXTINF:-1 ,Black
+https://158.101.222.193:88/georgia_play.php?id=black
+#EXTINF:-1 ,RED
+https://158.101.222.193:88/georgia_play.php?id=red
+#EXTINF:-1 ,Sony Sci-Fi HD
+https://158.101.222.193:88/georgia_play.php?id=scifi
+#EXTINF:-1 ,Феникс+Кино
+https://158.101.222.193:88/georgia_play.php?id=fenikspluskino
+#EXTINF:-1 ,Киноужаc
+https://158.101.222.193:88/georgia_play.php?id=kinoujas
+#EXTINF:-1,Еврокино
+https://158.101.222.193:88/georgia_play.php?id=eurokino
+#EXTINF:-1,Киносвидание
+https://158.101.222.193:88/georgia_play.php?id=kinosvidanie
+#EXTINF:-1 ,Кинохит
+https://158.101.222.193:88/georgia_play.php?id=kinohit
+#EXTINF:-1 ,Индия
+https://158.101.222.193:88/georgia_play.php?id=zeetv
+#EXTINF:-1 ,ИНДИЙСКОЕ КИНО
+https://158.101.222.193:88/georgia_play.php?id=indiyskoekino
+#EXTINF:-1 ,Bollywood HD
+https://158.101.222.193:88/georgia_play.php?id=bollywoodhd
+#EXTINF:0,Киносемья
+https://158.101.222.193:88/georgia_play.php?id=kinosemya
+#EXTINF:0,Кинокомедия
+https://158.101.222.193:88/georgia_play.php?id=kinokomediya
+#EXTINF:0,Киномикс
+https://158.101.222.193:88/georgia_play.php?id=kinomiks
+#EXTINF:-1,Киносерия
+https://158.101.222.193:88/georgia_play.php?id=kinoseria
+#EXTINF:-1 ,РУССКИЙ ИЛЛЮЗИОН
+https://158.101.222.193:88/georgia_play.php?id=rusilluzion
+#EXTINF:-1 ,Иллюзион+
+https://158.101.222.193:88/georgia_play.php?id=illuzionplus
+#EXTINF:-1 ,Мужское кино
+https://158.101.222.193:88/georgia_play.php?id=interesnoetv
+#EXTINF:-1 ,Кинопремьера HD
+https://158.101.222.193:88/georgia_play.php?id=kinopremyerahd
+#EXTINF:-1 ,Наше новое кино
+https://158.101.222.193:88/georgia_play.php?id=nashanovoekino
+#EXTINF:-1 ,Родное Кино
+https://158.101.222.193:88/georgia_play.php?id=radnoekino
+#EXTINF:-1 ,М1 HD UA
+https://158.101.222.193:88/georgia_play.php?id=m1
+#EXTINF:-1 ,Ностальгия
+https://158.101.222.193:88/georgia_play.php?id=nostalgy
+#EXTINF:-1,Mezzo
+https://158.101.222.193:88/georgia_play.php?id=mezzo
+#EXTINF:-1 ,КВАРТАЛ 95
+https://158.101.222.193:88/georgia_play.php?id=kvartal95
+#EXTINF:-1,Перец
+https://158.101.222.193:88/georgia_play.php?id=perec
+#EXTINF:-1 ,КВН ТВ
+https://158.101.222.193:88/georgia_play.php?id=kvntv
+#EXTINF:-1 ,Viju Explore
+https://158.101.222.193:88/georgia_play.php?id=viasatexp
+#EXTINF:-1 ,Viju History
+https://158.101.222.193:88/georgia_play.php?id=viasathist
+#EXTINF:-1 ,Viju Nature
+https://158.101.222.193:88/georgia_play.php?id=viasatnat
+#EXTINF:-1 ,Авто 24
+https://158.101.222.193:88/georgia_play.php?id=auto24
+#EXTINF:-1 ,Авто плюс
+https://158.101.222.193:88/georgia_play.php?id=autoplus
+#EXTINF:-1 ,Кто есть кто
+https://158.101.222.193:88/georgia_play.php?id=ktoestkto
+#EXTINF:-1 ,Мужской
+https://158.101.222.193:88/georgia_play.php?id=muzhskoy
+#EXTINF:-1 ,ЖИВИ
+https://158.101.222.193:88/georgia_play.php?id=jivi
+#EXTINF:-1,Оружие
+https://158.101.222.193:88/georgia_play.php?id=oruzhie
+#EXTINF:-1 ,Точка РФ
+https://158.101.222.193:88/georgia_play.php?id=hdlife
+#EXTINF:-1 ,365 дней
+https://158.101.222.193:88/georgia_play.php?id=365day
+#EXTINF:-1 ,Успех
+https://158.101.222.193:88/georgia_play.php?id=uspeh
+#EXTINF:-1 ,Зоопарк
+https://158.101.222.193:88/georgia_play.php?id=zoo
+#EXTINF:-1 ,Детский мир
+https://158.101.222.193:88/georgia_play.php?id=detskymir
+#EXTINF:-1 ,Уникум
+https://158.101.222.193:88/georgia_play.php?id=unikum
+#EXTINF:-1 ,Да Винчи
+https://158.101.222.193:88/georgia_play.php?id=davinci
+#EXTINF:-1 ,СТС
+https://158.101.222.193:88/georgia_play.php?id=ctctv
+#EXTINF:-1 ,Пятница! International
+https://158.101.222.193:88/georgia_play.php?id=friday
+#EXTINF:-1 Домашний
+https://158.101.222.193:88/georgia_play.php?id=domashni
+#EXTINF:-1,Мир
+https://158.101.222.193:88/georgia_play.php?id=mir
+#EXTINF:-1 ,МИР 24
+https://158.101.222.193:88/georgia_play.php?id=mir24
+#EXTINF:-1 ,KHL HD
+https://158.101.222.193:88/georgia_play.php?id=knlhd
+#EXTINF:-1 ,Матч! Планета
+https://158.101.222.193:88/georgia_play.php?id=matchplaneta
+#EXTINF:-1 ,БОКС ТВ
+https://158.101.222.193:88/georgia_play.php?id=boxtv
+#EXTINF:-1 ,Setanta Sports 1 Georgia
+https://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1,Viasat Sport
+https://158.101.222.193:88/georgia_play.php?id=viasatsport
+#EXTINF:-1 ,1+1 internathional
+https://158.101.222.193:88/georgia_play.php?id=1plus1international
+#EXTINF:-1,dw HD
+https://158.101.222.193:88/georgia_play.php?id=dw
+#EXTINF:-1,arirang HD
+https://158.101.222.193:88/georgia_play.php?id=arirang
+#EXTINF:-1,Ключ (Kluch)
+https://158.101.222.193:88/georgia_play.php?id=kluch
+#EXTINF:-1 ,Setanta Sports+ Georgia
+https://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
+
+
 
 
 #EXTINF:-1,Ключ (Kluch)
