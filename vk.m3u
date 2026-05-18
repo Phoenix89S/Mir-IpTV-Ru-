@@ -500,6 +500,133 @@ https://185.78.112.47:8077/match/index.m3u8
 #EXTINF:-1 ,Матч ТВ HD
 https://185.78.112.47:8077/match_hd/index.m3u8
 
+#EXTINF:-1,МАТЧ ИГРА
+https://185.78.112.47:8077/match-igra/index.m3u8
+#EXTINF:-1,МАТЧ ИГРА HD
+https://185.78.112.47:8077/match_igra_hd/index.m3u8
+#EXTINF:-1,Матч Страна
+https://185.78.112.47:8077/strana/index.m3u8
+#EXTINF:-1 ,Матч! Арена HD
+https://185.78.112.47:8077/arena_hd/index.m3u8
+#EXTINF:-1,ФУТБОЛЬНЫЙ
+https://185.78.112.47:8077/football/index.m3u8
+#EXTINF:-1 ,Матч! Футбол 1 HD
+https://185.78.112.47:8077/football1_hd/index.m3u8
+#EXTINF:-1 ,Матч! Футбол 2 HD
+https://185.78.112.47:8077/football2_hd/index.m3u8
+#EXTINF:-1 ,Матч! Футбол 3 HD
+https://185.78.112.47:8077/football3_hd/index.m3u8
+#EXTINF:-1 ,Матч! Премьер
+https://185.78.112.47:8077/nash-football/index.m3u8
+#EXTINF:-1 ,Матч! Премьер HD
+https://185.78.112.47:8077/nash_football_hd/index.m3u8
+#EXTINF:-1 ,Футбол (Россия) HD
+https://185.78.112.47:8077/football/index.m3u8
+#EXTINF:-1 ,Eurosport
+https://185.78.112.47:8077/Eurosport1HD/index.m3u8
+#EXTINF:-1 ,EUROSPORT 2 HD
+https://185.78.112.47:8077/Eurosport2HD/index.m3u8
+#EXTINF:-1 ,Viasat Sport (Россия) HD
+https://185.78.112.47:8077/ViasatSportHD/index.m3u8
+#EXTINF:-1 ,КХЛ ТВ
+https://185.78.112.47:8077/khl/index.m3u8
+#EXTINF:-1 ,КХЛ HD
+https://185.78.112.47:8077/khl_hd/index.m3u8
+#EXTINF:-1,ДАГЕСТАН HD
+https://185.78.112.47:8077/dagestan/index.m3u8
+#EXTINF:-1, СРЕДА
+https://185.78.112.47:8077/sreda/index.m3u8
+#EXTINF:-1,AТВ АМОС
+https://185.78.112.47:8077/atv/index.m3u8
+#EXTINF:-1 ,KTV
+https://185.78.112.47:8077/KTV/index.m3u8
+#EXTINF:-1 ,Нашидуль Ислам
+https://185.78.112.47:8077/MAYAK_nashid_canal/index.m3u8
+#EXTINF:-1 ,ННТ Махачкала
+https://185.78.112.47:8077/nnttv/index.m3u8
+#EXTINF:-1 ,ННТ Махачкала HD
+https://185.78.112.47:8077/nnttv_hd/index.m3u8
+#EXTINF:-1 ,Прибой ТВ
+https://185.78.112.47:8077/priboy_tv/index.m3u8
+#EXTINF:-1 ,Прибой ТВ HD
+https://185.78.112.47:8077/priboy_tv_hd/index.m3u8
+#EXTINF:-1 ,Хузур ТВ
+https://185.78.112.47:8077/huzur_tv/index.m3u8
+#EXTINF:-1,Ингушетия
+https://185.78.112.47:8077/INGUSHETIYA/index.m3u8
+#EXTINF:-1 ,МТВ Столица
+https://185.78.112.47:8077/mtv-stolitca/index.m3u8
+#EXTINF:-1 ,ТВ Чиркей
+https://185.78.112.47:8077/tv_chirkey/index.m3u8
+#EXTINF:-1 ,РГВК Дагестан HD
+https://185.78.112.47:8077/RGVK-DAGESTAN/index.m3u8
+#EXTINF:-1 ,ГРОЗНЫЙ
+https://185.78.112.47:8077/CHGTRK-GROZNIY/index.m3u8
+#EXTINF:-1,ARIRANG
+https://185.78.112.47:8077/arirang/index.m3u8
+#EXTINF:-1,bloomberg
+https://185.78.112.47:8077/bloomberg/index.m3u8
+#EXTINF:-1,hustler HD
+https://185.78.112.47:8077/hustler_hd/index.m3u8
+
+#EXTINF:-1 ,Матч! Премьер HD
+https://185.78.112.47:8077/nash_football_hd/index.m3u8
+#EXTINF:-1 ,Футбол (Россия) HD
+https://185.78.112.47:8077/football/index.m3u8
+#EXTINF:-1 ,Eurosport
+https://185.78.112.47:8077/Eurosport1HD/index.m3u8
+#EXTINF:-1 ,EUROSPORT 2 HD
+https://185.78.112.47:8077/Eurosport2HD/index.m3u8
+#EXTINF:-1 ,Viasat Sport (Россия) HD
+https://185.78.112.47:8077/ViasatSportHD/index.m3u8
+#EXTINF:-1 ,КХЛ ТВ
+https://185.78.112.47:8077/khl/index.m3u8
+#EXTINF:-1 ,КХЛ HD
+https://185.78.112.47:8077/khl_hd/index.m3u8
+#EXTINF:-1,ДАГЕСТАН HD
+https://185.78.112.47:8077/dagestan/index.m3u8
+#EXTINF:-1, СРЕДА
+https://185.78.112.47:8077/sreda/index.m3u8
+#EXTINF:-1,AТВ АМОС
+https://185.78.112.47:8077/atv/index.m3u8
+#EXTINF:-1 ,KTV
+https://185.78.112.47:8077/KTV/index.m3u8
+#EXTINF:-1 ,Нашидуль Ислам
+https://185.78.112.47:8077/MAYAK_nashid_canal/index.m3u8
+#EXTINF:-1 ,ННТ Махачкала
+https://185.78.112.47:8077/nnttv/index.m3u8
+#EXTINF:-1 ,ННТ Махачкала HD
+https://185.78.112.47:8077/nnttv_hd/index.m3u8
+#EXTINF:-1 ,Прибой ТВ
+https://185.78.112.47:8077/priboy_tv/index.m3u8
+#EXTINF:-1 ,Прибой ТВ HD
+https://185.78.112.47:8077/priboy_tv_hd/index.m3u8
+#EXTINF:-1 ,Хузур ТВ
+https://185.78.112.47:8077/huzur_tv/index.m3u8
+#EXTINF:-1,Ингушетия
+https://185.78.112.47:8077/INGUSHETIYA/index.m3u8
+#EXTINF:-1 ,МТВ Столица
+https://185.78.112.47:8077/mtv-stolitca/index.m3u8
+#EXTINF:-1 ,ТВ Чиркей
+https://185.78.112.47:8077/tv_chirkey/index.m3u8
+#EXTINF:-1 ,РГВК Дагестан HD
+https://185.78.112.47:8077/RGVK-DAGESTAN/index.m3u8
+#EXTINF:-1 ,ГРОЗНЫЙ
+https://185.78.112.47:8077/CHGTRK-GROZNIY/index.m3u8
+#EXTINF:-1,ARIRANG
+https://185.78.112.47:8077/arirang/index.m3u8
+#EXTINF:-1,bloomberg
+https://185.78.112.47:8077/bloomberg/index.m3u8
+#EXTINF:-1,hustler HD
+https://185.78.112.47:8077/hustler_hd/index.m3u8
+
+
+
+
+
+
+
+
 
 
 
