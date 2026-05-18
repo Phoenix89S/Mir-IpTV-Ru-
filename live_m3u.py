@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# live_m3u.py — версия с автоподключением vk.m3u
+# live_m3u.py — финальная версия с vk.m3u, adult-фильтром и улучшенной проверкой
 
 import requests
 import argparse
@@ -7,29 +7,143 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-TIMEOUT = 3.5
-THREADS = 20
+TIMEOUT = 4
+THREADS = 25
 
+UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+}
+
+# === ЖЁСТКИЙ ФИЛЬТР ADULT-КОНТЕНТА ===
+
+ADULT_KEYWORDS = [
+    "xxx", "sex", "porn", "porno", "порно", "эрот", "эротика", "18+", "18plus",
+    "brazzers", "hustler", "playboy", "venus", "dorcel", "private", "eros", "erotic",
+    "hot", "night", "ночь", "ночной", "ночное",
+    "love", "amour", "amore",
+    "fetish", "bdsm", "softcore", "hardcore",
+    "cam", "webcam", "livecam",
+    "nsfw"
+]
+
+# === ФИЛЬТР ЗАПРЕЩЁННОГО КОНТЕНТА ===
+
+BAD_KEYWORDS = [
+    "shop", "магазин", "телемагазин",
+    "test", "тест", "404", "error",
+    "t.me", "telegram", "cdn-telegram", "tg://",
+    "spam", "junk", "garbage"
+]
+
+
+def is_adult(info: str, url: str) -> bool:
+    text = (info + " " + url).lower()
+    return any(bad in text for bad in ADULT_KEYWORDS)
+
+
+def is_bad(info: str, url: str) -> bool:
+    text = (info + " " + url).lower()
+    return any(bad in text for bad in BAD_KEYWORDS)
+
+
+# === HTTP HELPERS ===
+
+def safe_get(url, stream=False):
+    try:
+        return requests.get(url, headers=UA, timeout=TIMEOUT, stream=stream, allow_redirects=True)
+    except:
+        return None
+
+
+def safe_head(url):
+    try:
+        return requests.head(url, headers=UA, timeout=TIMEOUT, allow_redirects=True)
+    except:
+        return None
+
+
+# === M3U8 VALIDATION ===
+
+def is_valid_m3u8_text(text: str) -> bool:
+    if not text:
+        return False
+    return text.startswith("#EXTM3U")
+
+
+def is_master_playlist(text: str) -> bool:
+    return "#EXT-X-STREAM-INF" in text
+
+
+def extract_variant_urls(text: str, base_url: str):
+    urls = []
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith("http"):
+            urls.append(line)
+        elif line.endswith(".m3u8"):
+            if base_url.endswith("/"):
+                urls.append(base_url + line)
+            else:
+                urls.append(base_url.rsplit("/", 1)[0] + "/" + line)
+    return urls
+
+
+def check_variant(url: str) -> bool:
+    r = safe_get(url)
+    if not r or r.status_code >= 400:
+        return False
+
+    try:
+        text = r.text
+    except:
+        return False
+
+    if not is_valid_m3u8_text(text):
+        return False
+
+    return ".ts" in text or "#EXTINF" in text
+
+
+# === MAIN STREAM CHECK ===
 
 def is_stream_alive(url: str) -> bool:
-    try:
-        r = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        if r.status_code < 400:
-            ct = r.headers.get("Content-Type", "").lower()
-            if "text/html" in ct:
-                return False
-            return True
+    # HEAD
+    h = safe_head(url)
+    if h and h.status_code < 400:
+        ct = h.headers.get("Content-Type", "").lower()
+        if "text/html" in ct:
+            return False
 
-        r = requests.get(url, timeout=TIMEOUT, stream=True)
-        if r.status_code < 400:
-            ct = r.headers.get("Content-Type", "").lower()
-            if "text/html" in ct:
-                return False
-            return True
-    except Exception:
+    # GET
+    r = safe_get(url)
+    if not r or r.status_code >= 400:
         return False
-    return False
 
+    ct = r.headers.get("Content-Type", "").lower()
+    if "text/html" in ct:
+        return False
+
+    try:
+        text = r.text
+    except:
+        return False
+
+    if not is_valid_m3u8_text(text):
+        return False
+
+    # master.m3u8
+    if is_master_playlist(text):
+        variants = extract_variant_urls(text, url)
+        for v in variants:
+            if check_variant(v):
+                return True
+        return False
+
+    # media.m3u8
+    return ".ts" in text or "#EXTINF" in text
+
+
+# === PARSER ===
 
 def parse_m3u(text: str):
     lines = text.splitlines()
@@ -40,19 +154,37 @@ def parse_m3u(text: str):
         line = line.strip()
         if not line:
             continue
+
         if line.startswith("#EXTINF"):
             current_info = line
+
         elif line.startswith("http"):
             if current_info:
+
+                # Adult-фильтр
+                if is_adult(current_info, line):
+                    print(f"[ADULT BLOCK] {line}")
+                    current_info = None
+                    continue
+
+                # Фильтр запрещённого
+                if is_bad(current_info, line):
+                    print(f"[FILTER] {line}")
+                    current_info = None
+                    continue
+
                 entries.append((current_info, line))
                 current_info = None
+
     return entries
 
 
+# === LOAD/SAVE ===
+
 def load_m3u_from_source(source: str) -> str:
-    if source.startswith("http://") or source.startswith("https://"):
+    if source.startswith("http"):
         print(f"Загружаю по URL: {source}")
-        r = requests.get(source, timeout=10)
+        r = requests.get(source, headers=UA, timeout=10)
         r.raise_for_status()
         return r.text
     else:
@@ -88,6 +220,8 @@ def save_report(path: str, alive, dead):
             f.write(f"{i:03d}. DEAD | {url}\n")
 
 
+# === CHECKER ===
+
 def check_entries(entries):
     alive = []
     dead = []
@@ -111,6 +245,8 @@ def check_entries(entries):
     return alive, dead
 
 
+# === MAIN ===
+
 def main():
     parser = argparse.ArgumentParser(
         description="Проверка M3U-плейлиста на живость ссылок"
@@ -129,7 +265,7 @@ def main():
     print(f"Найдено каналов: {len(entries)}")
     all_entries.extend(entries)
 
-    # === 2. Автоматическое подключение vk.m3u ===
+    # === 2. Автоподключение vk.m3u ===
     if os.path.exists("vk.m3u"):
         print("\n=== Найден vk.m3u — добавляю в проверку ===")
         vk_text = load_m3u_from_source("vk.m3u")
@@ -138,6 +274,12 @@ def main():
         all_entries.extend(vk_entries)
     else:
         print("\nvk.m3u не найден — пропускаю")
+
+    # === 3. Дополнительная зачистка adult и мусора ===
+    all_entries = [
+        (info, url) for info, url in all_entries
+        if not is_adult(info, url) and not is_bad(info, url)
+    ]
 
     print(f"\nВсего каналов к проверке: {len(all_entries)}")
 
