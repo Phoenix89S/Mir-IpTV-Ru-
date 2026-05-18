@@ -1,1 +1,75 @@
 #EXTM3U
+#EXTINF:-1,BRIDGE Hits
+http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
+#EXTINF:-1,BRIDGE Classic
+http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
+#EXTINF:-1,Cartoon Network
+http://5.188.159.128:8070/Cartoon_Network/index.m3u8
+#EXTINF:-1,Discovery
+http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
+#EXTINF:-1,Hollywood HD
+http://5.188.159.128:8070/HOLLYWOOD_HD/index.m3u8
+#EXTINF:-1,Кинопремьера
+http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
+#EXTINF:-1,BRIDGE
+http://5.188.159.128:8070/bridgetv/index.m3u8
+#EXTINF:-1,Киносвидание
+http://5.188.159.128:8070/kinosvidanie/index.m3u8
+#EXTINF:-1,Мир 24
+http://5.188.159.128:8070/mir_24/index.m3u8
+#EXTINF:-1,MEGOGO Спорт
+http://5.188.159.128:8070/megogo_sport/index.m3u8
+#EXTINF:-1,НТВ Мир (Казахстан)
+http://5.188.159.128:8070/ntvmir_TV/index.m3u8
+#EXTINF:-1,РУ ТВ
+http://5.188.159.128:8070/rutv/index.m3u8
+#EXTINF:-1,UDAR
+http://5.188.159.128:8070/udar/index.m3u8
+#EXTINF:-1,NovaTV HD
+http://162.19.246.113/NovaTV/index.m3u8
+#EXTINF:-1,ArenaPremium1 HD
+http://162.19.246.113/ArenaPremium1HD/index.m3u8
+#EXTINF:-1,ArenaPremium2 HD
+http://162.19.246.113/ArenaPremium2HD/index.m3u8
+#EXTINF:-1,ArenaPremium3 HD
+http://162.19.246.113/ArenaPremium3HD/index.m3u8
+#EXTINF:-1,ArenaPremium5 HD
+http://162.19.246.113/ArenaPremium5HD/index.m3u8
+#EXTINF:-1,Eurosport2HD
+http://162.19.246.113/Eurosport2HD/index.m3u8
+#EXTINF:-1,Cinemania HD
+http://162.19.246.113/Cinemania/index.m3u8
+#EXTINF:-1,XXX1 HD
+http://162.19.246.113/XXX1/index.m3u8
+#EXTINF:-1,3 HD
+http://162.19.246.113/XXX3/index.m3u8
+#EXTINF:-1,XXX2 HD
+http://162.19.246.113/XXX2/index.m3u8
+#EXTINF:-1,PENTHOUSE HD
+http://162.19.246.113/XXX4/index.m3u8
+#EXTINF:-1,PinkWestern
+http://162.19.246.113/PinkWestern/index.m3u8
+#EXTINF:-1,PRVA HD
+http://162.19.246.113/PRVA/index.m3u8
+#EXTINF:-1,PINK HD
+http://162.19.246.113/PINK/index.m3u8
+#EXTINF:-1,RTL HD
+http://162.19.246.113/RTL/index.m3u8
+#EXTINF:-1,FightBox HD
+http://162.19.246.113/FightBox/index.m3u8
+#EXTINF:-1,HRT1 HD
+http://162.19.246.113/HRT1/index.m3u8
+#EXTINF:-1,HRT2 HD
+http://162.19.246.113/HRT2/index.m3u8
+#EXTINF:-1,H2 HD
+http://162.19.246.113/H2/index.m3u8
+#EXTINF:-1,RTV1 HD
+http://162.19.246.113/RTV1/index.m3u8
+#EXTINF:-1,E
+http://162.19.246.113/E/index.m3u8
+#EXTINF:-1,H2 HD
+http://162.19.246.113/H2/index.m3u8
+#EXTINF:-1,History HD
+http://162.19.246.113/History/index.m3u8
+#EXTINF:-1,Marvel HD
+http://144.76.101.216/Marvel/index.m3u8
