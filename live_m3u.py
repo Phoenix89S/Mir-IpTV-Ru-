@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-# live_m3u.py — версия с безопасностью, улучшениями и отчётом по adult-контенту
+# live_m3u.py — версия с adult-фильтром, РТРС, RED Media, Bridge Media и отчётами
 
 import requests
 import argparse
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from urllib.parse import urljoin
@@ -22,7 +23,8 @@ ADULT_KEYWORDS = [
     "brazzers", "hustler", "playboy", "venus", "dorcel", "private", "eros", "erotic",
     "fetish", "bdsm", "softcore", "hardcore",
     "cam", "webcam", "livecam",
-    "nsfw"
+    "nsfw",
+    "barelylegal", "barely_legal", "bluehustler", "russian_night", "russkaya_noch"
 ]
 
 # === ФИЛЬТР ЗАПРЕЩЁННОГО КОНТЕНТА ===
@@ -43,6 +45,238 @@ def is_adult(info: str, url: str) -> bool:
 def is_bad(info: str, url: str) -> bool:
     text = (info + " " + url).lower()
     return any(bad in text for bad in BAD_KEYWORDS)
+
+
+# === РТРС 1–37 (федералка + кабель) ===
+
+RTRS_BUTTONS = {
+    1: "Первый канал",
+    2: "Россия 1",
+    3: "Матч ТВ",
+    4: "НТВ",
+    5: "Пятый канал",
+    6: "Россия К",
+    7: "Россия 24",
+    8: "Карусель",
+    9: "ОТР",
+    10: "ТВ Центр",
+    11: "РЕН ТВ",
+    12: "Спас",
+    13: "СТС",
+    14: "Домашний",
+    15: "ТВ-3",
+    16: "Пятница",
+    17: "Звезда",
+    18: "Мир",
+    19: "ТНТ",
+    20: "Муз-ТВ",
+
+    23: "Mezzo",
+    24: "2x2",
+    25: "RTG",
+    26: "Дождь",
+    27: "Техно 24",
+    28: "Мульт",
+    29: "360",
+    30: "Доктор",
+    31: "Моя Планета",
+    32: "Че!",
+    33: "Футбол",
+    34: "Tiji",
+    35: "Ностальгия",
+    36: "Eurosport",
+    37: "Охотник и рыболов"
+}
+
+RTRS_KEYWORDS = {
+    "Первый канал": ["1tv", "pervyj", "pervyi", "channel1", "pervy"],
+    "Россия 1": ["rossiya1", "russia1", "rtr1"],
+    "Матч ТВ": ["matchtv", "match_tv", "match"],
+    "НТВ": ["ntv"],
+    "Пятый канал": ["5kanal", "5channel", "peterburg5", "5 kanal"],
+    "Россия К": ["rossiya_k", "russia_k", "kultura"],
+    "Россия 24": ["rossiya24", "russia24", "vesti24"],
+    "Карусель": ["karusel", "carousel"],
+    "ОТР": ["otr"],
+    "ТВ Центр": ["tvc", "tvcentr", "tvcenter"],
+    "РЕН ТВ": ["rentv", "ren_tv"],
+    "Спас": ["spas"],
+    "СТС": ["ctc"],
+    "Домашний": ["domashniy", "domashny", "domashni"],
+    "ТВ-3": ["tv3"],
+    "Пятница": ["pyatnica", "pyatnitsa", "fridaytv"],
+    "Звезда": ["zvezda"],
+    "Мир": ["mir"],
+    "ТНТ": ["tnt"],
+    "Муз-ТВ": ["muztv", "muz_tv"],
+
+    "Mezzo": ["mezzo"],
+    "2x2": ["2x2", "2x2tv"],
+    "RTG": ["rtg", "rtg_tv"],
+    "Дождь": ["dozhd", "tvrain"],
+    "Техно 24": ["techno24", "tekno24"],
+    "Мульт": ["mult", "mult_tv"],
+    "360": ["360tv", "360_channel"],
+    "Доктор": ["doctor", "doktor"],
+    "Моя Планета": ["moya_planeta", "myplanet"],
+    "Че!": ["che", "chetv"],
+    "Футбол": ["futbol", "football"],
+    "Tiji": ["tiji"],
+    "Ностальгия": ["nostalgia", "nostalgiya"],
+    "Eurosport": ["eurosport"],
+    "Охотник и рыболов": ["ohotnik", "rybolov", "hunter_fisher"]
+}
+
+
+def detect_rtrs_button(info: str, url: str):
+    text = (info + " " + url).lower()
+    for btn, title in RTRS_BUTTONS.items():
+        t = title.lower()
+        if t in text:
+            return btn, title
+    # по ключам (транслит/англ)
+    for title, keys in RTRS_KEYWORDS.items():
+        for k in keys:
+            if k in text:
+                # найти кнопку по названию
+                for btn, t in RTRS_BUTTONS.items():
+                    if t == title:
+                        return btn, title
+    return None, None
+
+
+# === RED Media + Bridge Media (РТРС Плюс) ===
+
+RED_MEDIA_CHANNELS = [
+    "КИНОХИТ",
+    "КИНОКОМЕДИЯ",
+    "КИНОМИКС",
+    "КИНОПРЕМЬЕРА",
+    "КИНОСЕМЬЯ",
+    "МУЖСКОЕ КИНО",
+    "КИНОСЕРИЯ",
+    "КИНОСВИДАНИЕ",
+    "НАШЕ НОВОЕ КИНО",
+    "ИНДИЙСКОЕ КИНО",
+    "РОДНОЕ КИНО",
+    "КИНОУЖАС",
+    "ДОРАМА",
+    "НИНДЗЯ",
+    "KINO LIVING",
+    "SAGA",
+    "АВТО ПЛЮС",
+    "КУХНЯ",
+    "ЖИВИ",
+    "НОСТАЛЬГИЯ",
+    "КТО ЕСТЬ КТО",
+    "365",
+    "ПЛАНЕТА",
+    "BIG PLANET",
+    "ЖЕНСКИЙ ЖУРНАЛ",
+    "КВН",
+    "ТОЧКА РФ",
+    "EUROPA PLUS TV",
+    "LIVE МУЗЫКА",
+    "СУПЕР ГЕРОИ",
+    "В ГОСТЯХ У СКАЗКИ",
+    "РУССКАЯ НОЧЬ",
+    "BARELY LEGAL TV",
+    "BLUE HUSTLER"
+]
+
+RED_MEDIA_KEYWORDS = {
+    "КИНОХИТ": ["kinohit", "kino_hit"],
+    "КИНОКОМЕДИЯ": ["kinokomedia", "kino_komedia", "kinocomedy"],
+    "КИНОМИКС": ["kinomix", "kino_mix"],
+    "КИНОПРЕМЬЕРА": ["kinopremiera", "kino_premiera"],
+    "КИНОСЕМЬЯ": ["kinosemya", "kino_semya"],
+    "МУЖСКОЕ КИНО": ["muzhskoe_kino", "muzhskoekino"],
+    "КИНОСЕРИЯ": ["kinoseriya", "kino_seriya"],
+    "КИНОСВИДАНИЕ": ["kinosvidanie", "kino_svidanie"],
+    "НАШЕ НОВОЕ КИНО": ["nashe_novoe_kino", "nashenovoekino"],
+    "ИНДИЙСКОЕ КИНО": ["indiyskoe_kino", "indiyskoye_kino"],
+    "РОДНОЕ КИНО": ["rodnoe_kino", "rodnoekino"],
+    "КИНОУЖАС": ["kinoujas", "kino_ujas", "kinoujas"],
+    "ДОРАМА": ["dorama"],
+    "НИНДЗЯ": ["nindzya", "ninja"],
+    "KINO LIVING": ["kino_living", "kinoliving"],
+    "SAGA": ["saga"],
+    "АВТО ПЛЮС": ["avtoplus", "avto_plus"],
+    "КУХНЯ": ["kuhnya", "kuhnya_tv"],
+    "ЖИВИ": ["zhivi", "zhivi_tv"],
+    "НОСТАЛЬГИЯ": ["nostalgia", "nostalgiya"],
+    "КТО ЕСТЬ КТО": ["kto_est_kto", "ktoestkto"],
+    "365": ["365", "365tv"],
+    "ПЛАНЕТА": ["planeta"],
+    "BIG PLANET": ["bigplanet"],
+    "ЖЕНСКИЙ ЖУРНАЛ": ["zhenskiy_zhurnal", "zhenskiyzhurnal"],
+    "КВН": ["kvn", "kvntv"],
+    "ТОЧКА РФ": ["tochka", "tochka_rf"],
+    "EUROPA PLUS TV": ["europa_plus", "europaplustv"],
+    "LIVE МУЗЫКА": ["live_music", "livemusic"],
+    "СУПЕР ГЕРОИ": ["supergeroi", "super_geroi"],
+    "В ГОСТЯХ У СКАЗКИ": ["v_gostyah_u_skazki", "skazki"],
+    "РУССКАЯ НОЧЬ": ["russkaya_noch", "russian_night"],
+    "BARELY LEGAL TV": ["barelylegal", "barely_legal"],
+    "BLUE HUSTLER": ["bluehustler", "hustler"]
+}
+
+BRIDGE_MEDIA_CHANNELS = [
+    "BRIDGE TV",
+    "BRIDGE TV HITS",
+    "BRIDGE TV CLASSIC",
+    "BRIDGE TV DELUXE",
+    "BRIDGE TV DANCE",
+    "BRIDGE TV RUSSIAN HITS",
+    "BRIDGE TV BABY TIME"
+]
+
+BRIDGE_MEDIA_KEYWORDS = {
+    "BRIDGE TV": ["bridge_tv", "bridgetv", "bridge"],
+    "BRIDGE TV HITS": ["bridge_tv_hits", "bridge_hits", "bridge_tvhits", "bridge_tv_hits"],
+    "BRIDGE TV CLASSIC": ["bridge_tv_classic", "bridge_classic"],
+    "BRIDGE TV DELUXE": ["bridge_tv_deluxe", "bridge_deluxe"],
+    "BRIDGE TV DANCE": ["bridge_tv_dance", "bridge_dance"],
+    "BRIDGE TV RUSSIAN HITS": ["bridge_russian_hits", "bridge_rus_hits"],
+    "BRIDGE TV BABY TIME": ["bridge_baby", "bridge_baby_time"]
+}
+
+
+def generate_rtrs_plus_buttons():
+    mapping = {}
+    btn = 38
+    for ch in RED_MEDIA_CHANNELS:
+        mapping[ch] = btn
+        btn += 1
+    for ch in BRIDGE_MEDIA_CHANNELS:
+        mapping[ch] = btn
+        btn += 1
+    return mapping
+
+
+RTRS_PLUS_BUTTONS = generate_rtrs_plus_buttons()
+
+
+def detect_rtrs_plus(info: str, url: str):
+    text = (info + " " + url).lower()
+
+    # RED Media
+    for title, keys in RED_MEDIA_KEYWORDS.items():
+        for k in keys:
+            if k in text:
+                btn = RTRS_PLUS_BUTTONS.get(title)
+                if btn:
+                    return btn, title, "RED Media"
+
+    # Bridge Media
+    for title, keys in BRIDGE_MEDIA_KEYWORDS.items():
+        for k in keys:
+            if k in text:
+                btn = RTRS_PLUS_BUTTONS.get(title)
+                if btn:
+                    return btn, title, "Bridge Media"
+
+    return None, None, None
 
 
 # === HTTP HELPERS ===
@@ -198,7 +432,7 @@ def save_m3u(path: str, entries):
             f.write(url + "\n")
 
 
-def save_report(path: str, alive, dead, adult):
+def save_report(path: str, alive, dead, adult, rtrs, rtrs_plus):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     with open(path, "w", encoding="utf-8") as f:
@@ -206,10 +440,12 @@ def save_report(path: str, alive, dead, adult):
         f.write("    ОТЧЁТ ПРОВЕРКИ M3U\n")
         f.write("═══════════════════════════════════\n\n")
         f.write(f"Дата: {now}\n")
-        f.write(f"Всего каналов: {len(alive) + len(dead) + len(adult)}\n")
+        f.write(f"Всего каналов (без adult): {len(alive) + len(dead)}\n")
         f.write(f"✅ Живых: {len(alive)}\n")
         f.write(f"❌ Мёртвых: {len(dead)}\n")
-        f.write(f"🚫 Заблокировано (18+): {len(adult)}\n\n")
+        f.write(f"🚫 Заблокировано (18+): {len(adult)}\n")
+        f.write(f"📡 РТРС (1–37): {len(rtrs)}\n")
+        f.write(f"📡 РТРС Плюс (RED + Bridge): {len(rtrs_plus)}\n\n")
 
         f.write("═══════════════════════════════════\n")
         f.write("    🚫 ЗАБЛОКИРОВАННЫЙ КОНТЕНТ (18+)\n")
@@ -219,6 +455,24 @@ def save_report(path: str, alive, dead, adult):
                 f.write(f"{i:03d}. 🔞 ADULT | {url}\n")
         else:
             f.write("Нет adult-каналов.\n")
+
+        f.write("\n═══════════════════════════════════\n")
+        f.write("    📡 КАНАЛЫ РТРС (1–37)\n")
+        f.write("═══════════════════════════════════\n\n")
+        if rtrs:
+            for btn, title, info, url in sorted(rtrs, key=lambda x: x[0]):
+                f.write(f'Группа: "Кнопка {btn} РТРС Плюс" | {title} | {url}\n')
+        else:
+            f.write("Нет каналов РТРС.\n")
+
+        f.write("\n═══════════════════════════════════\n")
+        f.write("    📡 РТРС ПЛЮС (RED Media + Bridge)\n")
+        f.write("═══════════════════════════════════\n\n")
+        if rtrs_plus:
+            for btn, group, title, info, url in sorted(rtrs_plus, key=lambda x: x[0]):
+                f.write(f'Группа: "Кнопка {btn} РТРС Плюс" | {group} | {title} | {url}\n')
+        else:
+            f.write("Нет каналов РТРС Плюс.\n")
 
         f.write("\n═══════════════════════════════════\n")
         f.write("    ✅ ЖИВЫЕ КАНАЛЫ\n")
@@ -260,14 +514,12 @@ def check_entries(entries):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🎬 Проверка M3U-плейлиста на живость ссылок"
+        description="🎬 Проверка M3U-плейлиста на живость ссылок + РТРС/RED/Bridge"
     )
     parser.add_argument("source", help="Путь к M3U-файлу или URL")
-
     parser.add_argument("-o", "--output", default="alive.m3u", help="Файл живых каналов (M3U)")
     parser.add_argument("-8", "--output8", default="alive.m3u8", help="Файл живых каналов (M3U8)")
     parser.add_argument("-r", "--report", default="report.txt", help="TXT отчёт")
-
     args = parser.parse_args()
 
     all_entries = []
@@ -286,23 +538,37 @@ def main():
             vk_entries = parse_m3u(vk_text)
             all_entries.extend(vk_entries)
 
-    # === Сбор adult-контента ДО фильтрации ===
+    # Сбор adult до фильтрации
     adult_entries = [
         (info, url) for info, url in all_entries
         if is_adult(info, url)
     ]
 
-    # === Фильтрация ===
+    # Фильтрация adult + мусор
     all_entries = [
         (info, url) for info, url in all_entries
         if not is_adult(info, url) and not is_bad(info, url)
     ]
 
+    # Определение РТРС
+    rtrs_detected = []
+    for info, url in all_entries:
+        btn, title = detect_rtrs_button(info, url)
+        if btn:
+            rtrs_detected.append((btn, title, info, url))
+
+    # Определение РТРС Плюс (RED + Bridge)
+    rtrs_plus_detected = []
+    for info, url in all_entries:
+        btn, title, group = detect_rtrs_plus(info, url)
+        if btn:
+            rtrs_plus_detected.append((btn, group, title, info, url))
+
     alive, dead = check_entries(all_entries)
 
     save_m3u(args.output, alive)
     save_m3u(args.output8, alive)
-    save_report(args.report, alive, dead, adult_entries)
+    save_report(args.report, alive, dead, adult_entries, rtrs_detected, rtrs_plus_detected)
 
 
 if __name__ == "__main__":
