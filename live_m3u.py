@@ -708,7 +708,98 @@ def process_playlist(entries):
 
     return result
 
+# ============================================================
+#   PHOENIX EDITION — ОТЧЁТЫ
+# ============================================================
 
+def write_report(filename: str, title: str, channels: list):
+    """
+    Универсальная функция записи отчёта.
+    channels = список структур:
+        {
+            "name": ...,
+            "button": ...,
+            "category": ...,
+            "extinf": ...,
+            "url": ...
+        }
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(f"=== {title} ===\n")
+        f.write(f"Всего каналов: {len(channels)}\n\n")
+
+        for ch in channels:
+            f.write(f"{ch['extinf']}\n{ch['url']}\n\n")
+
+
+# === ОТЧЁТ РТРС 1–37 ===
+
+def report_rtrs(data):
+    write_report(
+        "report_rtrs.txt",
+        "РТРС 1–37",
+        data["rtrs"]
+    )
+
+
+# === ОТЧЁТ МАТЧ-СЕМЕЙСТВА ===
+
+def report_match(data):
+    write_report(
+        "report_match.txt",
+        "Матч-семейство (3.x)",
+        data["match"]
+    )
+
+
+# === ОТЧЁТ НТВ-СЕМЕЙСТВА ===
+
+def report_ntv(data):
+    write_report(
+        "report_ntv.txt",
+        "НТВ-семейство (4.x)",
+        data["ntv"]
+    )
+
+
+# === ОТЧЁТ РТРС ПЛЮС (RED MEDIA 47) ===
+
+def report_rtrs_plus(data):
+    write_report(
+        "report_rtrs_plus.txt",
+        "РТРС Плюс (RED Media 47)",
+        data["rtrs_plus"]
+    )
+
+
+# === ОТЧЁТ RED MEDIA (базовый список) ===
+
+def report_red(data):
+    write_report(
+        "report_red.txt",
+        "RED Media (базовый список)",
+        data["red"]
+    )
+
+
+# === ОТЧЁТ BRIDGE MEDIA ===
+
+def report_bridge(data):
+    write_report(
+        "report_bridge.txt",
+        "Bridge Media",
+        data["bridge"]
+    )
+
+
+# === ОТЧЁТ UNKNOWN («Разбираемся») ===
+
+def report_unknown(data):
+    write_report(
+        "report_unknown.txt",
+        "Разбираемся (неопознанные каналы)",
+        data["unknown"]
+    )
 
 
 
