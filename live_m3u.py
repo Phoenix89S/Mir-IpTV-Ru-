@@ -708,6 +708,13 @@ def process_playlist(entries):
 
     return result
 
+def process_playlist(entries):
+    cleaned = []
+    for info, url in entries:
+        info = enhance_extinf(info)
+        cleaned.append((info, url))
+    return cleaned
+
 # ============================================================
 #   PHOENIX EDITION — ОТЧЁТЫ
 # ============================================================
@@ -801,8 +808,681 @@ def report_unknown(data):
         data["unknown"]
     )
 
+# ============================================================
+#   PHOENIX EDITION — ГЛАВНЫЙ СВОДНЫЙ ОТЧЁТ
+# ============================================================
+
+def report_phoenix_summary(data):
+    """
+    Создаёт главный сводный отчёт Phoenix Edition.
+    """
+
+    with open("report_phoenix_summary.txt", "w", encoding="utf-8") as f:
+
+        f.write("=== PHOENIX EDITION — СВОДНЫЙ ОТЧЁТ ===\n\n")
+
+        # Общая статистика
+        f.write("=== ОБЩАЯ СТАТИСТИКА ===\n")
+        f.write(f"Всего каналов: {len(data['all'])}\n")
+        f.write(f"РТРС 1–37: {len(data['rtrs'])}\n")
+        f.write(f"Матч-семейство (3.x): {len(data['match'])}\n")
+        f.write(f"НТВ-семейство (4.x): {len(data['ntv'])}\n")
+        f.write(f"РТРС Плюс (RED Media 47): {len(data['rtrs_plus'])}\n")
+        f.write(f"RED Media (базовый список): {len(data['red'])}\n")
+        f.write(f"Bridge Media: {len(data['bridge'])}\n")
+        f.write(f"Неопознанные (Разбираемся): {len(data['unknown'])}\n\n")
+
+        # Подробный вывод
+        f.write("=== ПОДРОБНЫЙ СПИСОК КАНАЛОВ ===\n\n")
+
+        for ch in data["all"]:
+            f.write(f"[{ch['button']}] {ch['name']}  ({ch['category']})\n")
+            f.write(f"{ch['url']}\n\n")
+
+# ============================================================
+#   PHOENIX EDITION — ADULT (18+) ОТЧЁТ
+# ============================================================
+
+ADULT_KEYWORDS = [
+    "xxx", "18+", "18 plus", "adult", "porn", "sex",
+    "hustler", "barely legal", "blue hustler",
+    "эрот", "порно", "ночь", "russian night"
+]
 
 
+def is_adult_channel(name: str) -> bool:
+    n = normalize_name(name)
+    for kw in ADULT_KEYWORDS:
+        if kw in n:
+            return True
+    return False
+
+
+def report_adult(data):
+    """
+    Собирает все каналы 18+ из всех категорий.
+    """
+
+    adult_list = []
+
+    for ch in data["all"]:
+        if is_adult_channel(ch["name"]):
+            adult_list.append(ch)
+
+    write_report(
+        "report_adult.txt",
+        "ADULT (18+) Каналы",
+        adult_list
+    )
+
+# ============================================================
+#   PHOENIX EDITION — ОТЧЁТ ЖИВЫХ / МЁРТВЫХ КАНАЛОВ
+# ============================================================
+
+def report_alive_dead(data, alive_urls):
+    """
+    alive_urls — множество URL, которые прошли проверку (живые)
+    """
+
+    alive = []
+    dead = []
+
+    for ch in data["all"]:
+        if ch["url"] in alive_urls:
+            alive.append(ch)
+        else:
+            dead.append(ch)
+
+    # Живые
+    write_report(
+        "report_alive.txt",
+        "Живые каналы (Alive)",
+        alive
+    )
+
+    # Мёртвые
+    write_report(
+        "report_dead.txt",
+        "Мёртвые каналы (Dead)",
+        dead
+    )
+
+# ============================================================
+#   PHOENIX EDITION — MAIN()
+# ============================================================
+
+def load_playlist(filename: str):
+    """
+    Загружает M3U и возвращает список:
+    [(info, url), (info, url), ...]
+    """
+    entries = []
+    info = None
+
+    with open(filename, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+
+            if line.startswith("#EXTINF"):
+                info = line
+
+            elif line.startswith("http"):
+                if info:
+                    entries.append((info, line))
+                info = None
+
+    return entries
+
+
+def main():
+    print("PHOENIX EDITION — START")
+
+    # 1. Загружаем плейлист
+    entries = load_playlist("input.m3u")
+
+    # 2. Обрабатываем каналы
+    data = process_playlist(entries)
+
+    # 3. Генерируем отчёты Phoenix Edition
+    report_rtrs(data)
+    report_match(data)
+    report_ntv(data)
+    report_rtrs_plus(data)
+    report_red(data)
+    report_bridge(data)
+    report_unknown(data)
+    report_phoenix_summary(data)
+
+    # 4. Проверка живых/мёртвых (из части 5)
+    alive_urls = run_checker(entries)
+    report_alive_dead(data, alive_urls)
+
+    # 5. Финальный вывод
+    print("PHOENIX EDITION — DONE")
+
+# ============================================================
+#   PHOENIX EDITION — ГЕНЕРАЦИЯ ФИНАЛЬНОГО ПЛЕЙЛИСТА
+# ============================================================
+
+def generate_final_playlist(data):
+    """
+    Создаёт phoenix_output.m3u
+    Каналы сортируются по кнопкам.
+    """
+
+    # 1. Сортируем по кнопке
+    sorted_channels = sorted(
+        data["all"],
+        key=lambda ch: (
+            float(ch["button"]) if isinstance(ch["button"], str) and "." in ch["button"]
+            else int(ch["button"])
+        )
+    )
+
+    # 2. Записываем в файл
+    with open("phoenix_output.m3u", "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n\n")
+
+        for ch in sorted_channels:
+            f.write(f"{ch['extinf']}\n")
+            f.write(f"{ch['url']}\n\n")
+
+# ============================================================
+#   PHOENIX EDITION — ДОПОЛНИТЕЛЬНАЯ СОРТИРОВКА
+# ============================================================
+
+def phoenix_sort_key(ch):
+    """
+    Универсальный ключ сортировки Phoenix Edition.
+    Работает для:
+    - целых кнопок (1–37)
+    - дробных кнопок (3.x, 4.x)
+    - кнопок 38.x (RED Media 47)
+    - служебных кнопок (100, 101, 999)
+    """
+
+    btn = ch["button"]
+
+    # 1. Unknown всегда в самом конце
+    if btn == 999:
+        return (9999, 9999)
+
+    # 2. Если кнопка строка вида "3.6"
+    if isinstance(btn, str) and "." in btn:
+        major, minor = btn.split(".")
+        return (int(major), float(minor))
+
+    # 3. Обычные кнопки
+    return (int(btn), 0)
+
+
+def sort_phoenix(data):
+    """
+    Сортирует data["all"] по Phoenix‑правилам.
+    """
+
+    data["all"] = sorted(
+        data["all"],
+        key=phoenix_sort_key
+    )
+
+    return data
+
+# ============================================================
+#   PHOENIX EDITION — MAIN() (обновлённая версия)
+# ============================================================
+
+def main():
+    print("PHOENIX EDITION — START")
+
+    # 1. Загружаем плейлист
+    entries = load_playlist("input.m3u")
+    entries = garbage_cleaner(entries)
+
+    # 2. Обрабатываем каналы
+    data = process_playlist(entries)
+
+    # 3. Применяем Phoenix‑сортировку
+    data = sort_phoenix(data)
+
+    # 4. Генерируем финальный плейлист
+    generate_final_playlist(data)
+
+    # 5. Генерируем отчёты Phoenix Edition
+    report_rtrs(data)
+    report_match(data)
+    report_ntv(data)
+    report_rtrs_plus(data)
+    report_red(data)
+    report_bridge(data)
+    report_unknown(data)
+    report_phoenix_summary(data)
+
+    # 6. Проверка живых/мёртвых (из части 5)
+    alive_urls = run_checker(entries)
+    report_alive_dead(data, alive_urls)
+
+    # 7. Финальный вывод
+    print("PHOENIX EDITION — DONE")
+
+def main():
+    setup_logging()
+    logging.info("MAIN() запущен")
+
+    entries = load_playlist("input.m3u")
+    logging.info(f"Загружено строк: {len(entries)}")
+
+    data = process_playlist(entries)
+    logging.info(f"Обработано каналов: {len(data['all'])}")
+
+    data = deduplicate_channels(data)
+    data = sort_phoenix(data)
+
+    generate_final_playlist(data)
+    logging.info("Финальный плейлист создан")
+
+    save_with_backup("phoenix_output.m3u")
+
+    alive_urls = run_checker(entries)
+    report_alive_dead(data, alive_urls)
+
+    logging.info("=== PHOENIX EDITION DONE ===")
+
+data = deduplicate_channels(data)
+sorted_data = phoenix_sort(data)
+generate_final_playlist(sorted_data)
+
+
+# ============================================================
+#   PHOENIX EDITION — АНТИ-ДУБЛИКАТОР
+# ============================================================
+
+def deduplicate_channels(data):
+    """
+    Удаляет дубли каналов.
+    Логика:
+    - ключ: нормализованное имя канала
+    - если канал встречается несколько раз:
+        → оставляем первый (или лучший) вариант
+    """
+
+    unique = {}
+    result_all = []
+
+    for ch in data["all"]:
+        key = normalize_name(ch["name"])
+
+        # Если такого канала ещё нет — добавляем
+        if key not in unique:
+            unique[key] = ch
+            result_all.append(ch)
+
+        # Если есть — пропускаем (дубликат)
+        else:
+            # Можно расширить логику выбора лучшего варианта
+            # Пока оставляем первый найденный
+            pass
+
+    # Обновляем data["all"]
+    data["all"] = result_all
+
+    # Пересобираем категории
+    data["rtrs"]       = [ch for ch in result_all if ch["category"] == "rtrs"]
+    data["match"]      = [ch for ch in result_all if ch["category"] == "match"]
+    data["ntv"]        = [ch for ch in result_all if ch["category"] == "ntv"]
+    data["rtrs_plus"]  = [ch for ch in result_all if ch["category"] == "rtrs_plus"]
+    data["red"]        = [ch for ch in result_all if ch["category"] == "red"]
+    data["bridge"]     = [ch for ch in result_all if ch["category"] == "bridge"]
+    data["unknown"]    = [ch for ch in result_all if ch["category"] == "unknown"]
+
+    return data
+
+def deduplicate_channels(data):
+    logging.info("Запуск анти-дубликатора")
+
+    unique = {}
+    result_all = []
+
+    for ch in data["all"]:
+        key = normalize_name(ch["name"])
+
+        if key not in unique:
+            unique[key] = ch
+            result_all.append(ch)
+        else:
+            logging.warning(f"Дубликат удалён: {ch['name']}")
+
+    logging.info(f"Анти-дубликатор завершён. Уникальных каналов: {len(result_all)}")
+
+    data["all"] = result_all
+    return data
+
+# ============================================================
+#   PHOENIX EDITION — MAIN() (финальная версия с анти-дубликатором)
+# ============================================================
+
+def main():
+    print("PHOENIX EDITION — START")
+
+    # 1. Загружаем плейлист
+    entries = load_playlist("input.m3u")
+
+    # 2. Обрабатываем каналы
+    data = process_playlist(entries)
+
+    # 3. Удаляем дубли
+    data = deduplicate_channels(data)
+
+    # 4. Применяем Phoenix‑сортировку
+    data = sort_phoenix(data)
+
+    # 5. Генерируем финальный плейлист
+    generate_final_playlist(data)
+
+    # Вставляется сразу после generate_final_playlist(data)
+
+    generate_final_playlist(data)
+    save_with_backup("phoenix_output.m3u")
+
+    # 6. Генерируем отчёты Phoenix Edition
+    report_rtrs(data)
+    report_match(data)
+    report_ntv(data)
+    report_rtrs_plus(data)
+    report_red(data)
+    report_bridge(data)
+    report_unknown(data)
+    report_adult(data)
+    report_phoenix_summary(data)
+
+    # 7. Проверка живых/мёртвых (из части 5)
+    alive_urls = run_checker(entries)
+    report_alive_dead(data, alive_urls)
+
+    # 8. Финальный вывод
+    print("PHOENIX EDITION — DONE")
+
+
+
+# ============================================================
+#   PHOENIX EDITION — АВТО-СОХРАНЕНИЕ + РЕЗЕРВНОЕ КОПИРОВАНИЕ
+# ============================================================
+
+import os
+from datetime import datetime
+
+
+def save_with_backup(filename: str):
+    """
+    Создаёт резервную копию phoenix_output.m3u
+    в папке backup/ с датой и временем.
+    """
+
+    # Создаём папку backup, если её нет
+    if not os.path.exists("backup"):
+        os.makedirs("backup")
+
+    # Формируем имя резервной копии
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    backup_name = f"backup/phoenix_output_{timestamp}.m3u"
+
+    # Копируем файл
+    with open(filename, "r", encoding="utf-8") as src:
+        with open(backup_name, "w", encoding="utf-8") as dst:
+            dst.write(src.read())
+
+    print(f"[BACKUP] Создана резервная копия: {backup_name}")
+
+# ============================================================
+#   PHOENIX EDITION — ЛОГИРОВАНИЕ
+# ============================================================
+
+import logging
+
+def setup_logging():
+    """
+    Настраивает логирование Phoenix Edition.
+    Логи пишутся в phoenix.log
+    """
+
+    logging.basicConfig(
+        filename="phoenix.log",
+        filemode="a",
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s",
+        encoding="utf-8"
+    )
+
+    logging.info("=== PHOENIX EDITION STARTED ===")
+
+# ============================================================
+#   PHOENIX EDITION — GARBAGE CLEANER
+# ============================================================
+
+def garbage_cleaner(entries):
+    """
+    Удаляет мусор из входного плейлиста.
+    - пустые строки
+    - битые EXTINF
+    - строки без URL
+    - EXTINF без имени
+    """
+
+    cleaned = []
+    removed = 0
+
+    for info, url in entries:
+
+        # 1. Пустые строки
+        if not info and not url:
+            removed += 1
+            continue
+
+        # 2. EXTINF должен начинаться с #EXTINF
+        if not info.startswith("#EXTINF"):
+            removed += 1
+            continue
+
+        # 3. URL должен быть http/https
+        if not url.startswith("http"):
+            removed += 1
+            continue
+
+        # 4. EXTINF должен содержать имя
+        if "," not in info:
+            removed += 1
+            continue
+
+        name = info.split(",", 1)[1].strip()
+        if not name:
+            removed += 1
+            continue
+
+        cleaned.append((info, url))
+
+    logging.info(f"GARBAGE CLEANER: удалено мусора: {removed}")
+    return cleaned
+
+# ============================================================
+#   PHOENIX EDITION — EXTINF ENHANCER
+# ============================================================
+
+import re
+import logging
+
+def enhance_extinf(info_line: str) -> str:
+    """
+    Оптимизирует строку EXTINF:
+    - удаляет мусорные теги
+    - нормализует пробелы
+    - исправляет битые названия
+    - добавляет HD/SD метки
+    """
+
+    if not info_line.startswith("#EXTINF"):
+        return info_line
+
+    # Удаляем лишние пробелы и мусорные атрибуты
+    info_line = re.sub(r'\s+', ' ', info_line)
+    info_line = re.sub(r'tvg-logo="[^"]*"', '', info_line)
+    info_line = re.sub(r'tvg-id="[^"]*"', '', info_line)
+
+    # Извлекаем имя канала
+    parts = info_line.split(",", 1)
+    if len(parts) < 2:
+        return info_line
+
+    name = parts[1].strip()
+
+    # Исправляем битые символы
+    name = name.replace("??", "").replace("�", "")
+
+    # Добавляем HD/SD метку
+    if "1080" in info_line or "HD" in name.upper():
+        name = f"{name} HD"
+    elif "480" in info_line or "SD" in name.upper():
+        name = f"{name} SD"
+
+    # Нормализуем регистр
+    name = name.title()
+
+    enhanced = f"{parts[0]},{name}"
+    logging.info(f"EXTINF оптимизирован: {name}")
+    return enhanced
+
+# ============================================================
+#   PHOENIX EDITION — SMART SORTER
+# ============================================================
+
+CATEGORY_MAP = {
+    "спорт": ["матч", "спорт", "match", "arena"],
+    "кино": ["кино", "film", "movie", "хдrezka"],
+    "детские": ["дет", "kids", "cartoon", "аним"],
+    "новости": ["news", "новост", "мир24", "рбк"],
+    "музыка": ["music", "муз", "mtv", "bridge"],
+    "развлечения": ["тв3", "пятница", "тнт", "comedy"],
+    "док": ["discovery", "natgeo", "history", "doc"],
+}
+
+POPULARITY = [
+    "Первый", "Россия 1", "Матч ТВ", "НТВ", "ТНТ",
+    "СТС", "РЕН ТВ", "Пятница", "ТВ-3"
+]
+
+def detect_category(name: str) -> str:
+    lname = name.lower()
+    for cat, keys in CATEGORY_MAP.items():
+        if any(k in lname for k in keys):
+            return cat
+    return "прочее"
+
+def phoenix_sort(data):
+    """
+    Сортирует каналы по категориям, HD приоритет, популярность.
+    """
+    buckets = {}
+
+    for ch in data["all"]:
+        name = ch["name"]
+        cat = detect_category(name)
+
+        if cat not in buckets:
+            buckets[cat] = []
+
+        buckets[cat].append(ch)
+
+    # сортировка внутри категорий
+    for cat in buckets:
+        buckets[cat].sort(
+            key=lambda x: (
+                0 if "HD" in x["name"].upper() else 1,   # HD приоритет
+                POPULARITY.index(x["name"]) if x["name"] in POPULARITY else 999
+            )
+        )
+
+    logging.info("Phoenix Sorter: сортировка завершена")
+    return buckets
+
+# ============================================================
+#   PHOENIX EDITION — OUTPUT ENGINE
+# ============================================================
+
+def generate_final_playlist(sorted_data, output_file="phoenix_output.m3u"):
+    """
+    Генерирует идеальный M3U:
+    - правильные заголовки групп
+    - сортировка по категориям
+    - корректный EXTINF
+    - чистые URL
+    """
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+
+        for category, channels in sorted_data.items():
+
+            # Заголовок группы
+            f.write(f"\n# ------- {category.upper()} -------\n")
+
+            for ch in channels:
+                info = ch["extinf"]
+                url = ch["url"]
+
+                # Гарантируем корректный формат EXTINF
+                if not info.startswith("#EXTINF"):
+                    info = f"#EXTINF:-1,{ch['name']}"
+
+                f.write(info + "\n")
+                f.write(url + "\n")
+
+    logging.info(f"Phoenix Output Engine: создан файл {output_file}")
+
+# ============================================================
+#   PHOENIX EDITION — HEALTH MONITOR
+# ============================================================
+
+import requests
+import logging
+
+def check_channel(url: str, timeout: int = 5) -> bool:
+    """
+    Проверяет, жив ли канал:
+    - HEAD запрос
+    - статус 200/206 = OK
+    - таймаут = мёртвый
+    """
+    try:
+        r = requests.head(url, timeout=timeout, allow_redirects=True)
+        if r.status_code in (200, 206):
+            return True
+        return False
+    except:
+        return False
+
+
+def health_monitor(channels):
+    """
+    Возвращает два списка:
+    - живые каналы
+    - мёртвые каналы
+    """
+    alive = []
+    dead = []
+
+    for ch in channels:
+        url = ch["url"]
+        name = ch["name"]
+
+        status = check_channel(url)
+
+        if status:
+            alive.append(ch)
+            logging.info(f"[OK] Канал жив: {name}")
+        else:
+            dead.append(ch)
+            logging.warning(f"[DEAD] Канал мёртв: {name}")
+
+    return alive, dead
 
 
 
