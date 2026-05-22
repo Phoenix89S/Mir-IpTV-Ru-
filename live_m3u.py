@@ -1484,11 +1484,122 @@ def health_monitor(channels):
 
     return alive, dead
 
+# ============================================================
+#   PHOENIX EDITION — AUTO BACKUP SYSTEM
+# ============================================================
 
+import os
+import shutil
+from datetime import datetime
 
+BACKUP_DIR = "backups"
 
+def ensure_backup_dir():
+    if not os.path.exists(BACKUP_DIR):
+        os.makedirs(BACKUP_DIR)
 
+def create_backup(file_path: str):
+    """
+    Создаёт резервную копию файла:
+    - timestamp в названии
+    - хранение истории
+    - защита от перезаписи
+    """
+    ensure_backup_dir()
 
+    if not os.path.exists(file_path):
+        return False
+
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    backup_name = f"{BACKUP_DIR}/playlist_{timestamp}.m3u"
+
+    shutil.copy(file_path, backup_name)
+    logging.info(f"Backup создан: {backup_name}")
+
+    return backup_name
+
+def safe_generate_playlist(sorted_data):
+    # 1. Создаём бэкап предыдущего файла
+    create_backup("phoenix_output.m3u")
+
+    # 2. Генерируем новый
+    generate_final_playlist(sorted_data)
+
+# ============================================================
+#   PHOENIX EDITION — REPORT ENGINE
+# ============================================================
+
+import json
+from datetime import datetime
+
+REPORT_DIR = "reports"
+
+def ensure_report_dir():
+    if not os.path.exists(REPORT_DIR):
+        os.makedirs(REPORT_DIR)
+
+def generate_report(data, dead, alive):
+    """
+    Создаёт подробный отчёт:
+    - общее количество каналов
+    - живые / мёртвые
+    - категории
+    - изменения
+    """
+
+    ensure_report_dir()
+
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    report_file = f"{REPORT_DIR}/report_{timestamp}.txt"
+
+    with open(report_file, "w", encoding="utf-8") as f:
+
+        f.write("PHOENIX EDITION — ОТЧЁТ О ПЛЕЙЛИСТЕ\n")
+        f.write(f"Дата: {timestamp}\n\n")
+
+        f.write("=== ОБЩАЯ СТАТИСТИКА ===\n")
+        f.write(f"Всего каналов: {len(data['all'])}\n")
+        f.write(f"Живые: {len(alive)}\n")
+        f.write(f"Мёртвые: {len(dead)}\n\n")
+
+        f.write("=== КАТЕГОРИИ ===\n")
+        for cat, items in data["sorted"].items():
+            f.write(f"{cat}: {len(items)}\n")
+        f.write("\n")
+
+        f.write("=== МЁРТВЫЕ КАНАЛЫ ===\n")
+        for ch in dead:
+            f.write(f"- {ch['name']} ({ch['url']})\n")
+        f.write("\n")
+
+        f.write("=== ЖИВЫЕ КАНАЛЫ ===\n")
+        for ch in alive:
+            f.write(f"- {ch['name']}\n")
+
+    logging.info(f"Отчёт создан: {report_file}")
+    return report_file
+
+def phoenix_master_engine():
+    raw = load_playlist()
+
+    cleaned = garbage_cleaner(raw)
+    named = auto_detect_names(cleaned)
+    enhanced = [(enhance_extinf(i), u) for i, u in named]
+    unique = deduplicate_channels(enhanced)
+
+    grouped = group_resolver(unique)
+    sorted_data = phoenix_sort(grouped)
+
+    alive, dead = health_monitor(sorted_data["all"])
+    sorted_data["alive"] = alive
+    sorted_data["dead"] = dead
+
+    create_backup("phoenix_output.m3u")
+    generate_report(sorted_data, dead, alive)
+
+    generate_final_playlist(sorted_data)
+
+    logging.info("PHOENIX MASTER ENGINE: полный цикл завершён")
 
 
 
