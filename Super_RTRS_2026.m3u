@@ -7191,8 +7191,8 @@ https://stream8.cinerama.uz/1253/tracks-v1a1/mono.m3u8
 https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/stv-by.png" group-title="Aggregator - Axenov / Общественные",CTV.BY HD
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="izvestia" tvg-logo="https://iptvx.one/picons/izvestia.png" group-title="Информационные",Известия HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2271.png" group-title="Aggregator - Axenov",Известия HD
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 #EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://iptvx.one/picons/moskva-24.png" group-title="Информационные",М24
 https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
 #EXTINF:-1 tvg-logo="https://school.radiokids.fm/wp-content/uploads/2019/08/Logo_main.png" group-title="Aggregator - Axenov / Детские",RADIOKIDS.FM
@@ -7867,9 +7867,9 @@ https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8
 https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SkwadPlay.us@SD" tvg-logo="https://i.imgur.com/cP56PrG.png" group-title="Kids",SKWAD (1080p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71
-#EXTINF:-1 tvg-id="Sonic.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Kids",Sonic (576p)
+#EXTINF:-1 tvg-id="Sonic.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Kids" [OLD],Sonic (576p)
 http://103.122.249.134:8000/play/a051
-#EXTINF:-1 tvg-id="SpacetoonArabic.ae@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" group-title="Animation;Kids",Spacetoon Arabic (1080p)
+#EXTINF:-1 tvg-id="SpacetoonArabic.ae@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" group-title="Animation;Kids" [OLD],Spacetoon Arabic (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
 #EXTINF:-1 tvg-id="SpongeBobSchwammkopf.us@Germany" tvg-logo="https://i.imgur.com/NIsgNvI.png" group-title="Kids",SpongeBob Schwammkopf (720p)
 https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
@@ -8861,7 +8861,7 @@ http://176.118.197.101/Cartoon_Network/index.m3u8
 http://158.160.149.81:8080/269/index.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/tiji.png" group-title="Aggregator - Axenov / Детские",TiJi
 http://45.145.32.13:20440/tiji/index.m3u8?token=test
-#EXTINF:-1 tvg-id="multimania" tvg-logo="https://iptvx.one/picons/multimania.png" group-title="Детские" ,Мультиландия
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/multimania.png" group-title="Aggregator - Axenov / Детские",Мультиландия
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://iptvx.one/picons/sarafan.png" group-title="Развлекательные" ,Сарафан
 http://93.84.115.174:10181/sarafan
@@ -9455,7 +9455,7 @@ https://stream.teotv.ru/live/site360/playlist.m3u8
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" group-title="Kids",Disney XD (720p)
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" group-title="Kids",Nick Jr. (576p)
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" group-title="Kids" [OLD],Nick Jr. (576p)
 http://103.122.249.134:8000/play/a04y
 #EXTINF:-1 tvg-id="HodHodFarsiTV.ir@SD" tvg-logo="https://i.imgur.com/l8XMKTT.png" group-title="Kids",HodHod Farsi TV (1080p)
 https://northtelecom.b-cdn.net/hodhodtv.m3u8
@@ -19633,3 +19633,13 @@ https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/m
 https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 4
 http://stream1.panocloud.com/KlagenfurtNeuerPlatz/KlagenfurtNeuerPlatz.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",51
+http://ibb-media4.ibb.gov.tr:1935/live/94.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 34.РАЗВЛЕКАТЕЛЬНЫЕ 🤡",Столото ТВ HD
+https://user10573.clients-cdnnow.ru/hls/user67240_1_1080p/index.m3u8
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Мультиландия HD.png" group-title="Aggregator - Rafail1982 / Детские",Мультиландия HD
+http://s8.rafail1982.uz/1440/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Sol Televisión (720p)
+https://video03.logicahost.com.br/soltv/soltv/playlist.m3u8
+#EXTINF:-1 ,#НАШ канал
+http://cdn.kubteltv.workers.dev/?ID=414
