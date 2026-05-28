@@ -352,6 +352,12 @@ GITHUB_PLAYLISTS = [
     "https://iptv-org.github.io/iptv/subdivisions/de-st.m3u",  # Sachsen-Anhalt
     "https://iptv-org.github.io/iptv/subdivisions/de-sh.m3u",  # Schleswig-Holstein
     "https://iptv-org.github.io/iptv/subdivisions/de-th.m3u",  # Thüringen
+
+    # --- Новый TXT‑источник (usanyken/IPTV-3) ---
+    "https://raw.githubusercontent.com/usanyken/IPTV-3/master/IPTV.txt",
+
+
+
 ]
 
 # Имя итогового файла, который и есть твой главный плейлист
