@@ -272,6 +272,8 @@ GITHUB_PLAYLISTS = [
 
     # --- iptv-org расширенные RU ---
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_15plusmg.m3u",
+
+"https://raw.githubusercontent.com/Phoenix89S/Mir-IpTV-Ru-/main/Mego.m3u",   # Твой новый источник Mego.m3u
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_bonustv.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_catcast.m3u",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_mylifeisgood.m3u",
