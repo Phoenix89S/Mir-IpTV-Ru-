@@ -356,7 +356,19 @@ GITHUB_PLAYLISTS = [
     # --- Новый TXT‑источник (usanyken/IPTV-3) ---
     "https://raw.githubusercontent.com/usanyken/IPTV-3/master/IPTV.txt",
 
+# --- Redsickle IPTV ---
+    "https://raw.githubusercontent.com/redsickle-iptv/iptv/master/iptvhd_ru.m3u",      # redsickle-iptv HD
+    "https://raw.githubusercontent.com/redsickle-iptv/iptv/master/playlist.m3u8",      # redsickle-iptv Playlist
 
+    # --- naggdd ---
+    "https://raw.githubusercontent.com/naggdd/iptv/main/ru.m3u",                       # naggdd ru
+    "https://raw.githubusercontent.com/naggdd/iptv/main/radio.m3u",                    # naggdd radio
+
+    # --- badshave ---
+    "https://raw.githubusercontent.com/badshave/watch-russian-iptv6/main/watch-russian-iptv.m3u",   # badshave russian iptv
+
+    # --- Dmitryi55 ---
+    "https://raw.githubusercontent.com/Dmitryi55/ruIPTV/main/IPTVru.m3u",              # Dmitryi55 ruIPTV
 
 ]
 
