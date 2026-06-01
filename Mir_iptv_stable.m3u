@@ -5022,13 +5022,13 @@ http://185.78.112.47:8077/Dorama/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", OVAA
 http://vod.tuva.ru/ovaa/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Premiere
-https://stream2.somon.tv/vippremiera/index.m3u8
+http://tv.woobl.ru/viju_plus_premiere_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Serial
-https://stream2.somon.tv/vipserial/index.m3u8
+http://tv.woobl.ru/viju_plus_serial_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Megahit
 http://tv.woobl.ru/viju_plus_megahit_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Comedy
-https://stream2.somon.tv/vipcomedy/index.m3u8
+http://tv.woobl.ru/viju_plus_comedy_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1 group-title="Кино и сериалы", Amedia Hit
 http://185.78.112.47:8077/amedia_hit_hd/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Amedia Hit HD
@@ -5319,8 +5319,6 @@ https://stream8.cinerama.uz/1222/tracks-v1a1/mono.m3u8
 http://cdn.kubteltv.workers.dev/?ID=61
 #EXTINF:-1 group-title="Познавательные", Univer (Универ)
 http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
-#EXTINF:-1 group-title="Познавательные", Московское образование (Мособр)
-https://retrtb.educom.ru/mosobrtv/tv2/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Арсенал
 https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Приключения
