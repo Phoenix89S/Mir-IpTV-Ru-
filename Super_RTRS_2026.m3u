@@ -5207,6 +5207,8 @@ https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
 https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,Viju TV1000 Русское Кино
 http://91.221.252.12:82/tv68
+#EXTINF:-1 ,Viju TV1000 Новелла
+http://cdn.kubteltv.workers.dev/?ID=381
 
 # ===== Кнопка 28 =====
 #EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / SMOTRIM",1+1 International HD
@@ -20543,12 +20545,6 @@ http://cdn.kubteltv.workers.dev/?ID=61
 http://listen7.myradio24.com:9000/rkradio_320.mp3
 #EXTINF:-1 tvg-id="SanktPeterburg.ru@SD",Санкт-Петербург
 https://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 1
-https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera2.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 2
-https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera3.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 4
-http://stream1.panocloud.com/KlagenfurtNeuerPlatz/KlagenfurtNeuerPlatz.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",30
 http://ibb-media4.ibb.gov.tr:1935/live/3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 41.𝕄𝕦𝕤𝕚𝕔 🇪🇺",AFROBEATSᴴᴰ
@@ -20641,3 +20637,25 @@ https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619
 https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
 #EXTINF:-1 group-title="Кинозалы Смотрим", 100% Факты
 https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 1
+https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera2.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 2
+https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera3.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 4
+http://stream1.panocloud.com/KlagenfurtNeuerPlatz/KlagenfurtNeuerPlatz.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YzkwTHb.png" group-title="Aggregator - Rafail1982",Сугд HD (Худжанд)
+https://stream2.somon.tv/sugd/index.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",ТВ-Кулоб (Куляб)
+https://stream2.somon.tv/kulob/index.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 13.СНГ ♻️",Шахнавоз HD
+https://stream2.somon.tv/tmt/index.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 2.НОВОСТИ 👁‍🗨",ИЗВЕСТИЯ SD
+https://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 41.𝕄𝕦𝕤𝕚𝕔 🇪🇺",MERU TV SD
+https://goliveafrica.media:9998/live/628e5c1991061/index.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Thái Nguyên TV (720p)
+https://streaming.thainguyentv.vn/hls/livestream.m3u8
+#EXTINF:-1,History HD
+http://162.19.246.113/History/index.m3u8
+#EXTINF:-1 ,Феникс плюс кино
+http://cdn.kubteltv.workers.dev/?ID=72
