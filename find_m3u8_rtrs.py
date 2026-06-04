@@ -1147,6 +1147,32 @@ def build_playlist(merged_channels):
             if data["manual"] and MANUAL_TAG not in meta:
                 meta = meta.replace(",", f" {MANUAL_TAG},")
 
+            # ============================
+            #   EPG: применение движка
+            # ============================
+            tvg_id, shift, title = apply_epg(name)
+
+            # Пересобираем meta с EPG-тегами
+            new_meta = "#EXTINF:-1"
+
+            if tvg_id:
+                new_meta += f' tvg-id="{tvg_id}"'
+
+            if shift is not None:
+                new_meta += f' tvg-shift="{shift}"'
+
+            # Добавляем MANUAL/OLD если они были
+            if MANUAL_TAG in meta:
+                new_meta += f' {MANUAL_TAG}'
+            if OLD_TAG in meta:
+                new_meta += f' {OLD_TAG}'
+
+            # Финальное имя канала
+            new_meta += f',{title}'
+
+            meta = new_meta
+            # ============================
+
             output.append(meta)
             output.append(url)
 
