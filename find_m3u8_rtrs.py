@@ -1106,7 +1106,7 @@ def build_playlist(merged_channels):
     - сортировка внутри кнопки по твоей нумерации (1.0, 1.1, 1.2…)
     - проставление [OLD] и [MANUAL]
     """
-    output = ["#EXTM3U"]
+    output = ['#EXTM3U url-tvg="http://epg.one/epg2.xml.gz" catchup="append" catchup-type="default" catchup-days="14" catchup-source="${url}&utc=${start}&lutc=${timestamp}" timeshift="0" tvg-rec="1" x-logos="https://logos.server/${tvg-id}.png" x-chno="auto" x-grouping="buttons" http-user-agent="Mozilla/5.0 (SmartTV; PhoenixEngine)" http-referrer="https://phoenix.local/" network-caching="2000" x-drm-system="none" x-origin="Phoenix Engine 2026" x-epg-provider="epg.one"']
 
     # Группировка по кнопкам
     grouped = defaultdict(list)
