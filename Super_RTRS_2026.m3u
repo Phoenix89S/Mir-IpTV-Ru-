@@ -1377,6 +1377,8 @@ https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21
 http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="lentv24" tvg-logo="https://iptvx.one/picons/lentv24.png" group-title="ВГТРК",2.3.6 ЛенТВ24 HD
 https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_1.png", Россия 1 HD (2)
+http://185.78.112.47:8077/rossia_hd/index.m3u8
 
 # ===== Кнопка 3 =====
 #EXTINF:-1 group-title="TEST (VPN)", Матч Премьер
@@ -1899,6 +1901,8 @@ https://cdn.ntv.ru/ntv4/tracks-v1a1/playlist.m3u8|User-Agent=Mozilla/5.0 (Window
 https://cdn.ntv.ru/ntv7/tracks-v1a1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="LenTV24.ru@SD",ЛенТВ24
 https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657
+#EXTINF:-1 group-title="Информационные", НТВ Мир (2)
+http://5.188.159.128:8070/ntvmir_TV/index.m3u8
 
 # ===== Кнопка 5 =====
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Aggregator - Axenov / Общественные",Пятый канал
@@ -2395,6 +2399,8 @@ https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a54
 https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
 #EXTINF:-1 tvg-id="Smotrim100Detskoe.ru@SD" tvg-logo="https://i.imgur.com/1hsNeTa.png" group-title="Эфирные детские плюс",1.14 Смотрим 100% Детское
 https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/otr.png", ОТР HD
+http://tchaikovsky.af-stream.com:8080/s/agvha3rn/otr-hd/video.m3u8
 
 # ===== Кнопка 10 =====
 #EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/ТВЦ.png" group-title="Aggregator - Rafail1982 / 4.ЭФИРНЫЕ ⓵",ТВЦ
@@ -18933,8 +18939,8 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/949/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/950/index.m3u8
 #EXTINF:0,24 Канал
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/951/index.m3u8
-#EXTINF:0,Lale
-http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/953/index.m3u8
+#EXTINF:-1 tvg-id="Lale.ua@SD" tvg-logo="https://i.imgur.com/CNhqVHd.png" group-title="Kids",Lale
+https://iptv.prosto.tv/ch77/tracks-v1a1/mono.m3u8?21yo=1&live=1&ip=178.136.40.86&id=742347&secret=vu2y5m72&e=1783084689&st=rPsumttSTQSUM-5DQx9lzw
 #EXTINF:0,Надiя ТВ
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/956/index.m3u8
 #EXTINF:0,Перший Захiдний
@@ -20637,12 +20643,6 @@ https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619
 https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564
 #EXTINF:-1 group-title="Кинозалы Смотрим", 100% Факты
 https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 1
-https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera2.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 2
-https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera3.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 4
-http://stream1.panocloud.com/KlagenfurtNeuerPlatz/KlagenfurtNeuerPlatz.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YzkwTHb.png" group-title="Aggregator - Rafail1982",Сугд HD (Худжанд)
 https://stream2.somon.tv/sugd/index.m3u8
 #EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",ТВ-Кулоб (Куляб)
@@ -20659,3 +20659,39 @@ https://streaming.thainguyentv.vn/hls/livestream.m3u8
 http://162.19.246.113/History/index.m3u8
 #EXTINF:-1 ,Феникс плюс кино
 http://cdn.kubteltv.workers.dev/?ID=72
+#EXTINF:-1 tvg-id="RTVi.ru@SD",RTVi (450p)
+https://s70378.cdn.ngenix.net/rtvi/index.m3u8
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/okko-sport-2.png" group-title="Aggregator - Axenov / Спортивные",Окко.Спорт 2
+http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 1
+https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera2.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 2
+https://5857499ee635b.streamlock.net/tourismusverbandlechtal-rtplive/_definst_/mp4:camera3.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австрия  🇦🇹" [OLD],Австрия 4
+http://stream1.panocloud.com/KlagenfurtNeuerPlatz/KlagenfurtNeuerPlatz.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Словакия 🇸🇰",17
+https://kukaj.profi-net.sk/livetrans/KUVIK1.stream_aac/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/okko-sport-2.png" group-title="Aggregator - Rafail1982",Окко Прайм Спорт HD
+http://185.221.213.254:8080/Okko/index.m3u8
+#EXTINF:-1 group-title="TEST (VPN)" ,OnlineTV
+http://185.221.213.254:8080/Okko/index.m3u8
+#EXTINF:-1 group-title="Спорт", Okko Спорт. Прайм HD
+http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" group-title="Kids",Nickelodeon [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/6972/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/fqNvx5V/mixadance-1-transformed.png" group-title="Радио",Mixadance FM
+https://stream.mixadance.fm/mixadance128
+#EXTINF:-1 group-title="Детские", Fan (2)
+http://185.78.112.47:8077/fan/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", .Sci-Fi (2)
+http://158.101.222.193:88/georgia_play.php?id=scifi
+#EXTINF:-1 group-title="Кино и сериалы", Hollywood (2)
+http://tv.woobl.ru/hollywood_hd/video.m3u8?token=woobliptvz
+#EXTINF:-1 group-title="Кино и сериалы", KinoJam 1
+http://185.78.112.47:8077/kinojam1/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", KinoJam 1 (2)
+http://cdn.kubteltv.workers.dev/?ID=297
+#EXTINF:-1 group-title="Кино и сериалы", Start World (2)
+http://tv.woobl.ru/start_world_hd/video.m3u8?token=woobliptvz
+#EXTINF:-1 group-title="Радио", Mixadance
+https://stream.mixadance.fm/mixadance
