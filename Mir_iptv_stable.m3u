@@ -1640,11 +1640,7 @@ http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спортивные",SETANTA SPORT 2 HD
 http://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спортивные",SETANTA SPORT 1 HD
-http://94.43.1.138:8081/setanta1/index.m3u8
-#EXTINF:-1 group-title="Спортивные",Megogo Футбол 3 HD
-http://22fdd620.kazaktelekom.com/iptv/8KSD5KFDXA6H88/31504/index.m3u8
-#EXTINF:-1 group-title="Спортивные",Megogo Футбол 4 HD
-http://22fdd620.kazaktelekom.com/iptv/8KSD5KFDXA6H88/31613/index.m3u8
+https://s7.iptv-24.net/blocked/index.m3u8
 #EXTINF:-1 group-title="Фильмовые",.Sci-Fi
 http://178.124.179.122:8088/Sci-Fi/index.m3u8
 #EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Amedia Premium.png" group-title="Фильмовые",Amedia Premium
@@ -1685,8 +1681,6 @@ http://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_s
 http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Разное",TBN BALTIA
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
-#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Радость моя.png" group-title="Разное",Радость моя
-http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Красная линия.png" group-title="Разное",Красная линия
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="aiva" group-title="Музыкальные", AIVA
@@ -1731,8 +1725,6 @@ https://river-3-342.rtbcdn.ru/hls-vod/N_qKG1YiD0nvHpf5TVST2w/1768659457/2446/0x5
 https://river-3-317.rtbcdn.ru/hls-vod/3Ev4yxNsWEhDajDJ1T1CCw/1768659458/2189/0x5000c500e65256bd/f23befa18842434085727d153a5e1ce9.mp4.m3u8?i=3840x2160_21172
 #EXTINF:-1 group-title="4K VIDEO (VPN)" ,COLORFUL WORLD ANIMALS - ANIMALS SOUNDS
 https://river-3-312.rtbcdn.ru/hls-vod/fYGfj6rlOrta9yt-21VikA/1768659461/2193/0x5000c500e74f9e90/44fa52380d5648fe8b8c49571feba70e.mp4.m3u8?i=3840x2160_22872
-#EXTINF:-1 group-title="4K VIDEO (VPN)" ,4K 60fps
-https://river-5-557.rtbcdn.ru/hls-vod/SzR4TjWrnnZUUcHdFGf1wA/1768659463/1802/0x5000c500db111d72/fc85c4ba867d442f8c3161a0ff3045fe.mp4.m3u8?i=3840x2160_20911
 #EXTINF:-1 group-title="4K VIDEO (VPN)" ,Demo 4K
 https://river-3-359.rtbcdn.ru/hls-vod/3RLViU92fkO5OMffp1lOKA/1768659469/2700/0x5000039ce86942bd/e2871e209eb74d2ca924c256233583d7.mp4.m3u8?i=3840x2160_29461
 #EXTINF:-1 group-title="Internet42 LLC", Россия 24
@@ -1779,12 +1771,8 @@ http://31.131.141.195:8000/play/1050/index.m3u8
 http://31.131.141.195:8000/play/1090/index.m3u8
 #EXTINF:-1 group-title="Сириус",ТВЦ
 http://31.131.141.195:8000/play/1100/index.m3u8
-#EXTINF:-1 group-title="RELAX" tvg-logo="https://avatars.mds.yandex.net/get-pdb/3946622/f25f8a24-de20-4c9e-8f05-98db50810075/orig",WORLD HD
-http://185.57.68.33/232/index.m3u8
 #EXTINF:-1 group-title="RELAX",Stingray Naturescape
 https://stream.ads.ottera.tv/cl/240211cn4j7g65sur7fq378vpg/1920x1080_5711200_3_f.m3u8
-#EXTINF:-1 group-title="RELAX" ,Travel Guide TV
-http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 #EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg",Relaxon
 http://iptv.prosto.tv:7000/ch317/video.m3u8
 #EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00310.png",Камин
@@ -1793,7 +1781,7 @@ http://iptv.prosto.tv:7000/ch318/video.m3u8
 http://iptv.prosto.tv:7000/ch314/video.m3u8
 #EXTINF:-1 group-title="RELAX" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00301.png",Про Факт
 http://iptv.prosto.tv:7000/ch315/video.m3u8
-#EXTINF:-1 group-title="Музыкальные 🎶" tvg-logo="https://euroindiemusic.info/wp-content/uploads/2021/06/Aqua-Play-Icon-Personal-Logo-700x700.png",Euro Indie Music Chart TV
+#EXTINF:-1 group-title="Музыкальные 🎶" ,Euro Indie Music Chart TV
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 group-title="Cloudflare_Inc",Clarity4K Gamefilm
 http://hls127.freeott.top:8080/Clarity4K_Gamefilm/mono.m3u8
@@ -1883,8 +1871,6 @@ http://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/chunklist.m3u8
 http://live2.mediacdn.ru/sr1/sever/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="ОПЛОТ",News Front TV
 https://tv.2kita.com/stream/index.m3u8
-#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Брянская Губерния.png" group-title="ОПЛОТ",Брянская Губерния
-http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
 #EXTINF:-1 group-title="ОПЛОТ",TV Губерния
 https://s68149.cdn.ngenix.net/s68149-media-origin/lvs/tvgub/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="ОПЛОТ",Известия Воронеж
@@ -1913,8 +1899,6 @@ http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 group-title="Новости",ОНТ Беларусь
 https://edge50.dc.beltelecom.by/ont/ont/chunklist_b5160000_sleng.m3u8
-#EXTINF:-1 group-title="Новости",Соловьев.Live
-https://stream-msk-17.ott.tricolor.tv/dtv/id979_MSKSG-PVR-1--SolovievLive/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTMwNDUwMCwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU4Njk5NzAwLCJzZXNzaW9uX2lkIjoiYzAyZDcwYjlhNTg0M2E4ODYxYzNkZTcyNmY2MDgxZDUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.I4dUwTfD1GBg3RK-UB4O511C8umI4R3EiN1A2xh-BGQ
 #EXTINF:-1 group-title="Спортивные",UFA TV HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
 #EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Бокс ТВ.png" group-title="Спортивные",Бокс ТВ
@@ -1929,8 +1913,6 @@ http://stream-msk-04.ott.tricolor.tv/dtv/id633_MSKSG-PVR-1--Channel_LIVE5/03/pls
 http://178.134.1.158:8081/eurosport/index.m3u8
 #EXTINF:-1 group-title="Спортивные",Eurosport HD 2
 http://95.85.109.219:7000/play/704
-#EXTINF:-1 group-title="Наш спорт",Наш спорт 1
-http://stream-msk-14.ott.tricolor.tv/dtv/id794_MSKSG-PVR-1--Nash_khokkey1/01/plst.m3u8
 #EXTINF:-1 group-title="Наш спорт",Наш спорт 2
 http://stream-msk-07.ott.tricolor.tv/dtv/id732_MSKSG-PVR-1--Nash_khokkey2/03/plst.m3u8
 #EXTINF:-1 group-title="Наш спорт",Наш спорт 3
@@ -2669,6 +2651,8 @@ http://stv.mediacdn.ru/live/cdn/mult/tracks-v1a1/mono.ts.m3u8
 http://stv.mediacdn.ru/live/cdn/multimuzika/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="pingvin-lolo" tvg-logo="https://iptvx.one/picons/pingvin-lolo.png" group-title="Детские",Пингвин
 http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="radost-moya" tvg-logo="https://iptvx.one/picons/radost-moya.png" group-title="Детские",Радость моя
+http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="solnce" tvg-logo="https://iptvx.one/picons/solnce.png" group-title="Детские",Солнце
 https://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://iptvx.one/picons/2na2.png" group-title="Развлекательные",2x2
@@ -5555,6 +5539,8 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
 https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=92J55630qJZPz9iiIJZpVw&e=2076071194&scheme=https
 #EXTINF:-1 group-title="Региональные", Белгород 24
 http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Брянская Губерния (Брянск)
+http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Буряад (Бурятия)
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R02_BURYAAD/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Волга 24 (Нижний новгород)
