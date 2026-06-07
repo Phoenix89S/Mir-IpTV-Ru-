@@ -1713,6 +1713,15 @@ CHANNEL_GROUPS = {
     }
 }
 
+# ============================================================
+#  UNIVERSAL WHITELIST FOR ALL BUTTONS (AUTO-GENERATED)
+# ============================================================
+
+WHITELISTS = {
+    group_name: set(group_dict.values())
+    for group_name, group_dict in CHANNEL_GROUPS.items()
+}
+
 # ==============================
 #   НОРМАЛИЗАЦИЯ ИМЁН
 # ==============================
