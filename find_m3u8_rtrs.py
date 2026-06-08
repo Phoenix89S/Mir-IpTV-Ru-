@@ -1811,6 +1811,19 @@ WHITELISTS = {
     for group_name, group_dict in CHANNEL_GROUPS.items()
 }
 
+# ==============================
+#   НОРМАЛИЗАЦИЯ ИМЁН
+# ==============================
+def normalize_name(name: str) -> str:
+    """
+    Нормализует имя канала:
+    - обрезает пробелы по краям
+    - схлопывает повторяющиеся пробелы
+    """
+    name = name.strip()
+    name = re.sub(r"\s+", " ", name)
+    return name
+
 # ==============================================
 #   ЭФИРНЫЕ КНОПКИ (РУЧНОЙ КАНОН + АВТОМАТИКА)
 # ==============================================
@@ -1879,19 +1892,6 @@ for btn in ETHERS_BUTTONS:
     if btn in CHANNEL_GROUPS:
         for _, name in CHANNEL_GROUPS[btn].items():
             ETHERS_CANONICAL.add(normalize_name(name))
-
-# ==============================
-#   НОРМАЛИЗАЦИЯ ИМЁН
-# ==============================
-def normalize_name(name: str) -> str:
-    """
-    Нормализует имя канала:
-    - обрезает пробелы по краям
-    - схлопывает повторяющиеся пробелы
-    """
-    name = name.strip()
-    name = re.sub(r"\s+", " ", name)
-    return name
 
 # ==============================
 #   ОПРЕДЕЛЕНИЕ КНОПКИ ПО ИМЕНИ
