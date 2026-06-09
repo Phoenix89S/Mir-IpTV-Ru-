@@ -20841,6 +20841,10 @@ http://185.78.112.47:8077/natgeo_wild_hd/index.m3u8
 http://77.232.131.211/TravelAdventureHD/index.m3u8
 #EXTINF:-1,Живи активно
 https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+#EXTINF:-1,KHL
+https://stream8.cinerama.uz/1028/tracks-v1a1/mono.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / ИСПАНИЯ",Fibwi (1080p) [Not 24/7]
+https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr",🔺 INFO 🔺Посмотри!!!
