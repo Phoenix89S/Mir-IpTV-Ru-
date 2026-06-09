@@ -541,6 +541,8 @@ http://89.218.32.179:18000/play/a028
 http://89.218.32.179:18000/play/a025
 #EXTINF:-1 tvg-id="Channel8International.ru@SD",Channel 8 International (576p)
 https://v4.proofix.ru/8tv-europe/index.m3u8
+#EXTINF:-1 tvg-id="KHL.ru@SD",KHL
+https://stream8.cinerama.uz/1028/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD",alpha Cinema (1080p)
