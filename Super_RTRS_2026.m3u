@@ -5125,6 +5125,8 @@ https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
 http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8
 #EXTINF:-1 [OLD],viju TV1000 Action
 http://178.134.1.158:8081/tv1000action/index.m3u8?token=iptvin.ru
+#EXTINF:-1,viju TV1000 action
+https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
 
 # ===== Кнопка 28 =====
 #EXTINF:-1 tvg-id="otr",Смотрим 100% Любовь
@@ -11388,7 +11390,7 @@ http://starcius-cinema.com/11586/index.m3u8?token=010101010101
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / Польские",Canal+ Seriale HD
 http://starcius-cinema.com/11578/index.m3u8?token=010101010101
 #EXTINF:-1,Da Vinci
-http://starcius-cinema.com/11588/index.m3u8?token=010101010101
+https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / Польские",Nat Geo People HD
 http://starcius-cinema.com/11589/index.m3u8?token=010101010101
 #EXTINF:-1,Nat Geo Wild HD
@@ -16497,7 +16499,7 @@ http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1,Nickelodeon Teen (720p)
 https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
-#EXTINF:-1,NickOnline (576p)
+#EXTINF:-1 [OLD],NickOnline (576p)
 https://x1co.com.br/hls/stream.m3u8
 #EXTINF:-1,NickToons Brasil (480p)
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
@@ -16786,7 +16788,7 @@ https://cityeden.catcast.tv/content/46209/index.m3u8
 #EXTINF:-1 tvg-shift="0",Астрахань.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1,MMA-TV.com
-https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Angel TV Russian
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1,Maná Церковь Онлайн
@@ -18784,7 +18786,7 @@ http://178.134.1.158:8081/mosfilm/index.m3u8
 #EXTINF:-1 [OLD],NOW Rock
 https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8
 #EXTINF:-1,viju Nature
-http://158.101.222.193:88/georgia_play.php?id=viasatnat
+https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 #EXTINF:-1,viju History
 http://158.101.222.193:88/georgia_play.php?id=viasathist
 #EXTINF:-1,viju Explore
@@ -20849,7 +20851,7 @@ https://goliveafrica.media:9998/live/628e5c1991061/index.m3u8
 https://streaming.thainguyentv.vn/hls/livestream.m3u8
 #EXTINF:-1,History HD
 http://162.19.246.113/History/index.m3u8
-#EXTINF:-1 tvg-id="yu" [OLD],Феникс плюс кино
+#EXTINF:-1 tvg-id="yu",Феникс плюс кино
 http://cdn.kubteltv.workers.dev/?ID=72
 #EXTINF:-1,RTVi (450p)
 https://s70378.cdn.ngenix.net/rtvi/index.m3u8
@@ -21723,6 +21725,14 @@ http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7298/index.m3u8
 http://91.246.72.88:8000/play/a00r/index.m3u8
 #EXTINF:-1,Belsat TV (1080p)
 http://91.246.72.88:8000/play/a01w/index.m3u8
+#EXTINF:-1,Mir
+https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Mir 24
+https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
+#EXTINF:-1,viju+ Sport
+https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / Арабские",Roya TV
+https://royatv-live.daioncdn.net/royatv/royatv_1080p.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr",🔺 INFO 🔺Посмотри!!!
