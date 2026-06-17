@@ -603,6 +603,8 @@ https://cdn.telecloud.tv/CH4419/index.m3u8
 https://cdn.telecloud.tv/CH4603/index.m3u8
 #EXTINF:-1 tvg-id="RENTV.ru@HD",REN TV HD (1080p)
 https://cdn.telecloud.tv/CH189/index.m3u8
+#EXTINF:-1 tvg-id="BelRos.ru@SD",BelRos (720p)
+https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
 #EXTINF:-1 group-title="Общие", Ссылка на плейлист устарела
 https://loganettv.vercel.app/all.m3u
 #EXTINF:-1 group-title="Общие", Telegram-канал
