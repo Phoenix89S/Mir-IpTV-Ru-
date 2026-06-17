@@ -1614,7 +1614,7 @@ https://cdn.ntv.ru/ntv7/tracks-v1a1/playlist.m3u8|User-Agent=Mozilla/5.0 (Window
 #EXTINF:-1,Неизвестная Россия
 https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Неизвестная Россия HD
-https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+http://cdn.ntv.ru/unknown_russia/tracks-v3a1/mono.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],Неизвестная россия HD
 https://stream-msk-15.ott.tricolor.tv/dtv/id923_MSKSG-PVR-1--UnknownRussia/02/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTMwNDUwMCwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU4Njk5NzAwLCJzZXNzaW9uX2lkIjoiYzAyZDcwYjlhNTg0M2E4ODYxYzNkZTcyNmY2MDgxZDUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.I4dUwTfD1GBg3RK-UB4O511C8umI4R3EiN1A2xh-BGQ
 #EXTINF:-1 tvg-id="ntv",НТВ HD
@@ -16394,7 +16394,7 @@ http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
 #EXTINF:-1,Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #EXTINF:-1,Disney Channel (1080p)
-http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
+https://cdn.telecloud.tv/CH16265/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel East (720p) [Not 24/7]
 https://tvpass.org/live/DisneyChannelEast/hd
 #EXTINF:-1 [OLD],Disney Channel Japan (544p)
@@ -16533,7 +16533,7 @@ https://junhls.persiana.live/hls/stream.m3u8
 https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
 #EXTINF:-1,Pluto TV Kids
 https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
-#EXTINF:-1,Pluto TV Retro Toons
+#EXTINF:-1 [OLD],Pluto TV Retro Toons
 https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
 #EXTINF:-1,pocket.watch Game On (1080p)
 https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8
@@ -21527,7 +21527,7 @@ https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
 https://jmp2.uk/plu-629a066860ef810008267b70.m3u8
 #EXTINF:-1,Detective Conan France (720p)
 https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8
-#EXTINF:-1,Disney Channel [Not 24/7]
+#EXTINF:-1 [OLD],Disney Channel [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6965/index.m3u8
 #EXTINF:-1,Dora TV
 https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
@@ -21559,7 +21559,7 @@ https://jmp2.uk/plu-691ddf2a3ae32cf55263476d.m3u8
 https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8
 #EXTINF:-1,Pluto TV Kids Spain (720p)
 https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
-#EXTINF:-1,Pluto TV Teen (720p)
+#EXTINF:-1 [OLD],Pluto TV Teen (720p)
 https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8
 #EXTINF:-1,Rugrats
 https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
@@ -21757,6 +21757,36 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1,Spacetoon Arabic (576p)
 https://live-uae.spacetoongo.com/ST_Live_UAE/hls/index.m3u8
+#EXTINF:-1,Solovyov Live (1080p)
+https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
+#EXTINF:-1,Carousel (576p)
+https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8
+#EXTINF:-1,Moskva 24 (576p)
+https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
+#EXTINF:-1,Subbota! (576p)
+http://217.114.191.150/Subbota/index.m3u8
+#EXTINF:-1,SuperGeroi (1080p)
+http://31.148.48.15/Malish_TV/index.m3u8
+#EXTINF:-1,Friday! (1080p)
+https://cdn.telecloud.tv/CH4419/index.m3u8
+#EXTINF:-1,TV Centr (1080p)
+https://cdn.telecloud.tv/CH4603/index.m3u8
+#EXTINF:-1,REN TV HD (1080p)
+https://cdn.telecloud.tv/CH189/index.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",51
+http://ibb-media4.ibb.gov.tr:1935/live/94.stream/chunklist.m3u8
+#EXTINF:-1,ГРОДНО+
+http://82.209.219.165:1235/gpsd
+#EXTINF:-1,ViasatNature HD
+http://162.19.246.113/ViasatNature/index.m3u8
+#EXTINF:-1,Cinemania HD
+http://162.19.246.113/Cinemania/index.m3u8
+#EXTINF:-1,Disney Channel HD (720p)
+https://cdn.telecloud.tv/CH4019/index.m3u8
+#EXTINF:-1,NickOnline (360p)
+https://x1co.com.br/hls/stream.m3u8
+#EXTINF:-1,Jibek Joly (1080p)
+https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
