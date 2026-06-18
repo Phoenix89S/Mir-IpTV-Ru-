@@ -5132,6 +5132,10 @@ http://178.134.1.158:8081/tv1000action/index.m3u8?token=iptvin.ru
 #EXTINF:-1,viju TV1000 action
 https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
 
+# ===== Кнопка 27 =====
+#EXTINF:-1,Kluch (576p)
+http://hls127.freeott.top:8080/Kluch/video.m3u8
+
 # ===== Кнопка 28 =====
 #EXTINF:-1 tvg-id="otr",Смотрим 100% Любовь
 https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248
@@ -16417,7 +16421,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 https://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1,Extrema Kids TV [Not 24/7]
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
-#EXTINF:-1 [OLD],Forever Kids
+#EXTINF:-1,Forever Kids
 https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
 #EXTINF:-1,Garfield and Friends
 https://jmp2.uk/plu-677f927554f43dad4b3258aa.m3u8
@@ -16532,9 +16536,9 @@ https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1,Pluto TV Junior
 https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
 #EXTINF:-1,Pluto TV Kids
-https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
-#EXTINF:-1 [OLD],Pluto TV Retro Toons
-https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
+https://jmp2.uk/plu-5ad8d54be738977e2c310940.m3u8
+#EXTINF:-1,Pluto TV Retro Toons
+https://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8
 #EXTINF:-1,pocket.watch Game On (1080p)
 https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8
 #EXTINF:-1,Pokémon
@@ -21556,10 +21560,10 @@ https://jmp2.uk/plu-66bb374ba4ee27000841a62c.m3u8
 #EXTINF:-1,Pluto TV Forever Kids
 https://jmp2.uk/plu-691ddf2a3ae32cf55263476d.m3u8
 #EXTINF:-1,Pluto TV Junior (720p)
-https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8
+https://jmp2.uk/plu-5f1aa9bcd8160700076d45d1.m3u8
 #EXTINF:-1,Pluto TV Kids Spain (720p)
 https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
-#EXTINF:-1 [OLD],Pluto TV Teen (720p)
+#EXTINF:-1,Pluto TV Teen (720p)
 https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8
 #EXTINF:-1,Rugrats
 https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
@@ -21787,6 +21791,68 @@ https://cdn.telecloud.tv/CH4019/index.m3u8
 https://x1co.com.br/hls/stream.m3u8
 #EXTINF:-1,Jibek Joly (1080p)
 https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
+#EXTINF:-1,Mir (576p)
+https://tvcdn01.oktv.kz/tv/mir/index.m3u8
+#EXTINF:-1,BelRos (720p)
+https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
+#EXTINF:-1,Kinopokaz HD (1080p)
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
+#EXTINF:-1,Pro Lyubov (1080p)
+http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
+#EXTINF:-1,Hit HD (1080p)
+http://hls127.freeott.top:8080/XitHD/video.m3u8
+#EXTINF:-1,Kinoseriya (1080p)
+http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
+#EXTINF:-1,STS International (576p)
+http://178.134.1.158:8081/CTC/index.m3u8
+#EXTINF:-1,NTV-Hit (1080p)
+https://cdn-dvr.ntv.ru/th_hit/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,NTV Series (576p)
+https://cdn-dvr.ntv.ru/th_serial/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",44
+http://ibb-media4.ibb.gov.tr:1935/live/85.stream/chunklist.m3u8
+#EXTINF:-1,ГРОДНО+ HD
+http://82.209.219.165:1234/gp
+#EXTINF:-1,Pluto TV Juniorklubben (720p)
+https://jmp2.uk/plu-61c09a78bd194c0008decc28.m3u8
+#EXTINF:-1,Pluto TV Kids Classics (720p)
+https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
+#EXTINF:-1,Pluto TV Kids Club
+https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
+#EXTINF:-1,Pluto TV Klassiske tegnefilm (720p)
+https://jmp2.uk/plu-67f508992ebe80e2929b5c98.m3u8
+#EXTINF:-1,Pluto TV Klassiske tegnefilmer (720p)
+https://jmp2.uk/plu-67f508f68ddd60c57dc44766.m3u8
+#EXTINF:-1,Pluto TV Retro Kid
+https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
+#EXTINF:-1,Pluto TV Super Kids
+https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8
+#EXTINF:-1,Pluto TV Tecknade klassiker (720p)
+https://jmp2.uk/plu-67f5095a3481170e6843d95d.m3u8
+#EXTINF:-1,Pluto TV Tecknat (720p)
+https://jmp2.uk/plu-61c0b6f028e94c000782684a.m3u8
+#EXTINF:-1,Pluto TV Tegnefilm (720p)
+https://jmp2.uk/plu-61c09938e0d3a700072b68b1.m3u8
+#EXTINF:-1,Pluto TV Toons
+https://jmp2.uk/plu-6880aa28164eb4890282e803.m3u8
+#EXTINF:-1,Pluto TV Toons (720p)
+https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8
+#EXTINF:-1,Pluto TV Ungdomsserier (720p)
+https://jmp2.uk/plu-67f3fb1cdea1c5e0d588ac1b.m3u8
+#EXTINF:-1,Starz Kids & Family (1080p)
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
+#EXTINF:-1,Euronews Russian (720p)
+https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies;Series",FilmUADrama (1080p)
+http://88.99.215.227/FilmUADrama/index.m3u8
+#EXTINF:-1,Nash Kinomir (576p)
+http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
+#EXTINF:-1,Akudji
+http://195.9.195.2/hls/5346.m3u8
+#EXTINF:-1,FILM TV
+https://hls.goodgame.ru/hls/163253.m3u8
+#EXTINF:-1,TDM TV - Techno Dance Music
+https://hls.goodgame.ru/hls/180509.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
