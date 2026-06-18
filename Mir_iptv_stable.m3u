@@ -615,6 +615,22 @@ https://cdn.telecloud.tv/CH4603/index.m3u8
 https://cdn.telecloud.tv/CH189/index.m3u8
 #EXTINF:-1 tvg-id="BelRos.ru@SD",BelRos (720p)
 https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
+#EXTINF:-1 tvg-id="Kinopokaz.ru@HD",Kinopokaz HD (1080p)
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
+#EXTINF:-1 tvg-id="ProLyubov.ru@SD",Pro Lyubov (1080p)
+http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
+#EXTINF:-1 tvg-id="Hit.ru@HD",Hit HD (1080p)
+http://hls127.freeott.top:8080/XitHD/video.m3u8
+#EXTINF:-1 tvg-id="Kluch.ru@SD",Kluch (576p)
+http://hls127.freeott.top:8080/Kluch/video.m3u8
+#EXTINF:-1 tvg-id="Kinoseriya.ru@SD",Kinoseriya (1080p)
+http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
+#EXTINF:-1 tvg-id="STSInternational.ru@SD",STS International (576p)
+http://178.134.1.158:8081/CTC/index.m3u8
+#EXTINF:-1 tvg-id="NTVHit.ru@SD",NTV-Hit (1080p)
+https://cdn-dvr.ntv.ru/th_hit/index.m3u8
+#EXTINF:-1 tvg-id="NTVSeries.ru@SD",NTV Series (576p)
+https://cdn-dvr.ntv.ru/th_serial/index.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD",alpha Cinema (1080p)
@@ -2227,8 +2243,6 @@ http://94.230.128.107:8080/CTC/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
 #EXTINF:-1 group-title="Развлечение", СТС HD
 http://87.246.54.249:8085/CTC/index.m3u8
-#EXTINF:-1 group-title="Развлечение", СТС Int.
-http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 group-title="Развлечение", СТС Love
 http://tv.streams.baikal-telecom.net:8080/CTC_LOVE/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлечение" tvg-id="sts-love-pl7", СТС Love +7 (Архив)
@@ -3443,6 +3457,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+YAY.m3u8
 https://live-uae.spacetoongo.com/ST_Live_UAE/hls/index.m3u8
 #EXTINF:-1 tvg-id="SpongeBobSchwammkopf.us@Germany" tvg-logo="https://i.imgur.com/NIsgNvI.png" group-title="Kids",SpongeBob Schwammkopf (720p)
 https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
+#EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="Kids",Starz Kids & Family (1080p)
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SuperSimpleSongs.us@SD" tvg-logo="https://i.imgur.com/3k4F7O9.png" group-title="Kids",Super Simple Songs (1080p)
 https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperiCarly.us@Italy" tvg-logo="https://i.imgur.com/IWcQfF2.png" group-title="Kids",Super! iCarly

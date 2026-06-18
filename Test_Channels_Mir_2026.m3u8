@@ -605,6 +605,22 @@ https://cdn.telecloud.tv/CH4603/index.m3u8
 https://cdn.telecloud.tv/CH189/index.m3u8
 #EXTINF:-1 tvg-id="BelRos.ru@SD",BelRos (720p)
 https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
+#EXTINF:-1 tvg-id="Kinopokaz.ru@HD",Kinopokaz HD (1080p)
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
+#EXTINF:-1 tvg-id="ProLyubov.ru@SD",Pro Lyubov (1080p)
+http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
+#EXTINF:-1 tvg-id="Hit.ru@HD",Hit HD (1080p)
+http://hls127.freeott.top:8080/XitHD/video.m3u8
+#EXTINF:-1 tvg-id="Kluch.ru@SD",Kluch (576p)
+http://hls127.freeott.top:8080/Kluch/video.m3u8
+#EXTINF:-1 tvg-id="Kinoseriya.ru@SD",Kinoseriya (1080p)
+http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
+#EXTINF:-1 tvg-id="STSInternational.ru@SD",STS International (576p)
+http://178.134.1.158:8081/CTC/index.m3u8
+#EXTINF:-1 tvg-id="NTVHit.ru@SD",NTV-Hit (1080p)
+https://cdn-dvr.ntv.ru/th_hit/index.m3u8
+#EXTINF:-1 tvg-id="NTVSeries.ru@SD",NTV Series (576p)
+https://cdn-dvr.ntv.ru/th_serial/index.m3u8
 #EXTINF:-1 group-title="Общие", Ссылка на плейлист устарела
 https://loganettv.vercel.app/all.m3u
 #EXTINF:-1 group-title="Общие", Telegram-канал
@@ -1201,8 +1217,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
 #EXTINF:-1 group-title="Развлечение", СТС HD
 http://87.246.54.249:8085/CTC/index.m3u8
-#EXTINF:-1 group-title="Развлечение", СТС Int.
-http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 group-title="Развлечение", СТС Love
 http://tv.streams.baikal-telecom.net:8080/CTC_LOVE/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлечение" tvg-id="sts-love", СТС Love (Архив)
