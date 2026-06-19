@@ -4387,6 +4387,8 @@ http://icecast-record.cdnvideo.ru/record
 http://icecast.vgtrk.cdnvideo.ru/vestifm
 #EXTINF:-1 group-title="Радио", Новое
 http://icecast-newradio.cdnvideo.ru/newradio3
+#EXTINF:-1 group-title="Радио", Новое (2)
+http://stream.newradio.ru/moscow.novoe.aacp
 #EXTINF:-1 group-title="Радио", Такси
 http://185.40.31.28:8000/station_54
 #EXTINF:-1 group-title="Радио", Monte Carlo (Монте Карло)
@@ -4409,6 +4411,8 @@ http://23.105.238.4/gpm-energyfm495.aacp
 http://choco.hostingradio.ru:10010/fm
 #EXTINF:-1 group-title="Радио", Радио России
 http://icecast.vgtrk.cdnvideo.ru/rrzonam
+#EXTINF:-1 group-title="Радио", Радио России (2)
+http://radio.sevstar.net:8000/radio-rossii
 #EXTINF:-1 group-title="Радио", Гордость
 http://134.0.119.161:9090/ostankino
 #EXTINF:-1 group-title="Радио", Максимум
@@ -4417,10 +4421,12 @@ http://maximum.hostingradio.ru/maximum128.mp3
 http://23.105.238.4/gpm-romantika495.aacp
 #EXTINF:-1 group-title="Радио", Комсомольская Правда
 http://kpradio.hostingradio.ru:8000/128
+#EXTINF:-1 group-title="Радио", Комсомольская Правда (2)
+http://kraskp.ru:8000/mskregion
 #EXTINF:-1 group-title="Радио", Орфей
 http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
 #EXTINF:-1 group-title="Радио", Relax
-https://stream05.pcradio.ru/relax_fm_ru-med
+http://23.105.238.4/gpm-relaxfm495.aacp
 #EXTINF:-1 group-title="Радио", Like
 http://23.105.238.4/gpm-likefm495.aacp
 #EXTINF:-1 group-title="Радио", Studio 21
@@ -4445,6 +4451,8 @@ http://bfm.hostingradio.ru:8004/fm
 http://radio-remix.ru:8000/radio
 #EXTINF:-1 group-title="Радио", Милицейская Волна
 http://radiomv.hostingradio.ru/radiomv256.mp3
+#EXTINF:-1 group-title="Радио", Милицейская Волна (2)
+http://radio2.sevstar.net:8000/milicia
 #EXTINF:-1 group-title="Радио", Книга
 http://bookradio.hostingradio.ru:8069/fm
 #EXTINF:-1 group-title="Радио", Юность
@@ -4479,6 +4487,8 @@ http://kommersant77.hostingradio.ru:8016/kommersant128.mp3
 http://listen6.myradio24.com:9000/5390
 #EXTINF:-1 group-title="Радио", Калина Красная
 http://icecast-studio21.cdnvideo.ru/KalynaK_1a
+#EXTINF:-1 group-title="Радио", Калина Красная (2)
+http://78.140.197.238:9877/msk_KalynaK_1a
 #EXTINF:-1 group-title="Радио", Иваново
 http://91.219.74.220:8000/IvanovoFM.mp3
 #EXTINF:-1 group-title="Радио", Гамаюн
@@ -4513,6 +4523,8 @@ http://icecast.vgtrk.cdnvideo.ru/moscowfm128
 http://nashe3.hostingradio.ru/best-128.mp3
 #EXTINF:-1 group-title="Радио", Вера
 http://radiovera.hostingradio.ru:8007/radiovera_128
+#EXTINF:-1 group-title="Радио", Говорит Москва (2)
+http://media.govoritmoskva.ru:8000/gm.mp3
 #EXTINF:-1 group-title="Радио", Maximum
 http://maximum.hostingradio.ru/maximum96.aacp
 #EXTINF:-1 group-title="Радио", Русский мир
@@ -4545,6 +4557,16 @@ https://schoolradio.hostingradio.ru:18026/schoolradio128.mp3
 https://icecast-radonezh.cdnvideo.ru/rad128
 #EXTINF:-1 group-title="Радио", Сказка
 http://skazka.amgradio.ru/Skazka
+#EXTINF:-1 group-title="Радио", Маруся
+http://msk1.radio-holding.ru:9000/stream_site_marus_hls
+#EXTINF:-1 group-title="Радио", Детское
+http://23.105.238.4/gpm-detifm495.aacp
+#EXTINF:-1 group-title="Радио", Рекорд Chill-Out
+https://hls-01-radiorecord.hostingradio.ru/record-chil/playlist.m3u8
+#EXTINF:-1 group-title="Радио", Рекорд Deep
+https://hls-01-radiorecord.hostingradio.ru/record-deep/playlist.m3u8
+#EXTINF:-1 group-title="Радио", Рекорд Gold
+https://hls-01-radiorecord.hostingradio.ru/record-gold/playlist.m3u8
 #EXTINF:-1 group-title="Радио", Шансон - Без Цензуры
 http://chanson.hostingradio.ru:8041/chanson-uncensored256.mp3
 #EXTINF:-1 group-title="Радио", Шансон - Романтика
@@ -4645,8 +4667,6 @@ http://revolutionradio.ru:8000/live.mp3
 http://hermitage.hostingradio.ru/hermitage128.mp3
 #EXTINF:-1 group-title="Радио", Эльдорадио (Санкт-Петербург)
 http://emgspb.hostingradio.ru/eldoradio128.mp3
-#EXTINF:-1 group-title="Радио", Детское (Санкт-Петербург)
-https://stream05.pcradio.ru/deti_fm-med
 #EXTINF:-1 group-title="Радио", Православное (Санкт-Петербург)
 http://radio-spb.rusk.ru:8000/stream
 #EXTINF:-1 group-title="Радио", Балтик Плюс (Калининград)
