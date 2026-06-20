@@ -5366,7 +5366,7 @@ http://31.148.48.15/Russkiy_Bestseller/index.m3u8
 #EXTINF:-1 tvg-id="sts" [OLD],1.3 Русский бестселлер
 http://31.148.48.15/Russkiy_Bestseller/index.m3u8
 #EXTINF:-1 tvg-id="sts",Русский Бестселлер
-http://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
+http://tv.ttk.mx:9043
 #EXTINF:-1 tvg-id="zvezda",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 4.ЭФИРНЫЕ ⓵",ЗВЕЗДАᴴᴰ
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-id="mir",В мире животных
@@ -14890,7 +14890,7 @@ http://hls127.freeott.top:8080/Gagsnetwork/mono.m3u8
 #EXTINF:-1 tvg-id="yu",Твоё ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/video.m3u8
 #EXTINF:-1,TV1 KG HD (Кыргызстан)
-https://stream8.cinerama.uz/blocked/index.m3u8
+http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1,Матч! Футбол 3 HD
 http://185.57.68.33/110/mpegts
 #EXTINF:-1,Setanta Sports 1 HD
@@ -16276,7 +16276,7 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
 #EXTINF:-1,Живи! HD
 http://31.148.48.15/Zhivi/index.m3u8
 #EXTINF:-1,Загородная жизнь
-http://195.26.83.96:7007/play/10/index.m3u8
+http://tv.ttk.mx:9157
 #EXTINF:-1,Fashion&LifeStyle HD
 http://31.148.48.15/Fashion_One_HD/index.m3u8
 #EXTINF:-1,Food Time HD
@@ -19556,7 +19556,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8|User-Agent=Mozilla/
 #EXTINF:-1 [OLD],RTД (RTD)
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 #EXTINF:-1,360
-http://91.221.252.12:82/tv26
+http://tv.ttk.mx:9052
 #EXTINF:-1,360 Новости
 http://91.221.252.12:82/tv27
 #EXTINF:-1,DW
@@ -20197,7 +20197,7 @@ http://cdn.pifm.ru/mp3
 https://stream-msk-17.ott.tricolor.tv/dtv/id954_MSKSG-PVR-1--radio_vanya/01/plst.m3u8
 #EXTINF:-1 tvg-id="yu",Юмор
 http://live.humorfm.by:8000/veseloe.m3u
-#EXTINF:-1 tvg-id="yu",Юмор (Минск)
+#EXTINF:-1 tvg-id="yu" [OLD],Юмор (Минск)
 https://stream05.pcradio.ru/humorfm_by-med
 #EXTINF:-1,Energy
 http://23.105.238.4/gpm-energyfm495.aacp
@@ -20216,7 +20216,7 @@ http://kpradio.hostingradio.ru:8000/128
 #EXTINF:-1,Орфей
 http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
 #EXTINF:-1,Relax
-https://stream05.pcradio.ru/relax_fm_ru-med
+http://23.105.238.4/gpm-relaxfm495.aacp
 #EXTINF:-1,Like
 http://23.105.238.4/gpm-likefm495.aacp
 #EXTINF:-1,Comedy
@@ -20381,11 +20381,11 @@ http://staroeradio.ru:8000/ices128
 http://195.91.237.50:8000/detskoe128
 #EXTINF:-1,Старое - Музыка
 http://195.91.237.50:8000/music128
-#EXTINF:-1,Русский панк
+#EXTINF:-1 [OLD],Русский панк
 http://79.120.77.11:8000/punkru
-#EXTINF:-1,Русский рок
+#EXTINF:-1 [OLD],Русский рок
 http://79.120.77.11:8000/rockru
-#EXTINF:-1,Русские хиты 80-90
+#EXTINF:-1 [OLD],Русские хиты 80-90
 http://79.120.77.11:8000/80ru
 #EXTINF:-1,Ретро - 70е
 http://hls-01-retro70.emgsound.ru/1/128/playlist.m3u8
@@ -20409,7 +20409,7 @@ http://revolutionradio.ru:8000/live.mp3
 http://hermitage.hostingradio.ru/hermitage128.mp3
 #EXTINF:-1 tvg-shift="0",Эльдорадио (Санкт-Петербург)
 http://emgspb.hostingradio.ru/eldoradio128.mp3
-#EXTINF:-1 tvg-shift="0",Детское (Санкт-Петербург)
+#EXTINF:-1 tvg-shift="0" [OLD],Детское (Санкт-Петербург)
 https://stream05.pcradio.ru/deti_fm-med
 #EXTINF:-1 tvg-shift="0",Православное (Санкт-Петербург)
 http://radio-spb.rusk.ru:8000/stream
@@ -20417,7 +20417,7 @@ http://radio-spb.rusk.ru:8000/stream
 http://lova.me/hls/hithd.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="-1",Балтик Плюс (Калининград)
 http://bp.koenig.ru:8000/Baltic_Plus_mp3_128.mp3
-#EXTINF:-1 tvg-shift="0",Весна (Смоленск)
+#EXTINF:-1 tvg-shift="0" [OLD],Весна (Смоленск)
 http://91.203.176.214:8000/vesnafm
 #EXTINF:-1 tvg-shift="0",Спутник (Волгоград)
 http://online.volgogradfm.ru:8000/sputnik_mp3
@@ -20461,7 +20461,7 @@ http://radio.rikt.ru:8000/trk-kvant
 http://av.bimradio.ru:8066/kurai_mp3
 #EXTINF:-1 tvg-shift="0",Кунел (Татарстан)
 http://live.kunelradio.ru:8000/128.mp3
-#EXTINF:-1 tvg-shift="0",Макс (Сочи)
+#EXTINF:-1 tvg-shift="0" [OLD],Макс (Сочи)
 https://stream05.pcradio.ru/max_fm_ru-med
 #EXTINF:-1 tvg-shift="0",Мелодия (Воронеж)
 http://icecast.mediaalliance.cdnvideo.ru/mediaalliance
@@ -20601,7 +20601,7 @@ http://cdn.kubteltv.workers.dev/?ID=443
 https://streaming.televizor-24-tochka.ru/live/24.m3u8
 #EXTINF:-1,За! (Запорожская область)
 https://streaming.televizor-24-tochka.ru/live/25.m3u8
-#EXTINF:-1,Nu Euphoria Trance
+#EXTINF:-1 [OLD],Nu Euphoria Trance
 https://stream05.pcradio.ru/nu_euphoria-med
 #EXTINF:-1,PromoDJ - 186mph
 http://radio.promodj.com:8000/186mph-192
@@ -20718,9 +20718,9 @@ http://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
 #EXTINF:-1 tvg-shift="6" [OLD],ОТВ Сахалин
 https://sakh.online/hls/stream.m3u8
 #EXTINF:-1,Охота и Рыбалка
-http://91.221.252.12:82/tv53
+http://tv.ttk.mx:9034
 #EXTINF:-1,Психология
-http://cdn.kubteltv.workers.dev/?ID=65
+http://tv.ttk.mx:9033
 #EXTINF:-1 tvg-id="yu",Союзный
 http://souzny.mediacdn.ru/cdn/souzny/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 [OLD],Таврия ТВ
@@ -20732,7 +20732,7 @@ http://tv.tuva.ru/tuva24/index.m3u8
 #EXTINF:-1 [OLD],Туган Тел HD
 http://streamer.rtkufa.ru/tugantel/hd/playlist.m3u8
 #EXTINF:-1,Футбол
-http://91.221.252.12:82/tv115
+http://tv.ttk.mx:9065
 #EXTINF:-1 [OLD],Шерлок Холмс и доктор Ватсон
 https://mults.info/mp4/sherlok_holms_i_doktor_vatson.mp4
 #EXTINF:-1,Дом Кино (2)
@@ -21923,6 +21923,94 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/1069/index.m3u8
 http://stitch.teletarget.ru/vintera/flighttv/index.m3u8
 #EXTINF:-1,Mezzo (2)
 http://live-3.otcnet.ru/Mezzo/index.m3u8
+#EXTINF:-1,RT HD (1080p)
+http://31.148.48.15/RT_HD/index.m3u8
+#EXTINF:-1,Solnce (576p)
+http://31.148.48.15/Solnce/index.m3u8
+#EXTINF:-1,Dikij (576p)
+http://hls127.freeott.top:8080/Dikiy/video.m3u8
+#EXTINF:-1,Radost Moya (576p)
+http://31.148.48.15/Radost_moya/index.m3u8
+#EXTINF:-1,Gulli Girl (576p)
+https://live-3.otcnet.ru/GulliGirl/index.m3u8
+#EXTINF:-1,Prodvizhenie (576p)
+http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
+#EXTINF:-1,Home Shopping Russia (576p)
+https://moymir.ru/hls/onair.m3u8
+#EXTINF:-1,Channel One (576p)
+http://188.113.190.13/1/video.m3u8
+#EXTINF:-1,Zvezda (1080p)
+http://51.158.144.33:2021/zvezda/index.m3u8
+#EXTINF:-1,TV Centr (576p)
+http://hls127.freeott.top:8080/Tv_Center/video.m3u8
+#EXTINF:-1,Bolt (576p)
+http://hls127.freeott.top:8080/Bolt/video.m3u8
+#EXTINF:-1,Mosfilm Gold Collection (576p)
+http://31.222.235.15/mosfilm/index.m3u8
+#EXTINF:-1,Russia-1 HD (1080p)
+https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
+#EXTINF:-1,Russia-24 (720p)
+https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
+#EXTINF:-1,Russia-K (1080p)
+https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
+#EXTINF:-1,Moskva. Doveriye (576p)
+https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / CINERAMA",Smusic TV HD
+https://stream8.cinerama.uz/1476/tracks-v1a1/mono.m3u8
+#EXTINF:-1,CartoonNetwork HD
+http://162.19.246.113/CartoonNetwork/index.m3u8
+#EXTINF:-1,BBC Four/CBeebies (720p)
+http://193.46.58.239:8080/CbeebiesHD/index.m3u8
+#EXTINF:-1,BBC Three/CBBC (720p)
+http://193.46.58.239:8080/CBBCHD/index.m3u8
+#EXTINF:-1,Disney Channel Latin America Panregional HD (1080p)
+http://190.11.225.124:5000/live/disney_hd/playlist.m3u8
+#EXTINF:-1,Disney Jr. Latin America North HD (1080p)
+http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8
+#EXTINF:-1,Kids Street (1080p)
+http://181.78.121.15:8000/play/a00a/index.m3u8
+#EXTINF:-1,Nick Jr. (576p)
+http://84.17.50.102/nickjr/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon
+http://213.91.179.28:8000/play/a056
+#EXTINF:-1,Nicktoons (720p)
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1,Belarus-4 Gomel (720p)
+http://46.56.85.151:8080/0.m3u8
+#EXTINF:-1,Love Nature HD (720p)
+http://185.246.209.113/LOVENATUREHD/index.m3u8
+#EXTINF:-1,TV1 KG (1080p)
+http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Undefined",TVRUS
+http://213.91.179.28:8000/play/a082
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Series",TVRUS+
+http://83.228.75.166:8000/play/a0aq
+#EXTINF:-1,TV1 KG
+http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+#EXTINF:-1,Ретро (2)
+http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
+#EXTINF:-1,Новое (2)
+http://stream.newradio.ru/moscow.novoe.aacp
+#EXTINF:-1,Радио России (2)
+http://radio.sevstar.net:8000/radio-rossii
+#EXTINF:-1,Комсомольская Правда (2)
+http://kraskp.ru:8000/mskregion
+#EXTINF:-1,Милицейская Волна (2)
+http://radio2.sevstar.net:8000/milicia
+#EXTINF:-1,Калина Красная (2)
+http://78.140.197.238:9877/msk_KalynaK_1a
+#EXTINF:-1 tvg-shift="0",Говорит Москва (2)
+http://media.govoritmoskva.ru:8000/gm.mp3
+#EXTINF:-1,Маруся
+http://msk1.radio-holding.ru:9000/stream_site_marus_hls
+#EXTINF:-1,Детское
+http://23.105.238.4/gpm-detifm495.aacp
+#EXTINF:-1,Рекорд Chill-Out
+https://hls-01-radiorecord.hostingradio.ru/record-chil/playlist.m3u8
+#EXTINF:-1,Рекорд Deep
+https://hls-01-radiorecord.hostingradio.ru/record-deep/playlist.m3u8
+#EXTINF:-1,Рекорд Gold
+https://hls-01-radiorecord.hostingradio.ru/record-gold/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
