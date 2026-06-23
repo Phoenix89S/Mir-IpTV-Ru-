@@ -3280,7 +3280,7 @@ https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
 #EXTINF:-1 tvg-id="sts",СТС Kidsᴴᴰ
 http://31148.rafail1982.uz/STS_Kids_HD/index.m3u8
 #EXTINF:-1 tvg-id="sts",СТС (2)
-http://cdn.kubteltv.workers.dev/?ID=377
+http://iptv46.mcx-ix.ru:8077/sts_hd/index.m3u8
 
 # ===== Кнопка 14 =====
 #EXTINF:-1 tvg-id="domashniy",Домашний HD
@@ -3495,9 +3495,9 @@ https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15514/index.m3u8
 #EXTINF:-1 tvg-id="domashniy" [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",Домашний International
 http://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
-#EXTINF:-1 tvg-id="domashniy",Домашний (2)
+#EXTINF:-1 tvg-id="domashniy" [OLD],Домашний (2)
 http://185.78.112.47:8077/domashniy/index.m3u8
-#EXTINF:-1 tvg-id="domashniy",Домашний (3)
+#EXTINF:-1 tvg-id="domashniy" [OLD],Домашний (3)
 http://185.78.112.47:8077/domashniy_hd/index.m3u8
 #EXTINF:-1 tvg-id="domashniy" [MANUAL] [OLD],<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><rect width='28' height='28' rx='3' fill='%230b1018'/><text x='14' y='19' font-size='10' text-anchor='middle' fill='%232a3848' font-family='monospace'>TV</text></svg>' group-title="Эфирные ТВ Спец",[MANUAL] Домашний
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8
@@ -3955,6 +3955,8 @@ http://stream-tv.ew21.ru/017/video.m3u8?hash=TN66TE4YB
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="zvezda",Звезда Плюс
 http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
+#EXTINF:-1 tvg-id="zvezda",Звезда плюс
+http://dmi3y-tv.ru/hls/CH_3BE3DAPLUS.m3u8
 #EXTINF:-1 tvg-id="zvezda",Звезда Плюс HD
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="zvezda",Звезда (1080p) [Not 24/7]
@@ -4751,6 +4753,10 @@ http://tntm.mediacdn.ru/cdn/tntmusic/tracks-v3a1/mono.ts.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-shift="0",ТНТ4 (Санкт-Петербург)
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R01_TNT4/variant.m3u8
+#EXTINF:-1 tvg-id="tnt",ТНТ (2)
+https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=K-z3nz49R1oGQ-5yPSd8pg&e=2082157024&scheme=https
+#EXTINF:-1 tvg-id="tnt",ТНТ (3)
+http://iptv46.mcx-ix.ru:8077/tnt/index.m3u8
 
 # ===== Кнопка 20 =====
 #EXTINF:-1 tvg-id="muztv",МУЗ-ТВ
@@ -5120,7 +5126,7 @@ http://91.221.252.12:82/tv68
 #EXTINF:-1 [OLD],Viju TV1000 Новелла
 http://starcius-cinema.com/10114/index.m3u8?token=010101010101
 #EXTINF:-1,Viju TV1000 (2)
-http://185.78.112.47:8077/viju_tv1000_hd/index.m3u8
+https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Viju TV1000 Русское (2)
 http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
 #EXTINF:-1,Viju TV1000 Action (2)
@@ -5135,6 +5141,10 @@ http://31.148.48.15/TV1000_Russkoe_kino/index.m3u8
 http://178.134.1.158:8081/tv1000action/index.m3u8?token=iptvin.ru
 #EXTINF:-1,viju TV1000 action
 https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
+#EXTINF:-1,TV1000 Russian Kino Global
+http://213.91.179.28:8000/play/a0bx
+#EXTINF:-1,Viju TV1000 (3)
+https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
 
 # ===== Кнопка 27 =====
 #EXTINF:-1,Kluch (576p)
@@ -14832,7 +14842,7 @@ https://stream8.cinerama.uz/blocked/index.m3u8
 #EXTINF:-1 [OLD],THE MOST BEAUTIFUL 4K 60fps
 https://stream8.cinerama.uz/blocked/index.m3u8
 #EXTINF:-1,Наше Новое Кино
-https://stream8.cinerama.uz/blocked/index.m3u8
+http://dmi3y-tv.ru/hls/CH_NASHENOVOEKINO.m3u8
 #EXTINF:-1,Русский Роман
 http://31.148.48.15/Russkiy_Roman_HD/index.m3u8
 #EXTINF:-1,Дикий
@@ -16409,7 +16419,7 @@ https://tvpass.org/live/DisneyChannelEast/hd
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
 #EXTINF:-1,Disney Jr. (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
-#EXTINF:-1,Disney Jr. Latin America South
+#EXTINF:-1 [OLD],Disney Jr. Latin America South
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1,Disney Junior (1080i)
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
@@ -18638,7 +18648,7 @@ http://31.148.48.15/SONY_SCI_FI/index.m3u8
 #EXTINF:-1,BRIDGE Deluxe (1080p)
 http://31.148.48.15/Bridge_TV_HD/index.m3u8
 #EXTINF:-1,STS kids (1080p)
-http://31.148.48.15/STS_Kids_HD/index.m3u8
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/ctc-kids-hd.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Австралия 🇦🇺",Австралия 8
 https://hls.augrea.stream/barron/hls/stream.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Россия 🇷🇺",Орск 7
@@ -19538,7 +19548,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8|User-Agent=Mozi
 #EXTINF:-1,Муз ТВ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Мосфильм Золотая коллекция
-http://cdn.kubteltv.workers.dev/?ID=353
+http://iptv46.mcx-ix.ru:8077/mosfilm/index.m3u8
 #EXTINF:-1 tvg-shift="0",Москва 24 (М24)
 https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
 #EXTINF:-1,Суббота (+2)
@@ -20736,7 +20746,7 @@ http://tv.ttk.mx:9065
 #EXTINF:-1 [OLD],Шерлок Холмс и доктор Ватсон
 https://mults.info/mp4/sherlok_holms_i_doktor_vatson.mp4
 #EXTINF:-1,Дом Кино (2)
-https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
+http://iptv46.mcx-ix.ru:8077/dom_kino/index.m3u8
 #EXTINF:-1,Время (2)
 http://31.148.48.15/Vremya/index.m3u8
 #EXTINF:-1,Cinema (2)
@@ -20961,7 +20971,7 @@ https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w17
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1,TV8 [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
-#EXTINF:-1,Мосфильм Золотая коллекция (2)
+#EXTINF:-1 [OLD],Мосфильм Золотая коллекция (2)
 http://185.78.112.47:8077/mosfilm/index.m3u8
 #EXTINF:-1,Кинокомедия (2)
 http://158.101.222.193:88/georgia_play.php?id=kinokomediya
@@ -21280,7 +21290,7 @@ http://hbbtv-server.zivoli.it:8080/hls/deltatv/deltatv/index.m3u8
 #EXTINF:-1,Delta TV
 https://ms7.mx-cd.net/tv/334-4896404/DeltaTV.smil/chunklist.m3u8
 #EXTINF:-1,Disney Channel
-http://81.15.109.89:8001/play/DisneyChannel2
+http://88.212.15.19/live/test_disney/playlist.m3u8
 #EXTINF:-1 [OLD],Disney Jr.
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 #EXTINF:-1,Disney XD
@@ -22077,6 +22087,68 @@ https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/jimjam/index.m3u8
 http://193.239.186.231/NICK/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Culture;News",Ost West (576p)
 http://hls127.freeott.top:8080/OstWest/video.m3u8
+#EXTINF:-1,RTVi FTA
+http://91.146.94.234:10001/play/a090
+#EXTINF:-1,Leva (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/ljova-hd.m3u8
+#EXTINF:-1,Usadba (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/usadba-hd.m3u8
+#EXTINF:-1,Detski mir (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/detskij-mir-hd.m3u8
+#EXTINF:-1,V gostyakh u skazki (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/gosti-skazka-hd.m3u8
+#EXTINF:-1,Big Planet (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/big-planet-hd.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Великобритания 🇬🇧",Orton Mere
+http://maybach.railcam.co.uk/NVR-Orton-Mere_39273/tracks-v1/mono.m3u8
+#EXTINF:-1,Disney Channel Latin America (1080p)
+http://45.185.163.75:8000/play/a02j/index.m3u8
+#EXTINF:-1,Disney Channel Latin America Center (1080p)
+http://181.78.8.199:8000/play/a0dn/index.m3u8
+#EXTINF:-1,Disney Jr. Latin America South (1080p)
+http://45.185.163.75:8000/play/a016/index.m3u8
+#EXTINF:-1,Kids TV (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kids-tv-hd.m3u8
+#EXTINF:-1,Nick Jr. Latin America (1080p)
+http://179.60.51.134:8888/NICK-JR/index.m3u8
+#EXTINF:-1,Nickelodeon Latin America (1080p)
+http://179.60.51.134:8888/NICK/index.m3u8
+#EXTINF:-1,Apsua TV
+https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
+#EXTINF:-1,Kvartal TV
+https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
+#EXTINF:-1,Red Bull TV HD
+http://dmi3y-tv.ru/hls/CH_REDBULLTVHD.m3u8
+#EXTINF:-1,Чижик HD
+http://dmi3y-tv.ru/hls/CH_CHIZHIKHD.m3u8
+#EXTINF:-1,Code Fashion TV HD
+http://dmi3y-tv.ru/hls/CH_CODE_FTVHD.m3u8
+#EXTINF:-1,Leomax 24 HD
+http://dmi3y-tv.ru/hls/CH_LEOMAX24HD.m3u8
+#EXTINF:-1,Витрина ТВ
+http://dmi3y-tv.ru/hls/CH_VITRINATV.m3u8
+#EXTINF:-1,ULTRA REX UHD
+http://dmi3y-tv.ru/hls/zabava/CH_RUSSIANEXTREMEULTRAUHD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Ultra HD Cinema UHD
+http://dmi3y-tv.ru/hls/zabava/CH_ULTRAHDCINEMAUHD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Кинокомедия (3)
+http://tinyurl.com/TvZaTak65?id=kinokomediya
+#EXTINF:-1,Кинокомедия (4)
+http://176.118.197.101/Kinokomediya/index.m3u8
+#EXTINF:-1,Кинокомедия (5)
+http://37.186.70.39:40/play/68/index.m3u8
+#EXTINF:-1,ВМЕСТЕ РФ
+http://dmi3y-tv.ru/hls/CH_VMESTERFHD.m3u8
+#EXTINF:-1,Жара TV
+http://dmi3y-tv.ru/hls/okko/CH_ZHARATVHD.m3u8
+#EXTINF:-1,Небеса ТВ7
+http://dmi3y-tv.ru/hls/CH_TV7HD720.m3u8
+#EXTINF:-1 tvg-shift="0",МТВ Волгоград HD
+http://dmi3y-tv.ru/hls/region/CH_MTVHD720_VGRAD.m3u8
+#EXTINF:-1,Раменское ТВ HD
+http://dmi3y-tv.ru/hls/region/CH_RTV_RNKOE.m3u8
+#EXTINF:-1 tvg-id="che" tvg-shift="2",ЮУрГУ ТВ HD Челябинск
+http://dmi3y-tv.ru/hls/region/CH_YURGUTVHD720_CHEL.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
