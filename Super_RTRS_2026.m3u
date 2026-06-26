@@ -3285,7 +3285,7 @@ https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
 http://31148.rafail1982.uz/STS_Kids_HD/index.m3u8
 #EXTINF:-1 tvg-id="sts" [OLD],СТС (2)
 http://iptv46.mcx-ix.ru:8077/sts_hd/index.m3u8
-#EXTINF:-1 tvg-id="sts",СТС Kids (2)
+#EXTINF:-1 tvg-id="sts" [OLD],СТС Kids (2)
 http://195.26.83.96:7006/play/a00z/index.m3u8
 
 # ===== Кнопка 14 =====
@@ -16151,7 +16151,7 @@ http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.
 http://v4.proofix.ru:80/8tv-europe/index.m3u8
 #EXTINF:-1 [OLD],Кино 18+
 https://autopilot.catcast.tv/content/40381/index.m3u8
-#EXTINF:-1,КиноТВ
+#EXTINF:-1 [OLD],КиноТВ
 https://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1,Конгресс ТВ HD
 http://live-3.otcnet.ru/congresstv/index.m3u8
@@ -19595,7 +19595,7 @@ http://31.148.48.15/Fan/index.m3u8
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8
 #EXTINF:-1,NikNik
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
-#EXTINF:-1,Бокс (1)
+#EXTINF:-1 [OLD],Бокс (1)
 http://158.101.222.193:88/georgia_play.php?id=boxtv
 #EXTINF:-1,Бокс (2)
 http://185.78.112.47:8077/boks-tv/index.m3u8
@@ -19608,7 +19608,7 @@ http://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1,Viju+ Sport
 https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
 #EXTINF:-1,MMA
-http://tv.woobl.ru/mma_tvcom_hd/video.m3u8?token=woobliptvz
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1,MMA (2)
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1,Твоё ТВ
@@ -19626,7 +19626,7 @@ https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_
 #EXTINF:-1,Инсайт
 https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Дорама (2)
-http://185.78.112.47:8077/Dorama/index.m3u8
+http://dmi3y-tv.online/hls/CH_DORAMA.m3u8
 #EXTINF:-1,OVAA
 http://vod.tuva.ru/ovaa/index.m3u8
 #EXTINF:-1,Viju+ Premiere
@@ -20715,7 +20715,7 @@ https://s70378.cdn.ngenix.net/muzzone/2/index.m3u8
 https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 [OLD],SPOTV
 http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119515.m3u8
-#EXTINF:-1,Sumiko
+#EXTINF:-1 [OLD],Sumiko
 http://cdn.kubteltv.workers.dev/?ID=343
 #EXTINF:-1 [OLD],Timeless Dizi Channel
 http://93.84.115.174:10181/dizi
@@ -20864,7 +20864,7 @@ https://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb
 #EXTINF:-1,Simon (720p) [Geo-blocked]
 https://hls.simon.ua/live-HD/live/playlist.m3u8
 #EXTINF:-1,Волейбол
-http://cdn.kubteltv.workers.dev/?ID=444
+https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=5eCXZGvblic9uGykEPvBYw&e=2082370462&scheme=https
 #EXTINF:-1,100% Детское
 https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089
 #EXTINF:-1,100% Классика
@@ -20912,7 +20912,7 @@ https://stream.mixadance.fm/mixadance128
 #EXTINF:-1 [OLD],Fan (2)
 http://185.78.112.47:8077/fan/index.m3u8
 #EXTINF:-1,.Sci-Fi (2)
-http://158.101.222.193:88/georgia_play.php?id=scifi
+http://dmi3y-tv.online/hls/CH_TOCHKA_SCI-FI.m3u8
 #EXTINF:-1,Hollywood (2)
 http://tv.woobl.ru/hollywood_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1,KinoJam 1
@@ -20979,7 +20979,7 @@ http://162.19.246.113/RTL/index.m3u8
 http://162.19.246.113/STAR/index.m3u8
 #EXTINF:-1,Duronto TV (720p)
 https://tvsen5.aynaott.com/durontotv/index.m3u8
-#EXTINF:-1,PLUSPLUS (720p) [Not 24/7]
+#EXTINF:-1 [OLD],PLUSPLUS (720p) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6379/index.m3u8
 #EXTINF:-1,Slime (576p) [Not 24/7]
 https://slime.x1co.com.br/hls/stream.m3u8
@@ -20999,11 +20999,11 @@ http://158.101.222.193:88/georgia_play.php?id=kinoseria
 http://176.118.197.101/Kinoseria/mono.m3u8
 #EXTINF:-1,Ducktv
 http://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
-#EXTINF:-1,О! (2)
+#EXTINF:-1 [OLD],О! (2)
 http://185.78.112.47:8077/o_/index.m3u8
-#EXTINF:-1,Viju+ Serial (2)
+#EXTINF:-1 [OLD],Viju+ Serial (2)
 http://46.32.176.50/ViasatSportHD/index.m3u8
-#EXTINF:-1,Viju+ Comedy (2)
+#EXTINF:-1 [OLD],Viju+ Comedy (2)
 http://46.32.176.50/VIPComedyHD/index.m3u8
 #EXTINF:-1,Киномикс (2)
 http://158.101.222.193:88/georgia_play.php?id=kinomiks
@@ -21029,7 +21029,7 @@ https://v4.proofix.ru/8tv-europe/index.m3u8
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Belsat TV
 https://iptv.prosto.tv/ch171/tracks-v1a1/mono.m3u8?21yo=1&live=1&ip=178.136.40.86&id=742347&secret=vu2y5m72&e=1783349695&st=vmxIkxsl0_lBlPWPIs9RKA
-#EXTINF:-1,RTVi US
+#EXTINF:-1 [OLD],RTVi US
 https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg17233-rtvi-rtvius-wisptvus/cb573d19736c648d9cd43b66cef94682847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a97e4cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7acb35544d865a4e7014e942843fa83439fd501e983800f834a8022f1469d96f58385168b8caa599d00e6241b2a4117f8d023e0a331b1de8a7b069f7e26551b5bf2d1f0942f6ddc2b2939fbf0dbaf648d70a4e875db0c5dd804914bf655e008844686bb38cac0bacf527e2ab0cb496418b5f7acf89e5f509329daf890b7017f96f8007d49dd52d42b3d3d83e9d91185ce67f5dc42d4ee3b775bd58349e9d6d8cae7a4995a8f7f8588fe9a2f4d4f6706038859ec8e7b942ad579a6c0162d125d4cbdc556cd82840a643415f5ea34d5030b86d99e8ddb023eb8057139c62ff8016f06af306268974e93fb6d36f84c60902602eb4a3c9643ffa15e96cdbab45c4adfb6c652ef50e1b407d78467c30e121623e998463c494169a28d0c6c604bd12f95bb4d153d7362d9d68f99f5582a063019577efa888555aefe0cad8074bb350375661f07937eba014bb2037248e61ad6bf1a75c77649bf54ed4d3f0f3decae9e8582c5d945ff18b9aaab6c7e6b0831fc5b64576966318712a31f6b07d0fea2c26d9de3271029cf80dbea898521e59561bc02af7509cadd185b005e7f6245cede389716d59a13bd94dd4f8cc1b95214d572f35a50a9d9d23aacb6c1df195bd9ea7609779bd610c07106ce039b7edb853e8be6154e37147465eec214f356b2dadae02e9927a206435de26ab491e6fc87320ea9c104637d5915247e54773e05f78f86334e28bace528c37d1e25bad4d43207f168ef06770b2a8264cd2650423cfc6ec84a2cd0f15b01ed77ddb6f0ea317406ed6c536ee8ca5e0b8e04b5113d2a2a45cb1c3dfd02cb749c991ba0a0f9cf6941b545b5e693352c474c72f94/71/1280x720_3572008/index.m3u8
 #EXTINF:-1,Viju Explore (2)
 https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
@@ -21582,7 +21582,7 @@ https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1,Nick Jr. Pluto TV (720p)
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 #EXTINF:-1,Nickelodeon (576p)
-http://195.64.140.147:10121/121
+https://adpnetworkhd-cmd.github.io/iptv/NickelodeonRussia.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Junior (1080p)
 https://iptv.prosto.tv/ch72/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Kids (1080p)
@@ -21759,7 +21759,7 @@ https://s34351.cdn.ngenix.net/hls/CH_R03_TOOKY/variant.m3u8
 http://iptv46.mcx-ix.ru:8077/detskiy/index.m3u8
 #EXTINF:-1,Чаваш Ен
 https://mhd122.iptv2022.com/ntrk/chavashen/324/1/tracks-v3a1/mono.m3u8
-#EXTINF:-1,Polsat JimJam (576p) [Not 24/7]
+#EXTINF:-1 [OLD],Polsat JimJam (576p) [Not 24/7]
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7298/index.m3u8
 #EXTINF:-1,TVP ABC (1080p)
 http://91.246.72.88:8000/play/a00r/index.m3u8
@@ -21807,8 +21807,8 @@ http://31.148.48.15/Malish_TV/index.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/FridayHD_Moskva.m3u8
 #EXTINF:-1 [OLD],TV Centr (1080p)
 https://cdn.telecloud.tv/CH4603/index.m3u8
-#EXTINF:-1 [OLD],REN TV HD (1080p)
-https://cdn.telecloud.tv/CH189/index.m3u8
+#EXTINF:-1,REN TV HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/RENTVHD_Moskva.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",51
 http://ibb-media4.ibb.gov.tr:1935/live/94.stream/chunklist.m3u8
 #EXTINF:-1,ГРОДНО+
@@ -21998,7 +21998,7 @@ http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8
 #EXTINF:-1,Kids Street (1080p)
 http://181.78.121.15:8000/play/a00a/index.m3u8
 #EXTINF:-1,Nick Jr. (576p)
-http://bethoven.af-stream.com:1600/s/kwtlxswl/nick-jr-il/video.m3u8
+https://adpnetworkhd-cmd.github.io/iptv/NickJrRussia.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon
 http://213.91.179.28:8000/play/a056
 #EXTINF:-1,Nicktoons (720p)
@@ -22265,6 +22265,84 @@ https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1,NSC
 http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1,Mir vokrug (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/Mirvokrug.m3u8
+#EXTINF:-1,Mosfilm Gold Collection (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/MosfilmGoldCollection.m3u8
+#EXTINF:-1,Moya stikhiya HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/Moyastikhiya.m3u8
+#EXTINF:-1,Mult HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/Mult.m3u8
+#EXTINF:-1,Multilandia (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Multilandia.m3u8
+#EXTINF:-1,Muzhskoy (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/MuzhskoyHD.m3u8
+#EXTINF:-1,Muzyka Pervogo (576p)
+https://adpnetworkhd-cmd.github.io/iptv/MuzykaPervogo.m3u8
+#EXTINF:-1,NTV Mir (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NTVMir.m3u8
+#EXTINF:-1,NTV Series (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/NTVSerial.m3u8
+#EXTINF:-1,Nashe (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/NasheHD.m3u8
+#EXTINF:-1,Nicktoons (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NicktoonsRussia.m3u8
+#EXTINF:-1,O! (576p)
+https://adpnetworkhd-cmd.github.io/iptv/O.m3u8
+#EXTINF:-1,Oruzhie (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Oruzhie.m3u8
+#EXTINF:-1,Ostrosyuzhetnoye (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/OstrosyuzhetnoyeHD.m3u8
+#EXTINF:-1,Pervyy Kosmicheskiy HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/PervyyKosmicheskiy.m3u8
+#EXTINF:-1,Pingvin (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
+#EXTINF:-1,Premialnoe HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/PremialnoeHD.m3u8
+#EXTINF:-1,Psikhologiya (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Psikhologiya21.m3u8
+#EXTINF:-1,.red HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/RedHD.m3u8
+#EXTINF:-1,Russia-24 (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Russia24_Moskva.m3u8
+#EXTINF:-1,Russkiy Illusion (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
+#EXTINF:-1,Nick Jr. (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/NickJrSpain.m3u8
+#EXTINF:-1,Pixel TV (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/PikselTV.m3u8
+#EXTINF:-1,PLUSPLUS (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/PlusPlus.m3u8
+#EXTINF:-1,Polsat JimJam (576p)
+https://adpnetworkhd-cmd.github.io/iptv/JimJamPolsat.m3u8
+#EXTINF:-1,Novyi Channel (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/NoviyKanal.m3u8
+#EXTINF:-1,RTVi US (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/RTViUS.m3u8
+#EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Sports",Sport 1 Baltic
+http://ott.watch/XE5QWWBZ87/461/tracks-v2a1/mono.ts.m3u8?sid=c3f03b2b-bf32-49e2-8675-d1a321912ce8
+#EXTINF:-1,Europa TikTok Латвия
+https://stream.ehrhiti.lv:8000/Stream_38.aac
+#EXTINF:-1,Бокс (3)
+http://37.186.70.39:40/play/85/index.m3u8
+#EXTINF:-1,MMA (3)
+https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8
+#EXTINF:-1,.black (2)
+http://dmi3y-tv.online/hls/CH_TOCHKA_BLACK.m3u8
+#EXTINF:-1,.Red (2)
+http://dmi3y-tv.online/hls/CH_TOCHKA_RED.m3u8
+#EXTINF:-1,Кино ТВ (2)
+http://31.148.48.15/Kino_TV/index.m3u8
+#EXTINF:-1,Amedia Hit (3)
+http://37.186.70.39:40/play/54/index.m3u8
+#EXTINF:-1,Amedia Premium (3)
+http://37.186.70.39:40/play/60/index.m3u8
+#EXTINF:-1,Viasat Kino Comedy
+http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/31764/index.m3u8
+#EXTINF:-1,Viasat Kino Comedy (2)
+http://ukr2.ukrainske.tv/493/video.m3u8
+#EXTINF:-1,О!2 (2)
+http://77.232.131.211/O2TV/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
