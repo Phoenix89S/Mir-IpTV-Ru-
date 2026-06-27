@@ -374,6 +374,66 @@ GITHUB_PLAYLISTS = [
 
 ]
 
+# ============================================================
+#   EXTRA_RU_SOURCES — E‑CANON MODE (GROUP: RTRS_Super)
+# ============================================================
+
+EXTRA_RU_SOURCES = [
+    # --- iptv-org (multi-country, RU groups inside) ---
+    "https://iptv-org.github.io/iptv/index.m3u",
+    "https://iptv-org.github.io/iptv/countries/ru.m3u",
+    "https://iptv-org.github.io/iptv/languages/rus.m3u",
+
+    # --- naggdd (pure RU) ---
+    "https://naggdd.github.io/iptv/ru.m3u",
+    "https://naggdd.github.io/iptv/radio.m3u",
+    "https://naggdd.github.io/iptv/cartoons.m3u",
+
+    # --- Free-TV (Russia only) ---
+    "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_russia.m3u8",
+
+    # --- smolnp (large RU donor) ---
+    "https://smolnp.github.io/IPTVru/IPTVru.m3u",
+    "https://smolnp.github.io/IPTVru/IPTVstable.m3u8",
+    "https://smolnp.github.io/IPTVru/IPTVxxx.m3u",
+    "https://smolnp.github.io/IPTVru/IPTVmir.m3u8",
+
+    # --- Romaxa55 (multi-country, RU groups present) ---
+    "https://romaxa55.github.io/world_ip_tv/output/index.m3u",
+
+    # --- ChinaIPTV (Russia only) ---
+    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+
+    # --- APTV (multi-country, RU groups exist) ---
+    "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+
+    # --- Loganet (RU archive inside all.m3u) ---
+    "https://raw.githubusercontent.com/loganettv/playlists/main/all.m3u",
+
+    # --- MichaelJorky (RU only) ---
+    "https://raw.githubusercontent.com/MichaelJorky/Free-IPTV-M3U-Playlist/main/iptv-russia.m3u",
+
+    # --- MyPlaylists (RU only) ---
+    "https://myplaylists.github.io/iptv/ru.m3u",
+
+    # --- AVDmono (RU only) ---
+    "https://avdmono.do.am/AVD/Russian.m3u",
+
+    # --- Rafail1982 (RU groups inside) ---
+    "https://raw.githubusercontent.com/Rafail1082GitHUB/rafail1982.ru/main/playlist.m3u",
+
+    # --- Gists (all contain RU groups) ---
+    "https://gist.github.com/ityshchenko/2ab16ce214f03740883428fb789c5cde/raw",
+    "https://gist.github.com/mekhovov/c918d292c5f7267d31f4/raw",
+    "https://gist.github.com/Graceas/26a4366d11e850a2781ef50877fd1798/raw",
+    "https://gist.github.com/ageresz/a1b1790b4febbf219df31ba32094e3bf/raw",
+    "https://gist.github.com/ohsevin/3abce6473b57679c8aa8fb4348fdb27a/raw",
+
+    # --- Karnei4 (RU only, HTML → M3U auto-detect) ---
+    "https://karnei4.github.io/IPTV-RU/",
+    "https://karnei4.github.io/IPTV-RU/index.html",
+]
+
 # Имя итогового файла, который и есть твой главный плейлист
 OUTPUT_FILE = "Super_RTRS_2026.m3u"
 
