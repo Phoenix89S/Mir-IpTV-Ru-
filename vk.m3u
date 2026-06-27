@@ -817,51 +817,57 @@ https://185.78.112.47:8077/hustler_hd/index.m3u8
 
 #проверка
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Основное
+
+
+#
+#
+
+
+###
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Основной 1080p
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 1 lova
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Зеркало Lova
 http://lova.me/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 2 moobl
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Moobl Mirror
 http://moobl.ru/hls/Hit_hd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 3 hit
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Классика hit
 http://lova.me/hls/hit.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 4
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Основной
 http://hithd.camsh.orsk.ru/hls/hit.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD Орск - Backup A
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Backup A
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD Орск - Backup B
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Backup B
 http://lova.me/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Radio Hit TV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Radio Hit TV — Полная HD
 http://lova.me/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Хит HD 1080p - Variant 1
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Хит HD — Moobl Вариант
 http://moobl.ru/hls/Hit_hd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Хит HD 1080p - Variant 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Камш
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Reserve 01
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Резерв Lova 01
 http://lova.me/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Reserve 02
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Резерв Moobl
 http://moobl.ru/hls/Hit_hd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Reserve 03
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Резерв hit
 http://lova.me/hls/hit.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD Орск HD - Alt 1
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Альтернатива 1
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD Орск HD - Alt 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Альтернатива 2
 http://lova.me/hls/hithd.m3u8
-
 
 
 
