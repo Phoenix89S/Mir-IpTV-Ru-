@@ -879,7 +879,28 @@ http://cdnvideo.cdnvideo.ru/hithd/tracks-v1a1/mono.m3u8
 https://hithd.cdn77.org/hls/playlist.m3u8
 
 
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://edge1.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://edge2.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://edge3.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://hls1.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://hls2.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://vs1.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="Хит Кино 2833X" group-title="Эфирная Zabava+",Хит Кино 2833X
+https://vs2.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
 
 
 
