@@ -815,8 +815,19 @@ https://185.78.112.47:8077/bloomberg/index.m3u8
 https://185.78.112.47:8077/hustler_hd/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p)
+#проверка
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Основное
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 1
+http://lova.me/hls/hithd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 2
+http://moobl.ru/hls/Hit_hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) - Mirror 3
+http://lova.me/hls/hit.m3u8
 
 
 
