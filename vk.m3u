@@ -904,6 +904,30 @@ https://vs2.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток 2833" group-title="Эфирная Zabava+",КиноПоток 2833
+https://edge1.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток 2833X" group-title="Эфирная Zabava+",КиноПоток 2833X
+https://edge2.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток HD" group-title="Эфирная Zabava+",КиноПоток HD
+https://edge3.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток Orig" group-title="Эфирная Zabava+",КиноПоток Orig
+https://hls1.cdnvideo.ru/hit_hd_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток Alt" group-title="Эфирная Zabava+",КиноПоток Alt
+https://hls2.cdnvideo.ru/hit_hd_orig/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток 2833HD" group-title="Эфирная Zabava+",КиноПоток 2833HD
+https://vs1.cdnvideo.ru/hit_hd_alt/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="2833x" tvg-name="КиноПоток 2833+" group-title="Эфирная Zabava+",КиноПоток 2833+
+https://vs2.cdnvideo.ru/hit_hd_alt/tracks-v1a1/mono.m3u8
+
+
 
 
 
