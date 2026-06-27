@@ -869,7 +869,14 @@ http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — Орск Альтернатива 2
 http://lova.me/hls/hithd.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — GCore CDN (1080p)
+https://edge1.gcdn.co/hithd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — CDNVIDEO (1080p)
+http://cdnvideo.cdnvideo.ru/hithd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD — CDN77 Mirror (1080p)
+https://hithd.cdn77.org/hls/playlist.m3u8
 
 
 
