@@ -818,7 +818,14 @@ https://185.78.112.47:8077/hustler_hd/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p)
 http://ott-cdn2024.online/hithd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p)
+http://ott-cdn2024.online/hithd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) [Mirror 2]
+http://cdn-ru-ott.site/hit_hd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jl3MNPe.png" group-title="Russia",Hit HD (1080p) [Mirror 3]
+http://mobile-ott.cdn77.host/hithd/index.m3u8
 
 
 
