@@ -1,0 +1,152 @@
+#EXTM3U
+
+###############
+#  VS1
+###############
+
+#EXTINF:-1,VS1 hit_hd
+https://vs1.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hit_hd_orig
+https://vs1.cdnvideo.ru/hit_hd_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hit_hd_alt
+https://vs1.cdnvideo.ru/hit_hd_alt/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 moviehit_hd
+https://vs1.cdnvideo.ru/moviehit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hitmovie_hd
+https://vs1.cdnvideo.ru/hitmovie_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hitmovie
+https://vs1.cdnvideo.ru/hitmovie/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 moviehit
+https://vs1.cdnvideo.ru/moviehit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 kinohit
+https://vs1.cdnvideo.ru/kinohit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 kino_hit
+https://vs1.cdnvideo.ru/kino_hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hit_tv
+https://vs1.cdnvideo.ru/hit_tv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 hit_channel
+https://vs1.cdnvideo.ru/hit_channel/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 2833
+https://vs1.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 2833_hd
+https://vs1.cdnvideo.ru/2833_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 2833_orig
+https://vs1.cdnvideo.ru/2833_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS1 2833_alt
+https://vs1.cdnvideo.ru/2833_alt/tracks-v1a1/mono.m3u8
+
+
+
+###############
+#  VS2
+###############
+
+#EXTINF:-1,VS2 hit_hd
+https://vs2.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hit_hd_orig
+https://vs2.cdnvideo.ru/hit_hd_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hit_hd_alt
+https://vs2.cdnvideo.ru/hit_hd_alt/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 moviehit_hd
+https://vs2.cdnvideo.ru/moviehit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hitmovie_hd
+https://vs2.cdnvideo.ru/hitmovie_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hitmovie
+https://vs2.cdnvideo.ru/hitmovie/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 moviehit
+https://vs2.cdnvideo.ru/moviehit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 kinohit
+https://vs2.cdnvideo.ru/kinohit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 kino_hit
+https://vs2.cdnvideo.ru/kino_hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hit_tv
+https://vs2.cdnvideo.ru/hit_tv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 hit_channel
+https://vs2.cdnvideo.ru/hit_channel/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 2833
+https://vs2.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 2833_hd
+https://vs2.cdnvideo.ru/2833_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 2833_orig
+https://vs2.cdnvideo.ru/2833_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS2 2833_alt
+https://vs2.cdnvideo.ru/2833_alt/tracks-v1a1/mono.m3u8
+
+
+
+###############
+#  VS3
+###############
+
+#EXTINF:-1,VS3 hit_hd
+https://vs3.cdnvideo.ru/hit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hit_hd_orig
+https://vs3.cdnvideo.ru/hit_hd_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hit_hd_alt
+https://vs3.cdnvideo.ru/hit_hd_alt/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 moviehit_hd
+https://vs3.cdnvideo.ru/moviehit_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hitmovie_hd
+https://vs3.cdnvideo.ru/hitmovie_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hitmovie
+https://vs3.cdnvideo.ru/hitmovie/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 moviehit
+https://vs3.cdnvideo.ru/moviehit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 kinohit
+https://vs3.cdnvideo.ru/kinohit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 kino_hit
+https://vs3.cdnvideo.ru/kino_hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hit_tv
+https://vs3.cdnvideo.ru/hit_tv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 hit_channel
+https://vs3.cdnvideo.ru/hit_channel/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 2833
+https://vs3.cdnvideo.ru/2833/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 2833_hd
+https://vs3.cdnvideo.ru/2833_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 2833_orig
+https://vs3.cdnvideo.ru/2833_orig/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,VS3 2833_alt
+https://vs3.cdnvideo.ru/2833_alt/tracks-v1a1/mono.m3u8
