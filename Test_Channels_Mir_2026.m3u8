@@ -921,6 +921,66 @@ http://hls127.freeott.top:8080/Mosfilm/video.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD",RT en Espanol (576p)
 https://streaming.thestream.cyou/live/46.m3u8
+#EXTINF:-1 tvg-id="MatchStrana.ru@SD",Match! Strana (576p)
+http://ukr.ukrainske.tv/134/keytvainua/video.m3u8
+#EXTINF:-1 tvg-id="Football.ru@SD",Football (576p)
+http://hls127.freeott.top:8080/Football/video.m3u8
+#EXTINF:-1 tvg-id="STSLove.ru@SD",STS Love (576p)
+http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8
+#EXTINF:-1 tvg-id="Channel8.ru@SD",Channel 8 (576p)
+http://hls127.freeott.top:8080/8_KANAL/video.m3u8
+#EXTINF:-1 tvg-id="Prosveshchenie.ru@SD",Prosveshchenie (576p)
+http://cdn-01.bonus-tv.ru:80/prosveschenie_edge/index.m3u8
+#EXTINF:-1 tvg-id="SuperGeroi.ru@SD",SuperGeroi (576p)
+http://109.94.1.3:8080/132/index.m3u8
+#EXTINF:-1 tvg-id="U.ru@SD",U (576p)
+http://178.134.1.158:8081/U/index.m3u8
+#EXTINF:-1 tvg-id="Vkus.ru@SD",Vkus (576p)
+http://178.134.1.158:8081/vkus/index.m3u8
+#EXTINF:-1 tvg-id="RENTVInternational.ru@SD",REN TV International (576p)
+http://178.134.1.158:8081/RENTV/index.m3u8
+#EXTINF:-1 tvg-id="Channel5International.ru@SD",Channel 5 International (576p)
+http://178.134.1.158:8081/5channel/index.m3u8
+#EXTINF:-1 tvg-id="RT.ru@SD",RT (576p)
+http://41.205.77.102/RT-ENGLISH/index.m3u8
+#EXTINF:-1 tvg-id="RTBalkan.ru@SD",RT Balkan (1080p)
+https://rt-srb.rttv.com/live/rtbalkan/playlist.m3u8
+#EXTINF:-1 tvg-id="VitrinaTV.ru@SD",Vitrina TV (720p)
+https://live-11cinema.cdnvideo.ru/11cinema/11cinema/playlist.m3u8
+#EXTINF:-1 tvg-id="ShoppingLive.ru@SD",Shopping Live (720p)
+https://nonmirya7cc.a.trbcdn.net/livemaster/tzrz5_sazlypl5ot.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Sportivnyy.ru@SD",Sportivnyy (1080p)
+https://live-3.otcnet.ru/sportivny/index.m3u8
+#EXTINF:-1 tvg-id="KinoTV.ru@HD",Kino TV HD (1080p)
+http://176.118.197.101:80/KinoTvHD/playlist.m3u8
+#EXTINF:-1 tvg-id="Saphire.ru@SD",Saphire (1080p)
+http://77.232.131.211:80/Sapfir/manifest.m3u8
+#EXTINF:-1 tvg-id="Doctor.ru@SD",Doctor (576p)
+http://178.134.1.158:8081/doktor/index.m3u8
+#EXTINF:-1 tvg-id="STS.ru@SD",STS (576p)
+http://tshift-1.telecoma.tv/sts/index.m3u8
+#EXTINF:-1 tvg-id="Domashniy.ru@SD",Domashniy (576p)
+http://94.230.129.31:8080/Domashnii/index.m3u8
+#EXTINF:-1 tvg-id="Friday.ru@SD",Friday! (576p)
+http://94.230.129.31:8080/Friday/index.m3u8
+#EXTINF:-1 tvg-id="TNT.ru@SD",TNT (576p)
+http://94.230.129.31:8080/THT/index.m3u8
+#EXTINF:-1 tvg-id="TV3.ru@SD",TV-3 (576p)
+http://94.230.129.31:8080/TB3/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD",Russia-24 (576p)
+http://94.230.129.31:8080/Rossia_24/index.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru@SD",Russia-K (576p)
+http://94.230.129.31:8080/Rossia_K/index.m3u8
+#EXTINF:-1 tvg-id="Spas.ru@SD",Spas (576p)
+http://94.230.129.31:8080/SPAS/index.m3u8
+#EXTINF:-1 tvg-id="Mir.ru@SD",Mir (576p)
+http://94.230.129.31:8080/MIR/index.m3u8
+#EXTINF:-1 tvg-id="ZagorodnayaZhizn.ru@SD",Zagorodnaya Zhizn (576p)
+http://185.57.68.33/40/index.m3u8
+#EXTINF:-1 tvg-id="ShansonTV.ru@SD",Shanson TV (576p)
+http://catchup.videoline.ru/shanson/index.m3u8
+#EXTINF:-1 tvg-id="red.ru@SD",.red (576p)
+http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 group-title="Общие", Ссылка на плейлист устарела
 https://loganettv.vercel.app/all.m3u
 #EXTINF:-1 group-title="Общие", Telegram-канал
@@ -959,8 +1019,6 @@ https://streaming.televizor-24-tochka.ru/live/8-req_offset_28000000-req_window_0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="5kanal-ru-pl7", Пятый канал +7 (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
-#EXTINF:-1 group-title="Общие", Пятый канал Int.
-http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 group-title="Общие", ОТР
 http://178.217.72.66:8080/OTR/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="otr", ОТР (Архив)
@@ -1389,8 +1447,6 @@ http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
 http://195.26.83.96:7006/play/a00z/index.m3u8
 #EXTINF:-1 group-title="Детям", СТС Kids HD
 http://31.148.48.15/STS_Kids_HD/index.m3u8
-#EXTINF:-1 group-title="Детям" tvg-id="malysh", СуперГерои
-http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:-1 group-title="Детям", Тамыр
 http://195.18.23.20:8000/play/2/index.m3u8
 #EXTINF:-1 group-title="Детям", Уникум
@@ -2051,8 +2107,6 @@ https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
 #EXTINF:-1 tvg-id="doktor" tvg-logo="https://iptvx.one/picons/doktor.png" group-title="Хобби и увлечения" ,Доктор
 http://45.11.139.43:8555/doctor/index.m3u8
-#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь
-http://185.57.68.33/40/index.m3u8
 #EXTINF:-1 tvg-id="muzhskoy" tvg-logo="https://iptvx.one/picons/muzhskoy.png" group-title="Хобби и увлечения" ,Мужской
 https://flussonic.mkpnet.ru/tv-55c94e838b306657/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov.png" group-title="Хобби и увлечения", Охотник и рыболов
