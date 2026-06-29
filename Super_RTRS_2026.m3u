@@ -2192,7 +2192,7 @@ https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="karusel" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Эфирные детские плюс",1.4 Карусель International (720p)
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="karusel",Карусель (+2)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="karusel",Карусель (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="karusel",Карусель (+7)
@@ -2209,7 +2209,7 @@ http://31hmi9qv.megogo.xyz/iptv/A7ZADWAZMHRMEQ/156/index.m3u8
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8
 #EXTINF:-1 tvg-id="karusel" tvg-shift="0",Карусель (Ставрополь)
 https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8
-#EXTINF:-1 tvg-id="karusel" [OLD],Карусель FD
+#EXTINF:-1 tvg-id="karusel",Карусель FD
 https://streaming.televizor-24-tochka.ru/live/232.m3u8
 #EXTINF:-1 tvg-id="karusel",Карусель Int. SD
 http://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
@@ -17110,7 +17110,7 @@ http://34f4d057.shukinuki.website/iptv/SESPZVV922UXEK/18137/index.m3u8
 #EXTINF:-1,Кинозал 11
 http://34f4d057.shukinuki.website/iptv/SESPZVV922UXEK/18136/index.m3u8
 #EXTINF:-1,Детское Кино International
-https://autopilot.catcast.tv/content/38720/index.m3u8
+http://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1,8 Канал
 https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 #EXTINF:-1,12 канал HD
@@ -19100,7 +19100,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/864/index.m3u8
 #EXTINF:-1 tvg-shift="0",Кубань 24 ОРБИТА
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/866/index.m3u8
 #EXTINF:-1,Губерния
-http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/867/index.m3u8
+https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_GUBERNYA/variant.m3u8
 #EXTINF:-1,ACB TV
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/868/index.m3u8
 #EXTINF:-1,МАТЧ! СТРАНА
@@ -21394,7 +21394,7 @@ https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/play
 #EXTINF:-1,Food Food
 http://103.175.73.12:8080/live/143/143_0.m3u8
 #EXTINF:-1,Fortuna TV
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
 #EXTINF:-1,FOX Sports
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
 #EXTINF:-1,Fresh Adventure
@@ -21741,7 +21741,7 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mp
 http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1,PTC Punjabi
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
-#EXTINF:-1 [OLD],Rai Scuola
+#EXTINF:-1,Rai Scuola
 http://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8
 #EXTINF:-1,Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
@@ -22941,6 +22941,10 @@ http://41.205.77.102/TIJI/index.m3u8
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8
 #EXTINF:-1,Бокс
 http://158.101.222.193:88/georgia_play.php?id=boxtv
+#EXTINF:-1,Paramount Network
+http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
+#EXTINF:-1,Disney Channel (720p)
+https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/disney/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
