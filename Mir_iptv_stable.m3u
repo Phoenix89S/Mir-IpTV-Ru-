@@ -273,8 +273,6 @@ https://kino-stream.online/hls/DTRMUSIC1.m3u8
 https://kino-stream.online/hls/DTRZONA1.m3u8
 #EXTINF:-1 tvg-id="DTRZona2.ru@HD",DTR Zona 2 (720p)
 https://kino-stream.online/hls/DTRZONA2.m3u8
-#EXTINF:-1 tvg-id="FastFunBox.ru@SD",Fast&FunBox (1080p)
-https://iptv.prosto.tv/ch120/index.m3u8
 #EXTINF:-1 tvg-id="GlazamiTurista.ru@SD",Glazami Turista (576i)
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="GulliGirl.ru@SD",Gulli Girl (720p)
@@ -293,8 +291,6 @@ https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinosvidanie.ru@SD",Kinosvidanie
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="MCMTop.ru@SD",MCM Top (576p)
-https://iptv.prosto.tv/ch137/index.m3u8
 #EXTINF:-1 tvg-id="Multilandia.ru@SD",Multilandia
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MuzTV.ru@SD",Muz-TV
@@ -757,118 +753,6 @@ https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
 https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD",Smotrim 100% Fakty (720p)
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
-#EXTINF:-1 tvg-id="Priklyucheniya.ru@HD",Priklyucheniya HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/AdventuresHD.m3u8
-#EXTINF:-1 tvg-id="Vmirezhivotnykh.ru@SD",V mire zhivotnykh (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/AnimalFamilyHD.m3u8
-#EXTINF:-1 tvg-id="Arsenal.ru@SD",Arsenal (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/ArsenalHD.m3u8
-#EXTINF:-1 tvg-id="Avto24.ru@HD",Avto24 HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Avto24.m3u8
-#EXTINF:-1 tvg-id="black.ru@SD",.black (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Black.m3u8
-#EXTINF:-1 tvg-id="Bolt.ru@SD",Bolt (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/BoltRussia.m3u8
-#EXTINF:-1 tvg-id="Channel5.ru@SD",Channel 5 (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Channel5_Moskva.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@SD",Channel One (576p)
-https://adpnetworkhd-cmd.github.io/iptv/ChannelOne_Moskva.m3u8
-#EXTINF:-1 tvg-id="Che.ru@SD",Che! (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Che_Moskva.m3u8
-#EXTINF:-1 tvg-id="CuriosityStream.ru@SD",CuriosityStream (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/CuriosityStream.m3u8
-#EXTINF:-1 tvg-id="Detskimir.ru@SD",Detski mir (576p)
-https://adpnetworkhd-cmd.github.io/iptv/DetskiyMir.m3u8
-#EXTINF:-1 tvg-id="Dialogiorybalke.ru@SD",Dialogi o rybalke (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DialogiORybalke.m3u8
-#EXTINF:-1 tvg-id="Domkino.ru@SD",Dom kino (576p)
-https://adpnetworkhd-cmd.github.io/iptv/DomKino.m3u8
-#EXTINF:-1 tvg-id="DomkinoPremium.ru@SD",Dom kino Premium (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DomKinoPremiumHD.m3u8
-#EXTINF:-1 tvg-id="Domashniy.ru@SD",Domashniy (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DomashniyHD.m3u8
-#EXTINF:-1 tvg-id="Dushevnoe.ru@SD",Dushevnoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DushevnoeHD.m3u8
-#EXTINF:-1 tvg-id="Eda.ru@SD",Eda (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Eda.m3u8
-#EXTINF:-1 tvg-id="EnglishClass.ru@SD",English Class (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/EnglishClass.m3u8
-#EXTINF:-1 tvg-id="FeniksplusKino.ru@SD",Feniks plus Kino (576p)
-https://adpnetworkhd-cmd.github.io/iptv/FeniksPlusKino.m3u8
-#EXTINF:-1 tvg-id="FoodTime.ru@SD",FoodTime (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/FoodTimeHD.m3u8
-#EXTINF:-1 tvg-id="Friday.ru@SD",Friday! (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/FridayHD_Moskva.m3u8
-#EXTINF:-1 tvg-id="Kamedi.ru@SD",Kamedi (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kamedi.m3u8
-#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD",Kapitan Fantastika (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/KapitanFantastikaHD.m3u8
-#EXTINF:-1 tvg-id="Kineko.ru@SD",Kineko (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Kineko.m3u8
-#EXTINF:-1 tvg-id="Kinosemja.ru@SD",Kinosemja (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kinosemya.m3u8
-#EXTINF:-1 tvg-id="Kinoseriya.ru@SD",Kinoseriya (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kinoseriya.m3u8
-#EXTINF:-1 tvg-id="Komediynoe.ru@SD",Komediynoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/KomediynoeHD.m3u8
-#EXTINF:-1 tvg-id="Lyubimoe.ru@SD",Lyubimoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/LubimoeHD.m3u8
-#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD",Match! Planeta (576p)
-https://adpnetworkhd-cmd.github.io/iptv/MatchPlaneta.m3u8
-#EXTINF:-1 tvg-id="Mir.ru@SD",Mir (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Mir_Moskva.m3u8
-#EXTINF:-1 tvg-id="Mirvokrug.ru@SD",Mir vokrug (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Mirvokrug.m3u8
-#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD",Mosfilm Gold Collection (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/MosfilmGoldCollection.m3u8
-#EXTINF:-1 tvg-id="Moyastikhiya.ru@HD",Moya stikhiya HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Moyastikhiya.m3u8
-#EXTINF:-1 tvg-id="Mult.ru@HD",Mult HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Mult.m3u8
-#EXTINF:-1 tvg-id="Multilandia.ru@SD",Multilandia (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Multilandia.m3u8
-#EXTINF:-1 tvg-id="Muzhskoy.ru@SD",Muzhskoy (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/MuzhskoyHD.m3u8
-#EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD",Muzyka Pervogo (576p)
-https://adpnetworkhd-cmd.github.io/iptv/MuzykaPervogo.m3u8
-#EXTINF:-1 tvg-id="NTVHit.ru@SD",NTV-Hit (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/NTVHit.m3u8
-#EXTINF:-1 tvg-id="NTVMir.ru@SD",NTV Mir (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NTVMir.m3u8
-#EXTINF:-1 tvg-id="NTVSeries.ru@SD",NTV Series (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/NTVSerial.m3u8
-#EXTINF:-1 tvg-id="Nashe.ru@SD",Nashe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/NasheHD.m3u8
-#EXTINF:-1 tvg-id="NickJr.ru@SD",Nick Jr. (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NickJrRussia.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.ru@SD",Nickelodeon (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NickelodeonRussia.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.ru@SD",Nicktoons (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NicktoonsRussia.m3u8
-#EXTINF:-1 tvg-id="O.ru@SD",O! (576p)
-https://adpnetworkhd-cmd.github.io/iptv/O.m3u8
-#EXTINF:-1 tvg-id="Oruzhie.ru@SD",Oruzhie (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Oruzhie.m3u8
-#EXTINF:-1 tvg-id="Ostrosyuzhetnoye.ru@SD",Ostrosyuzhetnoye (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/OstrosyuzhetnoyeHD.m3u8
-#EXTINF:-1 tvg-id="PervyyKosmicheskiy.ru@HD",Pervyy Kosmicheskiy HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/PervyyKosmicheskiy.m3u8
-#EXTINF:-1 tvg-id="Pingvin.ru@SD",Pingvin (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
-#EXTINF:-1 tvg-id="Premialnoe.ru@HD",Premialnoe HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/PremialnoeHD.m3u8
-#EXTINF:-1 tvg-id="Psikhologiya.ru@SD",Psikhologiya (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Psikhologiya21.m3u8
-#EXTINF:-1 tvg-id="RENTV.ru@HD",REN TV HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/RENTVHD_Moskva.m3u8
-#EXTINF:-1 tvg-id="red.ru@HD",.red HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/RedHD.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD",Russia-24 (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Russia24_Moskva.m3u8
-#EXTINF:-1 tvg-id="RusskiyIllusion.ru@SD",Russkiy Illusion (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
-#EXTINF:-1 tvg-id="Rybolov.ru@SD",Rybolov (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Rybolov.m3u8
 #EXTINF:-1 tvg-id="Channel8.ru@SD",Channel 8 (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
 #EXTINF:-1 tvg-id="TopSecret.ru@SD",Top Secret (576p)
@@ -3563,6 +3447,8 @@ https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
 https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="Junior.il@SD" tvg-logo="https://i.imgur.com/w8fYTnw.png" group-title="Kids",Junior (576p)
 http://bethoven.af-stream.com:1600/s/kwtlxswl/junior-il/video.m3u8
+#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" tvg-logo="https://i.imgur.com/K3PSHiT.png" group-title="Kids",Kapitan Fantastika (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/KapitanFantastikaHD.m3u8
 #EXTINF:-1 tvg-id="KartoonChannel.us@SD" tvg-logo="https://i.imgur.com/1luzP3T.png" group-title="Kids",Kartoon Channel (1080p)
 https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="KetchupTV.us@SD" tvg-logo="https://i.imgur.com/XRGioQX.png" group-title="Kids",Ketchup TV (720p)
@@ -3635,6 +3521,8 @@ https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@ES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Animation;Kids",Mr. Bean Anime Spain (1080p)
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="Mult.ru@HD" tvg-logo="https://i.imgur.com/xi351Fx.png" group-title="Kids",Mult HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/Mult.m3u8
 #EXTINF:-1 tvg-id="Multimania.lv@SD" tvg-logo="https://i.imgur.com/J9Lwc0T.png" group-title="Animation;Kids",Multimania (Latvia) (576p)
 https://void.greenhosting.ru/Multimania_Mpeg4/index.m3u8
 #EXTINF:-1 tvg-id="MyKidz.id@SD" tvg-logo="https://i.imgur.com/qzZFU6d.png" group-title="Kids",My Kidz (720p)
@@ -3649,6 +3537,8 @@ http://103.72.101.252:8080/live/1226.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/NickJrSpain.m3u8
 #EXTINF:-1 tvg-id="NickJr.il@SD" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. (576p)
 http://bethoven.af-stream.com:1600/s/kwtlxswl/nick-jr-il/video.m3u8
+#EXTINF:-1 tvg-id="NickJr.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Kids",Nick Jr. (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NickJrRussia.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. (576p)
 http://84.17.50.102/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrClub.de@DACH" tvg-logo="https://images.pluto.tv/channels/67f3eb1c443f0671bc03ece8/colorLogoPNG_1748329104247.png" group-title="Kids",Nick Jr. Club (720p)
@@ -3679,6 +3569,8 @@ http://149.71.34.166:8000/play/a00u/index.m3u8
 http://193.239.186.231/NICK/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon
 http://82.78.243.219:45739/play/a00o/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.ru@SD" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="Kids",Nickelodeon (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NickelodeonRussia.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (576p)
 https://trs1.aynaott.com/nicklodean/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (1080p)
@@ -3715,6 +3607,8 @@ https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
 https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8
 #EXTINF:-1 tvg-id="NickOnline.br@SD" tvg-logo="https://x1co.com.br/logo.png" group-title="Animation;Kids",NickOnline (360p)
 https://x1co.com.br/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="Kids",Nicktoons (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NicktoonsRussia.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@CA" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="Kids",NickToons
 https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="Kids",Nicktoons (720p)
@@ -3761,6 +3655,8 @@ https://junhls.persiana.live/hls/stream.m3u8
 https://kphls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Pingviin.ee@SD" tvg-logo="https://i.imgur.com/b6xupqO.png" group-title="Animation;Kids",Pingviin (576p)
 https://void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8
+#EXTINF:-1 tvg-id="Pingvin.ru@SD" tvg-logo="https://i.imgur.com/2AFGvZy.png" group-title="Animation;Kids",Pingvin (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
 #EXTINF:-1 tvg-id="PixelTV.ua@SD" tvg-logo="https://i.imgur.com/ECro8Ah.png" group-title="Kids",Pixel TV (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PikselTV.m3u8
 #EXTINF:-1 tvg-id="PixelTV.pl@HD" tvg-logo="https://i.ibb.co/S4jM2WXk/pixeltv.png" group-title="Animation;Kids",Pixel.tv (720p)
