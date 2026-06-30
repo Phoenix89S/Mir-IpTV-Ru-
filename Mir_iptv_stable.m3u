@@ -3529,6 +3529,8 @@ http://99.27.51.147:8080/Gulli/index.m3u8
 http://41.205.77.102/GULLI/index.m3u8
 #EXTINF:-1 tvg-id="HappyKids.us@SD" tvg-logo="https://i.imgur.com/cPrUCFw.png" group-title="Kids",HappyKids (1080p)
 https://dil9xdvretp0f.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-id="HasbroLegends.us@SD" tvg-logo="https://i.imgur.com/JDM9rEV.png" group-title="Animation;Kids",Hasbro Legends (1080p) [Geo-blocked]
+https://amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg02713-amg02713c11-amgplt0852/playlist.m3u8
 #EXTINF:-1 tvg-id="HeyArnold.us@LatAm" tvg-logo="https://images.pluto.tv/channels/66c79221b1a34600087e264d/colorLogoPNG.png" group-title="Kids",Hey Arnold!
 https://jmp2.uk/plu-66c79221b1a34600087e264d.m3u8
 #EXTINF:-1 tvg-id="HodHodFarsiTV.ir@SD" tvg-logo="https://i.imgur.com/l8XMKTT.png" group-title="Kids",HodHod Farsi TV (1080p)
@@ -3981,10 +3983,6 @@ https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8
 http://86.87.15.10:8003/play/a01x/index.m3u8
 #EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Kids",VTV (1080p)
 http://103.66.62.83:8000/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="WatchitKID.us@SD" tvg-logo="https://i.imgur.com/YNx0j1b.png" group-title="Kids",Watch it KID! (480i)
-https://stream-us-east-1.getpublica.com/cl/260415d7g24jv4hnf3ahfafgog/318x234_424101_3_f.m3u8?i=513_2256
-#EXTINF:-1 tvg-id="WJLP332.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1e/LAFF_logo.png" group-title="Classic;Kids",WJLP-DT2 (360p)
-https://e3.thetvapp.to/hls/metv-toons/index.m3u8
 #EXTINF:-1 tvg-id="XtremaCartoons.ar@SD" tvg-logo="https://i.imgur.com/X2d8y4e.png" http-referrer="https://xtrematv.com/?p=1390" group-title="Animation;Kids",Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 #EXTINF:-1 tvg-id="YAAAS.uk@HD" tvg-logo="https://www.freeview.co.uk/sites/default/files/styles/255_wide/public/2019-12/yaas-logo250x144.png" group-title="Kids",YAAAS! (720p) [Geo-blocked]
