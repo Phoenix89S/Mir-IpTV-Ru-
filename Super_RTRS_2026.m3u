@@ -6120,7 +6120,7 @@ http://31.148.48.15/Fan/index.m3u8
 #EXTINF:-1,FASHION & LIFESTYLE (1080p)
 http://31.148.48.15/Fashion_One_HD/index.m3u8
 #EXTINF:-1,FoodTime (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/FoodTimeHD.m3u8
+http://31.148.48.15/Eda_Premium_HD/index.m3u8
 #EXTINF:-1,Hollywood (576p)
 http://31.148.48.15/AMC/index.m3u8
 #EXTINF:-1,Hollywood HD (1080p)
@@ -16444,7 +16444,7 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1,Babyfirst
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
 #EXTINF:-1,BabyTV Spain (1080p)
-https://xykt-fix.github.io/iptv/streams/SP88/index.m3u8
+http://179.60.51.134:8888/BABY-TV/index.m3u8
 #EXTINF:-1,Balapan TV (1080p)
 https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
 #EXTINF:-1,Banijay Mr Bean Animé (1080p)
@@ -16478,7 +16478,7 @@ http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
 #EXTINF:-1,Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #EXTINF:-1,Disney Channel (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DisneyChannelSpain.m3u8
+http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel East (720p) [Not 24/7]
 https://tvpass.org/live/DisneyChannelEast/hd
 #EXTINF:-1 [OLD],Disney Channel Japan (544p)
@@ -16517,7 +16517,7 @@ https://northtelecom.b-cdn.net/hodhodtv.m3u8
 https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
 #EXTINF:-1,Japanim TV (1080p)
 https://foxkidstv.be:3369/stream/play.m3u8
-#EXTINF:-1 [OLD],JimJam Europe (576p)
+#EXTINF:-1,JimJam Europe (576p)
 http://158.160.149.81:8080/269/index.m3u8
 #EXTINF:-1,Kartoon Channel (1080p)
 https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
@@ -16572,7 +16572,7 @@ https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1,NCM Educational & Kids Channel
 https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1,Nickelodeon (1080p)
-https://xykt-fix.github.io/iptv/streams/SP57.m3u8
+http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
 #EXTINF:-1,Nickelodeon Asia Indonesia (720p)
 http://202.169.224.202:8800/udp/239.9.1.17:1234
 #EXTINF:-1,Nickelodeon Clássico (720p)
@@ -21032,7 +21032,7 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6379/index.m3u8
 #EXTINF:-1,Slime (576p) [Not 24/7]
 https://slime.x1co.com.br/hls/stream.m3u8
 #EXTINF:-1,Belarus-1 (1080p)
-https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1701491008_b5160000_sleng.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
 #EXTINF:-1,Movify Kino (576p)
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1,TV8 [Not 24/7]
@@ -21073,7 +21073,7 @@ https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
 http://89.218.32.179:18000/play/a028
 #EXTINF:-1,Channel 8 International (576p)
 https://v4.proofix.ru/8tv-europe/index.m3u8
-#EXTINF:-1 [OLD],Aqlvoy
+#EXTINF:-1,Aqlvoy
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Belsat TV
 https://iptv.prosto.tv/ch171/tracks-v1a1/mono.m3u8?21yo=1&live=1&ip=178.136.40.86&id=742347&secret=vu2y5m72&e=1783349695&st=vmxIkxsl0_lBlPWPIs9RKA
@@ -21119,7 +21119,7 @@ https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
 https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Dom kino
 https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Fast&FunBox (1080p)
+#EXTINF:-1 [OLD],Fast&FunBox (1080p)
 https://iptv.prosto.tv/ch120/index.m3u8
 #EXTINF:-1,Indiyskoye Kino
 https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
@@ -21129,7 +21129,7 @@ https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Kinosvidanie
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
-#EXTINF:-1,MCM Top (576p)
+#EXTINF:-1 [OLD],MCM Top (576p)
 https://iptv.prosto.tv/ch137/index.m3u8
 #EXTINF:-1,Muz-TV
 https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
@@ -21621,7 +21621,7 @@ https://jmp2.uk/plu-632c6df43d2bc5000751f621.m3u8
 https://jmp2.uk/plu-5db0ad56edc89300090d2ebb.m3u8
 #EXTINF:-1,KiKA HD
 https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Lale (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Lale (576p)
 https://iptv.prosto.tv/ch77/index.m3u8
 #EXTINF:-1,Nick Jr. Club (720p)
 https://jmp2.uk/plu-67f3eb1c443f0671bc03ece8.m3u8
@@ -21630,10 +21630,10 @@ https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1,Nick Jr. Pluto TV (720p)
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 #EXTINF:-1,Nickelodeon (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NickelodeonRussia.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Junior (1080p)
+http://195.64.140.147:10121/121
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Junior (1080p)
 https://iptv.prosto.tv/ch72/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Kids (1080p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Niki Kids (1080p)
 https://iptv.prosto.tv/ch71/index.m3u8
 #EXTINF:-1,Pixel.tv (720p)
 https://jmp2.uk/plu-66bb374ba4ee27000841a62c.m3u8
@@ -21661,27 +21661,27 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2334/index.m3u8
 https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="General",Belsat TV (576p)
 https://iptv.prosto.tv/ch171/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Fast&FunBox (1080p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Fast&FunBox (1080p)
 https://iptv.prosto.tv/ch120/index.m3u8
-#EXTINF:-1,Kanal 7 [Not 24/7]
+#EXTINF:-1 [OLD],Kanal 7 [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/20079/index.m3u8
 #EXTINF:-1,Naxcivan TV (720p)
 https://str2.yodacdn.net/ntv/video.m3u8
 #EXTINF:-1 [OLD],Ost West [Not 24/7]
 http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/14021/index.m3u8
-#EXTINF:-1,Ost West 24 (1080p)
+#EXTINF:-1 [OLD],Ost West 24 (1080p)
 https://iptv.prosto.tv/ch237/index.m3u8
 #EXTINF:-1,Taraqqiyot TV
 https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Viasat Kino [Not 24/7]
+#EXTINF:-1 [OLD],Viasat Kino [Not 24/7]
 http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/31765/index.m3u8
-#EXTINF:-1,Viasat Kino Action [Not 24/7]
+#EXTINF:-1 [OLD],Viasat Kino Action [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12024/index.m3u8
 #EXTINF:-1 [OLD],Viasat Kino Comedy [Not 24/7]
 http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/31764/index.m3u8
-#EXTINF:-1,Viasat Kino World [Not 24/7]
+#EXTINF:-1 [OLD],Viasat Kino World [Not 24/7]
 http://c3921155.edmonst.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/31448/index.m3u8
-#EXTINF:-1,Viasat Serial (1080p) [Not 24/7]
+#EXTINF:-1 [OLD],Viasat Serial (1080p) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/17056/index.m3u8
 #EXTINF:-1,WDR Fernsehen (720p)
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0; de-DE) Gecko/20100101 Firefox/117.0
@@ -21851,11 +21851,11 @@ https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
 http://217.114.191.150/Subbota/index.m3u8
 #EXTINF:-1,SuperGeroi (1080p)
 http://31.148.48.15/Malish_TV/index.m3u8
-#EXTINF:-1,Friday! (1080p)
+#EXTINF:-1 [OLD],Friday! (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/FridayHD_Moskva.m3u8
 #EXTINF:-1 [OLD],TV Centr (1080p)
 https://cdn.telecloud.tv/CH4603/index.m3u8
-#EXTINF:-1,REN TV HD (1080p)
+#EXTINF:-1 [OLD],REN TV HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RENTVHD_Moskva.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",51
 http://ibb-media4.ibb.gov.tr:1935/live/94.stream/chunklist.m3u8
@@ -21865,7 +21865,7 @@ http://82.209.219.165:1235/gpsd
 http://162.19.246.113/ViasatNature/index.m3u8
 #EXTINF:-1,Cinemania HD
 http://162.19.246.113/Cinemania/index.m3u8
-#EXTINF:-1,Disney Channel HD (720p)
+#EXTINF:-1 [OLD],Disney Channel HD (720p)
 https://adpnetworkhd-cmd.github.io/iptv/DisneyChannelDeutschland.m3u8
 #EXTINF:-1,NickOnline (360p)
 https://x1co.com.br/hls/stream.m3u8
@@ -21970,8 +21970,8 @@ https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Entertainment;Kids",Veronica / Disney Jr.
 http://86.87.15.10:8003/play/a01x/index.m3u8
 #EXTINF:-1,Belarus-4 Vitebsk (1080p)
-https://ngtrk.dc.beltelecom.by/vtv/_definst_/bt4.stream/playlist.m3u8
-#EXTINF:-1,Belarus-24 HD (1080p)
+https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
+#EXTINF:-1 [OLD],Belarus-24 HD (1080p)
 http://178.124.179.122:8080/Belarus24/index.m3u8
 #EXTINF:-1,Silk Way (1080p)
 https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
@@ -22046,12 +22046,12 @@ http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8
 #EXTINF:-1,Kids Street (1080p)
 http://181.78.121.15:8000/play/a00a/index.m3u8
 #EXTINF:-1,Nick Jr. (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NickJrRussia.m3u8
+http://bethoven.af-stream.com:1600/s/kwtlxswl/nick-jr-il/video.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon
 http://213.91.179.28:8000/play/a056
 #EXTINF:-1,Nicktoons (720p)
 http://41.205.93.154/NICKTOONS/index.m3u8
-#EXTINF:-1,Belarus-4 Gomel (720p)
+#EXTINF:-1 [OLD],Belarus-4 Gomel (720p)
 http://46.56.85.151:8080/0.m3u8
 #EXTINF:-1,Love Nature HD (720p)
 http://185.246.209.113/LOVENATUREHD/index.m3u8
@@ -22147,7 +22147,7 @@ https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
 https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8
 #EXTINF:-1,God Stands Kids Club TV Urdu
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
-#EXTINF:-1,JimJam Europe (720p)
+#EXTINF:-1 [OLD],JimJam Europe (720p)
 https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon (1080p)
 http://193.239.186.231/NICK/index.m3u8
@@ -22249,61 +22249,61 @@ https://raw.githubusercontent.com/seyfettinaskar7-sudo/polish-iptv/refs/heads/ma
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
 #EXTINF:-1,Kvartal TV International
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
-#EXTINF:-1,Priklyucheniya HD (1080p)
+#EXTINF:-1 [OLD],Priklyucheniya HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/AdventuresHD.m3u8
-#EXTINF:-1,V mire zhivotnykh (1080p)
+#EXTINF:-1 [OLD],V mire zhivotnykh (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/AnimalFamilyHD.m3u8
-#EXTINF:-1,Arsenal (1080p)
+#EXTINF:-1 [OLD],Arsenal (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/ArsenalHD.m3u8
-#EXTINF:-1,Avto24 HD (1080p)
+#EXTINF:-1 [OLD],Avto24 HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Avto24.m3u8
-#EXTINF:-1,.black (1080p)
+#EXTINF:-1 [OLD],.black (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Black.m3u8
-#EXTINF:-1,Bolt (1080p)
+#EXTINF:-1 [OLD],Bolt (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/BoltRussia.m3u8
-#EXTINF:-1,Che! (576p)
+#EXTINF:-1 [OLD],Che! (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Che_Moskva.m3u8
-#EXTINF:-1,CuriosityStream (1080p)
+#EXTINF:-1 [OLD],CuriosityStream (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/CuriosityStream.m3u8
-#EXTINF:-1,Detski mir (576p)
+#EXTINF:-1 [OLD],Detski mir (576p)
 https://adpnetworkhd-cmd.github.io/iptv/DetskiyMir.m3u8
-#EXTINF:-1,Dialogi o rybalke (1080p)
+#EXTINF:-1 [OLD],Dialogi o rybalke (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/DialogiORybalke.m3u8
-#EXTINF:-1,Dom kino (576p)
+#EXTINF:-1 [OLD],Dom kino (576p)
 https://adpnetworkhd-cmd.github.io/iptv/DomKino.m3u8
-#EXTINF:-1,Dom kino Premium (1080p)
+#EXTINF:-1 [OLD],Dom kino Premium (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/DomKinoPremiumHD.m3u8
-#EXTINF:-1,Domashniy (1080p)
+#EXTINF:-1 [OLD],Domashniy (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/DomashniyHD.m3u8
-#EXTINF:-1,Dushevnoe (1080p)
+#EXTINF:-1 [OLD],Dushevnoe (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/DushevnoeHD.m3u8
-#EXTINF:-1,Eda (576p)
+#EXTINF:-1 [OLD],Eda (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Eda.m3u8
-#EXTINF:-1,English Class (1080p)
+#EXTINF:-1 [OLD],English Class (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/EnglishClass.m3u8
-#EXTINF:-1,Feniks plus Kino (576p)
+#EXTINF:-1 [OLD],Feniks plus Kino (576p)
 https://adpnetworkhd-cmd.github.io/iptv/FeniksPlusKino.m3u8
-#EXTINF:-1,Kamedi (1080p)
+#EXTINF:-1 [OLD],Kamedi (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Kamedi.m3u8
-#EXTINF:-1,Kapitan Fantastika (1080p)
+#EXTINF:-1 [OLD],Kapitan Fantastika (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/KapitanFantastikaHD.m3u8
-#EXTINF:-1,Kineko (576p)
+#EXTINF:-1 [OLD],Kineko (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Kineko.m3u8
-#EXTINF:-1,Kinosemja (1080p)
+#EXTINF:-1 [OLD],Kinosemja (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Kinosemya.m3u8
-#EXTINF:-1,Komediynoe (1080p)
+#EXTINF:-1 [OLD],Komediynoe (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/KomediynoeHD.m3u8
-#EXTINF:-1,Lyubimoe (1080p)
+#EXTINF:-1 [OLD],Lyubimoe (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/LubimoeHD.m3u8
-#EXTINF:-1,Match! Planeta (576p)
+#EXTINF:-1 [OLD],Match! Planeta (576p)
 https://adpnetworkhd-cmd.github.io/iptv/MatchPlaneta.m3u8
-#EXTINF:-1,Aqlvoy (576p)
+#EXTINF:-1 [OLD],Aqlvoy (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Aqlvoy.m3u8
-#EXTINF:-1,Cocuk Smart (1080p)
+#EXTINF:-1 [OLD],Cocuk Smart (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/CocukSmart.m3u8
-#EXTINF:-1,Belarus-5 HD (1080p)
+#EXTINF:-1 [OLD],Belarus-5 HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Belarus5.m3u8
-#EXTINF:-1,Duo 3 (1080p)
+#EXTINF:-1 [OLD],Duo 3 (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Duo3.m3u8
 #EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Entertainment",Kvartal TV
 http://158.101.222.193:88/georgia_play.php?id=kvartal95
@@ -22313,61 +22313,61 @@ https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1,NSC
 http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
-#EXTINF:-1,Mir vokrug (1080p)
+#EXTINF:-1 [OLD],Mir vokrug (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Mirvokrug.m3u8
-#EXTINF:-1,Mosfilm Gold Collection (1080p)
+#EXTINF:-1 [OLD],Mosfilm Gold Collection (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/MosfilmGoldCollection.m3u8
-#EXTINF:-1,Moya stikhiya HD (1080p)
+#EXTINF:-1 [OLD],Moya stikhiya HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Moyastikhiya.m3u8
-#EXTINF:-1,Mult HD (1080p)
+#EXTINF:-1 [OLD],Mult HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Mult.m3u8
-#EXTINF:-1,Multilandia (576p)
+#EXTINF:-1 [OLD],Multilandia (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Multilandia.m3u8
-#EXTINF:-1,Muzhskoy (1080p)
+#EXTINF:-1 [OLD],Muzhskoy (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/MuzhskoyHD.m3u8
-#EXTINF:-1,Muzyka Pervogo (576p)
+#EXTINF:-1 [OLD],Muzyka Pervogo (576p)
 https://adpnetworkhd-cmd.github.io/iptv/MuzykaPervogo.m3u8
 #EXTINF:-1,NTV Mir (576p)
-https://adpnetworkhd-cmd.github.io/iptv/NTVMir.m3u8
-#EXTINF:-1,NTV Series (1080p)
+http://5.188.159.128:8070/ntvmir_TV/index.m3u8
+#EXTINF:-1 [OLD],NTV Series (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/NTVSerial.m3u8
-#EXTINF:-1,Nashe (1080p)
+#EXTINF:-1 [OLD],Nashe (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/NasheHD.m3u8
-#EXTINF:-1,Nicktoons (576p)
+#EXTINF:-1 [OLD],Nicktoons (576p)
 https://adpnetworkhd-cmd.github.io/iptv/NicktoonsRussia.m3u8
-#EXTINF:-1,O! (576p)
+#EXTINF:-1 [OLD],O! (576p)
 https://adpnetworkhd-cmd.github.io/iptv/O.m3u8
-#EXTINF:-1,Oruzhie (576p)
+#EXTINF:-1 [OLD],Oruzhie (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Oruzhie.m3u8
-#EXTINF:-1,Ostrosyuzhetnoye (1080p)
+#EXTINF:-1 [OLD],Ostrosyuzhetnoye (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/OstrosyuzhetnoyeHD.m3u8
-#EXTINF:-1,Pervyy Kosmicheskiy HD (1080p)
+#EXTINF:-1 [OLD],Pervyy Kosmicheskiy HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PervyyKosmicheskiy.m3u8
-#EXTINF:-1,Pingvin (576p)
+#EXTINF:-1 [OLD],Pingvin (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
-#EXTINF:-1,Premialnoe HD (1080p)
+#EXTINF:-1 [OLD],Premialnoe HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PremialnoeHD.m3u8
-#EXTINF:-1,Psikhologiya (576p)
+#EXTINF:-1 [OLD],Psikhologiya (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Psikhologiya21.m3u8
-#EXTINF:-1,.red HD (1080p)
+#EXTINF:-1 [OLD],.red HD (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RedHD.m3u8
 #EXTINF:-1,Russia-24 (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Russia24_Moskva.m3u8
-#EXTINF:-1,Russkiy Illusion (1080p)
+http://94.230.129.31:8080/Rossia_24/index.m3u8
+#EXTINF:-1 [OLD],Russkiy Illusion (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
-#EXTINF:-1,Nick Jr. (1080p)
+#EXTINF:-1 [OLD],Nick Jr. (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/NickJrSpain.m3u8
-#EXTINF:-1,Pixel TV (1080p)
+#EXTINF:-1 [OLD],Pixel TV (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PikselTV.m3u8
-#EXTINF:-1,PLUSPLUS (1080p)
+#EXTINF:-1 [OLD],PLUSPLUS (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PlusPlus.m3u8
 #EXTINF:-1 [OLD],Polsat JimJam (576p)
 https://adpnetworkhd-cmd.github.io/iptv/JimJamPolsat.m3u8
-#EXTINF:-1,Novyi Channel (1080p)
+#EXTINF:-1 [OLD],Novyi Channel (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/NoviyKanal.m3u8
 #EXTINF:-1 [OLD],RTVi US (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RTViUS.m3u8
-#EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Sports",Sport 1 Baltic
+#EXTINF:-1 [OLD],like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Sports",Sport 1 Baltic
 http://ott.watch/XE5QWWBZ87/461/tracks-v2a1/mono.ts.m3u8?sid=c3f03b2b-bf32-49e2-8675-d1a321912ce8
 #EXTINF:-1,Europa TikTok Латвия
 https://stream.ehrhiti.lv:8000/Stream_38.aac
@@ -22393,7 +22393,7 @@ http://ukr2.ukrainske.tv/493/video.m3u8
 http://77.232.131.211/O2TV/index.m3u8
 #EXTINF:-1,Russia-1 (576p)
 http://41.223.30.230/RUSSIA1/index.m3u8
-#EXTINF:-1,Rybolov (576p)
+#EXTINF:-1 [OLD],Rybolov (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Rybolov.m3u8
 #EXTINF:-1,Channel 8 (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
@@ -23017,6 +23017,14 @@ https://jmp2.uk/plu-63da36dea995710008727d4d.m3u8
 https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8
 #EXTINF:-1,Gagsnetwork (576p)
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
+#EXTINF:-1,Fox Sports 1
+https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Kids",Disney Channel
+http://82.78.243.219:45739/play/a00y/index.m3u8
+#EXTINF:-1,Hit FM
+https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
+#EXTINF:-1,TSV (1080p)
+https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
