@@ -2197,7 +2197,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8|User-Agent=Moz
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="karusel",Карусель (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="karusel",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Kids",Карусель International (720p)
+#EXTINF:-1 tvg-id="karusel" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Kids",Карусель International (720p)
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="karusel",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Курск",Карусель (Курск)
 https://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8
@@ -2615,7 +2615,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8|User-Agent=Mozilla
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tvc",ТВ Центр +7
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tvc",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",ТВ Центр International (720p)
+#EXTINF:-1 tvg-id="tvc" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",ТВ Центр International (720p)
 https://cdn4.skygo.mn/live/disk1/TV_center/HLSv3-FTA/TV_center.m3u8
 #EXTINF:-1 tvg-id="tvc" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Волгоград",ТВ Центр (Волгоградская ОБЛ)
 https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R04_TVC_VLGOB/variant.m3u8
@@ -2863,7 +2863,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/747/index.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="rentv",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",РЕН ТВ International (720p)
+#EXTINF:-1 tvg-id="rentv" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",РЕН ТВ International (720p)
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ International
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
@@ -3269,7 +3269,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="sts",СТС Love (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="sts",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",СТС International (720p)
+#EXTINF:-1 tvg-id="sts" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",СТС International (720p)
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Волгоград",СТС (Волгоград)
 https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8
@@ -3517,7 +3517,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8|User-Agent=M
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="domashniy",Домашний (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="domashniy",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Домашний International (720p)
+#EXTINF:-1 tvg-id="domashniy" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Домашний International (720p)
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:-1 tvg-id="domashniy",VF Домашний повар
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15514/index.m3u8
@@ -3949,7 +3949,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8|User-Agent=Moz
 https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 tvg-id="friday" [OLD],73.2 Пятница!
 https://vod.tuva.ru/friday/index.m3u8
-#EXTINF:-1 tvg-id="friday",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Пятница! International (576p)
+#EXTINF:-1 tvg-id="friday" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Пятница! International (576p)
 https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:-1 tvg-id="friday" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Волгоград",Пятница! (Волгоградская ОБЛ)
 https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_VLGOB/variant.m3u8
@@ -4775,7 +4775,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8|User-Agent=Mozilla
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tnt",ТНТ4 +7 (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tnt",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",ТНТ4 International (576p)
+#EXTINF:-1 tvg-id="tnt" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",ТНТ4 International (576p)
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:-1 tvg-id="tnt",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",ТНТ International (480p)
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
@@ -5029,7 +5029,7 @@ https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="che",Че! +7 (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Перец International (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",Перец International (576p)
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:-1,Перец Int.
 http://158.101.222.193:88/georgia_play.php?id=perec
@@ -21833,14 +21833,14 @@ https://s70378.cdn.ngenix.net/terra/2/index.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R03_U_SPB/variant.m3u8
 #EXTINF:-1,Тайны Галактики
 http://195.26.83.96:7007/play/a00j/index.m3u8
-#EXTINF:-1,CBeebies (576p)
+#EXTINF:-1 [OLD],CBeebies (576p)
 http://81.15.109.89:8001/play/BBCCBeebies
 #EXTINF:-1,Minika Cocuk (720p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 #EXTINF:-1,Minika Go (720p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1,Spacetoon Arabic (576p)
-https://live-uae.spacetoongo.com/ST_Live_UAE/hls/index.m3u8
+https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 #EXTINF:-1,Solovyov Live (1080p)
 https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 #EXTINF:-1,Carousel (576p)
@@ -22355,8 +22355,8 @@ https://adpnetworkhd-cmd.github.io/iptv/RedHD.m3u8
 http://94.230.129.31:8080/Rossia_24/index.m3u8
 #EXTINF:-1 [OLD],Russkiy Illusion (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
-#EXTINF:-1 [OLD],Nick Jr. (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/NickJrSpain.m3u8
+#EXTINF:-1,Nick Jr. (1080p)
+http://40.160.24.55/NICK_JR/index.m3u8
 #EXTINF:-1 [OLD],Pixel TV (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/PikselTV.m3u8
 #EXTINF:-1 [OLD],PLUSPLUS (1080p)
@@ -23025,6 +23025,12 @@ http://82.78.243.219:45739/play/a00y/index.m3u8
 https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
 #EXTINF:-1,TSV (1080p)
 https://tsv.md/stream/hls/tsv-online/index.m3u8
+#EXTINF:-1,Enisey (576p)
+http://tshift-1.telecoma.tv/enisei/index.m3u8
+#EXTINF:-1,MeTV Toons (720p)
+http://206.212.244.63/112/index.m3u8
+#EXTINF:-1,BR Fernsehen Sud (1080p)
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
