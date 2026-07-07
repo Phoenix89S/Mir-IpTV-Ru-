@@ -643,7 +643,7 @@ https://live-3.otcnet.ru/GulliGirl/index.m3u8
 http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
 #EXTINF:-1 tvg-id="Moymir.ru@SD",Moy mir (720p)
 https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@SD",Channel One (576p)
+#EXTINF:-1 tvg-id="ChannelOne.ru@Plus8",Channel One +8 (576p)
 http://188.113.190.13/1/video.m3u8
 #EXTINF:-1 tvg-id="RENTV.ru@SD",REN TV (576p)
 http://31.148.48.15/REN-TV/index.m3u8
@@ -905,6 +905,18 @@ http://tvcdn01.esilnet.kz/tv/mir/index.m3u8
 http://178.124.179.122:8080/HistoryHD/index.m3u8
 #EXTINF:-1 tvg-id="KVNTV.ru@SD",KVN TV (576p)
 http://178.124.179.122:8080/KVN-TV/index.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru@SD",Russia-1 SD (576p)
+http://109.207.243.18/2/index.m3u8
+#EXTINF:-1 tvg-id="TVCentr.ru@SD",TV Centr SD (576p)
+http://185.71.81.6:8080/10/index.m3u8
+#EXTINF:-1 tvg-id="MuzTV.ru@SD",Muz-TV (576p)
+http://185.71.81.6:8080/20/index.m3u8
+#EXTINF:-1 tvg-id="ChannelOne.ru@SD",Channel One (576p)
+http://178.217.49.7/1/index.m3u8
+#EXTINF:-1 tvg-id="Soyuzny.ru@SD",Soyuzny (480p)
+http://178.124.179.122:8080/TRO/index.m3u8
+#EXTINF:-1 tvg-id="Carousel.ru@Plus4",Carousel (720p)
+http://185.37.150.46/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD",alpha Cinema (1080p)
@@ -939,9 +951,9 @@ https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 tvg-id="Don24.ru@SD",Дон 24 (1080p)
 https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
-#EXTINF:-1 tvg-id="Zvezda.ru@SD",Звезда (1080p)
+#EXTINF:-1 tvg-id="Zvezda.ru@HD",Zvezda HD (1080p)
 https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
-#EXTINF:-1 tvg-id="ZvezdaPlus.ru@SD",Звезда Плюс (1080p)
+#EXTINF:-1 tvg-id="ZvezdaPlus.ru@HD",Zvezda Plus HD (1080p)
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:-1 tvg-id="Ingushetia.ru@SD",Ингушетия ТВ (1080p)
 https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8
@@ -2949,8 +2961,6 @@ https://fs.uplink.kz/zhara/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=2r54ZPgnc2r3TX_Z4F-zEg&e=2070623526&scheme=https
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://iptvx.one/picons/maydan.png" group-title="Музыкальные" ,Майдан
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_OTT_VLG_KZN_MAIDAN/variant.m3u8?version2
-#EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="Музыкальные" ,Муз ТВ
-http://185.71.81.6:8080/20/index.m3u8
 #EXTINF:-1 tvg-id="hollywood" tvg-logo="https://iptvx.one/picons/hollywood.png" group-title="Кино и сериалы" ,HollywooD
 https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="horrortv" tvg-logo="https://iptvx.one/picons/hustler-tv.png" group-title="Кино и сериалы" ,Horror TV
