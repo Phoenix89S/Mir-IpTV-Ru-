@@ -6057,7 +6057,7 @@ https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1,360° Новости (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
-#EXTINF:-1,Planeta-RTR
+#EXTINF:-1 [OLD],Planeta-RTR
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 #EXTINF:-1 tvg-shift="2",Башкортостан 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
@@ -6078,7 +6078,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/nigniynovgorod/nigniynovgorod24-hd/ind
 #EXTINF:-1 tvg-shift="7",ОТВ Приморье
 https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8
 #EXTINF:-1,Россия-РТР
-https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
+https://streaming.televizor-24-tochka.ru/live/211.m3u8
 #EXTINF:-1 tvg-shift="0",Самара 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
 #EXTINF:-1 tvg-shift="4",Сибирь 24 (Красноярск) (1080p)
@@ -16519,10 +16519,10 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 #EXTINF:-1 [OLD],Disney Jr. Latin America South
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1,Disney Junior (1080i)
+#EXTINF:-1 [OLD],Disney Junior (1080i)
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1,Disney XD (720p)
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
+http://40.160.24.52/DISNEY_XD_HD/index.m3u8
 #EXTINF:-1,ducktv (720p)
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1,EBS kids (400p) [Not 24/7]
@@ -16557,7 +16557,7 @@ https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8
 #EXTINF:-1,Kidoodle.TV (1080p)
 https://amg07653-apmc-amg07653c9-samsung-us-8740.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Kids Pang TV (1080p)
+#EXTINF:-1 [OLD],Kids Pang TV (1080p)
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 [OLD],Kids Station (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
@@ -16621,7 +16621,7 @@ https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 https://jmp2.uk/plu-5f0d668b872e4400073acc68.m3u8
 #EXTINF:-1 [OLD],NickOnline (576p)
 https://x1co.com.br/hls/stream.m3u8
-#EXTINF:-1,NickToons Brasil (480p)
+#EXTINF:-1 [OLD],NickToons Brasil (480p)
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 #EXTINF:-1,Ninja Kidz (720p)
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
@@ -21824,7 +21824,7 @@ https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8
 #EXTINF:-1,ЕВРОКИНО
 http://vod.tuva.ru/eurokino/index.m3u8
 #EXTINF:-1 tvg-shift="0",Осетия-Ирыстон HD
-https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
+http://osir.mediacdn.ru/cdn/osetia/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1,Охотник и Рыболов
 http://188.113.190.15/37/tracks-v1a1/index.m3u8
 #EXTINF:-1 [OLD],Радость Моя FD
@@ -23065,13 +23065,13 @@ http://206.212.244.63/112/index.m3u8
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0; de-DE) Gecko/20100101 Firefox/117.0
 #EXTINF:-1,RTVi (450p) [Geo-blocked]
 https://s70378.cdn.ngenix.net/rtvi/index.m3u8
-#EXTINF:-1,RTR-Planeta Europe (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],RTR-Planeta Europe (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls2/planeta_rtr_euro/playlist_4.m3u8
-#EXTINF:-1,RTR-Planeta CIS (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],RTR-Planeta CIS (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls2/planeta_rtr_sng/playlist_4.m3u8
-#EXTINF:-1,RTR-Planeta Asia (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],RTR-Planeta Asia (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls2/planeta_rtr_asia/playlist_4.m3u8
-#EXTINF:-1,RTR-Planeta US (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],RTR-Planeta US (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls2/planeta_rtr_usa/playlist_4.m3u8
 #EXTINF:-1,Extreme Sports Channel (576p)
 http://46.32.176.50/extremesport/index.m3u8
@@ -23131,7 +23131,7 @@ https://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
 http://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
 #EXTINF:-1,Akili Kids!
 https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/146.0.0.0 Safari/537.36" group-title="Kids",Chikitoonz (1080p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/146.0.0.0 Safari/537.36" group-title="Kids",Chikitoonz (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Chikitoonz/playlist.m3u8
 #EXTINF:-1 [OLD],Disney Jr. Latin America (576p)
 http://45.189.62.33:8002/play/a0bz/index.m3u8
@@ -23493,6 +23493,30 @@ https://pub0202.101.ru:8443/stream/air/aac/64/101
 https://pub0201.101.ru/stream/air/aac/64/199
 #EXTINF:-1,Радио Relax FM
 https://pub0202.101.ru:8443/stream/air/aac/64/200
+#EXTINF:-1,RTR Planeta Europe [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
+#EXTINF:-1,Russia RTR Asia [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_asia/playlist.m3u8?entity=channel&id=511&sign=d1fe06cd922b67e412719536998fa43d
+#EXTINF:-1,RTR Planeta USA [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
+#EXTINF:-1,Russia RTR CIS [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
+#EXTINF:-1 tvg-shift="0",Осетия Ирыстон
+https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
+#EXTINF:-1,Cartoon Channel PH (720p) [Geo-blocked]
+https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
+#EXTINF:-1,Disney Junior (720p)
+http://40.160.24.52/Disney_JR/index.m3u8
+#EXTINF:-1,Disney XD West (480p)
+http://tvsen5.aynascope.net/disneyxd/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Animation;Kids",NickToons Brasil (480p)
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1,Channel 7 Kazakhstan (1080p) [Geo-blocked]
+https://adpnetworkhd-cmd.github.io/iptv/7_kanal_Kazakhstan.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Inter+ HD (1080p)
+http://176.122.125.10:8080/interplus/index.m3u8
+#EXTINF:-1,Kongress TV (1080p)
+https://stitch.teletarget.ru/api/v1/hls/504/158/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
