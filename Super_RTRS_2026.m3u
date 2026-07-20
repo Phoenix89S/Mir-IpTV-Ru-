@@ -1280,8 +1280,8 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 [OLD],29. Россия К HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-shift="7",Восток 24 (Владивосток)
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8
-#EXTINF:-1 tvg-id="che" tvg-shift="2",Урал 24 (Челябинск)
+http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
+#EXTINF:-1 tvg-id="che" tvg-shift="2" [OLD],Урал 24 (Челябинск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
 #EXTINF:-1 tvg-id="otr" [OLD],56.2.1 Вести ФМ (Смотрим)
 https://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
@@ -1367,9 +1367,9 @@ http://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/tracks-v1a1/mono.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="russia24",Россия 24 +7 (Архив)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="2" tvg-shift="0",Россия 1 HD (Архангельск)
+#EXTINF:-1 tvg-id="2" tvg-shift="0" [OLD],Россия 1 HD (Архангельск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/russia1-hd/index.m3u8
-#EXTINF:-1,Радио Вести FM
+#EXTINF:-1 [OLD],Радио Вести FM
 https://icecast-vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
 #EXTINF:-1 tvg-id="russia24" tvg-shift="4",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Красноярск",Россия 24 (Красноярский КР)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_KRASN_KRAI/variant.m3u8
@@ -2001,7 +2001,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 
 # ===== Кнопка 8 =====
-#EXTINF:-1 tvg-id="karusel",Карусель International
+#EXTINF:-1 tvg-id="karusel" [OLD],Карусель International
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="karusel",Карусель Int.
 https://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
@@ -2870,7 +2870,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8|User-Agent=Mozi
 #EXTINF:-1 tvg-id="rentv" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",РЕН ТВ International (720p)
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ International
-https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
+http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-id="rentv",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",РЕН ТВ (+2)
 http://178.134.1.158:8081/RENTV/index.m3u8?token=tva.in.ua
 #EXTINF:-1 tvg-id="rentv",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / SMOTRIM",Рен ТВ International
@@ -3325,7 +3325,7 @@ https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOMASHNY_EKT/variant.m3
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="domashniy",Домашний +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="domashniy",Домашний International
+#EXTINF:-1 tvg-id="domashniy" [OLD],Домашний International
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:-1 tvg-id="domashniy",Домашний (540p) [Geo-blocked]
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -3525,7 +3525,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8|User-Agent=
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="domashniy" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Домашний International (720p)
 https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
-#EXTINF:-1 tvg-id="domashniy",VF Домашний повар
+#EXTINF:-1 tvg-id="domashniy" [OLD],VF Домашний повар
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15514/index.m3u8
 #EXTINF:-1 tvg-id="domashniy" [OLD],<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",Домашний International
 http://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
@@ -3737,6 +3737,8 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_TV3/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
 
 # ===== Кнопка 16 =====
+#EXTINF:-1 tvg-id="friday",Пятница International
+http://158.101.222.193:88/georgia_play.php?id=friday
 #EXTINF:-1 tvg-id="friday",Пятница! (576p)
 https://vod.tuva.ru/friday/index.m3u8
 #EXTINF:-1 tvg-id="friday",Пятница! (540p) [Geo-blocked]
@@ -4197,7 +4199,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/739/index.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="zvezda",Звезда (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="zvezda",Радио Звезда
+#EXTINF:-1 tvg-id="zvezda" [OLD],Радио Звезда
 https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
 #EXTINF:-1 tvg-id="zvezda" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Вологда",Звезда (Вологда)
 https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8
@@ -4229,9 +4231,9 @@ https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir",МИР HD
 http://tv.ttk.mx:9140
-#EXTINF:-1 tvg-id="mir",Мир +2
+#EXTINF:-1 tvg-id="mir" [OLD],Мир +2
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="mir",Мир +7
+#EXTINF:-1 tvg-id="mir" [OLD],Мир +7
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="mir",Мир 24
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
@@ -4439,9 +4441,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="mir" [OLD],МИР (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="mir",Открытый мир. Здоровье
+#EXTINF:-1 tvg-id="mir" [OLD],Открытый мир. Здоровье
 https://v4.proofix.ru/0mir/index.m3u8
-#EXTINF:-1 tvg-id="mir",Мир Белагорья
+#EXTINF:-1 tvg-id="mir" [OLD],Мир Белагорья
 http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="4",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Красноярск",МИР (Красноярский КР)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_MIR_KRASN_KRAI/variant.m3u8
@@ -4793,7 +4795,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8|User-Agent=Mozill
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:-1 tvg-id="tnt",like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment",ТНТ International (480p)
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
-#EXTINF:-1 tvg-id="tnt",ТНТ Exclusive TV
+#EXTINF:-1 tvg-id="tnt" [OLD],ТНТ Exclusive TV
 http://89.28.25.122/hls/tnt_md.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-shift="4",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Красноярск",ТНТ (Красноярск)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8
@@ -4923,7 +4925,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Перец
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
-#EXTINF:-1,Перец International
+#EXTINF:-1 [OLD],Перец International
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Владимир",Че! (Владимир)
 https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
@@ -5227,6 +5229,8 @@ http://net42.rafail1982.uz/viju-Explore/index.m3u8
 http://176.118.197.125/viju-History/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / Internet42 LLC",Viasat Nature
 http://176.118.197.125/viju-Nature/index.m3u8
+#EXTINF:-1,Viasat Nature/History HD
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/203/index.m3u8
 
 # ===== Кнопка 27 =====
 #EXTINF:-1,Kluch (576p)
@@ -5517,9 +5521,9 @@ https://s34351.cdn.ngenix.net/hls/CH_R14_ALMAZNYJKRAJHD/variant.m3u8
 https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_IZVESTIYA_VLD/variant.m3u8
 #EXTINF:-1 tvg-id="mir" [OLD],61.8 В мире животных
 https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="mir",В мире животных FHD
+#EXTINF:-1 tvg-id="mir" [OLD],В мире животных FHD
 https://stream-msk-03.ott.tricolor.tv/dtv/id160_MSKSG-PVR-1--HD_Anim_Fam/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MTAyNTUwMDYwNTg4MiIsImV4cCI6MTY5MjczNTA3OCwiaHdpZCI6IjA1OTgxOTUwMjliODE3MzIxYTQ2MGE3M2QwNWRjNGY5M2I5ZmM0NjM5OWFlOWRmYzJlZTZiMGUwNDVhZWViYzkiLCJsYXN0X3JlcV9kYXRlIjoxNjkyMTMwMjc4LCJzZXNzaW9uX2lkIjoiOWNmODQ0NGJiOGM3NWI5NGFjNDJiM2JkNGI3ZWMxMzIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hUXvl74L08qIrIia8T5RQVD8khzcJt-HW6HB1kR6Shc
-#EXTINF:-1 tvg-id="mir" tvg-shift="0",VF Владимир Высоцкий
+#EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],VF Владимир Высоцкий
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10066/index.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="0",Губерния 33 (Владимир)
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
@@ -5651,11 +5655,11 @@ https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
 http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="2" [OLD],ОТВ Челябинск
 https://vd.obltv.ru/watch/air_sd.m3u8
-#EXTINF:-1 tvg-id="che",Сити Эдем Классическая Музыка
+#EXTINF:-1 tvg-id="che" [OLD],Сити Эдем Классическая Музыка
 https://cityeden.catcast.tv/content/47400/index.m3u8
-#EXTINF:-1 tvg-id="che",VF Два с половиной человека
+#EXTINF:-1 tvg-id="che" [OLD],VF Два с половиной человека
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10062/index.m3u8
-#EXTINF:-1 tvg-id="che",VF Чернобыль
+#EXTINF:-1 tvg-id="che" [OLD],VF Чернобыль
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17001/index.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="0",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - Zabava / Чебоксары",Че! (Чебоксары)
 https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
@@ -5938,7 +5942,7 @@ https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Multilandia
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1,TiJi (576p)
-https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
+https://live-3.otcnet.ru/Tiji/index.m3u8
 #EXTINF:-1,Gulli Girl (720p)
 https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Ohotnik i rybolov (576i)
@@ -14917,7 +14921,7 @@ https://d2hdqrshyzxswl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1,Classic Music HD
 https://stream-msk-11.ott.tricolor.tv/dtv/id831_MSKSG-PVR-1--Classic_Music_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1MjQ5MzM2MywiaHdpZCI6IjM0YmQxMDNmZGFiNDliZTFiMWY2NjljNWU0ZjE3YzA1YTBjNzFkMTk3ZDAwY2U2OWM1MDA1YWI1ZjlhOGM3N2IiLCJsYXN0X3JlcV9kYXRlIjoxNzUxODg4NTYzLCJzZXNzaW9uX2lkIjoiMWZkYTk2MTk2YTg1ZWIzZGNmOGQ0ZTQwZTAwMGUxNjciLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.X5Tot_pBMjpV11rAD10aqBLkm168F46YX69qAQENQoI
-#EXTINF:-1,Новое Радио
+#EXTINF:-1 [OLD],Новое Радио
 https://stream.newradio.ru/moscow.novoe.aacp
 #EXTINF:-1 [OLD],CHD-TV RU Rock HD
 http://194.26.229.213/chdtv_ru_rock/index.m3u8
@@ -15052,7 +15056,7 @@ https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
 #EXTINF:-1,Соловьев.Live HD
 https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:-1,Дума ТВ
-https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8
+https://dumatv.iptv2022.com/tracks-v4a1/mono.m3u8
 #EXTINF:-1,Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
 #EXTINF:-1,M-1 Global
@@ -15065,7 +15069,7 @@ https://stream-msk-09.ott.tricolor.tv/dtv/id628_MSKSG-PVR-1--Channel_LIVE1/02/pl
 http://stream-msk-04.ott.tricolor.tv/dtv/id633_MSKSG-PVR-1--Channel_LIVE5/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTMwNDUwMCwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU4Njk5NzAwLCJzZXNzaW9uX2lkIjoiYzAyZDcwYjlhNTg0M2E4ODYxYzNkZTcyNmY2MDgxZDUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.I4dUwTfD1GBg3RK-UB4O511C8umI4R3EiN1A2xh-BGQ
 #EXTINF:-1 [OLD],СУББОТА! HD
 https://stream8.cinerama.uz/blocked/index.m3u8
-#EXTINF:-1,Терра Инкогнита
+#EXTINF:-1 [OLD],Терра Инкогнита
 http://178.124.153.123:44400/terra
 #EXTINF:-1 tvg-id="yu",Плюс Минус 16
 https://live-mirror-19.ott.tricolor.tv/dtv/id1010_MSKSG-PVR-1--russian_ship_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTMwNDUwMCwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU4Njk5NzAwLCJzZXNzaW9uX2lkIjoiYzAyZDcwYjlhNTg0M2E4ODYxYzNkZTcyNmY2MDgxZDUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.I4dUwTfD1GBg3RK-UB4O511C8umI4R3EiN1A2xh-BGQ
@@ -15255,7 +15259,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/track_102_1f3
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
 #EXTINF:-1 tvg-shift="0",Самара 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8
-#EXTINF:-1 tvg-shift="4",Сибирь 24 (Красноярск)
+#EXTINF:-1 tvg-shift="4" [OLD],Сибирь 24 (Красноярск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
 #EXTINF:-1 tvg-shift="4",Сибирь 24 (Новосибирск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8
@@ -16115,7 +16119,7 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_MAIDAN/variant.m3u8
 #EXTINF:-1,More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1,Movify Kino
+#EXTINF:-1 [OLD],Movify Kino
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1 [OLD],MTV [US]
 https://hls-volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
@@ -16226,7 +16230,7 @@ http://listen.vdfm.ru:8000/dacha
 #EXTINF:-1,Дом
 http://93.84.115.174:10181/domjivot
 #EXTINF:-1,ЕГЭ
-http://194.143.148.28:8080/RT_DOC/index.m3u8
+http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2020/index.m3u8
 #EXTINF:-1 tvg-shift="0",Ивановское общественное телевидение (Иваново)
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],канал (Красноярск)
@@ -16283,7 +16287,7 @@ http://1tvtula.ru/tula/1tv_hi/index.m3u8
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
 #EXTINF:-1 [OLD],Поехали
 http://31148.rafail1982.uz/Poehali/index.m3u8
-#EXTINF:-1,Прима
+#EXTINF:-1 [OLD],Прима
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 #EXTINF:-1 [OLD],Про100 ТВ
 http://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
@@ -16335,14 +16339,14 @@ https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R02_TVSARANSK/variant.m3u8
 http://178.124.153.123:44400/terra
 #EXTINF:-1 tvg-shift="2" [OLD],ТНР 24 (Нижневартовск)
 http://176.118.197.101/THT/index.m3u8
-#EXTINF:-1,Тонус ТВ
+#EXTINF:-1 [OLD],Тонус ТВ
 http://194.143.148.28:8080/Mir24/index.m3u8
 #EXTINF:-1,Тооку
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
 #EXTINF:-1 [OLD],Точка
 http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1,Три Ангела
-https://hls.tv.3angels.ru/stream.m3u8
+http://hls.tv.3angels.ru/stream/HQ.m3u8
 #EXTINF:-1 [OLD],ТРК Евразия (Орск)
 http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
 #EXTINF:-1 [OLD],Туран ТВ
@@ -16827,181 +16831,181 @@ https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Телекафе (720p)
 https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
-#EXTINF:-1,100% News
+#EXTINF:-1 [OLD],100% News
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1,ARB 24
-https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-24.m3u8
-#EXTINF:-1,CGTN Russian
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/2188/index.m3u8
+#EXTINF:-1 [OLD],CGTN Russian
 https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8
 #EXTINF:-1,Настоящее время
-https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8
-#EXTINF:-1,DW Russian
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/986/index.m3u8
+#EXTINF:-1 [OLD],DW Russian
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
-#EXTINF:-1,FREEDOM
+#EXTINF:-1 [OLD],FREEDOM
 https://dash2.antik.sk/live/test_uatv/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",Радио Говорит Москва (Веб-камера)
+#EXTINF:-1 tvg-shift="0" [OLD],Радио Говорит Москва (Веб-камера)
 https://video.govoritmoskva.ru/rufm/index.m3u8
-#EXTINF:-1,Kapaz TV
+#EXTINF:-1 [OLD],Kapaz TV
 http://85.132.78.122:8050/hls/stream/index.m3u8
-#EXTINF:-1 tvg-shift="2",КРИК-ТВ (Екатеринбург)
+#EXTINF:-1 tvg-shift="2" [OLD],КРИК-ТВ (Екатеринбург)
 http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
-#EXTINF:-1,Общественное Независимое Телевидение
+#EXTINF:-1 [OLD],Общественное Независимое Телевидение
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 tvg-shift="0",Сочи 24 HD
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
-#EXTINF:-1,Толк HD
+#EXTINF:-1 [OLD],Толк HD
 http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
-#EXTINF:-1,TV-Nord
+#EXTINF:-1 [OLD],TV-Nord
 https://6065d3147e895.streamlock.net:4444/npcl/live/playlist.m3u8
-#EXTINF:-1,UzReport TV
+#EXTINF:-1 [OLD],UzReport TV
 https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
-#EXTINF:-1,15+ Music
+#EXTINF:-1 [OLD],15+ Music
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
-#EXTINF:-1,BRIDGE Deluxe
+#EXTINF:-1 [OLD],BRIDGE Deluxe
 http://31.148.48.15/Bridge_TV_HD/index.m3u8
-#EXTINF:-1,Dance Hits 80
+#EXTINF:-1 [OLD],Dance Hits 80
 http://dancehits80.denvs.ru:8080/index.m3u8
-#EXTINF:-1 tvg-id="yu",Муз союз
+#EXTINF:-1 tvg-id="yu" [OLD],Муз союз
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1,о2тв
+#EXTINF:-1 [OLD],о2тв
 http://31.148.48.15/O2_HD/index.m3u8
-#EXTINF:-1,Первый Музыкальный Канал
+#EXTINF:-1 [OLD],Первый Музыкальный Канал
 http://hz1.teleport.cc/HLS/SD.m3u8
-#EXTINF:-1,Первый Музыкальный Канал Россия
+#EXTINF:-1 [OLD],Первый Музыкальный Канал Россия
 http://rtmp.one.by:2200
-#EXTINF:-1,Радио Хит (Орск)
+#EXTINF:-1 [OLD],Радио Хит (Орск)
 http://lova.me/hls/hithd.m3u8
-#EXTINF:-1,Сити Эдем Meditation Music
+#EXTINF:-1 [OLD],Сити Эдем Meditation Music
 https://cityeden.catcast.tv/content/47410/index.m3u8
-#EXTINF:-1,Сити Эдем Play Христианский Музыкальный
+#EXTINF:-1 [OLD],Сити Эдем Play Христианский Музыкальный
 https://cityeden.catcast.tv/content/34100/index.m3u8
-#EXTINF:-1,Сити Эдем Бирма Play
+#EXTINF:-1 [OLD],Сити Эдем Бирма Play
 https://cityeden.catcast.tv/content/34364/index.m3u8
-#EXTINF:-1,Сити Эдем Сиртаки ТВ
+#EXTINF:-1 [OLD],Сити Эдем Сиртаки ТВ
 https://cityeden.catcast.tv/content/46421/index.m3u8
-#EXTINF:-1,Zo'r TV
+#EXTINF:-1 [OLD],Zo'r TV
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Детское кино International
-https://autopilot.catcast.tv/content/38720/index.m3u8
+https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1,Дом Кино Премиум HD
 http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8
-#EXTINF:-1,Pro100TV
+#EXTINF:-1 [OLD],Pro100TV
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1,Русский Детектив
 http://ott.watch/stream/6HAPZWKKG3/204.m3u8
-#EXTINF:-1,Сити Эдем КиноАзия
+#EXTINF:-1 [OLD],Сити Эдем КиноАзия
 https://cityeden.catcast.tv/content/34393/index.m3u8
-#EXTINF:-1,Сити Эдем КиноАрт
+#EXTINF:-1 [OLD],Сити Эдем КиноАрт
 https://cityeden.catcast.tv/content/38398/index.m3u8
-#EXTINF:-1,Сити Эдем КиноДетектив
+#EXTINF:-1 [OLD],Сити Эдем КиноДетектив
 https://cityeden.catcast.tv/content/41327/index.m3u8
-#EXTINF:-1,Сити Эдем КиноДрама
+#EXTINF:-1 [OLD],Сити Эдем КиноДрама
 https://cityeden.catcast.tv/content/45269/index.m3u8
-#EXTINF:-1,Сити Эдем КиноКлассика
+#EXTINF:-1 [OLD],Сити Эдем КиноКлассика
 https://cityeden.catcast.tv/content/34185/index.m3u8
-#EXTINF:-1,Сити Эдем КиноКомедия
+#EXTINF:-1 [OLD],Сити Эдем КиноКомедия
 https://cityeden.catcast.tv/content/41331/index.m3u8
-#EXTINF:-1,Сити Эдем КиноМистика
+#EXTINF:-1 [OLD],Сити Эдем КиноМистика
 https://cityeden.catcast.tv/content/40783/index.m3u8
-#EXTINF:-1,Сити Эдем КиноФантастика
+#EXTINF:-1 [OLD],Сити Эдем КиноФантастика
 https://cityeden.catcast.tv/content/45268/index.m3u8
-#EXTINF:-1,Сити Эдем КиноЭкшен
+#EXTINF:-1 [OLD],Сити Эдем КиноЭкшен
 https://cityeden.catcast.tv/content/41333/index.m3u8
 #EXTINF:-1 tvg-id="yu",Феникс плюс Кино
 http://31.148.48.15/Feniks_plus_kino/index.m3u8
-#EXTINF:-1,Сити Эдем ТелеНовелла
+#EXTINF:-1 [OLD],Сити Эдем ТелеНовелла
 https://cityeden.catcast.tv/content/46209/index.m3u8
-#EXTINF:-1 tvg-shift="0",Астрахань.Ru Sport
+#EXTINF:-1 tvg-shift="0" [OLD],Астрахань.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1,MMA-TV.com
 https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Angel TV Russian
+#EXTINF:-1 [OLD],Angel TV Russian
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
-#EXTINF:-1,Maná Церковь Онлайн
+#EXTINF:-1 [OLD],Maná Церковь Онлайн
 https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
-#EXTINF:-1,Сити Эдем ТВ Христианский
+#EXTINF:-1 [OLD],Сити Эдем ТВ Христианский
 https://cityeden.catcast.tv/content/34246/index.m3u8
 #EXTINF:-1,TBN Baltia
 http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
-#EXTINF:-1,TV Maná Русский
+#EXTINF:-1 [OLD],TV Maná Русский
 https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
-#EXTINF:-1,Магнат ТВ
+#EXTINF:-1 [OLD],Магнат ТВ
 https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
-#EXTINF:-1 tvg-id="yu",Ювелирочка ТВ
+#EXTINF:-1 tvg-id="yu" [OLD],Ювелирочка ТВ
 https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1,312 ТВ
+#EXTINF:-1 [OLD],312 ТВ
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
-#EXTINF:-1,ETV+
+#EXTINF:-1 [OLD],ETV+
 https://sb.err.ee/live/etvpluss.m3u8
-#EXTINF:-1,Твое TV HD
+#EXTINF:-1 [OLD],Твое TV HD
 http://tvoetv.space:8080/tvoetv/index.m3u8
-#EXTINF:-1 tvg-id="yu",Твое ТВ Юмор
+#EXTINF:-1 tvg-id="yu" [OLD],Твое ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
-#EXTINF:-1,Сити Эдем АвтоГид
+#EXTINF:-1 [OLD],Сити Эдем АвтоГид
 https://cityeden.catcast.tv/content/47515/index.m3u8
-#EXTINF:-1,Сити Эдем КиноДок
+#EXTINF:-1 [OLD],Сити Эдем КиноДок
 https://cityeden.catcast.tv/content/38354/index.m3u8
-#EXTINF:-1,Сити Эдем МедЗдрав
+#EXTINF:-1 [OLD],Сити Эдем МедЗдрав
 https://cityeden.catcast.tv/content/47519/index.m3u8
-#EXTINF:-1,Сити Эдем Рецепты Гурмана
+#EXTINF:-1 [OLD],Сити Эдем Рецепты Гурмана
 https://cityeden.catcast.tv/content/47516/index.m3u8
 #EXTINF:-1,FoodTime
 https://adpnetworkhd-cmd.github.io/iptv/FoodTimeHD.m3u8
 #EXTINF:-1,MyZen TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
-#EXTINF:-1,Нано ТВ HD
+#EXTINF:-1 [OLD],Нано ТВ HD
 http://s1.tv-nano.com/Nano_rec/index.m3u8
 #EXTINF:-1,ЖИВИ!
-http://31.148.48.15/Zhivi/index.m3u8
-#EXTINF:-1 tvg-shift="2",Телеканал 86 (Сургут)
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/738/index.m3u8
+#EXTINF:-1 tvg-shift="2" [OLD],Телеканал 86 (Сургут)
 https://sitv.ru/hls/s86.m3u8
-#EXTINF:-1,Аист ТВ
+#EXTINF:-1 [OLD],Аист ТВ
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
-#EXTINF:-1,Арис 24
+#EXTINF:-1 [OLD],Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:-1,Енисей
+#EXTINF:-1 [OLD],Енисей
 https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-#EXTINF:-1,Ингушетия ТВ
+#EXTINF:-1 [OLD],Ингушетия ТВ
 https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Кавказ 24 (Ставрополь)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
-#EXTINF:-1 tvg-shift="2",Курай (Уфа)
+#EXTINF:-1 tvg-shift="2" [OLD],Курай (Уфа)
 https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",МТВ (Волгоград)
+#EXTINF:-1 tvg-shift="0" [OLD],МТВ (Волгоград)
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:-1,МТРК
+#EXTINF:-1 [OLD],МТРК
 https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
 #EXTINF:-1 tvg-shift="6",НВК Саха
 http://live-saha.cdnvideo.ru/saha2/saha_live.smil/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-shift="0",Нижний Новгород 24
 http://live-vestinn.cdnvideo.ru/vestinn/nn24/playlist.m3u8
-#EXTINF:-1,НТК 21 (Биробиджан)
+#EXTINF:-1 [OLD],НТК 21 (Биробиджан)
 https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
-#EXTINF:-1,НТМ (Народное телевидение Мордовии)
+#EXTINF:-1 [OLD],НТМ (Народное телевидение Мордовии)
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Самара ГИС
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Своё ТВ (Ставрополь)
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
-#EXTINF:-1,Телерадиокомпания 555 (Алушта)
+#EXTINF:-1 [OLD],Телерадиокомпания 555 (Алушта)
 http://trk555.tv:8888/live
-#EXTINF:-1 tvg-id="yu" tvg-shift="0",Телплюс ТВ (Астрахань)
+#EXTINF:-1 tvg-id="yu" tvg-shift="0" [OLD],Телплюс ТВ (Астрахань)
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",ТКР (Рязань)
+#EXTINF:-1 tvg-shift="0" [OLD],ТКР (Рязань)
 http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",ТНВ-Планета (Казань)
+#EXTINF:-1 tvg-shift="0" [OLD],ТНВ-Планета (Казань)
 https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8
-#EXTINF:-1,12 канал
+#EXTINF:-1 [OLD],12 канал
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
-#EXTINF:-1,АБАЗА-ТВ
+#EXTINF:-1 [OLD],АБАЗА-ТВ
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
-#EXTINF:-1,ARB
+#EXTINF:-1 [OLD],ARB
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb.m3u8
-#EXTINF:-1 tvg-shift="0",Астрахань.Ru TV
+#EXTINF:-1 tvg-shift="0" [OLD],Астрахань.Ru TV
 https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
-#EXTINF:-1,Az TV
+#EXTINF:-1 [OLD],Az TV
 http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA
-#EXTINF:-1,К16 (Саров)
+#EXTINF:-1 [OLD],К16 (Саров)
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 #EXTINF:-1,Дагестан
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
@@ -17011,529 +17015,529 @@ https://stream8.cinerama.uz/1206/tracks-v1a1/mono.m3u8
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 #EXTINF:-1,Dunya TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/dunya-tv.m3u8
-#EXTINF:-1,EL TV
+#EXTINF:-1 [OLD],EL TV
 http://85.132.53.162:1935/live/eltv/playlist.m3u8
-#EXTINF:-1,Moldova 1
+#EXTINF:-1 [OLD],Moldova 1
 https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8
-#EXTINF:-1,Moldova 2
+#EXTINF:-1 [OLD],Moldova 2
 https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c0427015/master.m3u8
 #EXTINF:-1,O'zbekiston
 https://stream8.cinerama.uz/1001/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Первый городской (Одесса)
+#EXTINF:-1 [OLD],Первый городской (Одесса)
 http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
-#EXTINF:-1,Планета-РТР
+#EXTINF:-1 [OLD],Планета-РТР
 https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
-#EXTINF:-1,Sevimli TV
+#EXTINF:-1 [OLD],Sevimli TV
 https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
-#EXTINF:-1,Sochi Live HD
+#EXTINF:-1 [OLD],Sochi Live HD
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1,Space TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
 #EXTINF:-1,СТБ
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
-#EXTINF:-1,TMB
+#EXTINF:-1 [OLD],TMB
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8
-#EXTINF:-1,Türkmenistan
+#EXTINF:-1 [OLD],Türkmenistan
 https://alpha.tv.online.tm/hls/ch007.m3u8
-#EXTINF:-1,TV BRICS Russian
+#EXTINF:-1 [OLD],TV BRICS Russian
 https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
-#EXTINF:-1,Xezer TV
+#EXTINF:-1 [OLD],Xezer TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8
-#EXTINF:-1,Щёлковское ТВ
+#EXTINF:-1 [OLD],Щёлковское ТВ
 http://stream0.tv41.ru/live.m3u8
-#EXTINF:-1,Azstar TV
+#EXTINF:-1 [OLD],Azstar TV
 https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
-#EXTINF:-1,Kanal S TV
+#EXTINF:-1 [OLD],Kanal S TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/kanal-s.m3u8
-#EXTINF:-1,MCJ TV
+#EXTINF:-1 [OLD],MCJ TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/mcj-tv-shop.m3u8
-#EXTINF:-1,MTV TV
+#EXTINF:-1 [OLD],MTV TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/mtv-azerbaycan.m3u8
 #EXTINF:-1,VIP TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/vip.m3u8
-#EXTINF:-1 tvg-shift="0",Городской Телеканал (Ярославль)
+#EXTINF:-1 tvg-shift="0" [OLD],Городской Телеканал (Ярославль)
 http://www.gtk.tv/hls/gtyar.m3u8
-#EXTINF:-1,Классика кино
+#EXTINF:-1 [OLD],Классика кино
 http://tv.tvip-media.net/klassikakino/tracks-v1a0/time-0.m3u8
-#EXTINF:-1,STR TV
+#EXTINF:-1 [OLD],STR TV
 https://strtv.at.ua/hls/index.m3u8
 #EXTINF:-1 tvg-id="yu",Остросюжетное HD
 http://ott.watch/stream/6HAPZWKKG3/214.m3u8
 #EXTINF:-1 tvg-id="yu",Про Любовь HD
 https://stream-msk-12.ott.tricolor.tv/dtv/id647_MSKSG-PVR-1--Pro_Love_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MTAyNTUwMDYwNTg4MiIsImV4cCI6MTY5MjczNTA3OCwiaHdpZCI6IjA1OTgxOTUwMjliODE3MzIxYTQ2MGE3M2QwNWRjNGY5M2I5ZmM0NjM5OWFlOWRmYzJlZTZiMGUwNDVhZWViYzkiLCJsYXN0X3JlcV9kYXRlIjoxNjkyMTMwMjc4LCJzZXNzaW9uX2lkIjoiOWNmODQ0NGJiOGM3NWI5NGFjNDJiM2JkNGI3ZWMxMzIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hUXvl74L08qIrIia8T5RQVD8khzcJt-HW6HB1kR6Shc
-#EXTINF:-1,Душевное кино HD
+#EXTINF:-1 [OLD],Душевное кино HD
 https://stream-msk-06.ott.tricolor.tv/dtv/id395_MSKSG-PVR-1--HD_Nash_Kinoroman/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MTAyNTUwMDYwNTg4MiIsImV4cCI6MTY5MjczNTA3OCwiaHdpZCI6IjA1OTgxOTUwMjliODE3MzIxYTQ2MGE3M2QwNWRjNGY5M2I5ZmM0NjM5OWFlOWRmYzJlZTZiMGUwNDVhZWViYzkiLCJsYXN0X3JlcV9kYXRlIjoxNjkyMTMwMjc4LCJzZXNzaW9uX2lkIjoiOWNmODQ0NGJiOGM3NWI5NGFjNDJiM2JkNGI3ZWMxMzIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hUXvl74L08qIrIia8T5RQVD8khzcJt-HW6HB1kR6Shc
-#EXTINF:-1,CineMan
+#EXTINF:-1 [OLD],CineMan
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11004/index.m3u8
-#EXTINF:-1,CineMan Action
+#EXTINF:-1 [OLD],CineMan Action
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11006/index.m3u8
-#EXTINF:-1,CineMan Marvel
+#EXTINF:-1 [OLD],CineMan Marvel
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11009/index.m3u8
-#EXTINF:-1,CineMan MiniSeries
+#EXTINF:-1 [OLD],CineMan MiniSeries
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/19437/index.m3u8
-#EXTINF:-1,CineMan Premium
+#EXTINF:-1 [OLD],CineMan Premium
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20112/index.m3u8
-#EXTINF:-1,CineMan Thriller
+#EXTINF:-1 [OLD],CineMan Thriller
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11007/index.m3u8
-#EXTINF:-1,CineMan Top
+#EXTINF:-1 [OLD],CineMan Top
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11005/index.m3u8
-#EXTINF:-1,CineMan VHS
+#EXTINF:-1 [OLD],CineMan VHS
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11012/index.m3u8
-#EXTINF:-1,CineMan Катастрофы
+#EXTINF:-1 [OLD],CineMan Катастрофы
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/15106/index.m3u8
-#EXTINF:-1,CineMan Комедия
+#EXTINF:-1 [OLD],CineMan Комедия
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11011/index.m3u8
-#EXTINF:-1,CineMan Лесник
+#EXTINF:-1 [OLD],CineMan Лесник
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/16065/index.m3u8
-#EXTINF:-1,CineMan Мелодрама
+#EXTINF:-1 [OLD],CineMan Мелодрама
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11008/index.m3u8
-#EXTINF:-1,CineMan Ментовские войны
+#EXTINF:-1 [OLD],CineMan Ментовские войны
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/16063/index.m3u8
-#EXTINF:-1,CineMan ПёС
+#EXTINF:-1 [OLD],CineMan ПёС
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/16064/index.m3u8
-#EXTINF:-1,CineMan РуКино
+#EXTINF:-1 [OLD],CineMan РуКино
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11013/index.m3u8
-#EXTINF:-1,CineMan Сваты
+#EXTINF:-1 [OLD],CineMan Сваты
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11014/index.m3u8
-#EXTINF:-1,CineMan Симпсоны
+#EXTINF:-1 [OLD],CineMan Симпсоны
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/15101/index.m3u8
-#EXTINF:-1,CineMan Скорая Помощь
+#EXTINF:-1 [OLD],CineMan Скорая Помощь
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/15100/index.m3u8
-#EXTINF:-1,CineMan Ужасы
+#EXTINF:-1 [OLD],CineMan Ужасы
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/11010/index.m3u8
-#EXTINF:-1,KLI Action FHD
+#EXTINF:-1 [OLD],KLI Action FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20051/index.m3u8
-#EXTINF:-1,KLI Cinema HD
+#EXTINF:-1 [OLD],KLI Cinema HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/16078/index.m3u8
-#EXTINF:-1,KLI Club FHD
+#EXTINF:-1 [OLD],KLI Club FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/19319/index.m3u8
-#EXTINF:-1,KLI Comedy HD
+#EXTINF:-1 [OLD],KLI Comedy HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/16080/index.m3u8
-#EXTINF:-1,KLI Drama FHD
+#EXTINF:-1 [OLD],KLI Drama FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20053/index.m3u8
-#EXTINF:-1,KLI Family HD
+#EXTINF:-1 [OLD],KLI Family HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18176/index.m3u8
-#EXTINF:-1,KLI Fantastic HD
+#EXTINF:-1 [OLD],KLI Fantastic HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18050/index.m3u8
-#EXTINF:-1,KLI Fantasy FHD
+#EXTINF:-1 [OLD],KLI Fantasy FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20054/index.m3u8
-#EXTINF:-1,KLI History HD
+#EXTINF:-1 [OLD],KLI History HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18047/index.m3u8
-#EXTINF:-1,KLI Horror FHD
+#EXTINF:-1 [OLD],KLI Horror FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20050/index.m3u8
-#EXTINF:-1,KLI Netflix HD
+#EXTINF:-1 [OLD],KLI Netflix HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/20177/index.m3u8
-#EXTINF:-1,KLI Premium HD
+#EXTINF:-1 [OLD],KLI Premium HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18048/index.m3u8
-#EXTINF:-1,KLI Retro HD
+#EXTINF:-1 [OLD],KLI Retro HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18177/index.m3u8
-#EXTINF:-1,KLI Russian HD
+#EXTINF:-1 [OLD],KLI Russian HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18049/index.m3u8
-#EXTINF:-1,KLI Thriller HD
+#EXTINF:-1 [OLD],KLI Thriller HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18174/index.m3u8
-#EXTINF:-1,KLI VHS HD
+#EXTINF:-1 [OLD],KLI VHS HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18173/index.m3u8
-#EXTINF:-1,KLI Киносерия FHD
+#EXTINF:-1 [OLD],KLI Киносерия FHD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/19400/index.m3u8
-#EXTINF:-1,KLI СССР HD
+#EXTINF:-1 [OLD],KLI СССР HD
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/18175/index.m3u8
-#EXTINF:-1,Setanta Qazaqstan
+#EXTINF:-1 [OLD],Setanta Qazaqstan
 http://vodoley65.edemist.com/iptv/5GQ3M99FAGEEBR/2399/index.m3u8
-#EXTINF:-1,Тип-Топ HD
+#EXTINF:-1 [OLD],Тип-Топ HD
 http://tv.tvip-media.net/tiptop/tracks-v1a0/time-0.m3u8
-#EXTINF:-1,Кнопка ТВ
+#EXTINF:-1 [OLD],Кнопка ТВ
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
-#EXTINF:-1,Universmotri
+#EXTINF:-1 [OLD],Universmotri
 http://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
-#EXTINF:-1,Фиксики
+#EXTINF:-1 [OLD],Фиксики
 http://34f4d057.shukinuki.website/iptv/SESPZVV922UXEK/18137/index.m3u8
-#EXTINF:-1,Кинозал 11
+#EXTINF:-1 [OLD],Кинозал 11
 http://34f4d057.shukinuki.website/iptv/SESPZVV922UXEK/18136/index.m3u8
 #EXTINF:-1,Детское Кино International
 http://autopilot.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1,8 Канал
+#EXTINF:-1 [OLD],8 Канал
 https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
-#EXTINF:-1,12 канал HD
+#EXTINF:-1 [OLD],12 канал HD
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
-#EXTINF:-1,Эхо ТВ
+#EXTINF:-1 [OLD],Эхо ТВ
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
-#EXTINF:-1,Первый Музыкальный HD
+#EXTINF:-1 [OLD],Первый Музыкальный HD
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1,Первый Музыкальный Россия HD
+#EXTINF:-1 [OLD],Первый Музыкальный Россия HD
 http://rtmp.one.by:2300
-#EXTINF:-1,Portal foxmix tv
+#EXTINF:-1 [OLD],Portal foxmix tv
 https://panel.tvstream.cl:1936/8040/8040/chunklist_w360765263.m3u8
-#EXTINF:-1,Deluxe Music TV
+#EXTINF:-1 [OLD],Deluxe Music TV
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1,DanceTelevision 2
+#EXTINF:-1 [OLD],DanceTelevision 2
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
-#EXTINF:-1,Radio Kiss Kiss Italia
+#EXTINF:-1 [OLD],Radio Kiss Kiss Italia
 https://59253971be783.streamlock.net/KKTV01/livestream/playlist.m3u8
-#EXTINF:-1,Made in Bo
+#EXTINF:-1 [OLD],Made in Bo
 https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
-#EXTINF:-1,HIT FM TV
+#EXTINF:-1 [OLD],HIT FM TV
 http://5db313b643fd8.streamlock.net:1935/HITTV/HITTV/chunklist.m3u8
-#EXTINF:-1,Ocko Express
+#EXTINF:-1 [OLD],Ocko Express
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
-#EXTINF:-1,Ocko Gold
+#EXTINF:-1 [OLD],Ocko Gold
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
-#EXTINF:-1,V2BEAT TV
+#EXTINF:-1 [OLD],V2BEAT TV
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1,TVM 3
+#EXTINF:-1 [OLD],TVM 3
 https://edge15.vedge.infomaniak.com/livecast/tvm3/chunklist_w678388921.m3u8
-#EXTINF:-1,Magic TV BG
+#EXTINF:-1 [OLD],Magic TV BG
 https://bss1.neterra.tv/magictv/magictv.m3u8
 #EXTINF:-1,Kronehit HD
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1,Recuerdos Retro
+#EXTINF:-1 [OLD],Recuerdos Retro
 https://sonic.portalfoxmix.cl:7175/stream
-#EXTINF:-1,Now 70's
+#EXTINF:-1 [OLD],Now 70's
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1,Now 80's
+#EXTINF:-1 [OLD],Now 80's
 https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1,Now 90's
+#EXTINF:-1 [OLD],Now 90's
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1,Europa Plus
 http://flussonic.mkpnet.ru/tv-0f5fe3eb19ad83d9/video.m3u8
-#EXTINF:-1,Радио Maximum
+#EXTINF:-1 [OLD],Радио Maximum
 https://maximum.hostingradio.ru/maximum96.aacp
-#EXTINF:-1,Русское Радио
+#EXTINF:-1 [OLD],Русское Радио
 https://rusradio.hostingradio.ru/rusradio96.aacp
-#EXTINF:-1,DFM
+#EXTINF:-1 [OLD],DFM
 https://dfm.hostingradio.ru/dfm96.aacp
-#EXTINF:-1,Ретро ФМ
+#EXTINF:-1 [OLD],Ретро ФМ
 https://hls-01-retro.emgsound.ru/12/playlist.m3u8
-#EXTINF:-1,Радио воскресение
+#EXTINF:-1 [OLD],Радио воскресение
 https://inra3.pravradio.ru/stream.mp3
-#EXTINF:-1,Радио Комсомольская правда
+#EXTINF:-1 [OLD],Радио Комсомольская правда
 https://kpradio.hostingradio.ru:8000/64?radiostatistica=radiokp.ru
-#EXTINF:-1,Радио для двоих
+#EXTINF:-1 [OLD],Радио для двоих
 https://icecast-radiofortwo.cdnvideo.ru/radiofortwo
-#EXTINF:-1,Радио Орфей
+#EXTINF:-1 [OLD],Радио Орфей
 https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3
-#EXTINF:-1,Radio Record
+#EXTINF:-1 [OLD],Radio Record
 http://hls-01-radiorecord.hostingradio.ru/record/96/playlist.m3u8
-#EXTINF:-1,Радио СИ
+#EXTINF:-1 [OLD],Радио СИ
 https://online.radioc.ru/radioc_aacplus
-#EXTINF:-1,Радио России
+#EXTINF:-1 [OLD],Радио России
 https://icecast-vgtrk.cdnvideo.ru/rrzonam_mp3_192kbps
-#EXTINF:-1,Радио Sputnik
+#EXTINF:-1 [OLD],Радио Sputnik
 https://icecast-rian.cdnvideo.ru/voicerus
-#EXTINF:-1,Милицейская волна
+#EXTINF:-1 [OLD],Милицейская волна
 https://radiomv.hostingradio.ru:80/radiomv128.mp3
-#EXTINF:-1 tvg-id="yu",Радио Юность
+#EXTINF:-1 tvg-id="yu" [OLD],Радио Юность
 https://icecast-vgtrk.cdnvideo.ru/unost_mp3_128kbps
-#EXTINF:-1,Радио Ностальжи
+#EXTINF:-1 [OLD],Радио Ностальжи
 https://listen7.myradio24.com/alexx333
-#EXTINF:-1,Серебряный дождь
+#EXTINF:-1 [OLD],Серебряный дождь
 https://silverrain.hostingradio.ru/silver128.mp3
-#EXTINF:-1,Радио Шансон Тирасполь 88.8 FM
+#EXTINF:-1 [OLD],Радио Шансон Тирасполь 88.8 FM
 https://chanson-video.hostingradio.ru/hls/chansonabr/live.m3u8
-#EXTINF:-1,City FM
+#EXTINF:-1 [OLD],City FM
 https://city.stream.laut.fm/city
-#EXTINF:-1,Britney Spears Радио
+#EXTINF:-1 [OLD],Britney Spears Радио
 https://streaming.exclusive.radio/er/britney/icecast.audio
-#EXTINF:-1,Studio 21
+#EXTINF:-1 [OLD],Studio 21
 https://icecast-studio21.cdnvideo.ru/S21cl_1r
-#EXTINF:-1,Radio my hits Эстония
+#EXTINF:-1 [OLD],Radio my hits Эстония
 https://router.euddn.net/8103046e16b71d15d692b57c187875c7/myhits.aac
-#EXTINF:-1,NRJ Eesti
+#EXTINF:-1 [OLD],NRJ Eesti
 https://stream.skymedia.ee/live/NRJ
-#EXTINF:-1,European Hit Radio - Ремиксы Русские
+#EXTINF:-1 [OLD],European Hit Radio - Ремиксы Русские
 https://stream.ehrhiti.lv:8000/Stream_35.aac
-#EXTINF:-1,Radio Duo
+#EXTINF:-1 [OLD],Radio Duo
 https://router.euddn.net/8103046e16b71d15d692b57c187875c7/radioduo.aac
-#EXTINF:-1,Power hit radio
+#EXTINF:-1 [OLD],Power hit radio
 https://ice.leviracloud.eu/phr96-aac
-#EXTINF:-1,Авторадио Латвия
+#EXTINF:-1 [OLD],Авторадио Латвия
 https://live.relaxfm.lv/03
-#EXTINF:-1,Doubleclap Radio
+#EXTINF:-1 [OLD],Doubleclap Radio
 https://s3.radio.co/scfd7273b2/listen
-#EXTINF:-1,Радио Дача
+#EXTINF:-1 [OLD],Радио Дача
 https://listen3.vdfm.ru:8000/dacha?type=.mp3
-#EXTINF:-1,Melodia FM Украина
+#EXTINF:-1 [OLD],Melodia FM Украина
 https://online.melodiafm.ua/MelodiaFM
-#EXTINF:-1,НАШЕ Радио
+#EXTINF:-1 [OLD],НАШЕ Радио
 https://nashe1.hostingradio.ru:80/nashe-128.mp3
-#EXTINF:-1,Радио JAZZ
+#EXTINF:-1 [OLD],Радио JAZZ
 https://nashe1.hostingradio.ru:80/jazz-128.mp3
-#EXTINF:-1,Jazz FM Classic
+#EXTINF:-1 [OLD],Jazz FM Classic
 https://jfm1.hostingradio.ru:14536/ijstream.mp3
-#EXTINF:-1,Радио Хит FM
+#EXTINF:-1 [OLD],Радио Хит FM
 https://hitfm.hostingradio.ru/hitfm96.aacp
-#EXTINF:-1,Радио Русский Хит
+#EXTINF:-1 [OLD],Радио Русский Хит
 https://rp.amgradio.ru/RuWave48
-#EXTINF:-1,Наша Сибирь 4K UHD
+#EXTINF:-1 [OLD],Наша Сибирь 4K UHD
 http://a787201479-zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/video_3840x2160_avc1/playlist.m3u8?useseq=t&version=2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Radio Delta TV International
+#EXTINF:-1 [OLD],Radio Delta TV International
 https://w1.mediastreaming.it/deltainternational/livestream/playlist.m3u8
-#EXTINF:-1,8 канал International
+#EXTINF:-1 [OLD],8 канал International
 http://v4.proofix.ru/8tv-europe/index.m3u8
-#EXTINF:-1,Охотник и Рыболов International
+#EXTINF:-1 [OLD],Охотник и Рыболов International
 https://stream-msk-14.ott.tricolor.tv/dtv/id614_MSKSG-PVR-1--Ohotnik_i_ryb_int_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MDAyNTUwMDc4MjQwNyIsImV4cCI6MTY5MjIyMjY4MSwiaHdpZCI6ImI2YjQ3YmM4NWZhNWJmZDI5Mzk3MTg2MzFmMzZiNzg3YzYwZGYwNzdhZmRhZDM5ZTZmZTQ5NWRhMTI0NTBlYjIiLCJsYXN0X3JlcV9kYXRlIjoxNjkxNjE3ODgxLCJzZXNzaW9uX2lkIjoiNDQ4NGJmNzY3ZWM3ZDlmMDMwZmNhZGViOTY4MTdiZjkiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.m-xtEjCqQnrRIS6LF1sFOfwHRgOONO7FP_ZNyouWgUM
-#EXTINF:-1,IMUZZ MUSIC HITS
+#EXTINF:-1 [OLD],IMUZZ MUSIC HITS
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/18054/index.m3u8
-#EXTINF:-1,Muzzik Zz 4K
+#EXTINF:-1 [OLD],Muzzik Zz 4K
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/16044/index.m3u8
-#EXTINF:-1,TRT Muzik HD TR
+#EXTINF:-1 [OLD],TRT Muzik HD TR
 http://d1525871.akadatel.com/iptv/ZKW8EHAZG2XM38/6869/index.m3u8
-#EXTINF:-1,VF Adventure
+#EXTINF:-1 [OLD],VF Adventure
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10000/index.m3u8
-#EXTINF:-1,VF Anime
+#EXTINF:-1 [OLD],VF Anime
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10001/index.m3u8
-#EXTINF:-1,VF Art house
+#EXTINF:-1 [OLD],VF Art house
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11119/index.m3u8
-#EXTINF:-1,VF Cartoon
+#EXTINF:-1 [OLD],VF Cartoon
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10002/index.m3u8
-#EXTINF:-1,VF Classic
+#EXTINF:-1 [OLD],VF Classic
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10054/index.m3u8
-#EXTINF:-1,VF Comedy
+#EXTINF:-1 [OLD],VF Comedy
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10003/index.m3u8
-#EXTINF:-1,VF Detective
+#EXTINF:-1 [OLD],VF Detective
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11120/index.m3u8
-#EXTINF:-1,VF Disney Movie
+#EXTINF:-1 [OLD],VF Disney Movie
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15010/index.m3u8
-#EXTINF:-1,VF Family
+#EXTINF:-1 [OLD],VF Family
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10004/index.m3u8
-#EXTINF:-1,VF Fantastic
+#EXTINF:-1 [OLD],VF Fantastic
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11121/index.m3u8
-#EXTINF:-1,VF Fantasy
+#EXTINF:-1 [OLD],VF Fantasy
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10005/index.m3u8
-#EXTINF:-1,VF Marvel
+#EXTINF:-1 [OLD],VF Marvel
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10081/index.m3u8
-#EXTINF:-1,VF Melodrama
+#EXTINF:-1 [OLD],VF Melodrama
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10006/index.m3u8
-#EXTINF:-1,VF Mystic
+#EXTINF:-1 [OLD],VF Mystic
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10007/index.m3u8
-#EXTINF:-1,VF New Year
+#EXTINF:-1 [OLD],VF New Year
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15522/index.m3u8
-#EXTINF:-1,VF Premiere
+#EXTINF:-1 [OLD],VF Premiere
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10052/index.m3u8
-#EXTINF:-1,VF Series
+#EXTINF:-1 [OLD],VF Series
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13085/index.m3u8
-#EXTINF:-1,VF TOP Series
+#EXTINF:-1 [OLD],VF TOP Series
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11116/index.m3u8
-#EXTINF:-1,VF VHS Cartoon
+#EXTINF:-1 [OLD],VF VHS Cartoon
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11118/index.m3u8
-#EXTINF:-1,VF VHS MIX
+#EXTINF:-1 [OLD],VF VHS MIX
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10009/index.m3u8
-#EXTINF:-1,VF Бесстыжие
+#EXTINF:-1 [OLD],VF Бесстыжие
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10075/index.m3u8
-#EXTINF:-1,VF Боевик
+#EXTINF:-1 [OLD],VF Боевик
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10087/index.m3u8
-#EXTINF:-1,VF Военные
+#EXTINF:-1 [OLD],VF Военные
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10082/index.m3u8
-#EXTINF:-1,VF Воронины
+#EXTINF:-1 [OLD],VF Воронины
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13083/index.m3u8
-#EXTINF:-1,VF Гарри Поттер
+#EXTINF:-1 [OLD],VF Гарри Поттер
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14230/index.m3u8
-#EXTINF:-1,VF Ёлки
+#EXTINF:-1 [OLD],VF Ёлки
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14222/index.m3u8
-#EXTINF:-1,VF Карточный домик
+#EXTINF:-1 [OLD],VF Карточный домик
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14221/index.m3u8
-#EXTINF:-1,VF Катастрофы
+#EXTINF:-1 [OLD],VF Катастрофы
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10080/index.m3u8
-#EXTINF:-1,VF Классика
+#EXTINF:-1 [OLD],VF Классика
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10053/index.m3u8
-#EXTINF:-1,VF Комедия
+#EXTINF:-1 [OLD],VF Комедия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10055/index.m3u8
-#EXTINF:-1,VF Малыш
+#EXTINF:-1 [OLD],VF Малыш
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11123/index.m3u8
-#EXTINF:-1,VF Мосфильм
+#EXTINF:-1 [OLD],VF Мосфильм
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10084/index.m3u8
-#EXTINF:-1,VF Мультфильмы СССР
+#EXTINF:-1 [OLD],VF Мультфильмы СССР
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10086/index.m3u8
-#EXTINF:-1,VF Наша победа
+#EXTINF:-1 [OLD],VF Наша победа
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10083/index.m3u8
-#EXTINF:-1,VF Новогодний
+#EXTINF:-1 [OLD],VF Новогодний
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17035/index.m3u8
-#EXTINF:-1,VF Оскар
+#EXTINF:-1 [OLD],VF Оскар
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11122/index.m3u8
-#EXTINF:-1,VF Премьера
+#EXTINF:-1 [OLD],VF Премьера
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10051/index.m3u8
-#EXTINF:-1,VF С новым годом!
+#EXTINF:-1 [OLD],VF С новым годом!
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15524/index.m3u8
-#EXTINF:-1,VF Сваты
+#EXTINF:-1 [OLD],VF Сваты
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13080/index.m3u8
-#EXTINF:-1,VF Секс в большом городе
+#EXTINF:-1 [OLD],VF Секс в большом городе
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14224/index.m3u8
-#EXTINF:-1,VF Солдаты
+#EXTINF:-1 [OLD],VF Солдаты
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13081/index.m3u8
-#EXTINF:-1,VF Счастливы Вместе
+#EXTINF:-1 [OLD],VF Счастливы Вместе
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/9242/index.m3u8
-#EXTINF:-1,VF Тайны следствия
+#EXTINF:-1 [OLD],VF Тайны следствия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13082/index.m3u8
-#EXTINF:-1,VF Теория большого взрыва
+#EXTINF:-1 [OLD],VF Теория большого взрыва
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15009/index.m3u8
-#EXTINF:-1,VF Ужасы
+#EXTINF:-1 [OLD],VF Ужасы
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10008/index.m3u8
-#EXTINF:-1,VF Ужасы VHS
+#EXTINF:-1 [OLD],VF Ужасы VHS
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10010/index.m3u8
-#EXTINF:-1,VF Универ
+#EXTINF:-1 [OLD],VF Универ
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13084/index.m3u8
-#EXTINF:-1,VF Фильмы СССР
+#EXTINF:-1 [OLD],VF Фильмы СССР
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10085/index.m3u8
-#EXTINF:-1,VF Britney Spears
+#EXTINF:-1 [OLD],VF Britney Spears
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14005/index.m3u8
-#EXTINF:-1,VF Comics
+#EXTINF:-1 [OLD],VF Comics
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13092/index.m3u8
-#EXTINF:-1,VF HBO
+#EXTINF:-1 [OLD],VF HBO
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/19428/index.m3u8
-#EXTINF:-1,VF Metal
+#EXTINF:-1 [OLD],VF Metal
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17033/index.m3u8
-#EXTINF:-1,VF Modern Talking
+#EXTINF:-1 [OLD],VF Modern Talking
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14004/index.m3u8
-#EXTINF:-1,VF Music
+#EXTINF:-1 [OLD],VF Music
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15516/index.m3u8
-#EXTINF:-1,VF Netflix
+#EXTINF:-1 [OLD],VF Netflix
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/19427/index.m3u8
-#EXTINF:-1,VF Rap
+#EXTINF:-1 [OLD],VF Rap
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17034/index.m3u8
-#EXTINF:-1,VF Rock
+#EXTINF:-1 [OLD],VF Rock
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15517/index.m3u8
-#EXTINF:-1,VF The X-Files
+#EXTINF:-1 [OLD],VF The X-Files
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17002/index.m3u8
-#EXTINF:-1,VF Thriller
+#EXTINF:-1 [OLD],VF Thriller
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13089/index.m3u8
-#EXTINF:-1,VF Американская история ужасов
+#EXTINF:-1 [OLD],VF Американская история ужасов
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17005/index.m3u8
-#EXTINF:-1,VF Без цензуры
+#EXTINF:-1 [OLD],VF Без цензуры
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17017/index.m3u8
-#EXTINF:-1,VF Беларусьфильм
+#EXTINF:-1 [OLD],VF Беларусьфильм
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18125/index.m3u8
-#EXTINF:-1,VF Городок
+#EXTINF:-1 [OLD],VF Городок
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18097/index.m3u8
-#EXTINF:-1,VF Джеки Чан
+#EXTINF:-1 [OLD],VF Джеки Чан
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17009/index.m3u8
-#EXTINF:-1,VF Доктор Хаус
+#EXTINF:-1 [OLD],VF Доктор Хаус
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17016/index.m3u8
-#EXTINF:-1,VF Друзья
+#EXTINF:-1 [OLD],VF Друзья
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17006/index.m3u8
-#EXTINF:-1,VF Игра престолов
+#EXTINF:-1 [OLD],VF Игра престолов
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18119/index.m3u8
-#EXTINF:-1,VF Индия
+#EXTINF:-1 [OLD],VF Индия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13090/index.m3u8
-#EXTINF:-1,VF История
+#EXTINF:-1 [OLD],VF История
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13091/index.m3u8
-#EXTINF:-1,VF Караоке
+#EXTINF:-1 [OLD],VF Караоке
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15518/index.m3u8
-#EXTINF:-1,VF Киностудия им. Горького
+#EXTINF:-1 [OLD],VF Киностудия им. Горького
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18122/index.m3u8
-#EXTINF:-1,VF Клиника
+#EXTINF:-1 [OLD],VF Клиника
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13094/index.m3u8
-#EXTINF:-1,VF Криминал
+#EXTINF:-1 [OLD],VF Криминал
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13093/index.m3u8
-#EXTINF:-1,VF Легенды Ретро ФМ
+#EXTINF:-1 [OLD],VF Легенды Ретро ФМ
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10067/index.m3u8
-#EXTINF:-1,VF Ленфильм
+#EXTINF:-1 [OLD],VF Ленфильм
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18121/index.m3u8
-#EXTINF:-1,VF Леонид Гайдай
+#EXTINF:-1 [OLD],VF Леонид Гайдай
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17004/index.m3u8
-#EXTINF:-1 tvg-id="yu",VF Луи де Фюнес
+#EXTINF:-1 tvg-id="yu" [OLD],VF Луи де Фюнес
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17000/index.m3u8
-#EXTINF:-1 tvg-id="yu",VF Музсоюз
+#EXTINF:-1 tvg-id="yu" [OLD],VF Музсоюз
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15521/index.m3u8
-#EXTINF:-1,VF Музыка
+#EXTINF:-1 [OLD],VF Музыка
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15512/index.m3u8
-#EXTINF:-1,VF Музыкальный Новый год!
+#EXTINF:-1 [OLD],VF Музыкальный Новый год!
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/16140/index.m3u8
-#EXTINF:-1,VF Мыльные оперы
+#EXTINF:-1 [OLD],VF Мыльные оперы
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13088/index.m3u8
-#EXTINF:-1,VF Наша Раша
+#EXTINF:-1 [OLD],VF Наша Раша
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17010/index.m3u8
-#EXTINF:-1,VF Одесская киностудия
+#EXTINF:-1 [OLD],VF Одесская киностудия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18120/index.m3u8
-#EXTINF:-1,VF Привет из 90х
+#EXTINF:-1 [OLD],VF Привет из 90х
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17011/index.m3u8
-#EXTINF:-1,VF Реальные пацаны
+#EXTINF:-1 [OLD],VF Реальные пацаны
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17015/index.m3u8
-#EXTINF:-1,VF Рижская киностудия
+#EXTINF:-1 [OLD],VF Рижская киностудия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18123/index.m3u8
-#EXTINF:-1,VF Русский рок
+#EXTINF:-1 [OLD],VF Русский рок
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17037/index.m3u8
-#EXTINF:-1,VF СашаТаня
+#EXTINF:-1 [OLD],VF СашаТаня
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17008/index.m3u8
-#EXTINF:-1 tvg-shift="2",VF Свердловская киностудия
+#EXTINF:-1 tvg-shift="2" [OLD],VF Свердловская киностудия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18124/index.m3u8
-#EXTINF:-1,VF Сверхъестественное
+#EXTINF:-1 [OLD],VF Сверхъестественное
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17003/index.m3u8
-#EXTINF:-1,VF Сериал
+#EXTINF:-1 [OLD],VF Сериал
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13087/index.m3u8
-#EXTINF:-1,VF След
+#EXTINF:-1 [OLD],VF След
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/13086/index.m3u8
-#EXTINF:-1,VF Универ новая общага
+#EXTINF:-1 [OLD],VF Универ новая общага
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17013/index.m3u8
-#EXTINF:-1,VF Хит-парад
+#EXTINF:-1 [OLD],VF Хит-парад
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17036/index.m3u8
-#EXTINF:-1,VF Ходячие мертвецы
+#EXTINF:-1 [OLD],VF Ходячие мертвецы
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17014/index.m3u8
-#EXTINF:-1,VF Шансон
+#EXTINF:-1 [OLD],VF Шансон
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15519/index.m3u8
-#EXTINF:-1,VF Эльдар Рязанов
+#EXTINF:-1 [OLD],VF Эльдар Рязанов
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17012/index.m3u8
-#EXTINF:-1,VF Cartoon 18+
+#EXTINF:-1 [OLD],VF Cartoon 18+
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11117/index.m3u8
-#EXTINF:-1,VF Comedy Woman
+#EXTINF:-1 [OLD],VF Comedy Woman
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18101/index.m3u8
-#EXTINF:-1,VF Disney Cartoon
+#EXTINF:-1 [OLD],VF Disney Cartoon
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15027/index.m3u8
-#EXTINF:-1,VF Авто
+#EXTINF:-1 [OLD],VF Авто
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15511/index.m3u8
-#EXTINF:-1,VF Баня
+#EXTINF:-1 [OLD],VF Баня
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18200/index.m3u8
-#EXTINF:-1,VF Граиндхаус
+#EXTINF:-1 [OLD],VF Граиндхаус
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14158/index.m3u8
-#EXTINF:-1,VF Ералаш
+#EXTINF:-1 [OLD],VF Ералаш
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14163/index.m3u8
-#EXTINF:-1,VF КВН
+#EXTINF:-1 [OLD],VF КВН
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14170/index.m3u8
-#EXTINF:-1,VF Кино 4K
+#EXTINF:-1 [OLD],VF Кино 4K
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11114/index.m3u8
-#EXTINF:-1,VF Концерты
+#EXTINF:-1 [OLD],VF Концерты
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14159/index.m3u8
-#EXTINF:-1,VF Кухня
+#EXTINF:-1 [OLD],VF Кухня
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/18199/index.m3u8
-#EXTINF:-1,VF Мультуб
+#EXTINF:-1 [OLD],VF Мультуб
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15520/index.m3u8
-#EXTINF:-1,VF Новогодние мультфильмы
+#EXTINF:-1 [OLD],VF Новогодние мультфильмы
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15523/index.m3u8
-#EXTINF:-1,VF Однажды в России
+#EXTINF:-1 [OLD],VF Однажды в России
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/19286/index.m3u8
-#EXTINF:-1,VF Охота
+#EXTINF:-1 [OLD],VF Охота
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15513/index.m3u8
-#EXTINF:-1,VF Путешествия
+#EXTINF:-1 [OLD],VF Путешествия
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/15515/index.m3u8
-#EXTINF:-1,VF Рыбалка
+#EXTINF:-1 [OLD],VF Рыбалка
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/16138/index.m3u8
-#EXTINF:-1,VF Сериал 4K
+#EXTINF:-1 [OLD],VF Сериал 4K
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/11115/index.m3u8
-#EXTINF:-1,VF Скуби-Ду
+#EXTINF:-1 [OLD],VF Скуби-Ду
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/17007/index.m3u8
-#EXTINF:-1 tvg-id="yu",VF Союзмультфильм
+#EXTINF:-1 tvg-id="yu" [OLD],VF Союзмультфильм
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/14238/index.m3u8
-#EXTINF:-1,VF Стройка
+#EXTINF:-1 [OLD],VF Стройка
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/16139/index.m3u8
-#EXTINF:-1 tvg-id="yu",VF Юмор 18+
+#EXTINF:-1 tvg-id="yu" [OLD],VF Юмор 18+
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/16137/index.m3u8
-#EXTINF:-1,UZ 6 Кадров HD
+#EXTINF:-1 [OLD],UZ 6 Кадров HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/14231/index.m3u8
-#EXTINF:-1,UZ Kino1 HD
+#EXTINF:-1 [OLD],UZ Kino1 HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13074/index.m3u8
-#EXTINF:-1,UZ Kino2 HD
+#EXTINF:-1 [OLD],UZ Kino2 HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13073/index.m3u8
-#EXTINF:-1,UZ Kino3 HD
+#EXTINF:-1 [OLD],UZ Kino3 HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13075/index.m3u8
-#EXTINF:-1,UZ Kino4 HD
+#EXTINF:-1 [OLD],UZ Kino4 HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13076/index.m3u8
-#EXTINF:-1,UZ Kino5 HD
+#EXTINF:-1 [OLD],UZ Kino5 HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/14232/index.m3u8
-#EXTINF:-1,UZ Klip New HD
+#EXTINF:-1 [OLD],UZ Klip New HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13067/index.m3u8
-#EXTINF:-1,UZ Swiridenko TV HD
+#EXTINF:-1 [OLD],UZ Swiridenko TV HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/18106/index.m3u8
-#EXTINF:-1,UZ Tom and Jerry HD
+#EXTINF:-1 [OLD],UZ Tom and Jerry HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/13078/index.m3u8
-#EXTINF:-1,UZ TV HD
+#EXTINF:-1 [OLD],UZ TV HD
 http://550a07aa.kazaktelekom.com/iptv/P7ZVA9T8FV8B7B/14220/index.m3u8
 #EXTINF:-1,BR Fernsehen Nord (720p)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0; de-DE) Gecko/20100101 Firefox/117.0
@@ -18925,7 +18929,7 @@ https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 [OLD],МТРК (576p) [Not 24/7]
 https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
-#EXTINF:-1,City TV (Bulgaria)
+#EXTINF:-1 [OLD],City TV (Bulgaria)
 https://tv.city.bg/play/tshls/citytv/3.m3u8
 #EXTINF:-1,Shant TV Premium (ilook.tv)
 http://31hmi9qv.megogo.xyz/iptv/A7ZADWAZMHRMEQ/2392/index.m3u8
@@ -19651,7 +19655,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Муз ТВ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Мосфильм Золотая коллекция
+#EXTINF:-1 [OLD],Мосфильм Золотая коллекция
 https://fs.uplink.kz/mosfilm/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 tvg-shift="0",Москва 24 (М24)
 https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
@@ -20703,7 +20707,7 @@ https://stream8.cinerama.uz/blocked/index.m3u8
 https://stream8.cinerama.uz/blocked/index.m3u8
 #EXTINF:-1,Afarin TV (720p) [Not 24/7]
 https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:-1,Alvin Channel TV
+#EXTINF:-1 [OLD],Alvin Channel TV
 https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
 #EXTINF:-1,Здоровое
 https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
@@ -20793,7 +20797,7 @@ http://91.207.115.228:5000/c147
 https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
 #EXTINF:-1 [OLD],KBC-Видак
 https://liveh12.vtvprime.vn/hls/KBS/03.m3u8
-#EXTINF:-1,MCM Top
+#EXTINF:-1 [OLD],MCM Top
 https://iptv.prosto.tv/ch137/tracks-v1a1/mono.m3u8?live=1&ip=104.28.156.59&id=921233&secret=9szoe89y&21yo=0&e=1783194291&st=-kALbkeUiNVyIGhNiqT7QA
 #EXTINF:-1,Muzzone
 https://s70378.cdn.ngenix.net/muzzone/2/index.m3u8
@@ -20993,7 +20997,7 @@ http://185.221.213.254:8080/Okko/index.m3u8
 http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/6972/index.m3u8
-#EXTINF:-1,Mixadance FM
+#EXTINF:-1 [OLD],Mixadance FM
 https://stream.mixadance.fm/mixadance128
 #EXTINF:-1 [OLD],Fan (2)
 http://185.78.112.47:8077/fan/index.m3u8
@@ -21075,8 +21079,8 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1,TV8 [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
-#EXTINF:-1 [OLD],Мосфильм Золотая коллекция (2)
-http://185.78.112.47:8077/mosfilm/index.m3u8
+#EXTINF:-1,Мосфильм Золотая коллекция (2)
+http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1,Кинокомедия (2)
 http://158.101.222.193:88/georgia_play.php?id=kinokomediya
 #EXTINF:-1,Киносерия (2)
@@ -21965,11 +21969,11 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1,Nash Kinomir (576p)
 http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
-#EXTINF:-1,Akudji
+#EXTINF:-1 [OLD],Akudji
 http://195.9.195.2/hls/5346.m3u8
-#EXTINF:-1,FILM TV
+#EXTINF:-1 [OLD],FILM TV
 https://hls.goodgame.ru/hls/163253.m3u8
-#EXTINF:-1,TDM TV - Techno Dance Music
+#EXTINF:-1 [OLD],TDM TV - Techno Dance Music
 https://hls.goodgame.ru/hls/180509.m3u8
 #EXTINF:-1,Russkiy roman (576p)
 https://vod.tuva.ru/rusroman/index.m3u8
@@ -22013,11 +22017,11 @@ https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
 http://178.124.179.122:8080/Belarus24/index.m3u8
 #EXTINF:-1,Silk Way (1080p)
 https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
-#EXTINF:-1,TDM TV - FMC
+#EXTINF:-1 [OLD],TDM TV - FMC
 https://hls.goodgame.ru/hls/187741.m3u8
-#EXTINF:-1,TDM TV - Series
+#EXTINF:-1 [OLD],TDM TV - Series
 https://hls.goodgame.ru/hls/186021.m3u8
-#EXTINF:-1,Sever TV Kino HD
+#EXTINF:-1 [OLD],Sever TV Kino HD
 https://hls.goodgame.ru/hls/146065.m3u8
 #EXTINF:-1,Boomerang
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/723/index.m3u8
@@ -22099,7 +22103,7 @@ http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 http://213.91.179.28:8000/play/a082
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Series",TVRUS+
 http://83.228.75.166:8000/play/a0aq
-#EXTINF:-1,TV1 KG
+#EXTINF:-1 [OLD],TV1 KG
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1 [OLD],Ретро (2)
 http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
@@ -22221,19 +22225,19 @@ http://138.186.23.7:8082/NICK/index.m3u8
 https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
 #EXTINF:-1 [OLD],Kvartal TV
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
-#EXTINF:-1,Red Bull TV HD
+#EXTINF:-1 [OLD],Red Bull TV HD
 http://dmi3y-tv.ru/hls/CH_REDBULLTVHD.m3u8
 #EXTINF:-1,Чижик HD
 http://dmi3y-tv.ru/hls/CH_CHIZHIKHD.m3u8
-#EXTINF:-1,Code Fashion TV HD
+#EXTINF:-1 [OLD],Code Fashion TV HD
 http://dmi3y-tv.ru/hls/CH_CODE_FTVHD.m3u8
-#EXTINF:-1,Leomax 24 HD
+#EXTINF:-1 [OLD],Leomax 24 HD
 http://dmi3y-tv.ru/hls/CH_LEOMAX24HD.m3u8
-#EXTINF:-1,Витрина ТВ
+#EXTINF:-1 [OLD],Витрина ТВ
 http://dmi3y-tv.ru/hls/CH_VITRINATV.m3u8
-#EXTINF:-1,ULTRA REX UHD
+#EXTINF:-1 [OLD],ULTRA REX UHD
 http://dmi3y-tv.ru/hls/zabava/CH_RUSSIANEXTREMEULTRAUHD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Ultra HD Cinema UHD
+#EXTINF:-1 [OLD],Ultra HD Cinema UHD
 http://dmi3y-tv.ru/hls/zabava/CH_ULTRAHDCINEMAUHD.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Кинокомедия (3)
 http://tinyurl.com/TvZaTak65?id=kinokomediya
@@ -22395,9 +22399,9 @@ http://94.230.129.31:8080/Rossia_24/index.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
 #EXTINF:-1,Nick Jr. (1080p)
 http://40.160.24.55/NICK_JR/index.m3u8
-#EXTINF:-1,Pixel TV (1080p)
+#EXTINF:-1 [OLD],Pixel TV (1080p)
 http://176.122.125.10:8080/pixel/index.m3u8
-#EXTINF:-1,PLUSPLUS (1080p)
+#EXTINF:-1 [OLD],PLUSPLUS (1080p)
 http://176.122.125.10:8080/plusplus/index.m3u8
 #EXTINF:-1 [OLD],Polsat JimJam (576p)
 https://adpnetworkhd-cmd.github.io/iptv/JimJamPolsat.m3u8
@@ -22407,7 +22411,7 @@ https://adpnetworkhd-cmd.github.io/iptv/NoviyKanal.m3u8
 https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Sports",Sport 1 Baltic
 http://ott.watch/XE5QWWBZ87/461/tracks-v2a1/mono.ts.m3u8?sid=c3f03b2b-bf32-49e2-8675-d1a321912ce8
-#EXTINF:-1,Europa TikTok Латвия
+#EXTINF:-1 [OLD],Europa TikTok Латвия
 https://stream.ehrhiti.lv:8000/Stream_38.aac
 #EXTINF:-1,Бокс (3)
 http://37.186.70.39:40/play/85/index.m3u8
@@ -22613,7 +22617,7 @@ http://ott.watch/stream/6HAPZWKKG3/421.m3u8
 https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_OTV/variant.m3u8
 #EXTINF:-1,Пёс и Ко
 http://188.113.190.15/55/tracks-v1a1/index.m3u8
-#EXTINF:-1,РТР Планета
+#EXTINF:-1 [OLD],РТР Планета
 https://player.smotrim.ru/iframe/stream/live_id/63251
 #EXTINF:-1 tvg-shift="4" [OLD],РТС (Абакан)
 https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
@@ -22627,7 +22631,7 @@ http://sitv.ru/hls/s861024.m3u8
 http://sitv.ru/hls/s86.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="News",Channel 9
 http://ott.watch/XE5QWWBZ87/20/tracks-v1a1/mono.ts.m3u8?sid=6a3725e1-2094-4453-9252-c089475ef330
-#EXTINF:-1,Viasat Kino Comedy (720p)
+#EXTINF:-1 [OLD],Viasat Kino Comedy (720p)
 http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
 #EXTINF:-1,Amedia Hit (2)
 http://tinyurl.com/TvZaTak65?id=amediahit
@@ -23465,7 +23469,7 @@ https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 https://live-3.otcnet.ru/Balapan/index.m3u8
 #EXTINF:-1,Cartoon Classics (576p)
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
-#EXTINF:-1,Cine+ Kids (1080p)
+#EXTINF:-1 [OLD],Cine+ Kids (1080p)
 http://176.122.125.10:8080/CinePlusKids/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel HD East (720p)
 http://40.160.24.52/Disney_Channel_HD/index.m3u8
@@ -23473,7 +23477,7 @@ http://40.160.24.52/Disney_Channel_HD/index.m3u8
 http://45.190.156.152/ZOOMOO/index.m3u8
 #EXTINF:-1,FunBox
 http://186.148.196.100:8000/play/a00d
-#EXTINF:-1,KinoKazka (1080p)
+#EXTINF:-1 [OLD],KinoKazka (1080p)
 http://176.122.125.10:8080/KinoKazka/index.m3u8
 #EXTINF:-1,Watch it KID! (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2245
@@ -23485,19 +23489,19 @@ https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/RADA.m3u8
 https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",RTVi (576p)
 https://shift03.isp.bg/RTVi/index.m3u8
-#EXTINF:-1,GO TV
+#EXTINF:-1 [OLD],GO TV
 http://593aed234297b.streamlock.net/gotvsjoerd/gotvsjoerd/playlist.m3u8
-#EXTINF:-1 tvg-id="yu",Юмор ФМ
+#EXTINF:-1 tvg-id="yu" [OLD],Юмор ФМ
 https://pub0201.101.ru/stream/air/aac/64/102
-#EXTINF:-1,Comedy Radio
+#EXTINF:-1 [OLD],Comedy Radio
 https://pub0201.101.ru/stream/air/aac/64/202
-#EXTINF:-1,Energy FM
+#EXTINF:-1 [OLD],Energy FM
 https://pub0202.101.ru:8443/stream/air/aac/64/99
-#EXTINF:-1,Радио Romantica
+#EXTINF:-1 [OLD],Радио Romantica
 https://pub0202.101.ru:8443/stream/air/aac/64/101
-#EXTINF:-1,Детское Радио
+#EXTINF:-1 [OLD],Детское Радио
 https://pub0201.101.ru/stream/air/aac/64/199
-#EXTINF:-1,Радио Relax FM
+#EXTINF:-1 [OLD],Радио Relax FM
 https://pub0202.101.ru:8443/stream/air/aac/64/200
 #EXTINF:-1,RTR Planeta Europe [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
@@ -23511,15 +23515,15 @@ https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=51
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
 #EXTINF:-1,Cartoon Channel PH (720p) [Geo-blocked]
 https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
-#EXTINF:-1 [OLD],Disney Junior (720p)
-http://40.160.24.52/Disney_JR/index.m3u8
+#EXTINF:-1,Disney Junior (720p)
+http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1,Disney XD West (480p)
 http://tvsen5.aynascope.net/disneyxd/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Animation;Kids",NickToons Brasil (480p)
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
-#EXTINF:-1,Channel 7 Kazakhstan (1080p) [Geo-blocked]
+#EXTINF:-1 [OLD],Channel 7 Kazakhstan (1080p) [Geo-blocked]
 https://adpnetworkhd-cmd.github.io/iptv/7_kanal_Kazakhstan.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Inter+ HD (1080p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Inter+ HD (1080p)
 http://176.122.125.10:8080/interplus/index.m3u8
 #EXTINF:-1,Kongress TV (1080p)
 https://stitch.teletarget.ru/api/v1/hls/504/158/index.m3u8
@@ -23605,7 +23609,7 @@ https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
 #EXTINF:-1,Disney Channel West (720p)
 http://206.212.244.63/3146/index.m3u8
-#EXTINF:-1,Disney Junior (1080p)
+#EXTINF:-1 [OLD],Disney Junior (1080p)
 http://190.14.10.19:16000/play/a02d/index.m3u8
 #EXTINF:-1,Nickelodeon West (720p)
 http://108.181.20.255:27347/livehttpplay?channel_id=23019
@@ -23631,7 +23635,7 @@ http://stream.mcquack.net/235/index.m3u8
 http://stream.mcquack.net/390/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Sports",Sport 1 Baltic (1080p)
 http://stream.mcquack.net/461/index.m3u8
-#EXTINF:-1,Мосфильм Золотая коллекция (3)
+#EXTINF:-1 [OLD],Мосфильм Золотая коллекция (3)
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1,Мультфильмы
 https://lbgo.bozztv.com/07/ushba80/tracks-v1a1/mono.m3u8
@@ -23665,6 +23669,52 @@ http://stream.mcquack.net/412/index.m3u8
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #EXTINF:-1,Красная линия (2)
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",KinoKazka (1080p)
+http://stream.mcquack.net/167/index.m3u8
+#EXTINF:-1,Pixel TV (720p)
+https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Kids",Zoom (576p)
+http://stream.mcquack.net/377/index.m3u8
+#EXTINF:-1,Channel 7 Kazakhstan (576p)
+http://stream.mcquack.net/27/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Movies",Dorama HD (1080p)
+http://stream.mcquack.net/412/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Education",Fauna (576p)
+http://stream.mcquack.net/401/index.m3u8
+#EXTINF:-1,FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
+https://s70378.cdn.ngenix.net/filmbox/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Kentron TV (1080p)
+http://stream.mcquack.net/39/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Movies",Kino 1 (1080p)
+http://stream.mcquack.net/395/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Law TV (1080p)
+http://stream.mcquack.net/406/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Science",Nauka (576p)
+http://stream.mcquack.net/403/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Undefined",Terra (576p)
+http://stream.mcquack.net/402/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Outdoor",Trofei (1080p)
+http://stream.mcquack.net/357/index.m3u8
+#EXTINF:-1,Vostok TV
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/1054/index.m3u8
+#EXTINF:-1,Shop & Show
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/827/index.m3u8
+#EXTINF:-1,Первый Вегетарианский
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/833/index.m3u8
+#EXTINF:-1,MTV Live HD
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/221/index.m3u8
+#EXTINF:-1,ATR
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/952/index.m3u8
+#EXTINF:-1,Azad TV
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/2200/index.m3u8
+#EXTINF:-1,Киносезон
+http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
+#EXTINF:-1,Ратник
+http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2119/index.m3u8
+#EXTINF:-1 tvg-id="che" tvg-shift="0",Архыз 24 HD (Карачаево-Черкесия)
+https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
+#EXTINF:-1 tvg-shift="0",Культ Мудиа (Астрахань)
+http://213.108.175.226/telplushd/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
