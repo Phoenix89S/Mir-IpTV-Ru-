@@ -5361,6 +5361,8 @@ https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
 http://158.101.222.193:88/georgia_play.php?id=kinoseria
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия (3)
 http://176.118.197.101/Kinoseria/mono.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_roman.png", Русский роман (2)
+http://vod.tuva.ru/rusroman/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery
 http://5.188.159.128:8070/DiscoveryChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery (2)
@@ -5425,12 +5427,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #EXTINF:-1 group-title="Информационные", РБК
 http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
-#EXTINF:-1 group-title="Информационные", РБК (2)
-http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #EXTINF:-1 group-title="Информационные", Планета РТР (Planeta RTR)
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
-#EXTINF:-1 group-title="Информационные", Беларусь 24
-https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 group-title="Информационные", Дума ТВ
 https://dumatv.iptv2022.com/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Информационные", CNN
@@ -5462,7 +5460,7 @@ http://37.186.70.39:40/play/97/index.m3u8
 #EXTINF:-1 group-title="Детские", Мама
 https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Ducktv
-http://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
 http://dmi3y-tv.online/hls/CH_NICKELODEON.m3u8
 #EXTINF:-1 group-title="Детские", Чип и Дейл
@@ -5715,6 +5713,26 @@ https://kinowalk.hopto.org/ordinary_people_live
 https://kinowalk.hopto.org/kinofon_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", KinoMix
 https://kinowalk.hopto.org/yurich_kinomix_live
+#EXTINF:-1 group-title="Кинозалы Catcast", Кино 1 International
+https://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 group-title="Кинозалы Catcast", Детское кино
+https://kino-1.catcast.tv/content/40427/index.m3u8
+#EXTINF:-1 group-title="Кинозалы Catcast", Андийцы
+https://v2.catcast.tv/content/34114/index.m3u8
+#EXTINF:-1 group-title="Кинозалы Catcast", TVBoom
+https://kb.catcast.tv/content/49702/index.m3u8
+#EXTINF:-1 group-title="Кинозалы Catcast", WWE
+https://s.catcast.tv/content/42608/index.m3u8?token=62999a1226a79bd81913690e61e96925
+#EXTINF:-1 group-title="Кинозалы Catcast", Страх
+https://s.catcast.tv/content/34816/index.m3u8?token=777c49256c8dec1d10fe434b5e315319
+#EXTINF:-1 group-title="Кинозалы Catcast", МультСказки
+https://s.catcast.tv/content/38850/index.m3u8?token=6db8031e089a7f737fa5d59c91c34f33
+#EXTINF:-1 group-title="Кинозалы Catcast", Фантастика
+https://s.catcast.tv/content/39533/index.m3u8?token=d4837f8aa1820c9d8e567edb9eb1b398
+#EXTINF:-1 group-title="Кинозалы Catcast", Все ТВ
+https://s.catcast.tv/content/43064/index.m3u8?token=8458ac70c9dca585e434dacbaae2fc47
+#EXTINF:-1 group-title="Кинозалы Catcast", SeleCao
+https://s2.catcast.tv/content/42698/index.m3u8?token=7842d21896ec1babd78807b981e7bdec
 #EXTINF:-1 group-title="Кинозалы", Шоу Бенни Хилла
 https://lbgo.bozztv.com/07/ushba62/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кинозалы", Мистер Бин
@@ -6007,8 +6025,6 @@ https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/va
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_KUBAN24-T/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Кузбасс Первый (Кемеровская область)
 https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Лен ТВ 24 (Ленинградская область)
-http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Липецкое время 24 (Липецкая область)
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", МЭТР (Марий Эл)
