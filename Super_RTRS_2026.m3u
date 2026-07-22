@@ -5111,6 +5111,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],Солнце FD
 http://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
+#EXTINF:-1,Солнце (2)
+https://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 
 # ===== Кнопка 24 =====
 #EXTINF:-1,2х2 (450p) [Geo-blocked]
@@ -20090,7 +20092,7 @@ https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Кузбасс Первый (Кемеровская область)
 https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Лен ТВ 24 (Ленинградская область)
-http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Липецкое время 24 (Липецкая область)
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8
 #EXTINF:-1,МЭТР (Марий Эл)
@@ -21088,7 +21090,7 @@ http://158.101.222.193:88/georgia_play.php?id=kinoseria
 #EXTINF:-1,Киносерия (3)
 http://176.118.197.101/Kinoseria/mono.m3u8
 #EXTINF:-1,Ducktv
-http://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],О! (2)
 http://185.78.112.47:8077/o_/index.m3u8
 #EXTINF:-1 [OLD],Viju+ Serial (2)
@@ -21140,7 +21142,7 @@ http://185.78.112.47:8077/rtdoc_hd/index.m3u8
 #EXTINF:-1,360 (2)
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #EXTINF:-1,360 Новости (2)
-http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/tracks-v3a1/mono.m3u8
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
 #EXTINF:-1,360 Новости (3)
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
 #EXTINF:-1,Аква
@@ -22179,7 +22181,7 @@ http://de.russkoe-iptv.com:88/s/s-e3dc39e0/drive-hd.m3u8
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/tip-top-hd.m3u8
 #EXTINF:-1,Chizhik (1080p)
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/chizik-hd.m3u8
-#EXTINF:-1,Disney Junior MENA (576p)
+#EXTINF:-1 [OLD],Disney Junior MENA (576p)
 http://116.90.120.157:8000/play/a0qo/index.m3u8
 #EXTINF:-1,God Stands Kids Club TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8
@@ -23061,7 +23063,7 @@ https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1,Fox Sports 1
 https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Kids",Disney Channel
+#EXTINF:-1 [OLD],like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Kids",Disney Channel
 http://82.78.243.219:45739/play/a00y/index.m3u8
 #EXTINF:-1,Hit FM
 https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
@@ -23666,7 +23668,7 @@ http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1,Dorama HD (1080p)
 http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1,РБК (2)
-http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1,Красная линия (2)
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",KinoKazka (1080p)
@@ -23781,6 +23783,62 @@ https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/varian
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8
 #EXTINF:-1 tvg-shift="3",Томское время (2) | Томская область
 https://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (576p)
+https://aes.m3u8simplu.workers.dev/disneychannel/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Junior (576p)
+https://aes.m3u8simplu.workers.dev/disneyjunior/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",JimJam (576p)
+https://aes.m3u8simplu.workers.dev/jimjam/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (576p)
+https://aes.m3u8simplu.workers.dev/nickjr/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (576p)
+https://aes.m3u8simplu.workers.dev/nickelodeon/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (576p)
+https://aes.m3u8simplu.workers.dev/nicktoons/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",Kino 2 (1080p)
+http://stream.mcquack.net/465/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",Nashe Lubimoe Kino Ukraine (1080p)
+http://stream.mcquack.net/456/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="General",Prima TV Moldova (1080p)
+https://aes.m3u8simplu.workers.dev/primatvmd/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",Quiz TV (1080p)
+http://stream.mcquack.net/397/index.m3u8
+#EXTINF:-1,Русский роман (2)
+http://vod.tuva.ru/rusroman/index.m3u8
+#EXTINF:-1,Мультиландия (3)
+http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
+#EXTINF:-1,Детское кино
+https://kino-1.catcast.tv/content/40427/index.m3u8
+#EXTINF:-1,КиноАзия
+https://cityeden.catcast.tv/content/34393/index.m3u8
+#EXTINF:-1,КиноКлассика
+https://cityeden.catcast.tv/content/34185/index.m3u8
+#EXTINF:-1,КиноМистика
+https://cityeden.catcast.tv/content/40783/index.m3u8
+#EXTINF:-1,КиноЭкшен
+https://cityeden.catcast.tv/content/41333/index.m3u8
+#EXTINF:-1,АвтоГид
+https://cityeden.catcast.tv/content/47515/index.m3u8
+#EXTINF:-1,КиноАрт
+https://cityeden.catcast.tv/content/38398/index.m3u8
+#EXTINF:-1,КиноДетектив
+https://cityeden.catcast.tv/content/41327/index.m3u8
+#EXTINF:-1,КиноДрама
+https://cityeden.catcast.tv/content/45269/index.m3u8
+#EXTINF:-1,КиноКомедия
+https://cityeden.catcast.tv/content/41331/index.m3u8
+#EXTINF:-1,МедЗдрав
+https://cityeden.catcast.tv/content/47519/index.m3u8
+#EXTINF:-1,Сити Эдем
+https://cityeden.catcast.tv/content/34246/index.m3u8
+#EXTINF:-1,Андийцы
+https://v2.catcast.tv/content/34114/index.m3u8
+#EXTINF:-1,ТелеНовелла
+https://cityeden.catcast.tv/content/46209/index.m3u8
+#EXTINF:-1,TVBoom
+https://kb.catcast.tv/content/49702/index.m3u8
+#EXTINF:-1,Все ТВ
+https://s.catcast.tv/content/43064/index.m3u8?token=8458ac70c9dca585e434dacbaae2fc47
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
