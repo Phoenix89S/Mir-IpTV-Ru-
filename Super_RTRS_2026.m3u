@@ -5977,7 +5977,7 @@ https://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1,Архыз 24 (1080p)
 https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
-#EXTINF:-1,БелРос (576p)
+#EXTINF:-1 [OLD],БелРос (576p)
 https://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1,БСТ (Башкирское спутниковое телевидение) (576p)
 https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
@@ -16515,7 +16515,7 @@ https://cdn-6.pishow.tv/live/1243/master.m3u8
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1,Clan Internacional Americas (1080p) [Geo-blocked]
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
-#EXTINF:-1,Clan TVE (1080p) [Geo-blocked]
+#EXTINF:-1 [OLD],Clan TVE (1080p) [Geo-blocked]
 https://ztnr.rtve.es/ztnr/5466990.m3u8
 #EXTINF:-1,ČT:D/ČT art (1080p)
 http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
@@ -16589,7 +16589,7 @@ https://jmp2.uk/plu-60fb01a24795a6000762fe83.m3u8
 https://jmp2.uk/plu-51c75f7bb6f26ba1cd00002f.m3u8
 #EXTINF:-1,Logos TV Kids (720p) [Not 24/7]
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
-#EXTINF:-1,M2 Petofi (720 p)
+#EXTINF:-1 [OLD],M2 Petofi (720 p)
 http://46.149.191.217:9005/play/a016
 #EXTINF:-1,M-Net Kids (720p)
 http://ares.mnet.mk/hls/mnet-kids.m3u8
@@ -16616,14 +16616,14 @@ https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1,NCM Educational & Kids Channel
 https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1,Nickelodeon (1080p)
-http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1,Nickelodeon Asia Indonesia (720p)
 http://103.137.83.62:9090/play/28/index.m3u8
 #EXTINF:-1,Nickelodeon Clássico (720p)
 https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 #EXTINF:-1,Nickelodeon en español
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
-#EXTINF:-1,Nickelodeon Global (576p)
+#EXTINF:-1 [OLD],Nickelodeon Global (576p)
 http://46.149.191.217:9011/play/a018
 #EXTINF:-1,Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
@@ -16803,13 +16803,13 @@ https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 #EXTINF:-1,АБАЗА-ТВ (1080p)
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
-#EXTINF:-1,Беларусь 2 (1080p)
+#EXTINF:-1 [OLD],Беларусь 2 (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
-#EXTINF:-1,Беларусь 5 (1080p) [Not 24/7]
+#EXTINF:-1 [OLD],Беларусь 5 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1,Беларусь 5 Интернет (1080p) [Not 24/7]
 https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
-#EXTINF:-1,Беларусь 24 (1080p)
+#EXTINF:-1 [OLD],Беларусь 24 (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Время (720p)
 https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
@@ -16829,7 +16829,7 @@ http://rtmp.one.by:1300
 http://rtmp.one.by:2300
 #EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Победа 720p (576p)
 https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
-#EXTINF:-1,СТБ (720p)
+#EXTINF:-1 [OLD],СТБ (720p)
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Телекафе (720p)
 https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
@@ -18927,7 +18927,7 @@ http://158.101.222.193:88/georgia_play.php?id=viasatexp
 http://185.57.68.33/232/mpegts
 #EXTINF:-1,TRT Çocuk (720p)
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1,Беларусь 3 (1080p) [Not 24/7]
+#EXTINF:-1 [OLD],Беларусь 3 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 [OLD],МТРК (576p) [Not 24/7]
 https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
@@ -19704,7 +19704,7 @@ https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1,MMA (2)
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1,Твоё ТВ
-http://tvoetv.space:8080/tvoetv/video.m3u8
+http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 [OLD],Калейдоскоп
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:-1,КВН
@@ -19941,7 +19941,7 @@ https://live20.bozztv.com/giatvplayout7/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
 https://live20.bozztv.com/giatvplayout7/ushba64/index.m3u8
 #EXTINF:-1 [OLD],Кинозалы 37
 https://live20.bozztv.com/giatvplayout7/ushba65/index.m3u8
-#EXTINF:-1,Техно 24 (Т24)
+#EXTINF:-1 [OLD],Техно 24 (Т24)
 http://158.101.222.193:88/georgia_play.php?id=24techno
 #EXTINF:-1,BRICS
 http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
@@ -20049,7 +20049,7 @@ https://streaming.astrakhan.ru/telplushd/playlist.m3u8
 https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],БСТ (Башкортостан)
 http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
-#EXTINF:-1 tvg-shift="0",Брянская Губерния (Брянск)
+#EXTINF:-1 tvg-shift="0" [OLD],Брянская Губерния (Брянск)
 https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
 #EXTINF:-1 tvg-shift="5",Буряад (Бурятия)
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R02_BURYAAD/variant.m3u8
@@ -21913,7 +21913,7 @@ http://162.19.246.113/Cinemania/index.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/DisneyChannelDeutschland.m3u8
 #EXTINF:-1,NickOnline (360p)
 https://x1colegal.com/hls/stream.m3u8
-#EXTINF:-1,Jibek Joly (1080p)
+#EXTINF:-1 [OLD],Jibek Joly (1080p)
 https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
 #EXTINF:-1,Mir (576p)
 http://94.230.129.31:8080/MIR/index.m3u8
@@ -22015,8 +22015,8 @@ https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8
 http://86.87.15.10:8003/play/a01x/index.m3u8
 #EXTINF:-1,Belarus-4 Vitebsk (1080p)
 https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
-#EXTINF:-1 [OLD],Belarus-24 HD (1080p)
-http://178.124.179.122:8080/Belarus24/index.m3u8
+#EXTINF:-1,Belarus-24 HD (1080p)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1,Silk Way (1080p)
 https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
 #EXTINF:-1 [OLD],TDM TV - FMC
@@ -23467,7 +23467,7 @@ https://stream.smotrim.ru/hls2/static/playlist_4.m3u8
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 #EXTINF:-1,Radio Rossii (720p)
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
-#EXTINF:-1,Balapan (1080p)
+#EXTINF:-1 [OLD],Balapan (1080p)
 https://live-3.otcnet.ru/Balapan/index.m3u8
 #EXTINF:-1,Cartoon Classics (576p)
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
@@ -23750,7 +23750,7 @@ http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-shift="2",БСТ (2) | Башкортостан
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Белгород 24 (2)
-https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/variant.m3u8
+http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
 #EXTINF:-1 tvg-shift="0",ВОТ | Липецк
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0",ВОТ (2) | Липецк
@@ -23839,6 +23839,66 @@ https://cityeden.catcast.tv/content/46209/index.m3u8
 https://kb.catcast.tv/content/49702/index.m3u8
 #EXTINF:-1,Все ТВ
 https://s.catcast.tv/content/43064/index.m3u8?token=8458ac70c9dca585e434dacbaae2fc47
+#EXTINF:-1,Balapan HD (1080p)
+https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+#EXTINF:-1,Balapan International (1080p)
+https://live-3.otcnet.ru/Balapan/index.m3u8
+#EXTINF:-1,Clan (1080p)
+http://185.47.212.25:8080/Clan_HD/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel
+http://88.212.15.19/live/disney_channel_hun/index.m3u8
+#EXTINF:-1,SBT Kids (1080p) [Geo-blocked]
+https://8994803e454548319ffc0775bc04e0c1.mediatailor.us-east-1.amazonaws.com/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-TVZyn/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Armenia TV Satellite (576p)
+http://stream.mcquack.net/175/index.m3u8
+#EXTINF:-1,Belarus-24 (576p)
+http://ott-7.sevstar.net/belarus24/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",FILMBOX+ Festival Russia
+http://zpkcjms4.zyntras.top/iptv/BL5QFD5266596A/31807/index.m3u8
+#EXTINF:-1,Jibek Joly HD (1080p)
+https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
+#EXTINF:-1,KTK (576p)
+http://stream.mcquack.net/26/index.m3u8
+#EXTINF:-1,STV HD (720p)
+https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+#EXTINF:-1,360 (3)
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
+#EXTINF:-1,Толк (2)
+https://live-tolknews.cdnvideo.ru/tolknews/stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Техно 24 (2)
+https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
+#EXTINF:-1,BRICS (2)
+http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Живая Планета (2)
+https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Моя планета (2)
+https://stream8.cinerama.uz/1247/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Наука (2)
+https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Беларусь 4
+http://46.56.85.151:8080/0.m3u8
+#EXTINF:-1 tvg-shift="3",12 канал | Омск
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
+#EXTINF:-1 tvg-shift="3",12 канал (2) | Омск
+http://12channel.bonus-tv.ru/cdn/12channel/playlist_sdhigh.m3u8
+#EXTINF:-1 tvg-shift="0",TV Губерния (3) | Воронеж
+https://s68149.cdn.ngenix.net/s68149-media-origin/lvs/tvgub/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-shift="0",Астрахань 24 (2)
+https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Арис 24 | Башкортостан
+http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
+#EXTINF:-1 tvg-shift="2",Арис 24 (2) | Башкортостан
+https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=92J55630qJZPz9iiIJZpVw&e=2076071194&scheme=https
+#EXTINF:-1 tvg-shift="0",Белгород 24 (3)
+https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Брянская Губерния | Брянск
+https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
+#EXTINF:-1 tvg-shift="0",Брянская Губерния (2) | Брянск
+https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
+#EXTINF:-1 tvg-shift="0",450 (Губерния) | Самара
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8
+#EXTINF:-1,Алмазный край (2)
+https://stream.almaz-media.tv:8080/hls/720.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
