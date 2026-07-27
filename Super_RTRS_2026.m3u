@@ -23973,7 +23973,7 @@ http://stream.mcquack.net/213/index.m3u8
 http://stream.mcquack.net/221/index.m3u8
 #EXTINF:-1,Kinopokaz (576p)
 http://stream.mcquack.net/64/index.m3u8
-#EXTINF:-1,TV 21 (576p)
+#EXTINF:-1 [OLD],TV 21 (576p)
 http://stream.mcquack.net/152/index.m3u8
 #EXTINF:-1,Ostrosyuzhetnoye HD (1080p)
 http://stream.mcquack.net/214/index.m3u8
@@ -24127,6 +24127,12 @@ https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u
 http://s45177.cdn.ngenix.net/hls/CH_R02_SALYAM/variant.m3u8
 #EXTINF:-1 tvg-shift="2",Салям (2) | Башкортостан
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
+#EXTINF:-1,TV 21 International (576p)
+http://stream.mcquack.net/152/index.m3u8
+#EXTINF:-1,Belarus-1 HD (1080p)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
+#EXTINF:-1,Про жизнь (2) | Кемеровская область
+https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
