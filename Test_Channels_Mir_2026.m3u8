@@ -3807,6 +3807,8 @@ http://dmi3y-tv.online/hls/DVB-T2/CH_1TV.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_24.png", Россия 24 HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/spas.png", Спас (2)
+https://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/pyatnica.png", Пятница
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (2)
@@ -4163,6 +4165,8 @@ https://stream8.cinerama.uz/1249/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные", World Fashion
 http://live-3.otcnet.ru/wfcrus/index.m3u8
+#EXTINF:-1 group-title="Развлекательные", Luxury
+https://s1.tv-nano.com/Luxury_rec/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Развлекательные", Gametoon
 http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/5049/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Толк
@@ -4534,7 +4538,7 @@ https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Кухня (2)
 http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Познавательные", Зоо ТВ
-http://31.148.48.15/Zoo_TV/tracks-v1a1/mono.m3u8?token=default
+http://31.148.48.15/Zoo_TV/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Da Vinci
 http://158.101.222.193:88/georgia_play.php?id=davinci
 #EXTINF:-1 group-title="Познавательные", Неизвестная Планета
@@ -4575,8 +4579,10 @@ http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 https://bv.mediacdn.ru/cdn/blagvest/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Первый информационный (Беларусь)
 https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
-#EXTINF:-1 group-title="Региональные", Мир Белогорья (Белгородская область)
+#EXTINF:-1 group-title="Региональные", Мир Белогорья | Белгородская область
 https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Мир Белогорья (2) | Белгородская область
+https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 #EXTINF:-1 group-title="Региональные", Первый Республиканский (ДНР)
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
 #EXTINF:-1 group-title="Региональные", 10 канал (Новокузнецк)
@@ -4752,7 +4758,7 @@ https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
 #EXTINF:-1 group-title="Региональные", ОТВ | Екатеринбург
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 4 канал (Свердловская область)
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
+https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Вектор (Свердловская область)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VEKTOR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Мы и город (Свердловская область)
