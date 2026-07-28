@@ -2985,6 +2985,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8|User-Agent=Mozilla
 http://iptv46.mcx-ix.ru:8077/spas/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / Internet42 LLC",Спас
 http://net42.rafail1982.uz/Spas/index.m3u8
+#EXTINF:-1,Спас (2)
+https://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 
 # ===== Кнопка 13 =====
 #EXTINF:-1 tvg-id="sts",СТС HD
@@ -4453,7 +4455,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8|User-Agent=Mozilla/
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/214/index.m3u8
 #EXTINF:-1 tvg-id="mir",Мир (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="mir" tvg-shift="0",Мир Белогорья (Белгородская область)
+#EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Мир Белогорья (Белгородская область)
 https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
 #EXTINF:-1 tvg-id="mir" [OLD],Русский мир
 https://a5.radioheart.ru:9043/RH4272
@@ -4481,6 +4483,10 @@ http://node1.craftradio.ru:8003/201_EFA53E54
 https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
 #EXTINF:-1 tvg-id="mir",Мир (3)
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="mir" tvg-shift="0",Мир Белогорья | Белгородская область
+https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
+#EXTINF:-1 tvg-id="mir" tvg-shift="0",Мир Белогорья (2) | Белгородская область
+https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
 # ===== Кнопка 19 =====
 #EXTINF:-1 tvg-id="tnt" [OLD],ТНТ +4
@@ -20029,9 +20035,9 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/varian
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],TV Губерния (Воронеж)
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",TVоя (Тюмень)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],TVоя (Тюмень)
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",Югра Тревел (Сургут)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Югра Тревел (Сургут)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="6",АСТВ (Южно-Сахалинск)
 http://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8
@@ -20119,7 +20125,7 @@ http://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8
 https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",11 канал Экспресс (Пенза)
 https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",Наши города (ХМАО-Югра)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Наши города (ХМАО-Югра)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Ника (Калужская область)
 https://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
@@ -20130,7 +20136,7 @@ https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],ОТВ (Свердловская область)
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
 #EXTINF:-1 tvg-shift="2",4 канал (Свердловская область)
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
+https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
 #EXTINF:-1 tvg-shift="2",Вектор (Свердловская область)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VEKTOR/variant.m3u8
 #EXTINF:-1 tvg-shift="2",Мы и город (Свердловская область)
@@ -20193,7 +20199,7 @@ https://lifecam.sigma-ktv.ru/ctv/mono.ts.m3u8
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Sochi Live (Сочи)
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",Сургут 24 (ХМАО-Югра)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Сургут 24 (ХМАО-Югра)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
 #EXTINF:-1 tvg-shift="0",ТВ-21+ (Мурманск)
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
@@ -20217,11 +20223,11 @@ http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3
 http://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Тверской проспект (Тверь)
 http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_TVERPROSP/variant.m3u8
-#EXTINF:-1 tvg-shift="2",С86 (Сургут)
+#EXTINF:-1 tvg-shift="2" [OLD],С86 (Сургут)
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TELEKANAL86/variant.m3u8
 #EXTINF:-1 tvg-shift="5",Тивиком (Бурятия)
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_TIVICOM/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",Тобольское время (Тюменская область)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Тобольское время (Тюменская область)
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Тольятти 24 (Самарская область)
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
@@ -20261,7 +20267,7 @@ https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="0",ЮТВ (Чувашия)
 https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="2",Югра (ХМАО-Югра)
+#EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Югра (ХМАО-Югра)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="0",Юрган (Коми)
 https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
@@ -22014,7 +22020,7 @@ http://s8.rafail1982.uz/1433/tracks-v1a1/mono.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / CINERAMA",AlJazeera
 https://stream8.cinerama.uz/1433/tracks-v1a1/mono.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Disney Channel
-http://86.87.15.10:8004/play/a02g/index.m3u8
+http://213.91.179.28:8000/play/a059
 #EXTINF:-1 [OLD],TeenNick (1080p)
 http://91.146.94.234:10001/play/a08o
 #EXTINF:-1,Unique TV (576p)
@@ -22177,7 +22183,7 @@ https://stream.smotrim.ru/hls2/planeta_rtr_asia/playlist_4.m3u8
 https://stream.smotrim.ru/hls2/planeta_rtr_usa/playlist_4.m3u8
 #EXTINF:-1 [OLD],Karapuz TV (720p)
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-#EXTINF:-1,O! (1080p)
+#EXTINF:-1 [OLD],O! (1080p)
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kanal-o-hd.m3u8
 #EXTINF:-1,Multilandia (1080p)
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/multimania-hd.m3u8
@@ -22281,9 +22287,9 @@ https://mumt02.tangotv.in/DDSPORTS/index.m3u8
 http://185.102.171.218/BabyTV/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel EMEA (576p)
 http://185.102.171.218/DisneyChannel/index.m3u8
-#EXTINF:-1,Gloob (1080p)
+#EXTINF:-1 [OLD],Gloob (1080p)
 http://143.14.178.40:7777/Gloob_HD/index.m3u8
-#EXTINF:-1,Gloobinho (1080p)
+#EXTINF:-1 [OLD],Gloobinho (1080p)
 http://143.14.178.40:7777/Gloobinho_HD/index.m3u8
 #EXTINF:-1 [OLD],Hop! (576p)
 http://bethoven.af-stream.com:1600/s/kwtlxswl/hop-childhood-il/video.m3u8
@@ -23405,8 +23411,8 @@ http://177.234.249.178:8888/DISNEY-JR/index.m3u8
 https://dash3.antik.sk/live/duck_tv/index.m3u8
 #EXTINF:-1,ducktv PLUS
 https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
-#EXTINF:-1 [OLD],DumDum (720p)
-http://45.162.231.38:7779/ZooMoo/index.m3u8
+#EXTINF:-1,DumDum (720p)
+http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
 #EXTINF:-1,Fox Life
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/553/index.m3u8
 #EXTINF:-1,Skoraya pomoshch (1080p)
@@ -23483,7 +23489,7 @@ http://5.188.159.128:8070/Cartoon_Network/index.m3u8
 http://176.122.125.10:8080/CinePlusKids/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel HD East (720p)
 http://40.160.24.52/Disney_Channel_HD/index.m3u8
-#EXTINF:-1,DumDum (1080p)
+#EXTINF:-1 [OLD],DumDum (1080p)
 http://45.190.156.152/ZOOMOO/index.m3u8
 #EXTINF:-1,FunBox
 http://186.148.196.100:8000/play/a00d
@@ -23791,17 +23797,17 @@ https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/varian
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8
 #EXTINF:-1 tvg-shift="3",Томское время (2) | Томская область
 https://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (576p)
 https://aes.m3u8simplu.workers.dev/disneychannel/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Junior (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Junior (576p)
 https://aes.m3u8simplu.workers.dev/disneyjunior/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",JimJam (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",JimJam (576p)
 https://aes.m3u8simplu.workers.dev/jimjam/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (576p)
 https://aes.m3u8simplu.workers.dev/nickjr/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (576p)
 https://aes.m3u8simplu.workers.dev/nickelodeon/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (576p)
 https://aes.m3u8simplu.workers.dev/nicktoons/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",Kino 2 (1080p)
 http://stream.mcquack.net/465/index.m3u8
@@ -24031,7 +24037,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
 #EXTINF:-1,Hop! (1080p)
 http://stream.mcquack.net/44/index.m3u8
-#EXTINF:-1,Nick Jr. West (720p)
+#EXTINF:-1 [OLD],Nick Jr. West (720p)
 https://sra72yz.s.gy/NICK_JR_WEST_US
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",PLUSPLUS (1080p)
 http://stream.mcquack.net/339/index.m3u8
@@ -24074,7 +24080,7 @@ https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="8",Колыма Плюс (2) | Магаданская область
 https://tw2ywfm7jbp.a.trbcdn.net/livemaster/7phjk_live-papd7z4v92.smil/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Краснодар | Краснодарский край
-https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/tracks-v1a1/mono.m3u8
+https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Краснодар (2) | Краснодарский край
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Кубань 24 | Краснодарский край
@@ -24133,6 +24139,52 @@ http://stream.mcquack.net/152/index.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
 #EXTINF:-1,Про жизнь (2) | Кемеровская область
 https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
+#EXTINF:-1,VIVA Russia (720p)
+https://river-6-601.rtbcdn.ru/stream/genetta-410.ntv.rutube.ru/it_KlgcrpetPAAs-Pfyogw/1785516951/f712ae5ff3db23ec09b3674133d44daa/720p_stream.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Dhamaal (576p)
+https://cdn-1.pishow.tv/live/1291/master.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Dhamaka Movies B4U (576p)
+https://cdn-1.pishow.tv/live/235/master.m3u8
+#EXTINF:-1,Gloobinho (720p)
+http://177.52.24.163/GLOOBINHO-HD/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Kolyokklub
+http://88.212.15.19/live/kolyokklub_atk/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr.
+http://88.212.15.19/live/nick_junior_hun/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon
+http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nicktoons
+http://88.212.15.19/live/nicktoons_hungary/index.m3u8
+#EXTINF:-1,Окко Спорт
+http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-shift="0",ТКР | Рязань
+https://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8
+#EXTINF:-1 tvg-shift="0",ТКР (2) | Рязань
+http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
+#EXTINF:-1 tvg-shift="2",С1 | Сургут
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Сургут 24 | Сургут
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
+#EXTINF:-1 tvg-shift="2",С86 | Сургут
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TELEKANAL86/variant.m3u8
+#EXTINF:-1 tvg-shift="2",С86 (2) | Сургут
+https://sitv.ru/hls/s86.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Югра Тревел | Сургут
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Югра | ХМАО-Югра
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Югра (2) | ХМАО-Югра
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Наши города | ХМАО-Югра
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Тюменское время | Тюмень
+https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Тюменское время (2) | Тюмень
+https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/playlist.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Тобольское время | Тюмень
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",TVоя | Тюмень
+http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
