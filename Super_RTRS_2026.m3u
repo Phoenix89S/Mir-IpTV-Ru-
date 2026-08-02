@@ -21867,7 +21867,7 @@ https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
 https://s34351.cdn.ngenix.net/hls/CH_R03_TOOKY/variant.m3u8
 #EXTINF:-1 [OLD],УНИКУМ
 http://iptv46.mcx-ix.ru:8077/detskiy/index.m3u8
-#EXTINF:-1 [OLD],Чаваш Ен
+#EXTINF:-1,Чаваш Ен
 https://mhd122.iptv2022.com/ntrk/chavashen/324/1/tracks-v3a1/mono.m3u8
 #EXTINF:-1 [OLD],Polsat JimJam (576p) [Not 24/7]
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7298/index.m3u8
