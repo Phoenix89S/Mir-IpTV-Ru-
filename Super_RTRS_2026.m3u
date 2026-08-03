@@ -16805,7 +16805,7 @@ https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
 https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8
 #EXTINF:-1,TBN Baltia (1080p)
 http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
-#EXTINF:-1,TMB TV
+#EXTINF:-1 [OLD],TMB TV
 https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8
 #EXTINF:-1,Türkmenistan (406p) [Not 24/7]
 https://alpha.tv.online.tm/hls/ch007.m3u8
@@ -18943,7 +18943,7 @@ http://158.101.222.193:88/georgia_play.php?id=viasathist
 http://158.101.222.193:88/georgia_play.php?id=viasatexp
 #EXTINF:-1,Релакс
 http://185.57.68.33/232/mpegts
-#EXTINF:-1,TRT Çocuk (720p)
+#EXTINF:-1 [OLD],TRT Çocuk (720p)
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 [OLD],Беларусь 3 (1080p) [Not 24/7]
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
@@ -20838,7 +20838,7 @@ https://0werof7ib0p.a.trbcdn.net/livemaster/6r10qa9k6d_trknadym.sdp/playlist.m3u
 #EXTINF:-1 [OLD],Viju+ Planet
 http://62.89.17.130:4451/play/a00a/index.m3u8
 #EXTINF:-1,Viju+ Serial HD
-http://91.221.252.12:82/tv67
+https://stream2.somon.tv/vipserial/index.m3u8
 #EXTINF:-1,Диалоги о Рыбалке
 http://flussonic.mkpnet.ru/tv-695a246cce5fb820/video.m3u8
 #EXTINF:-1,Дикая Охота HD
@@ -22115,7 +22115,7 @@ http://213.91.179.28:8000/play/a056
 http://40.160.24.55/NICKTOONS/index.m3u8
 #EXTINF:-1 [OLD],Belarus-4 Gomel (720p)
 http://46.56.85.151:8080/0.m3u8
-#EXTINF:-1,Love Nature HD (720p)
+#EXTINF:-1 [OLD],Love Nature HD (720p)
 http://185.246.209.113/LOVENATUREHD/index.m3u8
 #EXTINF:-1,TV1 KG (1080p)
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
@@ -24285,6 +24285,10 @@ https://tvcdn01.oktv.kz/tv/mtrk/index.m3u8
 https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
 #EXTINF:-1,JTV | Казахстан
 https://stream8.cinerama.uz/1488/index.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rupasi Bangla (720p)
+https://cdn-4.pishow.tv/live/1039/master.m3u8
+#EXTINF:-1,FREEDOM (1080p)
+https://dash4.antik.sk/live/test_uatv/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
