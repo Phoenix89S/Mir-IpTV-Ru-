@@ -22289,7 +22289,7 @@ https://trs1.aynaott.com/discoverykids/index.m3u8
 https://mumt02.tangotv.in/DDSPORTS/index.m3u8
 #EXTINF:-1,BabyTV Netherlands (576p)
 http://185.102.171.218/BabyTV/index.m3u8
-#EXTINF:-1 [OLD],Disney Channel EMEA (576p)
+#EXTINF:-1,Disney Channel EMEA (576p)
 http://185.102.171.218/DisneyChannel/index.m3u8
 #EXTINF:-1 [OLD],Gloob (1080p)
 http://143.14.178.40:7777/Gloob_HD/index.m3u8
@@ -23163,8 +23163,8 @@ http://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
 https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/146.0.0.0 Safari/537.36" group-title="Kids",Chikitoonz (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Chikitoonz/playlist.m3u8
-#EXTINF:-1 [OLD],Disney Jr. Latin America (576p)
-http://45.189.62.33:8002/play/a0bz/index.m3u8
+#EXTINF:-1,Disney Jr. Latin America (576p)
+http://190.93.224.42/DISNEY-JR/index.m3u8
 #EXTINF:-1,Nickelodeon CIS
 https://stream8.cinerama.uz/1500/playlist.m3u8
 #EXTINF:-1,Once Ninas y Ninos (576p)
@@ -24289,6 +24289,14 @@ https://stream8.cinerama.uz/1488/index.m3u8
 https://cdn-4.pishow.tv/live/1039/master.m3u8
 #EXTINF:-1,FREEDOM (1080p)
 https://dash4.antik.sk/live/test_uatv/playlist.m3u8
+#EXTINF:-1,Dhoom Music SD
+http://cdn-1.pishow.tv/live/1456/master.m3u8
+#EXTINF:-1,Giggle Mug (576p)
+https://tvsen6.aynaott.com/ytv/index.m3u8
+#EXTINF:-1,Green Gold TV
+https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/4.m3u8
+#EXTINF:-1,We Sport TV
+http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
