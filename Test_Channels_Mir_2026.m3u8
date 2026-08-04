@@ -3856,7 +3856,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/zvezda.png", Звезда (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/zvezda.png", Звезда Плюс
-http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/mono.ts.m3u8
+https://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (+4)
@@ -3931,12 +3931,18 @@ http://5.188.159.128:8070/DiscoveryChannel/tracks-v1a1/mono.m3u8
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery (3)
 https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/2x2.png", 2x2 (2)
+http://176.118.197.101/2x2/index.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/2x2.png", 2x2 (3)
+http://31.148.48.15/2x2/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/solnce.png", Солнце
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mult.png", Мульт
-https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1246/index.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mult.png", Мульт (2)
+http://31.148.48.15/Mult/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ani.png", Ani
-http://31.148.48.15/Ani/index.m3u8
+http://31148.rafail1982.uz/Ani/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/you.png", Ю
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/you.png", Ю (2)
@@ -4009,6 +4015,10 @@ https://dumatv.iptv2022.com/tracks-v4a1/mono.m3u8
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
 #EXTINF:-1 group-title="Информационные", RT News
 http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
+#EXTINF:-1 group-title="Информационные", RTД
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="Информационные", RTД (2)
+https://cdn-01.bonus-tv.ru/rtdoc/index.m3u8
 #EXTINF:-1 group-title="Информационные", 360 (2)
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #EXTINF:-1 group-title="Информационные", 360 (3)
@@ -4111,6 +4121,8 @@ http://31.148.48.15/M1_Global/index.m3u8
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/144/index.m3u8
 #EXTINF:-1 group-title="Спортивные", KHL Prime
 https://fs.uplink.kz/khl_prime/tracks-v1a1/mono.ts.m3u8?token=onlinetv
+#EXTINF:-1 group-title="Спортивные", Мото Драйв
+https://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Продвижение (2)
 https://prodvizhenie.mediacdn.ru/cdn/prodvizhenie/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные", Театр
@@ -4139,6 +4151,8 @@ http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 https://s1.tv-nano.com/Luxury_rec/video.m3u8
 #EXTINF:-1 group-title="Развлекательные", Gametoon
 http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/5049/index.m3u8
+#EXTINF:-1 group-title="Развлекательные", 7 TV
+https://v4.proofix.ru/7tv-live/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Толк
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные", Толк (2)
@@ -4204,7 +4218,7 @@ http://158.101.222.193:88/georgia_play.php?id=kinosemya
 #EXTINF:-1 group-title="Кино и сериалы", Киносезон
 https://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", КиноМеню
-http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
+https://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Родное кино (2)
 http://31.148.48.15/Rodnoe_kino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ
@@ -4247,6 +4261,8 @@ https://cdn-dvr.ntv.ru/Skoraja_pomosh/tracks-v1a1/rewind-240.ts.m3u8
 https://cdn-dvr.ntv.ru/Super/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Беларусь 3
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_sleng.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", TV12
+http://185.221.213.254:8080/Mafia2/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Kinowalk
 https://kinowalk.hopto.org/kinowalk_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Legion
@@ -4469,10 +4485,14 @@ https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Здоровое
 https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Познавательные", Просвещение
+https://cdn-01.bonus-tv.ru/prosveschenie_edge/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Усадьба
 https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Кто есть кто
 http://158.101.222.193:88/georgia_play.php?id=ktoestkto
+#EXTINF:-1 group-title="Познавательные", Кто есть кто (2)
+http://31.148.48.15/Kto_est_kto/index.m3u8
 #EXTINF:-1 group-title="Познавательные", СТВ (CTV.BY)
 https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 group-title="Познавательные", Точка.РФ
@@ -4492,7 +4512,7 @@ https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Неизвестная Россия
 http://cdn2.ntv.ru/unknown_russia/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая Планета
-http://31.148.48.15:80/Zhivaya_Planeta/index.m3u8
+http://31148.rafail1982.uz/Zhivaya_Planeta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая Планета (2)
 https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая природа
@@ -4524,13 +4544,17 @@ https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
 https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней
-http://158.101.222.193:88/georgia_play.php?id=365day
+http://31.148.48.15/365_dney/index.m3u8
+#EXTINF:-1 group-title="Познавательные", 365 дней (2)
+https://stream8.cinerama.uz/1242/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кухня
-https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1236/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кухня (2)
 http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Познавательные", Кухня (3)
+http://31.148.48.15/Kuhnya_TV/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Зоо ТВ
-http://31.148.48.15/Zoo_TV/index.m3u8
+http://31148.rafail1982.uz/Zoo_TV/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Точка Отрыва
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Da Vinci
@@ -4542,11 +4566,13 @@ http://158.101.222.193:88/georgia_play.php?id=oruzhie
 #EXTINF:-1 group-title="Познавательные", Nano (Нано)
 http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 group-title="Познавательные", Живи!
-https://stream8.cinerama.uz/1419/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1419/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Живи! (2)
+http://31.148.48.15/Zhivi/index.m3u8
 #EXTINF:-1 group-title="Познавательные", RTG
 http://31.148.48.15/RTG/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Наука (2)
-https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1248/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Вопросы и ответы
 https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Домашние Животные
@@ -4573,6 +4599,8 @@ http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 https://bv.mediacdn.ru/cdn/blagvest/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Благая Весть
 http://bv.mediacdn.ru/cdn/blagvest/playlist.m3u8
+#EXTINF:-1 group-title="Региональные", Amga
+https://streamer1.connectto.com/AMGA_WEB_1202/index.m3u8
 #EXTINF:-1 group-title="Региональные", Беларусь 1
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Витебск
@@ -4585,10 +4613,16 @@ https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 #EXTINF:-1 group-title="Региональные", Первый Республиканский (ДНР)
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
-#EXTINF:-1 group-title="Региональные", 10 канал (Новокузнецк)
-http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8
+#EXTINF:-1 group-title="Региональные", 10 канал | Новокузнецк
+https://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8
+#EXTINF:-1 group-title="Региональные", 10 канал (2) | Новокузнецк
+http://rmhkuzbass.ru:8082/10kanal/10kanal_720/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", 12 канал | Омск
 https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
+#EXTINF:-1 group-title="Региональные", 12 канал (2) | Омск
+https://12channel.bonus-tv.ru/cdn/omskchannel/playlist.m3u8
+#EXTINF:-1 group-title="Региональные", 12 канал (3) | Омск
+https://gtrkomsk-live.cdnvideo.ru/gtrkomsk/gtrkomsk.smil/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", 12 канал (Череповец)
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 41 Регион (Камчатка)
@@ -4639,9 +4673,13 @@ https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 https://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Архыз 24 Light (Карачаево-Черкесия)
 http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ24LITE/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Астрахань 24 (2)
+#EXTINF:-1 group-title="Региональные", Astrakhan.RU | Астрахань
+https://streaming.astrakhan.ru/astrakhanrulivehd/index.m3u8
+#EXTINF:-1 group-title="Региональные", Астрахань 24 | Астрахань
+https://streaming.astrakhan.ru/astrakhan24/index.m3u8
+#EXTINF:-1 group-title="Региональные", Астрахань 24 (2) | Астрахань
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Культ Мудиа (Астрахань)
+#EXTINF:-1 group-title="Региональные", Культ Мудиа | Астрахань
 http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:-1 group-title="Региональные", Барс (Иваново)
 https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
@@ -4747,8 +4785,10 @@ https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIG_TV_URAL_YNF/variant
 https://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8
 #EXTINF:-1 group-title="Региональные", НТС (Иркутск)
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8
-#EXTINF:-1 group-title="Региональные", 11 канал Экспресс (Пенза)
+#EXTINF:-1 group-title="Региональные", 11 канал | Пенза
 https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8
+#EXTINF:-1 group-title="Региональные", 11 канал (2) | Пенза
+http://85.234.33.64/stream/c11.m3u8
 #EXTINF:-1 group-title="Региональные", Ника (Калужская область)
 https://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Новгородское областное телевидение (Новгородская область)
