@@ -5437,6 +5437,8 @@ http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
 https://streaming.televizor-24-tochka.ru/live/43.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/dom_kino.png", Дом Кино (2)
 https://streaming.televizor-24-tochka.ru/live/44.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/dom_premium.png", Дом Кино Премиум
+http://31148.rafail1982.uz/Dom_Kino_Premium_HD/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinokomedia.png", Кинокомедия
 https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinokomedia.png", Кинокомедия (2)
@@ -5553,8 +5555,8 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 #EXTINF:-1 group-title="Информационные", ОСН
 https://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
-#EXTINF:-1 group-title="Информационные", Дума ТВ
-https://dumatv.iptv2022.com/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Информационные", Дума
+https://dumatv.iptv2022.com/index.m3u8
 #EXTINF:-1 group-title="Информационные", CNN
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
 #EXTINF:-1 group-title="Информационные", RT News
@@ -5571,6 +5573,10 @@ https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m
 https://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", CGTN Русский
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
+#EXTINF:-1 group-title="Информационные", CGTN Русский (2)
+https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 group-title="Информационные", CGTN Русский (3)
+https://stream8.cinerama.uz/1456/index.m3u8
 #EXTINF:-1 group-title="Информационные", DW
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 group-title="Информационные", Россия РТР
@@ -5767,6 +5773,8 @@ http://37.186.70.39:40/play/74/index.m3u8
 http://158.101.222.193:88/georgia_play.php?id=eurokino
 #EXTINF:-1 group-title="Кино и сериалы", Еврокино (3)
 http://tinyurl.com/TvZaTak65?id=eurokino
+#EXTINF:-1 group-title="Кино и сериалы", Еврокино (4)
+http://31148.rafail1982.uz/Evrokino/index.m3u8
 #EXTINF:-0 group-title="Кино и сериалы", Следствие вели...
 https://cdn-dvr.ntv.ru/sledstvie/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-0 group-title="Кино и сериалы", Пёс
@@ -5779,6 +5787,8 @@ https://cdn-dvr.ntv.ru/Super/tracks-v1a1/rewind-240.ts.m3u8
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", TV12
 http://185.221.213.254:8080/Mafia2/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Dunyo bo'ylab
+https://stream8.cinerama.uz/1006/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Kinowalk
 https://kinowalk.hopto.org/kinowalk_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Legion
@@ -6025,6 +6035,8 @@ http://31148.rafail1982.uz/Zoo_TV/index.m3u8
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Da Vinci
 http://158.101.222.193:88/georgia_play.php?id=davinci
+#EXTINF:-1 group-title="Познавательные", Da Vinci (2)
+https://stream8.cinerama.uz/1231/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Оружие
