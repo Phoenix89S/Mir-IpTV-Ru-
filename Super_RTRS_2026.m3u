@@ -5145,6 +5145,8 @@ https://rutvkids.ru/live/efir/index.m3u8
 https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:-1,RU.TV SD (576p)
 http://stream.mcquack.net/109/index.m3u8
+#EXTINF:-1,RU.TV (2)
+https://stream8.cinerama.uz/1202/index.m3u8
 
 # ===== Кнопка 26 =====
 #EXTINF:-1 [OLD],TV1000 action
@@ -16151,8 +16153,8 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
 http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/14001/index.m3u8
 #EXTINF:-1 [OLD],Nautical Channel
 https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
-#EXTINF:-1 [OLD],NHK World
-http://cdn-cf.vthanhtivi.pw/fptplay/nhk-world-hd/bitrate_5000.m3u8
+#EXTINF:-1,NHK World
+https://stream8.cinerama.uz/1449/index.m3u8
 #EXTINF:-1 [OLD],Niki Junior
 https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:-1 [OLD],NR1 Türk [TR]
@@ -16512,7 +16514,7 @@ https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
 #EXTINF:-1,Banijay Mr Bean Animé (1080p)
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
 #EXTINF:-1,BeJoy.kids (1080p)
-https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8
+https://stream.paroledivita.org/bejoy.m3u8
 #EXTINF:-1,Biznet Kids (1080p)
 http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 #EXTINF:-1,Bolajon (576p)
@@ -16634,7 +16636,7 @@ https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1,NCM Educational & Kids Channel
 https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1,Nickelodeon (1080p)
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+http://176.61.157.250/Nickelodeon/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon Asia Indonesia (720p)
 http://103.137.83.62:9090/play/28/index.m3u8
 #EXTINF:-1,Nickelodeon Clássico (720p)
@@ -23685,7 +23687,7 @@ http://stream.mcquack.net/420/index.m3u8
 http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1,Dorama HD (1080p)
 http://stream.mcquack.net/412/index.m3u8
-#EXTINF:-1,РБК (2)
+#EXTINF:-1 [OLD],РБК (2)
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1,Красная линия (2)
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
@@ -24371,6 +24373,8 @@ https://stream8.cinerama.uz/1456/index.m3u8
 http://31148.rafail1982.uz/Evrokino/index.m3u8
 #EXTINF:-1,Kulinar
 https://api.alpaca.t62a.com/hls/9110/index.m3u8
+#EXTINF:-1,RTД (3)
+https://streaming.thestream.cyou/live/554.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
