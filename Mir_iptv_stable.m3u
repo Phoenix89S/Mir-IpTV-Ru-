@@ -708,8 +708,6 @@ https://rt-srb.rttv.com/live/rtbalkan/playlist.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD",RT en Espanol (1080p)
 http://15.204.246.24:8080/RTHD/index.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD",RT en Espanol (1080p)
-http://177.234.249.135:8888/RT/index.m3u8
-#EXTINF:-1 tvg-id="RTenEspanol.ru@SD",RT en Espanol (1080p)
 http://179.60.51.134:8888/RT/index.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD",RT en Espanol (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/rt/playlist.m3u8
@@ -985,8 +983,6 @@ https://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8
 http://hls127.freeott.top:8080/Zhara/video.m3u8
 #EXTINF:-1 tvg-id="Zhara.ru@SD",Zhara (576p)
 http://stream.mcquack.net/386/index.m3u8
-#EXTINF:-1 tvg-id="ZharaKidsTV.ru@SD",Zhara Kids TV (576p)
-https://trs1.aynaott.com/discoverykids/index.m3u8
 #EXTINF:-1 tvg-id="Zhivayapriroda.ru@SD",Zhivaya priroda (1080p)
 http://stream.mcquack.net/83/index.m3u8
 #EXTINF:-1 tvg-id="Zhivayapriroda.ru@HD",Zhivaya priroda HD (1080p)
@@ -4001,6 +3997,8 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 https://d3knqoaufvjug3.cloudfront.net/yas.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="Kids",ZB Cartoon (1080p)
 https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="ZharaKidsTV.ru@SD" tvg-logo="https://i.imgur.com/OkPqFNY.png" group-title="Kids;Music",Zhara Kids TV (576p)
+https://trs1.aynaott.com/discoverykids/index.m3u8
 #EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",Zoo Moo (Australia) (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Zoom.il@SD" tvg-logo="https://i.imgur.com/KnBzNtA.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Kids",Zoom (576p)
