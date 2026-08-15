@@ -5379,6 +5379,8 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
 #EXTINF:-1 group-title="Информационные", Известия
 https://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
+#EXTINF:-1 group-title="Информационные", Вместе РФ (2)
+https://cdn-01.bonus-tv.ru/vmesterf/index.m3u8
 #EXTINF:-1 group-title="Информационные", CGTN Русский
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 #EXTINF:-1 group-title="Информационные", CGTN Русский (2)
@@ -5432,7 +5434,7 @@ https://stream8.cinerama.uz/1033/index.m3u8
 #EXTINF:-1 group-title="Детские", Уникум (2)
 http://31148.rafail1982.uz/Detskiy/index.m3u8
 #EXTINF:-1 group-title="Детские", В гостях у сказки
-https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1270/index.m3u8
 #EXTINF:-1 group-title="Детские", Tiji
 https://stream8.cinerama.uz/1441/index.m3u8
 #EXTINF:-1 group-title="Детские", Gulli Girl
@@ -5844,7 +5846,7 @@ https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Первый космический
 https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
-https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1404/index.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней (2)
 https://stream8.cinerama.uz/1242/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кухня
@@ -5872,7 +5874,7 @@ https://stream8.cinerama.uz/1419/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Наука (2)
 https://stream8.cinerama.uz/1248/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Вопросы и ответы
-https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1429/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Домашние Животные
 https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", The explorers
@@ -5993,12 +5995,18 @@ https://streaming.astrakhan.ru/astrakhan24/index.m3u8
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Культ Мудиа | Астрахань
 http://213.108.175.226/telplushd/index.m3u8
+#EXTINF:-1 group-title="Региональные", БСТ 24 | Братск
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
+#EXTINF:-1 group-title="Региональные", БСТ 24 (2) | Братск
+https://bst.bratsk.ru/hls/bst2/index.m3u8
 #EXTINF:-1 group-title="Региональные", Барс (Иваново)
 https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Башкортостан 24
 https://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Арис 24 (2) | Башкортостан
 https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=92J55630qJZPz9iiIJZpVw&e=2076071194&scheme=https
+#EXTINF:-1 group-title="Региональные", БСТ | Башкортостан
+https://bsttv.bonus-tv.ru/cdn/bst/index.m3u8
 #EXTINF:-1 group-title="Региональные", БСТ (2) | Башкортостан
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Белгород 24 (3)
@@ -6011,14 +6019,14 @@ http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R02_BURYAAD/variant.m3u8
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Ветта 24 (2) | Пермь
 https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Волга (Нижний Новгород)
+#EXTINF:-1 group-title="Региональные", Волга | Нижний Новгород
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_VOLGA/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Волга 24 (Нижний новгород)
+#EXTINF:-1 group-title="Региональные", Волга 24 | Нижний Новгород
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Нижний новгород 24
+#EXTINF:-1 group-title="Региональные", Волга 24 (2) | Нижний Новгород
+http://live-nntv2.cdnvideo.ru/nntv2/vremyan/playlist.m3u8
+#EXTINF:-1 group-title="Региональные", Нижний новгород 24 | Нижний Новгород
 https://live-vestinn.cdnvideo.ru/vestinn/nn24/playlist.m3u8
-#EXTINF:-1 group-title="Региональные", Нижний новгород 24 (2)
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/nigniynovgorod/nigniynovgorod24-hd/index.m3u8
 #EXTINF:-1 group-title="Региональные", Волгоград 1 | Волгоградская область
 https://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_VGRAD_VOLGOGRAD1/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Волгоград 24 (2) | Волгоградская область
@@ -6147,10 +6155,12 @@ http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8
 https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Первый Псковский | Псковская область
 https://live-3.otcnet.ru/pskov/index.m3u8
-#EXTINF:-1 group-title="Региональные", ЯПервый | Ярославская облась
+#EXTINF:-1 group-title="Региональные", ЯПервый | Ярославская область
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Городской телеканал | Ярославская облась
+#EXTINF:-1 group-title="Региональные", Городской телеканал | Ярославская область
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Городской телеканал (2) | Ярославская область
+https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 group-title="Региональные", Первый городской (Киров)
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Первый городской (Омск)
@@ -6249,8 +6259,10 @@ https://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.
 https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Тобольское время | Тюмень
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Моя Удмуртия (Ижевск)
+#EXTINF:-1 group-title="Региональные", Моя Удмуртия | Удмуртская Республика
 http://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Жизнь Глазова | Удмуртская Республика
+https://yellow.garant.tv/glazov24/stream.m3u8
 #EXTINF:-1 group-title="Региональные", Репортер 73 (Ульяновск)
 https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1 group-title="Региональные", ДимГрад 24 (Ульяновск)
@@ -6307,6 +6319,8 @@ https://stream8.cinerama.uz/1488/index.m3u8
 https://stream8.cinerama.uz/1408/index.m3u8
 #EXTINF:-1 group-title="Региональные", GLN 24 (Геленджик)
 http://serv25.vintera.tv:8081/gelendzhik/stream_1/playlist.m3u8
+#EXTINF:-1 group-title="Региональные", Грозный
+https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
 #EXTINF:-1 group-title="Региональные", Эхо 24 (Новоуральск)
 http://stream.novouralsk-news.ru/echotv24/live.m3u8
 #EXTINF:-1 group-title="Региональные", Инфо 24 (Шадринск)
