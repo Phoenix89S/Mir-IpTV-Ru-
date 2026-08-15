@@ -5507,6 +5507,8 @@ https://v4.proofix.ru/7tv-live/index.m3u8
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные", Толк (2)
 https://live-tolknews.cdnvideo.ru/tolknews/stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Развлекательные", TVM Channel
+https://cdn-01.bonus-tv.ru/tvm_edge/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", .black (2)
 http://dmi3y-tv.online/hls/CH_TOCHKA_BLACK.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", .Red
@@ -5819,6 +5821,8 @@ http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Приключения
 https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Познавательные", Неизвестная Россия
+https://cdn.ntv.ru/unknown_russia/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая Планета
 http://31148.rafail1982.uz/Zhivaya_Planeta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая Планета (2)
