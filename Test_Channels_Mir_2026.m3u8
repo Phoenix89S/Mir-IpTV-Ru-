@@ -51,67 +51,73 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/220/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/222/index.m3u8
 #EXTINF:0,3.0.26 Матч! Игра HD
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/225/index.m3u8
-#EXTINF:-1 group-title="Спортивные",3.0.27 Матч! Арена
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/match.png",3.0.27 Матч! (2)
+http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
+#EXTINF:-1 group-title="Спортивные",3.0.28 Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Спортивные",3.0.28 Матч! Страна
+#EXTINF:-1 group-title="Спортивные",3.0.29 Матч! Страна
 http://gr.seetv.cc/play/134/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="Спортивные",3.0.29 Матч! Планета
+#EXTINF:-1 group-title="Спортивные",3.0.30 Матч! Планета
 http://158.101.222.193:88/georgia_play.php?id=matchplaneta
-#EXTINF:-1 group-title="Спортивные",3.0.30 Матч! Боец
+#EXTINF:-1 group-title="Спортивные",3.0.31 Матч! Планета (2)
+https://stream8.cinerama.uz/1243/index.m3u8
+#EXTINF:-1 group-title="Спортивные",3.0.32 Матч! Футбол 3
+http://185.57.68.33/110/index.m3u8
+#EXTINF:-1 group-title="Спортивные",3.0.33 Матч! Боец
 http://31.148.48.15/Match_Boec/index.m3u8
-#EXTINF:-1 group-title="Спортивные",3.0.31 Матч! Игра
+#EXTINF:-1 group-title="Спортивные",3.0.34 Матч! Игра
 http://31.148.48.15/Match_Igra/index.m3u8
-#EXTINF:0 group-title="Спорт",3.0.32 Матч Премьер
+#EXTINF:0 group-title="Спорт",3.0.35 Матч Премьер
 http://s05.wsbof.com/nash-futbol/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.33 Матч Премьер HD
+#EXTINF:0 group-title="Спорт",3.0.36 Матч Премьер HD
 http://s05.wsbof.com/match-premier-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.34 МАТЧ! Футбол 1
+#EXTINF:0 group-title="Спорт",3.0.37 МАТЧ! Футбол 1
 http://s05.wsbof.com/match-futbol-1/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.35 МАТЧ! Футбол 1 HD
+#EXTINF:0 group-title="Спорт",3.0.38 МАТЧ! Футбол 1 HD
 http://s05.wsbof.com/match-futbol-1-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.36 МАТЧ! Футбол 2
+#EXTINF:0 group-title="Спорт",3.0.39 МАТЧ! Футбол 2
 http://s05.wsbof.com/match-futbol-2/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.37 МАТЧ! Футбол 2 HD
+#EXTINF:0 group-title="Спорт",3.0.40 МАТЧ! Футбол 2 HD
 http://s05.wsbof.com/match-futbol-2-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.38 МАТЧ! Футбол 3
+#EXTINF:0 group-title="Спорт",3.0.41 МАТЧ! Футбол 3
 http://s05.wsbof.com/match-futbol-3/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.39 МАТЧ! Футбол 3 HD
+#EXTINF:0 group-title="Спорт",3.0.42 МАТЧ! Футбол 3 HD
 http://s05.wsbof.com/match-futbol-3-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.40 Матч ТВ
+#EXTINF:0 group-title="Спорт",3.0.43 Матч ТВ
 http://s05.wsbof.com/match/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.41 Матч ТВ HD
+#EXTINF:0 group-title="Спорт",3.0.44 Матч ТВ HD
 http://s05.wsbof.com/match-tv-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.42 Матч! Игра
+#EXTINF:0 group-title="Спорт",3.0.45 Матч! Игра
 http://s05.wsbof.com/match-igra/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.43 Матч! Игра HD
+#EXTINF:0 group-title="Спорт",3.0.46 Матч! Игра HD
 http://s05.wsbof.com/match-igra-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.44 Матч! Арена
+#EXTINF:0 group-title="Спорт",3.0.47 Матч! Арена
 http://s05.wsbof.com/match-arena/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.45 Матч! Арена HD
+#EXTINF:0 group-title="Спорт",3.0.48 Матч! Арена HD
 http://s05.wsbof.com/match-arena-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.46 Матч! Страна
+#EXTINF:0 group-title="Спорт",3.0.49 Матч! Страна
 http://s05.wsbof.com/match-nash-sport/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.47 Матч! Страна HD
+#EXTINF:0 group-title="Спорт",3.0.50 Матч! Страна HD
 http://s05.wsbof.com/match-strana-hd/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.48 Матч! Планета
+#EXTINF:0 group-title="Спорт",3.0.51 Матч! Планета
 http://s05.wsbof.com/match-planeta/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.49 МАТЧ! Боец
+#EXTINF:0 group-title="Спорт",3.0.52 МАТЧ! Боец
 http://s05.wsbof.com/match-boec/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Спорт",3.0.50 Матч! Боец HD
+#EXTINF:0 group-title="Спорт",3.0.53 Матч! Боец HD
 http://s05.wsbof.com/match-boec-hd/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +2ч",3.0.51 Матч ТВ (+2)
+#EXTINF:0 group-title="Россия +2ч",3.0.54 Матч ТВ (+2)
 http://s05.wsbof.com/match-plus-2/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +4ч",3.0.52 Матч ТВ (+4)
+#EXTINF:0 group-title="Россия +4ч",3.0.55 Матч ТВ (+4)
 http://s05.wsbof.com/match-plus-4/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +7ч",3.0.53 Матч ТВ (+7)
+#EXTINF:0 group-title="Россия +7ч",3.0.56 Матч ТВ (+7)
 http://s05.wsbof.com/match-plus-7/mpegts?token=a0ac444f
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2042.png" group-title="Спортивные",3.0.54 Матч! СТРАНА
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2042.png" group-title="Спортивные",3.0.57 Матч! СТРАНА
 http://bl.uma.media/live/291663/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",3.0.55 Матч! ФУТБОЛ 1 HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",3.0.58 Матч! ФУТБОЛ 1 HD
 http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2003.png" group-title="Спортивные",3.0.56 Матч! АРЕНА HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2003.png" group-title="Спортивные",3.0.59 Матч! АРЕНА HD
 http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2043.png" group-title="Спортивные",3.0.57 Матч! ПЛАНЕТА
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2043.png" group-title="Спортивные",3.0.60 Матч! ПЛАНЕТА
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Общие",4.1.1 НТВ
 http://cdn.ntv.ru/ntv0/tracks-v3a1/mono.m3u8
@@ -3613,12 +3619,16 @@ https://serv30.vintera.tv/restream/1_old/playlist.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_24.png", Россия 24 HD
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/karusel.png", Карусель (2)
+https://stream8.cinerama.uz/1034/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (3)
 https://stream8.cinerama.uz/1025/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/spas.png", Спас (2)
 https://bonusspas.mediacdn.ru/cdn/spas/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/pyatnica.png", Пятница
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/zvezda.png", Звезда (2)
+https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (2)
 https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (3)
@@ -3786,11 +3796,11 @@ http://158.101.222.193:88/georgia_play.php?id=viasathist
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_nature.png", Viju Nature
 https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия
-https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1235/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия (2)
 http://158.101.222.193:88/georgia_play.php?id=kinoseria
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия (3)
-http://176.118.197.101/Kinoseria/mono.m3u8
+http://176.118.197.101/Kinoseria/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_roman.png", Русский роман
 http://31148.rafail1982.uz/Russkiy_Roman/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_roman.png", Русский роман (2)
@@ -3932,7 +3942,7 @@ https://lbgo.bozztv.com/07/ushba80/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", СТС Kids
 http://37.186.70.39:40/play/97/index.m3u8
 #EXTINF:-1 group-title="Детские", Мама
-https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1244/index.m3u8
 #EXTINF:-1 group-title="Детские", Ducktv
 https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
@@ -3974,7 +3984,7 @@ https://stream8.cinerama.uz/1441/index.m3u8
 #EXTINF:-1 group-title="Детские", Gulli Girl
 https://stream8.cinerama.uz/1445/index.m3u8
 #EXTINF:-1 group-title="Детские", Капитан Фантастика
-https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1406/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Окко Спорт
 http://185.221.213.254:8080/Okko/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Бокс
@@ -4005,8 +4015,10 @@ https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Extreme Sports
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/144/index.m3u8
-#EXTINF:-1 group-title="Спортивные", KHL Prime
-https://fs.uplink.kz/khl_prime/tracks-v1a1/mono.ts.m3u8?token=onlinetv
+#EXTINF:-1 group-title="Спортивные", КХЛ KHL
+https://stream8.cinerama.uz/1422/index.m3u8
+#EXTINF:-1 group-title="Спортивные", КХЛ KHL Prime
+https://fs.uplink.kz/khl_prime/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Спортивные", Мото Драйв
 https://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Trace Sport Stars
@@ -4107,6 +4119,8 @@ http://37.186.70.39:40/play/64/index.m3u8
 http://37.186.70.39:40/play/67/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киносемья
 http://158.101.222.193:88/georgia_play.php?id=kinosemya
+#EXTINF:-1 group-title="Кино и сериалы", Киносемья (2)
+https://stream8.cinerama.uz/1234/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киносезон
 https://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", КиноМеню
@@ -4393,6 +4407,10 @@ https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Усадьба
 https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Познавательные", Загородный
+https://stream8.cinerama.uz/1044/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Загородный (2)
+https://stream8.cinerama.uz/1410/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кто есть кто
 http://158.101.222.193:88/georgia_play.php?id=ktoestkto
 #EXTINF:-1 group-title="Познавательные", Кто есть кто (2)
@@ -4698,7 +4716,7 @@ https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.
 #EXTINF:-1 group-title="Региональные", Колыма Плюс | Магаданская область
 https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Колыма Плюс (2) | Магаданская область
-https://tw2ywfm7jbp.a.trbcdn.net/livemaster/7phjk_live-papd7z4v92.smil/playlist.m3u8
+https://tw2ywfm7jbp.a.trbcdn.net/livemaster/w91n1qa6dh_kolymaplus_live/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Краснодар | Краснодарский край
 https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Краснодар (2) | Краснодарский край
@@ -4712,7 +4730,7 @@ https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Сочи 24 (2) | Краснодарский край
 https://serv30.vintera.tv/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Липецкое время 24 | Липецкая область
-https://serv25.vintera.tv/liptime/liptime/chunks.m3u8
+https://serv25.vintera.tv/liptime/liptime/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Липецкое время 24 (2) | Липецкая область
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", МЭТР (Марий Эл)
@@ -4863,6 +4881,8 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Наши города | ХМАО-Югра
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Мегаполис | ХМАО-Югра
+https://megapolis.iptv2022.com/index.m3u8
 #EXTINF:-1 group-title="Региональные", Тивиком | Бурятия
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_TIVICOM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Тивиком (2) | Бурятия
@@ -4963,6 +4983,8 @@ http://212.42.117.34:8080/hls/OshTV.m3u8
 https://fl.biztv.media/stv_1080_bizstvvietfujeyrah/index.m3u8
 #EXTINF:-1 group-title="Региональные", Аист | Орехово-Зуево
 http://141.101.205.134:8080/hls/tvaist.m3u8
+#EXTINF:-1 group-title="Региональные", Кварц | Подольск
+http://109.94.1.3/25/index.m3u8
 #EXTINF:0 group-title="Общероссийские",Первый канал
 http://s05.wsbof.com/pervyj/mpegts?token=a0ac444f
 #EXTINF:0 group-title="Общероссийские",Первый HD
