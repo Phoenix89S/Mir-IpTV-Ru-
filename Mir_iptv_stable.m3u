@@ -208,54 +208,60 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.47 НТВ +7 (2)
 https://cdn.ntv.ru/ntv7/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ntv_hit.png",4.1.48 НТВ Хит
-http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+https://cdn.ntv.ru/th_hit/index.m3u8
 #EXTINF:-1 group-title="Информационные",4.1.49 НТВ Мир (3)
 https://streaming.televizor-24-tochka.ru/live/213.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",4.1.50 НТВ Сериал
-http://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 group-title="Региональные",4.1.51 ННТВ (Нижегородская область)
+#EXTINF:-1 group-title="Развлекательные",4.1.50 НТВ Стиль
+https://cdn.ntv.ru/th_style/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы",4.1.51 НТВ Сериал
+https://cdn.ntv.ru/th_serial/index.m3u8
+#EXTINF:-1 group-title="Познавательные",4.1.52 НТВ Право
+https://cdn.ntv.ru/th_pravo/index.m3u8
+#EXTINF:-1 group-title="Региональные",4.1.53 ННТВ (Нижегородская область)
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8
-#EXTINF:0 group-title="Общероссийские",4.1.52 НТВ
+#EXTINF:0 group-title="Общероссийские",4.1.54 НТВ
 http://s05.wsbof.com/ntv/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Общероссийские",4.1.53 НТВ HD
+#EXTINF:0 group-title="Общероссийские",4.1.55 НТВ HD
 http://s05.wsbof.com/ntv-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Общероссийские",4.1.54 НТВ Мир
+#EXTINF:0 group-title="Общероссийские",4.1.56 НТВ Мир
 http://s05.wsbof.com/ntv-mir/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Кино",4.1.55 НТВ Хит
+#EXTINF:0 group-title="Кино",4.1.57 НТВ Хит
 http://s05.wsbof.com/ntv-hit/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Кино",4.1.56 НТВ Сериал
+#EXTINF:0 group-title="Кино",4.1.58 НТВ Сериал
 http://s05.wsbof.com/ntv-serial/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Познавательные",4.1.57 НТВ Стиль
+#EXTINF:0 group-title="Познавательные",4.1.59 НТВ Стиль
 http://s05.wsbof.com/ntv-style/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +2ч",4.1.58 НТВ (+2)
+#EXTINF:0 group-title="Россия +2ч",4.1.60 НТВ (+2)
 http://s05.wsbof.com/ntv-plus-2/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +4ч",4.1.59 НТВ (+4)
+#EXTINF:0 group-title="Россия +4ч",4.1.61 НТВ (+4)
 http://s05.wsbof.com/ntv-plus-4/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +7ч",4.1.60 НТВ (+7)
+#EXTINF:0 group-title="Россия +7ч",4.1.62 НТВ (+7)
 http://s05.wsbof.com/ntv-plus-7/mpegts?token=a0ac444f
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",4.1.61 НТВ HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",4.1.63 НТВ HD
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",4.1.62 НТВ Стиль
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",4.1.64 НТВ Хит
+http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",4.1.65 НТВ Стиль
 http://dmi3y-tv.ru/hls/CH_NTVSTIL.m3u8
-#EXTINF:-1 ,4.1.63 НТВ HD
+#EXTINF:-1 ,4.1.66 НТВ HD
 https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.64 НТВ HD
+#EXTINF:-1 ,4.1.67 НТВ HD
 https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.65 НТВ +1
+#EXTINF:-1 ,4.1.68 НТВ +1
 https://cdn.ntv.ru/ntv1/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.66 НТВ +2
+#EXTINF:-1 ,4.1.69 НТВ +2
 https://cdn.ntv.ru/ntv2/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.67 НТВ +4
+#EXTINF:-1 ,4.1.70 НТВ +4
 https://cdn.ntv.ru/ntv4/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.68 НТВ +7
+#EXTINF:-1 ,4.1.71 НТВ +7
 https://cdn.ntv.ru/ntv7/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.69 НТВ Хит
+#EXTINF:-1 ,4.1.72 НТВ Хит
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.70 НТВ Сериал
+#EXTINF:-1 ,4.1.73 НТВ Сериал
 https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.71 НТВ Право
+#EXTINF:-1 ,4.1.74 НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.72 НТВ Стиль
+#EXTINF:-1 ,4.1.75 НТВ Стиль
 https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
@@ -5971,6 +5977,14 @@ https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/vari
 https://12channel.bonus-tv.ru/cdn/omskchannel/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", 12 канал (3) | Омск
 https://gtrkomsk-live.cdnvideo.ru/gtrkomsk/gtrkomsk.smil/playlist.m3u8
+#EXTINF:-1 group-title="Региональные", Обком | Омск
+https://www.omsk-kprf.ru/hls/stream.m3u8
+#EXTINF:-1 group-title="Региональные", Омск ТВ | Омск
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Первый городской | Омск
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Продвижение | Омск
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 12 канал (Череповец)
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 41 Регион (Камчатка)
@@ -6187,12 +6201,10 @@ https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/varian
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Область 45 (Курган)
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Омск ТВ (Омск)
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Осетия Ирыстон | Владикавказ
 https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Осетия Ирыстон (2) | Владикавказ
-https://catchup.videoline.ru/iriston/tracks-v1a1/mono.m3u8
+https://catchup.videoline.ru/iriston/index.m3u8
 #EXTINF:-1 group-title="Региональные", Панорама (Тверь)
 http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_PANORAMATV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Первый Тульский | Тульская область
@@ -6207,16 +6219,12 @@ https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Городской телеканал (2) | Ярославская область
 https://gtk.tv/hls/gtyar.m3u8
-#EXTINF:-1 group-title="Региональные", Первый городской (Омск)
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Первый областной (Орловская область)
 https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Про жизнь | Кемеровская область
 https://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_PROJIZN/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Кузбасс Первый | Кемеровская область
 https://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Продвижение (Омск)
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Продвижение (Астрахань)
 http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R03_PRO_ASTRAKHAN/variant.m3u8
 #EXTINF:-1 group-title="Региональные", РИМ (Каменск-Уральский)
