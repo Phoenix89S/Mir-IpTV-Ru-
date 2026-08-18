@@ -3631,10 +3631,12 @@ http://dmi3y-tv.online/hls/DVB-T2/CH_1TV.m3u8
 https://serv30.vintera.tv/restream/1_old/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_1.png", Россия 1 (3)
 https://stream8.cinerama.uz/1020/index.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К (3)
+https://stream8.cinerama.uz/1048/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_24.png", Россия 24
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_24.png", Россия 24 HD
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/1080p.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_24.png", Россия 24 (3)
+https://stream8.cinerama.uz/1021/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/karusel.png", Карусель (2)
 https://stream8.cinerama.uz/1034/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (3)
@@ -3705,11 +3707,17 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/pyatiy.png", Пятый (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К (+2)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +2
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/kultura-hd/index.m3u8
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +2 (2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К (+4)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +4
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +4 (2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К (+7)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +7
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/rossiya_k.png", Россия К +7 (2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/karusel.png", Карусель (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
@@ -3960,9 +3968,7 @@ https://stream8.cinerama.uz/1456/index.m3u8
 #EXTINF:-1 group-title="Информационные", DW
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 group-title="Информационные", Россия РТР
-https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
-#EXTINF:-1 group-title="Информационные", Россия РТР (2)
-https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
+https://streaming.televizor-24-tochka.ru/live/211.m3u8
 #EXTINF:-1 group-title="Информационные", Euronews
 https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Информационные", Аква
