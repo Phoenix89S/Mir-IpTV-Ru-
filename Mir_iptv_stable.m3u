@@ -5457,6 +5457,8 @@ https://stream1.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8
 #EXTINF:-1 group-title="Детские", NikNik
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
+#EXTINF:-1 group-title="Детские", Рыжий
+https://stream8.cinerama.uz/1407/index.m3u8
 #EXTINF:-1 group-title="Детские", О!
 http://37.186.70.39:40/play/100/index.m3u8
 #EXTINF:-1 group-title="Детские", Союзмультфильмы
@@ -5524,7 +5526,7 @@ http://lime-pi2.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", КВН
 http://158.101.222.193:88/georgia_play.php?id=kvntv
 #EXTINF:-1 group-title="Развлекательные", Сарафан
-https://stream8.cinerama.uz/1249/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1249/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Fashion
 https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные", World Fashion
@@ -5961,6 +5963,8 @@ https://ngtrk.dc.beltelecom.by/vtv/vitebsk.stream/index.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy/index.m3u8
 #EXTINF:-1 group-title="Региональные", СТВ | Беларусь
 https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/index.m3u8
+#EXTINF:-1 group-title="Региональные", СТВ (2) | Беларусь
+http://86.57.147.236/HLS/ctvby/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Мир Белогорья | Белгородская область
 https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Мир Белогорья (2) | Белгородская область
@@ -6251,8 +6255,12 @@ https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
 http://s45177.cdn.ngenix.net/hls/CH_R02_SALYAM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Самара 24 (2)
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Санкт-Петербург (3)
+https://edge-ekat1.teletarget.ru/stream/msk/tvspb/index.m3u8
 #EXTINF:-1 group-title="Региональные", Саратов 24
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Саратов 24 (2)
+http://109.248.11.19:8081/web/c24/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Свое (Березники)
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Сейм (Курск)
