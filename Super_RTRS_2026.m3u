@@ -24733,6 +24733,16 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 #EXTINF:-1,Рика | Казахстан
 https://live-rikatv.cdnvideo.ru/rikatv/rikatv_tcode.sdp/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Multivisión Canal 3 (720p) [Not 24/7]
+https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
+#EXTINF:-1,СТВ (2) | Беларусь
+http://86.57.147.236/HLS/ctvby/playlist.m3u8
+#EXTINF:-1 tvg-shift="0",Саратов 24 (2)
+http://109.248.11.19:8081/web/c24/playlist.m3u8
+#EXTINF:-1 tvg-shift="2",С1 (2) | Сургут
+https://sitv.ru/hls/stv.m3u8
+#EXTINF:-1,Кварц | Подольск
+http://109.94.1.3/25/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
