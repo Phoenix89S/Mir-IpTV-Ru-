@@ -5282,7 +5282,7 @@ http://91.221.252.12:82/tv68
 #EXTINF:-1 [OLD],Viju TV1000 Новелла
 http://starcius-cinema.com/10114/index.m3u8?token=010101010101
 #EXTINF:-1,Viju TV1000 (2)
-https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1058/index.m3u8
 #EXTINF:-1,Viju TV1000 Русское (2)
 http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
 #EXTINF:-1,Viju TV1000 Action (2)
@@ -6224,7 +6224,7 @@ https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
 #EXTINF:-1,TV BRICS Spanish (1080p)
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 #EXTINF:-1,2x2 (576p)
-http://31.148.48.15/2x2/index.m3u8
+http://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8
 #EXTINF:-1,7TV (576p)
 http://31.148.48.15/7TV/index.m3u8
 #EXTINF:-1,365 Дней (576p)
@@ -20297,7 +20297,7 @@ http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
 #EXTINF:-1,Такт 24 (Курск)
 http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3u8
-#EXTINF:-1 tvg-shift="2",Тамыр (Башкортостан)
+#EXTINF:-1 tvg-shift="2" [OLD],Тамыр (Башкортостан)
 http://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Тверской проспект (Тверь)
 http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_TVERPROSP/variant.m3u8
@@ -20313,7 +20313,7 @@ https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Тува 24 (Тыва)
 http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
-#EXTINF:-1 tvg-shift="2",Туган Тел (Башкортостан)
+#EXTINF:-1 tvg-shift="2" [OLD],Туган Тел (Башкортостан)
 http://s45177.cdn.ngenix.net/hls/CH_R01_TUGANTEL/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Тюменское время (Тюмень)
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8
@@ -20952,7 +20952,7 @@ https://streaming.televizor-24-tochka.ru/live/44.m3u8
 #EXTINF:-1,Время (2)
 http://31.148.48.15/Vremya/index.m3u8
 #EXTINF:-1,Cinema (2)
-https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1227/index.m3u8
 #EXTINF:-1 [OLD],Cinema (3)
 https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Мужское кино (2)
@@ -21182,7 +21182,7 @@ http://158.101.222.193:88/georgia_play.php?id=kinoseria
 #EXTINF:-1,Киносерия (3)
 http://176.118.197.101/Kinoseria/index.m3u8
 #EXTINF:-1,Ducktv
-https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1271/index.m3u8
 #EXTINF:-1 [OLD],О! (2)
 http://185.78.112.47:8077/o_/index.m3u8
 #EXTINF:-1 [OLD],Viju+ Serial (2)
@@ -21224,10 +21224,10 @@ http://158.101.222.193:88/georgia_play.php?id=viasathist
 #EXTINF:-1 [OLD],Viju History (3)
 http://158.101.222.193:88/georgia_play.php?id=viasathist
 #EXTINF:-1,Viju Nature (2)
-https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1228/index.m3u8
 #EXTINF:-1,Discovery (2)
-http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
-#EXTINF:-1,Discovery (3)
+https://stream8.cinerama.uz/1039/index.m3u8
+#EXTINF:-1 [OLD],Discovery (3)
 https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],RTД (2)
 http://185.78.112.47:8077/rtdoc_hd/index.m3u8
@@ -22444,7 +22444,7 @@ https://adpnetworkhd-cmd.github.io/iptv/Duo3.m3u8
 #EXTINF:-1,like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Entertainment",Kvartal TV
 http://158.101.222.193:88/georgia_play.php?id=kvartal95
 #EXTINF:-1,Дом Кино (3)
-https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1054/index.m3u8
 #EXTINF:-1,Nickelodeon (USA)
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1,NSC
@@ -23732,7 +23732,7 @@ http://stream.mcquack.net/461/index.m3u8
 #EXTINF:-1 [OLD],Мосфильм Золотая коллекция (3)
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1,Мультфильмы
-https://lbgo.bozztv.com/07/ushba80/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba80/index.m3u8
 #EXTINF:-1,Мультиландия (2)
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Мультиландия (4)
@@ -23958,7 +23958,7 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/play
 #EXTINF:-1,Толк (2)
 https://live-tolknews.cdnvideo.ru/tolknews/stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Техно 24 (2)
-https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1037/index.m3u8
 #EXTINF:-1,BRICS (2)
 https://brics.bonus-tv.ru/cdn/brics/russian/index.m3u8
 #EXTINF:-1,Живая Планета (2)
@@ -24743,6 +24743,14 @@ http://109.248.11.19:8081/web/c24/playlist.m3u8
 https://sitv.ru/hls/stv.m3u8
 #EXTINF:-1,Кварц | Подольск
 http://109.94.1.3/25/index.m3u8
+#EXTINF:-1,S Tom Sings (1080p)
+https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
+#EXTINF:-1 tvg-shift="2",Тамыр | Башкортостан
+https://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Тамыр (2) | Башкортостан
+https://bsttv.bonus-tv.ru/cdn/tamyr/index.m3u8
+#EXTINF:-1 tvg-shift="2",Туган Тел | Башкортостан
+http://s45177.cdn.ngenix.net/hls/CH_R01_TUGANTEL/variant.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
