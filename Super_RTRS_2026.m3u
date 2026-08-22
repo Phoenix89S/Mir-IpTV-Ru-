@@ -6220,7 +6220,7 @@ https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1,TV BRICS Portuguese (1080p)
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
 #EXTINF:-1,TV BRICS Russian (1080p)
-https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
+http://185.23.80.23:8080/TVBRICS/index.m3u8
 #EXTINF:-1,TV BRICS Spanish (1080p)
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 #EXTINF:-1,2x2 (576p)
@@ -21161,8 +21161,8 @@ https://streaming101.goodstream.cyou/live/44-req_offset_28000000-req_window_0-1k
 http://162.19.246.113/RTL/index.m3u8
 #EXTINF:-1,STAR HD
 http://162.19.246.113/STAR/index.m3u8
-#EXTINF:-1 [OLD],Duronto TV (720p)
-https://tvsen5.aynaott.com/durontotv/index.m3u8
+#EXTINF:-1,Duronto TV (720p)
+https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 #EXTINF:-1 [OLD],PLUSPLUS (720p) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6379/index.m3u8
 #EXTINF:-1 [OLD],Slime (576p) [Not 24/7]
@@ -23187,7 +23187,7 @@ https://user91229.clients-cdnnow.ru/hls/user91229_1.m3u8
 http://15.204.246.24:8080/RTHD/index.m3u8
 #EXTINF:-1,BabyFirst (720p)
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
-#EXTINF:-1,BabyTV Latin America (720p)
+#EXTINF:-1 [OLD],BabyTV Latin America (720p)
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 #EXTINF:-1 [OLD],BabyTV US (576p)
 http://206.212.244.63/641/index.m3u8
@@ -24265,7 +24265,7 @@ http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Minimax
 http://88.212.15.19/live/minimax_hun/index.m3u8
-#EXTINF:-1 [OLD],Nick Jr. Asia (720p)
+#EXTINF:-1,Nick Jr. Asia (720p)
 http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon
 http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
@@ -24561,7 +24561,7 @@ http://stream.novouralsk-news.ru/echotv24/live.m3u8
 http://168.228.44.241:9997/play/a07u/index.m3u8
 #EXTINF:-1,Disney Channel (720p) [Geo-blocked]
 http://212.5.144.156/disney/index.m3u8
-#EXTINF:-1,Nick Jr Asia (1080p)
+#EXTINF:-1 [OLD],Nick Jr Asia (1080p)
 https://streams.comclark.com/pknsd/nickjr/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Niki Junior
 http://158.101.222.193:88/georgia_play.php?id=nikijunior
@@ -24751,6 +24751,24 @@ https://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8
 https://bsttv.bonus-tv.ru/cdn/tamyr/index.m3u8
 #EXTINF:-1 tvg-shift="2",Туган Тел | Башкортостан
 http://s45177.cdn.ngenix.net/hls/CH_R01_TUGANTEL/variant.m3u8
+#EXTINF:-1,Duma TV (720p)
+http://185.23.80.23:8080/DumaTV/index.m3u8
+#EXTINF:-1,Unknown Russia HD (1080p)
+http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
+#EXTINF:-1,Nano HD (1080p)
+http://185.23.80.23:8080/NANO_HD/index.m3u8
+#EXTINF:-1 tvg-shift="4",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Россия 🇷🇺",Барнаул 5
+https://live.katun24.ru:8082/belokyr_cerkovka/tracks-v1/mono.m3u8
+#EXTINF:-1,BabyTV Latin America (1080p)
+https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8
+#EXTINF:-1,Epic Kids Digital (1080p)
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
+#EXTINF:-1,FMH Kids (1080p)
+https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8
+#EXTINF:-1,Nickelodeon +1 (720p)
+https://sra72yz.s.gy/NICKELODEON_UK_PLUS_1.m3u8
+#EXTINF:-1,Tring Kids (576p)
+http://5.254.89.106/8777/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
