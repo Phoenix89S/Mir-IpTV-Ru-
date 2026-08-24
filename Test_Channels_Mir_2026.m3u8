@@ -205,7 +205,7 @@ https://cdn.ntv.ru/th_style/index.m3u8
 https://cdn.ntv.ru/th_serial/index.m3u8
 #EXTINF:-1 group-title="Познавательные",4.1.43 НТВ Право
 https://cdn.ntv.ru/th_pravo/index.m3u8
-#EXTINF:-1 group-title="Региональные",4.1.44 ННТВ (Нижегородская область)
+#EXTINF:-1 group-title="Региональные",4.1.44 ННТВ | Нижегородская область
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8
 #EXTINF:0 group-title="Общероссийские",4.1.45 НТВ
 http://s05.wsbof.com/ntv/mpegts?token=a0ac444f
@@ -4550,7 +4550,7 @@ http://37.186.70.39:40/play/113/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Конгресс (2)
 https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Первый космический
-https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1415/index.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
 https://stream8.cinerama.uz/1404/index.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней
@@ -4568,7 +4568,7 @@ https://api.alpaca.t62a.com/hls/9110/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Зоо ТВ
 http://31148.rafail1982.uz/Zoo_TV/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Точка Отрыва
-https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1031/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Da Vinci
 http://158.101.222.193:88/georgia_play.php?id=davinci
 #EXTINF:-1 group-title="Познавательные", Da Vinci (2)
@@ -4577,6 +4577,8 @@ https://stream8.cinerama.uz/1231/index.m3u8
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Оружие
 http://158.101.222.193:88/georgia_play.php?id=oruzhie
+#EXTINF:-1 group-title="Познавательные", Глазами туриста
+https://stream8.cinerama.uz/1423/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Nano (Нано)
 http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 group-title="Познавательные", Живи!
@@ -4590,13 +4592,15 @@ https://stream8.cinerama.uz/1248/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Вопросы и ответы
 https://stream8.cinerama.uz/1429/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Домашние Животные
-https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1426/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Доктор
+https://stream8.cinerama.uz/1409/index.m3u8
 #EXTINF:-1 group-title="Познавательные", The explorers
 http://stream.mcquack.net/450/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Ратник
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2119/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живи активно
-https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1405/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Полет
 http://stitch.teletarget.ru/vintera/flighttv/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Про бизнес
@@ -4610,7 +4614,7 @@ https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Надежда
 http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Бог Благ
-https://glorystarplus.tv/BogBlagTV/tracks-v1a1/mono.m3u8
+https://glorystarplus.tv/BogBlagTV/index.m3u8
 #EXTINF:-1 group-title="Религиозные", TBN Baltia
 http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 #EXTINF:-1 group-title="Религиозные", ТБВ
@@ -4663,8 +4667,6 @@ http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 41 Регион (Камчатка)
 https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
-#EXTINF:-1 group-title="Региональные", ВТК 41 Аргуст (Воронеж)
-https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 6 ТВ (Хабаровск)
 https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", 7 канал | Красноярск
@@ -4682,11 +4684,13 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3
 #EXTINF:-1 group-title="Региональные", TMTV (Казань)
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", TV Губерния | Воронеж
-http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8
+https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8
 #EXTINF:-1 group-title="Региональные", TV Губерния (2) | Воронеж
-https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VRZH_TVGUBERNIYA/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Урал 24
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
+https://s68149.cdn.ngenix.net/s68149-media-origin/lvs/tvgub/index.m3u8
+#EXTINF:-1 group-title="Региональные", Известия | Воронеж
+https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_IZVESTIYA/variant.m3u8
+#EXTINF:-1 group-title="Региональные", ВТК 41 Аргуст | Воронеж
+https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", АСТВ | Южно-Сахалинск
 https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", АСТВ (2) | Южно-Сахалинск
@@ -4735,8 +4739,6 @@ http://213.108.175.226/telplushd/index.m3u8
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", БСТ 24 (2) | Братск
 https://bst.bratsk.ru/hls/bst2/index.m3u8
-#EXTINF:-1 group-title="Региональные", Барс (Иваново)
-https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Башкортостан 24
 https://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Башкортостан 24 (2)
@@ -4804,15 +4806,15 @@ http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Дзержинск
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Дон 24 | Ростов-на-Дону
-http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_DON24/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Дон 24 (2) | Ростов-на-Дону
-https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_RD_DON24/variant.m3u8
+https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_DON24/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Первый Ростовский | Ростов-на-Дону
+https://rost.mediacdn.ru/cdn/rostov1/index.m3u8
 #EXTINF:-1 group-title="Региональные", Евразия (2) | Орск
 https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Ивановское общественное телевидение (Иваново)
-http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Известия Воронеж
-http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_IZVESTIYA/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Ивановское общественное телевидение | Иваново
+https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_IOT/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Барс | Иваново
+https://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_BARS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Известия Приосколья
 https://tvbelgorod.ru:90/izvestiya/index.m3u8
 #EXTINF:-1 group-title="Региональные", Импульс Севера (Новый Уренгой)
