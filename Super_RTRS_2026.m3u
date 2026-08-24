@@ -15064,7 +15064,7 @@ https://live20.bozztv.com/giatvplayout7/ushba11/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Приколы 2
 https://live20.bozztv.com/giatvplayout7/ushba20/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Шоу Бенни Хилла
-https://lbgo.bozztv.com/07/ushba62/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba62/index.m3u8
 #EXTINF:-1 [OLD],Документалка 1
 https://live20.bozztv.com/giatvplayout7/ushba28/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Better Life Nature Channel
@@ -19802,14 +19802,14 @@ http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:-1,КВН
 http://158.101.222.193:88/georgia_play.php?id=kvntv
 #EXTINF:-1,Fashion
-https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1053/index.m3u8
 #EXTINF:-1,World Fashion
 http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:-1,RuTube
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=U_og5iHG6xVp0V3KXYMB0g&e=2070623479&scheme=https
 #EXTINF:-1,Инсайт
-https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Дорама (2)
+https://stream8.cinerama.uz/1416/index.m3u8
+#EXTINF:-1 [OLD],Дорама (2)
 http://dmi3y-tv.online/hls/CH_DORAMA.m3u8
 #EXTINF:-1,OVAA
 http://tv.tuva.ru/ovaa/index.m3u8
@@ -19964,27 +19964,27 @@ https://live20.bozztv.com/giatvplayout7/ushba29/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Документалка 3
 https://live20.bozztv.com/giatvplayout7/ushba38/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Кинозалы 2
-https://lbgo.bozztv.com/07/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-0/index.m3u8
 #EXTINF:-1,Кинозалы 3
-https://lbgo.bozztv.com/07/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-a/index.m3u8
 #EXTINF:-1,Кинозалы 4
 https://lbgo.bozztv.com/07/ushba-rfilrms-b/index.m3u8
 #EXTINF:-1,Кинозалы 5
-https://lbgo.bozztv.com/07/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-c/index.m3u8
 #EXTINF:-1,Кинозалы 6
-https://lbgo.bozztv.com/07/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-d/index.m3u8
 #EXTINF:-1,Кинозалы 7
-https://lbgo.bozztv.com/07/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-e/index.m3u8
 #EXTINF:-1,Кинозалы 8
-https://lbgo.bozztv.com/07/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-g/index.m3u8
 #EXTINF:-1,Кинозалы 9
-https://lbgo.bozztv.com/07/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-i/index.m3u8
 #EXTINF:-1,Кинозалы 10
-https://lbgo.bozztv.com/07/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-p/index.m3u8
 #EXTINF:-1,Кинозалы 11
-https://lbgo.bozztv.com/07/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-v/index.m3u8
 #EXTINF:-1,Кинозалы 12
-https://lbgo.bozztv.com/07/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-rfilrms-z/index.m3u8
 #EXTINF:-1,Кинозалы 13
 https://lbgo.bozztv.com/07/ushba64/index.m3u8
 #EXTINF:-1,Кинозалы 14
@@ -20804,7 +20804,7 @@ https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 [OLD],Alvin Channel TV
 https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
 #EXTINF:-1,Здоровое
-https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1428/index.m3u8
 #EXTINF:-1,Арсенал
 https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],The explorers HD
@@ -21096,8 +21096,8 @@ https://stream.mixadance.fm/mixadance128
 #EXTINF:-1 [OLD],Fan (2)
 http://185.78.112.47:8077/fan/index.m3u8
 #EXTINF:-1,.Sci-Fi (2)
-http://dmi3y-tv.online/hls/CH_TOCHKA_SCI-FI.m3u8
-#EXTINF:-1,Hollywood (2)
+https://s70378.cdn.ngenix.net/sony_sci_fi/index.m3u8
+#EXTINF:-1 [OLD],Hollywood (2)
 http://dmi3y-tv.online/hls/CH_HOLLYWOOD.m3u8
 #EXTINF:-1 [OLD],KinoJam 1
 http://185.78.112.47:8077/kinojam1/index.m3u8
@@ -21192,7 +21192,7 @@ http://46.32.176.50/VIPComedyHD/index.m3u8
 #EXTINF:-1,Киномикс (2)
 http://176.118.197.101/Kinomix/index.m3u8
 #EXTINF:-1,Киносвидание (2)
-https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1203/index.m3u8
 #EXTINF:-1 [OLD],Наш кинопоказ (2)
 http://185.78.112.47:8077/nash_kinopokaz_hd/index.m3u8
 #EXTINF:-1 tvg-id="yu",Иллюзион+ (2)
@@ -22510,11 +22510,11 @@ https://stream.ehrhiti.lv:8000/Stream_38.aac
 #EXTINF:-1,Бокс (3)
 http://37.186.70.39:40/play/85/index.m3u8
 #EXTINF:-1,MMA (3)
-https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1,.black (2)
-http://dmi3y-tv.online/hls/CH_TOCHKA_BLACK.m3u8
+https://s70378.cdn.ngenix.net/sony_turbo/index.m3u8
 #EXTINF:-1,.Red (2)
-http://dmi3y-tv.online/hls/CH_TOCHKA_RED.m3u8
+https://s70378.cdn.ngenix.net/sony_channel/index.m3u8
 #EXTINF:-1,Кино ТВ (2)
 https://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1,Amedia Hit (3)
@@ -22734,13 +22734,13 @@ http://37.186.70.39:40/play/64/index.m3u8
 #EXTINF:-1,Киносвидание (3)
 http://37.186.70.39:40/play/67/index.m3u8
 #EXTINF:-1,Кинопоказ (2)
-http://31148.rafail1982.uz/Kinopokaz/index.m3u8
-#EXTINF:-1,Кинопоказ (3)
+https://stream8.cinerama.uz/1057/index.m3u8
+#EXTINF:-1 [OLD],Кинопоказ (3)
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Кинопоказ (4)
+#EXTINF:-1 [OLD],Кинопоказ (4)
 http://dmi3y-tv.online/hls/CH_KINOPOKAZ.m3u8
 #EXTINF:-1,Индийское кино (2)
-https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1060/index.m3u8
 #EXTINF:-1,Индийское кино (3)
 http://37.186.70.39:40/play/74/index.m3u8
 #EXTINF:-1,Еврокино (2)
@@ -23607,7 +23607,7 @@ https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=51
 https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
 #EXTINF:-1 tvg-shift="0" [OLD],Осетия Ирыстон
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
-#EXTINF:-1,Cartoon Channel PH (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],Cartoon Channel PH (720p) [Geo-blocked]
 https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
 #EXTINF:-1,Disney Junior (720p)
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
@@ -23742,7 +23742,7 @@ https://stream1.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Terra Incognita
 https://stitch.teletarget.ru/vintera/terra/index.m3u8
 #EXTINF:-1,ZooПарк Зоопарк
-https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1417/index.m3u8
 #EXTINF:-1,ZooПарк Зоопарк (2)
 http://s8.rafail1982.uz/1417/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Animal Planet (2)
@@ -23956,7 +23956,7 @@ https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1,360 (3)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1,Толк (2)
-https://live-tolknews.cdnvideo.ru/tolknews/stream/tracks-v1a1/mono.m3u8
+https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1,Техно 24 (2)
 https://stream8.cinerama.uz/1037/index.m3u8
 #EXTINF:-1,BRICS (2)
@@ -24765,10 +24765,12 @@ https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8
 https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
 #EXTINF:-1,FMH Kids (1080p)
 https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8
-#EXTINF:-1,Nickelodeon +1 (720p)
+#EXTINF:-1 [OLD],Nickelodeon +1 (720p)
 https://sra72yz.s.gy/NICKELODEON_UK_PLUS_1.m3u8
 #EXTINF:-1,Tring Kids (576p)
 http://5.254.89.106/8777/index.m3u8
+#EXTINF:-1,Точка.РФ (2)
+https://stream8.cinerama.uz/1222/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
