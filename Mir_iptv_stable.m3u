@@ -6255,18 +6255,18 @@ https://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8
 https://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Новгородское областное телевидение (Новгородская область)
 http://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Новое время (Радужный)
-https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Новый век | Тамбов
 https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Новый век (2) | Тамбов
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", ОРТ Планета (Оренбург)
 https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
-#EXTINF:-1 group-title="Региональные", ОТВ | Екатеринбург
+#EXTINF:-1 group-title="Региональные", ОТВ | Свердловская область
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
-#EXTINF:-1 group-title="Региональные", ОТВ (2) | Екатеринбург
-https://vd.obltv.ru/watch/air_hd.m3u8
+#EXTINF:-1 group-title="Региональные", ОТВ (2) | Свердловская область
+https://vd.obltv.ru/watch/air.m3u8
+#EXTINF:-1 group-title="Региональные", НТС Ирбит | Свердловская область
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Крик | Свердловская область
 https://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Крик (2) | Свердловская область
@@ -6349,8 +6349,6 @@ https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
 http://109.248.11.19:8081/web/c24/playlist.m3u8
 #EXTINF:-1 group-title="Региональные", Свое (Березники)
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Сейм (Курск)
-http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", ТВ-21+ (Мурманск)
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
 #EXTINF:-1 group-title="Региональные", ТВ7 (Абакан)
@@ -6369,8 +6367,10 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_SAMOTLOR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Тагил (Нижний Тагил)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
-#EXTINF:-1 group-title="Региональные", Такт 24 (Курск)
-http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Такт 24 | Курская область
+https://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_TAKT/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Сейм | Курская область
+https://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", С1 | Сургут
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Сургут 24 | Сургут
@@ -6385,6 +6385,8 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Мегаполис | ХМАО-Югра
 https://megapolis.iptv2022.com/index.m3u8
+#EXTINF:-1 group-title="Региональные", Новое время | ХМАО-Югра
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Тивиком | Бурятия
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_TIVICOM/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Тивиком (2) | Бурятия
@@ -6469,8 +6471,6 @@ https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
 http://stream.novouralsk-news.ru/echotv24/live.m3u8
 #EXTINF:-1 group-title="Региональные", Инфо 24 (Шадринск)
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
-#EXTINF:-1 group-title="Региональные", НТС Ирбит (Екатеринбург)
-https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные", ОшТВ | Кыргызстан
 http://212.42.117.34:8080/hls/OshTV.m3u8
 #EXTINF:-1 group-title="Региональные", Солнечный | Узбекистан
