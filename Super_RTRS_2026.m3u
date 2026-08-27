@@ -5769,7 +5769,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/1072/index.m3u8
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="2" [OLD],УРАЛ1 (Челябинск)
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8
-#EXTINF:-1 tvg-id="che" tvg-shift="0",Архыз 24 Light (Карачаево-Черкесия)
+#EXTINF:-1 tvg-id="che" tvg-shift="0" [OLD],Архыз 24 Light (Карачаево-Черкесия)
 http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ24LITE/variant.m3u8
 #EXTINF:-1 tvg-id="che" [OLD],Ретро - Вечеринка
 http://hls-01-retro-vecherinka.emgsound.ru/20/128/playlist.m3u8
@@ -20171,7 +20171,7 @@ https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ENISEY/variant.m3u8
 #EXTINF:-1,Импульс Севера (Новый Уренгой)
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Истоки (Орёл)
+#EXTINF:-1 tvg-shift="0" [OLD],Истоки (Орёл)
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8
 #EXTINF:-1 tvg-shift="0",1 КБР (Нальчик)
 http://rt-sth-nalch-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/variant.m3u8
@@ -20225,7 +20225,7 @@ http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant
 https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_OTV/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],ОТС (Новосибирск)
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
-#EXTINF:-1 tvg-shift="2",Область 45 (Курган)
+#EXTINF:-1 tvg-shift="2" [OLD],Область 45 (Курган)
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
 #EXTINF:-1 tvg-shift="3" [OLD],Омск ТВ (Омск)
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8
@@ -20237,7 +20237,7 @@ http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_PANORAMATV/variant.m3u8
 http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],ЯПервый (Ярославль)
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Первый областной (Орловская область)
+#EXTINF:-1 tvg-shift="0" [OLD],Первый областной (Орловская область)
 https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Прима (Красноярск)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_STS/variant.m3u8
@@ -20245,11 +20245,11 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_STS/variant.m3u8
 http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_PROJIZN/variant.m3u8
 #EXTINF:-1 tvg-shift="3" [OLD],Продвижение (Омск)
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Продвижение (Астрахань)
+#EXTINF:-1 tvg-shift="0" [OLD],Продвижение (Астрахань)
 http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R03_PRO_ASTRAKHAN/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],РБК (Краснодар)
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_KRDAR_RBC-KRD/variant.m3u8
-#EXTINF:-1,РИМ (Каменск-Уральский)
+#EXTINF:-1 [OLD],РИМ (Каменск-Уральский)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
 #EXTINF:-1,РТК Забайкалье (Забайкальский край)
 http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_RTKZAB/variant.m3u8
@@ -24415,9 +24415,9 @@ https://streaming.astrakhan.ru/astrakhanrulivehd/index.m3u8
 https://streaming.astrakhan.ru/astrakhan24/index.m3u8
 #EXTINF:-1 tvg-shift="0",Астрахань 24 (2) | Астрахань
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="0",Телплюс | Астрахань
+#EXTINF:-1 tvg-id="yu" tvg-shift="0" [OLD],Телплюс | Астрахань
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",Культ Мудиа | Астрахань
+#EXTINF:-1 tvg-shift="0" [OLD],Культ Мудиа | Астрахань
 http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:-1 tvg-shift="2",Башкортостан 24 (2)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
@@ -24823,6 +24823,26 @@ https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MURAVLENKO_24/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Вестник Надыма | ЯНАО
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VESTN_URAL_NAD/variant.m3u8
+#EXTINF:-1,WOW Kidz Tamil (720p)
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="che" tvg-shift="0",Архыз 24 Light | Карачаево-Черкесия
+http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ24LITE/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Astrakhan.RU Sport | Астрахань
+https://streaming.astrakhan.ru/astrakhanrusporthd/index.m3u8
+#EXTINF:-1 tvg-shift="0",Культ Медиа | Астрахань
+https://streaming.astrakhan.ru/telplushd/index.m3u8
+#EXTINF:-1 tvg-shift="0",Культ Медиа (2) | Астрахань
+http://213.108.175.226/telplushd/index.m3u8
+#EXTINF:-1 tvg-shift="0",Продвижение | Астрахань
+https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R03_PRO_ASTRAKHAN/variant.m3u8
+#EXTINF:-1 tvg-shift="2",РИМ | Свердловская область
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Область 45 | Курганcкая область
+https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Первый областной | Орловская область
+https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Истоки | Орловская область
+https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
