@@ -20271,7 +20271,7 @@ http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
 #EXTINF:-1,Свое (Березники)
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8
-#EXTINF:-1,Сейм (Курск)
+#EXTINF:-1 [OLD],Сейм (Курск)
 http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
 #EXTINF:-1 [OLD],Сигма (Новый Уренгой)
 https://lifecam.sigma-ktv.ru/ctv/mono.ts.m3u8
@@ -20297,7 +20297,7 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_YUGANSK/variant.m3u8
 http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8
 #EXTINF:-1,Тагил (Нижний Тагил)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
-#EXTINF:-1,Такт 24 (Курск)
+#EXTINF:-1 [OLD],Такт 24 (Курск)
 http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],Тамыр (Башкортостан)
 http://s45177.cdn.ngenix.net/hls/CH_R03_TAMYRTV/variant.m3u8
@@ -20379,11 +20379,11 @@ https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O
 http://stream.novouralsk-news.ru/echotv24/live.m3u8
 #EXTINF:-1,Инфо 24 (Шадринск)
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
-#EXTINF:-1 tvg-shift="2",НТС Ирбит (Екатеринбург)
+#EXTINF:-1 tvg-shift="2" [OLD],НТС Ирбит (Екатеринбург)
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:-1 [OLD],ОшТВ (Кыргызстан)
 http://212.42.117.34:8080/hls/OshTV.m3u8
-#EXTINF:-1,ТСВ (Приднестровье)
+#EXTINF:-1 [OLD],ТСВ (Приднестровье)
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 [OLD],Русское
 http://rusradio.hostingradio.ru/rusradio96.aacp
@@ -24179,9 +24179,9 @@ https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/vari
 https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Новый век (2) | Тамбов
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
-#EXTINF:-1 tvg-shift="2",ОТВ | Екатеринбург
+#EXTINF:-1 tvg-shift="2" [OLD],ОТВ | Екатеринбург
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
-#EXTINF:-1 tvg-shift="2",ОТВ (2) | Екатеринбург
+#EXTINF:-1 tvg-shift="2" [OLD],ОТВ (2) | Екатеринбург
 https://vd.obltv.ru/watch/air_hd.m3u8
 #EXTINF:-1 tvg-shift="7",ОТВ Приморье | Приморский край
 https://s91030.cdn.ngenix.net/hls/CH_R25_OTV/variant.m3u8
@@ -24843,6 +24843,22 @@ https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
 https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Истоки | Орловская область
 https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8
+#EXTINF:-1,Nickelodeon East HD (720p)
+https://directv-iptv-player.vercel.app/api/stream?url=http%3A%2F%2F198.58.104.90%3A8989%2Fnickelodeon%2Findex.m3u8
+#EXTINF:-1 tvg-shift="2",ОТВ | Свердловская область
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
+#EXTINF:-1 tvg-shift="2",ОТВ (2) | Свердловская область
+https://vd.obltv.ru/watch/air.m3u8
+#EXTINF:-1 tvg-shift="2",НТС Ирбит | Свердловская область
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
+#EXTINF:-1,Такт 24 | Курская область
+https://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_TAKT/variant.m3u8
+#EXTINF:-1,Сейм | Курская область
+https://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="2",Новое время | ХМАО-Югра
+https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
+#EXTINF:-1,ТСВ | Приднестровье
+https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
