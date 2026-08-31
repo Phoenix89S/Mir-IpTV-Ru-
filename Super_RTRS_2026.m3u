@@ -16407,7 +16407,7 @@ http://176.118.197.101/CTC/index.m3u8
 http://tele2dvrnat01-02.cdnvideo.ru/stream/TatTVR_tat24_bf1f738079c0cf5c4a67893c16bceda9/hls/1024x576@1272/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Татарстан 24 HD
 http://tele2dvrnat01-02.cdnvideo.ru/stream/TatTVR_tat24_bf1f738079c0cf5c4a67893c16bceda9/hls/1920x1080@4504/playlist.m3u8
-#EXTINF:-1 tvg-shift="2",ТВ-ИН (Магнитогорск)
+#EXTINF:-1 tvg-shift="2" [OLD],ТВ-ИН (Магнитогорск)
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
 #EXTINF:-1,ТВ3 (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -20135,7 +20135,7 @@ http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u
 https://s84942.cdn.ngenix.net/hls/CH_R28_OTT_DV_BLAG_AOT/variant.m3u8
 #EXTINF:-1 tvg-shift="5",Аригус (Бурятия)
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Арктик (Мурманск)
+#EXTINF:-1 tvg-shift="0" [OLD],Арктик (Мурманск)
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="0" [OLD],Телплюс (Астрахань)
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
@@ -20251,25 +20251,25 @@ http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R03_PRO_ASTRAKHAN/variant.m3u8
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_KRDAR_RBC-KRD/variant.m3u8
 #EXTINF:-1 [OLD],РИМ (Каменск-Уральский)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
-#EXTINF:-1,РТК Забайкалье (Забайкальский край)
+#EXTINF:-1 [OLD],РТК Забайкалье (Забайкальский край)
 http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_RTKZAB/variant.m3u8
-#EXTINF:-1 tvg-shift="4",РТС - Абакан (Хакасия)
+#EXTINF:-1 tvg-shift="4" [OLD],РТС - Абакан (Хакасия)
 https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Регион 29 (Архангельск)
+#EXTINF:-1 tvg-shift="0" [OLD],Регион 29 (Архангельск)
 https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
-#EXTINF:-1 tvg-shift="2",Рифей (Пермь)
+#EXTINF:-1 tvg-shift="2" [OLD],Рифей (Пермь)
 https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Русский Север (Вологодская область)
+#EXTINF:-1 tvg-shift="0" [OLD],Русский Север (Вологодская область)
 https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Р40 (Рыбинск)
+#EXTINF:-1 tvg-shift="0" [OLD],Р40 (Рыбинск)
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],Салям (Башкортостан)
 http://s45177.cdn.ngenix.net/hls/CH_R02_SALYAM/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Сампо (Петрозаводск)
+#EXTINF:-1 tvg-shift="0" [OLD],Сампо (Петрозаводск)
 http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Саратов 24 (Саратов)
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
-#EXTINF:-1,Свое (Березники)
+#EXTINF:-1 [OLD],Свое (Березники)
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8
 #EXTINF:-1 [OLD],Сейм (Курск)
 http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
@@ -20277,15 +20277,15 @@ http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_SEIM/variant.m3u8
 https://lifecam.sigma-ktv.ru/ctv/mono.ts.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Сочи 24 (Краснодар)
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Sochi Live (Сочи)
+#EXTINF:-1 tvg-shift="0" [OLD],Sochi Live (Сочи)
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Сургут 24 (ХМАО-Югра)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-#EXTINF:-1 tvg-shift="0",ТВ-21+ (Мурманск)
+#EXTINF:-1 tvg-shift="0" [OLD],ТВ-21+ (Мурманск)
 https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
 #EXTINF:-1 tvg-shift="4",ТВ7 (Абакан)
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
-#EXTINF:-1 tvg-shift="4",Абакан 24 (Абакан)
+#EXTINF:-1 tvg-shift="4" [OLD],Абакан 24 (Абакан)
 https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
 #EXTINF:-1 tvg-shift="4",ТВК (Красноярск)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TVK24/variant.m3u8
@@ -20295,7 +20295,7 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_YUGANSK/variant.m3u8
 #EXTINF:-1 [OLD],Next (Нефтекамск)
 http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8
-#EXTINF:-1,Тагил (Нижний Тагил)
+#EXTINF:-1 [OLD],Тагил (Нижний Тагил)
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
 #EXTINF:-1 [OLD],Такт 24 (Курск)
 http://rt-ct-kursk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KURSK_TAKT/variant.m3u8
@@ -20321,17 +20321,17 @@ http://s45177.cdn.ngenix.net/hls/CH_R01_TUGANTEL/variant.m3u8
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],Моя Удмуртия (Ижевск)
 http://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
-#EXTINF:-1 tvg-shift="1",УлПравда (Ульяновск)
+#EXTINF:-1 tvg-shift="1" [OLD],УлПравда (Ульяновск)
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
-#EXTINF:-1 tvg-shift="1",Репортер 73 (Ульяновск)
+#EXTINF:-1 tvg-shift="1" [OLD],Репортер 73 (Ульяновск)
 https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
-#EXTINF:-1 tvg-shift="1",ДимГрад 24 (Ульяновск)
+#EXTINF:-1 tvg-shift="1" [OLD],ДимГрад 24 (Ульяновск)
 http://live-3.otcnet.ru/dimgrad/index.m3u8
 #EXTINF:-1 tvg-shift="0",НТК (Калмыкия)
 https://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Чаваш ЕН (Чувашия)
 https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
-#EXTINF:-1,41 (Щелково)
+#EXTINF:-1 [OLD],41 (Щелково)
 https://stream1.tv41.ru/hls/live.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Экспресс (Пенза)
 https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
@@ -20349,7 +20349,7 @@ https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="2" [OLD],Югра (ХМАО-Югра)
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="0",Юрган (Коми)
+#EXTINF:-1 tvg-id="yu" tvg-shift="0" [OLD],Юрган (Коми)
 https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],Ямал 1 (ЯНАО)
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
@@ -20371,13 +20371,13 @@ https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
 http://62.76.73.38/hls/stream.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Наш дом (Пенза)
 http://85.234.33.63/stream/c11.m3u8
-#EXTINF:-1,ПТВ (Первоуральск)
+#EXTINF:-1 [OLD],ПТВ (Первоуральск)
 https://bl.rutube.ru/livestream/59e0373a9aa587e06aeaf9009f86ded1/index.m3u8?s=RqQza13Ro4UeKu7IwmQbHA&e=2070623502&scheme=https
-#EXTINF:-1,Среда (Каспийск)
+#EXTINF:-1 [OLD],Среда (Каспийск)
 https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O-Abonlwf-bYzT5hrypYg&e=2070623505&scheme=https
 #EXTINF:-1 [OLD],Эхо (Новоуральск)
 http://stream.novouralsk-news.ru/echotv24/live.m3u8
-#EXTINF:-1,Инфо 24 (Шадринск)
+#EXTINF:-1 [OLD],Инфо 24 (Шадринск)
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],НТС Ирбит (Екатеринбург)
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
@@ -20811,9 +20811,9 @@ https://stream8.cinerama.uz/1428/index.m3u8
 https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],The explorers HD
 http://cdn.kubteltv.workers.dev/?ID=443
-#EXTINF:-1,Таврия (Херсонская область)
+#EXTINF:-1 [OLD],Таврия (Херсонская область)
 https://streaming.televizor-24-tochka.ru/live/24.m3u8
-#EXTINF:-1,За! (Запорожская область)
+#EXTINF:-1 [OLD],За! (Запорожская область)
 https://streaming.televizor-24-tochka.ru/live/25.m3u8
 #EXTINF:-1 [OLD],Nu Euphoria Trance
 https://stream05.pcradio.ru/nu_euphoria-med
@@ -23850,7 +23850,7 @@ http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0",ВОТ (2) | Липецк
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8
 #EXTINF:-1 tvg-shift="2",Ветта 24 | Пермь
-http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
+https://serv24.vintera.tv/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-shift="2",Ветта 24 (2) | Пермь
 https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Волгоград 24 (2)
@@ -23867,7 +23867,7 @@ https://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8
 http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Первый Тульский (2) | Тульская область
 https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Самара 24 (2)
+#EXTINF:-1 tvg-shift="0" [OLD],Самара 24 (2)
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="0",Вариант | Владимир
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
@@ -24143,9 +24143,9 @@ https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_CHEL/variant.m3u8
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Нижний новгород 24 (2)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/nigniynovgorod/nigniynovgorod24-hd/index.m3u8
-#EXTINF:-1,РГВК Дагестан | Махачкала
+#EXTINF:-1 [OLD],РГВК Дагестан | Махачкала
 https://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
-#EXTINF:-1,РГВК Дагестан (2) | Махачкала
+#EXTINF:-1 [OLD],РГВК Дагестан (2) | Махачкала
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1,Евразия | Орск
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
@@ -24533,7 +24533,7 @@ http://89.218.30.37/ktklive/live.hq/playlist.m3u8
 https://origin5.mediacdn.ru/live/brics/index.m3u8
 #EXTINF:-1,ОшТВ | Кыргызстан
 http://212.42.117.34:8080/hls/OshTV.m3u8
-#EXTINF:-1,TV1 KG| Кыргызстан
+#EXTINF:-1 [OLD],TV1 KG| Кыргызстан
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Janta TV (1080p)
 https://live.jswk.online/IK_RTPM/live/index.m3u8
@@ -24599,9 +24599,9 @@ https://ngtrk.dc.beltelecom.by/vtv/vitebsk.stream/index.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy/index.m3u8
 #EXTINF:-1,СТВ | Беларусь
 https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/index.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="6",АСТВ | Южно-Сахалинск
+#EXTINF:-1 tvg-id="yu" tvg-shift="6" [OLD],АСТВ | Южно-Сахалинск
 https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8
-#EXTINF:-1 tvg-id="yu" tvg-shift="6",АСТВ (2) | Южно-Сахалинск
+#EXTINF:-1 tvg-id="yu" tvg-shift="6" [OLD],АСТВ (2) | Южно-Сахалинск
 https://dpoiyvp3kma.a.trbcdn.net/astv24/astv24.m3u8
 #EXTINF:-1 tvg-shift="5",Аист | Иркутск
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
@@ -24861,6 +24861,84 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Radio Brianza TV
 https://57068da1deb21.streamlock.net/radiorbs/radiorbs/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104
+#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino Action
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105
+#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Comedy;Movies",Viasat Kino Comedy
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249
+#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino World
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102
+#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies;Series",Viasat Serial
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw%3D%3D&master=599
+#EXTINF:-1 tvg-id="che" tvg-shift="2",ТВ-ИН | Челябинск
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
+#EXTINF:-1 tvg-shift="6",АСТВ | Сахалинская область
+https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8
+#EXTINF:-1 tvg-shift="6",АСТВ (2) | Сахалинская область
+https://dpoiyvp3kma.a.trbcdn.net/astv24/astv24.m3u8
+#EXTINF:-1 tvg-shift="6",ОТВ | Сахалинская область
+https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_OTV_SLIN/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Арктик | Мурманск
+https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
+#EXTINF:-1 tvg-shift="0",ТВ-21+ | Мурманск
+https://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Свое | Пермь
+https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SVOETV/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Рифей | Пермь
+https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
+#EXTINF:-1,РГВК | Дагестан
+https://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_DAGESTAN/variant.m3u8
+#EXTINF:-1,РГВК (2) | Дагестан
+https://dagestan.mediacdn.ru/cdn/dagestan/index.m3u8
+#EXTINF:-1,Среда | Дагестан
+https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O-Abonlwf-bYzT5hrypYg&e=2070623505&scheme=https
+#EXTINF:-1 tvg-shift="0",Сочи Live | Краснодарский край
+http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
+#EXTINF:-1 tvg-shift="0",GLN 24 | Краснодарский край
+https://serv25.vintera.tv/gelendzhik/stream_1/playlist.m3u8
+#EXTINF:-1 tvg-shift="2",Эхо 24 | Свердловская область
+http://stream.novouralsk-news.ru/echotv24/live.m3u8
+#EXTINF:-1 tvg-shift="2",ПТВ | Свердловская область
+https://bl.rutube.ru/livestream/59e0373a9aa587e06aeaf9009f86ded1/index.m3u8?s=RqQza13Ro4UeKu7IwmQbHA&e=2070623502&scheme=https
+#EXTINF:-1 tvg-shift="2",Тагил | Свердловская область
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Инфо 24 | Курганcкая областьы
+https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Р40 | Ярославская область
+https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
+#EXTINF:-1,РТК | Забайкальский край
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_RTKZAB/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Регион 29 | Архангельск
+https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Русский Север | Вологодская область
+https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Русь | Кострома
+https://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Сампо | Карелия
+http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
+#EXTINF:-1 tvg-shift="4",ТВ7 | Хакасия
+https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
+#EXTINF:-1 tvg-shift="4",Абакан 24 | Хакасия
+https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
+#EXTINF:-1 tvg-shift="4",РТС | Хакасия
+https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_RTS/variant.m3u8
+#EXTINF:-1 tvg-shift="1",УлПравда | Ульяновск
+https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
+#EXTINF:-1 tvg-shift="1",Репортер 73 | Ульяновск
+https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
+#EXTINF:-1 tvg-shift="1",ДимГрад 24 | Ульяновск
+https://live-3.otcnet.ru/dimgrad/index.m3u8
+#EXTINF:-1 tvg-shift="0",НТК | Калмыкия
+https://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8
+#EXTINF:-1,41 | Щелково
+https://stream1.tv41.ru/hls/live.m3u8
+#EXTINF:-1 tvg-id="yu" tvg-shift="0",Юрган | Коми
+https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
+#EXTINF:-1,Таврия | Херсонская область
+https://streaming.televizor-24-tochka.ru/live/24.m3u8
+#EXTINF:-1,За! | Запорожская область
+https://streaming.televizor-24-tochka.ru/live/25.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
