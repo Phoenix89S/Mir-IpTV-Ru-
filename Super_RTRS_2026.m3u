@@ -22389,7 +22389,7 @@ http://tvsen7.aynascope.net/teennick/index.m3u8
 https://raw.githubusercontent.com/seyfettinaskar7-sudo/polish-iptv/refs/heads/main/streams/tvpabc2.m3u
 #EXTINF:-1,Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
-#EXTINF:-1,Kvartal TV International
+#EXTINF:-1 [OLD],Kvartal TV International
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 #EXTINF:-1,Priklyucheniya HD (1080p)
 http://stream.mcquack.net/198/index.m3u8
@@ -24967,7 +24967,7 @@ http://stream.mcquack.net/262/index.m3u8
 http://stream.mcquack.net/271/index.m3u8
 #EXTINF:-1,ATR (1080p)
 http://stream.mcquack.net/244/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Entertainment",Kvartal TV (720p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Entertainment",Kvartal TV (720p)
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g2NS90cmFja3MtdjJhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDcxMDcwMCZzdD1MXzZYc2M4elNra3RCaWYyVzU1dWF3&master=180
 #EXTINF:-1 tvg-shift="6",АОТВ | Амурская область
 https://s84942.cdn.ngenix.net/hls/CH_R28_AOT/variant.m3u8
@@ -24993,6 +24993,10 @@ https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R02_BURYAAD/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Тува 24 | Тыва
 http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
+#EXTINF:-1,RAZ 3 International
+https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
+#EXTINF:-1,RTN
+http://4.59.210.197:8815/udp/127.0.0.1:6002
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
