@@ -2957,7 +2957,7 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_SPBR/variant.m3u8
 #EXTINF:-1 tvg-id="rentv" [OLD],Рен ТВ int.
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
-#EXTINF:-1 [OLD],REN TV International (576p)
+#EXTINF:-1,REN TV International (576p)
 http://178.134.1.158:8081/RENTV/index.m3u8
 
 # ===== Кнопка 12 =====
@@ -5625,7 +5625,7 @@ https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
 https://stream-msk-03.ott.tricolor.tv/dtv/id160_MSKSG-PVR-1--HD_Anim_Fam/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MTAyNTUwMDYwNTg4MiIsImV4cCI6MTY5MjczNTA3OCwiaHdpZCI6IjA1OTgxOTUwMjliODE3MzIxYTQ2MGE3M2QwNWRjNGY5M2I5ZmM0NjM5OWFlOWRmYzJlZTZiMGUwNDVhZWViYzkiLCJsYXN0X3JlcV9kYXRlIjoxNjkyMTMwMjc4LCJzZXNzaW9uX2lkIjoiOWNmODQ0NGJiOGM3NWI5NGFjNDJiM2JkNGI3ZWMxMzIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hUXvl74L08qIrIia8T5RQVD8khzcJt-HW6HB1kR6Shc
 #EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],VF Владимир Высоцкий
 http://fd528cf2.ottrast.com/iptv/DSEEV2HZL7B8K6/10066/index.m3u8
-#EXTINF:-1 tvg-id="mir" tvg-shift="0",Губерния 33 (Владимир)
+#EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Губерния 33 (Владимир)
 https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Вариант (Владимир)
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
@@ -5769,7 +5769,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/965/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/1004/index.m3u8
 #EXTINF:-1 tvg-id="che",Чернiвцi
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/1072/index.m3u8
-#EXTINF:-1 tvg-id="che" tvg-shift="0",12 канал (Череповец)
+#EXTINF:-1 tvg-id="che" tvg-shift="0" [OLD],12 канал (Череповец)
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="2" [OLD],УРАЛ1 (Челябинск)
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8
@@ -15357,7 +15357,7 @@ https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_O_HD/variant.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/volgograd24-hd/track_102_1f3a2163/chunklist.m3u8
 #EXTINF:-1 tvg-shift="-1",Запад 24 (Калининград)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
-#EXTINF:-1 tvg-shift="0",Самара 24
+#EXTINF:-1 tvg-shift="0" [OLD],Самара 24
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],Сибирь 24 (Красноярск)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8
@@ -16925,7 +16925,7 @@ http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
 http://rtmp.one.by:1300
 #EXTINF:-1 [OLD],Первый Музыкальный Канал Россия HD (1080p)
 http://rtmp.one.by:2300
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Победа 720p (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Победа 720p (576p)
 https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 #EXTINF:-1 [OLD],СТБ (720p)
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
@@ -17083,7 +17083,7 @@ https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
 #EXTINF:-1 [OLD],НТМ (Народное телевидение Мордовии)
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 tvg-shift="0",Самара ГИС
+#EXTINF:-1 tvg-shift="0" [OLD],Самара ГИС
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Своё ТВ (Ставрополь)
 https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_STV-PLUS/variant.m3u8
@@ -20095,27 +20095,27 @@ https://edge15.vedge.infomaniak.com/livecast/tvm3/chunklist_w678388921.m3u8
 https://bl.rutube.ru/livestream/f712ae5ff3db23ec09b3674133d44daa/index.m3u8?s=MeP9OJ5c-c4A5f73twBJ3g&e=2075372287&scheme=https
 #EXTINF:-1 [OLD],Первый информационный (Беларусь)
 https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
-#EXTINF:-1,Первый Республиканский (ДНР)
+#EXTINF:-1 [OLD],Первый Республиканский (ДНР)
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
-#EXTINF:-1,24 (Луганск)
+#EXTINF:-1 [OLD],24 (Луганск)
 https://streaming.televizor-24-tochka.ru/live/29.m3u8
-#EXTINF:-1,РТВ (Раменск)
+#EXTINF:-1 [OLD],РТВ (Раменск)
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],10 канал (Новокузнецк)
 http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8
-#EXTINF:-1 tvg-shift="9",41 Регион (Камчатка)
+#EXTINF:-1 tvg-shift="9" [OLD],41 Регион (Камчатка)
 https://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],ВТК 41 Аргуст (Воронеж)
 https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
 #EXTINF:-1 tvg-shift="4",НСК 49 (Новосибирск)
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_49CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-shift="7",6 ТВ (Хабаровск)
+#EXTINF:-1 tvg-shift="7" [OLD],6 ТВ (Хабаровск)
 https://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],7 канал (Красноярск)
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
 #EXTINF:-1 tvg-shift="4" [OLD],8 канал (Красноярск)
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-shift="0",TMTV (Казань)
+#EXTINF:-1 tvg-shift="0" [OLD],TMTV (Казань)
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],TV Губерния (Воронеж)
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8
@@ -20133,7 +20133,7 @@ http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
 #EXTINF:-1 tvg-shift="5" [OLD],Аист (Иркутск)
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
-#EXTINF:-1,Актис (Ангарск)
+#EXTINF:-1 [OLD],Актис (Ангарск)
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
 #EXTINF:-1 [OLD],АОТВ (Приамурье)
 https://s84942.cdn.ngenix.net/hls/CH_R28_OTT_DV_BLAG_AOT/variant.m3u8
@@ -20177,13 +20177,13 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ENISEY/variant.m3u8
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Истоки (Орёл)
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8
-#EXTINF:-1 tvg-shift="0",1 КБР (Нальчик)
+#EXTINF:-1 tvg-shift="0" [OLD],1 КБР (Нальчик)
 http://rt-sth-nalch-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/variant.m3u8
-#EXTINF:-1 tvg-shift="9",Камчатка 1 (Камчатский край)
+#EXTINF:-1 tvg-shift="9" [OLD],Камчатка 1 (Камчатский край)
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
-#EXTINF:-1 tvg-shift="-1",Каскад (Калининград)
+#EXTINF:-1 tvg-shift="-1" [OLD],Каскад (Калининград)
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
-#EXTINF:-1 tvg-shift="4",Катунь 24 (Алтайский край)
+#EXTINF:-1 tvg-shift="4" [OLD],Катунь 24 (Алтайский край)
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="8" [OLD],Колыма Плюс (Магаданская область)
 https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
@@ -22093,10 +22093,10 @@ http://tshift-1.telecoma.tv/sts/index.m3u8
 http://31.148.48.15/REN-TV/index.m3u8
 #EXTINF:-1 [OLD],Channel 5 (576p)
 http://94.230.128.107:8080/5_kanal/index.m3u8
-#EXTINF:-1 [OLD],Zvezda (576p)
-http://94.230.128.107:8080/Zvezda/index.m3u8
-#EXTINF:-1 [OLD],OTR (576p)
-http://94.230.128.107:8080/OTP/index.m3u8
+#EXTINF:-1,Zvezda (576p)
+http://flussonic.linkintel.ru/zvezda/index.m3u8
+#EXTINF:-1,OTR (576p)
+http://flussonic.linkintel.ru/otr/index.m3u8
 #EXTINF:-1 [OLD],NTV (576p)
 http://94.230.128.107:8080/HTB/index.m3u8
 #EXTINF:-1,Al Jazeera
@@ -22403,8 +22403,8 @@ https://adpnetworkhd-cmd.github.io/iptv/Avto24.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/Black.m3u8
 #EXTINF:-1 [OLD],Bolt (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/BoltRussia.m3u8
-#EXTINF:-1 [OLD],Che! (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Che_Moskva.m3u8
+#EXTINF:-1,Che! (576p)
+http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 [OLD],CuriosityStream (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/CuriosityStream.m3u8
 #EXTINF:-1 [OLD],Detski mir (576p)
@@ -22491,8 +22491,8 @@ https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
 http://stream.mcquack.net/421/index.m3u8
 #EXTINF:-1 [OLD],Psikhologiya (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Psikhologiya21.m3u8
-#EXTINF:-1 [OLD],.red HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/RedHD.m3u8
+#EXTINF:-1,.red HD (1080p)
+http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 [OLD],Russia-24 (576p)
 http://94.230.129.31:8080/Rossia_24/index.m3u8
 #EXTINF:-1 [OLD],Russkiy Illusion (1080p)
@@ -22787,8 +22787,8 @@ http://178.134.1.158:8081/doktor/index.m3u8
 http://94.230.129.31:8080/Domashnii/index.m3u8
 #EXTINF:-1,Friday! (576p)
 http://stream.mcquack.net/181/index.m3u8
-#EXTINF:-1 [OLD],TNT (576p)
-http://94.230.129.31:8080/THT/index.m3u8
+#EXTINF:-1,TNT (576p)
+http://flussonic.linkintel.ru/tnt/index.m3u8
 #EXTINF:-1,Russia-K (576p)
 http://stream.mcquack.net/229/index.m3u8
 #EXTINF:-1,Zagorodnaya Zhizn (576p)
@@ -23873,9 +23873,9 @@ http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8
 https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Самара 24 (2)
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
-#EXTINF:-1 tvg-id="mir" tvg-shift="0",Вариант | Владимир
+#EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Вариант | Владимир
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
-#EXTINF:-1 tvg-id="mir" tvg-shift="0",Вариант (2) | Владимир
+#EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Вариант (2) | Владимир
 https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VLAD_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-shift="3",Томское время | Томская область
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8
@@ -23993,7 +23993,7 @@ https://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_BELG_BELGOROD24/varia
 https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
 #EXTINF:-1 tvg-shift="0",Брянская Губерния (2) | Брянск
 https://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
-#EXTINF:-1 tvg-shift="0",450 (Губерния) | Самара
+#EXTINF:-1 tvg-shift="0" [OLD],450 (Губерния) | Самара
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8
 #EXTINF:-1,Алмазный край (2)
 https://stream.almaz-media.tv:8080/hls/720.m3u8
@@ -24063,8 +24063,8 @@ http://stream.mcquack.net/213/index.m3u8
 http://stream.mcquack.net/221/index.m3u8
 #EXTINF:-1,Kinopokaz (576p)
 http://stream.mcquack.net/64/index.m3u8
-#EXTINF:-1 [OLD],TV 21 (576p)
-http://stream.mcquack.net/152/index.m3u8
+#EXTINF:-1,TV 21 (576p)
+http://178.134.1.158:8081/TVXXI/index.m3u8
 #EXTINF:-1,Ostrosyuzhetnoye HD (1080p)
 http://stream.mcquack.net/214/index.m3u8
 #EXTINF:-1,Dom kino Premium HD (1080p)
@@ -24607,11 +24607,11 @@ https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/index.m3u8
 https://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_ACTV/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="6" [OLD],АСТВ (2) | Южно-Сахалинск
 https://dpoiyvp3kma.a.trbcdn.net/astv24/astv24.m3u8
-#EXTINF:-1 tvg-shift="5",Аист | Иркутск
+#EXTINF:-1 tvg-shift="5" [OLD],Аист | Иркутск
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
-#EXTINF:-1 tvg-shift="5",Аист (2) | Иркутск
+#EXTINF:-1 tvg-shift="5" [OLD],Аист (2) | Иркутск
 https://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-shift="5",НТС | Иркутск
+#EXTINF:-1 tvg-shift="5" [OLD],НТС | Иркутск
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8
 #EXTINF:-1,БСТ 24 | Братск
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
@@ -24981,7 +24981,7 @@ https://s34351.cdn.ngenix.net/hls/CH_R14_MAMONT/variant.m3u8
 http://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
 #EXTINF:-1 tvg-shift="2",ОРТ Планета | Оренбург
 https://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
-#EXTINF:-1 tvg-shift="0",Тольятти 24 | Самара
+#EXTINF:-1 tvg-shift="0" [OLD],Тольятти 24 | Самара
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="2",Юганск | ХМАО-Югра
 https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_YUGANSK/variant.m3u8
@@ -24997,6 +24997,106 @@ http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 #EXTINF:-1,RTN
 http://4.59.210.197:8815/udp/127.0.0.1:6002
+#EXTINF:-1,Pobeda (1080p)
+http://94.155.93.182/POBEDA_HD/index.m3u8
+#EXTINF:-1,MMA-TV.com (576p)
+http://45.145.32.13:20440/mmatv/index.m3u8?token=test
+#EXTINF:-1,Unikum (576p)
+http://45.145.32.13:20440/nauka/index.m3u8?token=test
+#EXTINF:-1,Lapki Live (576p)
+http://45.145.32.13:20440/unikum/index.m3u8?token=test
+#EXTINF:-1,Zvezda Plus (576p)
+http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
+#EXTINF:-1,Mir Seriala (576p)
+http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
+#EXTINF:-1,Travel+Adventure (576p)
+http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test
+#EXTINF:-1,BRIDGE Rock (576p)
+http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
+#EXTINF:-1,NTV-Hit (576p)
+http://178.134.1.158:8081/ntvhit/index.m3u8
+#EXTINF:-1,Baby Time (576p)
+http://178.134.1.158:8081/babytime/index.m3u8
+#EXTINF:-1,Tonus (576p)
+http://194.143.148.28:8080/Mir24/index.m3u8
+#EXTINF:-1,AIST TV (576p)
+http://194.143.148.28:8080/Aist/index.m3u8
+#EXTINF:-1,TNT4 (576p)
+http://flussonic.linkintel.ru/tnt4/index.m3u8
+#EXTINF:-1,Amedia Hit (576p)
+http://flussonic.linkintel.ru/amedia-hit/index.m3u8
+#EXTINF:-1,Cinema (576p)
+http://flussonic.linkintel.ru/cinema/index.m3u8
+#EXTINF:-1,Kino TV (576p)
+http://flussonic.linkintel.ru/kino-tv/index.m3u8
+#EXTINF:-1,Match! Ultra (576p)
+http://flussonic.linkintel.ru/match/index.m3u8
+#EXTINF:-1,CBeebies Asia (576p)
+http://202.70.146.135:8000/play/a0a2/index.m3u8
+#EXTINF:-1,Disney Channel (576p)
+http://202.70.146.135:8000/play/a01q/index.m3u8
+#EXTINF:-1,Disney Channel HD (1080p)
+http://66.102.126.10:8000/play/a013/index.m3u8
+#EXTINF:-1,ETV Bal Bharat (576p)
+http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
+#EXTINF:-1,Hungama TV (576p)
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+#EXTINF:-1,Sonic (576p)
+http://103.185.24.134:3001/SONIC/index.m3u8
+#EXTINF:-1,Sony Yay! (576p)
+http://103.165.93.31:8095/sonyYay/index.m3u8
+#EXTINF:-1,Super Hungama (576p)
+http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8
+#EXTINF:-1,Первый Республиканский | ДНР
+https://streaming.televizor-24-tochka.ru/live/27.m3u8
+#EXTINF:-1,24 | Луганск
+https://streaming.televizor-24-tochka.ru/live/29.m3u8
+#EXTINF:-1,Север | Ненецкий АО
+https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8
+#EXTINF:-1,РТВ | Раменск
+https://e10-ll.facecast.net/rtv/index.m3u8
+#EXTINF:-1 tvg-shift="5",Аист | Иркутская область
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AIST/variant.m3u8
+#EXTINF:-1 tvg-shift="5",Аист (2) | Иркутская область
+https://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-shift="5",НТС | Иркутская область
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RENTVIRK/variant.m3u8
+#EXTINF:-1 tvg-shift="5",Актис | Иркутская область
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AKTIS/variant.m3u8
+#EXTINF:-1 tvg-shift="5",ТСТ | Иркутская область
+http://5.183.155.8:88/stream.m3u8
+#EXTINF:-1 tvg-shift="7",Губерния | Хабаровский край
+https://s97982.cdn.ngenix.net/hls/CH_R27_GUBERNYA/variant.m3u8
+#EXTINF:-1 tvg-shift="7",6 ТВ | Хабаровский край
+https://s97982.cdn.ngenix.net/hls/CH_R27_6TV/variant.m3u8
+#EXTINF:-1 tvg-shift="0",1 КБР | Нальчик
+https://rt-sth-nalch-htlive.cdn.ngenix.net/hls/CH_R01_KBR/variant.m3u8
+#EXTINF:-1 tvg-shift="9",Камчатка 1 | Камчатский край
+https://s14131.cdn.ngenix.net/hls/CH_R41_KAMCHATKA/variant.m3u8
+#EXTINF:-1 tvg-shift="9",41 Регион | Камчатский край
+https://s14131.cdn.ngenix.net/hls/CH_R02_41REG_OTT/variant.m3u8
+#EXTINF:-1 tvg-shift="-1",Каскад | Калининград
+https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
+#EXTINF:-1 tvg-shift="4",Катунь 24 | Алтайский край
+https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_KATUN24/variant.m3u8
+#EXTINF:-1 tvg-shift="0",12 канал | Вологодская область
+https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Самара 24 | Самарская область
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Самара ГИС | Самарская область
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8
+#EXTINF:-1 tvg-shift="0",450 (Губерния) | Самарская область
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Тольятти 24 | Самарская область
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
+#EXTINF:-1 tvg-shift="0",КТВ Луч | Самарская область
+https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KTVLUCH/variant.m3u8
+#EXTINF:-1 tvg-id="mir" tvg-shift="0",Вариант | Владимирская область
+https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
+#EXTINF:-1 tvg-id="mir" tvg-shift="0",Губерния 33 | Владимирская область
+https://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA33/variant.m3u8
+#EXTINF:-1 tvg-shift="0",TMTV | Татарстан
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
