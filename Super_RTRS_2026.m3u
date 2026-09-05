@@ -2709,6 +2709,8 @@ https://stream8.cinerama.uz/1025/index.m3u8
 # ===== Кнопка 11 =====
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="rentv",РЕН ТВ HD
+http://194.152.35.17/ren_tv/index.m3u8
 #EXTINF:-1 tvg-id="rentv" [OLD],РЕН ТВ +2
 http://178.134.1.158:8081/RENTV/index.m3u8?token=tva.in.ua
 #EXTINF:-1 tvg-id="rentv" [OLD],Рен ТВ +4
@@ -5237,6 +5239,8 @@ http://starcius-cinema.com/11587/index.m3u8?token=010101010101
 https://stream8.cinerama.uz/blocked/index.m3u8
 #EXTINF:-1,Viasat Nature
 https://stream8.cinerama.uz/blocked/index.m3u8
+#EXTINF:-1,Viasat Nature HD
+https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Epic Drama
 http://195.189.60.253/118/index.m3u8
 #EXTINF:-1 [OLD],viju TV1000 Русское
@@ -15042,7 +15046,7 @@ http://45.145.32.13:20440/tiji/index.m3u8?token=test
 #EXTINF:-1 [OLD],TV25 GE
 http://80.77.52.3/streams/media/tv-25_720x576/index.m3u8
 #EXTINF:-1,Travel+Adventure HD
-http://77.232.131.211/TravelAdventureHD/index.m3u8
+http://stream.mcquack.net/206/index.m3u8
 #EXTINF:-1 [OLD],O2TV
 http://77.232.131.211/O2TV/index.m3u8
 #EXTINF:-1 [OLD],4K ULTRA HD
@@ -16559,7 +16563,7 @@ http://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 http://s2.myowntv.org/hls/what.m3u8
 #EXTINF:-1,3ABN Kids Network
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
-#EXTINF:-1,4 Fun Kids (576i) [[Not 24/7]]
+#EXTINF:-1 [OLD],4 Fun Kids (576i) [[Not 24/7]]
 https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
 #EXTINF:-1,13 Kids (1080p)
 https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
@@ -16917,13 +16921,13 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
 #EXTINF:-1,Дождь (1080p) [Geo-blocked]
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Legislative",Дума ТВ (1080p) [Not 24/7]
+#EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Legislative",Дума ТВ (1080p) [Not 24/7]
 https://dumatv.iptv2022.com/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Sports",Матч! Планета (720p)
 https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8
 #EXTINF:-1,Общественное Независимое Телевидение (576p)
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
-#EXTINF:-1,Первый городской (Одесса) (1080p) [Not 24/7]
+#EXTINF:-1 [OLD],Первый городской (Одесса) (1080p) [Not 24/7]
 http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
 #EXTINF:-1,Первый Музыкальный Канал HD (1080p)
 http://rtmp.one.by:1300
@@ -22019,7 +22023,7 @@ https://x1colegal.com/hls/stream.m3u8
 https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
 #EXTINF:-1,Mir (576p)
 http://45.153.24.78/MIR/index.m3u8
-#EXTINF:-1,BelRos (720p)
+#EXTINF:-1 [OLD],BelRos (720p)
 https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
 #EXTINF:-1,Kinopokaz HD (1080p)
 http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
@@ -22607,8 +22611,8 @@ https://streamcdnb4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sM
 http://91.201.172.14:35005
 #EXTINF:-1 [OLD],Digi Sport 2 HD
 http://91.201.172.14:35006
-#EXTINF:-1 [OLD],Disney Channel HD
-https://adpnetworkhd-cmd.github.io/iptv/DisneyChannelDeutschland.m3u8
+#EXTINF:-1,Disney Channel HD
+http://66.102.126.10:8000/play/a013/index.m3u8
 #EXTINF:-1 [OLD],Dunyo Bo'ylab UZ
 https://s05.watcher.uz/65/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #EXTINF:-1,FashionBox
@@ -22687,7 +22691,7 @@ https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
 http://ott.watch/stream/6HAPZWKKG3/263.m3u8
 #EXTINF:-1,Zee TV HD
 http://41.205.93.154/ZEE-TV/index.m3u8
-#EXTINF:-1 [OLD],Видеокассета
+#EXTINF:-1,Видеокассета
 https://lbgo.bozztv.com/ssh101/ssh101/livebest90e/chunks.m3u8?lb_backend_hint=7
 #EXTINF:-1,Дикая охота HD
 http://ott.watch/stream/6HAPZWKKG3/274.m3u8
@@ -25195,6 +25199,24 @@ https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv
 https://fs.uplink.kz/7_kanal/mono.m3u8?token=onlinetv
 #EXTINF:-1,Khabar (576p)
 https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv
+#EXTINF:-1,1HD Music Television
+https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
+#EXTINF:-1,National Geographic HD (576p)
+http://103.165.93.31:8095/nationalGeographic/index.m3u8
+#EXTINF:-1,Travelxp HD
+http://stream.mcquack.net/451/index.m3u8
+#EXTINF:-1,Зал суда HD
+http://cdn.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,4 Fun Kids (576i)
+https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
+#EXTINF:-1,Blues TV
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
+#EXTINF:-1,The Jungle Book (1080p)
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1,Первый Городской (Одесса) (576p)
+http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
+#EXTINF:-1,MDR Fernsehen Thuringen
+https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
