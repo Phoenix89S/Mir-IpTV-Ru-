@@ -24873,9 +24873,9 @@ https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Radio Brianza TV
 https://57068da1deb21.streamlock.net/radiorbs/radiorbs/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino
+#EXTINF:-1 [OLD],like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104
-#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino Action
+#EXTINF:-1 [OLD],like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Movies",Viasat Kino Action
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105
 #EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Comedy;Movies",Viasat Kino Comedy
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249
@@ -24967,7 +24967,7 @@ https://stream8.cinerama.uz/1044/index.m3u8
 http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:-1,Усадьба HD
 https://stream8.cinerama.uz/1427/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Kids",Cine+ Kids
+#EXTINF:-1 [OLD],like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Kids",Cine+ Kids
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540
 #EXTINF:-1,Niki Junior (1080p)
 http://stream.mcquack.net/262/index.m3u8
@@ -25257,6 +25257,40 @@ https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8
 https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8
 #EXTINF:-1 tvg-id="che",Грозный | Чеченская республика
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
+#EXTINF:-1,Velvet. World Series (1080p)
+https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
+#EXTINF:-1,Velvet. Svaty (1080p)
+https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
+#EXTINF:-1,Velvet. Sovetskoe Kino (1080p)
+https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
+#EXTINF:-1,Velvet. Series Hits (1080p)
+https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
+#EXTINF:-1,Velvet. Scary (1080p)
+https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8
+#EXTINF:-1,Velvet. Mentovskiye Serialy (1080p)
+https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
+#EXTINF:-1,Velvet. Golden Collection (1080p)
+https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
+#EXTINF:-1,Velvet. European Movies (1080p)
+https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
+#EXTINF:-1,Detvora+ (1080p)
+https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
+#EXTINF:-1,National Geographic (1080p)
+http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8
+#EXTINF:-1,Cine+ Kids (576p)
+http://dtv.vol.net.ua/Cine_plus_Kids_HD/index.m3u8
+#EXTINF:-1,Disney XD (576p)
+http://185.227.34.179:8080/disney-xd/index.m3u8
+#EXTINF:-1,Smurf TV (480p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
+#EXTINF:-1,DocuBox Russia
+http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8
+#EXTINF:-1,Travelxp Russia (1080p)
+http://stream.mcquack.net/451/index.m3u8
+#EXTINF:-1,Viasat Kino (576p)
+http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
+#EXTINF:-1,Viasat Kino Action (576p)
+http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
