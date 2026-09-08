@@ -4067,7 +4067,7 @@ https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (4)
 https://stream8.cinerama.uz/1218/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tnt.png", ТНТ (2)
+#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tnt.png", ТНТ (3)
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=K-z3nz49R1oGQ-5yPSd8pg&e=2082157024&scheme=https
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/muz_tv.png", Муз ТВ
 https://stream8.cinerama.uz/1200/index.m3u8
@@ -4247,8 +4247,6 @@ http://176.118.197.101/Kinoseria/index.m3u8
 http://31148.rafail1982.uz/Russkiy_Roman/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_roman.png", Русский роман (2)
 http://31148.rafail1982.uz/Russkiy_Roman_HD/index.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_detectiv.png", Русский детектив
-http://31148.rafail1982.uz/Russkiy_Detektiv/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery (2)
@@ -4455,8 +4453,14 @@ https://stream8.cinerama.uz/1452/index.m3u8
 http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Setanta Sports 1
 https://stream8.cinerama.uz/1263/index.m3u8
+#EXTINF:-1 group-title="Спортивные", Setanta Sports 1 (2)
+http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Setanta Sports 2
 https://stream8.cinerama.uz/1264/index.m3u8
+#EXTINF:-1 group-title="Спортивные", Setanta Sports 2 (2)
+http://stream.mcquack.net/235/index.m3u8
+#EXTINF:-1 group-title="Спортивные", Sport 1 Baltic
+http://stream.mcquack.net/461/index.m3u8
 #EXTINF:-1 group-title="Спортивные", A21 Network
 https://tv.a21network.ru/content/37909/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Спорт
@@ -4519,6 +4523,8 @@ https://stream8.cinerama.uz/1416/index.m3u8
 https://cdn-01.bonus-tv.ru/tvm_edge/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Gagsnetwork
 http://stream.mcquack.net/458/index.m3u8
+#EXTINF:-1 group-title="Развлекательные", PV+
+http://stream.mcquack.net/397/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кинеко
 http://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Кино и сериалы", Дорама
@@ -4563,8 +4569,6 @@ https://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 https://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Родное кино
 https://stream8.cinerama.uz/1052/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Родное кино (2)
-http://31.148.48.15/Rodnoe_kino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Родное кино (3)
 http://176.118.197.101/RodnoeKino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Наше новое кино
@@ -4585,8 +4589,6 @@ http://31148.rafail1982.uz/Illusion_plus/index.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Новый Русский
 https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Русский бестселлер
-http://31148.rafail1982.uz/Russkiy_Bestseller/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Индийское кино
 https://stream8.cinerama.uz/1060/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Индия
@@ -4901,8 +4903,6 @@ http://vod.tuva.ru/myplanet/index.m3u8
 https://stream8.cinerama.uz/1247/index.m3u8
 #EXTINF:-1 group-title="Познавательные", One Planet
 http://stream.mcquack.net/448/index.m3u8
-#EXTINF:-1 group-title="Познавательные", Travel+Adventure
-http://31.148.48.15/Travel_Adventure_HD/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel Channel
 http://stream.mcquack.net/231/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel XP
@@ -4965,6 +4965,12 @@ http://stitch.teletarget.ru/vintera/flighttv/index.m3u8
 https://stream8.cinerama.uz/1449/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Телекафе
 https://stream8.cinerama.uz/1035/index.m3u8
+#EXTINF:-1 group-title="Познавательные", RAZ 1
+http://stream.mcquack.net/463/index.m3u8
+#EXTINF:-1 group-title="Познавательные", RAZ 2
+http://stream.mcquack.net/464/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Трофей
+http://stream.mcquack.net/357/index.m3u8
 #EXTINF:-1 group-title="Религиозные", Радость Моя
 https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Надежда
