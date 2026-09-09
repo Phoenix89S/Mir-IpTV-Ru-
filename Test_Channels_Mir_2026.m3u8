@@ -4049,8 +4049,6 @@ https://stream8.cinerama.uz/1034/index.m3u8
 https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (3)
 https://stream8.cinerama.uz/1025/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (4)
-http://194.152.35.17/tvc/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/spas.png", Спас (2)
 https://bonusspas.mediacdn.ru/cdn/spas/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://naggdd.github.io/iptv/logos/domashniy.png", Домашний (3)
@@ -4189,8 +4187,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 http://t1.tv.kvant-telecom.ru:8080/mosfilm/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/pobeda.png", Победа
 https://streaming.thestream.cyou/live/43.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/pobeda.png", Победа (2)
-https://streaming.televizor-24-tochka.ru/live/43.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/dom_kino.png", Дом Кино
 https://streaming.thestream.cyou/live/44.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/dom_kino.png", Дом Кино (2)
@@ -4258,15 +4254,13 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mult.png", Мульт
 https://stream8.cinerama.uz/1246/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mult.png", Мульт (2)
-http://t1.tv.kvant-telecom.ru:8080/mult_HD/index.m3u8?token=+W2MSER
+https://fs.uplink.kz/mult/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ani.png", Ani
 http://31148.rafail1982.uz/Ani/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/you.png", Ю
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/you.png", Ю (2)
 https://cdn-01.bonus-tv.ru/u/index.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_tv.png", RU.TV
-http://31.148.48.15/RU_TV/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_tv.png", RU.TV (2)
 https://stream8.cinerama.uz/1202/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/istoriya.png", История
@@ -4319,6 +4313,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/tnt4.png", ТНТ4 (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
+#EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/tnt4.png", ТНТ4 International
+https://fs.uplink.kz/tnt4/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/che.png", Че (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/che.png", Че (+4)
@@ -4371,6 +4367,8 @@ https://stream8.cinerama.uz/1456/index.m3u8
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 group-title="Информационные", Россия РТР
 https://streaming.televizor-24-tochka.ru/live/211.m3u8
+#EXTINF:-1 group-title="Информационные", Россия РТР (2)
+https://fs.uplink.kz/rtr_planeta/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Информационные", Euronews
 https://stream8.cinerama.uz/1024/index.m3u8
 #EXTINF:-1 group-title="Информационные", Euronews (2)
@@ -4385,6 +4383,8 @@ http://stream.mcquack.net/455/index.m3u8
 https://lbgo.bozztv.com/07/ushba79/index.m3u8
 #EXTINF:-1 group-title="Детские", Мультфильмы
 https://lbgo.bozztv.com/07/ushba80/index.m3u8
+#EXTINF:-1 group-title="Детские", СТС Kids (2)
+https://fs.uplink.kz/sts_kids/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Детские", Мама
 https://stream8.cinerama.uz/1244/index.m3u8
 #EXTINF:-1 group-title="Детские", Baby Time
@@ -4419,6 +4419,8 @@ http://31.148.48.15/Multimuzika/index.m3u8
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
 #EXTINF:-1 group-title="Детские", Рыжий
 https://stream8.cinerama.uz/1407/index.m3u8
+#EXTINF:-1 group-title="Детские", О! (2)
+https://fs.uplink.kz/o/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Детские", Союзмультфильмы
 http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="Детские", Уникум
@@ -4545,6 +4547,8 @@ http://stream.mcquack.net/151/index.m3u8
 http://ukr2.ukrainske.tv/493/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viasat Epic Drama
 http://195.189.60.253/118/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Start World
+https://fs.uplink.kz/start_world/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Кино и сериалы", Ретро
 http://176.118.197.101/Retro/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Ретро (2)
@@ -4576,11 +4580,9 @@ http://176.118.197.101/LubimoeKino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Hollywood
 https://stream8.cinerama.uz/1443/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Иллюзион+
-https://s70378.cdn.ngenix.net/illusion_plus/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Иллюзион+ (2)
 http://176.118.197.101/Illuzion+/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Иллюзион+ (3)
-http://31148.rafail1982.uz/Illusion_plus/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Русский Иллюзион
+https://fs.uplink.kz/russkiy_illusion/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Кино и сериалы", Всё ТВ HD
 https://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Новый Русский
@@ -4834,8 +4836,6 @@ https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1 group-title="Познавательные", BRICS
 https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные", BRICS (2)
-https://brics.bonus-tv.ru/cdn/brics/russian/index.m3u8
-#EXTINF:-1 group-title="Познавательные", BRICS (3)
 https://origin5.mediacdn.ru/live/brics/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Terra
 http://31.148.48.15/Terra/index.m3u8
@@ -4847,6 +4847,8 @@ https://stream8.cinerama.uz/1041/index.m3u8
 https://stream8.cinerama.uz/1042/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Здоровое
 https://stream8.cinerama.uz/1428/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Тонус
+http://194.143.148.28/Mir24/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Драйв
 https://stream8.cinerama.uz/1421/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Просвещение
@@ -4894,9 +4896,9 @@ http://158.101.222.193:88/georgia_play.php?id=muzhskoy
 #EXTINF:-1 group-title="Познавательные", Телепутешествия
 http://31.148.48.15/Teleputeshestviya/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Моя планета
-http://vod.tuva.ru/myplanet/index.m3u8
-#EXTINF:-1 group-title="Познавательные", Моя планета (2)
 https://stream8.cinerama.uz/1247/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Моя планета (2)
+http://91.226.120.120/chid210/index.m3u8
 #EXTINF:-1 group-title="Познавательные", One Planet
 http://stream.mcquack.net/448/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Big Planet
@@ -4957,6 +4959,8 @@ https://stream8.cinerama.uz/1405/index.m3u8
 https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
 #EXTINF:-1 group-title="Познавательные", Полет
 http://stitch.teletarget.ru/vintera/flighttv/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Про бизнес
+https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/index.m3u8
 #EXTINF:-1 group-title="Познавательные", NHK World
 https://stream8.cinerama.uz/1449/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Телекафе
@@ -4965,6 +4969,8 @@ https://stream8.cinerama.uz/1035/index.m3u8
 http://stream.mcquack.net/463/index.m3u8
 #EXTINF:-1 group-title="Познавательные", RAZ 2
 http://stream.mcquack.net/464/index.m3u8
+#EXTINF:-1 group-title="Познавательные", RAZ 3
+https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные", Трофей
 http://stream.mcquack.net/357/index.m3u8
 #EXTINF:-1 group-title="Религиозные", Радость Моя
