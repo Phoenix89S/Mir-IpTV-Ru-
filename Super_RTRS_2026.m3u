@@ -1998,7 +1998,7 @@ https://cdn.ntv.ru/ntv-msk_hd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0
 #EXTINF:-1 tvg-id="ntv",НТВ (3)
 https://cdn.ntv.ru/ntv0/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="ntv",НТВ +1 (2)
-https://cdn.ntv.ru/ntv4/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+https://cdn.ntv.ru/ntv1/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="ntv",НТВ +2 (2)
 https://cdn.ntv.ru/ntv2/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="ntv",НТВ +7 (2)
@@ -2011,6 +2011,8 @@ http://stream.mcquack.net/301/index.m3u8
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
 #EXTINF:-1,Неизвестная Россия (2)
 http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
+#EXTINF:-1 tvg-id="ntv",НТВ +4 (2)
+https://cdn.ntv.ru/ntv4/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 
 # ===== Кнопка 5 =====
 #EXTINF:-1 tvg-id="5",Пятый канал
@@ -4319,10 +4321,12 @@ https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir" [OLD],МИР HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir" [OLD],Мир +2
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="mir" [OLD],Мир +7
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="mir",Мир +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="mir",Мир +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="mir",Мир +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="mir",Мир 24
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir",Мир 24 HD
@@ -5310,7 +5314,7 @@ http://starcius-cinema.com/10114/index.m3u8?token=010101010101
 #EXTINF:-1,Viju TV1000 (2)
 https://stream8.cinerama.uz/1058/index.m3u8
 #EXTINF:-1,Viju TV1000 Русское (2)
-http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
+https://fs.uplink.kz/viju_tv1000_russkoe/index.m3u8?token=onlinetv
 #EXTINF:-1,Viju TV1000 Action (2)
 https://stream8.cinerama.uz/1225/index.m3u8
 #EXTINF:-1,Viju TV1000 Action (3)
@@ -21248,9 +21252,9 @@ https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
 #EXTINF:-1 [OLD],Viju Explore (3)
 http://cdn.kubteltv.workers.dev/?ID=263
 #EXTINF:-1,Viju History (2)
-http://158.101.222.193:88/georgia_play.php?id=viasathist
-#EXTINF:-1 [OLD],Viju History (3)
-http://158.101.222.193:88/georgia_play.php?id=viasathist
+http://178.124.179.122/HistoryHD/index.m3u8
+#EXTINF:-1,Viju History (3)
+http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
 #EXTINF:-1,Viju Nature (2)
 https://stream8.cinerama.uz/1228/index.m3u8
 #EXTINF:-1,Discovery (2)
@@ -24222,7 +24226,7 @@ https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/varian
 #EXTINF:-1 tvg-shift="4",8 канал | Новосибирск
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Осетия Ирыстон | Владикавказ
-https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
+https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_IRISTON/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Первый Псковский | Псковская область
 https://live-3.otcnet.ru/pskov/index.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],ЯПервый | Ярославская облась
@@ -25313,7 +25317,7 @@ http://stream.mcquack.net/169/index.m3u8
 http://stream.mcquack.net/136/index.m3u8
 #EXTINF:-1,Дом Кино Премиум (2)
 https://fs.uplink.kz/dom_kino_premium/index.m3u8?token=onlinetv
-#EXTINF:-1,Viju Nature (3)
+#EXTINF:-1 [OLD],Viju Nature (3)
 https://fs.uplink.kz/viju_nature/index.m3u8?token=onlinetv
 #EXTINF:-1,Кинопремьера (2)
 http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
@@ -25481,6 +25485,12 @@ https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 https://istoki.tv/live/stream1/playlist.m3u8
 #EXTINF:-1,Хабар | Казахстан
 https://fs.uplink.kz/habar/index.m3u8?token=onlinetv
+#EXTINF:-1,Магнат
+https://s1.tv-nano.com/Magnat/index.m3u8
+#EXTINF:-1 tvg-shift="0",Осетия Ирыстон (2) | Владикавказ
+http://catchup.videoline.ru/iriston/index.m3u8
+#EXTINF:-1 tvg-shift="0",Самара ГИС (2) | Самарская область
+https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
