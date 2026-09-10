@@ -184,76 +184,78 @@ https://cdn.ntv.ru/ntv0/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.32 НТВ +1
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.33 НТВ +1 (2)
-https://cdn.ntv.ru/ntv4/index.m3u8
+https://cdn.ntv.ru/ntv1/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.34 НТВ +2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.35 НТВ +2 (2)
 https://cdn.ntv.ru/ntv2/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.36 НТВ +4
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.37 НТВ +7
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.37 НТВ +4 (2)
+https://cdn.ntv.ru/ntv4/index.m3u8
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.38 НТВ +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.38 НТВ +7 (2)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/ntv.png",4.1.39 НТВ +7 (2)
 https://cdn.ntv.ru/ntv7/index.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ntv_hit.png",4.1.39 НТВ Хит
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ntv_hit.png",4.1.40 НТВ Хит
 https://cdn.ntv.ru/th_hit/index.m3u8
-#EXTINF:-1 group-title="Информационные",4.1.40 НТВ Мир
+#EXTINF:-1 group-title="Информационные",4.1.41 НТВ Мир
 https://streaming.thestream.cyou/live/213.m3u8
-#EXTINF:-1 group-title="Информационные",4.1.41 НТВ Мир (3)
+#EXTINF:-1 group-title="Информационные",4.1.42 НТВ Мир (3)
 https://streaming.televizor-24-tochka.ru/live/213.m3u8
-#EXTINF:-1 group-title="Информационные",4.1.42 НТВ Мир (4)
+#EXTINF:-1 group-title="Информационные",4.1.43 НТВ Мир (4)
 https://stream8.cinerama.uz/1434/index.m3u8
-#EXTINF:-1 group-title="Развлекательные",4.1.43 НТВ Стиль
+#EXTINF:-1 group-title="Развлекательные",4.1.44 НТВ Стиль
 https://cdn.ntv.ru/th_style/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",4.1.44 НТВ Сериал
+#EXTINF:-1 group-title="Кино и сериалы",4.1.45 НТВ Сериал
 https://cdn.ntv.ru/th_serial/index.m3u8
-#EXTINF:-1 group-title="Познавательные",4.1.45 НТВ Право
+#EXTINF:-1 group-title="Познавательные",4.1.46 НТВ Право
 https://cdn.ntv.ru/th_pravo/index.m3u8
-#EXTINF:-1 group-title="Региональные",4.1.46 ННТВ | Нижегородская область
+#EXTINF:-1 group-title="Региональные",4.1.47 ННТВ | Нижегородская область
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8
-#EXTINF:0 group-title="Общероссийские",4.1.47 НТВ
+#EXTINF:0 group-title="Общероссийские",4.1.48 НТВ
 http://s05.wsbof.com/ntv/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Общероссийские",4.1.48 НТВ HD
+#EXTINF:0 group-title="Общероссийские",4.1.49 НТВ HD
 http://s05.wsbof.com/ntv-hd-orig/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Общероссийские",4.1.49 НТВ Мир
+#EXTINF:0 group-title="Общероссийские",4.1.50 НТВ Мир
 http://s05.wsbof.com/ntv-mir/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Кино",4.1.50 НТВ Хит
+#EXTINF:0 group-title="Кино",4.1.51 НТВ Хит
 http://s05.wsbof.com/ntv-hit/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Кино",4.1.51 НТВ Сериал
+#EXTINF:0 group-title="Кино",4.1.52 НТВ Сериал
 http://s05.wsbof.com/ntv-serial/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Познавательные",4.1.52 НТВ Стиль
+#EXTINF:0 group-title="Познавательные",4.1.53 НТВ Стиль
 http://s05.wsbof.com/ntv-style/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +2ч",4.1.53 НТВ (+2)
+#EXTINF:0 group-title="Россия +2ч",4.1.54 НТВ (+2)
 http://s05.wsbof.com/ntv-plus-2/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +4ч",4.1.54 НТВ (+4)
+#EXTINF:0 group-title="Россия +4ч",4.1.55 НТВ (+4)
 http://s05.wsbof.com/ntv-plus-4/mpegts?token=a0ac444f
-#EXTINF:0 group-title="Россия +7ч",4.1.55 НТВ (+7)
+#EXTINF:0 group-title="Россия +7ч",4.1.56 НТВ (+7)
 http://s05.wsbof.com/ntv-plus-7/mpegts?token=a0ac444f
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",4.1.56 НТВ HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",4.1.57 НТВ HD
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",4.1.57 НТВ Хит
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",4.1.58 НТВ Хит
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",4.1.58 НТВ Стиль
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",4.1.59 НТВ Стиль
 http://dmi3y-tv.ru/hls/CH_NTVSTIL.m3u8
-#EXTINF:-1 ,4.1.59 НТВ HD
-https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 ,4.1.60 НТВ HD
+https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 ,4.1.61 НТВ HD
 https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.61 НТВ +1
+#EXTINF:-1 ,4.1.62 НТВ +1
 https://cdn.ntv.ru/ntv1/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.62 НТВ +2
+#EXTINF:-1 ,4.1.63 НТВ +2
 https://cdn.ntv.ru/ntv2/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.63 НТВ +4
+#EXTINF:-1 ,4.1.64 НТВ +4
 https://cdn.ntv.ru/ntv4/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.64 НТВ +7
+#EXTINF:-1 ,4.1.65 НТВ +7
 https://cdn.ntv.ru/ntv7/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.65 НТВ Хит
+#EXTINF:-1 ,4.1.66 НТВ Хит
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.66 НТВ Сериал
+#EXTINF:-1 ,4.1.67 НТВ Сериал
 https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.67 НТВ Право
+#EXTINF:-1 ,4.1.68 НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 ,4.1.68 НТВ Стиль
+#EXTINF:-1 ,4.1.69 НТВ Стиль
 https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="2x2.ru@SD",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
@@ -4163,14 +4165,10 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/zvezda.png", Звезда Плюс
 https://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/index.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (+2)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир +2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир (+4)
+#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир +4
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир 24 (2)
-https://uiptv.do.am/1ufc/112234126/playlist.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир 24 (3)
-https://stream8.cinerama.uz/1219/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/tnt.png", ТНТ (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/tnt.png", ТНТ (+4)
@@ -4206,9 +4204,11 @@ https://stream8.cinerama.uz/1058/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_russkoe.png", Viju TV1000 Русское
 https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_russkoe.png", Viju TV1000 Русское (2)
-http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
+https://fs.uplink.kz/viju_tv1000_russkoe/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_russkoe.png", Viju TV1000 Русское (3)
 https://stream8.cinerama.uz/1059/index.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_russkoe.png", Viju TV1000 Русское (4)
+http://iptv.mega.net.ru:8888/TV1000_Russkoe_kino/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_action.png", Viju TV1000 Action
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_action.png", Viju TV1000 Action (2)
@@ -4218,13 +4218,13 @@ https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_history.png", Viju History
 https://stream8.cinerama.uz/1046/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_history.png", Viju History (2)
-http://158.101.222.193:88/georgia_play.php?id=viasathist
+http://178.124.179.122/HistoryHD/index.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_history.png", Viju History (3)
+http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_nature.png", Viju Nature
 https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_nature.png", Viju Nature (2)
 https://stream8.cinerama.uz/1228/index.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/viju_nature.png", Viju Nature (3)
-https://fs.uplink.kz/viju_nature/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinopremiera.png", Кинопремьера
 https://stream8.cinerama.uz/1207/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinohit.png", Кинохит
@@ -4287,6 +4287,10 @@ https://stream.smotrim.ru/hls/moscow_24/playlist_3.m3u8
 https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ctime.png", Настоящее время
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир 24 (2)
+https://uiptv.do.am/1ufc/112234126/playlist.m3u8
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mir.png", Мир 24 (3)
+https://stream8.cinerama.uz/1219/index.m3u8
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/2x2.png", 2x2 (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/2x2.png", 2x2 (+4)
@@ -4747,6 +4751,8 @@ https://cityeden.catcast.tv/content/47515/index.m3u8
 https://cityeden.catcast.tv/content/38398/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Catcast", КиноДетектив
 https://cityeden.catcast.tv/content/41327/index.m3u8
+#EXTINF:-1 group-title="Кинозалы Catcast", КиноДок
+https://cityeden.catcast.tv/content/38354/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Catcast", КиноДрама
 https://cityeden.catcast.tv/content/45269/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Catcast", КиноКомедия
@@ -4973,10 +4979,10 @@ http://stream.mcquack.net/464/index.m3u8
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные", Трофей
 http://stream.mcquack.net/357/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Магнат
+https://s1.tv-nano.com/Magnat/index.m3u8
 #EXTINF:-1 group-title="Религиозные", Радость Моя
 https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
-#EXTINF:-1 group-title="Религиозные", Надежда
-http://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Бог Благ
 https://glorystarplus.tv/BogBlagTV/index.m3u8
 #EXTINF:-1 group-title="Религиозные", TBN Baltia
@@ -5185,6 +5191,8 @@ https://devyatka.iptv2022.com/index.m3u8
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Дон 24 | Ростов-на-Дону
 https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_DON24/variant.m3u8
+#EXTINF:-1 group-title="Региональные", Дон 24 (2) | Ростов-на-Дону
+https://donmedia.bonus-tv.ru/cdn/donmedia/index.m3u8
 #EXTINF:-1 group-title="Региональные", Первый Ростовский | Ростов-на-Дону
 https://rost.mediacdn.ru/cdn/rostov1/index.m3u8
 #EXTINF:-1 group-title="Региональные", Евразия (2) | Орск
@@ -5294,9 +5302,11 @@ https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Инфо 24 | Курганcкая областьы
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Осетия Ирыстон | Владикавказ
-https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
+https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_IRISTON/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Осетия Ирыстон (2) | Владикавказ
-https://catchup.videoline.ru/iriston/index.m3u8
+http://catchup.videoline.ru/iriston/index.m3u8
+#EXTINF:-1 group-title="Региональные", Осетия Ирыстон (3) | Владикавказ
+https://osir.mediacdn.ru/cdn/osetia/index.m3u8
 #EXTINF:-1 group-title="Региональные", Панорама | Тверская область
 https://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_PANORAMATV/variant.m3u8
 #EXTINF:-1 group-title="Региональные", Тверской проспект | Тверская область
