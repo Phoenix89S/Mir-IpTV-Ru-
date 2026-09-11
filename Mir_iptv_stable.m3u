@@ -5927,6 +5927,8 @@ http://t1.tv.kvant-telecom.ru:8080/rbk/index.m3u8?token=+W2MSER
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 #EXTINF:-1 group-title="Информационные", ОСН
 https://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
+#EXTINF:-1 group-title="Информационные", ЛДПР ТВ
+http://46.46.143.222:1935/live/ldpr.stream_480p/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", Дума
 https://dumatv.iptv2022.com/index.m3u8
 #EXTINF:-1 group-title="Информационные", CNN
@@ -6019,6 +6021,8 @@ https://flussonic.mkpnet.ru/tv-3848dd8604a262e0/video.m3u8
 https://stream8.cinerama.uz/1445/index.m3u8
 #EXTINF:-1 group-title="Детские", Капитан Фантастика
 https://stream8.cinerama.uz/1406/index.m3u8
+#EXTINF:-1 group-title="Детские", Плюс минус 16
+https://media.16pm.ru/live/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Бокс
 http://158.101.222.193:88/georgia_play.php?id=boxtv
 #EXTINF:-1 group-title="Спортивные", Бокс (2)
@@ -6085,10 +6089,12 @@ https://stream8.cinerama.uz/1249/index.m3u8
 https://stream8.cinerama.uz/1053/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Fashion (2)
 https://lbgo.bozztv.com/07/ushba93/index.m3u8
+#EXTINF:-1 group-title="Развлекательные", Fashion (3)
+https://fashionlive.mediacdn.ru/cdn/fashiontv/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", World Fashion
 http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", World Fashion (2)
-http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
+https://cdn.wfc.tv/cdn/stream-rus.m3u8
 #EXTINF:-1 group-title="Развлекательные", Luxury
 https://s1.tv-nano.com/Luxury_rec/video.m3u8
 #EXTINF:-1 group-title="Развлекательные", Gametoon
@@ -6405,8 +6411,6 @@ https://stream8.cinerama.uz/1044/index.m3u8
 https://stream8.cinerama.uz/1410/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Бобер
 https://fs.uplink.kz/bober/index.m3u8?token=onlinetv
-#EXTINF:-1 group-title="Познавательные", Кто есть кто
-http://158.101.222.193:88/georgia_play.php?id=ktoestkto
 #EXTINF:-1 group-title="Познавательные", Точка.РФ
 http://158.101.222.193:88/georgia_play.php?id=hdlife
 #EXTINF:-1 group-title="Познавательные", Точка.РФ (2)
@@ -6515,6 +6519,8 @@ https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 http://stream.mcquack.net/357/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Магнат
 https://s1.tv-nano.com/Magnat/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Joy Cook
+https://stitch.teletarget.ru/peerstv/joycook/index.m3u8
 #EXTINF:-1 group-title="Религиозные", Бог Благ
 https://glorystarplus.tv/BogBlagTV/index.m3u8
 #EXTINF:-1 group-title="Религиозные", TBN Baltia
