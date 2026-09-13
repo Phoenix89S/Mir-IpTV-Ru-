@@ -4938,7 +4938,7 @@ http://stream.mcquack.net/317/index.m3u8
 #EXTINF:-1,FON Music (576p)
 https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="tnt",ТНТ4 (2)
-http://194.152.35.17/tnt4/index.m3u8
+https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
 
 # ===== Кнопка 20 =====
 #EXTINF:-1 tvg-id="muztv",МУЗ-ТВ
@@ -5179,6 +5179,8 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
 #EXTINF:-1 tvg-id="che" [OLD],ЧЕ!
 http://31148.rafail1982.uz/Che/index.m3u8
+#EXTINF:-1,Перец (2)
+http://stream.mcquack.net/121/index.m3u8
 
 # ===== Кнопка 23 =====
 #EXTINF:-1,Солнце
@@ -5253,8 +5255,14 @@ https://rutvkids.ru/live/efir/index.m3u8
 https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:-1,RU.TV SD (576p)
 http://stream.mcquack.net/109/index.m3u8
-#EXTINF:-1,RU.TV (2)
+#EXTINF:-1 [OLD],RU.TV (2)
 https://stream8.cinerama.uz/1202/index.m3u8
+#EXTINF:-1,RU.TV РУ.ТВ
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1,RU.TV РУ.ТВ (2)
+https://stream8.cinerama.uz/1202/index.m3u8
+#EXTINF:-1,RU.TV РУ.ТВ (3)
+http://77.232.131.211/RUTV/index.m3u8
 
 # ===== Кнопка 26 =====
 #EXTINF:-1 [OLD],TV1000 action
@@ -22229,8 +22237,8 @@ http://181.78.121.15:8000/play/a00a/index.m3u8
 http://stream.mcquack.net/220/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon
 http://213.91.179.28:8000/play/a056
-#EXTINF:-1 [OLD],Nicktoons (720p)
-http://40.160.24.55/NICKTOONS/index.m3u8
+#EXTINF:-1,Nicktoons (720p)
+http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 [OLD],Belarus-4 Gomel (720p)
 http://46.56.85.151:8080/0.m3u8
 #EXTINF:-1 [OLD],Love Nature HD (720p)
@@ -22535,7 +22543,7 @@ http://178.134.1.158:8081/red/index.m3u8
 https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv
 #EXTINF:-1 [OLD],Russkiy Illusion (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
-#EXTINF:-1,Nick Jr. (1080p)
+#EXTINF:-1 [OLD],Nick Jr. (1080p)
 http://40.160.24.55/NICK_JR/index.m3u8
 #EXTINF:-1,Pixel TV (1080p)
 http://stream.mcquack.net/323/index.m3u8
@@ -25529,6 +25537,10 @@ https://stitch.teletarget.ru/peerstv/joycook/index.m3u8
 http://radio.tvs.by/BT5/index.m3u8
 #EXTINF:-1,TV1 KG | Кыргызстан
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+#EXTINF:-1,Nickelodeon (720p)
+http://198.58.104.90:8989/nickelodeon/index.m3u8
+#EXTINF:-1,Комедия (3)
+http://192.162.64.99:5100/play/a02k/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
