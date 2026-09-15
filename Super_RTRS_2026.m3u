@@ -16654,7 +16654,7 @@ http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1,Chinola TV (480p)
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
 #EXTINF:-1,Chithiram (576p)
-https://cdn-6.pishow.tv/live/1243/master.m3u8
+https://cdn.pishow.tv/ott/live/1243/master.m3u8
 #EXTINF:-1,Christian Youth Channel (CYC) (1080p)
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1,Clan Internacional Americas (1080p) [Geo-blocked]
@@ -22363,7 +22363,7 @@ http://181.78.8.199:8000/play/a0dn/index.m3u8
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 [OLD],Kids TV (1080p)
 http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kids-tv-hd.m3u8
-#EXTINF:-1,Nick Jr. Latin America (1080p)
+#EXTINF:-1 [OLD],Nick Jr. Latin America (1080p)
 http://177.234.249.178:8888/NICK-JR/index.m3u8
 #EXTINF:-1,Nickelodeon Latin America (1080p)
 http://15.204.246.24:8080/NickHD/index.m3u8
@@ -23888,16 +23888,16 @@ https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="0",Архыз 24 (2) | Карачаево-Черкесия
 https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="che" tvg-shift="0",Архыз 24 (3) | Карачаево-Черкесия
-https://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/variant.m3u8
+https://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_ARKHIZ241/variant.m3u8
 #EXTINF:-1 tvg-shift="2",БСТ | Башкортостан
 https://bsttv.bonus-tv.ru/cdn/bst/index.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],БСТ (2) | Башкортостан
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Белгород 24 (2)
 http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
-#EXTINF:-1 tvg-shift="0",ВОТ | Липецк
+#EXTINF:-1 tvg-shift="0" [OLD],ВОТ | Липецк
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
-#EXTINF:-1 tvg-shift="0",ВОТ (2) | Липецк
+#EXTINF:-1 tvg-shift="0" [OLD],ВОТ (2) | Липецк
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8
 #EXTINF:-1 tvg-shift="2",Ветта 24 | Пермь
 https://serv24.vintera.tv/vetta/vetta_office/playlist.m3u8
@@ -23916,7 +23916,7 @@ https://s34351.cdn.ngenix.net/hls/CH_R03_NVC_OTT/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Первый Тульский | Тульская область
 http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Первый Тульский (2) | Тульская область
-https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
+http://5.164.24.83/tula/1tv_hi/index.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Самара 24 (2)
 https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-shift="0" [OLD],Вариант | Владимир
@@ -24022,7 +24022,7 @@ http://stream.mcquack.net/125/index.m3u8
 #EXTINF:-1 [OLD],Беларусь 4
 http://46.56.85.151:8080/0.m3u8
 #EXTINF:-1 tvg-shift="3",12 канал | Омск
-https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-shift="3",12 канал (2) | Омск
 https://12channel.bonus-tv.ru/cdn/omskchannel/playlist.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],TV Губерния (3) | Воронеж
@@ -24226,7 +24226,7 @@ https://serv30.vintera.tv/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 tvg-shift="0",Липецкое время 24 (2) | Липецкая область
 https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_LVREM/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Новый век | Тамбов
-https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8
+https://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_NOVIY_VEK/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Новый век (2) | Тамбов
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
 #EXTINF:-1 tvg-shift="2" [OLD],ОТВ | Екатеринбург
@@ -24780,7 +24780,7 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.
 #EXTINF:-1 tvg-shift="4",8 канал | Красноярск
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Прима | Красноярск
-https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
+https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_STS/variant.m3u8
 #EXTINF:-1 tvg-shift="4",Прима (2) | Красноярск
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 #EXTINF:-1,Рика | Казахстан
@@ -24957,7 +24957,7 @@ https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/varian
 https://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Р40 | Ярославская область
 https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
-#EXTINF:-1,РТК | Забайкальский край
+#EXTINF:-1 [OLD],РТК | Забайкальский край
 http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_RTKZAB/variant.m3u8
 #EXTINF:-1 tvg-shift="0",Регион 29 | Архангельск
 https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
@@ -25225,7 +25225,7 @@ https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv
 http://45.70.201.81:8000/play/a00p/index.m3u8
 #EXTINF:-1,Disney International HD (1080p)
 http://202.70.146.135:8000/play/a04p/index.m3u8
-#EXTINF:-1,Pakapaka (576p)
+#EXTINF:-1 [OLD],Pakapaka (576p)
 http://138.121.113.175:8000/play/a04d/index.m3u8
 #EXTINF:-1,24KZ (576p)
 https://fs.uplink.kz/24KZ/mono.m3u8?token=onlinetv
@@ -25461,7 +25461,7 @@ https://stream8.cinerama.uz/1431/index.m3u8
 https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv
 #EXTINF:-1,QazSport | Казахстан
 http://stream.mcquack.net/72/index.m3u8
-#EXTINF:-1,Fix & Foxi (540p)
+#EXTINF:-1 [OLD],Fix & Foxi (540p)
 https://live.omni3.pl/fixfoxide/index.m3u8?token=ebnk.xyz
 #EXTINF:-1 [OLD],ТВ3 (3)
 http://flussonic.linkintel.ru/tv-3/index.m3u8
@@ -25541,6 +25541,38 @@ http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1,Комедия (3)
 http://192.162.64.99:5100/play/a02k/index.m3u8
+#EXTINF:-1,Nick Jr. (720p)
+http://102.129.186.182:81/nick/index.m3u8
+#EXTINF:-1,Nick Jr. Asia HD (720p)
+http://58.8.186.128:10003/bysid/2330
+#EXTINF:-1,Доктор (3)
+http://45.11.139.43:8555/doctor/index.m3u8
+#EXTINF:-1 tvg-shift="3",Омск ТВ (2) | Омск
+https://bl.rutube.ru/livestream/9927a61345cbec5aac6558f6c5454d61/index.m3u8?s=9LljursQaAxFdR0mnennUQ&e=2070623518&scheme=https
+#EXTINF:-1 tvg-shift="5",ТСТ (2) | Иркутская область
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_TST/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Учалы | Башкортостан
+https://s45177.cdn.ngenix.net/hls/CH_R02_UCHALYTV/variant.m3u8
+#EXTINF:-1 tvg-shift="2",Рифей (2) | Пермь
+https://bl.rutube.ru/livestream/57486bf8e1c01d16a5a939c463867fab/index.m3u8?s=7e16kFowncLriG9eElNY7g&e=2070623512&scheme=https
+#EXTINF:-1 tvg-shift="0",Барс (2) | Иваново
+https://bl.rutube.ru/livestream/f79ff24ad16cf5f5eb52994647596d13/index.m3u8?s=ZrXipYUZHniVrAVSwMJWhQ&e=2070623501&scheme=https
+#EXTINF:-1 tvg-shift="0",ВОТ | Липецкая область
+https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
+#EXTINF:-1 tvg-shift="0",ВОТ (2) | Липецкая область
+https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_LIPETSK_VOTTV/variant.m3u8
+#EXTINF:-1 tvg-shift="0",Липецкое время 24 (3) | Липецкая область
+https://bl.rutube.ru/livestream/23afd7debed1cfc7a8efa0827c24d836/index.m3u8?s=IOkUTZHoPSqNn0IukRgYNw&e=2070623511&scheme=https
+#EXTINF:-1 tvg-shift="0",Липецк 24 | Липецкая область
+https://bl.rutube.ru/livestream/b04fc212802bbf7ec94768c029e54aa9/index.m3u8?s=PxMZcpt76COiPH4EwWL3hw&e=2070623508&scheme=https
+#EXTINF:-1 tvg-shift="0",Саров 24 | Нижегородская область
+https://serv30.vintera.tv/sarov/sarov_stream/playlist.m3u8
+#EXTINF:-1 tvg-shift="0",Тверской проспект (2) | Тверская область
+http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
+#EXTINF:-1,ЗРТК | Забайкальский край
+https://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_RTKZAB/variant.m3u8
+#EXTINF:-1,ЗРТК (2) | Забайкальский край
+https://stream.zrtk.ru/zrtk.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
