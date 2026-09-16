@@ -25573,6 +25573,12 @@ http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
 https://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_RTKZAB/variant.m3u8
 #EXTINF:-1,ЗРТК (2) | Забайкальский край
 https://stream.zrtk.ru/zrtk.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Pasco TV (Pasco County FL) (480p)
+https://cpcdn.azureedge.net/PASCOCOFLLIVE1/PASCOCOFLLIVE1/playlist.m3u8
+#EXTINF:-1,КиноДок
+https://cityeden.catcast.tv/content/38354/index.m3u8
+#EXTINF:-1,КиноФантастика
+https://cityeden.catcast.tv/content/45268/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
