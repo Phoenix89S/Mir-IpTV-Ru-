@@ -1459,6 +1459,8 @@ https://s91030.cdn.ngenix.net/hls/CH_R01_VOSTOK24_OTT/variant.m3u8
 https://s34351.cdn.ngenix.net/hls/CH_R14_YKT/variant.m3u8
 #EXTINF:-1 tvg-shift="6",Якутия 24 (2) | Якутия
 https://live-saha.cdnvideo.ru/saha/yak24rtmp/playlist.m3u8
+#EXTINF:-1 tvg-id="2",Россия 1 (4)
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 
 # ===== Кнопка 3 =====
 #EXTINF:-1 tvg-id="match" [OLD],МАТЧ ТВ
@@ -3394,7 +3396,7 @@ http://31148.rafail1982.uz/STS_Kids_HD/index.m3u8
 #EXTINF:-1 tvg-id="sts",СТС (2)
 http://stream.mcquack.net/138/index.m3u8
 #EXTINF:-1 tvg-id="sts",СТС Kids (2)
-https://fs.uplink.kz/sts_kids/index.m3u8?token=onlinetv
+http://stream.mcquack.net/197/index.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-shift="7" [OLD],СТС +7 (Владивосток)
 https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_ATV/variant.m3u8
 #EXTINF:-1 tvg-id="sts" [OLD],СТС Love (+7)
@@ -5376,7 +5378,7 @@ https://stream8.cinerama.uz/1059/index.m3u8
 #EXTINF:-1,viju TV1000 russkoe (576p)
 https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv
 #EXTINF:-1,Viju TV1000 Action (4)
-https://fs.uplink.kz/viju_tv1000_action/index.ts.m3u8?token=onlinetv
+http://89.33.29.115:8080/TV1000_Action/index.m3u8
 
 # ===== Кнопка 27 =====
 #EXTINF:-1,Kluch (576p)
@@ -21147,8 +21149,8 @@ http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/6972/index.m3u8
 https://stream.mixadance.fm/mixadance128
 #EXTINF:-1 [OLD],Fan (2)
 http://185.78.112.47:8077/fan/index.m3u8
-#EXTINF:-1 [OLD],.Sci-Fi (2)
-https://s70378.cdn.ngenix.net/sony_sci_fi/index.m3u8
+#EXTINF:-1,.Sci-Fi (2)
+https://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
 #EXTINF:-1 [OLD],Hollywood (2)
 http://dmi3y-tv.online/hls/CH_HOLLYWOOD.m3u8
 #EXTINF:-1 [OLD],KinoJam 1
@@ -21272,15 +21274,15 @@ https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
 #EXTINF:-1 [OLD],Viju Explore (3)
 http://cdn.kubteltv.workers.dev/?ID=263
 #EXTINF:-1,Viju History (2)
-http://178.124.179.122/HistoryHD/index.m3u8
+http://stream.mcquack.net/101/index.m3u8
 #EXTINF:-1,Viju History (3)
-http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
+http://178.124.179.122/HistoryHD/index.m3u8
 #EXTINF:-1,Viju Nature (2)
 https://stream8.cinerama.uz/1228/index.m3u8
 #EXTINF:-1,Discovery (2)
-https://stream8.cinerama.uz/1039/index.m3u8
-#EXTINF:-1,Discovery (3)
 http://stream.mcquack.net/177/index.m3u8
+#EXTINF:-1,Discovery (3)
+http://89.33.29.115:8080/Discovery_HD/index.m3u8
 #EXTINF:-1 [OLD],RTД (2)
 http://185.78.112.47:8077/rtdoc_hd/index.m3u8
 #EXTINF:-1,360 (2)
@@ -22565,8 +22567,8 @@ http://37.186.70.39:40/play/85/index.m3u8
 https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1 [OLD],.black (2)
 https://s70378.cdn.ngenix.net/sony_turbo/index.m3u8
-#EXTINF:-1 [OLD],.Red (2)
-https://s70378.cdn.ngenix.net/sony_channel/index.m3u8
+#EXTINF:-1,.Red (2)
+http://176.100.46.245:90/red/index.m3u8
 #EXTINF:-1,Кино ТВ (2)
 http://194.152.35.17/kino-tv/index.m3u8
 #EXTINF:-1 [OLD],Amedia Hit (3)
@@ -24403,8 +24405,8 @@ http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
 http://lime-pi2.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:-1 [OLD],Кинеко (2)
 http://31.148.48.15/Kineko_HD/index.m3u8
-#EXTINF:-1 [OLD],Amedia 1 (2)
-http://31148.rafail1982.uz/A1/index.m3u8
+#EXTINF:-1,Amedia 1 (2)
+http://46.32.176.50/amedia1/index.m3u8
 #EXTINF:-1,МТРК | Казахстан
 https://tvcdn01.oktv.kz/tv/mtrk/index.m3u8
 #EXTINF:-1,Qazaqstan | Казахстан
@@ -25579,6 +25581,28 @@ https://cpcdn.azureedge.net/PASCOCOFLLIVE1/PASCOCOFLLIVE1/playlist.m3u8
 https://cityeden.catcast.tv/content/38354/index.m3u8
 #EXTINF:-1,КиноФантастика
 https://cityeden.catcast.tv/content/45268/index.m3u8
+#EXTINF:-1,Пятый (2)
+https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
+#EXTINF:-1,Viju History (4)
+http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
+#EXTINF:-1,Кинохит (3)
+http://89.33.29.115:8080/Kinohit/index.m3u8
+#EXTINF:-1,2x2 (4)
+http://185.23.80.23:8080/2x2/index.m3u8
+#EXTINF:-1,.Red (3)
+http://89.33.29.115:8080/SET/index.m3u8
+#EXTINF:-1,Дорама (3)
+http://89.33.29.115:8080/dorama_hd/index.m3u8
+#EXTINF:-1,Киносемья (3)
+http://185.121.1.163:8083/Kinosemya/index.m3u8
+#EXTINF:-1,Дикая охота (2)
+http://stream.mcquack.net/274/index.m3u8
+#EXTINF:-1,Мужской (3)
+http://89.33.29.115:8080/Muzhskoy/index.m3u8
+#EXTINF:-1,Глазами туриста (3)
+http://89.33.29.115:8080/Glazami_turista_HD/index.m3u8
+#EXTINF:-1,QazSport (2) | Казахстан
+https://fs.uplink.kz/qazsport_hd/index.m3u8?token=onlinetv
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
