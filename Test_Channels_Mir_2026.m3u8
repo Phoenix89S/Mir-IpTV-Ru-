@@ -4531,8 +4531,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/sts.png", СТС (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/sts.png", СТС International
-https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/domashniy.png", Домашний (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/domashniy.png", Домашний (+4)
@@ -4575,11 +4573,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://naggdd.github.io/iptv/logos/muz_tv.png", Муз ТВ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/mosfilm.png", Мосфильм Золотая коллекция (1)
-http://t1.tv.kvant-telecom.ru:8080/mosfilm/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/pobeda.png", Победа
 https://streaming.thestream.cyou/live/43.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/pobeda.png", Победа (3)
+#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/pobeda.png", Победа (2)
 http://iptv.mega.net.ru:8888/Pobeda/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/dom_kino.png", Дом Кино
 https://streaming.thestream.cyou/live/44.m3u8
@@ -4630,11 +4626,7 @@ http://89.33.29.115:8080/Kinohit/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия
 https://stream8.cinerama.uz/1235/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия (2)
-http://158.101.222.193:88/georgia_play.php?id=kinoseria
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/kinoseria.png", Киносерия (3)
 http://176.118.197.101/Kinoseria/index.m3u8
-#EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/ru_roman.png", Русский роман
-https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery
 https://stream8.cinerama.uz/1039/index.m3u8
 #EXTINF:-1 group-title="Популярные" tvg-logo="https://naggdd.github.io/iptv/logos/discovery.png", Discovery (2)
