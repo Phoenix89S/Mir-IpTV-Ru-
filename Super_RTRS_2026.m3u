@@ -3833,7 +3833,7 @@ https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8
 http://radio.tvs.by/TB-3/index.m3u8
 
 # ===== Кнопка 16 =====
-#EXTINF:-1 tvg-id="friday",Пятница International
+#EXTINF:-1 tvg-id="friday" [OLD],Пятница International
 http://158.101.222.193:88/georgia_play.php?id=friday
 #EXTINF:-1 tvg-id="friday",Пятница! (576p)
 https://vod.tuva.ru/friday/index.m3u8
@@ -5379,6 +5379,8 @@ https://stream8.cinerama.uz/1059/index.m3u8
 https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv
 #EXTINF:-1,Viju TV1000 Action (4)
 http://89.33.29.115:8080/TV1000_Action/index.m3u8
+#EXTINF:-1,Viasat Epic Drama Ukraine (576p)
+http://195.189.60.253/118/index.m3u8
 
 # ===== Кнопка 27 =====
 #EXTINF:-1,Kluch (576p)
@@ -19791,7 +19793,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_5/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Первый (+8)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Первый (+9)
+#EXTINF:-1 [OLD],Первый (+9)
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
 #EXTINF:-1,Пятый (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -19805,8 +19807,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Муз ТВ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 [OLD],Мосфильм Золотая коллекция
-https://fs.uplink.kz/mosfilm/tracks-v1a1/mono.ts.m3u8?token=onlinetv
+#EXTINF:-1,Мосфильм Золотая коллекция
+http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1 tvg-shift="0",Москва 24 (М24)
 https://stream.smotrim.ru/hls/moscow_24/playlist_3.m3u8
 #EXTINF:-1,Суббота (+2)
@@ -21229,13 +21231,13 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1 [OLD],TV8 [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
-#EXTINF:-1,Мосфильм Золотая коллекция (2)
+#EXTINF:-1 [OLD],Мосфильм Золотая коллекция (2)
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1,Кинокомедия (2)
 http://176.118.197.101/Kinokomediya/index.m3u8
 #EXTINF:-1,Киносерия (2)
-http://158.101.222.193:88/georgia_play.php?id=kinoseria
-#EXTINF:-1,Киносерия (3)
+http://176.118.197.101/Kinoseria/index.m3u8
+#EXTINF:-1 [OLD],Киносерия (3)
 http://176.118.197.101/Kinoseria/index.m3u8
 #EXTINF:-1,Ducktv
 https://stream8.cinerama.uz/1271/index.m3u8
@@ -22157,7 +22159,7 @@ https://stream8.cinerama.uz/1433/tracks-v1a1/mono.m3u8
 http://213.91.179.28:8000/play/a059
 #EXTINF:-1 [OLD],TeenNick (1080p)
 http://91.146.94.234:10001/play/a08o
-#EXTINF:-1 [OLD],Unique TV (576p)
+#EXTINF:-1,Unique TV (576p)
 https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Entertainment;Kids",Veronica / Disney Jr.
 http://86.87.15.10:8003/play/a01x/index.m3u8
@@ -24397,7 +24399,7 @@ https://live.teleradiocom.tj/4/3m.m3u8
 http://94.155.93.182/POBEDA_HD/index.m3u8
 #EXTINF:-1,Русский роман (3)
 https://vod.tuva.ru/rusroman/index.m3u8
-#EXTINF:-1,НСТ (2)
+#EXTINF:-1 [OLD],НСТ (2)
 https://vod.tuva.ru/nst/index.m3u8
 #EXTINF:-1 [OLD],Уникум (2)
 http://31148.rafail1982.uz/Detskiy/index.m3u8
@@ -24579,7 +24581,7 @@ https://streaming.radiohub.hr/RadioHub_WEB_streaming/BHWUC27pGZ/3.m3u8
 https://stream8.cinerama.uz/1500/playlist.m3u8
 #EXTINF:-1,Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Entertainment;Kids",Unique TV (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Entertainment;Kids",Unique TV (576p)
 http://103.175.73.12:8080/live/688/master.m3u8
 #EXTINF:-1,KTK HD (720p) [Not 24/7]
 http://89.218.30.37/ktklive/live.hq/playlist.m3u8
@@ -25081,7 +25083,7 @@ http://flussonic.linkintel.ru/cinema/index.m3u8
 http://flussonic.linkintel.ru/kino-tv/index.m3u8
 #EXTINF:-1,Match! Ultra (576p)
 http://flussonic.linkintel.ru/match/index.m3u8
-#EXTINF:-1,CBeebies Asia (576p)
+#EXTINF:-1 [OLD],CBeebies Asia (576p)
 http://202.70.146.135:8000/play/a0a2/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (576p)
 http://str2.iptvhd.ru:8080/disney/index.m3u8
@@ -25521,7 +25523,7 @@ http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 http://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
 #EXTINF:-1,Муз ТВ (2)
 https://stream8.cinerama.uz/1200/index.m3u8
-#EXTINF:-1,Суббота (4)
+#EXTINF:-1 [OLD],Суббота (4)
 https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
 #EXTINF:-1 tvg-id="yu",Ю (4)
 https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
@@ -25917,9 +25919,9 @@ https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8
 https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
 #EXTINF:-1,Pluto TV Kids Club (United States)
 https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
-#EXTINF:-1,Pluto TV Pokemon
+#EXTINF:-1 [OLD],Pluto TV Pokemon
 https://jmp2.uk/plu-687007a8ee4155e89a8f6d67.m3u8
-#EXTINF:-1,Pluto TV Pokemon UK
+#EXTINF:-1 [OLD],Pluto TV Pokemon UK
 https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8
 #EXTINF:-1,Pluto TV Retro Toons GB
 https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
@@ -26283,6 +26285,18 @@ https://cityeden.catcast.tv/content/34246/index.m3u8
 http://88.212.15.19/live/otv/playlist.m3u8
 #EXTINF:-1,Star TV (Moldova)
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
+#EXTINF:-1,Novorossiya TV (1080p) [Geo-blocked]
+http://31.131.139.253:9002/novoros/index.m3u8
+#EXTINF:-1,Oplot TV (1080p) [Geo-blocked]
+http://31.131.139.253:9002/oplot_hd/index.m3u8
+#EXTINF:-1,6 TV Gorlovka (720p) [Geo-blocked]
+http://91.214.48.158:4022/udp/224.2.2.4:10000
+#EXTINF:-1,TNT International Belarus (1080p)
+http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
+#EXTINF:-1,S Corby TV (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6a9f89be0630445532152563/master.m3u8
+#EXTINF:-1,S KPop! (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6aac8803063044569e156563/master.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
