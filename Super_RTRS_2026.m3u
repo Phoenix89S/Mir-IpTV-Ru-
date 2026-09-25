@@ -22431,8 +22431,8 @@ http://143.14.178.40:7777/Gloobinho_HD/index.m3u8
 http://bethoven.af-stream.com:1600/s/kwtlxswl/hop-childhood-il/video.m3u8
 #EXTINF:-1 [OLD],Junior (576p)
 http://bethoven.af-stream.com:1600/s/kwtlxswl/junior-il/video.m3u8
-#EXTINF:-1 [OLD],Plim Plim (1080p)
-http://8.243.126.131:8000/play/a0od/index.m3u8
+#EXTINF:-1,Plim Plim (1080p)
+http://200.115.120.1:8000/play/ca091/index.m3u8
 #EXTINF:-1,Reino Infantil
 https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
 #EXTINF:-1 [OLD],TeenNick (576p)
@@ -26315,7 +26315,7 @@ https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
 #EXTINF:-1,Pakapaka
 https://xyktmobile00.s.gy/PPV910_PAKAKA_ARG
-#EXTINF:-1,Plim Plim
+#EXTINF:-1 [OLD],Plim Plim
 https://xyktmobile00.s.gy/PPV911_CANCION_BEBE
 #EXTINF:-1,Pluto TV Junior LatAm
 https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8
@@ -26329,6 +26329,16 @@ http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
 #EXTINF:-1,Oplot TV SD (1080p) [Geo-blocked]
 http://31.131.139.253:9002/oplot_hd/index.m3u8
+#EXTINF:-1,Avto24 (1080i)
+http://str2.iptvhd.ru:8080/Avto_24/index.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / ARABIC",Alhaqeqa Aldawlia
+http://ghaasiflu.online/alhqeqa/index.m3u8
+#EXTINF:-1,Alhaqeqa Aldawlia
+https://ghaasiflu.online/alhqeqa/index.m3u8
+#EXTINF:-1,Disney Channel (Germany)
+http://178.27.12.3:9981/stream/channelid/269948147?profile=pass
+#EXTINF:-1,Spacetoon Turkey (720p) [Not 24/7]
+https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
