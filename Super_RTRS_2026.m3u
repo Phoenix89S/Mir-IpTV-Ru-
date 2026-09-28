@@ -16637,7 +16637,7 @@ https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 [OLD],Babyfirst
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
-#EXTINF:-1,BabyTV Spain (1080p)
+#EXTINF:-1 [OLD],BabyTV Spain (1080p)
 http://181.78.12.119:16123/play/ch01/index.m3u8
 #EXTINF:-1 [OLD],Balapan TV (1080p)
 https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
@@ -24615,7 +24615,7 @@ http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/v
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Эхо 24 (Новоуральск)
 http://stream.novouralsk-news.ru/echotv24/live.m3u8
-#EXTINF:-1,BabyFirst Spanish (720p)
+#EXTINF:-1 [OLD],BabyFirst Spanish (720p)
 http://168.228.44.241:9997/play/a07u/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (720p) [Geo-blocked]
 http://212.5.144.156/disney/index.m3u8
@@ -25801,7 +25801,7 @@ https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 https://jmp2.uk/plu-61373f1a12dd9f00077dcd6f.m3u8
 #EXTINF:-1,Lego Channel (1080p)
 https://dltiqboxjw21d.cloudfront.net/index.m3u8
-#EXTINF:-1,MeTV Toons KMBY-LD
+#EXTINF:-1 [OLD],MeTV Toons KMBY-LD
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Minimax (Hungary)
 http://88.212.15.19/live/minimax_hun/index.m3u8
@@ -26077,7 +26077,7 @@ https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 http://rtmp.one.by:1300
 #EXTINF:-1,Fox (Russia) (576p)
 http://stream.mcquack.net/182/index.m3u8
-#EXTINF:-1,FX (Russia) (1080p)
+#EXTINF:-1 [OLD],FX (Russia) (1080p)
 http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8
 #EXTINF:-1,Govorit Moskva (720p)
 https://video.govoritmoskva.ru/rufm/index.m3u8
@@ -26267,7 +26267,7 @@ https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8|User-Agent=Mozilla/5.0 (Wi
 http://23.237.104.106:8080/USA_NESN/index.m3u8
 #EXTINF:-1,Avatar (Sweden)
 https://jmp2.uk/plu-61c09b48d6d97900076e91c5.m3u8
-#EXTINF:-1,Clan Internacional
+#EXTINF:-1 [OLD],Clan Internacional
 https://xyktmobile00.s.gy/PPV906_CLAN_INTE
 #EXTINF:-1,iCarly (Sweden) DK
 https://jmp2.uk/plu-61c0b9aab7facb0007913908.m3u8
@@ -26321,7 +26321,7 @@ https://xyktmobile00.s.gy/PPV911_CANCION_BEBE
 https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8
 #EXTINF:-1,Pluto TV Kids LatAm
 https://jmp2.uk/plu-5dd6dae8ce788b0009eaf77b.m3u8
-#EXTINF:-1,TeenNick (Israel) (406p)
+#EXTINF:-1 [OLD],TeenNick (Israel) (406p)
 http://89.33.29.115:8080/TeenNick/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0" group-title="General",Channel 8 International (576p) [Geo-blocked]
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
@@ -26359,6 +26359,16 @@ https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5
 http://stream.mcquack.net/305/index.m3u8
 #EXTINF:-1,Крым 24 (2) | Крым
 https://streaming.televizor-24-tochka.ru/live/28.m3u8
+#EXTINF:-1,Kuban 24 (480p) [Geo-blocked]
+http://dmi3y-tv.online/hls/zabava/region/MAYK/CH_MAYKOP.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,BabyFirst Spanish (1080p)
+http://168.196.127.137:6001/play/a06j/index.m3u8
+#EXTINF:-1,CBeebies (Poland) (576p)
+https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_cbeebies.stream/playlist.m3u8
+#EXTINF:-1,Clan Internacional (1080p)
+http://168.228.44.241:9999/play/a04j/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="General",eQtv
+http://91.228.35.249:8001/1:0:1:72:2FA8:13E:820000:0:0:0
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
