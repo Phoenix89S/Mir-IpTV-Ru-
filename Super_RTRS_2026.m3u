@@ -5264,6 +5264,8 @@ https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=20
 #EXTINF:-1,RU.TV РУ.ТВ (2)
 https://stream8.cinerama.uz/1202/index.m3u8
 #EXTINF:-1,RU.TV РУ.ТВ (3)
+http://stream.mcquack.net/109/index.m3u8
+#EXTINF:-1,RU.TV РУ.ТВ (4)
 http://77.232.131.211/RUTV/index.m3u8
 
 # ===== Кнопка 26 =====
@@ -16184,7 +16186,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8|User-Agent=Mozill
 #EXTINF:-1 [OLD],312 Музыка
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:-1,360° Новости
-http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/tracks-v3a1/mono.m3u8
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
 #EXTINF:-1 tvg-shift="9" [OLD],41 регион (Петропавловск-Камчатский)
 https://s14131.cdn.ngenix.net/hls/CH_R02_41REG_OTT/variant.m3u8
 #EXTINF:-1 tvg-shift="0",78 (Санкт-Петербург)
@@ -26313,7 +26315,7 @@ https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
 https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8
 #EXTINF:-1,like Gecko) Chrome/152.0.0.0 Safari/537.36" group-title="Kids",Nicktoons Scandinavia
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
-#EXTINF:-1,Pakapaka
+#EXTINF:-1 [OLD],Pakapaka
 https://xyktmobile00.s.gy/PPV910_PAKAKA_ARG
 #EXTINF:-1 [OLD],Plim Plim
 https://xyktmobile00.s.gy/PPV911_CANCION_BEBE
@@ -26371,6 +26373,14 @@ http://168.228.44.241:9999/play/a04j/index.m3u8
 http://91.228.35.249:8001/1:0:1:72:2FA8:13E:820000:0:0:0
 #EXTINF:-1,TNT International (480p)
 http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
+#EXTINF:-1,Pakapaka (1080p)
+http://181.209.105.115:2525/play/pakapaka/index.m3u8
+#EXTINF:-1,Муз ТВ (3)
+http://stream.mcquack.net/86/index.m3u8
+#EXTINF:-1,Матч! Футбол 3 (2)
+http://176.100.46.245:90/matchfootball3/index.m3u8
+#EXTINF:-1,Охота и рыбалка (4)
+http://185.121.1.163:8083/OhotaRybalka/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
