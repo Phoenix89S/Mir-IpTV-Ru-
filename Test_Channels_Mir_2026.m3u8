@@ -51,7 +51,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/220/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/222/index.m3u8
 #EXTINF:0,3.0.26 Матч! Игра HD
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/225/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/match.png",3.0.27 Матч! (2)
+#EXTINF:-1 group-title="Основные" tvg-id="match-tv" tvg-logo="https://ngrch.github.io/iptv/logos/match.png",3.0.27 Матч! (2)
 http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #EXTINF:-1 group-title="Спортивные",3.0.28 Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
@@ -175,9 +175,9 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/501/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/743/index.m3u8
 #EXTINF:0,4.1.29 НТВ HD
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/213/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/ntv.png",4.1.30 НТВ (2)
+#EXTINF:-1 group-title="Основные" tvg-id="ntv" tvg-logo="https://ngrch.github.io/iptv/logos/ntv.png",4.1.30 НТВ (2)
 https://cdn.ntv.ru/ntv-msk_hd/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/ntv.png",4.1.31 НТВ (3)
+#EXTINF:-1 group-title="Основные" tvg-id="ntv" tvg-logo="https://ngrch.github.io/iptv/logos/ntv.png",4.1.31 НТВ (3)
 https://cdn.ntv.ru/ntv0/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://ngrch.github.io/iptv/logos/ntv.png",4.1.32 НТВ +1
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
@@ -4503,41 +4503,41 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/2325/index.m3u8
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/2326/index.m3u8
 #EXTINF:0,TV 100 HD
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/2328/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/perviy.png", Первый (2)
+#EXTINF:-1 group-title="Основные" tvg-id="pervy" tvg-logo="https://ngrch.github.io/iptv/logos/perviy.png", Первый (2)
 https://serv30.vintera.tv/restream/1_old/playlist.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_1.png", Россия 1 (2)
+#EXTINF:-1 group-title="Основные" tvg-id="rossia1" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_1.png", Россия 1 (2)
 https://stream8.cinerama.uz/1020/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_k.png", Россия К (2)
+#EXTINF:-1 group-title="Основные" tvg-id="kultura" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_k.png", Россия К (2)
 https://stream8.cinerama.uz/1048/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_24.png", Россия 24
+#EXTINF:-1 group-title="Основные" tvg-id="rossia-24" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_24.png", Россия 24
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_24.png", Россия 24 (2)
+#EXTINF:-1 group-title="Основные" tvg-id="rossia-24" tvg-logo="https://ngrch.github.io/iptv/logos/rossiya_24.png", Россия 24 (2)
 https://stream8.cinerama.uz/1021/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/karusel.png", Карусель (2)
+#EXTINF:-1 group-title="Основные" tvg-id="karusel" tvg-logo="https://ngrch.github.io/iptv/logos/karusel.png", Карусель (2)
 https://stream8.cinerama.uz/1034/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/otr.png", ОТР (3)
+#EXTINF:-1 group-title="Основные" tvg-id="otr" tvg-logo="https://ngrch.github.io/iptv/logos/otr.png", ОТР (3)
 https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (3)
+#EXTINF:-1 group-title="Основные" tvg-id="tvcentr" tvg-logo="https://ngrch.github.io/iptv/logos/tv_tsentr.png", ТВ Центр (3)
 https://stream8.cinerama.uz/1025/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/spas.png", Спас (2)
+#EXTINF:-1 group-title="Основные" tvg-id="spas" tvg-logo="https://ngrch.github.io/iptv/logos/spas.png", Спас (2)
 https://bonusspas.mediacdn.ru/cdn/spas/playlist.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/domashniy.png", Домашний (3)
+#EXTINF:-1 group-title="Основные" tvg-id="domashny" tvg-logo="https://ngrch.github.io/iptv/logos/domashniy.png", Домашний (3)
 http://iptv.mega.net.ru:8888/domashniy_hd/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/pyatnica.png", Пятница
+#EXTINF:-1 group-title="Основные" tvg-id="piatnica" tvg-logo="https://ngrch.github.io/iptv/logos/pyatnica.png", Пятница
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/zvezda.png", Звезда (2)
+#EXTINF:-1 group-title="Основные" tvg-id="zvezda" tvg-logo="https://ngrch.github.io/iptv/logos/zvezda.png", Звезда (2)
 https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (2)
+#EXTINF:-1 group-title="Основные" tvg-id="mir" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (2)
 https://s91412.cdn.ngenix.net/mdrm/CH_MIR/variant.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (3)
+#EXTINF:-1 group-title="Основные" tvg-id="mir" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (3)
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (4)
+#EXTINF:-1 group-title="Основные" tvg-id="mir" tvg-logo="https://ngrch.github.io/iptv/logos/mir.png", Мир (4)
 https://stream8.cinerama.uz/1218/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/tnt.png", ТНТ (3)
+#EXTINF:-1 group-title="Основные" tvg-id="tnt" tvg-logo="https://ngrch.github.io/iptv/logos/tnt.png", ТНТ (3)
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=K-z3nz49R1oGQ-5yPSd8pg&e=2082157024&scheme=https
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/muz_tv.png", Муз ТВ
+#EXTINF:-1 group-title="Основные" tvg-id="muztv" tvg-logo="https://ngrch.github.io/iptv/logos/muz_tv.png", Муз ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://ngrch.github.io/iptv/logos/muz_tv.png", Муз ТВ (2)
+#EXTINF:-1 group-title="Основные" tvg-id="muztv" tvg-logo="https://ngrch.github.io/iptv/logos/muz_tv.png", Муз ТВ (2)
 https://stream8.cinerama.uz/1200/index.m3u8
 #EXTINF:-1 group-title="Основные (региональные)" tvg-logo="https://ngrch.github.io/iptv/logos/perviy.png", Первый (-1)
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8
