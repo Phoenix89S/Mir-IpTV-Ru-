@@ -19841,7 +19841,7 @@ http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/20009/index.m3u8
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
 #EXTINF:-1 [OLD],Бокс (1)
 http://158.101.222.193:88/georgia_play.php?id=boxtv
-#EXTINF:-1,Бокс (2)
+#EXTINF:-1 [OLD],Бокс (2)
 http://tinyurl.com/TvZaTak65?id=boxtv
 #EXTINF:-1 [OLD],Удар
 http://5.188.159.128:8070/udar/index.m3u8
@@ -19854,7 +19854,7 @@ http://217.11.177.56/streams/media/viasat-sport_720x576/index.m3u8
 #EXTINF:-1,MMA
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1,MMA (2)
-http://31.148.48.15/M1_Global/index.m3u8
+https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1,Твоё ТВ
 https://tvoetv.space/tvoetv/index.m3u8
 #EXTINF:-1 [OLD],Калейдоскоп
@@ -22567,9 +22567,9 @@ https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8
 http://ott.watch/XE5QWWBZ87/461/tracks-v2a1/mono.ts.m3u8?sid=c3f03b2b-bf32-49e2-8675-d1a321912ce8
 #EXTINF:-1 [OLD],Europa TikTok Латвия
 https://stream.ehrhiti.lv:8000/Stream_38.aac
-#EXTINF:-1,Бокс (3)
+#EXTINF:-1 [OLD],Бокс (3)
 http://37.186.70.39:40/play/85/index.m3u8
-#EXTINF:-1,MMA (3)
+#EXTINF:-1 [OLD],MMA (3)
 https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1 [OLD],.black (2)
 https://s70378.cdn.ngenix.net/sony_turbo/index.m3u8
@@ -23137,7 +23137,7 @@ http://41.205.77.102/GULLI/index.m3u8
 http://41.205.77.102/TIJI/index.m3u8
 #EXTINF:-1,TVOKids (720p)
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8
-#EXTINF:-1,Бокс
+#EXTINF:-1 [OLD],Бокс
 http://158.101.222.193:88/georgia_play.php?id=boxtv
 #EXTINF:-1 [OLD],Paramount Network
 http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
@@ -25367,7 +25367,7 @@ https://stream8.cinerama.uz/1425/index.m3u8
 http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1,Капитан Фантастика (2)
 http://stream.mcquack.net/144/index.m3u8
-#EXTINF:-1,Матч! Страна (2)
+#EXTINF:-1 [OLD],Матч! Страна (2)
 http://stream.mcquack.net/143/index.m3u8
 #EXTINF:-1,Окко Футбол
 http://stream.mcquack.net/491/index.m3u8
