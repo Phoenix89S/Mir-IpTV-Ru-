@@ -4945,16 +4945,8 @@ https://stream8.cinerama.uz/1274/index.m3u8
 https://prodvizhenie.mediacdn.ru/cdn/prodvizhenie/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные", Твоё ТВ
 https://tvoetv.space/tvoetv/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", Твоё ТВ (2)
-http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", Твоё ТВ Юмор (2)
-http://lime-pi2.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", TLC
 http://stream.mcquack.net/168/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", TLC (2)
-http://89.33.29.115:8080/TLC_HD/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", КВН
-http://158.101.222.193:88/georgia_play.php?id=kvntv
 #EXTINF:-1 group-title="Развлекательные", Сарафан
 https://stream8.cinerama.uz/1249/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Сарафан (3)
@@ -4971,20 +4963,14 @@ http://live-3.otcnet.ru/wfcrus/index.m3u8
 https://cdn.wfc.tv/cdn/stream-rus.m3u8
 #EXTINF:-1 group-title="Развлекательные", Luxury
 https://s1.tv-nano.com/Luxury_rec/video.m3u8
-#EXTINF:-1 group-title="Развлекательные", Gametoon
-http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/5049/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", 7 TV
 https://v4.proofix.ru/7tv-live/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Толк
 https://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные", Инсайт
 https://stream8.cinerama.uz/1416/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", TVM Channel
-https://cdn-01.bonus-tv.ru/tvm_edge/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", Gagsnetwork
 http://stream.mcquack.net/458/index.m3u8
-#EXTINF:-1 group-title="Развлекательные", Gagsnetwork (2)
-http://iptv.mega.net.ru:8888/Gagsnetwork/index.m3u8
 #EXTINF:-1 group-title="Развлекательные", PV+
 http://stream.mcquack.net/397/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", .Red (2)
