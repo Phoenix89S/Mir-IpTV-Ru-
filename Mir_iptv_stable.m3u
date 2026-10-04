@@ -6539,48 +6539,22 @@ http://stream.mcquack.net/458/index.m3u8
 http://stream.mcquack.net/397/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", .Red (2)
 http://176.100.46.245:90/red/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", .Red (3)
-http://89.33.29.115:8080/SET/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", .Sci-Fi (2)
-https://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Кинеко
-http://iptv.mega.net.ru:8888/FOX/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Дорама
 https://stream8.cinerama.uz/1273/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Дорама (3)
-http://89.33.29.115:8080/dorama_hd/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кино ТВ
 http://176.118.197.101/KinoTvHD/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Кино ТВ (2)
-http://194.152.35.17/kino-tv/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", OVAA
 http://tv.tuva.ru/ovaa/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Comedy
 https://stream8.cinerama.uz/1061/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Amedia 1
 http://stream.mcquack.net/117/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Amedia 1 (2)
-http://46.32.176.50/amedia1/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Amedia 2
-http://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Amedia 2 (2)
-http://iptv.mega.net.ru:8888/A2/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Amedia Premium
 http://stream.mcquack.net/151/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Amedia Premium (2)
-http://iptv.mega.net.ru:8888/Amedia_Premium_HD/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viasat Kino Comedy
 http://ukr2.ukrainske.tv/493/video.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Viasat Epic Drama
-http://195.189.60.253/118/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Start World
-http://89.33.29.115:8080/START_World_HD/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Ретро (2)
 https://stream8.cinerama.uz/1047/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", День победы
-http://iptv.mega.net.ru:8888/Den_pobedy_hd/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Комедия (3)
-http://192.162.64.99:5100/play/a02k/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киномикс
 https://stream8.cinerama.uz/1233/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киномикс (2)
