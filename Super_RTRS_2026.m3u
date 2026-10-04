@@ -16257,7 +16257,7 @@ http://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1,FX Life
 http://stream.mcquack.net/129/index.m3u8
-#EXTINF:-1,Gametoon
+#EXTINF:-1 [OLD],Gametoon
 http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/5049/index.m3u8
 #EXTINF:-1,Horror TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/93dc292b-cbcf-4988-ab97-94feced4c14b/manifest.m3u8
@@ -16929,8 +16929,8 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex
 https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 [OLD],Qazaqstan International (1080p)
 https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
-#EXTINF:-1 [OLD],Rada TV (720p)
-https://api-tv.ipnet.ua/api/v1/manifest/1312714970.m3u8
+#EXTINF:-1,Rada TV (720p)
+https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition std-2)" group-title="General",Rossiya 1 Vainah (576i)
 https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
 #EXTINF:-1,Sevimli TV (1080p)
@@ -19859,7 +19859,7 @@ https://stream8.cinerama.uz/1226/index.m3u8
 https://tvoetv.space/tvoetv/index.m3u8
 #EXTINF:-1 [OLD],Калейдоскоп
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
-#EXTINF:-1,КВН
+#EXTINF:-1 [OLD],КВН
 http://158.101.222.193:88/georgia_play.php?id=kvntv
 #EXTINF:-1,Fashion
 https://stream8.cinerama.uz/1053/index.m3u8
@@ -24405,9 +24405,9 @@ https://vod.tuva.ru/rusroman/index.m3u8
 https://vod.tuva.ru/nst/index.m3u8
 #EXTINF:-1 [OLD],Уникум (2)
 http://31148.rafail1982.uz/Detskiy/index.m3u8
-#EXTINF:-1,Твоё ТВ (2)
+#EXTINF:-1 [OLD],Твоё ТВ (2)
 http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
-#EXTINF:-1 tvg-id="yu",Твоё ТВ Юмор (2)
+#EXTINF:-1 tvg-id="yu" [OLD],Твоё ТВ Юмор (2)
 http://lime-pi2.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:-1 [OLD],Кинеко (2)
 http://31.148.48.15/Kineko_HD/index.m3u8
@@ -24827,7 +24827,7 @@ https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon +1 (720p)
 https://sra72yz.s.gy/NICKELODEON_UK_PLUS_1.m3u8
-#EXTINF:-1,Tring Kids (576p)
+#EXTINF:-1 [OLD],Tring Kids (576p)
 http://5.254.89.106/8777/index.m3u8
 #EXTINF:-1,Точка.РФ (2)
 https://stream8.cinerama.uz/1222/index.m3u8
@@ -25231,7 +25231,7 @@ https://ptravelhls.persiana.live/hls/stream.m3u8
 https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv
 #EXTINF:-1,Chikitoonz (1080p)
 http://45.70.201.81:8000/play/a00p/index.m3u8
-#EXTINF:-1,Disney International HD (1080p)
+#EXTINF:-1 [OLD],Disney International HD (1080p)
 http://202.70.146.135:8000/play/a04p/index.m3u8
 #EXTINF:-1 [OLD],Pakapaka (576p)
 http://138.121.113.175:8000/play/a04d/index.m3u8
@@ -25487,7 +25487,7 @@ http://185.23.80.23:8080/DumaTV/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 [OLD],Baby Time (2)
 http://178.134.1.158:8081/babytime/index.m3u8
-#EXTINF:-1,Ностальгия (2)
+#EXTINF:-1 [OLD],Ностальгия (2)
 http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
 #EXTINF:-1,Киномикс (4)
 http://93.170.254.17/Kinomiks/index.m3u8
@@ -25719,7 +25719,7 @@ https://fs.uplink.kz/kinoboevik/mono.m3u8?token=onlinetv
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 #EXTINF:-1,Mirovoe kino (1080p)
 https://fs.uplink.kz/mirovoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1,TLC (2)
+#EXTINF:-1 [OLD],TLC (2)
 http://89.33.29.115:8080/TLC_HD/index.m3u8
 #EXTINF:-1,Арт (2)
 http://185.23.80.23:8080/ART/index.m3u8
@@ -25763,7 +25763,7 @@ http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
 #EXTINF:-1,Disney Channel (United States) (720p) [Geo-blocked]
 http://212.5.144.156/disney/index.m3u8
-#EXTINF:-1,Disney Channel (United States) HD East (720p)
+#EXTINF:-1 [OLD],Disney Channel (United States) HD East (720p)
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1,Disney Jr. (France) (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
@@ -25771,7 +25771,7 @@ http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 http://88.212.15.19/live/test_disney_junior/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Disney Junior (Romania)
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
-#EXTINF:-1,Disney Junior (United States) (720p)
+#EXTINF:-1 [OLD],Disney Junior (United States) (720p)
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1,Disney XD (Poland) (576p)
 http://185.227.34.179:8080/disney-xd/index.m3u8
@@ -26365,7 +26365,7 @@ https://streaming.televizor-24-tochka.ru/live/28.m3u8
 http://dmi3y-tv.online/hls/zabava/region/MAYK/CH_MAYKOP.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,BabyFirst Spanish (1080p)
 http://168.196.127.137:6001/play/a06j/index.m3u8
-#EXTINF:-1,CBeebies (Poland) (576p)
+#EXTINF:-1 [OLD],CBeebies (Poland) (576p)
 https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_cbeebies.stream/playlist.m3u8
 #EXTINF:-1,Clan Internacional (1080p)
 http://168.228.44.241:9999/play/a04j/index.m3u8
@@ -26389,6 +26389,14 @@ http://31.148.5.241/kanal_21/index.m3u8
 https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1,Классика Кино (2)
 https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
+#EXTINF:-1,CBeebies (Poland)
+https://xyktmobile00.s.gy/ticketview/49092
+#EXTINF:-1,Disney Junior (India) (576p)
+http://51.75.127.199:3141/disneyjunior/index.m3u8
+#EXTINF:-1,Disney Junior (Poland) (576p)
+http://57.128.231.171:8080/277/index.m3u8
+#EXTINF:-1,Nick HD+ (1080p)
+http://51.75.127.199:3141/nickhd/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
