@@ -5373,7 +5373,7 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/203/index.m3u8
 http://stream.mcquack.net/110/index.m3u8
 #EXTINF:-1,viju TV1000 action (576p)
 http://stream.mcquack.net/100/index.m3u8
-#EXTINF:-1,Viasat Epic Drama
+#EXTINF:-1 [OLD],Viasat Epic Drama
 http://195.189.60.253/118/index.m3u8
 #EXTINF:-1,Viju TV1000 Русское (3)
 https://stream8.cinerama.uz/1059/index.m3u8
@@ -19885,7 +19885,7 @@ http://109.70.186.82:9090/udp/239.185.1.12:1234
 http://158.101.222.193:88/georgia_play.php?id=amedia
 #EXTINF:-1 [OLD],Amedia 2 (A2)
 http://31.148.48.15/A2/index.m3u8
-#EXTINF:-1,Феникс+ Кино
+#EXTINF:-1 [OLD],Феникс+ Кино
 http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
 #EXTINF:-1 [OLD],312 Сериал
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
@@ -21155,7 +21155,7 @@ http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/6972/index.m3u8
 https://stream.mixadance.fm/mixadance128
 #EXTINF:-1 [OLD],Fan (2)
 http://185.78.112.47:8077/fan/index.m3u8
-#EXTINF:-1,.Sci-Fi (2)
+#EXTINF:-1 [OLD],.Sci-Fi (2)
 https://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
 #EXTINF:-1 [OLD],Hollywood (2)
 http://dmi3y-tv.online/hls/CH_HOLLYWOOD.m3u8
@@ -22575,7 +22575,7 @@ https://stream8.cinerama.uz/1226/index.m3u8
 https://s70378.cdn.ngenix.net/sony_turbo/index.m3u8
 #EXTINF:-1,.Red (2)
 http://176.100.46.245:90/red/index.m3u8
-#EXTINF:-1,Кино ТВ (2)
+#EXTINF:-1 [OLD],Кино ТВ (2)
 http://194.152.35.17/kino-tv/index.m3u8
 #EXTINF:-1 [OLD],Amedia Hit (3)
 http://37.186.70.39:40/play/54/index.m3u8
@@ -22635,7 +22635,7 @@ https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_NASHDOM/variant.m3u8
 http://s8.rafail1982.uz/1246/tracks-v1a1a1/mono.m3u8
 #EXTINF:-1 [OLD],Action HD
 http://rezofoot.tv/Action/index.m3u8
-#EXTINF:-1,Amedia Premium (2)
+#EXTINF:-1 [OLD],Amedia Premium (2)
 https://fs.uplink.kz/amedia_premium_hd/index.m3u8?token=onlinetv
 #EXTINF:-1 [OLD],ATV Kinoman HD AM
 http://185.57.68.33:80/255/playlist.m3u8
@@ -24411,7 +24411,7 @@ http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
 http://lime-pi2.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:-1 [OLD],Кинеко (2)
 http://31.148.48.15/Kineko_HD/index.m3u8
-#EXTINF:-1,Amedia 1 (2)
+#EXTINF:-1 [OLD],Amedia 1 (2)
 http://46.32.176.50/amedia1/index.m3u8
 #EXTINF:-1,МТРК | Казахстан
 https://tvcdn01.oktv.kz/tv/mtrk/index.m3u8
@@ -25547,7 +25547,7 @@ http://radio.tvs.by/BT5/index.m3u8
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1 [OLD],Nickelodeon (720p)
 http://198.58.104.90:8989/nickelodeon/index.m3u8
-#EXTINF:-1,Комедия (3)
+#EXTINF:-1 [OLD],Комедия (3)
 http://192.162.64.99:5100/play/a02k/index.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (720p)
 http://102.129.186.182:81/nick/index.m3u8
@@ -25595,9 +25595,9 @@ http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
 http://89.33.29.115:8080/Kinohit/index.m3u8
 #EXTINF:-1,2x2 (4)
 http://185.23.80.23:8080/2x2/index.m3u8
-#EXTINF:-1,.Red (3)
+#EXTINF:-1 [OLD],.Red (3)
 http://89.33.29.115:8080/SET/index.m3u8
-#EXTINF:-1,Дорама (3)
+#EXTINF:-1 [OLD],Дорама (3)
 http://89.33.29.115:8080/dorama_hd/index.m3u8
 #EXTINF:-1,Киносемья (3)
 http://185.121.1.163:8083/Kinosemya/index.m3u8
@@ -26397,6 +26397,8 @@ http://51.75.127.199:3141/disneyjunior/index.m3u8
 http://57.128.231.171:8080/277/index.m3u8
 #EXTINF:-1,Nick HD+ (1080p)
 http://51.75.127.199:3141/nickhd/index.m3u8
+#EXTINF:-1 tvg-id="yu",Плюс минус 16
+https://media.16pm.ru/live/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
