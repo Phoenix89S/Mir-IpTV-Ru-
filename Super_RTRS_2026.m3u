@@ -16775,8 +16775,8 @@ http://103.137.83.62:9090/play/28/index.m3u8
 https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 #EXTINF:-1 [OLD],Nickelodeon en español
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
-#EXTINF:-1 [OLD],Nickelodeon Global (576p)
-http://46.149.191.217:9011/play/a018
+#EXTINF:-1,Nickelodeon Global (576p)
+http://103.151.60.162:2122/play/a017/index.m3u8?hls
 #EXTINF:-1,Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
 #EXTINF:-1,Nickelodeon Pluto TV (720p)
@@ -23673,7 +23673,7 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1 [OLD],Disney XD West (480p)
 http://tvsen5.aynascope.net/disneyxd/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Animation;Kids",NickToons Brasil (480p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Animation;Kids",NickToons Brasil (480p)
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 #EXTINF:-1 [OLD],Channel 7 Kazakhstan (1080p) [Geo-blocked]
 https://adpnetworkhd-cmd.github.io/iptv/7_kanal_Kazakhstan.m3u8
@@ -24283,7 +24283,7 @@ https://river-6-601.rtbcdn.ru/stream/genetta-410.ntv.rutube.ru/it_KlgcrpetPAAs-P
 https://cdn-1.pishow.tv/live/1291/master.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Dhamaka Movies B4U (576p)
 https://cdn-1.pishow.tv/live/235/master.m3u8
-#EXTINF:-1,Gloobinho (720p)
+#EXTINF:-1 [OLD],Gloobinho (720p)
 http://177.52.24.163/GLOOBINHO-HD/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Kolyokklub
 http://88.212.15.19/live/kolyokklub_atk/index.m3u8
@@ -24429,7 +24429,7 @@ http://cdn-1.pishow.tv/live/1456/master.m3u8
 https://tvsen6.aynaott.com/ytv/index.m3u8
 #EXTINF:-1 [OLD],Green Gold TV
 https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/4.m3u8
-#EXTINF:-1,We Sport TV
+#EXTINF:-1 [OLD],We Sport TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
 #EXTINF:-1,Svoboda
 http://88.212.15.19/live/svoboda/index.m3u8
@@ -24779,7 +24779,7 @@ https://serv25.vintera.tv/novoetv/nov_tv/playlist.m3u8
 https://raphls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 [OLD],Star TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
-#EXTINF:-1,Vitebsk
+#EXTINF:-1 [OLD],Vitebsk
 https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
 #EXTINF:-1,Родное кино (3)
 http://176.118.197.101/RodnoeKino/index.m3u8
@@ -24820,10 +24820,10 @@ http://185.23.80.23:8080/NANO_HD/index.m3u8
 #EXTINF:-1 tvg-shift="4",<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Россия 🇷🇺",Барнаул 5
 https://live.katun24.ru:8082/belokyr_cerkovka/tracks-v1/mono.m3u8
 #EXTINF:-1,BabyTV Latin America (1080p)
-https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8
+http://38.44.109.41:8003/play/a0eh
 #EXTINF:-1,Epic Kids Digital (1080p)
 https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
-#EXTINF:-1,FMH Kids (1080p)
+#EXTINF:-1 [OLD],FMH Kids (1080p)
 https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon +1 (720p)
 https://sra72yz.s.gy/NICKELODEON_UK_PLUS_1.m3u8
@@ -25845,7 +25845,7 @@ https://jmp2.uk/plu-6824ce95f09106f4b18f4114.m3u8
 https://jmp2.uk/plu-5ddd7cb2cbb9010009b4fe32.m3u8
 #EXTINF:-1,Nick Jr. Pluto TV CA
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
-#EXTINF:-1,Nickelodeon (Brazil) (480p)
+#EXTINF:-1 [OLD],Nickelodeon (Brazil) (480p)
 https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 #EXTINF:-1,Nickelodeon (Croatia) (1080p)
 http://176.61.157.250/Nickelodeon/index.m3u8
@@ -26223,7 +26223,7 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 https://alpha.tv.online.tm/hls/ch007.m3u8
 #EXTINF:-1,TV1.KG (1080p)
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
-#EXTINF:-1,TV8 (Moldova) [Not 24/7]
+#EXTINF:-1 [OLD],TV8 (Moldova) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
 #EXTINF:-1,TV Mana Russkiy (1080p)
 https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
@@ -26285,7 +26285,7 @@ https://cityeden.catcast.tv/content/46209/index.m3u8
 https://cityeden.catcast.tv/content/34246/index.m3u8
 #EXTINF:-1,OTV (Estonia)
 http://88.212.15.19/live/otv/playlist.m3u8
-#EXTINF:-1,Star TV (Moldova)
+#EXTINF:-1 [OLD],Star TV (Moldova)
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
 #EXTINF:-1,Novorossiya TV (1080p) [Geo-blocked]
 http://31.131.139.253:9002/novoros/index.m3u8
@@ -26365,8 +26365,8 @@ https://streaming.televizor-24-tochka.ru/live/28.m3u8
 http://dmi3y-tv.online/hls/zabava/region/MAYK/CH_MAYKOP.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,BabyFirst Spanish (1080p)
 http://168.196.127.137:6001/play/a06j/index.m3u8
-#EXTINF:-1 [OLD],CBeebies (Poland) (576p)
-https://lon1-y7p7cyzc7vdh.lolokoko.tv/f_cbeebies.stream/playlist.m3u8
+#EXTINF:-1,CBeebies (Poland) (576p)
+http://92.114.85.87:8017/play/a004/index.m3u8
 #EXTINF:-1,Clan Internacional (1080p)
 http://168.228.44.241:9999/play/a04j/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="General",eQtv
@@ -26374,7 +26374,7 @@ http://91.228.35.249:8001/1:0:1:72:2FA8:13E:820000:0:0:0
 #EXTINF:-1,TNT International (480p)
 http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
 #EXTINF:-1,Pakapaka (1080p)
-http://181.209.105.115:2525/play/pakapaka/index.m3u8
+http://190.128.214.97:64333/play/a02r/index.m3u8
 #EXTINF:-1,Муз ТВ (3)
 http://stream.mcquack.net/86/index.m3u8
 #EXTINF:-1,Матч! Футбол 3 (2)
@@ -26389,7 +26389,7 @@ http://31.148.5.241/kanal_21/index.m3u8
 https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1,Классика Кино (2)
 https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
-#EXTINF:-1,CBeebies (Poland)
+#EXTINF:-1 [OLD],CBeebies (Poland)
 https://xyktmobile00.s.gy/ticketview/49092
 #EXTINF:-1,Disney Junior (India) (576p)
 http://51.75.127.199:3141/disneyjunior/index.m3u8
@@ -26399,6 +26399,28 @@ http://57.128.231.171:8080/277/index.m3u8
 http://51.75.127.199:3141/nickhd/index.m3u8
 #EXTINF:-1 tvg-id="yu",Плюс минус 16
 https://media.16pm.ru/live/index.m3u8
+#EXTINF:-1,Russian Extreme Ultra (1440p)
+http://46.53.200.153:7777/play/test_krask1/index.m3u8
+#EXTINF:-1,Nash Kinopokaz HD (576p)
+http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
+#EXTINF:-1,Europa Plus TV Belarus (576p)
+http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
+#EXTINF:-1,Live Music Channel HD (1080p)
+http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 29.РАЗВЛЕКАТЕЛЬНЫЕ 🤡",КФУ ТВ
+https://cdn.universmotri.ru/live/kfu.sdp/playlist.m3u8
+#EXTINF:-1,Disney International HD (576p)
+http://103.151.60.162:2122/play/a018/index.m3u8?hls
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Brazil) (480p)
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1,Nicktoons (France) (1080p)
+http://193.254.245.162/NICKELODEON/index.m3u8
+#EXTINF:-1,Bug-TV (1080p)
+http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
+#EXTINF:-1,TV8 (Moldova)
+http://178.76.68.60:7441/7/mpegts
+#EXTINF:-1,Vitebsk (576p)
+http://46.53.200.153:7777/play/a00h/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
