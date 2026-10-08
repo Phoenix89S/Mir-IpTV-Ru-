@@ -26429,6 +26429,20 @@ http://46.53.200.153:7777/play/a00h/index.m3u8
 https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8
 #EXTINF:-1,Nick Jr. (United States) East HD (720p)
 http://107.167.16.138/nickjr/index.m3u8?token=test
+#EXTINF:-1,Cartoon Network Latin America North Atlantic (1080p)
+http://38.252.238.18:8000/play/a053/index.m3u8
+#EXTINF:-1,Cartoon Network Latin America South Atlantic (1080p)
+http://158.172.217.18:8000/play/a03a/index.m3u8
+#EXTINF:-1,Discovery Kids Latin America Mexico (1080p)
+http://38.65.175.84:8000/play/a0an/index.m3u8
+#EXTINF:-1,Disney Junior (United States) (480p)
+http://tvsen5.aynascope.net/disney/index.m3u8
+#EXTINF:-1,Nickelodeon (United Kingdom) (576p)
+http://tvsen7.aynascope.net/nicklodean/index.m3u8
+#EXTINF:-1,Tooncast (1080p)
+http://38.134.250.110:8000/play/a01t/index.m3u8
+#EXTINF:-1,TNT (Russia) (576p)
+http://stream.mcquack.net/135/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
