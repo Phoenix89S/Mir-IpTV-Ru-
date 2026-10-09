@@ -16749,7 +16749,7 @@ https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 http://46.149.191.217:9005/play/a016
 #EXTINF:-1,M-Net Kids (720p)
 http://ares.mnet.mk/hls/mnet-kids.m3u8
-#EXTINF:-1 [OLD],MBC 3 USA (1080p) [Geo-blocked]
+#EXTINF:-1,MBC 3 USA (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
 #EXTINF:-1,MCN6 Music Channel (1080p) [Not 24/7]
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
@@ -22511,7 +22511,7 @@ http://158.101.222.193:88/georgia_play.php?id=kvartal95
 http://stream.mcquack.net/236/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon (USA)
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1,NSC
+#EXTINF:-1 [OLD],NSC
 http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
 #EXTINF:-1 [OLD],Mir vokrug (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/Mirvokrug.m3u8
@@ -22800,10 +22800,10 @@ http://stream.mcquack.net/171/index.m3u8
 #EXTINF:-1,Кинопоказ (2)
 http://stream.mcquack.net/64/index.m3u8
 #EXTINF:-1,Кинопоказ (3)
-http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
-#EXTINF:-1,Кинопоказ (4)
 http://176.118.197.101/Kinopokaz/index.m3u8
-#EXTINF:-1,Индийское кино (2)
+#EXTINF:-1 [OLD],Кинопоказ (4)
+http://176.118.197.101/Kinopokaz/index.m3u8
+#EXTINF:-1 [OLD],Индийское кино (2)
 http://188.113.190.12/329/index.m3u8
 #EXTINF:-1 [OLD],Индийское кино (3)
 http://37.186.70.39:40/play/74/index.m3u8
@@ -25413,7 +25413,7 @@ http://stream.mcquack.net/74/index.m3u8
 http://stream.mcquack.net/214/index.m3u8
 #EXTINF:-1,Премиальное
 http://stream.mcquack.net/421/index.m3u8
-#EXTINF:-1,312
+#EXTINF:-1 [OLD],312
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:-1,Blokbaster
 http://stream.mcquack.net/364/index.m3u8
@@ -25493,13 +25493,13 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 [OLD],Ностальгия (2)
 http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
-#EXTINF:-1,Киномикс (4)
+#EXTINF:-1 [OLD],Киномикс (4)
 http://93.170.254.17/Kinomiks/index.m3u8
-#EXTINF:-1,Наше новое кино (2)
+#EXTINF:-1 [OLD],Наше новое кино (2)
 http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
-#EXTINF:-1,Хит (2)
+#EXTINF:-1 [OLD],Хит (2)
 http://hls127.freeott.top:8080/XitHD/video.m3u8
-#EXTINF:-1 tvg-id="yu",Про любовь
+#EXTINF:-1 tvg-id="yu" [OLD],Про любовь
 http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
 #EXTINF:-1,Nano Нано
 http://stream.mcquack.net/419/index.m3u8
@@ -25725,7 +25725,7 @@ https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 https://fs.uplink.kz/mirovoe_kino/mono.m3u8?token=onlinetv
 #EXTINF:-1 [OLD],TLC (2)
 http://89.33.29.115:8080/TLC_HD/index.m3u8
-#EXTINF:-1,Арт (2)
+#EXTINF:-1 [OLD],Арт (2)
 http://185.23.80.23:8080/ART/index.m3u8
 #EXTINF:-1,KinoLiving
 http://stream.mcquack.net/445/index.m3u8
@@ -25944,7 +25944,7 @@ https://jmp2.uk/plu-67f3fb7d07d2ba4121bd0c8b.m3u8
 #EXTINF:-1,pocket.watch (1080p)
 https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8
 #EXTINF:-1,Pooya TV
-https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
+https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Rugrats (Germany)
 https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
 #EXTINF:-1,Rugrats (United States)
@@ -26422,7 +26422,7 @@ http://193.254.245.162/NICKELODEON/index.m3u8
 #EXTINF:-1,Bug-TV (1080p)
 http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
 #EXTINF:-1,TV8 (Moldova)
-http://178.76.68.60:7441/7/mpegts
+http://178.76.68.60:7442/7/mpegts
 #EXTINF:-1,Vitebsk (576p)
 http://46.53.200.153:7777/play/a00h/index.m3u8
 #EXTINF:-1,DeParinti.ro (576p)
@@ -26443,6 +26443,8 @@ http://tvsen7.aynascope.net/nicklodean/index.m3u8
 http://38.134.250.110:8000/play/a01t/index.m3u8
 #EXTINF:-1,TNT (Russia) (576p)
 http://stream.mcquack.net/135/index.m3u8
+#EXTINF:-1,Cartoon Network Latin America South Pacific (576p)
+http://45.167.1.138:8000/play/a00w
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
