@@ -22055,7 +22055,7 @@ http://31.148.48.15/Malish_TV/index.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/FridayHD_Moskva.m3u8
 #EXTINF:-1 [OLD],TV Centr (1080p)
 https://cdn.telecloud.tv/CH4603/index.m3u8
-#EXTINF:-1,REN TV HD (1080p)
+#EXTINF:-1 [OLD],REN TV HD (1080p)
 http://str2.iptvhd.ru:8080/REN_TV/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Турция 🇹🇷",51
 http://ibb-media4.ibb.gov.tr:1935/live/94.stream/chunklist.m3u8
@@ -22150,7 +22150,7 @@ http://tshift-1.telecoma.tv/sts/index.m3u8
 #EXTINF:-1,REN TV (576p)
 http://31.148.48.15/REN-TV/index.m3u8
 #EXTINF:-1,Channel 5 (576p)
-http://str2.iptvhd.ru:8080/5_kanal/index.m3u8
+http://31.148.5.241/kanal_5/index.m3u8
 #EXTINF:-1,Zvezda (576p)
 http://flussonic.linkintel.ru/zvezda/index.m3u8
 #EXTINF:-1,OTR (576p)
@@ -22292,7 +22292,7 @@ http://213.91.179.28:8000/play/a0bw
 #EXTINF:-1,Channel One HD (720p)
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1,Da Vinci (576p)
-http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8
+http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1,Muz-TV (576p)
 http://46.32.176.50/muztv/index.m3u8
 #EXTINF:-1,National Geographic Wild (1080p)
@@ -22465,7 +22465,7 @@ https://adpnetworkhd-cmd.github.io/iptv/BoltRussia.m3u8
 http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 [OLD],CuriosityStream (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/CuriosityStream.m3u8
-#EXTINF:-1,Detski mir (576p)
+#EXTINF:-1 [OLD],Detski mir (576p)
 http://str2.iptvhd.ru:8080/Teleklub/index.m3u8
 #EXTINF:-1 [OLD],Dialogi o rybalke (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/DialogiORybalke.m3u8
@@ -22523,7 +22523,7 @@ http://stream.mcquack.net/141/index.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/Mult.m3u8
 #EXTINF:-1,Multilandia (576p)
 https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv
-#EXTINF:-1,Muzhskoy (1080p)
+#EXTINF:-1 [OLD],Muzhskoy (1080p)
 http://str2.iptvhd.ru:8080/Muzhskoy/index.m3u8
 #EXTINF:-1,Muzyka Pervogo (576p)
 http://stream.mcquack.net/153/index.m3u8
@@ -22541,7 +22541,7 @@ http://stream.mcquack.net/60/index.m3u8
 https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
 #EXTINF:-1 [OLD],Ostrosyuzhetnoye (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/OstrosyuzhetnoyeHD.m3u8
-#EXTINF:-1,Pervyy Kosmicheskiy HD (1080p)
+#EXTINF:-1 [OLD],Pervyy Kosmicheskiy HD (1080p)
 http://str2.iptvhd.ru:8080/Eureka_HD/index.m3u8
 #EXTINF:-1 [OLD],Pingvin (576p)
 https://adpnetworkhd-cmd.github.io/iptv/Pingvin.m3u8
@@ -22592,7 +22592,7 @@ http://ukr2.ukrainske.tv/493/video.m3u8
 #EXTINF:-1 [OLD],О!2 (2)
 http://77.232.131.211/O2TV/index.m3u8
 #EXTINF:-1,Russia-1 (576p)
-http://str2.iptvhd.ru:8080/Rossiya_1/index.m3u8
+http://31.148.5.241/kanal_2/index.m3u8
 #EXTINF:-1,Rybolov (576p)
 http://stream.mcquack.net/264/index.m3u8
 #EXTINF:-1,Channel 8 (576p)
@@ -23334,7 +23334,7 @@ http://178.124.179.122:8080/Setanta1/index.m3u8
 #EXTINF:-1,Subbota! SD (576p)
 http://46.32.176.50/subbota/index.m3u8
 #EXTINF:-1,Zvezda HD (1080p)
-http://str2.iptvhd.ru:8080/Zvezda/index.m3u8
+https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1,Zvezda Plus HD (1080p)
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:-1,Ani
@@ -25631,73 +25631,73 @@ http://176.118.197.101/START_AIR/index.m3u8
 http://176.118.197.101/RBK/index.m3u8
 #EXTINF:-1,Illusion+ (576p)
 http://176.118.197.101/Illuzion+/index.m3u8
-#EXTINF:-1,MusicBox Gold (576p)
+#EXTINF:-1 [OLD],MusicBox Gold (576p)
 http://str2.iptvhd.ru:8080/360TuneBox/index.m3u8
-#EXTINF:-1,Bollywood (576p)
+#EXTINF:-1 [OLD],Bollywood (576p)
 http://str2.iptvhd.ru:8080/bollywood/index.m3u8
-#EXTINF:-1,Bollywood HD (1080p)
+#EXTINF:-1 [OLD],Bollywood HD (1080p)
 http://str2.iptvhd.ru:8080/Bollywood_HD/index.m3u8
-#EXTINF:-1,Extreme Sports Channel HD (1080p)
+#EXTINF:-1 [OLD],Extreme Sports Channel HD (1080p)
 http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8
-#EXTINF:-1,Glazami Turista (1080p)
+#EXTINF:-1 [OLD],Glazami Turista (1080p)
 http://str2.iptvhd.ru:8080/Glazami_turista_HD/index.m3u8
 #EXTINF:-1,Kto est kto (576p)
 http://str2.iptvhd.ru:8080/kto_est_kto/index.m3u8
-#EXTINF:-1,National Geographic Wild HD (1080p)
+#EXTINF:-1 [OLD],National Geographic Wild HD (1080p)
 http://str2.iptvhd.ru:8080/Nat_Geo_Wild_HD/index.m3u8
-#EXTINF:-1,National Geographic HD (1080p)
+#EXTINF:-1 [OLD],National Geographic HD (1080p)
 http://str2.iptvhd.ru:8080/National_Geo_HD/index.m3u8
 #EXTINF:-1,viju+ Sport HD (1080p)
-http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8
+http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1,Teleputeshestviya (576p)
 http://str2.iptvhd.ru:8080/Teleputeshestviya/index.m3u8
-#EXTINF:-1,Drive (576p)
+#EXTINF:-1 [OLD],Drive (576p)
 http://str2.iptvhd.ru:8080/Drayv/index.m3u8
-#EXTINF:-1,TNT4 HD (1080p)
+#EXTINF:-1 [OLD],TNT4 HD (1080p)
 http://str2.iptvhd.ru:8080/TNT_4/index.m3u8
-#EXTINF:-1,FX (1080p)
+#EXTINF:-1 [OLD],FX (1080p)
 http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8
-#EXTINF:-1,START Air HD (1080p)
+#EXTINF:-1 [OLD],START Air HD (1080p)
 http://str2.iptvhd.ru:8080/START_Air_HD/index.m3u8
-#EXTINF:-1,START World HD (1080p)
+#EXTINF:-1 [OLD],START World HD (1080p)
 http://str2.iptvhd.ru:8080/START_World_HD/index.m3u8
-#EXTINF:-1,TERRA (1080p)
+#EXTINF:-1 [OLD],TERRA (1080p)
 http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8
-#EXTINF:-1,viju Nature HD (1080p)
+#EXTINF:-1 [OLD],viju Nature HD (1080p)
 http://str2.iptvhd.ru:8080/Viasat_Nature_HD/index.m3u8
-#EXTINF:-1,Tochka.rf (576p)
+#EXTINF:-1 [OLD],Tochka.rf (576p)
 http://str2.iptvhd.ru:8080/HD_Life/index.m3u8
 #EXTINF:-1,Auto Plus (576p)
 http://str2.iptvhd.ru:8080/Avto_Plyus/index.m3u8
-#EXTINF:-1,V mire zhivotnykh HD (1080p)
+#EXTINF:-1 [OLD],V mire zhivotnykh HD (1080p)
 http://str2.iptvhd.ru:8080/Animal_Family_HD/index.m3u8
-#EXTINF:-1,History 2 (1080p)
+#EXTINF:-1 [OLD],History 2 (1080p)
 http://str2.iptvhd.ru:8080/H2_HD/index.m3u8
-#EXTINF:-1,FX Life (576p)
+#EXTINF:-1 [OLD],FX Life (576p)
 http://str2.iptvhd.ru:8080/Fox_Life_HD/index.m3u8
-#EXTINF:-1,SSSR TV (1080p)
+#EXTINF:-1 [OLD],SSSR TV (1080p)
 http://str2.iptvhd.ru:8080/sssr_kino/index.m3u8
-#EXTINF:-1,Strashnoe HD (1080p)
+#EXTINF:-1 [OLD],Strashnoe HD (1080p)
 http://str2.iptvhd.ru:8080/StrashnoeHD/index.m3u8
 #EXTINF:-1,Russian Extreme (576p)
 http://str2.iptvhd.ru:8080/Russkiy_ekstrim/index.m3u8
-#EXTINF:-1,Romantichnoe HD (1080p)
+#EXTINF:-1 [OLD],Romantichnoe HD (1080p)
 http://str2.iptvhd.ru:8080/Semeynoe_HD/index.m3u8
-#EXTINF:-1,Nashe HD (1080p)
+#EXTINF:-1 [OLD],Nashe HD (1080p)
 http://str2.iptvhd.ru:8080/Nashe_HD/index.m3u8
-#EXTINF:-1,Kapitan Fantastika HD (1080p)
+#EXTINF:-1 [OLD],Kapitan Fantastika HD (1080p)
 http://str2.iptvhd.ru:8080/Ginger_HD/index.m3u8
 #EXTINF:-1,A2 (576p)
 http://str2.iptvhd.ru:8080/Amedia_2/index.m3u8
-#EXTINF:-1,Kamedi HD (1080p)
+#EXTINF:-1 [OLD],Kamedi HD (1080p)
 http://str2.iptvhd.ru:8080/Kinopokaz_HD2/index.m3u8
-#EXTINF:-1,Pro Lyubov HD (1080p)
+#EXTINF:-1 [OLD],Pro Lyubov HD (1080p)
 http://str2.iptvhd.ru:8080/pro_lyubov/index.m3u8
-#EXTINF:-1,BRIDGE Fresh (1080p)
+#EXTINF:-1 [OLD],BRIDGE Fresh (1080p)
 http://str2.iptvhd.ru:8080/Bridge_TV_HD/index.m3u8
 #EXTINF:-1,Match! Ultra (1080p)
-http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8
-#EXTINF:-1,Match! Igra HD (1080p)
+http://31.148.5.241/kanal_3/index.m3u8
+#EXTINF:-1 [OLD],Match! Igra HD (1080p)
 http://str2.iptvhd.ru:8080/Match_Igra_HD/index.m3u8
 #EXTINF:-1,Dom kino Premium (576p)
 http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8
@@ -25757,7 +25757,7 @@ http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
 http://88.212.15.19/live/test_disney/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (Hungary)
 http://88.212.15.19/live/disney_channel_hun/index.m3u8
-#EXTINF:-1,Disney Channel (India) (576p)
+#EXTINF:-1 [OLD],Disney Channel (India) (576p)
 http://51.75.127.199:3141/disneychannel/index.m3u8
 #EXTINF:-1,Disney Channel (Israel) (576p)
 http://str2.iptvhd.ru:8080/disney/index.m3u8
@@ -26022,7 +26022,7 @@ http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1,BST (576p)
 https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
 #EXTINF:-1,Channel 5 (Russia) (576p)
-http://str2.iptvhd.ru:8080/5_kanal/index.m3u8
+http://31.148.5.241/kanal_5/index.m3u8
 #EXTINF:-1,Channel 7 (Kazakhstan) (576p)
 http://stream.mcquack.net/27/index.m3u8
 #EXTINF:-1,Channel 8 (Russia) (576p)
@@ -26135,9 +26135,9 @@ https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m
 https://kino-1.catcast.tv/content/37745/index.m3u8
 #EXTINF:-1,Muzyka Kino [Not 24/7]
 https://kino-1.catcast.tv/content/37739/index.m3u8
-#EXTINF:-1,National Geographic (Russia) HD (1080p)
+#EXTINF:-1 [OLD],National Geographic (Russia) HD (1080p)
 http://str2.iptvhd.ru:8080/National_Geo_HD/index.m3u8
-#EXTINF:-1,National Geographic Wild (Russia) HD (1080p)
+#EXTINF:-1 [OLD],National Geographic Wild (Russia) HD (1080p)
 http://str2.iptvhd.ru:8080/Nat_Geo_Wild_HD/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Science",Nauka (Ukraine) (576p)
 http://stream.mcquack.net/403/index.m3u8
@@ -26335,7 +26335,7 @@ http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
 #EXTINF:-1,Oplot TV SD (1080p) [Geo-blocked]
 http://31.131.139.253:9002/oplot_hd/index.m3u8
-#EXTINF:-1,Avto24 (1080i)
+#EXTINF:-1 [OLD],Avto24 (1080i)
 http://str2.iptvhd.ru:8080/Avto_24/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / ARABIC",Alhaqeqa Aldawlia
 http://ghaasiflu.online/alhqeqa/index.m3u8
@@ -26396,10 +26396,10 @@ https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
 #EXTINF:-1 [OLD],CBeebies (Poland)
 https://xyktmobile00.s.gy/ticketview/49092
 #EXTINF:-1,Disney Junior (India) (576p)
-http://51.75.127.199:3141/disneyjunior/index.m3u8
+http://103.151.60.162:2122/play/a016/index.m3u8?hls
 #EXTINF:-1,Disney Junior (Poland) (576p)
 http://57.128.231.171:8080/277/index.m3u8
-#EXTINF:-1,Nick HD+ (1080p)
+#EXTINF:-1 [OLD],Nick HD+ (1080p)
 http://51.75.127.199:3141/nickhd/index.m3u8
 #EXTINF:-1 tvg-id="yu",Плюс минус 16
 https://media.16pm.ru/live/index.m3u8
@@ -26459,6 +26459,36 @@ http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
 http://tvsen7.aynascope.net/teennick/index.m3u8
 #EXTINF:-1,TraLaLa DSN
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0
+#EXTINF:-1,Match! Premier (480p) [Geo-blocked]
+http://192.162.64.99:5000/play/a02b/index.m3u8
+#EXTINF:-1,Discovery Channel (1080p)
+http://stream.mcquack.net/177/index.m3u8
+#EXTINF:-1,Investigation Discovery (1080p)
+http://stream.mcquack.net/205/index.m3u8
+#EXTINF:-1,TLC (1080p)
+http://stream.mcquack.net/168/index.m3u8
+#EXTINF:-1,Animal Planet (1080p)
+http://stream.mcquack.net/114/index.m3u8
+#EXTINF:-1,Food Network (1080p)
+http://stream.mcquack.net/298/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Animation;Kids",Cartoon Network Asia (720p)
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+#EXTINF:-1,Nickelodeon (Italy)
+https://zg9mhld.s.gy/HD-NICK-IT.ts
+#EXTINF:-1,Animal Planet (Russia) (1080p)
+http://stream.mcquack.net/114/index.m3u8
+#EXTINF:-1,Da Vinci (Russia) (576p)
+http://stream.mcquack.net/238/index.m3u8
+#EXTINF:-1,Discovery Channel (Russia) (1080p)
+http://stream.mcquack.net/177/index.m3u8
+#EXTINF:-1,Eurosport 1 Russia (1080p)
+http://stream.mcquack.net/176/index.m3u8
+#EXTINF:-1,Eurosport 2 Russia (1080p)
+http://stream.mcquack.net/192/index.m3u8
+#EXTINF:-1,Food Network (Russia) (1080p)
+http://stream.mcquack.net/298/index.m3u8
+#EXTINF:-1,Investigation Discovery (Russia) (1080p)
+http://stream.mcquack.net/205/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
