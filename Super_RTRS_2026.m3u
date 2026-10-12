@@ -22121,7 +22121,7 @@ https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8
 https://jmp2.uk/plu-67f3fc1707d2ba4121bd34a8.m3u8
 #EXTINF:-1,Starz Kids & Family (1080p)
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
-#EXTINF:-1 [OLD],Euronews Russian (720p)
+#EXTINF:-1,Euronews Russian (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies;Series",FilmUADrama (1080p)
 http://88.99.215.227/FilmUADrama/index.m3u8
@@ -24329,11 +24329,11 @@ http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TOBOLSKOEVREMYA/variant.
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Minimax
 http://88.212.15.19/live/minimax_hun/index.m3u8
-#EXTINF:-1,Nick Jr. Asia (720p)
+#EXTINF:-1 [OLD],Nick Jr. Asia (720p)
 http://nmk.ioapk.com:5050/4gtv-live032/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon
 http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
-#EXTINF:-1,Nickelodeon Asia (1080p)
+#EXTINF:-1 [OLD],Nickelodeon Asia (1080p)
 http://nmk.ioapk.com:5050/4gtv-live105/index.m3u8
 #EXTINF:-1 [OLD],Настоящее Время (1080p)
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
@@ -25267,7 +25267,7 @@ https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
 #EXTINF:-1,MDR Fernsehen Thuringen
 https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0; de-DE) Gecko/20100101 Firefox/117.0
-#EXTINF:-1,Sony Yay! (1080p)
+#EXTINF:-1 [OLD],Sony Yay! (1080p)
 https://cloudplay-sonyliv.pages.dev/yay.m3u8
 #EXTINF:-1 tvg-shift="0",Белгород 24 | Белгородская область
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
@@ -25555,7 +25555,7 @@ http://198.58.104.90:8989/nickelodeon/index.m3u8
 http://192.162.64.99:5100/play/a02k/index.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (720p)
 http://102.129.186.182:81/nick/index.m3u8
-#EXTINF:-1,Nick Jr. Asia HD (720p)
+#EXTINF:-1 [OLD],Nick Jr. Asia HD (720p)
 http://58.8.186.128:10003/bysid/2330
 #EXTINF:-1,Доктор (3)
 http://45.11.139.43:8555/doctor/index.m3u8
@@ -25709,9 +25709,9 @@ https://iptv.prosto.tv/ch066/index.m3u8
 https://hls01ns.antenaplay.ro/hls/tralala-hd/index.m3u8
 #EXTINF:-1,Channel One Eurasia (576p)
 https://fs.uplink.kz/perviy_kanal_evrasia/mono.m3u8?token=onlinetv
-#EXTINF:-1,DocuBox Russia (1080p)
+#EXTINF:-1 [OLD],DocuBox Russia (1080p)
 http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
-#EXTINF:-1,Euronews Russian (1080p)
+#EXTINF:-1 [OLD],Euronews Russian (1080p)
 http://str2.iptvhd.ru:8080/Euronews/index.m3u8
 #EXTINF:-1 [OLD],FILMBOX+ One Ukraine & Baltics (576p) [Not 24/7]
 https://iptv.prosto.tv/ch064/index.m3u8
@@ -25759,7 +25759,7 @@ http://88.212.15.19/live/test_disney/playlist.m3u8
 http://88.212.15.19/live/disney_channel_hun/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (India) (576p)
 http://51.75.127.199:3141/disneychannel/index.m3u8
-#EXTINF:-1,Disney Channel (Israel) (576p)
+#EXTINF:-1 [OLD],Disney Channel (Israel) (576p)
 http://str2.iptvhd.ru:8080/disney/index.m3u8
 #EXTINF:-1,Disney Channel (Poland) HD (1080p)
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
@@ -25833,7 +25833,7 @@ http://88.212.15.19/live/test_nick_jr/playlist.m3u8
 http://88.212.15.19/live/nick_junior_hun/index.m3u8
 #EXTINF:-1,Nick Jr. (India) (576p)
 http://103.185.24.134:3001/NICK-JR/index.m3u8
-#EXTINF:-1,Nick Jr. (Israel) (576p)
+#EXTINF:-1 [OLD],Nick Jr. (Israel) (576p)
 http://str2.iptvhd.ru:8080/nickjr/index.m3u8
 #EXTINF:-1,Nick Jr. (Italy) (720p)
 http://102.129.186.182:81/nick/index.m3u8
@@ -26309,9 +26309,9 @@ http://195.26.83.96:7029/play/a006
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 #EXTINF:-1,Bob l'eponge (720p)
 https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
-#EXTINF:-1,Junior (1080p)
+#EXTINF:-1 [OLD],Junior (1080p)
 http://str2.iptvhd.ru:8080/junior/index.m3u8
-#EXTINF:-1,Luli (1080p)
+#EXTINF:-1 [OLD],Luli (1080p)
 http://str2.iptvhd.ru:8080/HOT_Luli/index.m3u8
 #EXTINF:-1,Nickelodeon Teen LatAm (720p)
 https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
@@ -26341,7 +26341,7 @@ http://str2.iptvhd.ru:8080/Avto_24/index.m3u8
 http://ghaasiflu.online/alhqeqa/index.m3u8
 #EXTINF:-1,Alhaqeqa Aldawlia
 https://ghaasiflu.online/alhqeqa/index.m3u8
-#EXTINF:-1,Disney Channel (Germany)
+#EXTINF:-1 [OLD],Disney Channel (Germany)
 http://178.27.12.3:9981/stream/channelid/269948147?profile=pass
 #EXTINF:-1,Spacetoon Turkey (720p) [Not 24/7]
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
@@ -26489,6 +26489,30 @@ http://stream.mcquack.net/192/index.m3u8
 http://stream.mcquack.net/298/index.m3u8
 #EXTINF:-1,Investigation Discovery (Russia) (1080p)
 http://stream.mcquack.net/205/index.m3u8
+#EXTINF:-1,Travel Channel (1080p)
+http://stream.mcquack.net/231/index.m3u8
+#EXTINF:-1,Boomerang (720p)
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+#EXTINF:-1,Cartoon Network (United States) (720p)
+http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8
+#EXTINF:-1,Cartoon Network CEE Czech Republic
+http://88.212.15.17/live/test_cartoon_network_tizen/playlist.m3u8
+#EXTINF:-1,Cartoon Network CEE Ukraine (576p)
+http://45.132.87.69:8080/cartoon_network/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Animation;Kids",Cartoon Network Latin America
+https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8
+#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Animation;Kids",Cartoonito Asia (720p)
+http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
+#EXTINF:-1,Disney Channel (Germany) (576p)
+https://s6.hopslan.com/disneyX/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (Netherlands) (360p)
+https://lb.iptvnetwork.net/ls28/10014/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Entertainment;Kids",Veronica / Disney Jr. (360p)
+https://lb.iptvnetwork.net/ls28/10011/playlist.m3u8
+#EXTINF:-1,312 Kino (406p)
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
+#EXTINF:-1,312 TV (406p)
+http://176.126.166.43:1935/live/312musik/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
