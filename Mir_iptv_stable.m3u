@@ -1755,6 +1755,8 @@ http://stream.mcquack.net/168/index.m3u8
 http://stream.mcquack.net/114/index.m3u8
 #EXTINF:-1 tvg-id="FoodNetwork.ru@SD",Food Network (1080p)
 http://stream.mcquack.net/298/index.m3u8
+#EXTINF:-1 tvg-id="TravelChannel.ru@SD",Travel Channel (1080p)
+http://stream.mcquack.net/231/index.m3u8
 #EXTINF:-1 tvg-id="15PlusMusic.ru@HD",15+ Music (1080p)
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 tvg-id="alphaCinema.ru@HD",alpha Cinema (1080p)
@@ -6609,8 +6611,6 @@ https://stream8.cinerama.uz/1247/index.m3u8
 http://iptv.mega.net.ru:8888/Moa_Planeta/index.m3u8
 #EXTINF:-1 group-title="Познавательные", One Planet
 http://stream.mcquack.net/448/index.m3u8
-#EXTINF:-1 group-title="Познавательные", Travel Channel
-http://stream.mcquack.net/231/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel XP
 http://stream.mcquack.net/451/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Animal Planet
