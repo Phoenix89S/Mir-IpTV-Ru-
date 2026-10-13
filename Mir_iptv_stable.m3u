@@ -6393,8 +6393,6 @@ https://kinowalk.hopto.org/serialtv_live
 https://kinowalk.hopto.org/serial4u_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Киноужас
 https://kinowalk.hopto.org/kinouzhas_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", Коновал
-https://kinowalk.hopto.org/www.konoval_tv_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Alex.Films
 https://kinowalk.hopto.org/alex.films_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", JTX Online
@@ -6419,8 +6417,6 @@ https://kinowalk.hopto.org/video_channel_live
 https://kinowalk.hopto.org/swat2k_live
 #EXTINF:-0 group-title="Кинозалы Kinowalk", Wfliq
 https://kinowalk.hopto.org/wfliq_live
-#EXTINF:-0 group-title="Кинозалы Kinowalk", Snoochies Boochies
-https://kinowalk.hopto.org/sinema_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Комедии
 https://kinowalk.hopto.org/cmexye4ku_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Эквилибриум
@@ -6431,8 +6427,6 @@ https://kinowalk.hopto.org/chowamigo_live
 https://kinowalk.hopto.org/topmomentlive_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Назад в СССР
 https://kinowalk.hopto.org/backtotheussr_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", VideoVk
-https://kinowalk.hopto.org/videovk_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", InMuNa
 https://kinowalk.hopto.org/inmuna_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", VHS кино
@@ -6445,20 +6439,24 @@ https://kinowalk.hopto.org/igrocomp_live
 https://kinowalk.hopto.org/kycman_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", dj Zour
 https://kinowalk.hopto.org/zsmedia_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", КиноНонСтоп
-https://kinowalk.hopto.org/nonestopmovie_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Priest_kod
 https://kinowalk.hopto.org/priest_kod_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", Амбергейт
-https://kinowalk.hopto.org/ambergate_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", Кинопроектор
-https://kinowalk.hopto.org/kinokjkh_live
-#EXTINF:-1 group-title="Кинозалы Kinowalk", Tоny
-https://kinowalk.hopto.org/ordinary_people_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", Kinofon
 https://kinowalk.hopto.org/kinofon_live
 #EXTINF:-1 group-title="Кинозалы Kinowalk", KinoMix
 https://kinowalk.hopto.org/yurich_kinomix_live
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Детское
+https://stream.smotrim.ru/hls3/fasttv05/playlist_3.m3u8
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Классика
+https://stream.smotrim.ru/hls3/fasttv03/playlist_3.m3u8
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Любовь
+https://stream.smotrim.ru/hls3/fasttv01/playlist_3.m3u8
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Мужское
+https://stream.smotrim.ru/hls3/fasttv02/playlist_3.m3u8
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Праздник
+https://stream.smotrim.ru/hls3/fasttv04/playlist_3.m3u8
+#EXTINF:-1 group-title="Кинозалы Смотрим", 100% Факты
+https://stream.smotrim.ru/hls3/fasttv06/playlist_3.m3u8
 #EXTINF:-1 group-title="Кинозалы Catcast", Кино 1 International
 https://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 group-title="Кинозалы Catcast", Детское кино
