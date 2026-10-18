@@ -2305,6 +2305,8 @@ https://stream8.cinerama.uz/1034/index.m3u8
 http://194.152.35.17/Karusel/index.m3u8
 
 # ===== Кнопка 9 =====
+#EXTINF:-1 tvg-id="otr",ОТР
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="otr",ОТР HD
 http://194.152.35.17/otr/index.m3u8
 #EXTINF:-1 tvg-id="otr" [OLD],ОТР +2
@@ -2731,6 +2733,8 @@ http://hls127.freeott.top:8080/Tv_Center/video.m3u8
 # ===== Кнопка 11 =====
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="rentv",Рен ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="rentv",РЕН ТВ HD
 http://194.152.35.17/ren_tv/index.m3u8
 #EXTINF:-1 tvg-id="rentv" [OLD],РЕН ТВ +2
@@ -2987,6 +2991,8 @@ http://178.134.1.158:8081/RENTV/index.m3u8
 # ===== Кнопка 12 =====
 #EXTINF:-1,СПАС
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/983/index.m3u8
+#EXTINF:-1,Спас
+http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1,Спас (450p) [Geo-blocked]
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982",Спас
@@ -5943,7 +5949,7 @@ http://catchup.videoline.ru/cinema/playlist.m3u8
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:-1,Kino 24 (720p)
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-#EXTINF:-1,Pro100TV (576p)
+#EXTINF:-1 [OLD],Pro100TV (576p)
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1,Shopping Live (576p) [Not 24/7]
 http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
@@ -6011,9 +6017,9 @@ https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="yu",Муз союз (576p)
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1,Мультимания (576p)
+#EXTINF:-1 [OLD],Мультимания (576p)
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Мультимания ТВ (576p)
+#EXTINF:-1 [OLD],Мультимания ТВ (576p)
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 #EXTINF:-1,Надежда (720p)
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
@@ -6035,7 +6041,7 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 #EXTINF:-1,ОСН
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
-#EXTINF:-1,Патриот (576i)
+#EXTINF:-1 [OLD],Патриот (576i)
 http://catchup.videoline.ru/asvtv/index.m3u8
 #EXTINF:-1,Прима (1080p)
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
@@ -6133,7 +6139,7 @@ https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
 #EXTINF:-1 [OLD],alpha Moretime (1080p)
 https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
-#EXTINF:-1,Новый Русский (720p)
+#EXTINF:-1 [OLD],Новый Русский (720p)
 https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
 #EXTINF:-1,12 канал (1080p)
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
@@ -15180,7 +15186,7 @@ http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1,Матч! Футбол 3 HD
 http://185.57.68.33/110/mpegts
 #EXTINF:-1,Setanta Sports 1 HD
-https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
+http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Setanta Sports 2 HD
 http://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 [OLD],Polsat Sport 2
@@ -22150,7 +22156,7 @@ http://hls127.freeott.top:8080/HCTV/video.m3u8
 #EXTINF:-1,STS kids (576p)
 http://hls127.freeott.top:8080/STS_Kids/video.m3u8
 #EXTINF:-1,Spas (576p)
-http://hls127.freeott.top:8080/Spas/video.m3u8
+https://tvspas.mediacdn.ru/cdn/spas/playlist.m3u8
 #EXTINF:-1,TV-3 (576p)
 http://178.124.179.122:8080/TB-3/index.m3u8
 #EXTINF:-1,Smile TV (720p)
@@ -22547,7 +22553,7 @@ https://adpnetworkhd-cmd.github.io/iptv/NasheHD.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/NicktoonsRussia.m3u8
 #EXTINF:-1,O! (576p)
 http://stream.mcquack.net/60/index.m3u8
-#EXTINF:-1,Oruzhie (576p)
+#EXTINF:-1 [OLD],Oruzhie (576p)
 https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
 #EXTINF:-1 [OLD],Ostrosyuzhetnoye (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/OstrosyuzhetnoyeHD.m3u8
@@ -22562,7 +22568,7 @@ https://adpnetworkhd-cmd.github.io/iptv/Psikhologiya21.m3u8
 #EXTINF:-1,.red HD (1080p)
 http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1,Russia-24 (576p)
-https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv
+http://176.118.197.101/Rossiya24/index.m3u8
 #EXTINF:-1 [OLD],Russkiy Illusion (1080p)
 https://adpnetworkhd-cmd.github.io/iptv/RusskiyIllusion.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (1080p)
@@ -22627,7 +22633,7 @@ http://hls127.freeott.top:8080/Mult_Muzika/video.m3u8
 http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8
 #EXTINF:-1,NTV Law (576p)
 http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8
-#EXTINF:-1,Nashe Novoe Kino (1080p)
+#EXTINF:-1 [OLD],Nashe Novoe Kino (1080p)
 http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
 #EXTINF:-1,Nashe Lubimoe Kino (576p)
 http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
@@ -22826,7 +22832,7 @@ http://stream.mcquack.net/143/index.m3u8
 #EXTINF:-1,Football (576p)
 http://hls127.freeott.top:8080/Football/video.m3u8
 #EXTINF:-1,STS Love (576p)
-http://hls127.freeott.top:8080/CTC-LOVE/video.m3u8
+http://stream.mcquack.net/183/index.m3u8
 #EXTINF:-1,Prosveshchenie (576p)
 http://cdn-01.bonus-tv.ru/prosveschenie_edge/index.m3u8
 #EXTINF:-1,SuperGeroi (576p)
@@ -24151,9 +24157,9 @@ http://stream.mcquack.net/188/index.m3u8
 http://stream.mcquack.net/166/index.m3u8
 #EXTINF:-1,Boks TV (576p)
 http://stream.mcquack.net/154/index.m3u8
-#EXTINF:-1,Okko Futbol (1080p)
+#EXTINF:-1 [OLD],Okko Futbol (1080p)
 http://stream.mcquack.net/491/index.m3u8
-#EXTINF:-1,Okko Sport (1080p)
+#EXTINF:-1 [OLD],Okko Sport (1080p)
 http://stream.mcquack.net/492/index.m3u8
 #EXTINF:-1,Okko Prajm Sport (1080p)
 http://stream.mcquack.net/493/index.m3u8
@@ -24194,7 +24200,7 @@ https://sra72yz.s.gy/NICK_JR_WEST_US
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",PLUSPLUS (1080p)
 http://stream.mcquack.net/339/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",TV2 Kids
-http://88.212.15.19/live/tv2_kids/index.m3u8
+http://88.212.15.17/live/tv2_kids/index.m3u8
 #EXTINF:-1,Belarus-2 HD (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1,Belarus-3 HD (1080p) [Not 24/7]
@@ -24300,7 +24306,7 @@ https://cdn-1.pishow.tv/live/235/master.m3u8
 #EXTINF:-1 [OLD],Gloobinho (720p)
 http://177.52.24.163/GLOOBINHO-HD/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Kolyokklub
-http://88.212.15.19/live/kolyokklub_atk/index.m3u8
+http://88.212.15.17/live/kolyokklub_atk/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr.
 http://88.212.15.19/live/test_nick_jr/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon
@@ -24446,7 +24452,7 @@ https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca14134
 #EXTINF:-1 [OLD],We Sport TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
 #EXTINF:-1,Svoboda
-http://88.212.15.19/live/svoboda/index.m3u8
+http://88.212.15.17/live/svoboda/index.m3u8
 #EXTINF:-1,Groovia Kids (576p)
 https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8
 #EXTINF:-1 [OLD],Nicktoons (1080p) [Geo-blocked]
@@ -24744,7 +24750,7 @@ https://streams.comclark.com/live_input/nudge_sports/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Disney Junior
 http://88.212.15.19/live/test_disney_junior/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",JimJam
-http://88.212.15.19/live/jim_jam_hun/index.m3u8
+http://88.212.15.17/live/jim_jam_hun/index.m3u8
 #EXTINF:-1,Belarus-4 Gomel
 https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
 #EXTINF:-1,Матч! (2)
@@ -25065,7 +25071,7 @@ http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 #EXTINF:-1 [OLD],RTN
 http://4.59.210.197:8815/udp/127.0.0.1:6002
-#EXTINF:-1,Pobeda (1080p)
+#EXTINF:-1 [OLD],Pobeda (1080p)
 http://94.155.93.182/POBEDA_HD/index.m3u8
 #EXTINF:-1,MMA-TV.com (576p)
 http://45.145.32.13:20440/mmatv/index.m3u8?token=test
@@ -25189,7 +25195,7 @@ https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1,TNT4 International (576p)
 https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
-#EXTINF:-1,RTR-Planeta (576p)
+#EXTINF:-1 [OLD],RTR-Planeta (576p)
 https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv
 #EXTINF:-1,viju Nature (576p)
 https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
@@ -25198,7 +25204,7 @@ https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv
 #EXTINF:-1,Big Planet (576p)
 https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv
 #EXTINF:-1,Poehali! (576p)
-https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv
+http://88.212.15.17/live/test_poehali/playlist.m3u8
 #EXTINF:-1,India (576p)
 https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
 #EXTINF:-1,Dom kino International (576p)
@@ -25209,9 +25215,9 @@ https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
 https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1,Kinoseriya (576p)
 https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
-#EXTINF:-1,Nashe Novoe Kino (576p)
+#EXTINF:-1 [OLD],Nashe Novoe Kino (576p)
 https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1,Pobeda (576p)
+#EXTINF:-1 [OLD],Pobeda (576p)
 https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv
 #EXTINF:-1,Russkiy Illusion (576p)
 https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv
@@ -25225,11 +25231,11 @@ https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv
 https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv
 #EXTINF:-1,Europa Plus TV (576p)
 https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv
-#EXTINF:-1,STS kids International (576p)
+#EXTINF:-1 [OLD],STS kids International (576p)
 https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv
 #EXTINF:-1,Carousel International (576p)
 https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv
-#EXTINF:-1,O! International (576p)
+#EXTINF:-1 [OLD],O! International (576p)
 https://fs.uplink.kz/o/mono.m3u8?token=onlinetv
 #EXTINF:-1,Bober (576p)
 https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
@@ -25268,7 +25274,7 @@ http://stream.mcquack.net/451/index.m3u8
 #EXTINF:-1,Зал суда HD
 http://cdn.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,4 Fun Kids (576i)
-https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
+https://stream.4fun.tv:8889/hls/4fk.m3u8
 #EXTINF:-1 [OLD],Blues TV
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 #EXTINF:-1,The Jungle Book (1080p)
@@ -25629,7 +25635,7 @@ https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1281/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Channel One CIS (576p)
 https://fs.uplink.kz/perviy_kanal_sng/mono.m3u8?token=onlinetv
-#EXTINF:-1,Rybalka i okhota (576p)
+#EXTINF:-1 [OLD],Rybalka i okhota (576p)
 https://fs.uplink.kz/ohota_i_ribalka/mono.m3u8?token=onlinetv
 #EXTINF:-1,Friday! International Kazakhstan (576p)
 https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv
@@ -25710,7 +25716,7 @@ http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 [OLD],Match! Igra HD (1080p)
 http://str2.iptvhd.ru:8080/Match_Igra_HD/index.m3u8
 #EXTINF:-1,Dom kino Premium (576p)
-http://88.212.15.19/live/test_dom_kino_premium/playlist.m3u8
+http://88.212.15.17/live/test_dom_kino_premium/playlist.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (540p)
 http://176.61.157.250/NickJr/index.m3u8
 #EXTINF:-1 [OLD],PLUSPLUS HD (1080p) [Not 24/7]
@@ -25762,11 +25768,11 @@ http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1 [OLD],Clan Internacional (1080p) [Geo-blocked]
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 #EXTINF:-1,CT Decko (1080p)
-http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8
+http://88.212.15.17/live/ct_art_avc_25p/playlist.m3u8
 #EXTINF:-1,Disney Channel (Czech Republic)
-http://88.212.15.19/live/test_disney/playlist.m3u8
+http://88.212.15.17/live/test_disney/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (Hungary)
-http://88.212.15.19/live/disney_channel_hun/index.m3u8
+http://88.212.15.17/live/disney_channel_hun/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (India) (576p)
 http://51.75.127.199:3141/disneychannel/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (Israel) (576p)
@@ -25775,14 +25781,14 @@ http://str2.iptvhd.ru:8080/disney/index.m3u8
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 #EXTINF:-1,Disney Channel (Portugal) (1080p)
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
-#EXTINF:-1,Disney Channel (United States) (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],Disney Channel (United States) (720p) [Geo-blocked]
 http://212.5.144.156/disney/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (United States) HD East (720p)
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1,Disney Jr. (France) (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Disney Junior (Czech Republic)
-http://88.212.15.19/live/test_disney_junior/playlist.m3u8
+http://88.212.15.17/live/test_disney_junior/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Disney Junior (Romania)
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 #EXTINF:-1 [OLD],Disney Junior (United States) (720p)
@@ -25820,13 +25826,13 @@ https://dltiqboxjw21d.cloudfront.net/index.m3u8
 #EXTINF:-1 [OLD],MeTV Toons KMBY-LD
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Minimax (Hungary)
-http://88.212.15.19/live/minimax_hun/index.m3u8
+http://88.212.15.17/live/minimax_hun/index.m3u8
 #EXTINF:-1,Minimax (Pakistan) (360p)
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
 #EXTINF:-1,Minimax (Romania)
 https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
 #EXTINF:-1,Minimax CEE (576p)
-http://88.212.15.19/live/test_minimax/playlist.m3u8
+http://88.212.15.17/live/test_minimax/playlist.m3u8
 #EXTINF:-1,Mr Bean Animated (1080p)
 https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,Mr Bean Animated ES (1080p)
@@ -25838,9 +25844,9 @@ https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1,Nick Jr. (Croatia) (540p)
 http://176.61.157.250/NickJr/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (Czech Republic)
-http://88.212.15.19/live/test_nick_jr/playlist.m3u8
+http://88.212.15.17/live/test_nick_jr/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (Hungary)
-http://88.212.15.19/live/nick_junior_hun/index.m3u8
+http://88.212.15.17/live/nick_junior_hun/index.m3u8
 #EXTINF:-1,Nick Jr. (India) (576p)
 http://103.185.24.134:3001/NICK-JR/index.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (Israel) (576p)
@@ -25864,11 +25870,11 @@ https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 #EXTINF:-1,Nickelodeon (Croatia) (1080p)
 http://176.61.157.250/Nickelodeon/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Czech Republic)
-http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
+http://88.212.15.17/live/test_nickelodeon_hevc_25p/playlist.m3u8
 #EXTINF:-1,Nickelodeon (Germany)
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Hungary)
-http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
+http://88.212.15.17/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
 #EXTINF:-1,Nickelodeon (India) (576p)
 http://103.185.24.134:3001/NICK/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Nickelodeon (Romania)
@@ -25896,9 +25902,9 @@ https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
 #EXTINF:-1 [OLD],Nickelodeon Toons (United States) LatAm (720p)
 https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8
 #EXTINF:-1,Nicktoons (Czech Republic)
-http://88.212.15.19/live/test_nicktoons/playlist.m3u8
+http://88.212.15.17/live/test_nicktoons/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (Hungary)
-http://88.212.15.19/live/nicktoons_hungary/index.m3u8
+http://88.212.15.17/live/nicktoons_hungary/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Nicktoons (Romania)
 https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8
 #EXTINF:-1,Nicktoons (United States) (720p)
@@ -26237,7 +26243,7 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 https://alpha.tv.online.tm/hls/ch007.m3u8
 #EXTINF:-1,TV1.KG (1080p)
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
-#EXTINF:-1 [OLD],TV8 (Moldova) [Not 24/7]
+#EXTINF:-1,TV8 (Moldova) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
 #EXTINF:-1,TV Mana Russkiy (1080p)
 https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
@@ -26298,7 +26304,7 @@ https://cityeden.catcast.tv/content/46209/index.m3u8
 #EXTINF:-1,City Eden TV [Not 24/7]
 https://cityeden.catcast.tv/content/34246/index.m3u8
 #EXTINF:-1,OTV (Estonia)
-http://88.212.15.19/live/otv/playlist.m3u8
+http://88.212.15.17/live/otv/playlist.m3u8
 #EXTINF:-1 [OLD],Star TV (Moldova)
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
 #EXTINF:-1,Novorossiya TV (1080p) [Geo-blocked]
@@ -26431,7 +26437,7 @@ https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 http://193.254.245.162/NICKELODEON/index.m3u8
 #EXTINF:-1,Bug-TV (1080p)
 http://46.53.200.153:7777/play/Bug_TV_HD/index.m3u8
-#EXTINF:-1,TV8 (Moldova)
+#EXTINF:-1 [OLD],TV8 (Moldova)
 http://178.76.68.60:7442/7/mpegts
 #EXTINF:-1,Vitebsk (576p)
 http://46.53.200.153:7777/play/a00h/index.m3u8
@@ -26455,7 +26461,7 @@ http://38.134.250.110:8000/play/a01t/index.m3u8
 http://stream.mcquack.net/135/index.m3u8
 #EXTINF:-1,Cartoon Network Latin America South Pacific (576p)
 http://45.167.1.138:8000/play/a00w
-#EXTINF:-1,Cartoon Network Latin America Brazil (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],Cartoon Network Latin America Brazil (720p) [Geo-blocked]
 http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8
 #EXTINF:-1,Discovery Kids Latin America (1080p)
 http://181.224.200.5:2277/play/a00o/index.m3u8
@@ -26529,7 +26535,7 @@ http://57.128.231.171:8080/293/index.m3u8
 http://88.212.15.17/live/test_boomerang_tizen/playlist.m3u8
 #EXTINF:-1,Discovery Kids Latin America Chile (1080p)
 http://38.224.231.176:8000/play/a01j/index.m3u8
-#EXTINF:-1,Tooncast SouthAmerica (1080p)
+#EXTINF:-1 [OLD],Tooncast SouthAmerica (1080p)
 http://200.62.239.170:830/play/a07n/index.m3u8
 #EXTINF:-1,TLC (Russia) (1080p)
 http://stream.mcquack.net/168/index.m3u8
@@ -26651,6 +26657,18 @@ http://92.114.85.87:8009/play/a006/index.m3u8
 http://92.114.85.87:8002/play/a00b/index.m3u8
 #EXTINF:-1,Shanson TV SD (576p)
 http://catchup.videoline.ru/shanson/index.m3u8
+#EXTINF:-1,O! International (720p)
+http://88.212.15.17/live/test_telekanal_o/playlist.m3u8
+#EXTINF:-1,Cartoon Network Latin America Brazil (720p)
+http://45.162.64.114/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1,Lucas & Friends
+https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8
+#EXTINF:-1,MiMi TV (720p)
+https://fl.biztv.media/MiMiTV_720/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Pobeda (576p)
+https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
+#EXTINF:-1,RTR-Planeta (720p) [Geo-blocked]
+https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
