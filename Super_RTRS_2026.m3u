@@ -16453,7 +16453,7 @@ http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
 #EXTINF:-1,Первый Музыкальный
 http://hz1.teleport.cc/HLS/SD.m3u8
-#EXTINF:-1 tvg-shift="0" [OLD],Первый Ростовский HD
+#EXTINF:-1 tvg-shift="0",Первый Ростовский HD
 https://rost.mediacdn.ru/cdn/rostov1/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Первый Тульский HD
 http://1tvtula.ru/tula/1tv_hi/index.m3u8
@@ -23685,7 +23685,7 @@ https://stream.smotrim.ru/hls/planeta_rtr_asia/playlist.m3u8?entity=channel&id=5
 https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
 #EXTINF:-1 [OLD],Russia RTR CIS [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
-#EXTINF:-1 tvg-shift="0" [OLD],Осетия Ирыстон
+#EXTINF:-1 tvg-shift="0",Осетия Ирыстон
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
 #EXTINF:-1 [OLD],Cartoon Channel PH (720p) [Geo-blocked]
 https://stream-cdn-iad3.vaughnsoft.net/play/live_cartoonchannelph.flv
@@ -26669,6 +26669,10 @@ https://fl.biztv.media/MiMiTV_720/playlist.m3u8
 https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 #EXTINF:-1,RTR-Planeta (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
+#EXTINF:-1,Osetiya-Iryston (1080p)
+https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
+#EXTINF:-1,YaPervyy (1080p)
+https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
