@@ -3387,7 +3387,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="sts",СТС Love (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="sts",СТС Love (+4)
+#EXTINF:-1 tvg-id="sts" [OLD],СТС Love (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="sts" [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",СТС International (720p)
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
@@ -3429,6 +3429,10 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="sts",СТС Love (2)
 https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
+#EXTINF:-1 tvg-id="sts",СТС Love +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="sts",СТС Love +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 
 # ===== Кнопка 14 =====
 #EXTINF:-1 tvg-id="domashniy" [OLD],ДОМАШНИЙ
@@ -4639,6 +4643,12 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tnt",ТНТ +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="tnt",ТНТ4 +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="tnt",ТНТ4 +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="tnt",ТНТ4 +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tnt",ТНТ4 HD
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
 #EXTINF:-1 tvg-id="tnt",ТНТ International
@@ -4929,11 +4939,11 @@ http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/717/index.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tnt",ТНТ (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tnt",ТНТ4 (+2)
+#EXTINF:-1 tvg-id="tnt" [OLD],ТНТ4 (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tnt",ТНТ4 (+4)
+#EXTINF:-1 tvg-id="tnt" [OLD],ТНТ4 (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="tnt",ТНТ4 (+7)
+#EXTINF:-1 tvg-id="tnt" [OLD],ТНТ4 (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="tnt",ТНТ (Архив)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -5081,6 +5091,12 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozi
 # ===== Кнопка 22 =====
 #EXTINF:-1 tvg-id="che",Че
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="che",Че +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="che",Че +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="che",Че +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Перец
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:-1 [OLD],Перец International
@@ -5209,9 +5225,9 @@ https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 http://158.101.222.193:88/georgia_play.php?id=perec
 #EXTINF:-1 tvg-id="che",Че (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="che",Че (+4)
+#EXTINF:-1 tvg-id="che" [OLD],Че (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="che",Че (+7)
+#EXTINF:-1 tvg-id="che" [OLD],Че (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 tvg-id="che" [MANUAL] [OLD],<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28'><rect width='28' height='28' rx='3' fill='%230b1018'/><text x='14' y='19' font-size='10' text-anchor='middle' fill='%232a3848' font-family='monospace'>TV</text></svg>' group-title="Эфирные ТВ Спец",[MANUAL] Че!
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8
@@ -5227,6 +5243,12 @@ http://stream.mcquack.net/121/index.m3u8
 https://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 #EXTINF:-1,СОЛНЦЕ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8?version=2|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Солнце +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Солнце +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Солнце +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Солнце (576p)
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1,Солнце (450p) [Geo-blocked]
@@ -5259,11 +5281,11 @@ https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_DISNEY/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SOLNCE/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],1.15 Солнце (576p)
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
-#EXTINF:-1,Солнце (+2)
+#EXTINF:-1 [OLD],Солнце (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Солнце (+4)
+#EXTINF:-1 [OLD],Солнце (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Солнце (+7)
+#EXTINF:-1 [OLD],Солнце (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Солнце*
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -6495,7 +6517,7 @@ http://31.148.48.15/Tochka_TV/index.m3u8
 http://31.148.48.15/Detskiy/index.m3u8
 #EXTINF:-1 tvg-id="yu",Феникс плюс Кино (576p)
 http://31.148.48.15/Feniks_plus_kino/index.m3u8
-#EXTINF:-1,Футбол (720p)
+#EXTINF:-1 [OLD],Футбол (720p)
 http://31.148.48.15/Futbol_HD/index.m3u8
 #EXTINF:-1 tvg-id="yu",Ю (576p)
 http://31.148.48.15/U/index.m3u8
@@ -16219,11 +16241,11 @@ https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8
 https://s91030.cdn.ngenix.net/hls/CH_R25_25REGION/variant.m3u8
 #EXTINF:-1 [OLD],26 регион
 http://176.118.197.101/2x2/index.m3u8
-#EXTINF:-1,2x2 (+2)
+#EXTINF:-1 [OLD],2x2 (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,2x2 (+4)
+#EXTINF:-1 [OLD],2x2 (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,2x2 (+7)
+#EXTINF:-1 [OLD],2x2 (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],312 Музыка
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
@@ -19855,17 +19877,17 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozi
 http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1 tvg-shift="0",Москва 24 (М24)
 https://stream.smotrim.ru/hls/moscow_24/playlist_3.m3u8
-#EXTINF:-1,Суббота (+2)
+#EXTINF:-1 [OLD],Суббота (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Суббота (+4)
+#EXTINF:-1 [OLD],Суббота (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1,Суббота (+7)
+#EXTINF:-1 [OLD],Суббота (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="yu",Ю (+2)
+#EXTINF:-1 tvg-id="yu" [OLD],Ю (+2)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="yu",Ю (+4)
+#EXTINF:-1 tvg-id="yu" [OLD],Ю (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
-#EXTINF:-1 tvg-id="yu",Ю (+7)
+#EXTINF:-1 tvg-id="yu" [OLD],Ю (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],RTД (RTD)
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
@@ -22030,7 +22052,7 @@ https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8
 #EXTINF:-1 [OLD],ЕВРОКИНО
 http://31148.rafail1982.uz/Evrokino/index.m3u8
 #EXTINF:-1 tvg-shift="0",Осетия-Ирыстон HD
-https://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
+http://osir.mediacdn.ru/cdn/osetia/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1,Охотник и Рыболов
 https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
 #EXTINF:-1 [OLD],Радость Моя FD
@@ -22851,7 +22873,7 @@ http://stream.mcquack.net/385/index.m3u8
 https://fs.uplink.kz/eurokino/index.m3u8?token=onlinetv
 #EXTINF:-1,Match! Strana (576p)
 http://stream.mcquack.net/143/index.m3u8
-#EXTINF:-1,Football (576p)
+#EXTINF:-1 [OLD],Football (576p)
 http://hls127.freeott.top:8080/Football/video.m3u8
 #EXTINF:-1,STS Love (576p)
 http://stream.mcquack.net/183/index.m3u8
@@ -25101,11 +25123,11 @@ http://45.145.32.13:20440/mmatv/index.m3u8?token=test
 http://45.145.32.13:20440/nauka/index.m3u8?token=test
 #EXTINF:-1,Lapki Live (576p)
 https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv
-#EXTINF:-1,Zvezda Plus (576p)
+#EXTINF:-1 [OLD],Zvezda Plus (576p)
 http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
 #EXTINF:-1,Mir Seriala (576p)
 http://176.118.197.101/MirSeriala/index.m3u8
-#EXTINF:-1,Travel+Adventure (576p)
+#EXTINF:-1 [OLD],Travel+Adventure (576p)
 http://45.145.32.13:20440/travel_adventure/index.m3u8?token=test
 #EXTINF:-1,BRIDGE Rock (576p)
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
@@ -26265,7 +26287,7 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 https://alpha.tv.online.tm/hls/ch007.m3u8
 #EXTINF:-1,TV1.KG (1080p)
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
-#EXTINF:-1,TV8 (Moldova) [Not 24/7]
+#EXTINF:-1 [OLD],TV8 (Moldova) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
 #EXTINF:-1,TV Mana Russkiy (1080p)
 https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
@@ -26335,7 +26357,7 @@ http://31.131.139.253:9002/novoros/index.m3u8
 http://31.131.139.253:9002/oplot_hd/index.m3u8
 #EXTINF:-1,6 TV Gorlovka (720p) [Geo-blocked]
 http://91.214.48.158:4022/udp/224.2.2.4:10000
-#EXTINF:-1,TNT International Belarus (1080p)
+#EXTINF:-1 [OLD],TNT International Belarus (1080p)
 http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
 #EXTINF:-1,S Corby TV (480p)
 https://vodcdn.bamboo-cloud.com/livehls/6a9f89be0630445532152563/master.m3u8
@@ -26435,7 +26457,7 @@ https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
 https://xyktmobile00.s.gy/ticketview/49092
 #EXTINF:-1,Disney Junior (India) (576p)
 http://103.151.60.162:2122/play/a016/index.m3u8?hls
-#EXTINF:-1,Disney Junior (Poland) (576p)
+#EXTINF:-1 [OLD],Disney Junior (Poland) (576p)
 http://57.128.231.171:8080/277/index.m3u8
 #EXTINF:-1 [OLD],Nick HD+ (1080p)
 http://51.75.127.199:3141/nickhd/index.m3u8
@@ -26465,7 +26487,7 @@ http://178.76.68.60:7442/7/mpegts
 http://46.53.200.153:7777/play/a00h/index.m3u8
 #EXTINF:-1,DeParinti.ro (576p)
 https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8
-#EXTINF:-1,Nick Jr. (United States) East HD (720p)
+#EXTINF:-1 [OLD],Nick Jr. (United States) East HD (720p)
 http://107.167.16.138/nickjr/index.m3u8?token=test
 #EXTINF:-1,Cartoon Network Latin America North Atlantic (1080p)
 http://38.252.238.18:8000/play/a053/index.m3u8
@@ -26497,7 +26519,7 @@ http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
 http://tvsen7.aynascope.net/teennick/index.m3u8
 #EXTINF:-1,TraLaLa DSN
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0
-#EXTINF:-1,Match! Premier (480p) [Geo-blocked]
+#EXTINF:-1 [OLD],Match! Premier (480p) [Geo-blocked]
 http://192.162.64.99:5000/play/a02b/index.m3u8
 #EXTINF:-1,Discovery Channel (1080p)
 http://stream.mcquack.net/177/index.m3u8
@@ -26515,7 +26537,7 @@ https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 https://zg9mhld.s.gy/HD-NICK-IT.ts
 #EXTINF:-1,Animal Planet (Russia) (1080p)
 http://stream.mcquack.net/114/index.m3u8
-#EXTINF:-1,Da Vinci (Russia) (576p)
+#EXTINF:-1 [OLD],Da Vinci (Russia) (576p)
 http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1,Discovery Channel (Russia) (1080p)
 http://stream.mcquack.net/177/index.m3u8
@@ -26551,7 +26573,7 @@ https://lb.iptvnetwork.net/ls28/10011/playlist.m3u8
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1,312 TV (406p)
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
-#EXTINF:-1,Cartoon Network CEE Poland (1080p)
+#EXTINF:-1 [OLD],Cartoon Network CEE Poland (1080p)
 http://57.128.231.171:8080/293/index.m3u8
 #EXTINF:-1,Cartoonito CEE Czechia
 http://88.212.15.17/live/test_boomerang_tizen/playlist.m3u8
@@ -26625,21 +26647,21 @@ https://kinowalk.hopto.org/kirafreak_live
 http://kinowalk.hopto.org/dimpon_live
 #EXTINF:-1,HGTN
 https://v2.catcast.tv/content/34251/index.m3u8
-#EXTINF:-1,Quadro (2160p)
+#EXTINF:-1 [OLD],Quadro (2160p)
 http://57.128.231.171:8080/316/index.m3u8
-#EXTINF:-1,BabyTV (1080p)
+#EXTINF:-1 [OLD],BabyTV (1080p)
 http://57.128.231.171:8080/310/index.m3u8
 #EXTINF:-1,Cartoon Network (India) (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 [OLD],Cartoon Network HD+ (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
 #EXTINF:-1,Cartoonito CEE Poland (1080p)
-http://57.128.231.171:8080/303/index.m3u8
+http://92.114.85.87:8007/play/a008
 #EXTINF:-1,Cartoonito Latin America (1080p)
 http://45.173.12.70:8000/play/a0hh
 #EXTINF:-1,Discovery Kids (720p)
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
-#EXTINF:-1,Disney Channel (Poland) (1080p)
+#EXTINF:-1 [OLD],Disney Channel (Poland) (1080p)
 http://57.128.231.171:8080/278/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Animation;Kids",Disney Channel Latin America South
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8
@@ -26713,6 +26735,44 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8|User-Agent=Mozi
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Муз ТВ +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Soyuzny (576p)
+https://souzny.mediacdn.ru/cdn/souzny/playlist.m3u8
+#EXTINF:-1,Ministerstvo idey (1080p)
+https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8
+#EXTINF:-1,Boing (Italy) (720p)
+https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDM5MjgwMDExMiJ9.0RWQ0yZrauU0cHSnbpBYhgyRPeq1Lyw6nOn_fo7_cg0/playlist-hls.m3u8
+#EXTINF:-1,Cartoon Network CEE Poland
+http://92.114.85.87:8007/play/a009
+#EXTINF:-1,Disney Channel (Bulgaria) (576i)
+http://87.120.179.187:8000/play/a010
+#EXTINF:-1,Green Gold TV (1080p)
+https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8
+#EXTINF:-1,Pogo (576p)
+http://103.151.60.162:2122/play/a01e/index.m3u8?hls
+#EXTINF:-1,2x2 +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,2x2 +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,2x2 +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Суббота +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Суббота +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1,Суббота +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="yu",Ю +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="yu",Ю +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-id="yu",Ю +7
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
+#EXTINF:-1 tvg-shift="0",Первый Ростовский | Ростов-на-Дону
+https://rost.mediacdn.ru/cdn/rostov1/index.m3u8
+#EXTINF:-1 tvg-shift="0",Осетия Ирыстон (3) | Владикавказ
+https://osir.mediacdn.ru/cdn/osetia/index.m3u8
+#EXTINF:-1 tvg-shift="0",ЯПервый (2) | Ярославская область
+https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
