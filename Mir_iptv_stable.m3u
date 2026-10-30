@@ -5695,8 +5695,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Популярные (региональные)" tvg-id="yu-pl7" tvg-logo="https://ngrch.github.io/iptv/logos/you.png", Ю +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 group-title="Информационные", РБК (2)
-http://t1.tv.kvant-telecom.ru:8080/rbk/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Информационные", РБК (3)
+https://s91030.cdn.ngenix.net/hls/CH_R25_RBKTVHD_VLDK/variant.m3u8
 #EXTINF:-1 group-title="Информационные", ОСН
 https://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", ЛДПР ТВ
@@ -5705,6 +5705,8 @@ http://46.46.143.222:1935/live/ldpr.stream_480p/playlist.m3u8
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", CNN
 https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
+#EXTINF:-1 group-title="Информационные", CNN (2)
+https://stream8.cinerama.uz/1259/index.m3u8
 #EXTINF:-1 group-title="Информационные", RT News
 http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", RTД (2)
@@ -5717,12 +5719,16 @@ https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m
 https://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", Вместе РФ (2)
 https://cdn-01.bonus-tv.ru/vmesterf/index.m3u8
+#EXTINF:-1 group-title="Информационные", Вместе РФ (3)
+https://bl.rutube.ru/livestream/f6a6d5c955180d0d0f80c66d0b6150d3/index.m3u8?s=r8YslAvtusCqqUr9A7abNA&e=2093347118
 #EXTINF:-1 group-title="Информационные", CGTN Русский
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 #EXTINF:-1 group-title="Информационные", CGTN Русский (2)
 https://stream8.cinerama.uz/1456/index.m3u8
 #EXTINF:-1 group-title="Информационные", DW
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
+#EXTINF:-1 group-title="Информационные", Россия РТР
+https://streaming.thestream.cyou/live/211.m3u8
 #EXTINF:-1 group-title="Информационные", Euronews
 https://stream8.cinerama.uz/1024/index.m3u8
 #EXTINF:-1 group-title="Информационные", Euronews (2)
@@ -5733,6 +5739,8 @@ http://stitch.teletarget.ru/vintera/aquatv/index.m3u8
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Информационные", Союзный (2)
 http://radio.tvs.by/TRO/index.m3u8
+#EXTINF:-1 group-title="Информационные", Союзный (3)
+https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=vbnHdt_1ME7w0ugoljQnjg&e=2093347105&
 #EXTINF:-1 group-title="Детские", Маша и Медведь
 https://lbgo.bozztv.com/07/ushba79/index.m3u8
 #EXTINF:-1 group-title="Детские", Мультфильмы
@@ -5783,20 +5791,12 @@ https://stream8.cinerama.uz/1445/index.m3u8
 https://stream8.cinerama.uz/1406/index.m3u8
 #EXTINF:-1 group-title="Детские", Плюс минус 16
 https://media.16pm.ru/live/index.m3u8
-#EXTINF:-1 group-title="Спортивные", Окко Спорт
-http://stream.mcquack.net/492/index.m3u8
-#EXTINF:-1 group-title="Спортивные", Окко Футбол
-http://stream.mcquack.net/491/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Волейбол
 https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=5eCXZGvblic9uGykEPvBYw&e=2082370462&scheme=https
 #EXTINF:-1 group-title="Спортивные", Eurosport 1
 http://178.134.1.158:8081/eurosport/index.m3u8
-#EXTINF:-1 group-title="Спортивные", Eurosport 1 (2)
-http://stream.mcquack.net/176/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Eurosport 2
 https://stream8.cinerama.uz/1452/index.m3u8
-#EXTINF:-1 group-title="Спортивные", Eurosport 2 (2)
-http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Setanta Sports 1
 https://stream8.cinerama.uz/1263/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Setanta Sports 1 (2)
@@ -5823,8 +5823,6 @@ https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1 group-title="Спортивные", КХЛ KHL
 https://stream8.cinerama.uz/1422/index.m3u8
-#EXTINF:-1 group-title="Спортивные", КХЛ KHL Prime
-https://fs.uplink.kz/khl_prime/index.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Спортивные", Мото Драйв
 https://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #EXTINF:-1 group-title="Спортивные", Trace Sport Stars
@@ -6332,7 +6330,7 @@ http://ott-7.sevstar.net/belarus24/index.m3u8
 #EXTINF:-1 group-title="Региональные", Витебск | Беларусь
 https://ngtrk.dc.beltelecom.by/vtv/vitebsk.stream/index.m3u8
 #EXTINF:-1 group-title="Региональные", Первый информационный | Беларусь
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy/index.m3u8
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/index.m3u8
 #EXTINF:-1 group-title="Региональные", СТВ | Беларусь
 https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/index.m3u8
 #EXTINF:-1 group-title="Региональные", СТВ (2) | Беларусь
