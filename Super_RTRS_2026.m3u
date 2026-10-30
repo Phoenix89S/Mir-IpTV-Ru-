@@ -26807,6 +26807,10 @@ https://d6lk10bkdgfae.cloudfront.net/playlist.m3u8
 https://s1.gtrkrb.ru/540/b24-540.m3u8
 #EXTINF:-1 tvg-shift="0",Лен ТВ 24 (2) | Ленинградская область
 https://stream.smotrim.ru/hls/lentv24/playlist_5.m3u8
+#EXTINF:-1,Home 4K
+http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon (Bulgaria)
+http://213.91.179.28:8000/play/a056
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
