@@ -132,7 +132,7 @@ https://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1,Planeta RTR
 https://streaming.goodstream.cyou/live/211.m3u8
 #EXTINF:-1,Россия РТР
-https://streaming.televizor-24-tochka.ru/live/211.m3u8
+https://streaming.thestream.cyou/live/211.m3u8
 #EXTINF:-1,РОССИЯ РТР
 https://streaming.thestream.cyou/live/211-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="russia24",Россия 24 International
@@ -1395,8 +1395,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8|User-Agent=Mo
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1 [OLD],Планета РТР (Planeta RTR)
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
-#EXTINF:-1 [OLD],Россия РТР (2)
-https://fs.uplink.kz/rtr_planeta/index.m3u8?token=onlinetv
+#EXTINF:-1,Россия РТР (2)
+https://streaming.televizor-24-tochka.ru/live/211.m3u8
 #EXTINF:-1 tvg-shift="6" [OLD],Якутия 24 (Саха)
 https://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="ntv" [OLD],2.3.6 ЛенТВ24 HD
@@ -20071,7 +20071,7 @@ https://kinowalk.hopto.org/ordinary_people_live
 https://kinowalk.hopto.org/kinofon_live
 #EXTINF:-1 [OLD],KinoMix
 https://kinowalk.hopto.org/yurich_kinomix_live
-#EXTINF:-1,МультСказки
+#EXTINF:-1 [OLD],МультСказки
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 [OLD],Ведьмак
 http://5.188.158.65:4040/IPTVPLAYVEDMAK.tv/video.m3u8?token=lqRGka5-YwwqF0
@@ -23276,7 +23276,7 @@ https://jmp2.uk/plu-63da36dea995710008727d4d.m3u8
 #EXTINF:-1,Transformers TV (720p)
 https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8
 #EXTINF:-1,Gagsnetwork (576p)
-http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
+http://stream.mcquack.net/458/index.m3u8
 #EXTINF:-1 [OLD],Fox Sports 1
 https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Kids",Disney Channel
@@ -23884,7 +23884,7 @@ http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1,Dorama HD (1080p)
 http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1,РБК (2)
-http://92.50.128.180/utv/1358/index.m3u8
+http://176.118.197.101/RBK/index.m3u8
 #EXTINF:-1,Красная линия (2)
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Kids",KinoKazka (1080p)
@@ -24357,7 +24357,7 @@ http://88.212.15.19/live/test_nick_jr/playlist.m3u8
 http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nicktoons
 http://88.212.15.19/live/nicktoons_hungary/index.m3u8
-#EXTINF:-1,Окко Спорт
+#EXTINF:-1 [OLD],Окко Спорт
 http://185.221.213.254:8080/Okko/index.m3u8
 #EXTINF:-1 tvg-shift="0",ТКР | Рязань
 https://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_TKP/variant.m3u8
@@ -24718,7 +24718,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24/index.m3u8
 #EXTINF:-1,Витебск | Беларусь
 https://ngtrk.dc.beltelecom.by/vtv/vitebsk.stream/index.m3u8
 #EXTINF:-1,Первый информационный | Беларусь
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy/index.m3u8
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/index.m3u8
 #EXTINF:-1,СТВ | Беларусь
 https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/index.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-shift="6" [OLD],АСТВ | Южно-Сахалинск
@@ -24804,7 +24804,7 @@ https://stream8.cinerama.uz/1243/index.m3u8
 #EXTINF:-1,КХЛ KHL
 https://stream8.cinerama.uz/1422/index.m3u8
 #EXTINF:-1,КХЛ KHL Prime
-https://fs.uplink.kz/khl_prime/index.m3u8?token=onlinetv
+http://stream.mcquack.net/178/index.m3u8
 #EXTINF:-1,Киносемья (2)
 http://stream.mcquack.net/170/index.m3u8
 #EXTINF:-1,Загородный (2)
@@ -25433,17 +25433,17 @@ http://stream.mcquack.net/111/index.m3u8
 http://stream.mcquack.net/144/index.m3u8
 #EXTINF:-1 [OLD],Матч! Страна (2)
 http://stream.mcquack.net/143/index.m3u8
-#EXTINF:-1,Окко Футбол
+#EXTINF:-1 [OLD],Окко Футбол
 http://stream.mcquack.net/491/index.m3u8
-#EXTINF:-1,Окко Прайм Спорт
+#EXTINF:-1 [OLD],Окко Прайм Спорт
 http://stream.mcquack.net/493/index.m3u8
 #EXTINF:-1,Удар Udar
 http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1,Удар Udar (2)
 http://stream.mcquack.net/279/index.m3u8
-#EXTINF:-1,Eurosport 1 (2)
+#EXTINF:-1 [OLD],Eurosport 1 (2)
 http://stream.mcquack.net/176/index.m3u8
-#EXTINF:-1,Eurosport 2 (2)
+#EXTINF:-1 [OLD],Eurosport 2 (2)
 http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1,Setanta Sports 1 (2)
 http://stream.mcquack.net/234/index.m3u8
@@ -25453,7 +25453,7 @@ http://stream.mcquack.net/235/index.m3u8
 http://stream.mcquack.net/461/index.m3u8
 #EXTINF:-1,Viju+ Sport (2)
 http://stream.mcquack.net/333/index.m3u8
-#EXTINF:-1,КХЛ KHL Prime (2)
+#EXTINF:-1 [OLD],КХЛ KHL Prime (2)
 http://stream.mcquack.net/178/index.m3u8
 #EXTINF:-1,Сарафан (2)
 http://stream.mcquack.net/81/index.m3u8
@@ -25594,7 +25594,7 @@ https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
 #EXTINF:-1 tvg-id="yu",Ю (4)
 https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
 #EXTINF:-1,РБК (3)
-https://online-video.rbc.ru/spb/rbctv_spb.m3u8
+https://s91030.cdn.ngenix.net/hls/CH_R25_RBKTVHD_VLDK/variant.m3u8
 #EXTINF:-1,Смайл (2)
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/Smilik.stream/index.m3u8
 #EXTINF:-1 [OLD],Tiji (3)
@@ -25839,8 +25839,8 @@ https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1,Disney XD (Poland) (576p)
 http://185.227.34.179:8080/disney-xd/index.m3u8
-#EXTINF:-1 [OLD],Disney XD (United States) (720p)
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
+#EXTINF:-1,Disney XD (United States) (720p)
+http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1,EBS Kids (400p) [Not 24/7]
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1,ETV 2 (720p)
@@ -26781,7 +26781,7 @@ https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJ
 https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8
 #EXTINF:-1,Disney Channel (Germany) HD
 http://109.85.181.77:9981/stream/channelid/652495718?profile=pass
-#EXTINF:-1,Disney XD (United States) (1080p)
+#EXTINF:-1 [OLD],Disney XD (United States) (1080p)
 http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1,NTV Svoya igra (1080p)
 https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -26811,6 +26811,16 @@ https://stream.smotrim.ru/hls/lentv24/playlist_5.m3u8
 http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon (Bulgaria)
 http://213.91.179.28:8000/play/a056
+#EXTINF:-1,NTV Sledstviye veli (1080p) [Geo-blocked]
+https://mhd116.iptv2022.com/x/t4hRFz1R89Q6kjp3CL3WVQ,1792610109/streaming/sledstvie_veli_hd/324/1/index.m3u8
+#EXTINF:-1,Cartoon Network (Turkiye)
+http://176.65.153.40:6002/play/a013/index.m3u8
+#EXTINF:-1,CNN (2)
+https://stream8.cinerama.uz/1259/index.m3u8
+#EXTINF:-1,Вместе РФ (3)
+https://bl.rutube.ru/livestream/f6a6d5c955180d0d0f80c66d0b6150d3/index.m3u8?s=r8YslAvtusCqqUr9A7abNA&e=2093347118
+#EXTINF:-1 tvg-id="yu",Союзный (3)
+https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=vbnHdt_1ME7w0ugoljQnjg&e=2093347105&
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
