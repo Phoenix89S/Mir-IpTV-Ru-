@@ -21079,7 +21079,7 @@ http://31.148.48.15/Vremya/index.m3u8
 https://stream8.cinerama.uz/1227/index.m3u8
 #EXTINF:-1 [OLD],Cinema (3)
 https://flussonic.linkintel.ru/cinema/index.m3u8
-#EXTINF:-1 [OLD],Мужское кино (2)
+#EXTINF:-1,Мужское кино (2)
 http://stream.mcquack.net/107/index.m3u8
 #EXTINF:-1,Nickelodeon (2)
 http://stream.mcquack.net/443/index.m3u8
@@ -22645,7 +22645,7 @@ http://194.152.35.17/kino-tv/index.m3u8
 http://37.186.70.39:40/play/54/index.m3u8
 #EXTINF:-1 [OLD],Amedia Premium (3)
 http://37.186.70.39:40/play/60/index.m3u8
-#EXTINF:-1,Viasat Kino Comedy
+#EXTINF:-1 [OLD],Viasat Kino Comedy
 http://ukr2.ukrainske.tv/493/video.m3u8
 #EXTINF:-1 [OLD],Viasat Kino Comedy (2)
 http://ukr2.ukrainske.tv/493/video.m3u8
@@ -23867,9 +23867,9 @@ https://stream1.cinerama.uz/1440/tracks-v1a1/mono.m3u8
 https://stitch.teletarget.ru/vintera/terra/index.m3u8
 #EXTINF:-1,ZooПарк Зоопарк
 https://stream8.cinerama.uz/1417/index.m3u8
-#EXTINF:-1,ZooПарк Зоопарк (2)
+#EXTINF:-1 [OLD],ZooПарк Зоопарк (2)
 http://s8.rafail1982.uz/1417/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Animal Planet (2)
+#EXTINF:-1 [OLD],Animal Planet (2)
 http://89.33.29.115:8080/Animal_Planet_HD/index.m3u8
 #EXTINF:-1,The explorers
 http://stream.mcquack.net/450/index.m3u8
@@ -24497,7 +24497,7 @@ https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca14134
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
 #EXTINF:-1,Svoboda
 http://88.212.15.50/live/svoboda/index.m3u8
-#EXTINF:-1,Groovia Kids (576p)
+#EXTINF:-1 [OLD],Groovia Kids (576p)
 https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8
 #EXTINF:-1 [OLD],Nicktoons (1080p) [Geo-blocked]
 https://messi.damitv.st/papi/ts/nicktoons-usa/playlist.m3u8
@@ -24521,7 +24521,7 @@ http://31.148.48.15/Kto_est_kto/index.m3u8
 https://stream8.cinerama.uz/1242/index.m3u8
 #EXTINF:-1,Кухня (3)
 http://stream.mcquack.net/179/index.m3u8
-#EXTINF:-1,Живи! (2)
+#EXTINF:-1 [OLD],Живи! (2)
 http://89.33.29.115:8080/Zhivi/index.m3u8
 #EXTINF:-1 [OLD],Amga
 https://streamer1.connectto.com/AMGA_WEB_1202/index.m3u8
@@ -25157,13 +25157,13 @@ http://str2.iptvhd.ru:8080/disney/index.m3u8
 http://66.102.126.10:8000/play/a013/index.m3u8
 #EXTINF:-1 [OLD],ETV Bal Bharat (576p)
 http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
-#EXTINF:-1,Hungama TV (576p)
+#EXTINF:-1 [OLD],Hungama TV (576p)
 http://103.185.24.134:3001/HUNGAMA/index.m3u8
 #EXTINF:-1,Sonic (576p)
 http://103.185.24.134:3001/SONIC/index.m3u8
 #EXTINF:-1 [OLD],Sony Yay! (576p)
 http://103.165.93.31:8095/sonyYay/index.m3u8
-#EXTINF:-1,Super Hungama (576p)
+#EXTINF:-1 [OLD],Super Hungama (576p)
 http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8
 #EXTINF:-1,Первый Республиканский | ДНР
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
@@ -25491,7 +25491,7 @@ http://stream.mcquack.net/362/index.m3u8
 https://flussonic.mkpnet.ru/tv-a5fa84789fc4add5/video.m3u8
 #EXTINF:-1,Авто 24 (3)
 http://stream.mcquack.net/78/index.m3u8
-#EXTINF:-1,Техно 24 Т24 (2)
+#EXTINF:-1 [OLD],Техно 24 Т24 (2)
 https://stream8.cinerama.uz/1037/index.m3u8
 #EXTINF:-1,National Geographic (2)
 http://stream.mcquack.net/116/index.m3u8
@@ -25669,7 +25669,7 @@ http://185.121.1.163:8083/Kinosemya/index.m3u8
 http://stream.mcquack.net/274/index.m3u8
 #EXTINF:-1 [OLD],Мужской (3)
 http://89.33.29.115:8080/Muzhskoy/index.m3u8
-#EXTINF:-1,Глазами туриста (3)
+#EXTINF:-1 [OLD],Глазами туриста (3)
 http://89.33.29.115:8080/Glazami_turista_HD/index.m3u8
 #EXTINF:-1,QazSport (2) | Казахстан
 https://fs.uplink.kz/qazsport_hd/index.m3u8?token=onlinetv
@@ -25789,7 +25789,7 @@ http://89.33.29.115:8080/TLC_HD/index.m3u8
 http://185.23.80.23:8080/ART/index.m3u8
 #EXTINF:-1,KinoLiving
 http://stream.mcquack.net/445/index.m3u8
-#EXTINF:-1,Food Time
+#EXTINF:-1 [OLD],Food Time
 http://89.33.29.115:8080/Eda/index.m3u8
 #EXTINF:-1,3ABN Kids
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
@@ -26643,7 +26643,7 @@ https://kinowalk.hopto.org/filmscope_live
 https://kinowalk.hopto.org/durkalive_live
 #EXTINF:-1,Kira_freak
 https://kinowalk.hopto.org/kirafreak_live
-#EXTINF:-1,Dimpon
+#EXTINF:-1 [OLD],Dimpon
 http://kinowalk.hopto.org/dimpon_live
 #EXTINF:-1,HGTN
 https://v2.catcast.tv/content/34251/index.m3u8
@@ -26821,6 +26821,30 @@ https://stream8.cinerama.uz/1259/index.m3u8
 https://bl.rutube.ru/livestream/f6a6d5c955180d0d0f80c66d0b6150d3/index.m3u8?s=r8YslAvtusCqqUr9A7abNA&e=2093347118
 #EXTINF:-1 tvg-id="yu",Союзный (3)
 https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=vbnHdt_1ME7w0ugoljQnjg&e=2093347105&
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Cinema Egypt (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Cinema KSA (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Classic (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Clip (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Comedy (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Drama (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Khalijia (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Rotana Music (1080p) [Geo-blocked]
+https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1,Nick/Comedy Central +1
+http://90.183.52.46:4000/play/a046/index.m3u8
+#EXTINF:-1,Nickelodeon (Netherlands)
+http://185.77.12.179:9981/stream/channelid/788918401?profile=pass
+#EXTINF:-1,ON BiBi (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=178
+#EXTINF:-1,Техно 24 Т24
+https://stream8.cinerama.uz/1037/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
