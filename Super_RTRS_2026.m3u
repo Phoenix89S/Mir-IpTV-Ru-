@@ -16669,7 +16669,7 @@ https://streamcdnm5-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uh
 https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8
 #EXTINF:-1,BetterLife Nature
 http://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
-#EXTINF:-1,СТРАХ HD
+#EXTINF:-1 [OLD],СТРАХ HD
 http://s2.myowntv.org/hls/what.m3u8
 #EXTINF:-1 [OLD],3ABN Kids Network
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
@@ -26845,6 +26845,12 @@ http://185.77.12.179:9981/stream/channelid/788918401?profile=pass
 https://freem3u.xyz/api/live/play.m3u8?vid=178
 #EXTINF:-1,Техно 24 Т24
 https://stream8.cinerama.uz/1037/index.m3u8
+#EXTINF:-1,Cartoon Network CEE
+http://193.33.39.108:9007/play/a00l
+#EXTINF:-1,Cartoonito CEE
+http://193.33.39.108:9019/play/a00t
+#EXTINF:-1 tvg-id="yu",Шокирующее
+http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/913/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
