@@ -22185,7 +22185,7 @@ http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Movies;Series",FilmUADrama (1080p)
 http://88.99.215.227/FilmUADrama/index.m3u8
-#EXTINF:-1,Nash Kinomir (576p)
+#EXTINF:-1 [OLD],Nash Kinomir (576p)
 http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 [OLD],Akudji
 http://195.9.195.2/hls/5346.m3u8
@@ -22198,7 +22198,7 @@ http://stream.mcquack.net/266/index.m3u8
 #EXTINF:-1,NST (576p)
 http://stream.mcquack.net/207/index.m3u8
 #EXTINF:-1,STS kids (576p)
-http://hls127.freeott.top:8080/STS_Kids/video.m3u8
+http://stream.mcquack.net/197/index.m3u8
 #EXTINF:-1,Spas (576p)
 https://tvspas.mediacdn.ru/cdn/spas/playlist.m3u8
 #EXTINF:-1,TV-3 (576p)
@@ -22278,7 +22278,7 @@ http://45.153.24.78/1TV/index.m3u8
 #EXTINF:-1,Zvezda (1080p)
 http://51.158.144.33:2021/zvezda/index.m3u8
 #EXTINF:-1,TV Centr (576p)
-http://hls127.freeott.top:8080/Tv_Center/video.m3u8
+http://flussonic.linkintel.ru/tvc/index.m3u8
 #EXTINF:-1 [OLD],Bolt (576p)
 http://hls127.freeott.top:8080/Bolt/video.m3u8
 #EXTINF:-1,Mosfilm Gold Collection (576p)
@@ -22411,7 +22411,7 @@ https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Nickelodeon (1080p)
 http://193.239.186.231/NICK/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Culture;News",Ost West (576p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Culture;News",Ost West (576p)
 http://hls127.freeott.top:8080/OstWest/video.m3u8
 #EXTINF:-1 [OLD],RTVi FTA
 http://91.146.94.234:10001/play/a090
@@ -22657,13 +22657,13 @@ http://31.148.5.241/kanal_2/index.m3u8
 http://stream.mcquack.net/264/index.m3u8
 #EXTINF:-1,Channel 8 (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
-#EXTINF:-1,Top Secret (576p)
+#EXTINF:-1 [OLD],Top Secret (576p)
 http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
 #EXTINF:-1,Nostalgia (576p)
 http://176.118.197.101/Nostalgiya/index.m3u8
 #EXTINF:-1,Zhara (576p)
-http://hls127.freeott.top:8080/Zhara/video.m3u8
-#EXTINF:-1,Ocean-TV (576p)
+http://stream.mcquack.net/386/index.m3u8
+#EXTINF:-1 [OLD],Ocean-TV (576p)
 http://hls127.freeott.top:8080/Ocean_TV/video.m3u8
 #EXTINF:-1 [OLD],Maidan (576p)
 http://hls127.freeott.top:8080/Maydan/video.m3u8
@@ -23207,7 +23207,7 @@ http://158.101.222.193:88/georgia_play.php?id=boxtv
 http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (720p)
 http://190.14.10.19:16000/play/a06z/index.m3u8
-#EXTINF:-1,Shot TV (576p)
+#EXTINF:-1 [OLD],Shot TV (576p)
 http://hls127.freeott.top:8080/SHOT_TV/video.m3u8
 #EXTINF:-1 [OLD],Lyubimoe.TV (720p)
 https://istoki.tv/live/stream1/playlist.m3u8
@@ -23219,7 +23219,7 @@ http://5.188.159.128:8070/kinosvidanie/index.m3u8
 http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
 #EXTINF:-1,Mir 24 (576p)
 http://5.188.159.128:8070/mir_24/index.m3u8
-#EXTINF:-1,RBK-TV SD (576p)
+#EXTINF:-1 [OLD],RBK-TV SD (576p)
 http://hls127.freeott.top:8080/RBK/video.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - M3U.SU / Россия 🇷🇺",Мурино 74
 http://91.202.44.216:8080/cam109/index.m3u8
@@ -26500,7 +26500,7 @@ http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1,Nickelodeon (United Kingdom) (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
 #EXTINF:-1,Tooncast (1080p)
-http://38.134.250.110:8000/play/a01t/index.m3u8
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
 #EXTINF:-1,TNT (Russia) (576p)
 http://stream.mcquack.net/135/index.m3u8
 #EXTINF:-1,Cartoon Network Latin America South Pacific (576p)
@@ -26542,9 +26542,9 @@ http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1,Discovery Channel (Russia) (1080p)
 http://stream.mcquack.net/177/index.m3u8
 #EXTINF:-1,Eurosport 1 Russia (1080p)
-http://stream.mcquack.net/176/index.m3u8
+https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1,Eurosport 2 Russia (1080p)
-http://stream.mcquack.net/192/index.m3u8
+https://s7.iptv-24.net/1452/playlist.m3u8
 #EXTINF:-1,Food Network (Russia) (1080p)
 http://stream.mcquack.net/298/index.m3u8
 #EXTINF:-1,Investigation Discovery (Russia) (1080p)
@@ -26851,6 +26851,8 @@ http://193.33.39.108:9007/play/a00l
 http://193.33.39.108:9019/play/a00t
 #EXTINF:-1 tvg-id="yu",Шокирующее
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/913/index.m3u8
+#EXTINF:-1,Disney Channel (United States) (720p)
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
