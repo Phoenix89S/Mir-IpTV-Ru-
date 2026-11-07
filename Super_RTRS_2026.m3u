@@ -16851,9 +16851,9 @@ http://103.137.83.62:9090/play/28/index.m3u8
 https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 #EXTINF:-1 [OLD],Nickelodeon en español
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
-#EXTINF:-1,Nickelodeon Global (576p)
+#EXTINF:-1 [OLD],Nickelodeon Global (576p)
 http://103.151.60.162:2122/play/a017/index.m3u8?hls
-#EXTINF:-1,Nickelodeon Junior (1080p)
+#EXTINF:-1 [OLD],Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
 #EXTINF:-1,Nickelodeon Pluto TV (720p)
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
@@ -21297,7 +21297,7 @@ https://streaming101.goodstream.cyou/live/44-req_offset_28000000-req_window_0-1k
 http://162.19.246.113/RTL/index.m3u8
 #EXTINF:-1,STAR HD
 http://162.19.246.113/STAR/index.m3u8
-#EXTINF:-1,Duronto TV (720p)
+#EXTINF:-1 [OLD],Duronto TV (720p)
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 #EXTINF:-1 [OLD],PLUSPLUS (720p) [Not 24/7]
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6379/index.m3u8
@@ -22309,7 +22309,7 @@ https://stream8.cinerama.uz/1476/tracks-v1a1/mono.m3u8
 http://162.19.246.113/CartoonNetwork/index.m3u8
 #EXTINF:-1,BBC Four/CBeebies (720p)
 http://193.46.58.239:8080/CbeebiesHD/index.m3u8
-#EXTINF:-1,BBC Three/CBBC (720p)
+#EXTINF:-1 [OLD],BBC Three/CBBC (720p)
 http://41.205.77.102/BBC-THREE/index.m3u8
 #EXTINF:-1,Disney Channel Latin America Panregional HD (1080p)
 http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8
@@ -22450,7 +22450,7 @@ http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kids-tv-hd.m3u8
 #EXTINF:-1,Nick Jr. Latin America (1080p)
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 #EXTINF:-1,Nickelodeon Latin America (1080p)
-http://15.204.246.24:8080/NickHD/index.m3u8
+http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 [OLD],Apsua TV
 https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
 #EXTINF:-1 [OLD],Kvartal TV
@@ -24229,7 +24229,7 @@ http://stream.mcquack.net/93/index.m3u8
 http://stream.mcquack.net/184/index.m3u8
 #EXTINF:-1,Dorama
 https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Moya Planeta (1080p)
+#EXTINF:-1 [OLD],Moya Planeta (1080p)
 http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Russia-1 +4 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
@@ -25169,8 +25169,8 @@ http://str2.iptvhd.ru:8080/disney/index.m3u8
 http://66.102.126.10:8000/play/a013/index.m3u8
 #EXTINF:-1 [OLD],ETV Bal Bharat (576p)
 http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
-#EXTINF:-1 [OLD],Hungama TV (576p)
-http://103.185.24.134:3001/HUNGAMA/index.m3u8
+#EXTINF:-1,Hungama TV (576p)
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
 #EXTINF:-1,Sonic (576p)
 http://103.185.24.134:3001/SONIC/index.m3u8
 #EXTINF:-1 [OLD],Sony Yay! (576p)
@@ -25923,7 +25923,7 @@ https://jmp2.uk/plu-5ddd7cb2cbb9010009b4fe32.m3u8
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1 [OLD],Nickelodeon (Brazil) (480p)
 https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
-#EXTINF:-1,Nickelodeon (Croatia) (1080p)
+#EXTINF:-1 [OLD],Nickelodeon (Croatia) (1080p)
 http://176.61.157.250/Nickelodeon/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Czech Republic)
 http://88.212.15.50/live/test_nickelodeon_hevc_25p/playlist.m3u8
@@ -25937,7 +25937,7 @@ http://103.185.24.134:3001/NICK/index.m3u8
 https://onyx1.mofta1.cfd/nike/usergenm24qrnd.m3u8
 #EXTINF:-1,Nickelodeon (Russia) (576p)
 http://stream.mcquack.net/443/index.m3u8
-#EXTINF:-1,Nickelodeon (United States) (720p)
+#EXTINF:-1 [OLD],Nickelodeon (United States) (720p)
 http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1,Nickelodeon Clasico (720p)
 https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
@@ -26509,7 +26509,7 @@ http://158.172.217.18:8000/play/a03a/index.m3u8
 http://38.65.175.84:8000/play/a0an/index.m3u8
 #EXTINF:-1,Disney Junior (United States) (480p)
 http://tvsen5.aynascope.net/disney/index.m3u8
-#EXTINF:-1,Nickelodeon (United Kingdom) (576p)
+#EXTINF:-1 [OLD],Nickelodeon (United Kingdom) (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
 #EXTINF:-1,Tooncast (1080p)
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
@@ -26525,7 +26525,7 @@ http://181.224.200.5:2277/play/a00o/index.m3u8
 http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8
 #EXTINF:-1,Discovery Kids Latin America Colombia (1080p)
 http://38.134.250.110:8000/play/a003/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (France) (504p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (France) (504p)
 http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
 #EXTINF:-1,TeenNick (United States) (432p)
 http://tvsen7.aynascope.net/teennick/index.m3u8
@@ -26701,7 +26701,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8|User-Agent=Mozill
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
 #EXTINF:-1,Nick Jr. (Poland) (576i)
 http://92.114.85.87:8013/play/a004/index.m3u8
-#EXTINF:-1,Nickelodeon (Poland) (576i)
+#EXTINF:-1 [OLD],Nickelodeon (Poland) (576i)
 http://92.114.85.87:8013/play/a005/index.m3u8
 #EXTINF:-1,Nicktoons (Poland) (576i)
 http://92.114.85.87:8013/play/a008/index.m3u8
@@ -26709,7 +26709,7 @@ http://92.114.85.87:8013/play/a008/index.m3u8
 http://92.114.85.87:8010/play/a009/index.m3u8
 #EXTINF:-1,Teletoon+ HD (1080i)
 http://92.114.85.87:8009/play/a006/index.m3u8
-#EXTINF:-1,TVP ABC (576i)
+#EXTINF:-1 [OLD],TVP ABC (576i)
 http://92.114.85.87:8002/play/a00b/index.m3u8
 #EXTINF:-1,Shanson TV SD (576p)
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
@@ -26897,6 +26897,38 @@ http://31.148.5.241/kanal_4/index.m3u8
 https://streaming.televizor-24-tochka.ru/live/211.m3u8
 #EXTINF:-1,Vmeste-RF (1080p)
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
+#EXTINF:-1,The Explorers (1080p)
+https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
+#EXTINF:-1,Muzhskoy HD (1080p)
+https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
+#EXTINF:-1,Nasha Tema (1080p)
+https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8
+#EXTINF:-1,Volleyball (1080p)
+https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
+#EXTINF:-1,Benin TV Junior (720p)
+https://srtblive.streamakaci.tv/ortb/ortb2-multi/playlist_dvr.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Animation;Kids",Cartoon Network (Italy)
+http://185.227.34.104/stream/122/index.m3u8
+#EXTINF:-1,Cartoon Network CEE Bulgary
+http://213.91.179.28:8000/play/a08g
+#EXTINF:-1,Cartoon Network HD+ (1080p)
+http://103.135.253.32:8080/CN-NETWORK/index.m3u8
+#EXTINF:-1,Cartoonito CEE Bulgary
+http://213.91.179.28:8000/play/a0c7
+#EXTINF:-1,DeA Kids
+http://185.227.34.104/stream/113/index.m3u8
+#EXTINF:-1,Doraemon (720p)
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1,Duronto TV (1080p)
+https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
+#EXTINF:-1,MeTV Toons
+https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Italy)
+http://185.227.34.104/stream/117/index.m3u8
+#EXTINF:-1,Shin-chan (720p)
+https://live20.bozztv.com/giatvplayout7/giatv-210780/index.m3u8
+#EXTINF:-1,Super Toons (1080p)
+https://d3bxvshzgfq6in.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8a0c583l9gryw/feed/samsung/streams/SUPERTOONS_EN/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
