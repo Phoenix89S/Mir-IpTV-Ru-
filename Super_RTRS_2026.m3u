@@ -22331,7 +22331,7 @@ http://185.246.209.113/LOVENATUREHD/index.m3u8
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Undefined",TVRUS
 http://213.91.179.28:8000/play/a082
-#EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Series",TVRUS+
+#EXTINF:-1 [OLD],like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Series",TVRUS+
 http://83.228.75.166:8000/play/a0aq
 #EXTINF:-1 [OLD],TV1 KG
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
@@ -25885,7 +25885,7 @@ https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 http://88.212.7.14/live/minimax_hun/index.m3u8
 #EXTINF:-1,Minimax (Pakistan) (360p)
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
-#EXTINF:-1,Minimax (Romania)
+#EXTINF:-1 [OLD],Minimax (Romania)
 https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
 #EXTINF:-1,Minimax CEE (576p)
 http://88.212.15.50/live/test_minimax/playlist.m3u8
@@ -26467,7 +26467,7 @@ https://gtk.tv/hls/gtyar.m3u8
 https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
 #EXTINF:-1 [OLD],CBeebies (Poland)
 https://xyktmobile00.s.gy/ticketview/49092
-#EXTINF:-1,Disney Junior (India) (576p)
+#EXTINF:-1 [OLD],Disney Junior (India) (576p)
 http://103.151.60.162:2122/play/a016/index.m3u8?hls
 #EXTINF:-1 [OLD],Disney Junior (Poland) (576p)
 http://57.128.231.171:8080/277/index.m3u8
@@ -26485,7 +26485,7 @@ http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
 http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="Aggregator - Rafail1982 / 29.РАЗВЛЕКАТЕЛЬНЫЕ 🤡",КФУ ТВ
 https://cdn.universmotri.ru/live/kfu.sdp/playlist.m3u8
-#EXTINF:-1,Disney International HD (576p)
+#EXTINF:-1 [OLD],Disney International HD (576p)
 http://103.151.60.162:2122/play/a018/index.m3u8?hls
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (Brazil) (480p)
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
@@ -26759,7 +26759,7 @@ http://92.114.85.87:8007/play/a009
 http://87.120.179.187:8000/play/a010
 #EXTINF:-1,Green Gold TV (1080p)
 https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8
-#EXTINF:-1,Pogo (576p)
+#EXTINF:-1 [OLD],Pogo (576p)
 http://103.151.60.162:2122/play/a01e/index.m3u8?hls
 #EXTINF:-1,2x2 +2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -26929,6 +26929,22 @@ http://185.227.34.104/stream/117/index.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-210780/index.m3u8
 #EXTINF:-1,Super Toons (1080p)
 https://d3bxvshzgfq6in.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8a0c583l9gryw/feed/samsung/streams/SUPERTOONS_EN/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
+#EXTINF:-1,123TV (480p)
+http://200.59.191.177:8000/play/a0lb/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Animation;Kids",Cartoon Network CEE Germany
+http://94.130.48.67:8042/stream/109/index.m3u8
+#EXTINF:-1,FMH Kids (720p)
+http://38.87.224.19:2220/play/a03u/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. (Germany)
+http://94.130.48.67:8042/stream/111/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nick Jr. Asia
+http://103.253.74.210:7070/stream/116/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon Asia
+http://103.253.74.210:7070/stream/117/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (Germany)
+http://94.130.48.67:8042/stream/112/index.m3u8
+#EXTINF:-1,Pogo (720p)
+https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
