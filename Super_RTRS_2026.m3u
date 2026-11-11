@@ -23626,7 +23626,7 @@ https://dash3.antik.sk/live/duck_tv/index.m3u8
 #EXTINF:-1,ducktv PLUS
 https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
 #EXTINF:-1,DumDum (720p)
-http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
+http://186.219.52.187/zoomoo/index.m3u8
 #EXTINF:-1,Fox Life
 http://31hmi9qv.megogo.xyz/iptv/ZWG634UNE7NE8C/553/index.m3u8
 #EXTINF:-1,Skoraya pomoshch (1080p)
@@ -26425,9 +26425,9 @@ https://sra72yz.s.gy/NICKTOONS_HD.m3u8
 https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><rect width="28" height="28" rx="3" fill="%230b1018"/><text x="14" y="19" font-size="10" text-anchor="middle" fill="%232a3848" font-family="monospace">TV</text></svg>" group-title="GitHub - iptv-org",Tele Liban (720p) [Not 24/7]
 https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8
-#EXTINF:-1,New Channel (480p)
+#EXTINF:-1 [OLD],New Channel (480p)
 https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
-#EXTINF:-1,New Channel Pop! (480p)
+#EXTINF:-1 [OLD],New Channel Pop! (480p)
 https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 [OLD],S Play Event (1080p)
 https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8
@@ -26502,10 +26502,10 @@ https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8
 #EXTINF:-1 [OLD],Nick Jr. (United States) East HD (720p)
 http://107.167.16.138/nickjr/index.m3u8?token=test
 #EXTINF:-1,Cartoon Network Latin America North Atlantic (1080p)
-http://38.252.238.18:8000/play/a053/index.m3u8
+http://45.173.12.70:8000/play/a0fj
 #EXTINF:-1,Cartoon Network Latin America South Atlantic (1080p)
 http://158.172.217.18:8000/play/a03a/index.m3u8
-#EXTINF:-1,Discovery Kids Latin America Mexico (1080p)
+#EXTINF:-1 [OLD],Discovery Kids Latin America Mexico (1080p)
 http://38.65.175.84:8000/play/a0an/index.m3u8
 #EXTINF:-1,Disney Junior (United States) (480p)
 http://tvsen5.aynascope.net/disney/index.m3u8
@@ -26517,7 +26517,7 @@ http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
 http://31.148.5.241/kanal_19/index.m3u8
 #EXTINF:-1,Cartoon Network Latin America South Pacific (576p)
 http://45.167.1.138:8000/play/a00w
-#EXTINF:-1 [OLD],Cartoon Network Latin America Brazil (720p) [Geo-blocked]
+#EXTINF:-1,Cartoon Network Latin America Brazil (720p) [Geo-blocked]
 http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8
 #EXTINF:-1,Discovery Kids Latin America (1080p)
 http://181.224.200.5:2277/play/a00o/index.m3u8
@@ -26663,7 +26663,7 @@ https://v2.catcast.tv/content/34251/index.m3u8
 http://57.128.231.171:8080/316/index.m3u8
 #EXTINF:-1 [OLD],BabyTV (1080p)
 http://57.128.231.171:8080/310/index.m3u8
-#EXTINF:-1,Cartoon Network (India) (720p)
+#EXTINF:-1 [OLD],Cartoon Network (India) (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 [OLD],Cartoon Network HD+ (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
@@ -26671,7 +26671,7 @@ https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
 http://92.114.85.87:8007/play/a008
 #EXTINF:-1,Cartoonito Latin America (1080p)
 http://45.173.12.70:8000/play/a0hh
-#EXTINF:-1,Discovery Kids (720p)
+#EXTINF:-1 [OLD],Discovery Kids (720p)
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 [OLD],Disney Channel (Poland) (1080p)
 http://57.128.231.171:8080/278/index.m3u8
@@ -26715,7 +26715,7 @@ http://92.114.85.87:8002/play/a00b/index.m3u8
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 #EXTINF:-1,O! International (720p)
 http://88.212.15.50/live/test_telekanal_o/playlist.m3u8
-#EXTINF:-1,Cartoon Network Latin America Brazil (720p)
+#EXTINF:-1 [OLD],Cartoon Network Latin America Brazil (720p)
 http://45.162.64.114/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1,Lucas & Friends
 https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8
@@ -26943,7 +26943,7 @@ http://103.253.74.210:7070/stream/116/index.m3u8
 http://103.253.74.210:7070/stream/117/index.m3u8
 #EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nicktoons (Germany)
 http://94.130.48.67:8042/stream/112/index.m3u8
-#EXTINF:-1,Pogo (720p)
+#EXTINF:-1 [OLD],Pogo (720p)
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1,Cartoon Network Asia Thailand
 http://103.253.74.210:7070/stream/118/index.m3u8
@@ -26951,6 +26951,16 @@ http://103.253.74.210:7070/stream/118/index.m3u8
 http://93.186.201.93/stream/397/index.m3u8
 #EXTINF:-1,NickToons 90s [Geo-blocked]
 https://i.mjh.nz/.r/10-nicktoons-90s.m3u8
+#EXTINF:-1,Boing (Spain)
+http://digisat.ddns.net:4022/udp/239.0.5.177:8208
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Boing Plus
+http://95.141.36.9:8080/stream/181/index.m3u8
+#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Rai Yoyo
+http://95.141.36.9:8080/stream/156/index.m3u8
+#EXTINF:-1,Tom Sings TV (1080p)
+https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8
+#EXTINF:-1,TVRUS+ (576p)
+http://91.235.255.32:8001/1:0:1:6AC:3138:13E:820000:0:0:0
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
