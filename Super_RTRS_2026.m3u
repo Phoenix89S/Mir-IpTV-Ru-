@@ -25169,7 +25169,7 @@ http://str2.iptvhd.ru:8080/disney/index.m3u8
 http://66.102.126.10:8000/play/a013/index.m3u8
 #EXTINF:-1 [OLD],ETV Bal Bharat (576p)
 http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
-#EXTINF:-1,Hungama TV (576p)
+#EXTINF:-1 [OLD],Hungama TV (576p)
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 #EXTINF:-1,Sonic (576p)
 http://103.185.24.134:3001/SONIC/index.m3u8
@@ -25733,8 +25733,8 @@ http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8
 http://str2.iptvhd.ru:8080/START_Air_HD/index.m3u8
 #EXTINF:-1 [OLD],START World HD (1080p)
 http://str2.iptvhd.ru:8080/START_World_HD/index.m3u8
-#EXTINF:-1 [OLD],TERRA (1080p)
-http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8
+#EXTINF:-1,TERRA (1080p)
+http://s1.merlive.am/TerraHD/index.m3u8
 #EXTINF:-1 [OLD],viju Nature HD (1080p)
 http://str2.iptvhd.ru:8080/Viasat_Nature_HD/index.m3u8
 #EXTINF:-1 [OLD],Tochka.rf (576p)
@@ -26285,7 +26285,7 @@ https://sitv.ru/vgtrk/stv.m3u8
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
 #EXTINF:-1,Tavriya
 https://streaming.televizor-24-tochka.ru/live/24.m3u8
-#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Telecafe (Russia) (720p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Telecafe (Russia) (720p)
 https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
 #EXTINF:-1,Telekanal Krasnodar (1080p)
 https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
@@ -26469,8 +26469,8 @@ https://stitch.teletarget.ru/vintera/movieclassic/index.m3u8
 https://xyktmobile00.s.gy/ticketview/49092
 #EXTINF:-1 [OLD],Disney Junior (India) (576p)
 http://103.151.60.162:2122/play/a016/index.m3u8?hls
-#EXTINF:-1 [OLD],Disney Junior (Poland) (576p)
-http://57.128.231.171:8080/277/index.m3u8
+#EXTINF:-1,Disney Junior (Poland) (576p)
+http://111.88.7.92:8000/play/a00o/index.m3u8
 #EXTINF:-1 [OLD],Nick HD+ (1080p)
 http://51.75.127.199:3141/nickhd/index.m3u8
 #EXTINF:-1 tvg-id="yu",Плюс минус 16
@@ -26805,7 +26805,7 @@ https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8
 https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8
 #EXTINF:-1,Cartoon Classics (Russia)
 http://88.218.242.237:8001/Cartoon_Classics
-#EXTINF:-1,Cartoon Network (United States) (720p) [Geo-blocked]
+#EXTINF:-1 [OLD],Cartoon Network (United States) (720p) [Geo-blocked]
 http://212.5.144.156:8080/cartoon/index.m3u8
 #EXTINF:-1,Tooncast Argentina (720p)
 http://45.134.141.161:2200/ARG/Tooncast/index.m3u8
@@ -26961,6 +26961,16 @@ http://95.141.36.9:8080/stream/156/index.m3u8
 https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8
 #EXTINF:-1,TVRUS+ (576p)
 http://91.235.255.32:8001/1:0:1:6AC:3138:13E:820000:0:0:0
+#EXTINF:-1,FON TV (1080p)
+https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
+#EXTINF:-1,Star Cinema (576p)
+http://s1.merlive.am/starsinema/index.m3u8
+#EXTINF:-1,Kinouzhas (1080p)
+http://s1.merlive.am/Kinoujas/index.m3u8
+#EXTINF:-1,Cartoon Network (United States) [Not 24/7;Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1,Cartoon Network (United States) West (1080p) [Geo-blocked]
+http://212.5.144.156:8080/cartoon/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
