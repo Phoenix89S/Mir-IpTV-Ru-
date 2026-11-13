@@ -3557,6 +3557,146 @@ http://rusradio.hostingradio.ru/rusradio96.aacp
 http://hitfm.hostingradio.ru/hitfm128.mp3
 #EXTINF:-1 tvg-id="yumor-fm" tvg-logo="https://iptvx.one/picons/yumor-fm.png" group-title="Радио",Юмор FM
 https://pub0301.101.ru:8443/stream/air/mp3/256/102
+#EXTINF:-1,🛠Ревизия №-1 🚦11.11.2026|12-10|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Mega
+https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Рыбалка
+http://iptv.prosto.tv:7000/ch344/video.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Motorvision TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Моя планета HD
+http://185.46.16.239:8000/Planeta_HD
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Доктор
+http://185.46.16.239:8000/Doktor
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Живая планета
+http://185.46.16.239:8000/Zhivaya_Planeta
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Наука 2.0
+http://185.46.16.239:8000/Nauka_2.0
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Animal Planet
+https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Discovery
+https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Первый Космический
+https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Наука
+https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Моя Планета
+https://stream8.cinerama.uz/1247/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Живая Природа HD
+https://stream8.cinerama.uz/1411/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Вопросы и Ответы
+https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",В Мире Животных
+https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Viasat History
+https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Viasat Explore
+https://stream8.cinerama.uz/1045/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",NAT GEO WILD
+https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",National Geographic
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Точка
+https://stream8.cinerama.uz/1222/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Живи Активно HD
+https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Живи
+https://stream8.cinerama.uz/1419/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Авто 24
+https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ЗАГОРОДНЫЙ
+https://stream8.cinerama.uz/1410/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Наука
+http://178.134.1.158:8081/nauka/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",RTG TV
+http://178.124.153.123:44400/rtg
+#EXTINF:-1 group-title="Tест-17-08",Avto24
+http://185.121.1.163:8083/Avto24/index.m3u8
+#EXTINF:-1 group-title="Tест-17-08",Ohota Rybalka
+http://185.121.1.163:8083/OhotaRybalka/index.m3u8
+#EXTINF:-1 group-title="Tест-17-08",Navo
+http://185.121.1.163:8083/Navo/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Фауна
+http://stream.mcquack.net/401/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Терра
+http://stream.mcquack.net/402/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Наука
+http://stream.mcquack.net/403/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Перший Автомобільний
+http://stream.mcquack.net/404/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Фронт
+http://stream.mcquack.net/489/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Мега
+http://stream.mcquack.net/325/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Масон
+http://stream.mcquack.net/346/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Трофей
+http://stream.mcquack.net/357/index.m3u8
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",6 СОТОК
+http://stream.mcquack.net/405/index.m3u8
+#EXTINF:-1 group-title="Ott Club",Свiт на виворiт
+http://stream.mcquack.net/49/tracks-v1a1/mono.ts.m3u
+#EXTINF:-1 group-title="Ott Club",Зоосвіт
+http://stream.mcquack.net/460/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",One Planet HD
+http://stream.mcquack.net/448/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Мега
+http://stream.mcquack.net/325/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Трофей
+http://stream.mcquack.net/357/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Масон ТВ
+http://stream.mcquack.net/346/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Наука
+http://stream.mcquack.net/403/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Фауна
+http://stream.mcquack.net/401/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Приключения HD
+http://stream.mcquack.net/198/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",National Geographic HD
+http://stream.mcquack.net/116/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Nat Geo Wild HD
+http://stream.mcquack.net/149/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Discovery Channel HD
+http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Investigation Discovery HD
+http://stream.mcquack.net/205/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Travel Channels HD
+http://stream.mcquack.net/231/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Travel XP HD
+http://stream.mcquack.net/451/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",The Explorers
+http://stream.mcquack.net/450/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",Insight TV HD
+http://stream.mcquack.net/361/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Uplink (VPN)",Точка отрыва
+https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Жара
+https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Живи
+https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Моя планета
+https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat Explore
+https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat History
+https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat Nature
+https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",National Geographic
+https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Nat Geo Wild
+https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Big planet
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Поехали!
+https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Авто 24
+https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Зоопарк
+https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv2
+#EXTINF:-1,🛠Внимание! Адрес плейлиста изменился. Зайдите на сайт tva.org.ua для замены.
+https://raw.githubusercontent.com/slava-67/TV/refs/heads/IPTV/avto-full.m3u
 #EXTINF:-1 tvg-id="3ABNKids.us@SD" tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Animation;Kids;Religious",3ABN Kids (720p)
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4FunKids.pl@SD" tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="Kids",4 Fun Kids (576i)
@@ -6281,8 +6421,6 @@ https://stream8.cinerama.uz/1043/index.m3u8
 https://stream8.cinerama.uz/1404/index.m3u8
 #EXTINF:-1 group-title="Природа и животные", Домашние Животные
 https://stream8.cinerama.uz/1426/index.m3u8
-#EXTINF:-1 group-title="Природа и животные", Трофей
-http://stream.mcquack.net/357/index.m3u8
 #EXTINF:-1 group-title="Охота и рыбалка", 555 Hunt Fishing TV
 http://193.169.178.29:8081/podsekaiTV/chanelHD/playlist.m3u8
 #EXTINF:-1 group-title="Охота и рыбалка", Дикая охота
@@ -6293,8 +6431,6 @@ https://stream8.cinerama.uz/1413/index.m3u8
 https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
 #EXTINF:-1 group-title="Охота и рыбалка", Охота и рыбалка
 https://stream8.cinerama.uz/1038/index.m3u8
-#EXTINF:-1 group-title="Охота и рыбалка", Охота и рыбалка (4)
-http://185.121.1.163:8083/OhotaRybalka/index.m3u8
 #EXTINF:-1 group-title="Охота и рыбалка", Дикий
 https://stream8.cinerama.uz/1230/index.m3u8
 #EXTINF:-1 group-title="Здоровье и фитнес", Здоровое
