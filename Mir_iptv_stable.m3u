@@ -3557,7 +3557,7 @@ http://rusradio.hostingradio.ru/rusradio96.aacp
 http://hitfm.hostingradio.ru/hitfm128.mp3
 #EXTINF:-1 tvg-id="yumor-fm" tvg-logo="https://iptvx.one/picons/yumor-fm.png" group-title="Радио",Юмор FM
 https://pub0301.101.ru:8443/stream/air/mp3/256/102
-#EXTINF:-1,🛠Ревизия №-1 🚦11.11.2026|12-10|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦14.11.2026|12-10|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 #EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Mega
 https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8
@@ -3651,6 +3651,8 @@ http://stream.mcquack.net/346/tracks-v1a1/mono.ts.m3u8
 http://stream.mcquack.net/403/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Ott Club",Фауна
 http://stream.mcquack.net/401/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Ott Club",РИБАЛКА
+http://stream.mcquack.net/286/index.m3u8
 #EXTINF:-1 group-title="Ott Club",Приключения HD
 http://stream.mcquack.net/198/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Ott Club",National Geographic HD
