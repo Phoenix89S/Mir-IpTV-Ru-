@@ -2997,7 +2997,7 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_SPBR/variant.m3u8
 #EXTINF:-1 tvg-id="rentv" [OLD],Рен ТВ int.
 https://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
-#EXTINF:-1,REN TV International (576p)
+#EXTINF:-1 [OLD],REN TV International (576p)
 http://178.134.1.158:8081/RENTV/index.m3u8
 
 # ===== Кнопка 12 =====
@@ -16768,7 +16768,7 @@ https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 [OLD],EBS kids (400p) [Not 24/7]
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1,El Chavo TV (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8
 #EXTINF:-1 [OLD],ETV2 (720p)
 https://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 [OLD],Extrema Kids TV [Not 24/7]
@@ -16975,7 +16975,7 @@ https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 [OLD],CGTN Русский (1080p)
 https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
-#EXTINF:-1 [OLD],like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",Channel 5 International (576i)
+#EXTINF:-1,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General",Channel 5 International (576i)
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1,Dasturxon TV (576p)
 https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
@@ -22155,7 +22155,7 @@ http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
 http://stream.mcquack.net/363/index.m3u8
 #EXTINF:-1 [OLD],Kinoseriya (1080p)
 http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
-#EXTINF:-1,STS International (576p)
+#EXTINF:-1 [OLD],STS International (576p)
 http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 [OLD],NTV-Hit (1080p)
 https://cdn-dvr.ntv.ru/th_hit/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0; ru-RU) Gecko/20100101 Firefox/117.0&Referer=https://wink.ru/&X-Forwarded-For=95.24.0.1
@@ -23945,11 +23945,11 @@ http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2119/index.m3u8
 https://live.mediacdn.ru/sr1/arhis24/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-shift="0" [OLD],Культ Мудиа (Астрахань)
 http://213.108.175.226/telplushd/index.m3u8
-#EXTINF:-1,Channel 8 Krasnoyarsk HD (1080p)
+#EXTINF:-1 [OLD],Channel 8 Krasnoyarsk HD (1080p)
 https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 [OLD],Keedoo (576p)
 http://185.102.171.218/Nickelodeon/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0" group-title="General",Channel 8 Krasnoyarsk HD (1080p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0" group-title="General",Channel 8 Krasnoyarsk HD (1080p)
 https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-shift="0",TV Губерния | Воронеж
 https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_TVGUBERNIYA/variant.m3u8
@@ -25911,7 +25911,7 @@ http://str2.iptvhd.ru:8080/nickjr/index.m3u8
 http://102.129.186.182:81/nick/index.m3u8
 #EXTINF:-1,Nick Jr. (Russia) (576p)
 http://stream.mcquack.net/220/index.m3u8
-#EXTINF:-1,Nick Jr. (United States) (720p)
+#EXTINF:-1 [OLD],Nick Jr. (United States) (720p)
 http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1,Nick Jr. Club (Germany) (720p)
 https://jmp2.uk/plu-67f3eb1c443f0671bc03ece8.m3u8
@@ -25963,7 +25963,7 @@ http://88.212.15.50/live/test_nicktoons/playlist.m3u8
 http://88.212.7.14/live/nicktoons_hungary/index.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Kids",Nicktoons (Romania)
 https://atlantida1.aquax1.cfd/niktuun/usergendxt7r9CxGrnd.m3u8
-#EXTINF:-1,Nicktoons (United States) (720p)
+#EXTINF:-1 [OLD],Nicktoons (United States) (720p)
 http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1,Nicktoons (United States) CA
 https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8
@@ -26507,7 +26507,7 @@ http://45.173.12.70:8000/play/a0fj
 http://158.172.217.18:8000/play/a03a/index.m3u8
 #EXTINF:-1 [OLD],Discovery Kids Latin America Mexico (1080p)
 http://38.65.175.84:8000/play/a0an/index.m3u8
-#EXTINF:-1,Disney Junior (United States) (480p)
+#EXTINF:-1 [OLD],Disney Junior (United States) (480p)
 http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon (United Kingdom) (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
@@ -26880,7 +26880,7 @@ https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
 #EXTINF:-1,Extrema Kids TV (1080p) [Not 24/7]
 https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 #EXTINF:-1,France 4 (1080p)
-http://149.62.177.107:9999/France_4/index.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Kids",Gulli (1080p)
 http://99.27.51.147:8080/Gulli/index.m3u8
 #EXTINF:-1,Nickelodeon (Bulgaria)
@@ -26967,7 +26967,7 @@ https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
 http://s1.merlive.am/starsinema/index.m3u8
 #EXTINF:-1,Kinouzhas (1080p)
 http://s1.merlive.am/Kinoujas/index.m3u8
-#EXTINF:-1,Cartoon Network (United States) [Not 24/7;Geo-blocked]
+#EXTINF:-1 [OLD],Cartoon Network (United States) [Not 24/7;Geo-blocked]
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1,Cartoon Network (United States) West (1080p) [Geo-blocked]
 http://212.5.144.156:8080/cartoon/index.m3u8
@@ -26981,6 +26981,16 @@ http://41.180.140.146:4200/bysid/2106
 https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1,FilmUADrama
 https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
+#EXTINF:-1,Boomerang (France) HD (720p)
+http://41.205.93.154/BOOMERANG/index.m3u8
+#EXTINF:-1,Nickelodeon (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8
+#EXTINF:-1,Nickelodeon Arabia (1080i)
+http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
+#EXTINF:-1,Nickelodeon Junior (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8
+#EXTINF:-1,Nicktoons (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nicktoons/live.livx/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
