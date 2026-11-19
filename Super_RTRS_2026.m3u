@@ -6027,8 +6027,8 @@ http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1,Univer TV (1080p)
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
-#EXTINF:-1 [OLD],VIVA Russia (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
+#EXTINF:-1,VIVA Russia (1080p)
+https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1,Аист ТВ (1080p)
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
 #EXTINF:-1,Арис 24 (720p) [Not 24/7]
@@ -24811,7 +24811,7 @@ http://141.101.205.134:8080/hls/tvaist.m3u8
 https://streams.comclark.com/live_input/nudge_sports/playlist.m3u8
 #EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",Disney Junior
 http://88.212.15.19/live/test_disney_junior/playlist.m3u8
-#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",JimJam
+#EXTINF:-1 [OLD],like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 [OLD],Belarus-4 Gomel
 https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
@@ -27033,6 +27033,14 @@ https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
 #EXTINF:-1,Vitebsk (720p)
 https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8
+#EXTINF:-1,Arutz HaYeladim
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/kids_channel/live.livx/playlist.m3u8
+#EXTINF:-1,like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Kids",JimJam (Hungary)
+http://88.212.7.14/live/jim_jam_hun/index.m3u8
+#EXTINF:-1,JimJam (Romania) (576p)
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
+#EXTINF:-1,Junior
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/junior/live.livx/playlist.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
