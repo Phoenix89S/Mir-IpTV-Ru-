@@ -26509,7 +26509,7 @@ https://xyktmobile00.s.gy/ticketview/49092
 http://103.151.60.162:2122/play/a016/index.m3u8?hls
 #EXTINF:-1,Disney Junior (Poland) (576p)
 http://111.88.7.92:8000/play/a00o/index.m3u8
-#EXTINF:-1,Nick HD+ (1080p)
+#EXTINF:-1 [OLD],Nick HD+ (1080p)
 http://116.90.120.149:8000/play/a11j/index.m3u8
 #EXTINF:-1 tvg-id="yu",Плюс минус 16
 https://media.16pm.ru/live/index.m3u8
@@ -26957,7 +26957,7 @@ http://213.91.179.28:8000/play/a0c7
 http://185.227.34.104/stream/113/index.m3u8
 #EXTINF:-1,Doraemon (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1,Duronto TV (1080p)
+#EXTINF:-1 [OLD],Duronto TV (1080p)
 https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
 #EXTINF:-1,MeTV Toons
 https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8
@@ -26985,7 +26985,7 @@ http://94.130.48.67:8042/stream/112/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1,Cartoon Network Asia Thailand
 http://103.253.74.210:7070/stream/118/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (United Kingdom)
+#EXTINF:-1 [OLD],like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (United Kingdom)
 http://93.186.201.93/stream/397/index.m3u8
 #EXTINF:-1,NickToons 90s [Geo-blocked]
 https://i.mjh.nz/.r/10-nicktoons-90s.m3u8
@@ -27073,7 +27073,7 @@ http://88.212.7.14/live/jim_jam_hun/index.m3u8
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
 #EXTINF:-1 [OLD],Junior
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/junior/live.livx/playlist.m3u8
-#EXTINF:-1,.black HD (1080p)
+#EXTINF:-1 [OLD],.black HD (1080p)
 http://116.90.120.149:8000/play/a0ac/index.m3u8
 #EXTINF:-1,Channel One HD (720p) [Geo-blocked]
 http://94.250.255.172/ptv/vitrina/ch.php?id=aHR0cHM6Ly9tZWRpYS5tZWRpYXZpdHJpbmEucnUvYmFsYW5jZXIvdjMvMXR2LzF0dmNoL3N0cmVhbXMuanNvbg
@@ -27243,6 +27243,32 @@ https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8
 https://ulytau.tv/hls/master.m3u8
 #EXTINF:-1,Za! TV (576p)
 https://streaming.televizor-24-tochka.ru/live/25.m3u8
+#EXTINF:-1,BRIDGE Dance (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff09f290affe00013a80a9/720p.m3u8
+#EXTINF:-1,BRIDGE Jazz (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0a0390affe00013a80aa/720p.m3u8
+#EXTINF:-1,BRIDGE Rap (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed9990affe00013a80b1/720p.m3u8
+#EXTINF:-1,BRIDGE RNB (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affedb990affe00013a80b2/720p.m3u8
+#EXTINF:-1,BRIDGE Symphony (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d2a81d78600017e02c2/720p.m3u8
+#EXTINF:-1,BRIDGE Vostok (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1b6881d78600017e02c5/720p.m3u8
+#EXTINF:-1,Channel 4 (1080p)
+https://river-3-370.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/60Ro5OWl7WWOswbVMQlqFw/1795975765/c6f66b644424c117f41e48062719ceed/576p_stream.m3u8
+#EXTINF:-1,Mini Disco (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1c3190affe00013a80ac/720p.m3u8
+#EXTINF:-1,Verba (720p) [Geo-blocked]
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d0f81d78600017e02c1/720p.m3u8
+#EXTINF:-1,TVG Cativos
+https://crtvg-xabarinr2-schlive.flumotion.cloud/crtvglive/smil:channel7PRG.smil/playlist.m3u8
+#EXTINF:-1,TVG Mocinos
+https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/playlist.m3u8
+#EXTINF:-1,TVG Pequerrechos
+https://crtvg-xabarinr1-schlive.flumotion.cloud/crtvglive/smil:channel6PRG.smil/playlist.m3u8
+#EXTINF:-1,Channel 4 (Russia) (1080p)
+https://river-3-370.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/60Ro5OWl7WWOswbVMQlqFw/1795975765/c6f66b644424c117f41e48062719ceed/576p_stream.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
