@@ -4061,6 +4061,8 @@ http://176.118.197.101/Cinema/index.m3u8
 https://stream8.cinerama.uz/1227/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-id="muzhskoe-kino" tvg-logo="https://ngrch.github.io/iptv/logos/muzhskoe.png", Мужское кино
 https://stream8.cinerama.uz/1237/index.m3u8
+#EXTINF:-1 group-title="Кино" tvg-id="muzhskoe-kino" tvg-logo="https://ngrch.github.io/iptv/logos/muzhskoe.png", Мужское кино (3)
+http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
 #EXTINF:-1 group-title="Кино", .Red (2)
 http://176.100.46.245:90/red/index.m3u8
 #EXTINF:-1 group-title="Кино", Кино ТВ
@@ -4095,6 +4097,8 @@ https://stream8.cinerama.uz/1057/index.m3u8
 http://176.118.197.101/Kinopokaz/index.m3u8
 #EXTINF:-1 group-title="Кино", Любимое кино
 http://176.118.197.101/LubimoeKino/index.m3u8
+#EXTINF:-1 group-title="Кино", Любимое кино (2)
+https://s7.merlive.am/lubimoekino/index.m3u8
 #EXTINF:-1 group-title="Кино", Hollywood
 https://stream8.cinerama.uz/1443/index.m3u8
 #EXTINF:-1 group-title="Кино", Всё ТВ HD
@@ -4297,6 +4301,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
 #EXTINF:-1 group-title="Детские" tvg-id="solnce-pl7" tvg-logo="https://ngrch.github.io/iptv/logos/solnce.png", Солнце +7
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+#EXTINF:-1 group-title="Детские", Детский мир
+https://s7.merlive.am/DetskiMir/index.m3u8
 #EXTINF:-1 group-title="Детские", Маша и Медведь
 https://lbgo.bozztv.com/07/ushba79/index.m3u8
 #EXTINF:-1 group-title="Детские", Мультфильмы
@@ -4305,6 +4311,8 @@ https://lbgo.bozztv.com/07/ushba80/index.m3u8
 https://stream8.cinerama.uz/1437/index.m3u8
 #EXTINF:-1 group-title="Детские", Мама
 https://stream8.cinerama.uz/1244/index.m3u8
+#EXTINF:-1 group-title="Детские", Мама (3)
+https://s7.merlive.am/mama/index.m3u8
 #EXTINF:-1 group-title="Детские", Ducktv
 https://stream8.cinerama.uz/1271/index.m3u8
 #EXTINF:-1 group-title="Детские", Ducktv (2)
@@ -4771,6 +4779,8 @@ http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
 https://api.alpaca.t62a.com/hls/9110/index.m3u8
 #EXTINF:-1 group-title="Кулинария", Joy Cook
 https://stitch.teletarget.ru/peerstv/joycook/index.m3u8
+#EXTINF:-1 group-title="Кулинария", Food Network
+https://s7.merlive.am/FoodNetwork/index.m3u8
 #EXTINF:-1 group-title="Религиозные", Радость Моя
 https://radm.mediacdn.ru/cdn/radost/playlist.m3u8
 #EXTINF:-1 group-title="Религиозные", Бог Благ
