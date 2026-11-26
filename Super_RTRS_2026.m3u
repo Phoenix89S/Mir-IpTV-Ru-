@@ -16883,8 +16883,8 @@ https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg0
 https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1 [OLD],Nickelodeon (1080p)
 http://176.61.157.250/Nickelodeon/index.m3u8
-#EXTINF:-1 [OLD],Nickelodeon Asia Indonesia (720p)
-http://103.137.83.62:9090/play/28/index.m3u8
+#EXTINF:-1,Nickelodeon Asia Indonesia (720p)
+http://103.165.207.108:8000/play/a00v/index.m3u8
 #EXTINF:-1 [OLD],Nickelodeon Clássico (720p)
 https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 #EXTINF:-1 [OLD],Nickelodeon en español
@@ -26615,7 +26615,7 @@ https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1,Disney Channel (Germany) (576p)
 https://s6.hopslan.com/disneyX/index.m3u8
-#EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (Netherlands) (360p)
+#EXTINF:-1 [OLD],like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Kids",Disney Channel (Netherlands) (360p)
 https://lb.iptvnetwork.net/ls28/10014/playlist.m3u8
 #EXTINF:-1,like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="Entertainment;Kids",Veronica / Disney Jr. (360p)
 https://lb.iptvnetwork.net/ls28/10011/playlist.m3u8
@@ -26984,7 +26984,7 @@ http://94.130.48.67:8042/stream/112/index.m3u8
 #EXTINF:-1 [OLD],Pogo (720p)
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1,Cartoon Network Asia Thailand
-http://103.253.74.210:7070/stream/118/index.m3u8
+http://103.148.210.190:8000/play/a14r
 #EXTINF:-1 [OLD],like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="Kids",Nickelodeon (United Kingdom)
 http://93.186.201.93/stream/397/index.m3u8
 #EXTINF:-1,NickToons 90s [Geo-blocked]
@@ -27277,6 +27277,22 @@ https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&star
 http://91.235.165.117:8001/play/a05z/index.m3u8
 #EXTINF:-1,Nicktoons (Romania) (576p)
 http://91.235.165.117:8001/play/a061/index.m3u8
+#EXTINF:-1,Channel 4 (576p)
+http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
+#EXTINF:-1,Nick Jr Club [Geo-blocked]
+https://i.mjh.nz/.r/10-nick-jr.m3u8
+#EXTINF:-1,Nick Jr. (Romania) (576i)
+http://91.235.165.117:8001/play/a038/index.m3u8
+#EXTINF:-1,Nickelodeon Flanders
+http://93.92.17.139:9981/stream/channelid/788918401?profile=pass
+#EXTINF:-1,NickToons [Geo-blocked]
+https://i.mjh.nz/.r/10-nicktoons.m3u8
+#EXTINF:-1,Мужское кино (3)
+http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
+#EXTINF:-1 tvg-id="yu",Любимое кино (2)
+https://s7.merlive.am/lubimoekino/index.m3u8
+#EXTINF:-1,Мама (3)
+https://s7.merlive.am/mama/index.m3u8
 
 # ===== Удаление =====
 #EXTINF:-1 tvg-id="otr" [OLD],🔺 INFO 🔺Посмотри!!!
